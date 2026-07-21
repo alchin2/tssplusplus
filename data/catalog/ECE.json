@@ -1,0 +1,2481 @@
+[
+  {
+    "name": "Introduction to Electrical and Computer Engineering",
+    "code": "ECE 5",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Computation: Introduction to Programming in C",
+    "code": "ECE 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rapid Hardware and Software Design for Interfacing with the World",
+    "code": "ECE 16",
+    "raw_prereq": "CSE 8B or CSE 11 or ECE 15 or MAE 8.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Object-Oriented Programming: Design and Development with C++",
+    "code": "ECE 17",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Programming in Python and Object-Oriented Principles",
+    "code": "ECE 18",
+    "raw_prereq": "CSE 8B or CSE 11 or ECE 15.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Digital Design",
+    "code": "ECE 25",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Engineering",
+    "code": "ECE 30",
+    "raw_prereq": "ECE 15 and 25 with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE15"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE25"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Analog Design",
+    "code": "ECE 35",
+    "raw_prereq": "MATH 18, 20A–B, and PHYS 2A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Circuits and Systems",
+    "code": "ECE 45",
+    "raw_prereq": "ECE 35.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Components and Circuits Laboratory",
+    "code": "ECE 65",
+    "raw_prereq": "ECE 5 and ECE 35.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE5"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "iTunes 101: A Survey of Information Technology",
+    "code": "ECE 85",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "ECE 87",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "ECE 90",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Linear Electronic Systems",
+    "code": "ECE 100",
+    "raw_prereq": "MATH 20D, ECE 45, and ECE 65. ECE 65 may be taken concurrently. Open to EC26, EC27, EC28, EC37, and CS25 major codes only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE45"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE65"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC37"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS25"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Linear Systems Fundamentals",
+    "code": "ECE 101",
+    "raw_prereq": "ECE 45. Open to EC26, EC27, EC28, EC37, and CS25 major codes only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EC26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC37"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS25"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Active Circuit Design",
+    "code": "ECE 102",
+    "raw_prereq": "ECE 65 and ECE 100. ECE 100 can be taken concurrently.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE65"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Devices and Materials",
+    "code": "ECE 103",
+    "raw_prereq": "ECE 65 and PHYS 2D or PHYS 4D and 4E.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE65"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electromagnetism",
+    "code": "ECE 107",
+    "raw_prereq": "MATH 20D-E, PHYS 2A–C or 4A–C, and ECE 45. Open to EC26, EC27, EC28, and EC37 major codes only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EC26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC28"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EC37"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Circuits",
+    "code": "ECE 108",
+    "raw_prereq": "ECE 25 or CSE 140, 45, and ECE 30 or CSE 30. Open to EC26 and CS25 major codes only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE140"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE45"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC26"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS25"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Probability and Statistics",
+    "code": "ECE 109",
+    "raw_prereq": "MATH 20A-B, and MATH 20C or MATH 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Digital Design Project",
+    "code": "ECE 111",
+    "raw_prereq": "ECE 25 or CSE 140.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE25"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fast Prototyping",
+    "code": "ECE 115",
+    "raw_prereq": "ECE 65.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Hardware and Software Design",
+    "code": "ECE 116",
+    "raw_prereq": "CSE 8B or CSE 11 or ECE 15 or MAE 8 and ECE 5, ECE 18.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE8"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE5"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Interfacing",
+    "code": "ECE 118",
+    "raw_prereq": "ECE 30 or CSE 30 and ECE 35, 45, 65.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power Systems Analysis and Fundamentals",
+    "code": "ECE 121A",
+    "raw_prereq": "ECE 35.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Energy Conversion",
+    "code": "ECE 121B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Antenna Systems Engineering",
+    "code": "ECE 123",
+    "raw_prereq": "ECE 107 with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Motor Drives",
+    "code": "ECE 124",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Power Electronics I",
+    "code": "ECE 125A",
+    "raw_prereq": "ECE 121A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Power Electronics II",
+    "code": "ECE 125B",
+    "raw_prereq": "ECE 125A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real World Power Grid Operation",
+    "code": "ECE 128A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Renewable Energy and Power Grid Modernization",
+    "code": "ECE 128B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power Grid Resiliency to Adverse Effects",
+    "code": "ECE 128C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Renewable and Energy Storage Resources",
+    "code": "ECE 129",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Materials Science of Integrated Circuits",
+    "code": "ECE 134",
+    "raw_prereq": "PHYS 2C–D with grades of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Semiconductor Physics",
+    "code": "ECE 135A",
+    "raw_prereq": "ECE 103 with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Devices",
+    "code": "ECE 135B",
+    "raw_prereq": "ECE 135A with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microelectronics Laboratory",
+    "code": "ECE 136L",
+    "raw_prereq": "ECE 135B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microstructuring Processing Technology Laboratory",
+    "code": "ECE 138L",
+    "raw_prereq": "upper-division standing for science and engineering students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Semiconductor Device Design and Modeling",
+    "code": "ECE 139",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Art of Product Engineering I",
+    "code": "ECE 140A",
+    "raw_prereq": "CSE 8B or CSE 11 or ECE 15.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Art of Product Engineering II",
+    "code": "ECE 140B",
+    "raw_prereq": "ECE 140A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software Foundations I",
+    "code": "ECE 141A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software Foundations II",
+    "code": "ECE 141B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Programming for Data Analysis",
+    "code": "ECE 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "LabVIEW Programming: Design and Applications",
+    "code": "ECE 144",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Acoustics Laboratory",
+    "code": "ECE 145AL-BL-CL",
+    "raw_prereq": "ECE 107 with a grade of C– or better or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE107"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Autonomous Vehicles",
+    "code": "ECE 148",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Entrepreneurship for Engineers",
+    "code": "ECE 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability and Random Processes for Engineers",
+    "code": "ECE 153",
+    "raw_prereq": "ECE 109 with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Communications Theory",
+    "code": "ECE 155",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensor Networks",
+    "code": "ECE 156",
+    "raw_prereq": "upper-division standing and consent of instructor, or graduate student in science and engineering.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communications Systems Laboratory I",
+    "code": "ECE 157A",
+    "raw_prereq": "ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 183 or MATH 186 and ECE 161A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communications Systems Laboratory II",
+    "code": "ECE 157B",
+    "raw_prereq": "ECE 157A or ECE 161A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE157A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Networks I",
+    "code": "ECE 158A",
+    "raw_prereq": "ECE 109 with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Networks II",
+    "code": "ECE 158B",
+    "raw_prereq": "ECE 158A with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Data Processing and Information Theory",
+    "code": "ECE 159",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Digital Signal Processing",
+    "code": "ECE 161A",
+    "raw_prereq": "ECE 101.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Signal Processing",
+    "code": "ECE 161B",
+    "raw_prereq": "ECE 161A with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applications of Digital Signal Processing",
+    "code": "ECE 161C",
+    "raw_prereq": "ECE 161A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Circuits and Systems",
+    "code": "ECE 163",
+    "raw_prereq": "ECE 101 and 102 with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE101"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE102"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analog Integrated Circuit Design",
+    "code": "ECE 164",
+    "raw_prereq": "ECE 102 with a grade of C– or better. ECE 163 recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE163"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Integrated Circuit Design",
+    "code": "ECE 165",
+    "raw_prereq": "ECE 102. Open to EC27, EC28, and EC37 major codes only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EC27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC28"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EC37"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microwave Systems and Circuits",
+    "code": "ECE 166",
+    "raw_prereq": "ECE 102 and 107 with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE102"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE107"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Linear Control System Theory",
+    "code": "ECE 171A",
+    "raw_prereq": "ECE 45. Open to EC26, EC27, EC28, and EC37 major codes only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EC26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EC28"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EC37"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Linear Control System Theory",
+    "code": "ECE 171B",
+    "raw_prereq": "ECE 171A with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Intelligent Systems: Robotics and Machine Intelligence",
+    "code": "ECE 172A",
+    "raw_prereq": "ECE 101 with a grade of C– or better. ECE 109 recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE109"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Linear and Nonlinear Optimization with Applications",
+    "code": "ECE 174",
+    "raw_prereq": "MATH 18 or MATH 31AH and ECE 15.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elements of Machine Intelligence: Pattern Recognition and Machine Learning",
+    "code": "ECE 175A",
+    "raw_prereq": "ECE 109 and ECE 174.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE109"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elements of Machine Intelligence: Probabilistic Reasoning and Graphical Models",
+    "code": "ECE 175B",
+    "raw_prereq": "ECE 175A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Deep Learning and Applications",
+    "code": "ECE 176",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Electrical and Computer Engineering",
+    "code": "ECE 180",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Optics and Fourier Optics",
+    "code": "ECE 181",
+    "raw_prereq": "ECE 103 and 107 with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE103"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE107"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electromagnetic Optics, Guided-Wave, and Fiber Optics",
+    "code": "ECE 182",
+    "raw_prereq": "ECE 107 with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE107"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optical Electronics",
+    "code": "ECE 183",
+    "raw_prereq": "ECE 103 and 107 with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE103"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE107"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optical Information Processing and Holography",
+    "code": "ECE 184",
+    "raw_prereq": "ECE 182 with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lasers and Modulators",
+    "code": "ECE 185",
+    "raw_prereq": "ECE 183 with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Biomedical Imaging and Sensing",
+    "code": "ECE 187",
+    "raw_prereq": "MATH 20A-B-F, 20C or 21C, 20D or 21D, PHYS 2A–D, ECE 101 (may be taken concurrently) with grades of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH21C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH21D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE101"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Electrical and Computer Engineering with Laboratory",
+    "code": "ECE 188",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technical Public Speaking",
+    "code": "ECE 189",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Design",
+    "code": "ECE 190",
+    "raw_prereq": "students enrolling in this course must have completed all of the breadth courses and one depth course. The department stamp is required to enroll in ECE 190. (Specifications and enrollment forms are available in the undergraduate office.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Group Design Project",
+    "code": "ECE 191",
+    "raw_prereq": "completion of all of the breadth courses and one depth course.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Project",
+    "code": "ECE 193H",
+    "raw_prereq": "admission to the ECE departmental honors program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Viacar Design Project",
+    "code": "ECE 194",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching",
+    "code": "ECE 195",
+    "raw_prereq": "consent of the department chair.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Hands-on Group Project",
+    "code": "ECE 196",
+    "raw_prereq": "BENG 1 or CENG 4 or CSE 11 or CSE 8B or ECE 5 or MAE 3 or NANO 4 or SE 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "ECE Internship",
+    "code": "ECE 197",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "ECE 198",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "ECE 199",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Conference",
+    "code": "ECE 200",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Biophysics",
+    "code": "ECE 201",
+    "raw_prereq": "senior or graduate level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Implantable Medical Devices and Interfaces",
+    "code": "ECE 202",
+    "raw_prereq": "senior or graduate level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomedical Integrated Circuits and Systems",
+    "code": "ECE 203",
+    "raw_prereq": "graduate level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning in Bioinformatics",
+    "code": "ECE 204",
+    "raw_prereq": "ECE 271A or ECE 271B or MATH 283; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE271A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE271B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH283"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Medical Imaging",
+    "code": "ECE 207A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Evolutionary Biology",
+    "code": "ECE 208",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning for Biosignal Processing",
+    "code": "ECE 209",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Nanoscience and Nanotechnology",
+    "code": "ECE 212AN",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoelectronics",
+    "code": "ECE 212BN",
+    "raw_prereq": "ECE 212AN with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE212AN"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanophotonics",
+    "code": "ECE 212CN",
+    "raw_prereq": "ECE 212BN with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE212BN"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parallel Computing in Bioinformatics",
+    "code": "ECE 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deep Generative Models",
+    "code": "ECE 214",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Molecular Imaging",
+    "code": "ECE 217",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Magnetic Materials: Principles and Applications",
+    "code": "ECE 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Antennas and Their System Applications",
+    "code": "ECE 222A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Electromagnetic Theory—Electromagnetics",
+    "code": "ECE 222B",
+    "raw_prereq": "ECE 222A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE222A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Electromagnetic Theory—Computational Methods for Electromagnetics",
+    "code": "ECE 222C",
+    "raw_prereq": "ECE 222B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE222B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Antenna Design",
+    "code": "ECE 222D",
+    "raw_prereq": "ECE 222C with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE222C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability and Statistics for Data Science",
+    "code": "ECE 225A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Universal Probability and Its Applications in Data Science",
+    "code": "ECE 225B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optimization and Acceleration of Deep Learning on Various Hardware Platforms",
+    "code": "ECE 226",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Big Network Data",
+    "code": "ECE 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Physical Applications",
+    "code": "ECE 228",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Data Analysis and Product Development",
+    "code": "ECE 229",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid State Electronics I",
+    "code": "ECE 230A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid State Electronics II",
+    "code": "ECE 230B",
+    "raw_prereq": "ECE 230A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE230A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid State Electronics III",
+    "code": "ECE 230C",
+    "raw_prereq": "ECE 230A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE230A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanometer-Scale VLSI Devices",
+    "code": "ECE 235",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Heterostructure Materials and Devices",
+    "code": "ECE 236A",
+    "raw_prereq": "ECE 230A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE230A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optical Processes in Semiconductors",
+    "code": "ECE 236B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Heterojunction Field-Effect Transistors",
+    "code": "ECE 236C",
+    "raw_prereq": "ECE 236B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE236B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermodynamics of Solids",
+    "code": "ECE 238A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid State Diffusion and Reaction Kinetics",
+    "code": "ECE 238B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lasers and Optics",
+    "code": "ECE 240A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optical Information Processing",
+    "code": "ECE 240B",
+    "raw_prereq": "ECE 240A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE240A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optical Modulation and Detection",
+    "code": "ECE 240C",
+    "raw_prereq": "ECE 240B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE240B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonlinear Optics",
+    "code": "ECE 241A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrated Photonics",
+    "code": "ECE 241B",
+    "raw_prereq": "ECE 241A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE241A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Holographic Optical Elements",
+    "code": "ECE 241C",
+    "raw_prereq": "ECE 241B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE241B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optical Fiber Communication",
+    "code": "ECE 243B",
+    "raw_prereq": "ECE 243A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE243A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Optics",
+    "code": "ECE 244A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced BioPhotonics",
+    "code": "ECE 247A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "BioElectronics",
+    "code": "ECE 247B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "BioNanotechnology",
+    "code": "ECE 247C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Random Processes",
+    "code": "ECE 250",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Signal Processing I",
+    "code": "ECE 251A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Signal Processing II",
+    "code": "ECE 251B",
+    "raw_prereq": "graduate standing; ECE 251A (for ECE 251B); SIO 207B (for SIO 207C) with a grade of B– or above.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Filter Banks and Wavelets",
+    "code": "ECE 251C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Array Processing",
+    "code": "ECE 251D",
+    "raw_prereq": "graduate standing; ECE 251A or SIOC 207B with a grade of B– or above.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Speech Compression",
+    "code": "ECE 252A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Speech Recognition",
+    "code": "ECE 252B",
+    "raw_prereq": "ECE 252A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE252A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Digital Image Processing",
+    "code": "ECE 253",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Detection Theory",
+    "code": "ECE 254",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Information Theory",
+    "code": "ECE 255A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Source Coding",
+    "code": "ECE 255B",
+    "raw_prereq": "ECE 255A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE255A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Network Information Theory",
+    "code": "ECE 255C",
+    "raw_prereq": "ECE 250; ECE 255B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE250"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Image and Video Compression",
+    "code": "ECE 256",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Communication Networks",
+    "code": "ECE 257A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Wireless Networks",
+    "code": "ECE 257B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stochastic Wireless Networks Models",
+    "code": "ECE 257C",
+    "raw_prereq": "ECE 257B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE257B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Communications I",
+    "code": "ECE 258A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Communications II",
+    "code": "ECE 258B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebraic Coding",
+    "code": "ECE 259A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probabilistic Coding",
+    "code": "ECE 259B",
+    "raw_prereq": "ECE 259A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE259A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Coding",
+    "code": "ECE 259C",
+    "raw_prereq": "ECE 259A-B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE259A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE259B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "VLSI Digital System Algorithms and Architectures",
+    "code": "ECE 260A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "VLSI Integrated Circuits and Systems Design",
+    "code": "ECE 260B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "VLSI Advanced Topics",
+    "code": "ECE 260C",
+    "raw_prereq": "ECE 260B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE260B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power Management Integrated Circuits Design",
+    "code": "ECE 263",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMOS Analog Integrated Circuits and Systems I",
+    "code": "ECE 264A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMOS Analog Integrated Circuits and Systems II",
+    "code": "ECE 264B",
+    "raw_prereq": "ECE 250 and ECE 264A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE250"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE264A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMOS Analog Integrated Circuits and Systems III",
+    "code": "ECE 264C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMOS Analog Integrated Circuits and Systems IV",
+    "code": "ECE 264D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Circuit Design I",
+    "code": "ECE 265A",
+    "raw_prereq": "ECE 166 or consent of instructor; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE166"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Circuit Design II",
+    "code": "ECE 265B",
+    "raw_prereq": "ECE 166 and ECE 265A with a grade of B– or above or consent of instructor; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE166"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE265A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power Amplifiers for Wireless Communications",
+    "code": "ECE 265C",
+    "raw_prereq": "ECE 265A-B with a grade of B– or above; consent of instructor; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE265A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE265B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Circuits III",
+    "code": "ECE 265D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMOS Circuit Lab I",
+    "code": "ECE 266A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMOS Circuit Lab II",
+    "code": "ECE 266B",
+    "raw_prereq": "ECE 266A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE266A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Network/Graph Algorithms and Analysis",
+    "code": "ECE 267",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Security of Hardware Embedded Systems",
+    "code": "ECE 268",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Linear Algebra and Application",
+    "code": "ECE 269",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning I",
+    "code": "ECE 271A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning II",
+    "code": "ECE 271B",
+    "raw_prereq": "ECE 271A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE271A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deep Learning and Applications",
+    "code": "ECE 271C",
+    "raw_prereq": "ECE 271A-B with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE271A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE271B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dynamic Systems I: Linear Systems",
+    "code": "ECE 272A",
+    "raw_prereq": "ECE 269 with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE269"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dynamic Systems II: Stochastic Systems",
+    "code": "ECE 272B",
+    "raw_prereq": "ECE 272A with a grade of B– or above; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE272A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Convex Optimization and Applications",
+    "code": "ECE 273",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parameter Estimation I",
+    "code": "ECE 275A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parameter Estimation II",
+    "code": "ECE 275B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensing and Estimation in Robotics",
+    "code": "ECE 276A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planning and Learning in Robotics",
+    "code": "ECE 276B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Robot Manipulation and Control",
+    "code": "ECE 276C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "GPU Programming",
+    "code": "ECE 277",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Seminar",
+    "code": "ECE 279",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Electronic Devices and Materials/Applied Physics",
+    "code": "ECE 280",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Nanoscience/Nanotechnology",
+    "code": "ECE 281",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Photonics/Applied Optics",
+    "code": "ECE 282",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Electronic Circuits and Systems",
+    "code": "ECE 283",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Computer Engineering",
+    "code": "ECE 284",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Signal and Image Processing/Robotics and Control Systems",
+    "code": "ECE 285",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "State-of-the-Art Topics in Computational Statistics and Machine Learning",
+    "code": "ECE 286",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Communication Theory and Systems",
+    "code": "ECE 287",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Electrical and Computer Engineering",
+    "code": "ECE 289",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar on Current ECE Research",
+    "code": "ECE 290",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Industry Sponsored Engineering Design Project",
+    "code": "ECE 291",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Communication Theory and Systems",
+    "code": "ECE 293",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Electronic Devices and Materials/Applied Physics",
+    "code": "ECE 294",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Signal and Image Processing/Robotics and Control Systems",
+    "code": "ECE 295",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Photonics/Applied Optics",
+    "code": "ECE 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Nanoscience/Nanotechnology",
+    "code": "ECE 297",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "ECE 298",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research",
+    "code": "ECE 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching",
+    "code": "ECE 501",
+    "raw_prereq": "graduate standing or consent of department chair.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

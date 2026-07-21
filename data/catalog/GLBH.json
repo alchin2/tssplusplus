@@ -1,0 +1,481 @@
+[
+  {
+    "name": "Introduction to Global Health",
+    "code": "GLBH 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Global Health",
+    "code": "GLBH 100",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aging: Culture and Health in Late Life Human Development",
+    "code": "GLBH 101",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Epidemiology",
+    "code": "GLBH 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Disparities and the Quest for Global Health Equity",
+    "code": "GLBH 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Humanities, Ethics, and Professionalism: Engaging Moral Imaginaries for Exploring Health and the Human Condition",
+    "code": "GLBH 104",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and Inequality",
+    "code": "GLBH 105",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Water, Sanitation, and Hygiene in Global Health",
+    "code": "GLBH 106",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health of Refugees and Displaced Populations in Local and Global Contexts",
+    "code": "GLBH 107",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hispanic and Latinx Issues in Global Health",
+    "code": "GLBH 108",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Indigenous Futures Lab",
+    "code": "GLBH 108S",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decolonizing Global Health",
+    "code": "GLBH 109",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Demography and Social Networks in Global Health",
+    "code": "GLBH 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinic on the Border: Health Frontiers in Tijuana",
+    "code": "GLBH 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Medicine, Global Health, and Bioethics",
+    "code": "GLBH 112",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Women’s Health in Global Perspective",
+    "code": "GLBH 113",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin American Health and Healing",
+    "code": "GLBH 114",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication and Social Institutions: Global Health Communication",
+    "code": "GLBH 114W",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Justice and Health Equity: The Intellectual Legacy of Paul Farmer",
+    "code": "GLBH 115",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and Infectious Disease",
+    "code": "GLBH 116",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and Non-Communicable Diseases",
+    "code": "GLBH 117",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Placing People First: Introduction to the Global Health Humanities",
+    "code": "GLBH 118",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Intersection of Global Health and Non-Governmental Organizations",
+    "code": "GLBH 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "From Global Health to Planetary Health",
+    "code": "GLBH 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning to Care for Underserved Populations",
+    "code": "GLBH 121",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Meaning and Healing",
+    "code": "GLBH 129",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and Climate Change",
+    "code": "GLBH 130",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Native American Health and Healing",
+    "code": "GLBH 139",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Perspectives in Global Health",
+    "code": "GLBH 141",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "“When the field is a ward”: Ethnographies of the Clinic",
+    "code": "GLBH 142",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mental Health as Global Health Priority",
+    "code": "GLBH 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "A Global Health Perspective on HIV",
+    "code": "GLBH 146",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and the Environment",
+    "code": "GLBH 147",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and Cultural Diversity",
+    "code": "GLBH 148",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture and Mental Health",
+    "code": "GLBH 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Horizons Honors Thesis Seminar I",
+    "code": "GLBH 150A",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Horizons Honors Thesis Seminar II",
+    "code": "GLBH 150B",
+    "raw_prereq": "GLBH 150A; department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "GLBH150A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Policy",
+    "code": "GLBH 160",
+    "raw_prereq": "<em><strong> </strong></em>upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Mental Health",
+    "code": "GLBH 171R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Substance Use and Global Mental Health: Case Studies for Research and Praxis",
+    "code": "GLBH 173",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Essentials of Global Health",
+    "code": "GLBH 181",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Careers",
+    "code": "GLBH 190",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instructional Apprenticeship in Global Health",
+    "code": "GLBH 195",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health and Social Justice Seminar",
+    "code": "GLBH 196",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Academic Internship Program",
+    "code": "GLBH 197",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "GLBH 198",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Global Health Field Experience",
+    "code": "GLBH 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Master’s Core Seminar",
+    "code": "GLBH 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Global Health",
+    "code": "GLBH 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Epidemiology",
+    "code": "GLBH 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinic on the Border: Health Frontiers in Tijuana",
+    "code": "GLBH 211",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "“Experiencing Epidemics”: Anthropologies of Infectious Diseases",
+    "code": "GLBH 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Program Design and Evaluation",
+    "code": "GLBH 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Program Management in Global Health",
+    "code": "GLBH 214",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Community Health Workers",
+    "code": "GLBH 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Perspectives in Global Health",
+    "code": "GLBH 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Native American Health and Healing",
+    "code": "GLBH 245",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Global Health Research",
+    "code": "GLBH 248",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Epidemiology",
+    "code": "GLBH 249",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Policy",
+    "code": "GLBH 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Policy, Diplomacy, and Advocacy",
+    "code": "GLBH 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Mental Health",
+    "code": "GLBH 274",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Essentials of Global Health",
+    "code": "GLBH 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Health Internship",
+    "code": "GLBH 297",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Study",
+    "code": "GLBH 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Research",
+    "code": "GLBH 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Apprenticeship",
+    "code": "GLBH 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

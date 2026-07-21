@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Communicating for a Changing Planet",
+    "code": "SYN 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communicating for a Changing Planet",
+    "code": "SYN 1R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inquiring about a Changing Planet",
+    "code": "SYN 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inquiring about a Changing Planet",
+    "code": "SYN 2R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engaging with a Changing Planet",
+    "code": "SYN 100",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engaging with a Changing Planet Global Seminar",
+    "code": "SYN 100GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Defining the Scope of a Changing Planet",
+    "code": "SYN 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Defining the Scope of a Changing Planet",
+    "code": "SYN 150R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instruction in Project-Based Learning Management",
+    "code": "SYN 195",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "SYN 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "SYN 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching in Synthesis Program",
+    "code": "SYN 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

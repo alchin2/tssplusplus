@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Molecules to Organisms: Concepts",
+    "code": "BIOM 200A",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecules to Organisms: Approaches",
+    "code": "BIOM 200B",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminars in Biomedical Research",
+    "code": "BIOM 201",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomedical Sciences Research Rotation",
+    "code": "BIOM 202",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lipid Cell Signaling Genomics, Proteomics, and Metabolomics",
+    "code": "BIOM 209",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Topics in Anthropogeny",
+    "code": "BIOM 218",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics in Scientific Research",
+    "code": "BIOM 219",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Essentials of Glycobiology",
+    "code": "BIOM 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Anthropogeny",
+    "code": "BIOM 225",
+    "raw_prereq": "graduate standing required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Anthropogeny",
+    "code": "BIOM 229",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Topics in Pharmacology",
+    "code": "BIOM 231",
+    "raw_prereq": "consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Genetics",
+    "code": "BIOM 242",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Literature in Glycobiology",
+    "code": "BIOM 246",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetics and Genomics",
+    "code": "BIOM 252",
+    "raw_prereq": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pathogens and Host Defense",
+    "code": "BIOM 253",
+    "raw_prereq": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular and Cell Biology",
+    "code": "BIOM 254",
+    "raw_prereq": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Basis of Drug Action and Disease Therapy",
+    "code": "BIOM 255",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Pathology of Cancer",
+    "code": "BIOM 256",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Methods in Genetics",
+    "code": "BIOM 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminars in Genetics",
+    "code": "BIOM 272",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminars in Molecular and Cell Biology",
+    "code": "BIOM 274",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminars in Pharmacology",
+    "code": "BIOM 275",
+    "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Inference in the Medical Sciences",
+    "code": "BIOM 285",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pharmacology and Molecular Biology Journal Club",
+    "code": "BIOM 294",
+    "raw_prereq": "enrollment in PhD program at year two and above. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pharmacology Research Discussions",
+    "code": "BIOM 295",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Reading",
+    "code": "BIOM 296",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Progress in Signal Transduction",
+    "code": "BIOM 297",
+    "raw_prereq": "graduate-level biochemistry, cell biology, and molecular biology; registered as second-year and above graduate student in biomedical sciences, biology, or chemistry. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Study",
+    "code": "BIOM 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study or Research",
+    "code": "BIOM 299",
+    "raw_prereq": "consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,1758 @@
+[
+  {
+    "name": "Introduction to Bioengineering",
+    "code": "BENG 1",
+    "raw_prereq": "none. (F,W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introductory Computer Programming and MATLAB",
+    "code": "BENG 2",
+    "raw_prereq": "bioengineering: biosystems majors only or consent of department. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "BENG 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Bioengineering",
+    "code": "BENG 90",
+    "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BE28"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Bioengineering with Laboratory",
+    "code": "BENG 90L",
+    "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BE28"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Bioengineering and Medicine",
+    "code": "BENG 91",
+    "raw_prereq": "bioengineering majors only or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Internship/Field Studies",
+    "code": "BENG 97",
+    "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "BENG 98",
+    "raw_prereq": "lower-division standing, completion of thirty units of undergraduate study at UC San Diego with a UC San Diego GPA of at least 3.0 and consent of a bioengineering faculty member; completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "BENG 99",
+    "raw_prereq": "lower-division standing, completion of thirty units of undergraduate study at UC San Diego with a UC San Diego GPA of at least 3.0 and consent of a bioengineering faculty member; completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "BENG 99H",
+    "raw_prereq": "student must be of first-year standing and a Regents Scholar; approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Probability and Statistics for Bioengineers",
+    "code": "BENG 100",
+    "raw_prereq": "MATH 18 or MATH 31AH , MATH 20C or MATH 31BH; bioengineering majors only or consent of department. (F,S,Su)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Components of Living Systems",
+    "code": "BENG 102",
+    "raw_prereq": "BENG 120 or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG120"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Mass Transfer",
+    "code": "BENG 103B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Musculoskeletal Biomechanics",
+    "code": "BENG 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Soft Tissue Biomechanics",
+    "code": "BENG 112A",
+    "raw_prereq": "BENG 110 or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG110"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fluid and Cell Biomechanics",
+    "code": "BENG 112B",
+    "raw_prereq": "BENG 112A or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG112A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry Structural and Design Principles",
+    "code": "BENG 120",
+    "raw_prereq": "CHEM 6A and 6B; majors only or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biosystems and Control",
+    "code": "BENG 122A",
+    "raw_prereq": "MAE 40 or ECE 35 or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dynamic Simulation in Bioengineering",
+    "code": "BENG 123",
+    "raw_prereq": "MATH 18 or MATH 31AH, MATH 20D, BENG 120, or CHEM 40B; majors only or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modeling and Computation in Bioengineering",
+    "code": "BENG 125",
+    "raw_prereq": "BENG 122A or BENG 123 or BENG 181 or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG122A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG123"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biotechnology Thermodynamics and Kinetics",
+    "code": "BENG 130",
+    "raw_prereq": "CHEM 6B, MATH 20A, 20B, 20D, PHYS 2A, 2B, 2C; majors only or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Analysis and Computational Engineering",
+    "code": "BENG 133",
+    "raw_prereq": "MATH 20D and MATH 18 or MATH 31AH or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Measurements, Statistics, and Probability",
+    "code": "BENG 134",
+    "raw_prereq": "MATH 20D and MATH 18 or MATH 31AH; BENG 100 or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomedical Signals and Systems",
+    "code": "BENG 135",
+    "raw_prereq": "ECE 45 and MAE 40; bioengineering majors only (BE25, BE27, BE28 and BE29) or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE45"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE40"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Physiology",
+    "code": "BENG 140A",
+    "raw_prereq": "CHEM 6A-B, PHYS 2A-C, BILD 1, or BENG 102; majors only or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Physiology",
+    "code": "BENG 140B",
+    "raw_prereq": "CHEM 6A or CHEM 6AH and PHYS 2A or PHYS 2AR and PHYS 2B and BILD 1, or BENG 102; majors only or consent of instructor. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2AR"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2B"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomedical Optics and Imaging",
+    "code": "BENG 141",
+    "raw_prereq": "PHYS 2C or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biosystems Engineering Laboratory",
+    "code": "BENG 152",
+    "raw_prereq": "MAE 40 or ECE 35; bioengineering: biosystems majors only or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE35"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical and Molecular Bioengineering Techniques",
+    "code": "BENG 160",
+    "raw_prereq": "BICD 100, BENG 100, CHEM 40B or CHEM 40BH or BENG 120, MAE 170; majors only or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE170"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioreactor Engineering",
+    "code": "BENG 161A",
+    "raw_prereq": "MATH 20D and BENG 103B or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BENG103B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemical Engineering",
+    "code": "BENG 161B",
+    "raw_prereq": "MATH 20D and BENG 103B and BENG 160 or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BENG103B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BENG160"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biotechnology Laboratory",
+    "code": "BENG 162",
+    "raw_prereq": "BENG 160; majors only or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG160"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cell and Tissue Engineering",
+    "code": "BENG 166A",
+    "raw_prereq": "BILD 1 and CHEM 6C or CHEM 6CH or CHEM 7L or CHEM 7LM and MATH 20D and PHYS 2A or PHYS 2AR, PHYS 2B-C; senior standing or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7LM"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2AR"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomolecular Engineering",
+    "code": "BENG 168",
+    "raw_prereq": "BILD 1 or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Laboratory",
+    "code": "BENG 172",
+    "raw_prereq": "MAE 170; junior or senior standing in the major or consent of instructor. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE170"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Sequence Analysis",
+    "code": "BENG/BIMM/CSE 181",
+    "raw_prereq": "CSE 100; CSE 101; BIMM 100 or CHEM 114C; bioinformatics majors only. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biological Databases",
+    "code": "BENG/BIMM/CSE/CHEM 182",
+    "raw_prereq": "CSE 100; bioinformatics majors only. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Genomic Technologies",
+    "code": "BENG 183",
+    "raw_prereq": "BIMM 100 or CHEM 114C, or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Biomaterials Design",
+    "code": "BENG 186A",
+    "raw_prereq": "BILD 1 and BENG 130 and PHYS 2A or PHYS 2AR, or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BENG130"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2AR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Bioinstrumentation Design",
+    "code": "BENG 186B",
+    "raw_prereq": "ECE 35 or MAE 40; or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Design Project: Planning",
+    "code": "BENG 187A",
+    "raw_prereq": "BENG 112A or BENG 152 or BENG 168 or BENG 181; bioengineering, bioengineering: biotechnology, or bioengineering: biosystems majors, or bioengineering: bioinformatics majors only or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG112A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG152"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG168"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Design Project: Development",
+    "code": "BENG 187B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Design Project: Implementation",
+    "code": "BENG 187C",
+    "raw_prereq": "BENG 187B; bioengineering, bioengineering: biotechnology, or bioengineering: biosystems or bioengineering: bioinformatics majors only or consent of instructor. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG187B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Design Project: Presentation",
+    "code": "BENG 187D",
+    "raw_prereq": "BENG 187C; bioengineering, bioengineering: biotechnology, or bioengineering: biosystems or bioengineering: bioinformatics majors only or consent of instructor. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG187C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Development in Bioengineering",
+    "code": "BENG 188A",
+    "raw_prereq": "BENG 187A; BE25, BE27, BE28, and BE29 majors only or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG187A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Implementation in Bioengineering",
+    "code": "BENG 188B",
+    "raw_prereq": "BENG 188A; BE25, BE27, BE28, and BE29 majors only or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG188A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physiological Systems Engineering",
+    "code": "BENG 189",
+    "raw_prereq": "BENG 133, 134, 135, 140A and 140B, or consent of department. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG133"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG135"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG140A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BENG140B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Bioengineering",
+    "code": "BENG 190",
+    "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BE28"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Bioengineering with Laboratory",
+    "code": "BENG 190L",
+    "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BE28"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar I: Professional Issues in Bioengineering",
+    "code": "BENG 191/291",
+    "raw_prereq": "consent of instructor. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Experience in Bioengineering",
+    "code": "BENG 193",
+    "raw_prereq": "BENG 140A or BIPN 100; BENG 140B or BIPN 102; consent of instructor required. A GPA of 3.5 is requested as a requirement per the agreement with the School of Medicine to ensure that students who are participating in the program have a strong academic background to be in the clinic as an undergraduate. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "BENG 195P",
+    "raw_prereq": "3.0 GPA in the major and department approval. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Industrial Internship",
+    "code": "BENG 196",
+    "raw_prereq": "consent of department and completion of all lower-division course requirements, including general-science requirement; laboratory experience. (F,W,S,Su)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Internship",
+    "code": "BENG 197",
+    "raw_prereq": "completion of ninety units with a 2.5 GPA and approval from a bioengineering faculty coordinator. (F,W,S,Su)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "BENG 198",
+    "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "BENG 199",
+    "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form. (F,W,S,Su)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics II: Introduction to Bioinformatics Algorithms",
+    "code": "BENG 202/CSE 282",
+    "raw_prereq": "Pharm 201 or consent of instructor. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHARM201"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genomics, Proteomics, and Network Biology",
+    "code": "BENG 203/CSE 283",
+    "raw_prereq": "Pharm 201, BENG 202/CSE 282, or consent of instructor. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHARM201"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHARM282"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Medicine: Data Analytics and Mechanisms",
+    "code": "BENG 204",
+    "raw_prereq": "graduate standing. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Bioengineering",
+    "code": "BENG 207",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Bioengineering with Lab",
+    "code": "BENG 208",
+    "raw_prereq": "consent of instructor. (S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Continuum Mechanics Applied to Medicine/Biology",
+    "code": "BENG/MAE 209",
+    "raw_prereq": "(BENG 226 or MAE 201 or MAE 210A) and (BENG 227 or MAE 201 or MAE 210A) and (BENG 221 or MAE 208). (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE201"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE227"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE201"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE221"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Biology and Bioengineering I: Biological Components",
+    "code": "BENG 211",
+    "raw_prereq": "BENG 230A or BIMM 100, or consent of instructor. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG230A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Biology and Bioengineering II: Large-Scale Data Analysis",
+    "code": "BENG 212",
+    "raw_prereq": "graduate standing. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Biology and Bioengineering III: Building and Simulating Large-Scale in Silico Models",
+    "code": "BENG 213",
+    "raw_prereq": "BENG 212 and graduate standing. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG212"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuromorphic Integrated Bioelectronics",
+    "code": "BENG 216",
+    "raw_prereq": "graduate standing. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science for Multiscale Biology",
+    "code": "BENG 219",
+    "raw_prereq": "graduate standing or consent of instructor. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods for Bioengineering",
+    "code": "BENG 221",
+    "raw_prereq": "graduate standing in bioengineering or consent of instructor. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermodynamics, Statistical Mechanics, Interfacial Phenomena in Living Systems",
+    "code": "BENG 223",
+    "raw_prereq": "graduate standing in bioengineering or consent of instructor. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Regulatory Affairs",
+    "code": "BENG 224",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business of Biotech",
+    "code": "BENG 225",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Bioengineering I: Tissue and Cell Properties",
+    "code": "BENG 226",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transport Phenomena in Living Systems",
+    "code": "BENG 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemistry",
+    "code": "BENG 230A",
+    "raw_prereq": "restricted to bioengineering graduate students with major code BE75. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cell and Molecular Biology",
+    "code": "BENG 230B",
+    "raw_prereq": "BENG 230A; restricted to bioengineering graduate students with major code BE75. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG230A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cardiovascular Physiology",
+    "code": "BENG 230C",
+    "raw_prereq": "BENG 230B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG230B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Respiratory and Renal Physiology",
+    "code": "BENG 230D",
+    "raw_prereq": "BIPN 100, 102, and BENG 230C, or consent of instructor. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN102"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BENG230C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Musculoskeletal Health, Injury, and Disease",
+    "code": "BENG 232",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuromuscular Physiology and Biomechanics",
+    "code": "BENG 233",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intro to Neurophysiology: Molecules to Systems",
+    "code": "BENG 234",
+    "raw_prereq": "graduate standing or consent of instructor. (S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Imaging and Quantitation in Living Cells",
+    "code": "BENG 235",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Biology of the Cardiovascular System",
+    "code": "BENG 238/MED 238",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tissue Engineering and Regenerative Medicine: Foundations",
+    "code": "BENG 241A",
+    "raw_prereq": "graduate standing. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tissue Engineering and Regenerative Medicine: Cell Microenvironment",
+    "code": "BENG 241B",
+    "raw_prereq": "BENG 241A, graduate standing, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG241A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tissue Engineering and Regenerative Medicine: Development and Growth",
+    "code": "BENG 241C",
+    "raw_prereq": "BENG 241A, graduate standing, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG241A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Polymer Science and Engineering",
+    "code": "BENG 242/MATS 257/NANO 257",
+    "raw_prereq": "graduate standing in bioengineering, nanoengineering, or materials science, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Biophotonics",
+    "code": "BENG 247A/ECE 247A/NANO 247A",
+    "raw_prereq": "graduate standing. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioelectronics",
+    "code": "BENG 247B/ECE 247B/NANO 247B",
+    "raw_prereq": "graduate standing. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bionanotechnology",
+    "code": "BENG 247C/ECE 247C/NANO 247C",
+    "raw_prereq": "graduate standing. (S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synthetic Biology",
+    "code": "BENG 254",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurodynamics",
+    "code": "BENG 260/BGGN 260/PHYS 279",
+    "raw_prereq": "graduate standing or consent of instructor. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microcirculation in Health and Disease",
+    "code": "BENG 267",
+    "raw_prereq": "consent of instructor. (S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Analysis in Multiscale Biology",
+    "code": "BENG 276/CHEM 276/MATH 276/SPPS 276",
+    "raw_prereq": "consent of instructor. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tissue Engineering Laboratory",
+    "code": "BENG 277/BIOM 287",
+    "raw_prereq": "consent of instructor. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Magnetic Resonance Imaging",
+    "code": "BENG 278/RAD 278",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Biomedical Imaging",
+    "code": "BENG 280A/ECE 207",
+    "raw_prereq": "graduate standing. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Biomedical Imaging",
+    "code": "BENG 280B",
+    "raw_prereq": "consent of instructor. (W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Imaging Cardiovascular Disease",
+    "code": "BENG 280C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Bioengineering",
+    "code": "BENG 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar: Faculty Research",
+    "code": "BENG 282",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supramolecular Structure Determination Laboratory",
+    "code": "BENG 283/CHEM 283/BIOM 283",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning in Bioinformatics",
+    "code": "BENG 285/BNFO 285/ECE 204",
+    "raw_prereq": "ECE 271A or ECE 271B or MATH 283; or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE271A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE271B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH283"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar I: Professional Issues in Bioengineering",
+    "code": "BENG 291/191",
+    "raw_prereq": "consent of instructor. (W)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Ethics",
+    "code": "BENG 292",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Patient-Centered Clinical Medicine for Bioengineers",
+    "code": "BENG 294A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering in the Patient Healthcare System",
+    "code": "BENG 294B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Experience in Bioengineering",
+    "code": "BENG 294C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioengineering Design Project and Industrial Training",
+    "code": "BENG 295",
+    "raw_prereq": "consent of instructor and department approval. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "BENG 296",
+    "raw_prereq": "consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "BENG 298",
+    "raw_prereq": "consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory Research Rotation",
+    "code": "BENG 298L",
+    "raw_prereq": "PhD student in bioengineering. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research",
+    "code": "BENG 299",
+    "raw_prereq": "consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching for Specialization in Multi-Scale Biology",
+    "code": "BENG 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Experience",
+    "code": "BENG 501",
+    "raw_prereq": "consent of instructor and department approval. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

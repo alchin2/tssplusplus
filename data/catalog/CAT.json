@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Culture, Art, and Technology 1",
+    "code": "CAT 1",
+    "raw_prereq": "Sixth College students only; completion of UC Entry Level Writing Requirement.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Art, and Technology 2",
+    "code": "CAT 2",
+    "raw_prereq": "Sixth College students only; CAT 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing and Community 1",
+    "code": "CAT 2CE",
+    "raw_prereq": "Sixth College students only; CAT 1; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Art, and Technology 3",
+    "code": "CAT 3",
+    "raw_prereq": "Sixth College students only; CAT 2.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing and Community 2",
+    "code": "CAT 3CE",
+    "raw_prereq": "Sixth College students only; CAT 2 or CAT 2CE; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Special Projects/Topics",
+    "code": "CAT 24",
+    "raw_prereq": "department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experience Art!—Sixth College Seminar Series",
+    "code": "CAT 75",
+    "raw_prereq": "Sixth College students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "CAT 87",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Experiential Learning Seminar",
+    "code": "CAT 90",
+    "raw_prereq": "Sixth College students only; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Art, and Technology Lower-Division Group Study",
+    "code": "CAT 98",
+    "raw_prereq": "lower-division standing; cumulative GPA of 3.0.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sixth College Practicum",
+    "code": "CAT 124",
+    "raw_prereq": "upper-division standing; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sixth College Practicum Global Seminar",
+    "code": "CAT 124GS",
+    "raw_prereq": "upper-division standing; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sixth College Practicum Online Global Seminar",
+    "code": "CAT 124RS",
+    "raw_prereq": "upper-division standing; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Rhetoric and Practical Communication",
+    "code": "CAT 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Rhetoric and Practical Communication Global Seminar",
+    "code": "CAT 125GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Rhetoric and Practical Communication Online",
+    "code": "CAT 125R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Rhetoric and Practical Communication Online Global Seminar",
+    "code": "CAT 125RS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Culture, Art, and Technology",
+    "code": "CAT 192",
+    "raw_prereq": "upper-division standing; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "CAT 195",
+    "raw_prereq": "upper-division standing; 3.0 cumulative GPA; department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Art, and Technology Field Studies",
+    "code": "CAT 197",
+    "raw_prereq": "upper-division standing; completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Art, and Technology Directed Group Studies",
+    "code": "CAT 198",
+    "raw_prereq": "upper-division standing; completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Art, and Technology Independent Studies",
+    "code": "CAT 199",
+    "raw_prereq": "upper-division standing; completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

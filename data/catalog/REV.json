@@ -1,0 +1,65 @@
+[
+  {
+    "name": "First Year Experience",
+    "code": "REV 1",
+    "raw_prereq": "open to Revelle College first-year students only. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transfer Year Experience",
+    "code": "REV 2",
+    "raw_prereq": "open to Revelle College transfer students only. (F)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicing the Science of Mindfulness",
+    "code": "REV 12",
+    "raw_prereq": "open to Revelle undergraduate students only. (S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership in Practice",
+    "code": "REV 16",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Revelle First-year Student Honors Program Seminar",
+    "code": "REV 20",
+    "raw_prereq": "by invitation only. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-Year Student Seminar",
+    "code": "REV 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Succeeding in Scientific Research",
+    "code": "REV 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "REV 99H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Revelle College Senior Honors Seminar",
+    "code": "REV 110H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

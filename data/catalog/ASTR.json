@@ -1,0 +1,429 @@
+[
+  {
+    "name": "Stars and Black Holes",
+    "code": "ASTR 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Galaxies and the Universe",
+    "code": "ASTR 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planetary Systems Near and Far",
+    "code": "ASTR 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Life in the Universe",
+    "code": "ASTR 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astronomy and Civilization",
+    "code": "ASTR 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astronomy in Science Fiction",
+    "code": "ASTR 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Additional Topics in Classical Physics",
+    "code": "ASTR 18",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Astrophysics I",
+    "code": "ASTR 20A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Astrophysics II",
+    "code": "ASTR 20B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Antiracism in Physics and Astronomy",
+    "code": "ASTR 60",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Astronomy of Climate Change",
+    "code": "ASTR 65",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-Year Seminar",
+    "code": "ASTR 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "ASTR 98",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "ASTR 99",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysical Dynamics",
+    "code": "ASTR 101",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrodynamics and Optics for Astrophysicists",
+    "code": "ASTR 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dynamics of Radiation and Fluids",
+    "code": "ASTR 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermal Astrophysics",
+    "code": "ASTR 104",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Quantum Mechanics",
+    "code": "ASTR 105",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanics of Radiation, Atoms and Molecules",
+    "code": "ASTR 106",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stellar Astrophysics",
+    "code": "ASTR 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Explosive Universe",
+    "code": "ASTR 121",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Cosmology",
+    "code": "ASTR 122",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Galaxies",
+    "code": "ASTR 123",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exoplanets",
+    "code": "ASTR 124",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrobiology",
+    "code": "ASTR 130",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "From the Stars to Earth: Using Nuclear Energy",
+    "code": "ASTR 131",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Observational Optical Research Lab",
+    "code": "ASTR 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Observational Optical Research Lab",
+    "code": "ASTR 151",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Observational Radio Research Lab",
+    "code": "ASTR 152",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Astronomy",
+    "code": "ASTR 154",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Astrophysics",
+    "code": "ASTR 155",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar in Astronomy and Astrophysics",
+    "code": "ASTR 191",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study: Astrophysics",
+    "code": "ASTR 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research for Undergraduates",
+    "code": "ASTR 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis Research for Undergraduates",
+    "code": "ASTR 199H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Survey of Astronomy",
+    "code": "ASTR 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Radiative Processes in Astrophysics",
+    "code": "ASTR 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysical Fluid Dynamics",
+    "code": "ASTR 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planets and Exoplanets",
+    "code": "ASTR 210",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stellar Structure and Evolution",
+    "code": "ASTR 211",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics of the Interstellar Medium",
+    "code": "ASTR 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Galaxies and Galactic Dynamics",
+    "code": "ASTR 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Cosmology",
+    "code": "ASTR 214",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stellar Remnants",
+    "code": "ASTR 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astronomical Instrumentation and Observational Techniques",
+    "code": "ASTR 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Astrophysics",
+    "code": "ASTR 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysical Kinetics",
+    "code": "ASTR 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrostatistics",
+    "code": "ASTR 223",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysical Dynamics",
+    "code": "ASTR 224",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysical Plasmas",
+    "code": "ASTR 225",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Observational Astrophysics Research Lab",
+    "code": "ASTR 226",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parallel Computing Techniques",
+    "code": "ASTR 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics",
+    "code": "ASTR 230",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astronomy and Astrophysics Colloquium",
+    "code": "ASTR 250",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astronomy and Astrophysics Journal Club",
+    "code": "ASTR 251",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Astronomy",
+    "code": "ASTR 254",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Development in Astronomy and Astrophysics",
+    "code": "ASTR 291",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Studies in Astronomy and Astrophysics",
+    "code": "ASTR 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Research in Astronomy and Astrophysics",
+    "code": "ASTR 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astronomical Teaching Training",
+    "code": "ASTR 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,2518 @@
+[
+  {
+    "name": "The Scope of Chemistry and Biochemistry",
+    "code": "CHEM 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Thinking",
+    "code": "CHEM 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Chemistry I",
+    "code": "CHEM 6A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors General Chemistry I",
+    "code": "CHEM 6AH",
+    "raw_prereq": "AP Chemistry score of 4, or Math Placement Exam qualifying score, or AP Calculus AB score of 3, or MATH 4C or MATH 10A. Recommended: completion of a high school physics course strongly recommended. Concurrent enrollment in MATH 20A or higher.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Chemistry II",
+    "code": "CHEM 6B",
+    "raw_prereq": "CHEM 6A or 6AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors General Chemistry II",
+    "code": "CHEM 6BH",
+    "raw_prereq": "CHEM 6AH and MATH 20A.<span class=\"course-descriptions\">Recommended: </span>concurrent or prior enrollment in MATH 20B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6AH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Chemistry III",
+    "code": "CHEM 6C",
+    "raw_prereq": "CHEM 6B or 6BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors General Chemistry III",
+    "code": "CHEM 6CH",
+    "raw_prereq": "CHEM 6BH and MATH 20B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6BH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Chemistry Laboratory",
+    "code": "CHEM 7L",
+    "raw_prereq": "CHEM 6B or 6BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Chemistry Laboratory for Majors",
+    "code": "CHEM 7LM",
+    "raw_prereq": "CHEM 6B or 6BH. Restricted to the following major codes: CH25, CH34, CH35, CH36, CH38.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH34"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH36"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Periodic Table",
+    "code": "CHEM 11",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecules and Reactions",
+    "code": "CHEM 12",
+    "raw_prereq": "CHEM 11 or good knowledge of high school chemistry.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM11"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemistry of Life",
+    "code": "CHEM 13",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry for Life Sciences I",
+    "code": "CHEM 40A",
+    "raw_prereq": "CHEM 6B or 6BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry for Life Sciences II",
+    "code": "CHEM 40B",
+    "raw_prereq": "CHEM 40A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry III",
+    "code": "CHEM 40C",
+    "raw_prereq": "CHEM 40B or 140B (a grade of C or higher in CHEM 40B or 140B is strongly recommended).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry I: Structure and Reactivity",
+    "code": "CHEM 41A",
+    "raw_prereq": "CHEM 6B or 6BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry II: Reactivity and Synthesis",
+    "code": "CHEM 41B",
+    "raw_prereq": "CHEM 41A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry III: Synthesis, Reactivity, and Macromolecules",
+    "code": "CHEM 41C",
+    "raw_prereq": "CHEM 41B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry Laboratory",
+    "code": "CHEM 43A",
+    "raw_prereq": "CHEM 7L or 7LM and 40A, 40AH, or 41A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7LM"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry Laboratory for Majors",
+    "code": "CHEM 43AM",
+    "raw_prereq": "CHEM 7L or 7LM and CHEM 40A, 40AH, or 41A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7LM"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar in Chemistry and Biochemistry",
+    "code": "CHEM 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Teaching Science",
+    "code": "CHEM 96",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CHEM 99",
+    "raw_prereq": "lower-division standing, 3.0 minimum UC San Diego GPA, consent of instructor and department, completion of thirty units of undergraduate study at UC San Diego, completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CHEM 99H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analytical Chemistry Laboratory",
+    "code": "CHEM 100A",
+    "raw_prereq": "CHEM 6C or 6CH and CHEM 7L or 7LM. Recommended: PHYS 2CL or 2BL.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2CL"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instrumental Chemistry Laboratory",
+    "code": "CHEM 100B",
+    "raw_prereq": "CHEM 100A and PHYS 2C or 2D and PHYS 2BL or 2CL or 2DL.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM100A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2BL"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2CL"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mass Spectrometry in Research Laboratory",
+    "code": "CHEM 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to X-ray Crystallography",
+    "code": "CHEM 104",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Chemistry Laboratory",
+    "code": "CHEM 105A",
+    "raw_prereq": "CHEM 6CL or 100A, PHYS 2BL or 2CL or 2DL, and CHEM 126 or 126A or 126B or 127 or 130 or 131 or 133.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CL"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2BL"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2CL"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2DL"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM127"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM131"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Chemistry Laboratory",
+    "code": "CHEM 105B",
+    "raw_prereq": "CHEM 105A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Protein Biochemistry Laboratory",
+    "code": "CHEM 108",
+    "raw_prereq": "CHEM 43A, 143A, 43AM or 143AM, and CHEM 114A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43AM"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143AM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recombinant DNA Laboratory",
+    "code": "CHEM 109",
+    "raw_prereq": "CHEM 43A, 143A, 43AM, or 143AM and CHEM 114A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43AM"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143AM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Origins of Life and the Universe",
+    "code": "CHEM 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biophysical Chemistry of Macromolecules",
+    "code": "CHEM 113",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemical Structure and Function",
+    "code": "CHEM 114A",
+    "raw_prereq": "CHEM 40A or 41A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM40A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemical Structure and Function",
+    "code": "CHEM 114AR",
+    "raw_prereq": "CHEM 40A or 41A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM40A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemical Energetics and Metabolism",
+    "code": "CHEM 114B",
+    "raw_prereq": "CHEM 40B, 40BH, or 41B and CHEM 114A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biosynthesis of Macromolecules",
+    "code": "CHEM 114C",
+    "raw_prereq": "CHEM 114A or BIBC 100.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular and Cellular Biochemistry",
+    "code": "CHEM 114D",
+    "raw_prereq": "CHEM 114A, 114B, and 114C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genome, Epigenome, and Transcriptome Editing",
+    "code": "CHEM 115",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Biology",
+    "code": "CHEM 116",
+    "raw_prereq": "CHEM 41C or CHEM 40B, and CHEM 114A. (May not be offered every year.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomedical Research in Health Disparities",
+    "code": "CHEM 117",
+    "raw_prereq": "CHEM 40B, 40CH, or 41C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pharmacology and Toxicology",
+    "code": "CHEM 118",
+    "raw_prereq": "CHEM 114A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "RNA Biochemistry",
+    "code": "CHEM 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inorganic Chemistry I",
+    "code": "CHEM 120A",
+    "raw_prereq": "CHEM 6C or 6CH and CHEM 40A, 41A, or 140A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inorganic Chemistry II",
+    "code": "CHEM 120B",
+    "raw_prereq": "CHEM 120A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Inorganic Chemistry Laboratory",
+    "code": "CHEM 123",
+    "raw_prereq": "CHEM 120A, 120B and 43A, 143A, 43AM or 143AH. Restricted to the following major codes: CH25, CH31, CH34, CH35, CH36, CH37.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM120B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43AM"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH31"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH34"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CH36"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinorganic Chemistry",
+    "code": "CHEM 125",
+    "raw_prereq": "CHEM 114A and 120A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Biochemistry I: Thermodynamics and Kinetics of Biomolecules",
+    "code": "CHEM 126A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Biochemistry II: Quantum and Statistical Mechanics of Biomolecules",
+    "code": "CHEM 126B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Physics: Quantum Mechanics",
+    "code": "CHEM 130",
+    "raw_prereq": "CHEM 6C or 6CH, and PHYS 2C or 2D, and MATH 20D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Physics: Stat Thermo I",
+    "code": "CHEM 131",
+    "raw_prereq": "CHEM 6C or 6CH, MATH 20C, and PHYS 2C or 2D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Physics: Stat Thermo II",
+    "code": "CHEM 132",
+    "raw_prereq": "CHEM 130 or 133, and CHEM 131.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM133"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Polymeric Materials",
+    "code": "CHEM 134",
+    "raw_prereq": "CHEM 6C and PHYS 2C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Spectroscopy",
+    "code": "CHEM 135",
+    "raw_prereq": "CHEM 126 or 126B or 130 or 133 and MATH 20D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM133"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Nanomaterials",
+    "code": "CHEM 141",
+    "raw_prereq": "CHEM 40A, 40AH, 41A, 140A, or 140AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Glycosciences",
+    "code": "CHEM 142",
+    "raw_prereq": "CHEM 40B, 40BH, 41B, 140B, or 140BH and BIBC 100 or BILD 1 or CHEM 114A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140BH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry Laboratory",
+    "code": "CHEM 143B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry Laboratory",
+    "code": "CHEM 143C",
+    "raw_prereq": "CHEM 43A, 43AM, 143A, 143AM, or 143AH and CHEM 40B, 40BH, 41B, 140B, or 140BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43AM"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143AM"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM143AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Design and Synthesis",
+    "code": "CHEM 143D",
+    "raw_prereq": "CHEM 40C, 40CH, 41C, 140C, or 140CH and CHEM 143B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biofuels and Renewable Materials",
+    "code": "CHEM 145",
+    "raw_prereq": "CHEM 40B, 40BH, 41B, 140B, or 140BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Kinetics and Mechanism of Organic Reactions",
+    "code": "CHEM 146",
+    "raw_prereq": "CHEM 40C, 40CH, or 41C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecules that Changed the World",
+    "code": "CHEM 151",
+    "raw_prereq": "CHEM 40A, 40AH, or 41A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synthetic Methods in Organic Chemistry",
+    "code": "CHEM 152",
+    "raw_prereq": "CHEM 40B or 41C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM40B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanisms of Organic Reactions",
+    "code": "CHEM 154",
+    "raw_prereq": "CHEM 40B or 41C. Recommended: CHEM 152 is strongly recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM152"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synthesis of Complex Molecules",
+    "code": "CHEM 155",
+    "raw_prereq": "CHEM 152 or 154.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM152"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structure and Properties of Organic Molecules",
+    "code": "CHEM 156",
+    "raw_prereq": "CHEM 40B or 41C and CHEM 120A. Recommended: CHEM 154 is strongly recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM154"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioorganic and Natural Products Chemistry",
+    "code": "CHEM 157",
+    "raw_prereq": "CHEM 40C, 40CH, or 41C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Spectroscopy",
+    "code": "CHEM 158",
+    "raw_prereq": "CHEM 40C, 40CH, or 41C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mass Spectrometry",
+    "code": "CHEM 163",
+    "raw_prereq": "CHEM 41C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Biology of Viruses",
+    "code": "CHEM 164",
+    "raw_prereq": "BIBC 100 or CHEM 114A and BIBC 102 or CHEM 114B and BIMM 100 or CHEM 114C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "3-D Cryo-Electron Microscopy of Macromolecules and Cells",
+    "code": "CHEM 165",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Medicinal Chemistry",
+    "code": "CHEM 167",
+    "raw_prereq": "CHEM 40C, 40CH, or 41C and CHEM 114A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drug Synthesis and Design",
+    "code": "CHEM 168",
+    "raw_prereq": "CHEM 40C, 40CH, or 41C and CHEM 114A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Artificial Intelligence and Machine Learning for Chemistry and Biochemistry",
+    "code": "CHEM 169",
+    "raw_prereq": "CHEM 114A. Recommended: Introductory course in Python programming, with a focus on the pandas library.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Chemistry I",
+    "code": "CHEM 171",
+    "raw_prereq": "CHEM 6C or 6CH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Chemistry II",
+    "code": "CHEM 172",
+    "raw_prereq": "CHEM 6C or 6CH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Atmospheric Chemistry",
+    "code": "CHEM 173",
+    "raw_prereq": "CHEM 6C or 6CH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Principles of Marine Systems",
+    "code": "CHEM 174",
+    "raw_prereq": "CHEM 6C or 6CH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Chemistry Lab",
+    "code": "CHEM 185",
+    "raw_prereq": "CHEM 126 or 126B or 130 or 133 and MATH 20C or 31BH. (May not be offered every year.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM133"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Simulations Lab",
+    "code": "CHEM 186",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Teaching and Learning Science",
+    "code": "CHEM 187",
+    "raw_prereq": "CHEM 6C or 6CH and CHEM 96 or EDS 31.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM96"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Capstone Seminar in Science Education",
+    "code": "CHEM 188",
+    "raw_prereq": "CHEM 6C or 6CH and CHEM 187 or EDS 122.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM187"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics for Physical Chemistry",
+    "code": "CHEM 190",
+    "raw_prereq": "MATH 20D.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Chemistry and Biochemistry",
+    "code": "CHEM 192",
+    "raw_prereq": "department stamp and/or consent of the instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Chemistry",
+    "code": "CHEM 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Methods of Teaching Chemistry",
+    "code": "CHEM 195",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "CHEM 195P",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reading and Research in Chemical Education",
+    "code": "CHEM 196",
+    "raw_prereq": "upper-division standing, 2.5 minimum GPA, consent of instructor and department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemistry Internship",
+    "code": "CHEM 197",
+    "raw_prereq": "completion of ninety units with a minimum GPA of 2.5, and an approved Special Studies online application, and AIP learning agreement.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "CHEM 198",
+    "raw_prereq": "department approval required and an approved Special Studies online application.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reading and Research",
+    "code": "CHEM 199",
+    "raw_prereq": "upper-division standing, minimum GPA of 2.5, consent of instructor and department, and an approved Special Studies online application.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Instrumental Analysis",
+    "code": "CHEM 200B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to X-ray Crystallography",
+    "code": "CHEM 204",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Protein NMR",
+    "code": "CHEM 207",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macromolecular Recognition",
+    "code": "CHEM 209",
+    "raw_prereq": "biochemistry background and graduate standing, or approval of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lipid Cell Signaling Genomics, Proteomics, and Metabolomics",
+    "code": "CHEM 210",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemistry and Biophysics of Cell Membranes",
+    "code": "CHEM 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structure of Biomolecules and Biomolecular Assemblies",
+    "code": "CHEM 213A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biophysical Chemistry of Macromolecules",
+    "code": "CHEM 213B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular and Cellular Biochemistry",
+    "code": "CHEM 214",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genome, Epigenome, and Transcriptome Editing",
+    "code": "CHEM 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Biology",
+    "code": "CHEM 216",
+    "raw_prereq": "graduate standing or consent of instructor. (May not be offered every year.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "RNA Structure, Function, and Biology",
+    "code": "CHEM 217",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolution of Non-Coding RNAs",
+    "code": "CHEM 218",
+    "raw_prereq": "CHEM 217. (May not be offered every year.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Biochemistry",
+    "code": "CHEM 219A",
+    "raw_prereq": "undergraduate courses in biochemistry, CHEM 114A or equivalent. (May not be offered every year.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Biochemistry",
+    "code": "CHEM 219B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Biochemistry",
+    "code": "CHEM 219C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Regulatory Circuits in Cells",
+    "code": "CHEM 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Signal Transduction",
+    "code": "CHEM 221",
+    "raw_prereq": "biochemistry and molecular biology. (May not be offered every year.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structure and Analysis of Solids",
+    "code": "CHEM 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organometallic Chemistry",
+    "code": "CHEM 223",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Spectroscopic Techniques",
+    "code": "CHEM 224",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinorganic Chemistry",
+    "code": "CHEM 225",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transition Metal Chemistry",
+    "code": "CHEM 226",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Inorganic Chemistry",
+    "code": "CHEM 227",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid State Chemistry",
+    "code": "CHEM 228",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Inorganic Chemistry",
+    "code": "CHEM 229",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanics I",
+    "code": "CHEM 230A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanics II",
+    "code": "CHEM 230B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Kinetics and Molecular Reaction Dynamics",
+    "code": "CHEM 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Mechanics I",
+    "code": "CHEM 232A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Mechanics II",
+    "code": "CHEM 232B",
+    "raw_prereq": "CHEM 232A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM232A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Photochemistry and Photophysics",
+    "code": "CHEM 234",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Spectroscopy",
+    "code": "CHEM 235",
+    "raw_prereq": "graduate standing or consent of instructor. (May not be offered every year.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Dynamics on Surfaces",
+    "code": "CHEM 236",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advances in Glycobiology",
+    "code": "CHEM 237",
+    "raw_prereq": "CHEM 142, CHEM 242, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM142"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM242"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Chemical Physics",
+    "code": "CHEM 239",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrochemistry",
+    "code": "CHEM 240",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Nanomaterials",
+    "code": "CHEM 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Glycosciences",
+    "code": "CHEM 242",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Kinetics and Mechanism",
+    "code": "CHEM 246",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Survival Skills",
+    "code": "CHEM 250",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Conference",
+    "code": "CHEM 251",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synthetic Methods in Organic Chemistry",
+    "code": "CHEM 252",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Antibiotics",
+    "code": "CHEM 253",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanisms of Organic Reactions",
+    "code": "CHEM 254",
+    "raw_prereq": "graduate standing. CHEM 252 is strongly recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM252"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synthesis of Complex Molecules",
+    "code": "CHEM 255",
+    "raw_prereq": "graduate standing. CHEM 252 or 254 is strongly recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM252"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM254"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structure and Properties of Organic Molecules",
+    "code": "CHEM 256",
+    "raw_prereq": "graduate standing. CHEM 252 and CHEM 254 are strongly recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM252"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM254"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioorganic and Natural Products Chemistry",
+    "code": "CHEM 257",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Spectroscopy",
+    "code": "CHEM 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Organic Chemistry",
+    "code": "CHEM 259",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Light and Electron Microscopy of Cells and Tissue",
+    "code": "CHEM 260",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practical X-Ray Crystallography",
+    "code": "CHEM 261",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inorganic Chemistry and NMR",
+    "code": "CHEM 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mass Spectrometry",
+    "code": "CHEM 263",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Biology of Viruses",
+    "code": "CHEM 264",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "3-D Cryo-Electron Microscopy of Macromolecules and Cells",
+    "code": "CHEM 265",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Nanotechnology, Sustainable Nanotechnology, and Nanotoxicity",
+    "code": "CHEM 267",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Artificial Intelligence and Machine Learning for Chemistry and Biochemistry",
+    "code": "CHEM 269",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Topics in Environmental Chemistry",
+    "code": "CHEM 270A-B-C",
+    "raw_prereq": "consent of instructor. (S/U grades only.) (May not be offered every year.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Analytical Chemistry",
+    "code": "CHEM 271",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Atmospheric Chemistry",
+    "code": "CHEM 273",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Analysis in Multiscale Biology",
+    "code": "CHEM 276",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Bioinformatics",
+    "code": "CHEM 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supramolecular Structure Determination Laboratory",
+    "code": "CHEM 283",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Chemistry Lab",
+    "code": "CHEM 285",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Simulations Lab",
+    "code": "CHEM 286",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics for Physical Chemistry",
+    "code": "CHEM 290",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Biophysics Student Seminar",
+    "code": "CHEM 291",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemistry-Biology Interfaces Seminar",
+    "code": "CHEM 292",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Chemistry Seminar",
+    "code": "CHEM 294",
+    "raw_prereq": "advanced graduate-student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemistry Seminar",
+    "code": "CHEM 295",
+    "raw_prereq": "advanced graduate-student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Physics Seminar",
+    "code": "CHEM 296",
+    "raw_prereq": "advanced graduate-student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Methods in Chemistry",
+    "code": "CHEM 297",
+    "raw_prereq": "graduate-student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Study in Chemistry",
+    "code": "CHEM 298",
+    "raw_prereq": "first-year graduate-student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in Chemistry",
+    "code": "CHEM 299",
+    "raw_prereq": "graduate-student standing and consent of instructor. (S/U grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "CHEM 500",
+    "raw_prereq": "graduate-student standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Methods in Chemistry and Biochemistry",
+    "code": "CHEM 509",
+    "raw_prereq": "graduate-student standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "First-year Seminar",
+    "code": "AAPI 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "AAPI 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Introduction to Environmental Systems",
+    "code": "ESYS 10",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "ESYS 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Perspectives on Environmental Issues",
+    "code": "ESYS 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Biology",
+    "code": "ESYS 101",
+    "raw_prereq": "BILD 1 or 2 or 3 or equivalent, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Solid and Fluid Earth",
+    "code": "ESYS 102",
+    "raw_prereq": "MATH 10A or MATH 20A, CHEM 6A, PHYS 1A or 2A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Challenges: Science and Solutions",
+    "code": "ESYS 103",
+    "raw_prereq": "junior or senior standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Internship Project I",
+    "code": "ESYS 187A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Internship Project II",
+    "code": "ESYS 187B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Systems Senior Seminar",
+    "code": "ESYS 187C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "ESYS 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

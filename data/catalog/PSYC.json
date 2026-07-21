@@ -1,0 +1,1677 @@
+[
+  {
+    "name": "Psychology",
+    "code": "PSYC 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Psychology: Biological Foundations",
+    "code": "PSYC 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Psychology: Cognitive Foundations",
+    "code": "PSYC 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Psychology: Cognitive Foundations",
+    "code": "PSYC 3R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Psychology: Behavioral Foundations",
+    "code": "PSYC 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Psychology: Social Foundations",
+    "code": "PSYC 6",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Psychology: Developmental Foundations",
+    "code": "PSYC 7",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychosocial Foundations of the Climate Crisis",
+    "code": "PSYC 42",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Statistics",
+    "code": "PSYC 60",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Methods in Psychology",
+    "code": "PSYC 70",
+    "raw_prereq": "PSYC 60 or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC60"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Psychological Research Methods",
+    "code": "PSYC 71",
+    "raw_prereq": "upper-division standing,<strong class=\"italic\"> </strong>COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC70"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Brain, Behavior, and Evolution",
+    "code": "PSYC 81",
+    "raw_prereq": "upper-division standing,<strong class=\"italic\"> </strong>COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC70"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "PSYC 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others",
+    "code": "PSYC 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "PSYC 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Psychology",
+    "code": "PSYC 93",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "PSYC 99",
+    "raw_prereq": "lower-division standing, completion of at least thirty units of undergraduate study at UC San Diego with a minimum UC San Diego GPA of 3.0; completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Psychology",
+    "code": "PSYC 100",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Developmental Psychology",
+    "code": "PSYC 101",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensory Neuroscience",
+    "code": "PSYC 102",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Psychology",
+    "code": "PSYC 104",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Psychology",
+    "code": "PSYC 105",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Neuroscience",
+    "code": "PSYC 106",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Neuroscience",
+    "code": "PSYC 108",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Juniors Honors Research Seminars",
+    "code": "PSYC 110",
+    "raw_prereq": "upper-division standing. Admission by application. Department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Methods I",
+    "code": "PSYC 111A",
+    "raw_prereq": "upper-division standing. Open to honors students or by consent of instructor. Instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Methods II",
+    "code": "PSYC 111B",
+    "raw_prereq": "PSYC 111A; upper-division standing. Instructor and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC111A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Sciences Research",
+    "code": "PSYC 112",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electroencephalogram",
+    "code": "PSYC 113",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychophysiological Perspectives on the Social Mind Laboratory",
+    "code": "PSYC 114",
+    "raw_prereq": "upper-division standing, PSYC 60 or COGS 14B or MATH 11 and PSYC 70 or COGS 14A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC70"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Cognitive Psychology I",
+    "code": "PSYC 115A",
+    "raw_prereq": "upper-division standing and PSYC 60 or equivalent; an interview with the instructor is required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC60"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Cognitive Psychology II",
+    "code": "PSYC 115B",
+    "raw_prereq": "upper-division standing and PSYC 115A. Instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Clinical Psychology Research I",
+    "code": "PSYC 116A",
+    "raw_prereq": "upper-division standing, PSYC 70, PSYC 100, and instructor and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Clinical Psychology Research II",
+    "code": "PSYC 116B",
+    "raw_prereq": "PSYC 116A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Clinical Psychology Research III",
+    "code": "PSYC 116C",
+    "raw_prereq": "PSYC 116B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Educational Research and Outreach",
+    "code": "PSYC 117",
+    "raw_prereq": "upper-division standing, PSYC 60 or COGS 14B and PSYC 70 or COGS 14A. Instructor approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC70"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Animal Behavior",
+    "code": "PSYC 118",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanisms of Animal Behavior",
+    "code": "PSYC 122",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Assessment and Treatment",
+    "code": "PSYC 124",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Neuropsychology",
+    "code": "PSYC 125",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Community Mental Health Care",
+    "code": "PSYC 126",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sexual Health Inequities and Sexual Well-Being",
+    "code": "PSYC 127",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Racism: Genetics, Intelligence, and Race",
+    "code": "PSYC 131",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hormones and Behavior",
+    "code": "PSYC 132",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Circadian Rhythms—Biological Clocks",
+    "code": "PSYC 133",
+    "raw_prereq": "upper-division standing. BILD 1 or COGS 107B or PSYC 106 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Circadian Rhythms—Biological Clocks",
+    "code": "PSYC 133R",
+    "raw_prereq": "upper-division standing. BILD 1 or COGS 107B or PSYC 106 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Eating Disorders",
+    "code": "PSYC 134",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Belief in Weird Things",
+    "code": "PSYC 135",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Development",
+    "code": "PSYC 136",
+    "raw_prereq": "upper-division standing; PSYC 101 or PSYC 105.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Cognition",
+    "code": "PSYC 137",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sound and Music Perception",
+    "code": "PSYC 138",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolution and Human Nature",
+    "code": "PSYC 141",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Consciousness",
+    "code": "PSYC 142",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Control and Analysis of Human Behavior",
+    "code": "PSYC 143",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Memory and Amnesia",
+    "code": "PSYC 144",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Language",
+    "code": "PSYC 145",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language and Conceptual Development",
+    "code": "PSYC 146",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender",
+    "code": "PSYC 147",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Judgment and Decision",
+    "code": "PSYC 148",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Psychology",
+    "code": "PSYC 149",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Neuroscience of Vision",
+    "code": "PSYC 150",
+    "raw_prereq": "upper-division standing; COGS 101A or COGS 107C or PSYC 102 or PSYC 108.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tests and Measurement",
+    "code": "PSYC 151",
+    "raw_prereq": "upper-division standing; COGS 14B or MATH 11 or PSYC 60.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Emotion",
+    "code": "PSYC 153",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavior Modification",
+    "code": "PSYC 154",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Psychology",
+    "code": "PSYC 155",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Development in Infancy",
+    "code": "PSYC 156",
+    "raw_prereq": "upper-division standing; PSYC 101 or HDS 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Interpersonal Relationships",
+    "code": "PSYC 158",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroscience of Decision-Making",
+    "code": "PSYC 160",
+    "raw_prereq": "upper-division standing; PSYC 106.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Psychology",
+    "code": "PSYC 161",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology and the Law",
+    "code": "PSYC 162",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Criminology",
+    "code": "PSYC 164",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Psychology",
+    "code": "PSYC 166",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science of Imagination",
+    "code": "PSYC 167",
+    "raw_prereq": "upper-division standing. PC25, PC26, PS28, PC29, PC30, PC31, PC32, PC33, PC34, PC35, HS25, HS26, HS27, HS28, HD01, HD02, HD25, HD26, or CG32 major only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PC25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PS28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC31"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC34"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HS25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HS26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HS27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HS28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HD01"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HD02"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HD25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HD26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CG32"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychological Disorders of Childhood",
+    "code": "PSYC 168",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain Damage and Mental Function",
+    "code": "PSYC 169",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Learning and Memory",
+    "code": "PSYC 171",
+    "raw_prereq": "upper-division standing and BILD 12 or COGS 107B or COGS 17 or PSYC 106 or PSYC 181 or PSYC 181GS or PSYC 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC181GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Human Sexuality",
+    "code": "PSYC 172",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visual Cognition",
+    "code": "PSYC 174",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Mindfulness and Well-being",
+    "code": "PSYC 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Creativity",
+    "code": "PSYC 176",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Industrial Organizational Psychology",
+    "code": "PSYC 178",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drugs, Addiction, and Mental Disorders",
+    "code": "PSYC 179",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Adolescence",
+    "code": "PSYC 180",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychopharmacology—Drugs and Behavior",
+    "code": "PSYC 181",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Illusions and the Brain",
+    "code": "PSYC 182",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Choice and Self-Control",
+    "code": "PSYC 184",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Climate Crisis",
+    "code": "PSYC 185",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolutionary Psychology",
+    "code": "PSYC 186",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Seminar—Early History of Psychiatry: Psychiatry, Neuroscience, and Pharmacology of the Renaissance through the Enlightenment",
+    "code": "PSYC 186GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Development of Social Cognition",
+    "code": "PSYC 187",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Impulse Control Disorders",
+    "code": "PSYC 188",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain, Behavior, and Evolution",
+    "code": "PSYC 189",
+    "raw_prereq": "upper-division standing, BILD 2 or COGS 101A or COGS 107B or PSYC 102 or PSYC 106.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science of Parenting",
+    "code": "PSYC 190",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Sleep",
+    "code": "PSYC 191",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Psychology",
+    "code": "PSYC 192",
+    "raw_prereq": "department approval and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Psychology",
+    "code": "PSYC 193",
+    "raw_prereq": "upper-division standing and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology Laboratory Topics",
+    "code": "PSYC 193L",
+    "raw_prereq": "upper-division standing, department approval, and PSYC 60 or COGS 14B or MATH 11 and PSYC 70 or COGS 14A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC70"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis I",
+    "code": "PSYC 194A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis II",
+    "code": "PSYC 194B",
+    "raw_prereq": "PSYC 110, PSYC 111A-B,<strong> </strong>PSYC 194A, department approval, psychology majors only, acceptance to the Honors program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC111A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC194A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis III",
+    "code": "PSYC 194C",
+    "raw_prereq": "PSYC 194A-B, department approval, psychology majors only, acceptance to the Honors program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC194A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC194B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instruction in Psychology",
+    "code": "PSYC 195",
+    "raw_prereq": "eligibility includes all of the following: upper-division standing, a minimum of A– in the course in which the student plans to assist, a 3.0 cumulative UC GPA, instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Seminar",
+    "code": "PSYC 196A-B-C",
+    "raw_prereq": "upper-division standing, instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study in Psychology",
+    "code": "PSYC 198",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "PSYC 199",
+    "raw_prereq": "upper-division standing and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Computing and Inference from Data I",
+    "code": "PSYC 201A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Methods in Psychology II",
+    "code": "PSYC 201B",
+    "raw_prereq": "PSYC 201A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Methods in Psychology III",
+    "code": "PSYC 201C",
+    "raw_prereq": "PSYC 201B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing and Presenting Academic Research Papers",
+    "code": "PSYC 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Department Proseminar",
+    "code": "PSYC 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Emotion",
+    "code": "PSYC 205",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Modeling",
+    "code": "PSYC 206",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Judgment and Decision Making",
+    "code": "PSYC 209",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Area Proseminar: The Methods of Human Cognitive Neuroscience",
+    "code": "PSYC 210",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Models of Mind",
+    "code": "PSYC 211",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visual Science",
+    "code": "PSYC 212",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Procedures and Survival in Psychology",
+    "code": "PSYC 213",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Area Proseminar in Developmental Psychology",
+    "code": "PSYC 217",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Area Proseminar in Cognitive Psychology",
+    "code": "PSYC 218",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing about Thinking",
+    "code": "PSYC 219",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Area Proseminar in Social Psychology",
+    "code": "PSYC 220",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensation and Perception",
+    "code": "PSYC 221",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Area Proseminar in Biological Psychology",
+    "code": "PSYC 222",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Directions in Vision",
+    "code": "PSYC 223",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Directions in Cognitive Neural Systems",
+    "code": "PSYC 224",
+    "raw_prereq": "graduate standing. S/U grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Happiness",
+    "code": "PSYC 229",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Approaches to Visual Abstraction",
+    "code": "PSYC 230",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tools for Experimental Data Analysis",
+    "code": "PSYC 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probabilistic Models of Cognition",
+    "code": "PSYC 232",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning and Motivation",
+    "code": "PSYC 233",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolution of Language",
+    "code": "PSYC 234",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thought and Language",
+    "code": "PSYC 235",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Substance Abuse",
+    "code": "PSYC 236",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Rationality",
+    "code": "PSYC 237",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Primate Brain",
+    "code": "PSYC 240",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Programming Web-Based Experiments for Psychology Research",
+    "code": "PSYC 241",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Directions in Developmental Psychology",
+    "code": "PSYC 242",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sound and Music Perception",
+    "code": "PSYC 243",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Psycholinguistics",
+    "code": "PSYC 244",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Emotion and Cognition",
+    "code": "PSYC 246",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning by Thinking in Children",
+    "code": "PSYC 247",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Applied Behavior Analysis I",
+    "code": "PSYC 249A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Applied Behavior Analysis II",
+    "code": "PSYC 249B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Applied Behavior Analysis III",
+    "code": "PSYC 249C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Learning and Motivation",
+    "code": "PSYC 251",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Neuroscience",
+    "code": "PSYC 252",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Biological Psychology I",
+    "code": "PSYC 255A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Biological Psychology II",
+    "code": "PSYC 255B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Biological Psychology III",
+    "code": "PSYC 255C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Development and Neurobiology of Theory of Mind",
+    "code": "PSYC 257",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Delay of Gratification",
+    "code": "PSYC 258",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language and Conceptual Development",
+    "code": "PSYC 260",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Functional Construction of the Vertebrate Brain’s Social Behavior Network",
+    "code": "PSYC 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science of Mindfulness",
+    "code": "PSYC 263",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Language Processes I",
+    "code": "PSYC 264A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Language Processes II",
+    "code": "PSYC 264B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Language Processes III",
+    "code": "PSYC 264C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Psychology and Medicine",
+    "code": "PSYC 265",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Reading",
+    "code": "PSYC 266",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Behavior Medicine I",
+    "code": "PSYC 267A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Behavior Medicine II",
+    "code": "PSYC 267B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Behavior Medicine III",
+    "code": "PSYC 267C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Action",
+    "code": "PSYC 268",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Cognitive Development",
+    "code": "PSYC 269",
+    "raw_prereq": "graduate standing. Restricted to students with major codes PC81, PC82, PC83, PC84, or consent of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PC81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC82"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC84"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Laboratory Experimentation I",
+    "code": "PSYC 270A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Laboratory Experimentation II",
+    "code": "PSYC 270B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Laboratory Experimentation III",
+    "code": "PSYC 270C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Learning and Memory",
+    "code": "PSYC 271",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Cognitive Psychology",
+    "code": "PSYC 272",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Quantitative Methods in Psychology",
+    "code": "PSYC 273",
+    "raw_prereq": "graduate standing or consent of the instructor.<a id=\"psyc274\" name=\"psyc274\"></a>",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Directions in Social Psychology",
+    "code": "PSYC 274",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Directions in Cognitive Psychology",
+    "code": "PSYC 275",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Social Psychology",
+    "code": "PSYC 276",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Communication and Information Processing",
+    "code": "PSYC 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Auditory Neuroscience",
+    "code": "PSYC 282",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Practicum",
+    "code": "PSYC 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Practicum",
+    "code": "PSYC 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "PSYC 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

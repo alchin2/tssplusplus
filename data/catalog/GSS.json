@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Introduction to Global South Studies",
+    "code": "GSS 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History, Culture, and Politics of the Global South",
+    "code": "GSS 21-22-23-25-26-27",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Literature and Global South Societies",
+    "code": "GSS 132",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminars",
+    "code": "GSS 190",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fieldwork",
+    "code": "GSS 197",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Studies",
+    "code": "GSS 198",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "GSS 199",
+    "raw_prereq": "upper-division standing and consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

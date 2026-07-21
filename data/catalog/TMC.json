@@ -1,0 +1,58 @@
+[
+  {
+    "name": "First Year Experience",
+    "code": "TMC 1",
+    "raw_prereq": "open to Marshall College first-year students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transfer Year Experience",
+    "code": "TMC 2",
+    "raw_prereq": "open to Marshall College transfer students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Public Service in America",
+    "code": "TMC 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thurgood Marshall College Honors Seminar",
+    "code": "TMC 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "TMC 90",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Partnership Schools Program Service-Learning Experience",
+    "code": "TMC 120",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thurgood Marshall College Directed Group Studies",
+    "code": "TMC 198",
+    "raw_prereq": "upper-division standing (ninety units) including lower-division writing requirement (DOC 2 and DOC 3), minimum overall GPA of 2.5 and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marshall College Special Project",
+    "code": "TMC 199",
+    "raw_prereq": "upper-division students with 2.5 GPA and ninety units and approval of the provost or faculty designee. Honors standing required for honors projects.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

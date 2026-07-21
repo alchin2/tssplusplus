@@ -1,0 +1,2886 @@
+[
+  {
+    "name": "Quantitative Methods in Business",
+    "code": "MGT 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Accounting",
+    "code": "MGT 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managerial Accounting",
+    "code": "MGT 5",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Personal Financial Management",
+    "code": "MGT 12",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Personal Ethics at Work",
+    "code": "MGT 16",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managing Diverse Teams",
+    "code": "MGT 18",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managing Diverse Teams",
+    "code": "MGT 18GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Accounting",
+    "code": "MGT 45",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Test and Measurement in the Workplace",
+    "code": "MGT 52",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operating a Successful Business",
+    "code": "MGT 71",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operating a Successful Business",
+    "code": "MGT 71R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Customer Analytics",
+    "code": "MGT 100",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "E-Commerce",
+    "code": "MGT 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Product Marketing and Management",
+    "code": "MGT 103",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategic Customer Insight",
+    "code": "MGT 104",
+    "raw_prereq": "MGT 100 or MGT 103, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Product Promotion and Brand Management",
+    "code": "MGT 105",
+    "raw_prereq": "MGT 100 or MGT 103.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sales and Sales Management",
+    "code": "MGT 106",
+    "raw_prereq": "MGT 100 or MGT 103.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Consumer Behavior",
+    "code": "MGT 107",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Market Research",
+    "code": "MGT 108R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Marketing",
+    "code": "MGT 109",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Science of Money",
+    "code": "MGT 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Business Strategy",
+    "code": "MGT 112",
+    "raw_prereq": "MGT 100 or MGT 103 and MGT 180 or MGT 181 or MGT 187, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT187"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Law",
+    "code": "MGT 117",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Business",
+    "code": "MGT 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innovation to Market A",
+    "code": "MGT 121A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innovation to Market B",
+    "code": "MGT 121B",
+    "raw_prereq": "MGT 121A and MGT 181 or MGT 187 or MGT 180 or MGT 180R, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT121A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT187"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business of Healthcare and Life Sciences",
+    "code": "MGT 123",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AI and Technology Strategy",
+    "code": "MGT 127",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AI and Technology Strategy",
+    "code": "MGT 127R",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Innovation and Growth",
+    "code": "MGT 128",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Innovation and Growth",
+    "code": "MGT 128R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Entrepreneurship",
+    "code": "MGT 129",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Accounting A",
+    "code": "MGT 131A",
+    "raw_prereq": "upper-division standing and MGT 5 and and ECON 4 or MGT 4 or MGT 45.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT5"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Accounting B",
+    "code": "MGT 131B",
+    "raw_prereq": "MGT 131A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Auditing",
+    "code": "MGT 132",
+    "raw_prereq": "MGT 131B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Cost Accounting",
+    "code": "MGT 133",
+    "raw_prereq": "MGT 131B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Federal Taxation—Individuals",
+    "code": "MGT 134",
+    "raw_prereq": "MGT 131B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Federal Taxation—Companies",
+    "code": "MGT 135",
+    "raw_prereq": "MGT 131B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Accounting",
+    "code": "MGT 136",
+    "raw_prereq": "upper-division standing and MGT 131B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Statement Analysis",
+    "code": "MGT 137",
+    "raw_prereq": "upper-division standing and MGT 45 or MGT 5 and ECON 4 or MGT 4 or MGT 45.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT5"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Accounting Information Systems",
+    "code": "MGT 139",
+    "raw_prereq": "MGT 131B and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Forensic Accounting",
+    "code": "MGT 143",
+    "raw_prereq": "MGT 131B and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics in Accounting",
+    "code": "MGT 146",
+    "raw_prereq": "MGT 132, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT132"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Not-For-Profit and Government Accounting",
+    "code": "MGT 147",
+    "raw_prereq": "MGT 131B, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mergers and Acquisitions",
+    "code": "MGT 148",
+    "raw_prereq": "MGT 45 or MGT 5 and ECON 4 or MGT 4 or MGT 45.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT5"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Accounting",
+    "code": "MGT 149",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics",
+    "code": "MGT 151R",
+    "raw_prereq": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Information Technology in Business Analytics",
+    "code": "MGT 153",
+    "raw_prereq": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Business Research",
+    "code": "MGT 154",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Business Analytics",
+    "code": "MGT 155",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Securitization",
+    "code": "MGT 157",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate and the Tech Sector",
+    "code": "MGT 158",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Analytics",
+    "code": "MGT 159T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experiments in Firms",
+    "code": "MGT 160",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Negotiations",
+    "code": "MGT 162",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Negotiations",
+    "code": "MGT 162R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business and Organizational Leadership",
+    "code": "MGT 164",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business and Organizational Leadership",
+    "code": "MGT 164GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Ethics and Corporate Responsibility",
+    "code": "MGT 166",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Entrepreneurship",
+    "code": "MGT 167",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Management Information Systems",
+    "code": "MGT 170",
+    "raw_prereq": "MGT 153.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operations Management",
+    "code": "MGT 171",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operations Management",
+    "code": "MGT 171R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Project Management",
+    "code": "MGT 172",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Project Management",
+    "code": "MGT 172R",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Project Management: Health Services",
+    "code": "MGT 173",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supply Chain Management",
+    "code": "MGT 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategic Cost Management",
+    "code": "MGT 176",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analytics and Spreadsheet Modeling in Supply Chain Management",
+    "code": "MGT 177",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Innovation, Technology, and Operations Management",
+    "code": "MGT 179",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Finance",
+    "code": "MGT 180",
+    "raw_prereq": "ECE 109 or ECON 100A or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Finance",
+    "code": "MGT 180R",
+    "raw_prereq": "ECE 109 or ECON 100A or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enterprise Finance",
+    "code": "MGT 181",
+    "raw_prereq": "upper-division standing and (MATH 10A or MATH 20A or MGT 3) and (MGT 5 or MGT 45) and (MGT 4 or MGT 45 or ECON 4).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH5"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Investments",
+    "code": "MGT 183",
+    "raw_prereq": "ECON 173B or MGT 180 or MGT 180R or MGT 181 or MGT 187.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON173B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Money and Banking",
+    "code": "MGT 184",
+    "raw_prereq": "ECON 173B or MGT 180 or MGT 180R or MGT 181 or MGT 187.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON173B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Investment Banking",
+    "code": "MGT 185",
+    "raw_prereq": "ECON 173B or MGT 180 or MGT 181 or MGT 187 and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON173B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT187"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Finance",
+    "code": "MGT 187",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Collecting and Analyzing Financial Data",
+    "code": "MGT 188",
+    "raw_prereq": "MGT 180 or MGT 180R or MGT 181.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT180R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Finance",
+    "code": "MGT 189",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "MGT 198",
+    "raw_prereq": "upper-division standing and instructor consent and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Independent Study",
+    "code": "MGT 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Management Communications",
+    "code": "MGT 402",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics for Managers",
+    "code": "MGT 403",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics for Managers",
+    "code": "MGT 403R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Accounting",
+    "code": "MGT 404",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Accounting",
+    "code": "MGT 404R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managerial Economics",
+    "code": "MGT 405",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managerial Economics",
+    "code": "MGT 405R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leading People",
+    "code": "MGT 406",
+    "raw_prereq": "MBA student or department or instructor approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leading People",
+    "code": "MGT 406R",
+    "raw_prereq": "Executive MBA student or department or instructor approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marketing",
+    "code": "MGT 407",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marketing",
+    "code": "MGT 407R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finance",
+    "code": "MGT 408",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finance",
+    "code": "MGT 408R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leading in Networks and Organizations",
+    "code": "MGT 409",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leading in Networks and Organizations",
+    "code": "MGT 409R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategy",
+    "code": "MGT 410",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategy",
+    "code": "MGT 410R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Design",
+    "code": "MGT 412",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Design",
+    "code": "MGT 412R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operations Management",
+    "code": "MGT 413",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operations Management",
+    "code": "MGT 413R",
+    "raw_prereq": "Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rady Action Project",
+    "code": "MGT 414",
+    "raw_prereq": "MBA student or by instructor approval or by department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rady Action Project",
+    "code": "MGT 414R",
+    "raw_prereq": "Executive MBA student or by instructor approval or by department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Development",
+    "code": "MGT 415",
+    "raw_prereq": "MBA student or by instructor approval or by department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Readings in Management",
+    "code": "MGT 416",
+    "raw_prereq": "MBA students only or consent of instructor with department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Business Law Issues",
+    "code": "MGT 417",
+    "raw_prereq": "MBA students only or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Business Immersion",
+    "code": "MGT 419",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Negotiation",
+    "code": "MGT 420",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Negotiation",
+    "code": "MGT 420R",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CEO, the Board of Directors, and Corporate Governance",
+    "code": "MGT 421",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Creativity and Innovation",
+    "code": "MGT 422",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Opportunity and Business Model Analysis",
+    "code": "MGT 425",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Creating a High-Performing Workplace",
+    "code": "MGT 426",
+    "raw_prereq": "MBA student or department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decision Analysis",
+    "code": "MGT 427",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managerial Decision-Making",
+    "code": "MGT 428",
+    "raw_prereq": "MGT 409 and MBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT409"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Corporate Governance",
+    "code": "MGT 429",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biotechnology Industry, Structure, and Strategy",
+    "code": "MGT 430",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power and Politics",
+    "code": "MGT 431",
+    "raw_prereq": "MBA student or by department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power and Politics",
+    "code": "MGT 431R",
+    "raw_prereq": "MBA student or by department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Knowledge Management for Strategic Advantage",
+    "code": "MGT 432",
+    "raw_prereq": "MGT 403 and MGT 413; MBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT403"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MGT413"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managing Health Care and Life Sciences",
+    "code": "MGT 433",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategic Communications and Storytelling",
+    "code": "MGT 434",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Organizational Behavior",
+    "code": "MGT 439",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supply Chain Cost Management Strategy",
+    "code": "MGT 440",
+    "raw_prereq": "MGT 413 and MBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT413"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategic Sourcing",
+    "code": "MGT 441",
+    "raw_prereq": "MGT 413 and MBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT413"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Decision Sciences",
+    "code": "MGT 442",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in International Business",
+    "code": "MGT 443",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Business Strategy",
+    "code": "MGT 444",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Regulation and Innovation",
+    "code": "MGT 445",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Spreadsheet Modeling",
+    "code": "MGT 446",
+    "raw_prereq": "MGT 413 and MBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT413"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leveraging Blockchain Technologies: The Case Study of Healthcare Transformation",
+    "code": "MGT 448",
+    "raw_prereq": "MGT 413 and MBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT413"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Operations and Technology",
+    "code": "MGT 449",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Project Management",
+    "code": "MGT 450",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AI and Disruptive Technology Strategy",
+    "code": "MGT 451",
+    "raw_prereq": "MBA student or instructor approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AI and Disruptive Technology Strategy",
+    "code": "MGT 451R",
+    "raw_prereq": "MBA student or instructor approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Product Development",
+    "code": "MGT 452",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Product Development",
+    "code": "MGT 452R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supply Chain Management",
+    "code": "MGT 453",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supply Chain Management",
+    "code": "MGT 453R",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Disruptive Technologies for Health Care",
+    "code": "MGT 454",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Customer Analytics and AI",
+    "code": "MGT 455",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Customer Analytics and AI",
+    "code": "MGT 455R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innovative Product and Program Management",
+    "code": "MGT 456",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experiments in Firms",
+    "code": "MGT 458",
+    "raw_prereq": "restricted to MBA students or by instructor or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experiments in Firms",
+    "code": "MGT 458R",
+    "raw_prereq": "restricted to MBA students or by instructor or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Innovation",
+    "code": "MGT 459",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Economics and Market Design",
+    "code": "MGT 461R",
+    "raw_prereq": "Executive MBA student or department or instructor approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Projects in Technology Commercialization",
+    "code": "MGT 463",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Projects in Business Innovation",
+    "code": "MGT 464",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Accounting",
+    "code": "MGT 469",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Disruption",
+    "code": "MGT 470",
+    "raw_prereq": "MGT 407 and MBA or MSBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT407"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Transformation",
+    "code": "MGT 471",
+    "raw_prereq": "MGT 407 and MBA or MSBA student or by instructor approval or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT407"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science with Large Language Models",
+    "code": "MGT 473",
+    "raw_prereq": "MGT 403 or MGT 403R; MBA student or department and instructor approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT403"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT403R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research for Marketing Decisions",
+    "code": "MGT 475",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marketing Strategy",
+    "code": "MGT 476",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Consumer Behavior",
+    "code": "MGT 477",
+    "raw_prereq": "MGT 407 or MGT 407R; MBA student or instructor approval or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT407"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT407R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Consumer Behavior",
+    "code": "MGT 477R",
+    "raw_prereq": "MGT 407 or MGT 407R; MBA student or instructor approval or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT407"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT407R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marketing Communications",
+    "code": "MGT 478",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pricing",
+    "code": "MGT 479",
+    "raw_prereq": "MGT 407 and MBA student or consent of instructor and department stamp.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT407"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sales and Sales Management",
+    "code": "MGT 480",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Media Marketing",
+    "code": "MGT 481",
+    "raw_prereq": "MBA student or by instructor approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brand Management",
+    "code": "MGT 482",
+    "raw_prereq": "MBA student or by instructor or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brand Management",
+    "code": "MGT 482R",
+    "raw_prereq": "MBA student or by instructor or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "E-Commerce",
+    "code": "MGT 485",
+    "raw_prereq": "MBA student or by department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Finance",
+    "code": "MGT 486",
+    "raw_prereq": "MGT 408 or MGT 408R; MBA student or instructor approval or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT408"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT408R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Finance",
+    "code": "MGT 486R",
+    "raw_prereq": "MGT 408 or MGT 408R; Executive MBA student or instructor approval or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT408"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT408R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Valuation in Corporate Finance",
+    "code": "MGT 487",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Market Research",
+    "code": "MGT 488R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Marketing",
+    "code": "MGT 489",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mergers, Acquisitions, and Corporate Restructurings",
+    "code": "MGT 490",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Investments",
+    "code": "MGT 491",
+    "raw_prereq": "MGT 408 and MBA student or consent of instructor and department stamp.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT408"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Risk Management",
+    "code": "MGT 492",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Risk Management",
+    "code": "MGT 492R",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Finance",
+    "code": "MGT 493",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Finance",
+    "code": "MGT 493R",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Statement Analysis",
+    "code": "MGT 494",
+    "raw_prereq": "MBA student or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Finance",
+    "code": "MGT 495",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Venture Capital Management I",
+    "code": "MGT 496A",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Venture Capital Management II",
+    "code": "MGT 496B",
+    "raw_prereq": "MGT 496A and MBA student or consent of instructor and department stamp.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT496A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Management Research Practicum",
+    "code": "MGT 497",
+    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Individual Directed Study",
+    "code": "MGT 499",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Forecasting",
+    "code": "MGTF 405",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Finance",
+    "code": "MGTF 406",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Portfolio Theory in Practice",
+    "code": "MGTF 432",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Accounting",
+    "code": "MGTF 401",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Investment Analysis",
+    "code": "MGTF 402",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Financial Risk Management",
+    "code": "MGTF 403",
+    "raw_prereq": "restricted to master of quantitative finance program or instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Econometrics and Empirical Methods",
+    "code": "MGTF 404",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Forecasting",
+    "code": "MGTF 405",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Finance",
+    "code": "MGTF 406",
+    "raw_prereq": "MMGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MMGTF402"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Valuation in Corporate Finance",
+    "code": "MGTF 407",
+    "raw_prereq": "MGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGTF402"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Finance",
+    "code": "MGTF 408",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mergers, Acquisitions, and Corporate Restructuring",
+    "code": "MGTF 409",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Venture Finance",
+    "code": "MGTF 410",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Asset Pricing Theory",
+    "code": "MGTF 411",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Statement Analysis",
+    "code": "MGTF 412",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Finance Methods",
+    "code": "MGTF 413",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analyzing Large Data",
+    "code": "MGTF 414",
+    "raw_prereq": "restricted to master of finance program or by consent of instructor and department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Collecting and Analyzing Financial Data",
+    "code": "MGTF 415",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Seminars in Finance",
+    "code": "MGTF 416",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Communications in Finance",
+    "code": "MGTF 417",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Preparing for the CFA Exam",
+    "code": "MGTF 418",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CFA Level II Exam Preparation",
+    "code": "MGTF 419",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Markets and Institutions",
+    "code": "MGTF 420",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corporate Finance",
+    "code": "MGTF 421",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Derivatives and Structured Finance",
+    "code": "MGTF 422",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science for Finance",
+    "code": "MGTF 423",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science for Finance—Machine Learning Applications",
+    "code": "MGTF 424",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Asset Management",
+    "code": "MGTF 430",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Portfolio Theory in Practice",
+    "code": "MGTF 432",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Innovations for Economic Development",
+    "code": "MGTF 458",
+    "raw_prereq": "restricted to master of finance program or by department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Capstone: Applied Finance Project",
+    "code": "MGTF 490",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Finance",
+    "code": "MGTF 495",
+    "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Driven Communications",
+    "code": "MGTA 402",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AI-Assisted Math and Programming for Business Analytics",
+    "code": "MGTA 403",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Web Data Analytics",
+    "code": "MGTA 414",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analyzing Unstructured Data",
+    "code": "MGTA 415",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics Consulting",
+    "code": "MGTA 444",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics in Marketing, Finance, and Operations",
+    "code": "MGTA 451",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Collecting and Analyzing Large Data",
+    "code": "MGTA 452",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics",
+    "code": "MGTA 453",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics Capstone Project",
+    "code": "MGTA 454",
+    "raw_prereq": "MGTA 451, MGTA 452, MGTA 453, and restricted to MS in business analytics program or with department and instructor approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGTA451"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGTA452"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGTA453"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics Capstone Project I",
+    "code": "MGTA 454A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics Capstone Project II",
+    "code": "MGTA 454B",
+    "raw_prereq": "MGTA 454A and restricted to MS in business analytics program or with department and instructor approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGTA454A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Customer Analytics and AI",
+    "code": "MGTA 455",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Customer Analytics",
+    "code": "MGTA 455R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supply Chain Analytics",
+    "code": "MGTA 456",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Intelligence Systems",
+    "code": "MGTA 457",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experiments in Business Analytics",
+    "code": "MGTA 458",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Managerial Judgment and Decision-Making",
+    "code": "MGTA 459",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Analytics Project Management",
+    "code": "MGTA 460",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Web Mining and Recommender Systems",
+    "code": "MGTA 461",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Big Data Technology and Business",
+    "code": "MGTA 462",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fraud Analytics",
+    "code": "MGTA 463",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fraud Analytics",
+    "code": "MGTA 463R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "SQL and ETL",
+    "code": "MGTA 464",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scalable Analytics",
+    "code": "MGTA 466",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pricing Analytics",
+    "code": "MGTA 479",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Business Analytics",
+    "code": "MGTA 495",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Seminar",
+    "code": "MGTP 401",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Law",
+    "code": "MGTP 414",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics in Accounting and Business",
+    "code": "MGTP 416",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Internal Control over Financial Reporting",
+    "code": "MGTP 421",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems, Processes, and Technology for Accounting",
+    "code": "MGTP 422",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Communications for Accountants",
+    "code": "MGTP 424",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Research for Accountants",
+    "code": "MGTP 425",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Accounting and Auditing",
+    "code": "MGTP 429",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Not-for-profit and Government Accounting",
+    "code": "MGTP 431",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Auditing and Forensic Accounting",
+    "code": "MGTP 432",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Issues in the Practice and Regulation of Auditing",
+    "code": "MGTP 433",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Statement Analysis",
+    "code": "MGTP 434",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Accounting for Mergers and Acquisitions",
+    "code": "MGTP 435",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corporate Valuation and Forecasting",
+    "code": "MGTP 441",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Taxation and Business Strategy",
+    "code": "MGTP 443",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Issues in Financial Reporting for Global Business: Mergers, Acquisitions, and Complex Financial Structures",
+    "code": "MGTP 444",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Accounting Data Analytics",
+    "code": "MGTP 451",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategic Cost Management and Technology",
+    "code": "MGTP 452",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Taxation",
+    "code": "MGTP 459",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topic in Accounting",
+    "code": "MGTP 495",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Management Research A",
+    "code": "MGT 208A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Management Research B",
+    "code": "MGT 208B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Management Research C",
+    "code": "MGT 208C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Economics",
+    "code": "MGT 225",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theory of Industrial Organization and Business Strategy",
+    "code": "MGT 226",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Behavioral Economics Research",
+    "code": "MGT 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experiments in Organizations",
+    "code": "MGT 228",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theory of Technology and Operations Management",
+    "code": "MGT 245",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in Management and Technology Strategy",
+    "code": "MGT 246",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Innovation and Operations Management Research",
+    "code": "MGT 248",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Technology Strategy and Information Systems Research",
+    "code": "MGT 249",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Programming and Data Inference I",
+    "code": "MGT 252",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Programming and Data Inference II",
+    "code": "MGT 253",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology and Decision Making",
+    "code": "MGT 255",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Consumer Behavior Research",
+    "code": "MGT 256",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavior in Organizations",
+    "code": "MGT 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Social Psychology",
+    "code": "MGT 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Management",
+    "code": "MGT 259",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Methods in Marketing",
+    "code": "MGT 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Marketing Research",
+    "code": "MGT 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Economics",
+    "code": "MGT 285",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Continuous-Time Finance",
+    "code": "MGT 286",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Empirical Finance",
+    "code": "MGT 287",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Financial Economics Research",
+    "code": "MGT 289",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Literature Review and Critique Paper",
+    "code": "MGT 293A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Literature Review and Critique Presentation",
+    "code": "MGT 293B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation",
+    "code": "MGT 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Field Advising",
+    "code": "MGT 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

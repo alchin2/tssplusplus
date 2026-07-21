@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Issues in Science Education Research",
+    "code": "MSED 290",
+    "raw_prereq": "admission to the Joint Doctoral Program in Mathematics and Science Education or a master’s degree in biology, chemistry/biochemistry, mathematics, or physics with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Practicum",
+    "code": "MSED 294",
+    "raw_prereq": "admission to the Joint Doctoral Program in Mathematics and Science Education. (S/U grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MSED Orientation Practicum",
+    "code": "MSED 295",
+    "raw_prereq": "admission to MSED Joint Doctoral Program. (S/U grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theories and Applications of Mathematics and Science Education",
+    "code": "MSED 296A",
+    "raw_prereq": "admission to the Joint Doctoral Program in Mathematics and Science Education or a master’s degree in biology, chemistry/biochemistry, mathematics, or physics with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theories and Applications of Mathematics and Science Education",
+    "code": "MSED 296B",
+    "raw_prereq": "admission to the Joint Doctoral Program in Mathematics and Science Education or a master’s degree in biology, chemistry/biochemistry, mathematics, or physics with consent of instructor. MSED 296A must be taken before MSED 296B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MSED296A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theories and Applications of Mathematics and Science Education",
+    "code": "MSED 296C",
+    "raw_prereq": "admission to the Joint Doctoral Program in Mathematics and Science Education or a master’s degree in biology, chemistry/biochemistry, mathematics, or physics with consent of instructor. MSED 296B must be taken before MSED 296C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MSED296B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Math and Science Education",
+    "code": "MSED 297",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Project",
+    "code": "MSED 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reading and Research",
+    "code": "MSED 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

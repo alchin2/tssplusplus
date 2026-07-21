@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Introduction to Environmental Studies(4)",
+    "code": "ENVR 30",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Studies First-year Seminar",
+    "code": "ENVR 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Environmental Studies",
+    "code": "ENVR 102",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Conservation Solutions",
+    "code": "ENVR 105",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Law",
+    "code": "ENVR 110",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Law and Federal Indian Policy",
+    "code": "ENVR 111",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Coastal Ecology",
+    "code": "ENVR 120",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wilderness and Human Values",
+    "code": "ENVR 140",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wilderness and Human Values Workshop",
+    "code": "ENVR 141",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wilderness and Human Values Abroad",
+    "code": "ENVR 142GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wilderness Training",
+    "code": "ENVR 144",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Justice",
+    "code": "ENVR 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Justice",
+    "code": "ENVR 150GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Indigenous Approaches to Climate Change",
+    "code": "ENVR 152",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "ENVR 195",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "ENVR 198",
+    "raw_prereq": "upper-division standing or consent of instructor. Department stamp required. May be taken three times for credit as topics vary.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "ENVR 199",
+    "raw_prereq": "consent of instructor, director of Environmental Studies. May be taken two times for credit as content varies. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching in Environmental Studies",
+    "code": "ENVR 500",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

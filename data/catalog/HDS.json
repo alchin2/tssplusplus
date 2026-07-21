@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Introduction to Human Developmental Sciences",
+    "code": "HDS 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Statistical Analysis",
+    "code": "HDS 60",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Career Development Seminar",
+    "code": "HDS 95",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "HDS 98",
+    "raw_prereq": "completion of thirty units and a minimum UC San Diego GPA of 3.0. Students may enroll for no more than a total of two units in one quarter. Department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Human Developmental Sciences",
+    "code": "HDS 99",
+    "raw_prereq": "completion of thirty units and a minimum UC San Diego GPA of 3.0. Department authorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain and Behavioral Development",
+    "code": "HDS 110",
+    "raw_prereq": "HDP 1 or HDS 1 or PSYC 101.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolutionary Principles in Human Development",
+    "code": "HDS 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language Development",
+    "code": "HDS 120",
+    "raw_prereq": "HDP 1 or HDS 1 or LIGN 4.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Developing Mind",
+    "code": "HDS 121",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Development of Social Cognition",
+    "code": "HDS 122",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cross-Cultural Perspectives on Developmental Science",
+    "code": "HDS 133",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar",
+    "code": "HDS 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics Seminar in Human Developmental Sciences",
+    "code": "HDS 160",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Diversity in Human Development: A Cultural Competency Approach",
+    "code": "HDS 171",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Media, and Identity Development Across the Lifespan",
+    "code": "HDS 173",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power, Wealth, and Inequality in Human Development",
+    "code": "HDS 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Projects in Human Development Research",
+    "code": "HDS 181",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Research in Human Development",
+    "code": "HDS 191",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research in Human Developmental Sciences",
+    "code": "HDS 193",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis in Human Developmental Sciences",
+    "code": "HDS 194A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instructional Apprentice in Human Developmental Sciences",
+    "code": "HDS 195",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Human Developmental Sciences",
+    "code": "HDS 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "First Year Experience",
+    "code": "SXTH 1",
+    "raw_prereq": "open to Sixth College NFRS only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transfer Year Experience",
+    "code": "SXTH 2",
+    "raw_prereq": "open to Sixth College transfer students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Honors Seminar",
+    "code": "SXTH 20",
+    "raw_prereq": "by invitation only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

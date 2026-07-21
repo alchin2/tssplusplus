@@ -1,0 +1,1539 @@
+[
+  {
+    "name": "Introduction to Public Health",
+    "code": "PH 40",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Methods and Ethics in Public Health Research",
+    "code": "PH 45",
+    "raw_prereq": "PH 40 or FMPH 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PH40"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Primary Care and Public Health",
+    "code": "PH 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Racism as a Public Health Crisis",
+    "code": "PH 80",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Public Health Perspective",
+    "code": "PH 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring Public Health",
+    "code": "PH 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Public Health",
+    "code": "PH 91",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Medical School Prep 101",
+    "code": "PH 95",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "PH 98",
+    "raw_prereq": "completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, consent of instructor, and a completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "PH 99",
+    "raw_prereq": "completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, consent of instructor, and a completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Epidemiology",
+    "code": "PH 101",
+    "raw_prereq": "PH 40 or FMPH 40 and PSYC 60, HDS 60, MATH 11, or COGS 14B, and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistics in Public Health",
+    "code": "PH 102",
+    "raw_prereq": "PH 40 or FMPH 40 and PSYC 60, HDS 60, MATH 11, or COGS 14B, and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Behavior and Chronic Diseases",
+    "code": "PH 110",
+    "raw_prereq": "PH 40 or FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PH40"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Policies for Healthy Lifestyles",
+    "code": "PH 120",
+    "raw_prereq": "PH 40 or FMPH 40 and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental and Occupational Health",
+    "code": "PH 130",
+    "raw_prereq": "PH 40 or FMPH 40, PH 101 or FMPH 101, and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planning, Conducting, and Reporting Responsible and Ethical Research",
+    "code": "PH 151",
+    "raw_prereq": "PH 40 or FMPH 40 and sophomore standing. Renumbered from FMPH 151. Students may only receive credit for one of these courses: PH 151, PH 151R, or FMPH 151.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH151"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH151R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planning, Conducting, and Reporting Responsible and Ethical Research",
+    "code": "PH 151R",
+    "raw_prereq": "PH 40 or FMPH 40 and sophomore standing. This is a distance education course. Students may only receive credit for one of these courses: PH 151, PH 151R, or FMPH 151.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH151"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH151R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Qualitative Research for Global Public Health",
+    "code": "PH 155",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Skills for Health Promotion and Communication",
+    "code": "PH 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Intersectionality, and Public Health",
+    "code": "PH 157",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Nutrition in Public Health",
+    "code": "PH 161",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Digital Health",
+    "code": "PH 162",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Epidemiology and Outbreak Investigations",
+    "code": "PH 171",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Immunizations and Public Health",
+    "code": "PH 172",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Public Health",
+    "code": "PH 191",
+    "raw_prereq": "PH 40 or FMPH 40. Additional prerequisites may be required at instructor’s discretion. Restricted enrollment to sophomore, junior, and senior standing. Department approval required. Renumbered from FMPH 191.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PH40"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Capstone I",
+    "code": "PH 193",
+    "raw_prereq": "PH 40 or FMPH 40, PH 45, PH 101 or FMPH 101, PH 102 or FMPH 102, PH 110 or FMPH 110, and PH 120 or FMPH 120. Department approval required. Restricted to senior public health majors only. Renumbered from FMPH 193. Students may only receive credit for one of the following: PH 193, PH 193R, or FMPH 193.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH110"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH193"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH193R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Capstone I",
+    "code": "PH 193R",
+    "raw_prereq": "PH 40 or FMPH 40, PH 45, PH 101 or FMPH 101, PH 102 or FMPH 102, PH 110 or FMPH 110, and PH 120 or FMPH 120. Department approval required. Restricted to senior public health majors only. This is a distance education course. Students may only receive credit for one of the following: PH 193, PH 193R, or FMPH 193.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH110"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH193"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH193R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Capstone II",
+    "code": "PH 194",
+    "raw_prereq": "PH 40 or FMPH 40, PH 45, PH 101 or FMPH 101, PH 102 or FMPH 102, PH 110 or FMPH 110, PH 120 or FMPH 120, and PH 193 or FMPH 193. Department approval required. Restricted to senior public health majors only. Renumbered from FMPH 194. Students may only receive credit for one of the following: PH 194, PH 194R, or FMPH 194.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH120"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH193"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH194"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH194R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Capstone II",
+    "code": "PH 194R",
+    "raw_prereq": "PH 40 or FMPH 40, PH 45, PH 101 or FMPH 101, PH 102 or FMPH 102, PH 110 or FMPH 110, PH 120 or FMPH 120, and PH 193 or FMPH 193. Department approval required. Restricted to senior public health majors only. This is a distance education course. Students may only receive credit for one of the following: PH 194, PH 194R, or FMPH 194.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH120"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH193"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH194"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH194R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "PH 195P",
+    "raw_prereq": "a minimum of A– in the course in which the student plans to assist, a 3.0 cumulative UC GPA, and instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Honors Practicum I",
+    "code": "PH 196AH",
+    "raw_prereq": "PH 40 or FMPH 40, PH 45, PH 101 or FMPH 101, PH 102 or FMPH 102, PH 110 or FMPH 110, PH 120 or FMPH 120. Department approval required. Restricted to upper-division public health majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH120"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Honors Practicum II",
+    "code": "PH 196BH",
+    "raw_prereq": "PH 196AH. Department approval required. Restricted to upper-division public health majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "PH 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "PH 199",
+    "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistical Methods I",
+    "code": "PHB 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistical Methods II",
+    "code": "PHB 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analysis of Longitudinal Data",
+    "code": "PHB 223",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistical Methods in Clinical Trials",
+    "code": "PHB 224",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Non- and Semi-Parametric Statistics and Functional Data",
+    "code": "PHB 225",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Methods for Observational Studies",
+    "code": "PHB 226",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning and Multivariate Analysis",
+    "code": "PHB 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Computing",
+    "code": "PHB 228",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistics Rotation",
+    "code": "PHB 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Biostatistics",
+    "code": "PHB 242",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Biostatistics A",
+    "code": "PHB 243A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Biostatistics B",
+    "code": "PHB 243B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations in Biostatistics A",
+    "code": "PHB 244A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations in Biostatistics B",
+    "code": "PHB 244B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Survival Analysis",
+    "code": "PHB 248",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Policy, Technology, and Public Health",
+    "code": "PH 277",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistics Journal Club",
+    "code": "PHB 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistics Seminar Series",
+    "code": "PHB 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Public Health",
+    "code": "PH 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Methods in Health Services A",
+    "code": "PH 220A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing Successful Dissertation Research Grants",
+    "code": "PH 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Methods in Implementation Science",
+    "code": "PH 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mixed Methods Research",
+    "code": "PH 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Epidemiology of Aging",
+    "code": "PH 233",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Epidemiology of Aging Lab",
+    "code": "PH 233L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Grant Writing for Public Health",
+    "code": "PH 235",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Life Course Research",
+    "code": "PH 240",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Genetic Epidemiology",
+    "code": "PH 251",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "JDP Public Health Seminar",
+    "code": "PH 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Epidemiology Practicum",
+    "code": "PH 259",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Writing",
+    "code": "PH 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Presentation",
+    "code": "PH 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cultural Perceptions about Health and Disease",
+    "code": "PH 270",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "HSRIS Colloquium Series",
+    "code": "PH 275",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Addressing Health Equity through Policy",
+    "code": "PH 277",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scale Development for Behavioral Health Measurement",
+    "code": "PH 278",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Global Health and Health Behavior",
+    "code": "PH 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Qualitative Research Methods",
+    "code": "PH 288",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissemination and Implementation Science in Health: An Introduction",
+    "code": "PH 289R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Public Health",
+    "code": "PH 291",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Community-Engaged Research Practicum",
+    "code": "PH 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Public Health",
+    "code": "PH 297",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Research in Public Health",
+    "code": "PH 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Methods in Public Health",
+    "code": "PH 509",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Public Health",
+    "code": "PHB 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Research",
+    "code": "PHB 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Biostatistics",
+    "code": "PH 400",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Epidemiology",
+    "code": "PH 401",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Health Behavior",
+    "code": "PH 402",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Research Methods",
+    "code": "PH 403",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Environmental and Occupational Health",
+    "code": "PH 404",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Health Policy",
+    "code": "PH 405",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Writing",
+    "code": "PH 406",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Behavior Interventions",
+    "code": "PH 410",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Program Optimization and Evaluation",
+    "code": "PH 411",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Promotion and Communication",
+    "code": "PH 412",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics in Public Health Research and Practice",
+    "code": "PH 413",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Epidemiologic Methods",
+    "code": "PH 415",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cardiovascular Disease Epidemiology",
+    "code": "PH 417",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cardiovascular Disease Epidemiology",
+    "code": "PH 417R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Infectious Diseases and Public Health",
+    "code": "PH 418",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistics II",
+    "code": "PH 419",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Infectious Disease Epidemic and Economic Modeling for Health Policymaking",
+    "code": "PH 420",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Mental Health Epidemiology",
+    "code": "PH 425",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Mental and Behavior Health and Addiction",
+    "code": "PH 426",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mental Health Across the Life Course",
+    "code": "PH 427",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissemination and Implementation, Policy, and Health Services in Mental Health",
+    "code": "PH 428",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Substance Use and Population Health",
+    "code": "PH 429",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technology and Precision Health",
+    "code": "PH 430",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Informatics",
+    "code": "PH 431",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Health Economics",
+    "code": "PH 440",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Organization and Financing of the U",
+    "code": "PH 441",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Qualitative Research Methods",
+    "code": "PH 442",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design and Public Health",
+    "code": "PH 460",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Issues in Public Health",
+    "code": "PH 461",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Non-Communicable Diseases and Global Health",
+    "code": "PH 462",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "VIIDAI: Public Health Field Practice in Baja",
+    "code": "PH 463",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Foundation and Government Grant Writing",
+    "code": "PH 480",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Public Health",
+    "code": "PH 491",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Leadership in Practice",
+    "code": "PH 496A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPH Practicum Field Placement",
+    "code": "PH 496B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "PH 498",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Master’s Capstone/Thesis",
+    "code": "PH 499",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exposure Assessment and Biomarkers in Epidemiology",
+    "code": "FPM 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Nutrition",
+    "code": "FPM 233",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microarray Technology and Informatics",
+    "code": "FPM 237",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Clinical Family Medicine",
+    "code": "FPM 238",
+    "raw_prereq": "medical student status.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical and Public Health Elective, Baja California, Mexico",
+    "code": "FPM 244",
+    "raw_prereq": "UC San Diego SOM student and graduate students with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Occupational/Environmental Health",
+    "code": "FPM 246",
+    "raw_prereq": "SM 208.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Epidemiology Seminar",
+    "code": "FPM 247",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cancer: Cause and Prevention",
+    "code": "FPM 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Doctoral Lecture Series I",
+    "code": "FPM 258A",
+    "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Doctoral Lecture Series II",
+    "code": "FPM 258B",
+    "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student, FPM 258A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Health Doctoral Lecture Series III",
+    "code": "FPM 258C",
+    "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student, FPM 258B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Epidemiology—Scientific Analysis",
+    "code": "FPM 259A",
+    "raw_prereq": "Joint Doctoral Program in Public Health graduate students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Epidemiology—Scientific Writing",
+    "code": "FPM 259B",
+    "raw_prereq": "Joint Doctoral Program in Public Health graduate student, FPM 259A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Epidemiology—Scientific Presentations",
+    "code": "FPM 259C",
+    "raw_prereq": "Joint Doctoral Program in Public Health graduate student, FPM 259B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cultural Perceptions of Health and Disease",
+    "code": "FPM 270",
+    "raw_prereq": "medical or graduate student. Other students admitted with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Community Advocacy",
+    "code": "FPM 272",
+    "raw_prereq": "medical student.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Behavior Interventions I",
+    "code": "FPM 276",
+    "raw_prereq": "must be enrolled in the SDSU/UC San Diego Joint Doctoral Program in Public Health.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Behavior Interventions II",
+    "code": "FPM 277",
+    "raw_prereq": "must be enrolled in the UC San Diego/SDSU Joint Doctoral Program in Public Health (PU 75 and PU 76).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scale Development for Behavioral Health Measurement",
+    "code": "FPM 278",
+    "raw_prereq": "must be enrolled in the SDSU/UC San Diego Joint Doctoral Program in Public Health. Graduate level statistics or research methods class.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Health Behavior I",
+    "code": "FPM 280A",
+    "raw_prereq": "must be enrolled in the SDSU/UC San Diego Joint Doctoral Program in Public Health (PU75 and PU75). Courses must be completed in sequence (e.g., A before B and B before C).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Health Behavior II",
+    "code": "FPM 280B",
+    "raw_prereq": "must be enrolled in the SDSU/UC San Diego Joint Doctoral Program in Public Health (PU75 and PU75). Courses must be completed in sequence (e.g., A before B and B before C).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Health Behavior III",
+    "code": "FPM 280C",
+    "raw_prereq": "must be enrolled in the SDSU/UC San Diego Joint Doctoral Program in Public Health (PU75 and PU75). Courses must be completed in sequence (e.g., A before B and B before C).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Free Clinic II",
+    "code": "FPM 286",
+    "raw_prereq": "FPM 272.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Qualitative Research Methods",
+    "code": "FPM 288",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissemination and Implementation Science in Health: An Introduction",
+    "code": "FPM 291",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

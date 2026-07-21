@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Strategic Management and Organizational Change",
+    "code": "LHCO 202",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Using and Managing Information and Information Technologies",
+    "code": "LHCO 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Conflict Resolution, Negotiation, and Team Building",
+    "code": "LHCO 204",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Financial Management and Decision Making",
+    "code": "LHCO 206",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Outcomes and Quality Improvement",
+    "code": "LHCO 209",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistics and Applied Decision Making",
+    "code": "LHCO 212",
+    "raw_prereq": "admission to MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Accounting and Analysis",
+    "code": "LHCO 213",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Health Care",
+    "code": "LHCO 215",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Healthcare Leadership",
+    "code": "LHCO 216",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Project Management for Healthcare Professionals",
+    "code": "LHCO 217",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Development Seminar: Mentorship and Assessment",
+    "code": "LHCO 218",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Process Improvement in Health Care",
+    "code": "LHCO 219",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Health Law",
+    "code": "LHCO 220",
+    "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Topics in Healthcare",
+    "code": "LHCO 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study Project in the Management of Health Care",
+    "code": "LHCO 298",
+    "raw_prereq": "LHCO 218, admission to the MAS in the Leadership of Healthcare Organizations Program, or consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "LHCO218"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  }
+]

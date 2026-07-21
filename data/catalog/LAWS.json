@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Contemporary Legal Issues",
+    "code": "LAWS 101",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Crimes, Civil Wrongs, and Constitution",
+    "code": "LAWS 102S",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

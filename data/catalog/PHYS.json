@@ -1,0 +1,2026 @@
+[
+  {
+    "name": "Mechanics",
+    "code": "PHYS 1A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics Laboratory",
+    "code": "PHYS 1AL",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electricity and Magnetism",
+    "code": "PHYS 1B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electricity and Magnetism Laboratory",
+    "code": "PHYS 1BL",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Waves, Optics, and Modern Physics",
+    "code": "PHYS 1C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Waves, Optics, and Modern Physics Laboratory",
+    "code": "PHYS 1CL",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics—Mechanics",
+    "code": "PHYS 2A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics—Electricity and Magnetism",
+    "code": "PHYS 2B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Laboratory—Mechanics",
+    "code": "PHYS 2BL",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics—Fluids, Waves, Thermodynamics, and Optics",
+    "code": "PHYS 2C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Laboratory—Electricity and Magnetism",
+    "code": "PHYS 2CL",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics—Relativity and Quantum Physics",
+    "code": "PHYS 2D",
+    "raw_prereq": "PHYS 2A or 4A, 2B, and MATH 20D. Recommended preparation: prior or concurrent enrollment in MATH 20E.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Laboratory—Modern Physics",
+    "code": "PHYS 2DL",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics for Physics Majors–Mechanics",
+    "code": "PHYS 4A",
+    "raw_prereq": "MATH 20A. Recommended preparation: prior or concurrent enrollment in MATH 20B and a knowledge of vectors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics",
+    "code": "PHYS 4B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics for Physics Majors—Electricity and Magnetism",
+    "code": "PHYS 4C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics for Physics Majors—Electromagnetic Waves, Special Relativity and Optics",
+    "code": "PHYS 4D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics for Physics Majors—Quantum Physics",
+    "code": "PHYS 4E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics of Everyday Life",
+    "code": "PHYS 8",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concepts in Physics",
+    "code": "PHYS 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Survey of Physics",
+    "code": "PHYS 11",
+    "raw_prereq": "MATH 10A or 20A. Corequisites: MATH 10B or 20B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Energy and the Environment",
+    "code": "PHYS 12",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Poetry for Physicists",
+    "code": "PHYS 30",
+    "raw_prereq": "CAT 2 or DOC 2 or HUM 1 or MCWP 40 or MMW 12 or WARR 11A or WCWP 10A and CAT 3 or DOC 3 or HUM 2 or MCWP 50 or MMW 13 or WARR 11B or WCWP 10B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WARR11A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WCWP10A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WARR11B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Introductory Special Topics",
+    "code": "PHYS 39",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Introductory Special Topics Lab",
+    "code": "PHYS 39L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Computing with Python",
+    "code": "PHYS 41",
+    "raw_prereq": "MATH 20A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "PHYS 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "PHYS 98",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "PHYS 99",
+    "raw_prereq": "lower-division standing. Completion of thirty units at UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electromagnetism I",
+    "code": "PHYS 100A",
+    "raw_prereq": "PHYS 4A-B-C-D; MATH 20A, 20B, 20C or 31BH, 20D, 20E or 31CH, and 18 or 20F or 31AH. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electromagnetism II",
+    "code": "PHYS 100B",
+    "raw_prereq": "PHYS 100A, MATH 20A, 20B, 20C or 31BH, 20D, 20E or 31CH, and 18 or 20F or 31AH. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electromagnetism III",
+    "code": "PHYS 100C",
+    "raw_prereq": "PHYS 100B. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical and Computational Physics I",
+    "code": "PHYS 105A",
+    "raw_prereq": "PHYS 4B-C-D-E, MATH 20A-B-C or 31BH, 20D, 20E or 31CH, and 18 or 20F or 31AH. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical and Computational Physics II",
+    "code": "PHYS 105B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics I",
+    "code": "PHYS 110A",
+    "raw_prereq": "PHYS 4A-B-C-D, MATH 20A-B-C or 31BH, 20D, 20E or 31CH, and 18 or 20F or 31AH. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics II",
+    "code": "PHYS 110B",
+    "raw_prereq": "PHYS 110A, MATH 20A-B-C or 31BH, 20D, 20E or 31CH, and 18 or 20F or 31AH. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS110A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Information is Physical",
+    "code": "PHYS 113",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fluid Dynamics for Physicists",
+    "code": "PHYS 116",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Circuits and Electronics",
+    "code": "PHYS 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Techniques",
+    "code": "PHYS 122",
+    "raw_prereq": "PHYS 120.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory Projects",
+    "code": "PHYS 124",
+    "raw_prereq": "PHYS 120.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Physics I",
+    "code": "PHYS 130A",
+    "raw_prereq": "PHYS 4A-B-C-D-E, 100A, 110A. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Physics II",
+    "code": "PHYS 130B",
+    "raw_prereq": "PHYS 100B and 130A. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS100B"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Physics III",
+    "code": "PHYS 130C",
+    "raw_prereq": "PHYS 130B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Condensed Matter/Materials Science Laboratory",
+    "code": "PHYS 133",
+    "raw_prereq": "PHYS 2CL and 2DL. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2CL"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nuclear Physics",
+    "code": "PHYS 136",
+    "raw_prereq": "PHYS 4D, 100A, 130A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS100A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "String Theory",
+    "code": "PHYS 137",
+    "raw_prereq": "PHYS 100A, 110A, and 130A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS110A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Special Topics",
+    "code": "PHYS 139",
+    "raw_prereq": "PHYS 2A-B-C-D or 4A-B-C-D-E, MATH 20A-B-C or 31BH, and 18 or 20F or 31AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical and Thermal Physics I",
+    "code": "PHYS 140A",
+    "raw_prereq": "PHYS 130A. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical and Thermal Physics II",
+    "code": "PHYS 140B",
+    "raw_prereq": "PHYS 130B and 140A. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS130B"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PY26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PY34"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PY35"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Physics I: Probabilistic Models and Simulations",
+    "code": "PHYS 141",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Physics II: PDE and Matrix Models",
+    "code": "PHYS 142",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elementary Plasma Physics",
+    "code": "PHYS 151",
+    "raw_prereq": "MATH 20D.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Condensed Matter Physics",
+    "code": "PHYS 152A",
+    "raw_prereq": "PHYS 130A or CHEM 130. Corequisites: PHYS 140A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS130A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Materials",
+    "code": "PHYS 152B",
+    "raw_prereq": "PHYS 152A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elementary Particle Physics",
+    "code": "PHYS 154",
+    "raw_prereq": "PHYS 130B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stars and Compact Objects",
+    "code": "PHYS 160",
+    "raw_prereq": "4A-B-C-D-E.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black Holes",
+    "code": "PHYS 161",
+    "raw_prereq": "PHYS 4A-B-C-D-E.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Cosmology",
+    "code": "PHYS 162",
+    "raw_prereq": "PHYS 4A-B-C-D-E.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Medical Instruments: Principles and Practice",
+    "code": "PHYS 170",
+    "raw_prereq": "PHYS 1B or 2B or 4C, and 1C or 2C or 4B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Physics Laboratory: Biological and Quantum Physics",
+    "code": "PHYS 173",
+    "raw_prereq": "PHYS 120 and BILD 1 and CHEM 7L.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS120"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biological Physics",
+    "code": "PHYS 175",
+    "raw_prereq": "CHEM 126 or 131 or 132 or the combination of PHYS 100A and 110A. Recommended preparation: prior or concurrent enrollment in PHYS 140A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM132"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS100A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Microbiology",
+    "code": "PHYS 176",
+    "raw_prereq": "PHYS 140A. Recommended preparation: an introductory course in statistical mechanics or equivalent; ordinary differential equations.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics of the Cell",
+    "code": "PHYS 177",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biophysics of Neurons and Networks",
+    "code": "PHYS 178",
+    "raw_prereq": "upper-division standing. Recommended preparation: a working knowledge of calculus and linear algebra.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar on Physics",
+    "code": "PHYS 191",
+    "raw_prereq": "PHYS 2A or 4A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Physics",
+    "code": "PHYS 192",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "PHYS 198",
+    "raw_prereq": "consent of instructor and departmental chair.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research for Undergraduates",
+    "code": "PHYS 199",
+    "raw_prereq": "consent of instructor and departmental chair.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis Research for Undergraduates",
+    "code": "PHYS 199H",
+    "raw_prereq": "admission to the Honors Program in Physics.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theoretical Mechanics I",
+    "code": "PHYS 200A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dynamics: Deterministic, Stochastic, Statistical",
+    "code": "PHYS 200B",
+    "raw_prereq": "PHYS 200A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods for Physics",
+    "code": "PHYS 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Estimation and Scaling in Physics",
+    "code": "PHYS 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Classical Electrodynamics I",
+    "code": "PHYS 203A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Classical Electrodynamics II",
+    "code": "PHYS 203B",
+    "raw_prereq": "PHYS 203A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Equilibrium Statistical Mechanics",
+    "code": "PHYS 210A",
+    "raw_prereq": "PHYS 200A, 212A-B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonequilibrium Statistical Mechanics",
+    "code": "PHYS 210B",
+    "raw_prereq": "PHYS 210A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid-State Physics I",
+    "code": "PHYS 211A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid-State Physics II",
+    "code": "PHYS 211B",
+    "raw_prereq": "PHYS 210A and PHYS 211A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS210A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanics I",
+    "code": "PHYS 212A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanics II",
+    "code": "PHYS 212B",
+    "raw_prereq": "PHYS 212A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanics III",
+    "code": "PHYS 212C",
+    "raw_prereq": "PHYS 212A-B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Information is Physical",
+    "code": "PHYS 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics of Elementary Particles",
+    "code": "PHYS 214",
+    "raw_prereq": "PHYS 215A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Fields I",
+    "code": "PHYS 215A",
+    "raw_prereq": "PHYS 212C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Fields II",
+    "code": "PHYS 215B",
+    "raw_prereq": "PHYS 215A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Fields III",
+    "code": "PHYS 215C",
+    "raw_prereq": "PHYS 215A-B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Quantum Fields",
+    "code": "PHYS 215D",
+    "raw_prereq": "PHYS 215B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fluid Dynamics for Physicists",
+    "code": "PHYS 216",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Theory and the Renormalization Group",
+    "code": "PHYS 217",
+    "raw_prereq": "PHYS 210A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plasma Physics I",
+    "code": "PHYS 218A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plasma Physics II",
+    "code": "PHYS 218B",
+    "raw_prereq": "PHYS 218A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plasma Physics III",
+    "code": "PHYS 218C",
+    "raw_prereq": "PHYS 218B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Condensed Matter/Materials Science Laboratory",
+    "code": "PHYS 219",
+    "raw_prereq": "PHYS 211A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Group Theoretical Methods in Physics",
+    "code": "PHYS 220",
+    "raw_prereq": "PHYS 212C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonlinear and Nonequilibrium Dynamics of Physical Systems",
+    "code": "PHYS 221A",
+    "raw_prereq": "PHYS 200B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Methods for Particle Physics",
+    "code": "PHYS 222A",
+    "raw_prereq": "PHYS 214 and PHYS 215A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS214"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Relativity",
+    "code": "PHYS 225A-B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "General Relativity",
+    "code": "PHYS 225C",
+    "raw_prereq": "PHYS 225A-B. Recommended preparation: PHYS 212A-B-C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cosmology",
+    "code": "PHYS 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "High-Energy Astrophysics and Compact Objects",
+    "code": "PHYS 228",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Solid-State Physics",
+    "code": "PHYS 230",
+    "raw_prereq": "PHYS 211B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Materials",
+    "code": "PHYS 232",
+    "raw_prereq": "PHYS 211A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Collider Physics",
+    "code": "PHYS 233",
+    "raw_prereq": "PHYS 214 and PHYS 215A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS214"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonlinear Plasma Theory",
+    "code": "PHYS 235",
+    "raw_prereq": "PHYS 218C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Standard Model and Beyond",
+    "code": "PHYS 237",
+    "raw_prereq": "PHYS 215B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics",
+    "code": "PHYS 239",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Physics I: Probabilistic Models and Simulations",
+    "code": "PHYS 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Physics II: PDE and Matrix Models",
+    "code": "PHYS 242",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stochastic Methods",
+    "code": "PHYS 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parallel Computing in Science and Engineering",
+    "code": "PHYS 244",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Condensed Matter Physics Seminar",
+    "code": "PHYS 250",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "High-Energy Physics Seminar",
+    "code": "PHYS 251",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plasma Physics Seminar",
+    "code": "PHYS 252",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysics and Cosmology Seminar",
+    "code": "PHYS 253",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biophysics Seminar",
+    "code": "PHYS 254",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biophysics Research Talks",
+    "code": "PHYS 255",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "High-Energy Physics Special Topics Seminar",
+    "code": "PHYS 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Astrophysics and Space Physics Special Topics Seminar",
+    "code": "PHYS 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Methods in Quantitative Biology",
+    "code": "PHYS 259A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concepts and Methods in Quantitative Physiology",
+    "code": "PHYS 259B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics Colloquium",
+    "code": "PHYS 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Physics Research at UC San Diego",
+    "code": "PHYS 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Method Seminar",
+    "code": "PHYS 264",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Techniques for Quantitative Biology",
+    "code": "PHYS 270A",
+    "raw_prereq": "department approval required. Recommended preparation: knowledge of electronics and optics at the level of introductory calculus, basic statistics, programming skills; knowledge of introductory biology.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Biology Laboratory",
+    "code": "PHYS 270B",
+    "raw_prereq": "PHYS 270A. Department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Information Theory and Pattern Formation in Biological Systems",
+    "code": "PHYS 273",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stochastic Processes in Population Genetics",
+    "code": "PHYS 274",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biological Physics",
+    "code": "PHYS 275",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Microbiology",
+    "code": "PHYS 276",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physics of the Cell",
+    "code": "PHYS 277",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biophysics of Neurons and Networks",
+    "code": "PHYS 278",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurodynamics",
+    "code": "PHYS 279",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Extensions in Physics",
+    "code": "PHYS 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Spatiotemporal Dynamics of Biological Systems",
+    "code": "PHYS 282",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MS Thesis Research in Materials Physics",
+    "code": "PHYS 295",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Studies in Physics",
+    "code": "PHYS 297",
+    "raw_prereq": "instructor and department approval required. (S/U grades permitted.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Study in Physics",
+    "code": "PHYS 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Research in Physics",
+    "code": "PHYS 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instruction in Physics Teaching",
+    "code": "PHYS 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

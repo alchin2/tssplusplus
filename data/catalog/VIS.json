@@ -1,0 +1,2593 @@
+[
+  {
+    "name": "Introduction to Art Making: Two-Dimensional Practices",
+    "code": "VIS 1",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Art Making: Motion and Time-Based Art",
+    "code": "VIS 2",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Art Making: Three-Dimensional Practices",
+    "code": "VIS 3",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Gender, and Robots",
+    "code": "VIS 6",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Movie Magic: From Méliès to Marvel",
+    "code": "VIS 7",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visuality and the African Diaspora",
+    "code": "VIS 8",
+    "raw_prereq": "AAS 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Digital Photography for Non-Majors",
+    "code": "VIS 9",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computing in the Arts Lecture Series",
+    "code": "VIS 10",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Visual Culture",
+    "code": "VIS 11",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race and Class in American Visual Culture",
+    "code": "VIS 12R",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Art in Europe and America",
+    "code": "VIS 20",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Art of the Americas or Africa and Oceania",
+    "code": "VIS 21A",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Asian Art",
+    "code": "VIS 21B",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to African Art",
+    "code": "VIS 21C",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Formations of Modern Art",
+    "code": "VIS 22",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Formations of Modern Art",
+    "code": "VIS 22R",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Art History Methods",
+    "code": "VIS 23",
+    "raw_prereq": "none. Art history majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Speculative Design",
+    "code": "VIS 30",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undead Media: All Things Zombie",
+    "code": "VIS 31",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art, Design, and the Brain",
+    "code": "VIS 32",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Communication",
+    "code": "VIS 41",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Creative Coding",
+    "code": "VIS 42",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Digital Photography",
+    "code": "VIS 60",
+    "raw_prereq": "none. Open to visual arts majors and minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Media",
+    "code": "VIS 70N",
+    "raw_prereq": "none. Open to visual arts and cinematic arts majors and minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Cinematography",
+    "code": "VIS 71",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Directing",
+    "code": "VIS 72",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Editing",
+    "code": "VIS 73",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Studio Major",
+    "code": "VIS 80",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Photographic History",
+    "code": "VIS 83",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Photographic History",
+    "code": "VIS 83R",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Film History",
+    "code": "VIS 84",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Film Aesthetics",
+    "code": "VIS 84B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media History",
+    "code": "VIS 85A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Aesthetics",
+    "code": "VIS 85B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "VIS 87",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Public Culture",
+    "code": "VIS 100",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Public Culture",
+    "code": "VIS 100A",
+    "raw_prereq": "VIS 100.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Urban Ecologies",
+    "code": "VIS 101",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Designing Urban Ecologies",
+    "code": "VIS 101A",
+    "raw_prereq": "VIS 101.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Democratizing the City",
+    "code": "VIS 102",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Architectural Practices",
+    "code": "VIS 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Arts in South Korea",
+    "code": "VIS 103A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Architecture and Urbanism of Korea",
+    "code": "VIS 103B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Silk Roads: A Critical Study",
+    "code": "VIS 103C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Speculative Design: Projects, Programs, and Practices",
+    "code": "VIS 103D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Performance: Art Practice",
+    "code": "VIS 104A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Performance: Art and Material Form",
+    "code": "VIS 104B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Performance: Art and Public Culture",
+    "code": "VIS 104C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drawing: Representing the Subject",
+    "code": "VIS 105A",
+    "raw_prereq": "VIS 80.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drawing: Practices and Genre",
+    "code": "VIS 105B",
+    "raw_prereq": "VIS 105A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drawing: Portfolio Projects",
+    "code": "VIS 105C",
+    "raw_prereq": "VIS 105B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Painting: Image Making",
+    "code": "VIS 106A",
+    "raw_prereq": "VIS 80.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Painting: Practices and Genre",
+    "code": "VIS 106B",
+    "raw_prereq": "VIS 106A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Painting: Portfolio Projects",
+    "code": "VIS 106C",
+    "raw_prereq": "VIS 106B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sculpture: Making the Object",
+    "code": "VIS 107A",
+    "raw_prereq": "VIS 80.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sculpture: Practices and Genre",
+    "code": "VIS 107B",
+    "raw_prereq": "VIS 107A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sculpture: Portfolio Projects",
+    "code": "VIS 107C",
+    "raw_prereq": "VIS 107B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Art",
+    "code": "VIS 108",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Issues and Practices",
+    "code": "VIS 110A",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Practice in the Visual Arts",
+    "code": "VIS 110B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Proposals, Plans, Presentations",
+    "code": "VIS 110C",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visual Narrative",
+    "code": "VIS 110D",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art in Public Spaces/Site-Specific Art",
+    "code": "VIS 110E",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Installation: Cross-Disciplinary Projects",
+    "code": "VIS 110F",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Natural and Altered Environment",
+    "code": "VIS 110G",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art and Text",
+    "code": "VIS 110H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Performing for the Camera",
+    "code": "VIS 110I",
+    "raw_prereq": "senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Studio",
+    "code": "VIS 110K",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Studio Honors I",
+    "code": "VIS 110M",
+    "raw_prereq": "consent of the instructor, department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Studio Honors II",
+    "code": "VIS 110N",
+    "raw_prereq": "VIS 110M.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theories and Methods",
+    "code": "VIS 112",
+    "raw_prereq": "VIS 23.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Criticism I: Early Modern",
+    "code": "VIS 113AN",
+    "raw_prereq": "VIS 112.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Criticism II: Early Twentieth Century",
+    "code": "VIS 113BN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Criticism III: Contemporary",
+    "code": "VIS 113CN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Landscape and Memory",
+    "code": "VIS 114A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Fragment: Uses and Theories",
+    "code": "VIS 114B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Arts and Visual Culture in China",
+    "code": "VIS 114GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Problems in Ethnoaesthetics",
+    "code": "VIS 117E",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theorizing the Americas",
+    "code": "VIS 117F",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Theory and Visual Practice",
+    "code": "VIS 117G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Greek Art",
+    "code": "VIS 120A",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Roman Art",
+    "code": "VIS 120B",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Late Antique Art",
+    "code": "VIS 120C",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art and Experience in the Middle Ages",
+    "code": "VIS 121AN",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Church and Mosque: Medieval Art and Architecture between Christianity and Islam",
+    "code": "VIS 121B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art and the Bible in the Middle Ages: Sign and Design",
+    "code": "VIS 121C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Renaissance Art",
+    "code": "VIS 122AN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Baroque: Painters, Sculptors, Architects",
+    "code": "VIS 122B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The City in Italy",
+    "code": "VIS 122GS",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Art of the African Diaspora",
+    "code": "VIS 123B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art and Visual Culture of the United States",
+    "code": "VIS 123C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art and the Enlightenment",
+    "code": "VIS 124BN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nineteenth-Century Art",
+    "code": "VIS 124CN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Paris, Capital of the Nineteenth Century",
+    "code": "VIS 124D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Production of Nature",
+    "code": "VIS 124E",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art in the Age of Revolutions",
+    "code": "VIS 124F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art and Modernity",
+    "code": "VIS 124G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Twentieth-Century Art",
+    "code": "VIS 125A",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Art",
+    "code": "VIS 125BN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Faces and Powers",
+    "code": "VIS 125E",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Socially Engaged Art",
+    "code": "VIS 125G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Socially Engaged Art",
+    "code": "VIS 125GR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pre-Columbian Art of Ancient Mexico and Central America",
+    "code": "VIS 126AN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Art and Civilization of the Ancient Maya",
+    "code": "VIS 126BN",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Indigenisms I: The Making of the Modern, Nineteenth Century to Mid-Twentieth Century",
+    "code": "VIS 126E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Indigenisms II: Contemporary Disseminations, Neo-Avantgarde to the Present",
+    "code": "VIS 126F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pacific Coast American Indian Art",
+    "code": "VIS 126HN",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Southwest American Indian Art",
+    "code": "VIS 126I",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "African and Afro-American Art",
+    "code": "VIS 126J",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin American Art: Modern to Postmodern, 1890–1950",
+    "code": "VIS 126P",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin American Art: Modern to Postmodern, 1950–Present",
+    "code": "VIS 126Q",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Arts of China",
+    "code": "VIS 127B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Arts of Modern China",
+    "code": "VIS 127C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Issues in Modern and Contemporary Chinese Art",
+    "code": "VIS 127GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Twentieth-Century Art in China and Japan",
+    "code": "VIS 127N",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Arts of Japan",
+    "code": "VIS 127P",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Japanese Painting and Prints",
+    "code": "VIS 127Q",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Art History and Theory",
+    "code": "VIS 128A–E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Premodern Art History",
+    "code": "VIS 128A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Early Modern Art History",
+    "code": "VIS 128B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Modern Art History",
+    "code": "VIS 128C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Art History of the Americas",
+    "code": "VIS 128D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Art History of Asia",
+    "code": "VIS 128E",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Art Criticism and Theory",
+    "code": "VIS 129A–F",
+    "raw_prereq": "VIS 112 or two upper-division courses in art history.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Premodern Art History",
+    "code": "VIS 129A",
+    "raw_prereq": "VIS 112 or two upper-division courses in art history (VIS 113AN–129F).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Early Modern Art History",
+    "code": "VIS 129B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Modern Art History",
+    "code": "VIS 129C",
+    "raw_prereq": "VIS 112 or two upper-division courses in art history (VIS 113AN–129F).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Art History of the Americas",
+    "code": "VIS 129D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Art History of Asia",
+    "code": "VIS 129E",
+    "raw_prereq": "VIS 112 or two upper-division courses in art history (VIS 113AN–129F).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Art Theory and Criticism",
+    "code": "VIS 129F",
+    "raw_prereq": "VIS 112 or two upper-division courses in art history (VIS 113AN–129F).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Projects in Visual Arts",
+    "code": "VIS 130",
+    "raw_prereq": "senior standing or consent of instructor required. Open to media, studio, ICAM, and speculative design majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Projects in Media",
+    "code": "VIS 131",
+    "raw_prereq": "senior standing or consent of instructor required. Open to media, studio, ICAM, and speculative design majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Installation Production and Studio",
+    "code": "VIS 132",
+    "raw_prereq": "senior standing or consent of instructor required. Open to media, studio, ICAM, and speculative design majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lecture Topics in Speculative Design",
+    "code": "VIS 133",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Studio Topics in Speculative Design",
+    "code": "VIS 133A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to 3-D Asset Design",
+    "code": "VIS 134",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Research Methods",
+    "code": "VIS 135",
+    "raw_prereq": "VIS 30 and 41.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS30"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Speculative Fiction Seminar",
+    "code": "VIS 136A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Programming for the Arts I",
+    "code": "VIS 141A",
+    "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Programming for the Arts II",
+    "code": "VIS 141B",
+    "raw_prereq": "VIS 141A. Open to ICAM and speculative design majors and minors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practices in Computing Arts",
+    "code": "VIS 142",
+    "raw_prereq": "VIS 42 or BILD 62 or COGS 18 or CSE 6R or CSE 8A or CSE 11 or DSC 20, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS42"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Virtual Environments I",
+    "code": "VIS 143A",
+    "raw_prereq": "VIS 142; CSE 11 recommended. Open to visual arts majors and ICAM minors only. Two production-course limitation.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS142"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Virtual Environments II",
+    "code": "VIS 143B",
+    "raw_prereq": "VIS 143A. Open to visual arts majors and ICAM minors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Time- and Process-Based Digital Media I",
+    "code": "VIS 145A",
+    "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Time- and Process-Based Digital Media II",
+    "code": "VIS 145B",
+    "raw_prereq": "VIS 145A or ICAM 102. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS145A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer-controlled Fabrication in Art I",
+    "code": "VIS 146A",
+    "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer-controlled Fabrication in Art II",
+    "code": "VIS 146B",
+    "raw_prereq": "VIS 146A. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Technologies for Art I",
+    "code": "VIS 147A",
+    "raw_prereq": "VIS 41 or VIS 70N or VIS 80. Open to media, studio, ICAM, and speculative design majors and computing and the arts and speculative design minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS41"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Technologies for Art II",
+    "code": "VIS 147B",
+    "raw_prereq": "VIS 147A. Open to media, studio, ICAM, and speculative design majors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visualizing Art Practice",
+    "code": "VIS 148",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Contemporary Computer Topics",
+    "code": "VIS 149",
+    "raw_prereq": "upper-division standing. Open to media, studio, ICAM, and speculative design majors and ICAM and speculative design minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Landmarks of World Cinema",
+    "code": "VIS 150",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Film History and Theory",
+    "code": "VIS 150A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Cinema",
+    "code": "VIS 151",
+    "raw_prereq": "VIS 22 or VIS 83 or VIS 84 or VIS 85A or VIS 159.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS22"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS84"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS85A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Media History and Theory",
+    "code": "VIS 151A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media in Social Context",
+    "code": "VIS 152",
+    "raw_prereq": "VIS 83 or VIS 84.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS83"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Identity through Transnational Cinemas",
+    "code": "VIS 152D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Artists at Work",
+    "code": "VIS 155",
+    "raw_prereq": "VIS 83 or VIS 84 or VIS 85A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS84"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latino American Cinema",
+    "code": "VIS 156",
+    "raw_prereq": "VIS 84.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmentalism in Arts and Media",
+    "code": "VIS 157",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "US Civil Rights in Art and Media",
+    "code": "VIS 157D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Contemporary Photography",
+    "code": "VIS 158A",
+    "raw_prereq": "VIS 60 or VIS 83.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS60"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Photography after 1960",
+    "code": "VIS 158B",
+    "raw_prereq": "VIS 22 or VIS 83.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS22"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Social Documentary",
+    "code": "VIS 158C",
+    "raw_prereq": "VIS 22 or VIS 83.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS22"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black Subjects and Black Material in Photography",
+    "code": "VIS 158D",
+    "raw_prereq": "VIS 60 or VIS 83.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS60"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Art and Technology",
+    "code": "VIS 159",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Project in Computing Arts I",
+    "code": "VIS 160A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Project in Computing Arts II",
+    "code": "VIS 160B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems and Networks at Scale",
+    "code": "VIS 161",
+    "raw_prereq": "VIS 135.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Speculative Science and Design Invention",
+    "code": "VIS 162",
+    "raw_prereq": "VIS 135.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Research and Criticism",
+    "code": "VIS 163",
+    "raw_prereq": "VIS 30 or VIS 41.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS30"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Photographic Strategies: Looking and Seeing",
+    "code": "VIS 164",
+    "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black and White Darkroom",
+    "code": "VIS 165",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Photographic Print",
+    "code": "VIS 165A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Photographer’s Studio",
+    "code": "VIS 165B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Engagement and Photography",
+    "code": "VIS 167",
+    "raw_prereq": "VIS 164 or VIS 165. Open to media, studio, and ICAM majors and photography minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS164"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pictorialism and Constructed Reality",
+    "code": "VIS 168",
+    "raw_prereq": "VIS 164 or VIS 165. Open to media, studio, and ICAM majors and photography minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS164"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Photography in Exhibition and Artist Books",
+    "code": "VIS 169A",
+    "raw_prereq": "VIS 165 or VIS 165A or VIS 165B. Open to media, studio, and ICAM majors and photography and digital film production minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Photographic Print",
+    "code": "VIS 169B",
+    "raw_prereq": "VIS 165 or VIS 165A or VIS 165B. Open to media, studio, and ICAM majors and photography and digital film production minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Cinema: Theory and Practice",
+    "code": "VIS 171",
+    "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Motion Design and Visual Effects",
+    "code": "VIS 172",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Animation",
+    "code": "VIS 173",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Sketchbook",
+    "code": "VIS 174",
+    "raw_prereq": "VIS 70N. Open to media, studio, ICAM, speculative design, and cinematic arts majors; and film production and speculative design minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Editing: Theory and Practice",
+    "code": "VIS 175",
+    "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "16mm Filmmaking",
+    "code": "VIS 176",
+    "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scripting Strategies",
+    "code": "VIS 177",
+    "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sound: Theory and Practice",
+    "code": "VIS 178",
+    "raw_prereq": "VIS 174. Open to media, speculative design, and cinematic arts majors and film production minors.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Projects in Media",
+    "code": "VIS 179",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in 3-D and CGI",
+    "code": "VIS 180",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Documentary Evidence and the Construction of Authenticity in Current Media Practices",
+    "code": "VIS 180A",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fiction and Allegory in Current Media Practices",
+    "code": "VIS 180B",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Sound and Lighting",
+    "code": "VIS 181",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Editing",
+    "code": "VIS 182",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Digital Photography Editing",
+    "code": "VIS 182A",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Film Production Studio Technique",
+    "code": "VIS 183",
+    "raw_prereq": "VIS 60 or VIS 71 and VIS 70N or VIS 72. Open to media and cinematic arts majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS71"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "VIS70N"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategies of Self",
+    "code": "VIS 183A",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Strategies of Alterity",
+    "code": "VIS 183B",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Scripting",
+    "code": "VIS 184",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Media Projects",
+    "code": "VIS 185",
+    "raw_prereq": "VIS 174 and two from VIS 164, 165, 165A, 165B, 171, 172, 175, 176, 177, 178, 179. Open to media majors with senior standing only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS176"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS178"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Master Studio",
+    "code": "VIS 190",
+    "raw_prereq": "senior standing, VIS 135, and two from VIS 100A, VIS 101A, VIS 133A, VIS 136A, VIS 161, VIS 162.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS135"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS133A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS136A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS161"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fantasy in Film",
+    "code": "VIS 194S",
+    "raw_prereq": "VIS 84.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art History Honors Thesis I",
+    "code": "VIS 196A",
+    "raw_prereq": "junior or senior standing with faculty consent.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art History Honors Thesis II",
+    "code": "VIS 196B",
+    "raw_prereq": "VIS 196A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Honors Thesis",
+    "code": "VIS 197",
+    "raw_prereq": "consent of instructor.<strong>Note:</strong>Requires a written proposal, 3.5 GPA in the major, prior consent from all involved, and approvals by the department chair and provost.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "VIS 198",
+    "raw_prereq": "consent of instructor.<strong>Note:</strong>Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Studies in the Visual Arts",
+    "code": "VIS 199",
+    "raw_prereq": "consent of instructor.<strong>Note:</strong>Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Methods and Theories",
+    "code": "VIS 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Critical Issues",
+    "code": "VIS 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art Practice",
+    "code": "VIS 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Working Critique",
+    "code": "VIS 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rethinking Art History",
+    "code": "VIS 204",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Graduate Studies in Art Practice",
+    "code": "VIS 205",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Art Practice Research",
+    "code": "VIS 206",
+    "raw_prereq": "none. (Required for PhD in art practice concentration.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Working Practice for Art Practice PhDs",
+    "code": "VIS 207",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Exhibition",
+    "code": "VIS 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Writing",
+    "code": "VIS 209",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fact and Fiction",
+    "code": "VIS 211",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History and Memory",
+    "code": "VIS 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Space",
+    "code": "VIS 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Performance Strategies",
+    "code": "VIS 214",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Interface",
+    "code": "VIS 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Object",
+    "code": "VIS 216",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communities and Subcultures",
+    "code": "VIS 217",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Imaging Selves and Others",
+    "code": "VIS 218N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Art Practice/Theory",
+    "code": "VIS 219",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Practice Seminar",
+    "code": "VIS 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Frames of View",
+    "code": "VIS 234N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theories of Media and New Media",
+    "code": "VIS 242",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aesthetic Theory",
+    "code": "VIS 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Studies in the Relationship of Theory and Practice",
+    "code": "VIS 244",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Medieval Art",
+    "code": "VIS 251",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Renaissance Art",
+    "code": "VIS 252",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Modern Art",
+    "code": "VIS 254",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Contemporary Art",
+    "code": "VIS 255",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Media and New Media",
+    "code": "VIS 256",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Meso-American Art",
+    "code": "VIS 257",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Chinese Art",
+    "code": "VIS 258",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Latin American Art",
+    "code": "VIS 259",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in North American Indian Art",
+    "code": "VIS 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Material Culture",
+    "code": "VIS 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Studies",
+    "code": "VIS 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop in Critical Writing",
+    "code": "VIS 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Curatorial Practice",
+    "code": "VIS 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Individual Studies for Graduate Students",
+    "code": "VIS 295",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "VIS 298",
+    "raw_prereq": "consent of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research",
+    "code": "VIS 299",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "VIS 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Teaching in Visual Arts",
+    "code": "VIS 502",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

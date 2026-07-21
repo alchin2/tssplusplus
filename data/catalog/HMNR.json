@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Introduction to Human Rights and Global Justice",
+    "code": "HMNR 100: SOCI 174 or HITO 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Rights II: Contemporary Issues",
+    "code": "HMNR 101: COMM 114A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

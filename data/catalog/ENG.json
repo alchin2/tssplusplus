@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Orientation to Engineering Profession",
+    "code": "ENG 5",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Engineering Applications",
+    "code": "ENG 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineer Your Success",
+    "code": "ENG 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Engineering Research",
+    "code": "ENG 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Creative Problem-Solving for the Twenty-First-Century Changemaker",
+    "code": "ENG 30",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technical Writing/Communication for Engineers and Scientist",
+    "code": "ENG 100C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design for Development",
+    "code": "ENG 100D",
+    "raw_prereq": "CAT 2 or DOC 2 or HUM 2 or MCWP 40 or MMW 2 or WCWP 10B or SYN 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WCWP10B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design for Development Lab",
+    "code": "ENG 100L",
+    "raw_prereq": "ENG 100D. Department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Venture Mechanics",
+    "code": "ENG 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enterprise Dynamics",
+    "code": "ENG 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Innovations",
+    "code": "ENG 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corporate Entrepreneurship for Global Competitiveness",
+    "code": "ENG 207",
+    "raw_prereq": "ENG 201, ENG 202, ENG 203, or consent of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ENG201"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ENG202"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ENG203"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basics of Entrepreneurism and Technology Commercialization",
+    "code": "ENG 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Engineering",
+    "code": "ENG 210",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Leadership in Academia",
+    "code": "ENG 211",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,1274 @@
+[
+  {
+    "name": "Experience Chemical Engineering",
+    "code": "CENG 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Computation Using MATLAB",
+    "code": "CENG 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Computation Using MATLAB Online",
+    "code": "CENG 15R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Material and Energy Balances",
+    "code": "CENG 100",
+    "raw_prereq": "CENG 4 and CHEM 6B or CHEM 6BH. Students may not receive credit for both CENG 100 and CENG 110.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG4"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introductory Fluid Mechanics",
+    "code": "CENG 101A",
+    "raw_prereq": "admission to the major and grades of C– or better in PHYS 2A, MATH 20D, and MATH 20E, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Heat Transfer",
+    "code": "CENG 101B",
+    "raw_prereq": "admission to the major and a grade of C– or better in CENG 101A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mass Transfer",
+    "code": "CENG 101C",
+    "raw_prereq": "admission to the major and grade of C– or better in CENG 101A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Engineering Thermodynamics",
+    "code": "CENG 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Material and Energy Balances with Applications",
+    "code": "CENG 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Reaction Engineering",
+    "code": "CENG 113",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability and Statistical Methods for Engineers",
+    "code": "CENG 114",
+    "raw_prereq": "MATH 20F or MATH 18, and CENG 15 or MAE 8 or NANO 15.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE8"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Process Dynamics and Control",
+    "code": "CENG 120",
+    "raw_prereq": "admission to the major; CENG 15 or MAE 8 or NANO 15, and CENG 100, CENG 101B, CENG 113, and MATH 20D. Restricted to majors CE 25, NA 25, MC 25, MC 27, MC 28, MC 29.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Separation Processes",
+    "code": "CENG 122",
+    "raw_prereq": "admission to the major and grades of C– or better in CENG 100, CENG 102, and CENG 101C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Plant and Process Design I",
+    "code": "CENG 124A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Plant and Process Design II",
+    "code": "CENG 124B",
+    "raw_prereq": "admission to chemical engineering major and grade of C– or better in CENG 124A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Polymeric Materials",
+    "code": "CENG 134",
+    "raw_prereq": "CHEM 6C and PHYS 2C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Process Technology in the Semiconductor Industry",
+    "code": "CENG 157",
+    "raw_prereq": "CENG 101A, CENG 101B, and CENG 101C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG101B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Biochemical Engineering",
+    "code": "CENG 160",
+    "raw_prereq": "CENG 100. Students may not receive credit for both CENG 160 and CENG 260.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG160"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Methods for Chemical Engineers",
+    "code": "CENG 170",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "NanoEngineering in Medicine",
+    "code": "CENG 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Engineering Process Laboratory I",
+    "code": "CENG 176A",
+    "raw_prereq": "CENG 113, CENG 122, and CENG 170 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG113"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG122"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG170"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Engineering Process Laboratory II",
+    "code": "CENG 176B",
+    "raw_prereq": "CENG 176A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "CENG 199",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Chemical and Nano Engineering",
+    "code": "CENG 205",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanomedicine",
+    "code": "CENG 207",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanofabrication",
+    "code": "CENG 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fluid Mechanics I",
+    "code": "CENG 210A",
+    "raw_prereq": "department approval required, CENG 101A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG101A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to NanoEngineering",
+    "code": "CENG 211",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermolecular and Surface Forces",
+    "code": "CENG 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Characterization",
+    "code": "CENG 213",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Physics and Modeling",
+    "code": "CENG 214",
+    "raw_prereq": "CENG 212 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG212"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanosystems Integration (4)",
+    "code": "CENG 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Heat Transfer",
+    "code": "CENG 221A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mass Transfer",
+    "code": "CENG 221B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synchrotron Characterization of Nanomaterials",
+    "code": "CENG 230",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermodynamics",
+    "code": "CENG 251",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemical Reaction Engineering",
+    "code": "CENG 252",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Heterogeneous Catalysis",
+    "code": "CENG 253",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemical Engineering Fundamentals",
+    "code": "CENG 254",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrochemical Engineering",
+    "code": "CENG 255",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomaterials and Biomimetics",
+    "code": "CENG 256",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Process Technology in the Semiconductor Industry",
+    "code": "CENG 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Biochemical Engineering",
+    "code": "CENG 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Immune Engineering",
+    "code": "CENG 273",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Chemical Engineering",
+    "code": "CENG 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "CENG 297",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research in Chemical Engineering",
+    "code": "CENG 299",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Experience",
+    "code": "CENG 501",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experience NanoEngineering (1)",
+    "code": "NANO 4",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to NanoEngineering",
+    "code": "NANO 11",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Computation Using MATLAB",
+    "code": "NANO 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Computation Using MATLAB Online",
+    "code": "NANO 15R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Nanomaterials Synthesis Lab",
+    "code": "NANO 20L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physical Properties of Materials Lab",
+    "code": "NANO 100L",
+    "raw_prereq": "NANO 108.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations in NanoEngineering: Chemical Principles",
+    "code": "NANO 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations in NanoEngineering: Biochemical Principles",
+    "code": "NANO 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations in NanoEngineering: Physical Principles",
+    "code": "NANO 104",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Crystallography of Materials",
+    "code": "NANO 106",
+    "raw_prereq": "MATH 20F or MATH 18.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20F"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Devices and Circuits for NanoEngineers",
+    "code": "NANO 107",
+    "raw_prereq": "NANO 15, NANO 11, MATH 20B or MATH 20D, and PHYS 2B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NANO15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Materials Science and Engineering",
+    "code": "NANO 108",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Modeling of Nanoscale Systems",
+    "code": "NANO 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Characterization of NanoEngineering Systems",
+    "code": "NANO 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synthesis and Fabrication of NanoEngineering Systems",
+    "code": "NANO 112",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability and Statistical Methods for Engineers",
+    "code": "NANO 114",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoengineering Laboratory",
+    "code": "NANO 115L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiscale Transport",
+    "code": "NANO 117",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "NanoEngineering System Design Seminar",
+    "code": "NANO 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "NanoEngineering System Design I",
+    "code": "NANO 120A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "NanoEngineering System Design II",
+    "code": "NANO 120B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Polymeric Materials",
+    "code": "NANO 134",
+    "raw_prereq": "CHEM 6C and PHYS 2C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Mechanics I: Analysis of Equilibrium",
+    "code": "NANO 141A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Mechanics II: Analysis of Motion",
+    "code": "NANO 141B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Optical Microscopy and Spectroscopy",
+    "code": "NANO 146",
+    "raw_prereq": "NANO 104.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermodynamics of Materials",
+    "code": "NANO 148",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics of Nanomaterials",
+    "code": "NANO 150",
+    "raw_prereq": "NANO 108.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Concepts in Nanotechnology",
+    "code": "NANO 156",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Phase Transformations and Kinetics",
+    "code": "NANO 158",
+    "raw_prereq": "NANO 108 and NANO 148.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO108"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Materials Processing Laboratory (4)",
+    "code": "NANO 158L",
+    "raw_prereq": "NANO 158.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrochemistry: Fundamentals and Applications",
+    "code": "NANO 159",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Material Selection in Engineering",
+    "code": "NANO 161",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Micro- and Nano-materials for Energy Storage and Conversion",
+    "code": "NANO 164",
+    "raw_prereq": "NANO 11, NANO 102, and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NANO11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrical, Dielectric, and Magnetic Properties of Engineering Materials",
+    "code": "NANO 168",
+    "raw_prereq": "NANO 102 and NANO 104.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO102"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanical Behavior of Materials",
+    "code": "NANO 174",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanical Behavior Laboratory",
+    "code": "NANO 174L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "NanoEngineering in Medicine",
+    "code": "NANO 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Materials Science",
+    "code": "NANO 181",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Materials Science Online",
+    "code": "NANO 181R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "NANO 199",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Seminar in Chemical and Nano Engineering",
+    "code": "NANO 200",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to NanoEngineering",
+    "code": "NANO 201",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermolecular and Surface Forces",
+    "code": "NANO 202",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Characterization",
+    "code": "NANO 203",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Physics and Modeling",
+    "code": "NANO 204",
+    "raw_prereq": "NANO 202 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO202"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanosystems Integration",
+    "code": "NANO 205",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanomanufacturing",
+    "code": "NANO 206",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanofabrication",
+    "code": "NANO 208",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Modeling and Simulations of Nanoscale Systems",
+    "code": "NANO 210",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Modeling of Nanosystems",
+    "code": "NANO 212",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structure and Analysis of Solids",
+    "code": "NANO 227",
+    "raw_prereq": "<span>graduate standing</span>.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Synchrotron Characterization of Nanomaterials",
+    "code": "NANO 230",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Nanoscale Fabrication",
+    "code": "NANO 234",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scanning Probe Microscopy",
+    "code": "NANO 238",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organic Nanomaterials",
+    "code": "NANO 241",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemistry and Molecular Biology",
+    "code": "NANO 242",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanomedicine",
+    "code": "NANO 243",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanomachines and Nanorobots",
+    "code": "NANO 244",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoelectronics",
+    "code": "NANO 245",
+    "raw_prereq": "NANO 201.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced BioPhotonics",
+    "code": "NANO 247A",
+    "raw_prereq": "consent of instructor and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "BioElectronics",
+    "code": "NANO 247B",
+    "raw_prereq": "consent of instructor and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "BioNanotechnology",
+    "code": "NANO 247C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics of Nanomaterials",
+    "code": "NANO 250",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Magnetic Materials: Principles and Applications",
+    "code": "NANO 251A",
+    "raw_prereq": "department approval required and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomaterials and Biomimetics",
+    "code": "NANO 252",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanomaterials and Properties",
+    "code": "NANO 253",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrochemistry",
+    "code": "NANO 255",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microfluids",
+    "code": "NANO 256",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Polymer Science and Engineering",
+    "code": "NANO 257",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Transport Phenomenon",
+    "code": "NANO 258",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Heterogeneous Catalysis",
+    "code": "NANO 259",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanofabrication Reaction Engineering",
+    "code": "NANO 260",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanoscale Energy Technology",
+    "code": "NANO 261",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanosensors",
+    "code": "NANO 262",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Magnetic Nanodevices",
+    "code": "NANO 263",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid-State and Nanochemistry",
+    "code": "NANO 264",
+    "raw_prereq": "department approval required and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermodynamics of Solids",
+    "code": "NANO 265",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantum Mechanical Modeling of Materials and Nanostructures",
+    "code": "NANO 266",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Nanotechnology, Sustainable Nanotechnology, and Nanotoxicity",
+    "code": "NANO 267",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "DNA Nanotechnology",
+    "code": "NANO 268",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Solar Cells at the Nanoscale",
+    "code": "NANO 269",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanophotonics",
+    "code": "NANO 271",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Soft Electronics",
+    "code": "NANO 272",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Immune Engineering",
+    "code": "NANO 273",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Two-Dimensional Materials: Properties, Applications, and Practice",
+    "code": "NANO 275",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Electrochemical Energy Engineering",
+    "code": "NANO 279",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Colloids and Nanoparticles",
+    "code": "NANO 280",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Materials Science",
+    "code": "NANO 281",
+    "raw_prereq": "graduate standing. Students may not receive credit for both NANO 281 and NANO 281R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO281"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Materials Science Online",
+    "code": "NANO 281R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Development",
+    "code": "NANO 282",
+    "raw_prereq": "department approval required and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in NanoEngineering",
+    "code": "NANO 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research in NanoEngineering",
+    "code": "NANO 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Experience",
+    "code": "NANO 501",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

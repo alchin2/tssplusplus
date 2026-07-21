@@ -1,0 +1,2397 @@
+[
+  {
+    "name": "Data Analytics for the Social Sciences",
+    "code": "POLI 5 or 5R or 5D or 5DR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Political Science: American Politics",
+    "code": "POLI 10 or 10R or 10D or 10DR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Political Science: Comparative Politics",
+    "code": "POLI 11 or 11R or 11D or 11DR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Political Science: International Relations",
+    "code": "POLI 12 or 12R or 12D or 12DR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power and Justice",
+    "code": "POLI 13 or 13R or 13D or 13DR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics and Society",
+    "code": "POLI 27 or 27R",
+    "raw_prereq": "CAT 2 and 3, DOC 2 and 3, MCWP 40 and 50, HUM 1 and 2, WCWP 10A–B, or WARR 11A–B, SYN 1 and SYN 2, CCE 1 and CCE 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CAT2"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC2"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DOC3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MCWP50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM1"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SYN1"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SYN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CCE1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics and Society II",
+    "code": "POLI 28 or 28R",
+    "raw_prereq": "PHIL/POLI 27.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Inquiry",
+    "code": "POLI 30 or 30D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Law and Society",
+    "code": "POLI 40",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "POLI 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "POLI 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "POLI 99H",
+    "raw_prereq": "student must be of first-year class standing, and a Regents Scholar; approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Presidency",
+    "code": "POLI 100A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The U",
+    "code": "POLI 100B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Parties",
+    "code": "POLI 100C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Voting, Campaigning, and Elections",
+    "code": "POLI 100DA",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Interest Group Politics",
+    "code": "POLI 100E",
+    "raw_prereq": "sophomore standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Networks",
+    "code": "POLI 100F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "How to Win or Lose an Election",
+    "code": "POLI 100G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race and Ethnicity in American Politics",
+    "code": "POLI 100H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Participation and Inequality",
+    "code": "POLI 100I",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race in American Political Development",
+    "code": "POLI 100J",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Railroads and American Politics",
+    "code": "POLI 100K",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Psychology",
+    "code": "POLI 100M",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in Washington",
+    "code": "POLI 100N",
+    "raw_prereq": "department approval is required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Perspectives on Race",
+    "code": "POLI 100O",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic Entrepreneurs and American Politics",
+    "code": "POLI 100P",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Racial Politics",
+    "code": "POLI 100Q",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business and Politics",
+    "code": "POLI 100T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Games, Strategy, and Politics",
+    "code": "POLI 100U",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organized Interests",
+    "code": "POLI 100V",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics, Policy, and Educational Inequality",
+    "code": "POLI 100W",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Analysis and United States Politics",
+    "code": "POLI 100X",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Asian American Politics in the United States",
+    "code": "POLI 100Y",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black Politics in the US",
+    "code": "POLI 101A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Race, Ethnicity, and Immigration",
+    "code": "POLI 101E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Development",
+    "code": "POLI 102C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Voting Rights Act: Fifty Years Later",
+    "code": "POLI 102D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Politics",
+    "code": "POLI 102E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mass Media and Politics",
+    "code": "POLI 102F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in American Politics",
+    "code": "POLI 102G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Urban Politics",
+    "code": "POLI 102J",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Urban Underclass",
+    "code": "POLI 102K",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Regulation",
+    "code": "POLI 102L",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "California Government and Politics",
+    "code": "POLI 103A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics and Policymaking in Los Angeles",
+    "code": "POLI 103B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics and Policymaking in San Diego",
+    "code": "POLI 103C",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "California Local Government: Finance and Administration",
+    "code": "POLI 103D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Supreme Court and the Constitution",
+    "code": "POLI 104A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Civil Liberties—Fundamental Rights",
+    "code": "POLI 104B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Civil Liberties—The Rights of the Accused and Minorities",
+    "code": "POLI 104C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Judicial Politics",
+    "code": "POLI 104D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Law and Policy",
+    "code": "POLI 104E",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Constitutional Law",
+    "code": "POLI 104F",
+    "raw_prereq": "POLI 104A-B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Election Law",
+    "code": "POLI 104G",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Law and Politics—Courts and Political Controversy",
+    "code": "POLI 104I",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Legal Reasoning",
+    "code": "POLI 104J",
+    "raw_prereq": "POLI 104A or 104B, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI104A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI104B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Legal Argument Formulation",
+    "code": "POLI 104K",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Positive Political Theory of Law",
+    "code": "POLI 104L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Law and Sex",
+    "code": "POLI 104M",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race and Law",
+    "code": "POLI 104N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science, Technology, and the Law",
+    "code": "POLI 104P",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Survey in Evidence, Civil Procedure, and Criminal Law",
+    "code": "POLI 104T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Business Law",
+    "code": "POLI 104U",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Law: Special Topics",
+    "code": "POLI 104V",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latino Politics in the US",
+    "code": "POLI 105A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Multiculturalism",
+    "code": "POLI 108",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Congressional Simulation",
+    "code": "POLI 109",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Citizens and Saints: Political Thought from Plato to Augustine",
+    "code": "POLI 110A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sovereigns, Subjects, and the Modern State: Political Thought from Machiavelli to Rousseau",
+    "code": "POLI 110B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Revolution and Reaction: Political Thought from Kant to Nietzsche",
+    "code": "POLI 110C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Freedom and Discipline: Political Thought in the Twentieth Century",
+    "code": "POLI 110DA",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Thought from Revolution to Civil War",
+    "code": "POLI 110EA",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Thought from Civil War to Civil Rights",
+    "code": "POLI 110EB",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Thought: Contemporary Debates",
+    "code": "POLI 110EC",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in American Political Thought",
+    "code": "POLI 110ED",
+    "raw_prereq": "upper-division standing; department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Political Thought",
+    "code": "POLI 110G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Democracy and Its Critics",
+    "code": "POLI 110H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Power in American Society",
+    "code": "POLI 110J",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Liberty and Equality",
+    "code": "POLI 110K",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Green Political Thought",
+    "code": "POLI 110M",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theories of Nationalism",
+    "code": "POLI 110N",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Political Ideologies",
+    "code": "POLI 110T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Justice in Theory and Action",
+    "code": "POLI 111B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Changing Harmful Social Norms",
+    "code": "POLI 111D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic Theories of Political Behavior",
+    "code": "POLI 112A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Game Theory in Political Science I",
+    "code": "POLI 112B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Theory and Artistic Vision",
+    "code": "POLI 112C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Game Theory in Political Science II",
+    "code": "POLI 112D",
+    "raw_prereq": "upper-division standing and POLI 112B or POLI 118.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI112B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "East Asian Thought in Comparative Perspective",
+    "code": "POLI 113A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chinese and Japanese Political Thought I",
+    "code": "POLI 113B",
+    "raw_prereq": "upper-division standing for POLI 113B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chinese and Japanese Political Thought II",
+    "code": "POLI 113C",
+    "raw_prereq": "POLI 113B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marxist Political Thought",
+    "code": "POLI 114B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Politics",
+    "code": "POLI 115A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Feminist Theory",
+    "code": "POLI 116A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bending the Curve: Solutions to Climate Change",
+    "code": "POLI 117",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bending the Curve",
+    "code": "POLI 117R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Political Theory of Liberation Theology",
+    "code": "POLI 118B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Political Theory",
+    "code": "POLI 119A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Refuge",
+    "code": "POLI 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Development of Western Europe",
+    "code": "POLI 120A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The German Political System",
+    "code": "POLI 120B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in France",
+    "code": "POLI 120C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Germany: Before, During, and After Division",
+    "code": "POLI 120D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scandinavian Politics",
+    "code": "POLI 120E",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Europe as a Political Model",
+    "code": "POLI 120F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "British Politics",
+    "code": "POLI 120G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "European Integration",
+    "code": "POLI 120H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in Italy",
+    "code": "POLI 120I",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics and Revolution I: The Politics of the French Revolution",
+    "code": "POLI 120J",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Legislatures",
+    "code": "POLI 120K",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contention and Conflict in Africa",
+    "code": "POLI 120N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Africa’s Success Stories",
+    "code": "POLI 120P",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethnic Politics",
+    "code": "POLI 120Q",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Government and Politics of the Middle East",
+    "code": "POLI 121",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in Israel",
+    "code": "POLI 121B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Politics",
+    "code": "POLI 121D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Human Rights",
+    "code": "POLI 122",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Abuse of Power",
+    "code": "POLI 122D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Empire in Comparative Perspective",
+    "code": "POLI 123",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Israeli-Palestinian Conflict",
+    "code": "POLI 124",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Consequences of Electoral Systems",
+    "code": "POLI 124A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender, Politics, and Globalization",
+    "code": "POLI 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communities and the Environment",
+    "code": "POLI 125A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Food in a Global Economy",
+    "code": "POLI 125B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corruption in Developing Countries",
+    "code": "POLI 125D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Conservation in Developing Countries",
+    "code": "POLI 125E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy of Development",
+    "code": "POLI 126",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Political Economy: Modern Capitalism",
+    "code": "POLI 126AA",
+    "raw_prereq": "POLI 11 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI11"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics and Economics in Eastern Europe",
+    "code": "POLI 126AB",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Developing Countries",
+    "code": "POLI 127",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Autocracy, Democracy, and Prosperity",
+    "code": "POLI 128",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "How to Steal an Election",
+    "code": "POLI 129",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Violence",
+    "code": "POLI 130",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Soviet Successor States",
+    "code": "POLI 130AA",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of the Russian Revolution",
+    "code": "POLI 130AD",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in the People’s Republic of China",
+    "code": "POLI 130B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Modern India",
+    "code": "POLI 130G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Muslim Integration and Exclusion",
+    "code": "POLI 131",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Chinese Revolution",
+    "code": "POLI 131C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Development and Modern China",
+    "code": "POLI 132",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Democracy, Development, and Conflict in South Asia",
+    "code": "POLI 133",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Japanese Politics: A Developmental Perspective",
+    "code": "POLI 133A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Institutions of East Asian Countries",
+    "code": "POLI 133D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Postwar US-Japan Relations",
+    "code": "POLI 133G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Korean Politics",
+    "code": "POLI 133J",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Parties/Development",
+    "code": "POLI 134",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Politics of Latin America",
+    "code": "POLI 134AA",
+    "raw_prereq": "POLI 11 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI11"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in Mexico",
+    "code": "POLI 134B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Latin American Politics",
+    "code": "POLI 134D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics in the Southern Cone of Latin America",
+    "code": "POLI 134I",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cuba: Revolution and Reform",
+    "code": "POLI 134J",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative LGBT Politics",
+    "code": "POLI 135",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Religion and Politics",
+    "code": "POLI 136",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nationalism and Politics",
+    "code": "POLI 136A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "A Sports Analytics Approach to the Social Sciences",
+    "code": "POLI 137",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Political Parties and Interest Groups",
+    "code": "POLI 137A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Comparative Politics",
+    "code": "POLI 138D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Law",
+    "code": "POLI 140A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concepts and Aspects of Revolution",
+    "code": "POLI 140B",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Crisis Diplomacy",
+    "code": "POLI 140C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Human Rights Law: Migrant Populations",
+    "code": "POLI 140D",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "United States Foreign Policy",
+    "code": "POLI 142A",
+    "raw_prereq": "POLI 12 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI12"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Weapons of Mass Destruction",
+    "code": "POLI 142D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "National and International Security",
+    "code": "POLI 142I",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "National Security Strategy",
+    "code": "POLI 142J",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics and Warfare",
+    "code": "POLI 142K",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Insurgency and Terrorism",
+    "code": "POLI 142L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "U",
+    "code": "POLI 142M",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Defense Policy",
+    "code": "POLI 142N",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Terrorism",
+    "code": "POLI 142O",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Crisis Areas in World Politics",
+    "code": "POLI 142P",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cold War",
+    "code": "POLI 142Q",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "New Modes of International Conflict: Cyber, Space, and Robots",
+    "code": "POLI 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "War and Society",
+    "code": "POLI 143A",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Political Economy",
+    "code": "POLI 144",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in International Political Economy",
+    "code": "POLI 144AB",
+    "raw_prereq": "POLI 12.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Political Economy: Money and Finance",
+    "code": "POLI 144D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of International Trade",
+    "code": "POLI 144E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of International Trade and Finance",
+    "code": "POLI 144F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Politics and Drugs",
+    "code": "POLI 145A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Relations After the Cold War: Theory and Prospect",
+    "code": "POLI 145C",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The US and Latin America: Political and Economic Relations",
+    "code": "POLI 146A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Russian-American Relations",
+    "code": "POLI 147B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Spies, Intelligence, and U",
+    "code": "POLI 149",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Immigration",
+    "code": "POLI 150A",
+    "raw_prereq": "upper-division standing required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Organizations",
+    "code": "POLI 151",
+    "raw_prereq": "POLI 12, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI12"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender in International Conflict",
+    "code": "POLI 152",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The European Union in World Politics",
+    "code": "POLI 153",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in International Relations",
+    "code": "POLI 154",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Policy Analysis",
+    "code": "POLI 160AA",
+    "raw_prereq": "POLI 10 or 11.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Policy Analysis",
+    "code": "POLI 160AB",
+    "raw_prereq": "POLI 160AA.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Design for Social Science",
+    "code": "POLI 161",
+    "raw_prereq": "POLI/ECON 5(D) and POLI 30(D).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Policy",
+    "code": "POLI 162",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analyzing Politics",
+    "code": "POLI 163",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Public Policy",
+    "code": "POLI 164",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topic: Policy Analysis",
+    "code": "POLI 165",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Policy Assessment",
+    "code": "POLI 168",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algorithms, Public Policy, and Ethics",
+    "code": "POLI 170",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Data Analysis for Political Science",
+    "code": "POLI 170A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Making Policy with Data",
+    "code": "POLI 171",
+    "raw_prereq": "POLI 5 or 5D or ECON 5 and POLI 30 or 30D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI5D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON5"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "POLI30"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Social Data Analytics",
+    "code": "POLI 172",
+    "raw_prereq": "POLI 5 or 5D or ECON 5 and POLI 30 or 30D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI5D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON5"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "POLI30"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Network Analysis",
+    "code": "POLI 173",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analyzing Elections",
+    "code": "POLI 174",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Social Scientists",
+    "code": "POLI 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Text as Data",
+    "code": "POLI 176",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Political Science Methodology",
+    "code": "POLI 179",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Honors Seminar: Frontiers of Political Science",
+    "code": "POLI 191A–B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Political Science",
+    "code": "POLI 192",
+    "raw_prereq": "department stamp and/or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Seminar in Washington, DC",
+    "code": "POLI 194",
+    "raw_prereq": "participating in UCDC Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Apprenticeship Seminar",
+    "code": "POLI 194RA",
+    "raw_prereq": "department approval. Students must apply for the Research Apprenticeship program and be approved to enroll. Participants must be majors in political science with junior or senior standing and a GPA of 3.5 or higher in all political science courses taken at UC San Diego. Individual projects may require other prerequisite training, such as POLI 30.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Local Internship Research Seminar",
+    "code": "POLI 194SD",
+    "raw_prereq": "department approval and consent of instructor.<span class=\"italic\"><strong>Corequisites:</strong></span>POLI 197SD.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "POLI 195",
+    "raw_prereq": "department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Community Stations Fieldwork",
+    "code": "POLI 196",
+    "raw_prereq": "department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Science Washington Internship",
+    "code": "POLI 197I",
+    "raw_prereq": "must be enrolled in the UCDC Program; department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Local Internship in Political Science",
+    "code": "POLI 197SD",
+    "raw_prereq": "ninety units completed; 2.5 minimum cumulative GPA overall and 3.0 in political science; POLI 30 and at least two upper-division courses in political science. Department approval and consent of instructor.<span class=\"italic\"><strong>Corequisites:</strong></span>POLI 194SD.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "POLI 198",
+    "raw_prereq": "department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Apprenticeship",
+    "code": "POLI 198RA",
+    "raw_prereq": "department approval. Students must apply for the Research Apprenticeship program and be approved to enroll. Participants must be majors in political science with junior or senior standing and a GPA of 3.5 or higher in all political science courses taken at UC San Diego. Individual projects may require other prerequisite training, such as POLI 30.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "POLI 199",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Political Science",
+    "code": "POLI 200A",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Democracy",
+    "code": "POLI 200B",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "States and Markets",
+    "code": "POLI 200C",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analytic Theory I",
+    "code": "POLI 203A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analytic Theory II",
+    "code": "POLI 203B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Design",
+    "code": "POLI 204A",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Methods I",
+    "code": "POLI 204B",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Game Theory 1",
+    "code": "POLI 204C",
+    "raw_prereq": "graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Game Theory II",
+    "code": "POLI 205",
+    "raw_prereq": "department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems of Political Thought: Thucydides to Rousseau",
+    "code": "POLI 210AA",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems of Political Thought: Kant to Rawls",
+    "code": "POLI 210AB",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Formal Models in Political Theory",
+    "code": "POLI 211",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Sociological Theory",
+    "code": "POLI 212",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture and Political Theory",
+    "code": "POLI 213",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marxist and Post-Marxist Political Philosophy",
+    "code": "POLI 214",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Norms Change and Development",
+    "code": "POLI 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Liberal and Democratic Theory",
+    "code": "POLI 216",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Political Theory",
+    "code": "POLI 219",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Politics: State and Society",
+    "code": "POLI 220A",
+    "raw_prereq": "graduate standing, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Politics: Institutions",
+    "code": "POLI 220B",
+    "raw_prereq": "graduate standing, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Origins of the State",
+    "code": "POLI 220C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clientelism and Corruption",
+    "code": "POLI 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Conflict",
+    "code": "POLI 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corruption and Distribution",
+    "code": "POLI 223",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Parliamentary Studies",
+    "code": "POLI 223A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Democratization",
+    "code": "POLI 224",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elections in Consolidating Democracies",
+    "code": "POLI 224A",
+    "raw_prereq": "graduate student standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Violence",
+    "code": "POLI 225",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Nation-State",
+    "code": "POLI 225B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Understanding Authoritarianism",
+    "code": "POLI 226D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Political Economy",
+    "code": "POLI 227",
+    "raw_prereq": "POLI 200C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI200C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Historical Political Economy",
+    "code": "POLI 228",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Comparative Politics",
+    "code": "POLI 229",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy of Development",
+    "code": "POLI 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Development",
+    "code": "POLI 231E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Migrant Inclusion and Exclusion",
+    "code": "POLI 233",
+    "raw_prereq": "department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin American Politics",
+    "code": "POLI 235A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Immigration Policy and Politics",
+    "code": "POLI 236",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Relations Theory",
+    "code": "POLI 240",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Conflict",
+    "code": "POLI 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The European Union and Global Governance",
+    "code": "POLI 242",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Weapons of Mass Destruction",
+    "code": "POLI 242D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Security",
+    "code": "POLI 243",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Institutions",
+    "code": "POLI 244",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "European Integration",
+    "code": "POLI 244A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Political Economy",
+    "code": "POLI 245",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy of Regional Integration",
+    "code": "POLI 245A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Organization",
+    "code": "POLI 246",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative International Relations",
+    "code": "POLI 247A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Formal Models in International Relations",
+    "code": "POLI 247B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of International Relations",
+    "code": "POLI 247C",
+    "raw_prereq": "240, 247A, and 247B; graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in International Relations",
+    "code": "POLI 248",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Politics of Race, Ethnicity, and Immigration",
+    "code": "POLI 250",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Institutions",
+    "code": "POLI 251",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Politics: Behavior",
+    "code": "POLI 252",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in State Politics",
+    "code": "POLI 253",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Political Development",
+    "code": "POLI 254",
+    "raw_prereq": "graduate standing in any discipline of the social sciences or humanities or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Politics",
+    "code": "POLI 255",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Class, and Institutions in American Political Economy",
+    "code": "POLI 256",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Voting and Elections",
+    "code": "POLI 257",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "United States Presidency and Executive Politics",
+    "code": "POLI 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in American Politics",
+    "code": "POLI 259",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Science Replication",
+    "code": "POLI 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practice of Research",
+    "code": "POLI 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theory and Analysis of Experiments",
+    "code": "POLI 263",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical and Statistical Foundations",
+    "code": "POLI 270",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Statistical Applications",
+    "code": "POLI 271",
+    "raw_prereq": "204B and 270; graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bayesian Methods",
+    "code": "POLI 272",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Causal Inference",
+    "code": "POLI 273",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Text as Data",
+    "code": "POLI 274",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Interviews, Survey Design, and Sampling",
+    "code": "POLI 275",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Qualitative Methods",
+    "code": "POLI 276",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy Models of Elections",
+    "code": "POLI 278",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Methodology",
+    "code": "POLI 279",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: International Law and Regulation",
+    "code": "POLI 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: American Politics",
+    "code": "POLI 281",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: Comparative Politics",
+    "code": "POLI 282",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: International Relations",
+    "code": "POLI 283",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: Evidence-Based Teaching",
+    "code": "POLI 284D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: Political Theory",
+    "code": "POLI 285",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop: Methodology",
+    "code": "POLI 286",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multidisciplinary Methods in Political Science: Social Networks",
+    "code": "POLI 287",
+    "raw_prereq": "204A and 204B and 204C, graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multidisciplinary Methods in Political Science: Computational Social Science",
+    "code": "POLI 288",
+    "raw_prereq": "204A and 204B and 204C, graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multidisciplinary Methods in Political Science: Biology",
+    "code": "POLI 289",
+    "raw_prereq": "204A and 204B and 204C, graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Reading",
+    "code": "POLI 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Research",
+    "code": "POLI 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "POLI 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Teaching Development—American Politics",
+    "code": "POLI 501",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Teaching Development—Comparative Politics",
+    "code": "POLI 502",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Teaching Development—International Relations",
+    "code": "POLI 503",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Teaching Development—Political Theory",
+    "code": "POLI 504",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Methods in Political Science",
+    "code": "POLI 599",
+    "raw_prereq": "graduate standing in political science.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

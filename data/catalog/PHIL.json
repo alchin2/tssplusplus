@@ -1,0 +1,1160 @@
+[
+  {
+    "name": "Introduction to Philosophy",
+    "code": "PHIL 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Puzzles and Paradoxes",
+    "code": "PHIL 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Logic",
+    "code": "PHIL 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Reasoning",
+    "code": "PHIL 12",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Philosophy: Ethics",
+    "code": "PHIL 13",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Philosophy: The Nature of Reality",
+    "code": "PHIL 14",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Philosophy: Knowledge and Its Limits",
+    "code": "PHIL 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science Fiction and Philosophy",
+    "code": "PHIL 16",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science and Pseudoscience",
+    "code": "PHIL 24",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science, Philosophy, and the Big Questions",
+    "code": "PHIL 25",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science, Society, and Values",
+    "code": "PHIL 26",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics and Society",
+    "code": "PHIL 27",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics and Society II",
+    "code": "PHIL 28",
+    "raw_prereq": "PHIL 27 or POLI 27.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL27"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Ancient Philosophy",
+    "code": "PHIL 31",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy and the Rise of Modern Science",
+    "code": "PHIL 32",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy between Reason and Despair",
+    "code": "PHIL 33",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy in the Americas",
+    "code": "PHIL 35",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Law and Society",
+    "code": "PHIL 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Climate Ethics",
+    "code": "PHIL 51",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Living in a Digital World",
+    "code": "PHIL 55",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Love and Sex",
+    "code": "PHIL 60",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language and Power",
+    "code": "PHIL 65",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "PHIL 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Problem in Philosophy",
+    "code": "PHIL 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plato",
+    "code": "PHIL 100",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aristotle",
+    "code": "PHIL 101",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hellenistic Philosophy",
+    "code": "PHIL 102",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Rationalists",
+    "code": "PHIL 104",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Early Modern Philosophy",
+    "code": "PHIL 105",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Kant",
+    "code": "PHIL 106",
+    "raw_prereq": "PHIL 32 or 33 or 104 or 105 or 111 or 112 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHIL32"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL33"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL104"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL105"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL111"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL112"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hegel",
+    "code": "PHIL 107",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nineteenth-Century Philosophy",
+    "code": "PHIL 108",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Analytic Philosophy",
+    "code": "PHIL 109",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Philosophy: Ancient",
+    "code": "PHIL 110",
+    "raw_prereq": "upper-division standing and department stamp or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Philosophy: Early Modern",
+    "code": "PHIL 111",
+    "raw_prereq": "PHIL 110, upper-division standing and department stamp or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL110"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Philosophy: Late Modern",
+    "code": "PHIL 112",
+    "raw_prereq": "PHIL 111, upper-division standing and department stamp or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL111"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophical Methods Seminar",
+    "code": "PHIL 115",
+    "raw_prereq": "open to philosophy majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Symbolic Logic I",
+    "code": "PHIL 120",
+    "raw_prereq": "PHIL 10 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Logic",
+    "code": "PHIL 122",
+    "raw_prereq": "PHIL 120 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL120"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Logic",
+    "code": "PHIL 123",
+    "raw_prereq": "PHIL 120 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL120"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Mathematics",
+    "code": "PHIL 124",
+    "raw_prereq": "PHIL 120 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL120"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability and Decision Theory",
+    "code": "PHIL 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in the History of Logic",
+    "code": "PHIL 126",
+    "raw_prereq": "PHIL 120 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL120"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Metaphysics",
+    "code": "PHIL 130",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Metaphysics",
+    "code": "PHIL 131",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Epistemology",
+    "code": "PHIL 132",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Language",
+    "code": "PHIL 134",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Mind",
+    "code": "PHIL 136",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Moral Psychology",
+    "code": "PHIL 137",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Responsibility",
+    "code": "PHIL 138",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Justice",
+    "code": "PHIL 139",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Free Will",
+    "code": "PHIL 140",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Meaning of Life",
+    "code": "PHIL 141",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Emotion",
+    "code": "PHIL 142",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Perception",
+    "code": "PHIL 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Science",
+    "code": "PHIL 145",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Physics",
+    "code": "PHIL 146",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Biology",
+    "code": "PHIL 147",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy and the Environment",
+    "code": "PHIL 148",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Psychology",
+    "code": "PHIL 149",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of the Cognitive Sciences",
+    "code": "PHIL 150",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Neuroscience",
+    "code": "PHIL 151",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Social Science",
+    "code": "PHIL 152",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy and Animals",
+    "code": "PHIL 153",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mexican Philosophy",
+    "code": "PHIL 155",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latinx Philosophy",
+    "code": "PHIL 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Latin American and Latinx Philosophy",
+    "code": "PHIL 157",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Chinese Philosophy",
+    "code": "PHIL 158",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Metaethics",
+    "code": "PHIL 159",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethical Theory",
+    "code": "PHIL 160",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in the History of Ethics",
+    "code": "PHIL 161",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Moral Issues",
+    "code": "PHIL 162",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomedical Ethics",
+    "code": "PHIL 163",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technology and Human Values",
+    "code": "PHIL 164",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Freedom, Equality, and the Law",
+    "code": "PHIL 165",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Classics in Political Philosophy",
+    "code": "PHIL 166",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Political Philosophy",
+    "code": "PHIL 167",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Law",
+    "code": "PHIL 168",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Feminism and Philosophy",
+    "code": "PHIL 169",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy and Race",
+    "code": "PHIL 170",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Philosophy of Law",
+    "code": "PHIL 171",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Political Philosophy",
+    "code": "PHIL 172",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Bioethics",
+    "code": "PHIL 173",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Ethics",
+    "code": "PHIL 174",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aesthetics",
+    "code": "PHIL 175",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Culture",
+    "code": "PHIL 176",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy and Literature",
+    "code": "PHIL 177",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in German Philosophy Translation—Intermediate",
+    "code": "PHIL 178",
+    "raw_prereq": "consent of instructor and preauthorization.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in German Philosophy Translation—Advanced",
+    "code": "PHIL 179",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Phenomenology",
+    "code": "PHIL 180",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Existentialism",
+    "code": "PHIL 181",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Continental Philosophy",
+    "code": "PHIL 183",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy and Film",
+    "code": "PHIL 184",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Religion",
+    "code": "PHIL 185",
+    "raw_prereq": "upper-division standing or consent of instructor. May be taken for credit twice with changed content.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Authoritarianism",
+    "code": "PHIL 186",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Ethics",
+    "code": "PHIL 189",
+    "raw_prereq": "upper-division standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy Honors",
+    "code": "PHIL 191A",
+    "raw_prereq": "department approval; consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Honors Essay",
+    "code": "PHIL 191B",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "PHIL 195P",
+    "raw_prereq": "upper-division standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Individual Study",
+    "code": "PHIL 199",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Proseminar",
+    "code": "PHIL 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in History",
+    "code": "PHIL 201A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in Ethics",
+    "code": "PHIL 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in Philosophy of Science",
+    "code": "PHIL 204A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in Metaphysics",
+    "code": "PHIL 205A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in Epistemology",
+    "code": "PHIL 206A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in Philosophy of Mind",
+    "code": "PHIL 207",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Course in Philosophy of Language",
+    "code": "PHIL 208",
+    "raw_prereq": "graduate status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Science Studies: Part I",
+    "code": "PHIL 209A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Science Studies",
+    "code": "PHIL 209B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Colloquium in Science Studies",
+    "code": "PHIL 209C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Science Studies Part II",
+    "code": "PHIL 209D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Greek Philosophy",
+    "code": "PHIL 210",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Early Modern Philosophy",
+    "code": "PHIL 214",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Eighteenth-Century Philosophy",
+    "code": "PHIL 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nineteenth-Century Philosophy",
+    "code": "PHIL 216",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Analytical Philosophy",
+    "code": "PHIL 218",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Agency, Responsibility, and Freedom",
+    "code": "PHIL 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Logic",
+    "code": "PHIL 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Metaphysics",
+    "code": "PHIL 230",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Epistemology",
+    "code": "PHIL 232",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Language",
+    "code": "PHIL 234",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Mind",
+    "code": "PHIL 236",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Science",
+    "code": "PHIL 245",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Physics",
+    "code": "PHIL 246",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Biology",
+    "code": "PHIL 247",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of the Cognitive Sciences",
+    "code": "PHIL 250A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin American Philosophy",
+    "code": "PHIL 256",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics",
+    "code": "PHIL 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioethics",
+    "code": "PHIL 263",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Philosophy",
+    "code": "PHIL 267",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Agency, Morality, and Psychology Research Group",
+    "code": "PHIL 271",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "German Philosophy Reading Group",
+    "code": "PHIL 275",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Phenomenology Reading Group",
+    "code": "PHIL 277",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics and Methods in Contemporary Philosophy",
+    "code": "PHIL 278",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Science Topics and Methods",
+    "code": "PHIL 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Philosophy Research and Methods",
+    "code": "PHIL 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics and Methods in Ethics",
+    "code": "PHIL 282",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics and Methods in Latin American Philosophy",
+    "code": "PHIL 283",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Biology Research Group",
+    "code": "PHIL 284",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Special Topics",
+    "code": "PHIL 285",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Philosophy of Physics Reading Group",
+    "code": "PHIL 286",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Greek Reading Group",
+    "code": "PHIL 287",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin Reading Group",
+    "code": "PHIL 288",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Independent Study",
+    "code": "PHIL 290",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing Workshop",
+    "code": "PHIL 292",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Topics",
+    "code": "PHIL 295",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Research",
+    "code": "PHIL 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "PHIL 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

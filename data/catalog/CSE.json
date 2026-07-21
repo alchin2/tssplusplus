@@ -1,0 +1,3706 @@
+[
+  {
+    "name": "Fluency in Information Technology",
+    "code": "CSE 3",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Beauty in Rome",
+    "code": "CSE 4GS",
+    "raw_prereq": "MATH 10A or MATH 20A; department approval, and corequisite of CSE 6GS.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles and Practice of Artificial Intelligence",
+    "code": "CSE 5",
+    "raw_prereq": "none. For students to develop a high-level understanding of the AI field. Not for students who plan to study AI, computer science, or data science. Students may only receive credit for one of CSE 5, CSE 5R, or CSE 25.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE5R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles and Practice of Artificial Intelligence",
+    "code": "CSE 5R",
+    "raw_prereq": "none. For students to develop a high-level understanding of the AI field. Not for students who plan to study AI, computer science, or data science. This is a distance education course. Students may only receive credit for one of CSE 5, CSE 5R, or CSE 25.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE5R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Beauty in Rome Lab",
+    "code": "CSE 6GS",
+    "raw_prereq": "MATH 10A or MATH 20A; department approval, and corequisite of CSE 4GS.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Science and Object-Oriented Programming: Python",
+    "code": "CSE 6R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Programming and Computational Problem-Solving I",
+    "code": "CSE 8A",
+    "raw_prereq": "restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Programming and Computational Problem-Solving: Accelerated Pace",
+    "code": "CSE 11",
+    "raw_prereq": "restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Data Structures and Object-Oriented Design",
+    "code": "CSE 12",
+    "raw_prereq": "CSE 8B or CSE 11; restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software Tools and Techniques Laboratory",
+    "code": "CSE 15L",
+    "raw_prereq": "CSE 8B or CSE 11 or CSE 12 or DSC 30; restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discrete Mathematics",
+    "code": "CSE 20",
+    "raw_prereq": "CSE 11 or CSE 6R or CSE 8A or CSE 8B or ECE 15. Prerequisite courses must have been completed with a grade of C– or better; restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics for Algorithms and Systems",
+    "code": "CSE 21",
+    "raw_prereq": "CSE 20 or MATH 15A or MATH 31CH; students who have completed MATH 154 or MATH 184 or MATH 188 previously or concurrently may not receive credit for CSE 21; restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH15A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Artificial Intelligence",
+    "code": "CSE 25",
+    "raw_prereq": "COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 20. Restricted to students within the CS29 major. All other students will be allowed as space permits. This course is intended for students with no prior AI or ML experience. This course is intended for students with no prior AI or ML experience. Students may receive credit for one of the following: CSE 5, CSE 5R, or CSE 25.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE5R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Programming and Software Tools",
+    "code": "CSE 29",
+    "raw_prereq": "CSE 11 or CSE 8B or ECE 15; two units of credit offered for CSE 29 if CSE 15L taken previously.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Organization",
+    "code": "CSE 30",
+    "raw_prereq": "CSE 15L or CSE 29 or ECE 15; restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Building and Programming Electronic Devices",
+    "code": "CSE 42",
+    "raw_prereq": "restricted to first-year and sophomore students; instructor approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Artificial Intelligence and Machine Learning",
+    "code": "CSE 55",
+    "raw_prereq": "CSE 12 and CSE 25 and CSE 15L or CSE 29 and MATH 18 or MATH 31AH and MATH 20C or MATH 31BH; restricted to students within the CS29 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE25"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "C++ for Java Programmers",
+    "code": "CSE 86",
+    "raw_prereq": "CSE 12 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "CSE 87",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Computing Perspective",
+    "code": "CSE 88",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Science and Engineering Seminar",
+    "code": "CSE 89",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "CSE 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Perspectives in Computer Science and Engineering",
+    "code": "CSE 91",
+    "raw_prereq": "majors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tutor Apprenticeship",
+    "code": "CSE 95",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Computer Science and Engineering",
+    "code": "CSE 99",
+    "raw_prereq": "lower-division standing. Completion of thirty units at UC San Diego with a UC San Diego GPA of 3.0. Special Studies form required. Department stamp required. Consent of instructor and approval of the department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Data Structures",
+    "code": "CSE 100",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Data Structures",
+    "code": "CSE 100R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design and Analysis of Algorithms",
+    "code": "CSE 101",
+    "raw_prereq": "CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 12 or DSC 30; restricted to undergraduates. Graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "A Practical Introduction to Probability and Statistics",
+    "code": "CSE 103",
+    "raw_prereq": "MATH 20B and CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188; restricted to CS25, CS26, CS27, CS28, and CS29 majors. Other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theory of Computability",
+    "code": "CSE 105",
+    "raw_prereq": "CSE 12 and CSE 20 or MATH 109 or MATH 15A or MATH 31CH and CSE 21 or MATH 100A or MATH 103A or MATH 154 or MATH 158 or MATH 184 or MATH 188; restricted to CS25, CS26, CS27, CS29, EC26, and MA30 majors. Other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH15A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH103A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discrete and Continuous Optimization",
+    "code": "CSE 106",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Modern Cryptography",
+    "code": "CSE 107",
+    "raw_prereq": "CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 101 and CSE 105; restricted to students within the CS25, CS26, CS27, CS28, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE105"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Programming Contests",
+    "code": "CSE 109",
+    "raw_prereq": "CSE 15L or CSE 29 or permission of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software Engineering",
+    "code": "CSE 110",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Software Engineering",
+    "code": "CSE 112",
+    "raw_prereq": "CSE 110; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE110"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ubiquitous Computing",
+    "code": "CSE 118",
+    "raw_prereq": "any course from the following: COGS 102C or COGS 121 or COGS 184 or COGS 184GS or CSE 131 or CSE 132B or ECE 111 or ECE 118 or ECE 191 or ECE 192.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS102C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS121"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS184GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE132B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE111"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE118"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE191"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operating Systems Principles",
+    "code": "CSE 120",
+    "raw_prereq": "CSE 15L or CSE 29 and CSE 30 and CSE 100 or CSE 100R and CSE 101; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE30"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real-World Operating Systems",
+    "code": "CSE 121",
+    "raw_prereq": "CSE 120.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wireless Networks",
+    "code": "CSE 122",
+    "raw_prereq": "CSE 30 or ECE 30 and CSE 101 or ECE 141A and CSE 110 or ECE 141B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE141A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE110"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Networks",
+    "code": "CSE 123",
+    "raw_prereq": "CSE 15L or CSE 29 and CSE 101 and CSE 110; restricted to students within the CS25, CS26, EC26, CS27, CS28, and CS29 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE110"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Networked Services",
+    "code": "CSE 124",
+    "raw_prereq": "CSE 15L or CSE 29 and CSE 101 and CSE 110; restricted to students within the CS25, CS26, CS27, CS28, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE110"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software System Design and Implementation",
+    "code": "CSE 125",
+    "raw_prereq": "senior standing with substantial programming experience, and consent of instructor. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Security",
+    "code": "CSE 127",
+    "raw_prereq": "CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 120 or CSE 123 or CSE 124 or ECE 158A or ECE 158B; restricted to students within the CS25, CS26, CS27, CS28, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE123"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE124"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE158A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE158B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Programming Languages: Principles and Paradigms",
+    "code": "CSE 130",
+    "raw_prereq": "CSE 12 and CSE 100 or CSE 100R and CSE 105; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE105"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Compiler Construction",
+    "code": "CSE 131",
+    "raw_prereq": "CSE 30 and CSE 100 or CSE 100R and CSE 105 and CSE 130; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE30"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE105"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE130"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Database System Principles",
+    "code": "CSE 132A",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to students within the CS25, CS26, EC26, CS27, CS28, and CS29 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Database Systems Applications",
+    "code": "CSE 132B",
+    "raw_prereq": "CSE 132A; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE132A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Database System Implementation",
+    "code": "CSE 132C",
+    "raw_prereq": "CSE 132A or DSC 102; restricted to CS25, CS26, CS27, CS28, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE132A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Web Client Languages",
+    "code": "CSE 134B",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Online Database Analytics Applications",
+    "code": "CSE 135",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to students within the CS25, CS26, CS27, CS28, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enterprise-Class Web Applications",
+    "code": "CSE 136",
+    "raw_prereq": "CSE 135.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Components and Design Techniques for Digital Systems",
+    "code": "CSE 140",
+    "raw_prereq": "CSE 30 or ECE 30; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Systems Laboratory",
+    "code": "CSE 140L",
+    "raw_prereq": "CSE 30; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE30"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Architecture",
+    "code": "CSE 141",
+    "raw_prereq": "CSE 30 or ECE 30 and CSE 140; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE140"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Project in Computer Architecture",
+    "code": "CSE 141L",
+    "raw_prereq": "CSE 30 or ECE 30 and CSE 140; restricted to CS25, CS26, CS27, CS28, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE140"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Architecture: A Software Perspective",
+    "code": "CSE 142",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software Project for Computer Architecture",
+    "code": "CSE 142L",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microelectronic System Design",
+    "code": "CSE 143",
+    "raw_prereq": "CSE 140. Restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS29"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EC26"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Embedded Systems Design Project",
+    "code": "CSE 145",
+    "raw_prereq": "instructor approval required, by application only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Embedded Systems",
+    "code": "CSE 147",
+    "raw_prereq": "CSE 30.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Processor Architecture Design Project",
+    "code": "CSE 148",
+    "raw_prereq": "CSE 141 or CSE 142; graduate students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE141"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE142"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making",
+    "code": "CSE 150A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Artificial Intelligence: Search and Reasoning",
+    "code": "CSE 150B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning: Learning Algorithms",
+    "code": "CSE 151A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deep Learning",
+    "code": "CSE 151B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Vision I",
+    "code": "CSE 152A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Vision II",
+    "code": "CSE 152B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Music",
+    "code": "CSE 153",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Music",
+    "code": "CSE 153R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Natural Language Processing",
+    "code": "CSE 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recommender Systems and Web Mining",
+    "code": "CSE 158",
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and BENG 100 or BENG 134 or COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186; restricted to students within the CS25, CS26, CS27, CS29, EC26, and DS25 majors. All other students will be allowed as space permits. May be coscheduled with CSE 258. Students may not receive credit for CSE 158 and CSE 158R or DSC 148.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recommender Systems and Web Mining",
+    "code": "CSE 158R",
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and BENG 100 or BENG 134 or COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186; restricted to students within the CS25, CS26, CS27, CS28, CS29, EC26, and DS25 majors. All other students will be allowed as space permits. This course is a distance education course. May be coscheduled with CSE 258R. Students may not receive credit for CSE 158R and CSE 158 or DSC 148.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Parallel Computing",
+    "code": "CSE 160",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Computer Graphics",
+    "code": "CSE 163",
+    "raw_prereq": "CSE 167 or CSE 167R or MATH 155A; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE167"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE167R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH155A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "3-D User Interaction",
+    "code": "CSE 165",
+    "raw_prereq": "CSE 167 or CSE 167R or MATH 155A; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE167"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE167R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH155A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Image Processing",
+    "code": "CSE 166",
+    "raw_prereq": "DSC 40B or MATH 18 or MATH 31AH and CSE 100 or CSE 100R or DSC 80.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Graphics",
+    "code": "CSE 167",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Graphics",
+    "code": "CSE 167R",
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Graphics II: Rendering",
+    "code": "CSE 168",
+    "raw_prereq": "CSE 167 or CSE 167R or MATH 155A; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE167"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE167R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH155A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Graphics II: Rendering",
+    "code": "CSE 168R",
+    "raw_prereq": "CSE 167 or CSE 167R or MATH 155A; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE167"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE167R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH155A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Animation",
+    "code": "CSE 169",
+    "raw_prereq": "CSE 167 or CSE 167R; restricted to CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE167"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE167R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Interaction Design",
+    "code": "CSE 170",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Successful Entrepreneurship for Engineers",
+    "code": "CSE 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Care Robotics",
+    "code": "CSE 176A",
+    "raw_prereq": "CSE 110 or CSE 170 or COGS 120.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE170"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Robot Systems Design and Implementation",
+    "code": "CSE 176E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology Meets Computing",
+    "code": "CSE 180",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology Meets Computing",
+    "code": "CSE 180R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Sequence Analysis",
+    "code": "CSE 181",
+    "raw_prereq": "CSE 100 or CSE 100R and CSE 101 and BIMM 100 or CHEM 114C; restricted to BE28, BI34, CH37, and CS27 majors. Students may receive credit for one of the following: CSE 181, BIMM 181, BENG 181, or CSE 181R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Sequence Analysis",
+    "code": "CSE 181R",
+    "raw_prereq": "CSE 100 or CSE 100R and CSE 101 and BIMM 100 or CHEM 114C; restricted to BE28, BI34, CH37, and CS27 majors. This course is a distance education course. Students may receive credit for one of the following: CSE 181, BIMM 181, BENG 181, or CSE 181R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biological Databases",
+    "code": "CSE 182",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Molecular Biology",
+    "code": "CSE 184",
+    "raw_prereq": "BIMM 181 or BENG 181 or CSE 181, BENG 182 or BIMM 182 or CSE 182 or CHEM 182. Bioinformatics majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE182"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Bioinformatics Laboratory",
+    "code": "CSE 185",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Computer Science and Engineering",
+    "code": "CSE 190",
+    "raw_prereq": "consent of instructor. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in CSE",
+    "code": "CSE 191",
+    "raw_prereq": "consent of instructor. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Computer Science and Engineering",
+    "code": "CSE 192",
+    "raw_prereq": "upper-division standing; department stamp required and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computer Science Research",
+    "code": "CSE 193",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Gender, and Computing",
+    "code": "CSE 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Study in Computer Science and Engineering",
+    "code": "CSE 197",
+    "raw_prereq": "consent of the instructor and approval of the department required. Students may receive credit for one of the following: CSE 197 or CSE 197C. Restricted to CS25, CS26, CS27, and CS29 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE197"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS27"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS29"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cooperative Practicum in Computer Science and Engineering",
+    "code": "CSE 197C",
+    "raw_prereq": "department approval. Restricted to CS25, CS26, CS27, and CS29 majors only. Students may receive credit for one of the following: CSE 197C or CSE 197.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS27"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE197C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "CSE 198",
+    "raw_prereq": "consent of the instructor. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "CSE 199",
+    "raw_prereq": "consent of the instructor. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSE Honors Thesis Research for Undergraduates",
+    "code": "CSE 199H",
+    "raw_prereq": "Admission to the CSE department honors program. Consent of the instructor. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computability and Complexity",
+    "code": "CSE 200",
+    "raw_prereq": "CSE 105 or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE105"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Complexity",
+    "code": "CSE 201A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algorithm Design and Analysis",
+    "code": "CSE 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Algorithms",
+    "code": "CSE 203A",
+    "raw_prereq": "CSE 202.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Convex Optimization Formulations and Algorithms",
+    "code": "CSE 203B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Logic in Computer Science",
+    "code": "CSE 205A",
+    "raw_prereq": "CSE 200 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE200"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lattice Algorithms and Applications",
+    "code": "CSE 206A",
+    "raw_prereq": "CSE 202, CSE 200, or concurrent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE202"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE200"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Cryptography",
+    "code": "CSE 207",
+    "raw_prereq": "CSE 202 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE202"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Cryptography",
+    "code": "CSE 208",
+    "raw_prereq": "CSE 202, CSE 200, and CSE 207 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE202"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE200"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE207"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Algorithms, Complexity, and Logic",
+    "code": "CSE 209A",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Cryptography",
+    "code": "CSE 209B",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Software Engineering",
+    "code": "CSE 210",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software Testing and Analysis",
+    "code": "CSE 211",
+    "raw_prereq": "undergraduate major in computer science or extensive industrial experience.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Topics in Human-Computer Interaction",
+    "code": "CSE 216",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human-Centered Computing for Health",
+    "code": "CSE 217",
+    "raw_prereq": "department approval and instructor consent required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Software Engineering",
+    "code": "CSE 218",
+    "raw_prereq": "none. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits. May be taken for credit up to twenty-five times.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design at Large",
+    "code": "CSE 219",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operating Systems Principles",
+    "code": "CSE 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operating Systems",
+    "code": "CSE 221",
+    "raw_prereq": "CSE 120 and 121, or consent of instructor. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE120"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE121"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Communication Networks",
+    "code": "CSE 222A",
+    "raw_prereq": "CSE 123A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE123A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Internet Algorithmics",
+    "code": "CSE 222B",
+    "raw_prereq": "CSE 123A or CSE 222A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE123A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE222A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wireless Networks",
+    "code": "CSE 222C",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Distributed Computing and Systems",
+    "code": "CSE 223B",
+    "raw_prereq": "CSE 221, CSE 222A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE222A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Networked Services",
+    "code": "CSE 224",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Security",
+    "code": "CSE 227",
+    "raw_prereq": "CSE 221 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE221"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Computer Systems",
+    "code": "CSE 229A",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Computer Security",
+    "code": "CSE 229C",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Programming Languages",
+    "code": "CSE 230",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Compiler Construction",
+    "code": "CSE 231",
+    "raw_prereq": "restricted to students within the CS75, CS76, CS78, CS88, and CS89 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS89"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Database Systems",
+    "code": "CSE 232",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Database System Implementation",
+    "code": "CSE 232B",
+    "raw_prereq": "CSE 232.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Database Theory",
+    "code": "CSE 233",
+    "raw_prereq": "CSE 200.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Embedded Computing",
+    "code": "CSE 237A",
+    "raw_prereq": "basic courses in digital hardware, algorithms and data structures, elementary calculus, and probability; or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Software for Embedded Systems",
+    "code": "CSE 237B",
+    "raw_prereq": "CSE 237A; or basic courses in programming, algorithms and data structures, elementary calculus, discrete math, computer architecture; or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE237A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Validation and Testing of Embedded Systems",
+    "code": "CSE 237C",
+    "raw_prereq": "CSE 237A; or basic courses in algorithms and data structures, elementary calculus, discrete math, symbolic logic, computer architecture; or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE237A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Embedded Systems Design Project",
+    "code": "CSE 237D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Databases",
+    "code": "CSE 239A",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Programming Languages",
+    "code": "CSE 239B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human-Computer Interaction Seminar",
+    "code": "CSE 239C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Computer Architecture",
+    "code": "CSE 240A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parallel Computer Architecture",
+    "code": "CSE 240B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Microarchitecture",
+    "code": "CSE 240C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Securing Processor Architectures",
+    "code": "CSE 240E",
+    "raw_prereq": "CSE 240A. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits. Recommended preparation: some background in security is useful but not required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "VLSI Integration of Computing Circuitry",
+    "code": "CSE 241A/ECE 260B",
+    "raw_prereq": "layout (CSE 165 or ECE 260A) and logic design (CSE 140 or ECE 111), or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Architecture, Storage, and Memory Systems Seminar",
+    "code": "CSE 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Synthesis Methodologies in VLSI CAD",
+    "code": "CSE 243A",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "VLSI Test",
+    "code": "CSE 244A",
+    "raw_prereq": "none. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Aided Circuit Simulation and Verification",
+    "code": "CSE 245",
+    "raw_prereq": "CSE 241A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE241A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algorithmic and Optimization Foundations for VLSI CAD",
+    "code": "CSE 248",
+    "raw_prereq": "CSE 241A or CSE 242A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE241A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE242A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in Computer Architecture",
+    "code": "CSE 249A",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/Seminar in VLSI",
+    "code": "CSE 249B",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Embedded Systems",
+    "code": "CSE 249E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Artificial Intelligence: Probabilistic Reasoning and Learning",
+    "code": "CSE 250A",
+    "raw_prereq": "graduate standing. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits. Recommended preparation: understanding of probability and statistics.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning: Learning Algorithms",
+    "code": "CSE 251A",
+    "raw_prereq": "graduate standing or consent of instructor. Restricted to students in CS75, CS76, CS78, and CS89. Other graduate students will be allowed as space permits. Recommended preparation: some experience with probability and statistics recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deep Learning",
+    "code": "CSE 251B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Machine Learning: Machine Learning Theory",
+    "code": "CSE 251C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Unsupervised Learning",
+    "code": "CSE 251U",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Vision I",
+    "code": "CSE 252A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Vision II",
+    "code": "CSE 252B",
+    "raw_prereq": "MATH 10D and MATH 20A–F or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH10D"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Vision and Learning",
+    "code": "CSE 252C",
+    "raw_prereq": "CSE 252 or equivalent and CSE 250B or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE252"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE250B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Computer Vision",
+    "code": "CSE 252D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Music",
+    "code": "CSE 253",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Music",
+    "code": "CSE 253R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning",
+    "code": "CSE 254",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Mining and Predictive Analytics",
+    "code": "CSE 255",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Natural Language Processing",
+    "code": "CSE 256/LING 256",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Search and Optimization",
+    "code": "CSE 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recommender Systems and Web Mining",
+    "code": "CSE 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Modeling",
+    "code": "CSE 258A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recommender Systems and Web Mining",
+    "code": "CSE 258R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Artificial Intelligence",
+    "code": "CSE 259",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Parallel Computation",
+    "code": "CSE 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Data-Driven Text Mining",
+    "code": "CSE 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "System Support for Applications of Parallel Computation",
+    "code": "CSE 262",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Virtualization and Cloud Computing",
+    "code": "CSE 266",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discrete Differential Geometry",
+    "code": "CSE 270",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Navigating Academic Job Market",
+    "code": "CSE 271",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Image Synthesis",
+    "code": "CSE 272",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Photography",
+    "code": "CSE 273",
+    "raw_prereq": "course is restricted to students in the following major codes: CS75, CS76, and CS78. Graduate students in other major codes will be allowed if space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS76"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Graphics",
+    "code": "CSE 274",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deep Learning for 3-D Data",
+    "code": "CSE 275",
+    "raw_prereq": "graduate standing. Restricted to students within the CS75, CS76, CS78, CS88, and CS89 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS89"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Robotics",
+    "code": "CSE 276A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Robot Interaction",
+    "code": "CSE 276B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics for Robotics",
+    "code": "CSE 276C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Healthcare Robotics",
+    "code": "CSE 276D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Robot Systems Design and Implementation",
+    "code": "CSE 276E",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Robotics",
+    "code": "CSE 276F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algorithms in Computational Biology",
+    "code": "CSE 280A",
+    "raw_prereq": "CSE 202 preferred or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE202"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics II: Sequence and Structure Analysis—Methods and Applications",
+    "code": "CSE 282/BENG 202",
+    "raw_prereq": "Pharm 201 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHARM201"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics III: Functional Genomics",
+    "code": "CSE 283/BENG 203",
+    "raw_prereq": "Pharm 201, BENG 202/CSE 282, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHARM201"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHARM282"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Personal Genomics for Bioinformaticians",
+    "code": "CSE 284",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Computer Science and Engineering",
+    "code": "CSE 290",
+    "raw_prereq": "consent of instructor. (Offered as faculty resources permit.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Computer Science and Engineering",
+    "code": "CSE 291",
+    "raw_prereq": "consent of instructor. S/U grades permitted. Offered as faculty resources permit.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Artificial Intelligence",
+    "code": "CSE 291A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Bioinformatics",
+    "code": "CSE 291B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Computer Engineering",
+    "code": "CSE 291C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Database Systems",
+    "code": "CSE 291D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Graphics and Vision",
+    "code": "CSE 291G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Human-Computer Interaction",
+    "code": "CSE 291I",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Robotics",
+    "code": "CSE 291O",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Programming Languages, Compilers, and Software Engineering",
+    "code": "CSE 291P",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Theoretical Computer Science",
+    "code": "CSE 291T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Computer Systems and Security",
+    "code": "CSE 291Y",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Faculty Research Seminar",
+    "code": "CSE 292",
+    "raw_prereq": "CSE graduate status.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Project in Computer Science and Engineering",
+    "code": "CSE 293",
+    "raw_prereq": "CSE graduate student status. (CS 75, 76, 77, 78, 79, 80, 81) (S/U grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Meeting in CSE",
+    "code": "CSE 294",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CSE 298",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research",
+    "code": "CSE 299",
+    "raw_prereq": "consent of faculty.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Assistantship",
+    "code": "CSE 500",
+    "raw_prereq": "graduate standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Methods in Computer Science",
+    "code": "CSE 599",
+    "raw_prereq": "consent of faculty.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

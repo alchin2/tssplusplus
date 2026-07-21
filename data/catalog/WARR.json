@@ -1,0 +1,75 @@
+[
+  {
+    "name": "First Year Experience",
+    "code": "WARR 1",
+    "raw_prereq": "open to Warren NFRS students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transfer Year Experience",
+    "code": "WARR 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Writing Course A",
+    "code": "WCWP 10A",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing Requirement and must be a Warren College student.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Writing Course B",
+    "code": "WCWP 10B",
+    "raw_prereq": "satisfaction of WCWP 10A and must be a Warren College student.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "WCWP10A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Academic Writing",
+    "code": "WCWP 100",
+    "raw_prereq": "junior/senior standing and must be a Warren College student.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technical Writing for Scientists and Engineers",
+    "code": "WCWP 160",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Academic Mentoring and the Writing Process",
+    "code": "WARR 189",
+    "raw_prereq": "permission of instructor is required to enroll.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Group Study",
+    "code": "WCWP 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching in WCWP",
+    "code": "WCWP 500",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

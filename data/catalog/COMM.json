@@ -1,0 +1,3153 @@
+[
+  {
+    "name": "Introduction to Communication",
+    "code": "COMM 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Communication",
+    "code": "COMM 10R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analysis of Audio/Visual Media: Form, Style, and Meaning",
+    "code": "COMM 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+    "code": "COMM 30",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+    "code": "COMM 30GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Promotional Communication",
+    "code": "COMM 40",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Presenting and Public Speaking",
+    "code": "COMM 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Environmental Justice",
+    "code": "COMM 65",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Communication",
+    "code": "COMM 75",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Presentation and Persuasion—Speech and Debate",
+    "code": "COMM 80",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "COMM 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, the Person, and Everyday Life",
+    "code": "COMM 100A",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Culture, and Representation",
+    "code": "COMM 100B",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Culture, and Representation",
+    "code": "COMM 100BR",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Institutions, and Power",
+    "code": "COMM 100C",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Institutions, and Power",
+    "code": "COMM 100CR",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Audiovisual Media Practices",
+    "code": "COMM 101",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Production of Activist Media",
+    "code": "COMM 101A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPL: Nonlinear/Digital Editing",
+    "code": "COMM 101D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPL: Ethnographic Methods for Media Production",
+    "code": "COMM 101E",
+    "raw_prereq": "COMM 10 and COMM 101.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPL: Documentary Sketchbook",
+    "code": "COMM 101K",
+    "raw_prereq": "COMM 10 and COMM 101.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPL: Communication and Computers",
+    "code": "COMM 101M",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPL: Sound Production and Manipulation",
+    "code": "COMM 101N",
+    "raw_prereq": "COMM 101 or VIS 70N.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MPL: Topics in Production",
+    "code": "COMM 101T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MMPP: Audio Story and Podcasting Practicum",
+    "code": "COMM 102B",
+    "raw_prereq": "COMM 10 and COMM 101.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MMPP: Practicum in New Media and Community Life",
+    "code": "COMM 102C",
+    "raw_prereq": "none",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MMPP: Practicum in Child Development",
+    "code": "COMM 102D",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MMPP: Studio Television",
+    "code": "COMM 102M",
+    "raw_prereq": "COMM 10 and COMM 101 or VIS 70N.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MMPP: Television Analysis and Production",
+    "code": "COMM 102P",
+    "raw_prereq": "COMM 10 and COMM 101 or VIS 70N.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MMPP: Television Documentary",
+    "code": "COMM 102T",
+    "raw_prereq": "COMM 10 and COMM 101 or VIS 70N.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CM: Documentary History and Theory",
+    "code": "COMM 103D",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CM: History of Electronic Media",
+    "code": "COMM 103E",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMS: Asia",
+    "code": "COMM 104D",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMS: Europe",
+    "code": "COMM 104E",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMS: Africa",
+    "code": "COMM 104F",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMS: Latin America and the Caribbean",
+    "code": "COMM 104G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CMS: Europe",
+    "code": "COMM 104GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CT: Video Game Studies",
+    "code": "COMM 105G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CT: Mobile Communication",
+    "code": "COMM 105M",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CT: Photographic Technologies",
+    "code": "COMM 105P",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Media Industries",
+    "code": "COMM 106",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Streaming Media Industries",
+    "code": "COMM 106B",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data and AI Industries",
+    "code": "COMM 106D",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CI: Film Industry",
+    "code": "COMM 106F",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CI: Tourism: Global Industry and Cultural Form",
+    "code": "COMM 106G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CI: Internet Industry",
+    "code": "COMM 106I",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advertising and Society",
+    "code": "COMM 106M",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journalism and the News Industry",
+    "code": "COMM 106N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journalism and the News Industry",
+    "code": "COMM 106NR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "TV Industry",
+    "code": "COMM 106V",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visual Culture",
+    "code": "COMM 107",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "POB: Introduction",
+    "code": "COMM 108A",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "POB: Disability",
+    "code": "COMM 108D",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Politics of Bodies: Gender and Biomedicine",
+    "code": "COMM 108G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MC: History of Information",
+    "code": "COMM 109I",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MC: Propaganda and Persuasion",
+    "code": "COMM 109P",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "LLC: Communication in Organizations",
+    "code": "COMM 110G",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "LLC: Communication and Community",
+    "code": "COMM 110M",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "LLC: Language and Human Communication",
+    "code": "COMM 110P",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "LLC: Language, Thought, and Media",
+    "code": "COMM 110T",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Texting and Talking",
+    "code": "COMM 110X",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Communication and Cultural Production: Introduction",
+    "code": "COMM 111A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Global Borders: Communication and Conflict",
+    "code": "COMM 111B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Cities and Politics of Space",
+    "code": "COMM 111C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Folklore and Communication",
+    "code": "COMM 111F",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Popular Culture",
+    "code": "COMM 111G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Performance and Cultural Studies",
+    "code": "COMM 111P",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Cultural Politics of Sport",
+    "code": "COMM 111T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "IM: The Idea of Childhood",
+    "code": "COMM 112C",
+    "raw_prereq": "COMM 10 or HDP 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "IM: Language and Globalization",
+    "code": "COMM 112G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Topics in Communication",
+    "code": "COMM 113T",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Human Rights, Communication, and Contemporary Global Justice",
+    "code": "COMM 114A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Communication and Social Institutions: Human Rights Advocacy: Journalists, Activists and Scholars at Risk",
+    "code": "COMM 114B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: On Constitutions",
+    "code": "COMM 114C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: New Media, Youth, and Democracy",
+    "code": "COMM 114D",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Gender, Labor, and Culture in the Global Economy",
+    "code": "COMM 114E",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Law, Communication, and Freedom of Expression",
+    "code": "COMM 114F",
+    "raw_prereq": "COMM 10 or DOC 2 or POLI 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Gender and Science",
+    "code": "COMM 114G",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Media Technologies and Social Movements",
+    "code": "COMM 114I",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Food Justice",
+    "code": "COMM 114J",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Community Fieldwork",
+    "code": "COMM 114K",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "",
+    "code": "COMM 114M CSI: Communication and the Law (4)",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Communication and the Law: The Body in Law",
+    "code": "COMM 114N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Public History and Museum Studies",
+    "code": "COMM 114P",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Science Communication",
+    "code": "COMM 114T",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Global Health Communication",
+    "code": "COMM 114W",
+    "raw_prereq": "COMM 10 or GLBH 20.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication and the Senses",
+    "code": "COMM 115",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science for Communication Students",
+    "code": "COMM 115D",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journalistic Writing, Reporting, and Research",
+    "code": "COMM 115J",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Action Cinema",
+    "code": "COMM 118A",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comic Books as a Cultural Form",
+    "code": "COMM 118C",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Television as a Cultural Form",
+    "code": "COMM 118T",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Persuasion",
+    "code": "COMM 119",
+    "raw_prereq": "COMM 80.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AMP: Social Issues in Media Production",
+    "code": "COMM 120I",
+    "raw_prereq": "COMM 10 and two of COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AMP: Media Stereotypes",
+    "code": "COMM 120M",
+    "raw_prereq": "COMM 10 and two of COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AMP: News Media Workshop",
+    "code": "COMM 120N",
+    "raw_prereq": "COMM 10 and two from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AMP: Digital Media in Education",
+    "code": "COMM 120P",
+    "raw_prereq": "COMM 10 and two from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AMP: Writing for Digital Media",
+    "code": "COMM 120W",
+    "raw_prereq": "COMM 10 and two from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Design Practice/Advanced Studio",
+    "code": "COMM 124A",
+    "raw_prereq": "COMM 10 or COGS 1 or DSGN 1 or ESYS 10 or POLI 10 or POLI 10D or USP 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ESYS10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI10D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Design Practice/Topic Studio",
+    "code": "COMM 124B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Skills in Communication",
+    "code": "COMM 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Children and Media",
+    "code": "COMM 126",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Problem of Voice",
+    "code": "COMM 127",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Nation, and Violence in Multicultural California",
+    "code": "COMM 129",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Creative Labor in the Media Industries",
+    "code": "COMM 130",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Dissent, and the Formation of Social Movements",
+    "code": "COMM 131",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Communication, Politics, and Society",
+    "code": "COMM 132",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Television and Citizenship",
+    "code": "COMM 133",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Audiences",
+    "code": "COMM 134",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Minority Media Makers and the Festival Experience",
+    "code": "COMM 135",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transmedia",
+    "code": "COMM 136",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black Women Filmmakers",
+    "code": "COMM 137",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black Women, Feminism, and Media",
+    "code": "COMM 138",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Examining Marvel’s Black Panther",
+    "code": "COMM 139",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cinema in Latin America",
+    "code": "COMM 140",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Film Authorship",
+    "code": "COMM 142",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science Fiction",
+    "code": "COMM 143",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science Fiction",
+    "code": "COMM 143R",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Television in the 1970s",
+    "code": "COMM 144",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History, Memory, and Popular Culture",
+    "code": "COMM 145",
+    "raw_prereq": "COMM 10 and two from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Cultural Production",
+    "code": "COMM 146",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Activism",
+    "code": "COMM 147",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Cultures of K-Pop",
+    "code": "COMM 148",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40, or COMM 50.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Southern California in Cinema",
+    "code": "COMM 149",
+    "raw_prereq": "COMM 100A, COMM 100B, or COMM 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Information Age: Fact and Fiction",
+    "code": "COMM 151",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "News Media and Politics",
+    "code": "COMM 152",
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Architecture as Communication",
+    "code": "COMM 153",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latinx Space, Place, and Culture",
+    "code": "COMM 155",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media and Conflict Environment: Textual and Visual Representations",
+    "code": "COMM 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Representations of the Israeli/Palestinian Conflict",
+    "code": "COMM 158",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tourism and Imperialism",
+    "code": "COMM 159",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy and International Communication",
+    "code": "COMM 160",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Studies in Cultural Industries",
+    "code": "COMM 162",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concepts of Freedom",
+    "code": "COMM 163",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behind the Internet: Invisible Geographies of Power and Inequality",
+    "code": "COMM 164",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Surveillance, Media, and the Risk Society",
+    "code": "COMM 166",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bilingual Communication",
+    "code": "COMM 168",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biography and Life Stories",
+    "code": "COMM 170",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Communication",
+    "code": "COMM 171",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Mediation and Interaction",
+    "code": "COMM 172",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Interaction with Technology",
+    "code": "COMM 173",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication and Social Machines",
+    "code": "COMM 174",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cultures of Consumption",
+    "code": "COMM 175",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication and Religion",
+    "code": "COMM 176",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Domination, and Resistance",
+    "code": "COMM 177",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication and Nonhuman Animals",
+    "code": "COMM 178",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Studies in Communication Theory",
+    "code": "COMM 180",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Citizen Consumers",
+    "code": "COMM 181",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Education and Global Citizenship",
+    "code": "COMM 182",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Economy and Consumer Culture",
+    "code": "COMM 183",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Global Nature/Global Culture",
+    "code": "COMM 184",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication for Indigenous Justice",
+    "code": "COMM 185",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Junior Seminar in Communication",
+    "code": "COMM 190",
+    "raw_prereq": "junior or senior standing and COMM 10 and at least one from COMM 100A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Junior Seminar in Communication",
+    "code": "COMM 190R",
+    "raw_prereq": "junior or senior standing and COMM 10 and at least one from COMM 100A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Seminar in Washington, D",
+    "code": "COMM 194",
+    "raw_prereq": "participation in UCDC program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Instructional Assistant",
+    "code": "COMM 195",
+    "raw_prereq": "limited to junior or senior students with a 3.0 GPA or higher. Successful completion of the course for which you would like to be a UGIA with at least an A–, preferably with the same instructor. Student must submit an application for the undergraduate instructional apprentice position through ASES, and receive the approval of the department, instructor, department chair, and Academic Senate.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Seminar in Communication I: Methods",
+    "code": "COMM 196A",
+    "raw_prereq": "admission to the departmental honors program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Seminar in Communication II: Research",
+    "code": "COMM 196B",
+    "raw_prereq": "minimum grade of B+ in COMM 196A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study in Communication",
+    "code": "COMM 198",
+    "raw_prereq": "consent of instructor. (P/NP grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Communication",
+    "code": "COMM 199",
+    "raw_prereq": "consent of instructor. (P/NP grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Project Completion",
+    "code": "COMM 199H",
+    "raw_prereq": "COMM 196A-B and consent of instructor. (P/NP grades only.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM196A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM196B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Study of Communication as Social Force",
+    "code": "COGR 200A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Study of Communication: Communication and Culture",
+    "code": "COGR 200B",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Study of Communication: Communication and the Individual",
+    "code": "COGR 200C",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethnographic Methods for Communication Research",
+    "code": "COGR 201B",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discourse Analysis",
+    "code": "COGR 201C",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Historical Methods for Communication Research",
+    "code": "COGR 201D",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Analysis",
+    "code": "COGR 201J",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Qualitative Analysis of Information Systems",
+    "code": "COGR 201L",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Content Analysis",
+    "code": "COGR 201M",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genealogical Analysis",
+    "code": "COGR 201N",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Information and Society",
+    "code": "COGR 210",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Memory Practices",
+    "code": "COGR 211",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Regulation of Telecommunications",
+    "code": "COGR 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discourse and Organizations",
+    "code": "COGR 219",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The News Media",
+    "code": "COGR 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Law and Policy",
+    "code": "COGR 223",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Science Studies: Part 1",
+    "code": "COGR 225A",
+    "raw_prereq": "enrollment in the Science Studies Program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Science Studies",
+    "code": "COGR 225B",
+    "raw_prereq": "enrollment in the Science Studies Program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Colloquium in Science Studies",
+    "code": "COGR 225C",
+    "raw_prereq": "enrollment in the Science Studies Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Science Studies Part II",
+    "code": "COGR 225D",
+    "raw_prereq": "completion of COGR 225A, HIGR 238, Phil 209A, or SOCG 255A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGR225A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HIGR238"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL209A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SOCG255A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Performance Theory",
+    "code": "COGR 237",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Frankfurt School on Mass Culture Social Theory",
+    "code": "COGR 238",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Game Studies",
+    "code": "COGR 239",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Culture of Consumption",
+    "code": "COGR 240",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geography and Communication",
+    "code": "COGR 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Globalization",
+    "code": "COGR 242",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Technologies",
+    "code": "COGR 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cultural Studies",
+    "code": "COGR 244",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Science and Technology Studies and Communication",
+    "code": "COGR 245",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Playable Media",
+    "code": "COGR 246",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing for Media",
+    "code": "COGR 247",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visual Culture",
+    "code": "COGR 248",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Third World Cinema Screening",
+    "code": "COGR 250",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media Theory",
+    "code": "COGR 251",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race and Racism",
+    "code": "COGR 252",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cultural Study of Music and Sound",
+    "code": "COGR 253",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intellectual Property",
+    "code": "COGR 254",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Studies in Political Theory",
+    "code": "COGR 255",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Postcolonial Theory",
+    "code": "COGR 256",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication and Social Theory",
+    "code": "COGR 257",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language in Human Communication",
+    "code": "COGR 258",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Space, Place, and Media",
+    "code": "COGR 259",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mediational Approaches to Culture/Mind",
+    "code": "COGR 261",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geographies of Difference, Exclusion and Conflict",
+    "code": "COGR 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing Research Proposals",
+    "code": "COGR 263",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Feminisms in Critical Dialogue",
+    "code": "COGR 264",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Communication",
+    "code": "COGR 275",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Talking Culture, Culture Talking: Voices of Diversity",
+    "code": "COGR 278",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Workshop in Communication Media",
+    "code": "COGR 280",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Understanding Everyday Life",
+    "code": "COGR 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reading and Memory",
+    "code": "COGR 282",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy",
+    "code": "COGR 283",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Time",
+    "code": "COGR 284",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethnography Practicum",
+    "code": "COGR 285",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The History of Communication Research",
+    "code": "COGR 294",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Research as an Interdisciplinary Activity",
+    "code": "COGR 296",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "COGR 298",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research",
+    "code": "COGR 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practice Teaching in Communication",
+    "code": "COGR 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

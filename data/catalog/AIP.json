@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Academic Internship",
+    "code": "AIP 97",
+    "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Learning Agreement for Special Studies.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Academic Internship Program",
+    "code": "AIP 197",
+    "raw_prereq": "upper-division standing; department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "UCDC: Washington, DC Internship",
+    "code": "AIP 197DC",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Service Internship",
+    "code": "AIP 197P",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Academic Internship Program—Special Programs",
+    "code": "AIP 197T",
+    "raw_prereq": "ninety units minimum completed; 2.5 minimum cumulative GPA; department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

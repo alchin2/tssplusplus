@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Beginning Hebrew",
+    "code": "JWSP 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Hebrew",
+    "code": "JWSP 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Hebrew, Continued",
+    "code": "JWSP 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "JWSP 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Hebrew Texts",
+    "code": "JWSP 101",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate Hebrew Texts",
+    "code": "JWSP 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Hebrew Texts",
+    "code": "JWSP 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Advanced Hebrew",
+    "code": "JWSP 104",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Judaism",
+    "code": "JWSP 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Judaic Studies",
+    "code": "JWSP 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Old Testament: The Historical Books",
+    "code": "JWSP 130",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Old Testament: The Poetic Books",
+    "code": "JWSP 131",
+    "raw_prereq": "JWSP 100A; upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JWSP100A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jewish Studies Honors Course",
+    "code": "JWSP 196A",
+    "raw_prereq": "admission to Jewish Studies Honors Program; JWSP 100, JWSP103, HITO 104, HITO 105; upper-division electives in Jewish studies; at least junior standing; overall 3.3 GPA; 3.5 in Jewish studies.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jewish Studies Honors Course",
+    "code": "JWSP 196B",
+    "raw_prereq": "admission to Jewish Studies Honors Program; previous enrollment in JWSP 196A; JWSP 100, JWSP 103, HITO 104, HITO 105; upper-division electives in Jewish studies; at least junior standing; overall 3.3 GPA; 3.5 in Jewish studies.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study in Jewish Studies",
+    "code": "JWSP 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study in Jewish Studies",
+    "code": "JWSP 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

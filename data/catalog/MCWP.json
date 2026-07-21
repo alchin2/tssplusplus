@@ -1,0 +1,79 @@
+[
+  {
+    "name": "First Year Experience",
+    "code": "MUIR 1",
+    "raw_prereq": "department approval. Open to incoming Muir College students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transfer Year Experience",
+    "code": "MUIR 2",
+    "raw_prereq": "department approval. Open to Muir College transfer students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Muir Special Project",
+    "code": "MUIR 199",
+    "raw_prereq": "upper-division status, approval by project advisor and by provost. (Letter grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Writing",
+    "code": "MCWP 40",
+    "raw_prereq": "satisfaction of Entry Level Writing Requirement.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CritWrit: Climate Change",
+    "code": "MCWP 40C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Writing",
+    "code": "MCWP 40R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CritWrit: Climate Change",
+    "code": "MCWP 40CR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Writing",
+    "code": "MCWP 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Writing",
+    "code": "MCWP 50R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Argument and Analysis",
+    "code": "MCWP 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Argument and Analysis",
+    "code": "MCWP 125R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,611 @@
+[
+  {
+    "name": "Introduction to Critical Gender Studies: Key Terms and Concepts",
+    "code": "CGS 2A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Critical Gender Studies: Social Formations",
+    "code": "CGS 2B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Gender Studies First-year Seminar",
+    "code": "CGS 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Conceptualizing Gender: Theoretical Approaches",
+    "code": "CGS 100A",
+    "raw_prereq": "CGS 2A-B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Conceptualizing Gender: Methods and Methodologies",
+    "code": "CGS 100B",
+    "raw_prereq": "CGS 2A-B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Globalization",
+    "code": "CGS 101",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Queer Theory",
+    "code": "CGS 105",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and the Law",
+    "code": "CGS 106",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender, Race, and Artificial Intelligence",
+    "code": "CGS 108",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sexual Violence",
+    "code": "CGS 109",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intersectional Struggles for Environmental Justice",
+    "code": "CGS 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and the Body",
+    "code": "CGS 111",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sexuality and Nation",
+    "code": "CGS 112",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Sexuality in the Arts",
+    "code": "CGS 113",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender, Race, Ethnicity, and Class",
+    "code": "CGS 114",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Feminist Social Movements",
+    "code": "CGS 116",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transgenderisms",
+    "code": "CGS 117",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Incarceration",
+    "code": "CGS 118",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Asian American Film, Video, and New Media: The Politics of Pleasure",
+    "code": "CGS 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Capitalism and Gender",
+    "code": "CGS 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Selected Topics in Critical Gender Studies",
+    "code": "CGS 121",
+    "raw_prereq": "CGS 2A-B, at least one CGS upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Comparative Perspectives",
+    "code": "CGS 122",
+    "raw_prereq": "CGS 2A-B, at least one CGS upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Reproductive Politics",
+    "code": "CGS 123",
+    "raw_prereq": "CGS 2A-B, at least one CGS upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Girls and Sexuality",
+    "code": "CGS 124",
+    "raw_prereq": "CGS 2A-B, at least one CGS upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Women of Color Writers",
+    "code": "CGS 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Muslims on Gender and Sexuality",
+    "code": "CGS 126",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Feminist Border Studies",
+    "code": "CGS 127",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transnational Feminisms",
+    "code": "CGS 128",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Queer Performativity",
+    "code": "CGS 130",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Climate Justice",
+    "code": "CGS 134",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Feminist Science and Technology Studies",
+    "code": "CGS 135",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender, Tech, and Development",
+    "code": "CGS 136",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latina Issues and Cultural Production",
+    "code": "CGS 137",
+    "raw_prereq": "CGS 2A-B, ETHN 1, 2, or 3, at least one CGS or ETHN upper-division course, or permission of the instructor. Students may receive a combined total of twelve units for CGS 137 and ETHN 137.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS137"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Black Feminisms, Past and Present",
+    "code": "CGS 147",
+    "raw_prereq": "CGS 2A-B, ETHN 1, 2, 3, at least one CGS or ETHN upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visuality, Sexuality, and Race",
+    "code": "CGS 150",
+    "raw_prereq": "CGS 2A-B, ETHN 1, 2, 3, at least one CGS or ETHN upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender and Sexuality in African American Communities",
+    "code": "CGS 165",
+    "raw_prereq": "CGS 2A-B, ETHN 1, 2, 3, at least one CGS or ETHN upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decolonial Muslim Feminisms",
+    "code": "CGS 167A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latinx Sexualities",
+    "code": "CGS 187",
+    "raw_prereq": "CGS 2A-B, ETHN 1, 2, 3, at least one CGS or ETHN upper-division course, or permission of the instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Seminar",
+    "code": "CGS 190",
+    "raw_prereq": "consent of instructor and department preauthorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Gender Studies Honors Research",
+    "code": "CGS 196A",
+    "raw_prereq": "consent of instructor and department preauthorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis",
+    "code": "CGS 196B",
+    "raw_prereq": "consent of instructor and department preauthorization required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "CGS 198",
+    "raw_prereq": "consent of instructor and director of Critical Gender Studies Program and department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CGS 199",
+    "raw_prereq": "consent of instructor and director of Critical Gender Studies Program and department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Studies in Critical Gender Studies",
+    "code": "CGS 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender Variance",
+    "code": "CGS 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Critical Gender Studies",
+    "code": "CGS 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Practicum in Critical Gender Studies",
+    "code": "CGS 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching in Critical Gender Studies",
+    "code": "CGS 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

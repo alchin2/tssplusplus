@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Design of Everyday Things",
+    "code": "DSGN 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Designing Your Future Self",
+    "code": "DSGN 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "DSGN 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "DSGN 99",
+    "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Prototyping",
+    "code": "DSGN 100",
+    "raw_prereq": "DSGN 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design for Future Creativity and Productivity",
+    "code": "DSGN 118",
+    "raw_prereq": "COGS 120 or COGS 187A or COGS 187B or CSE 170 or DSGN 100.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS187A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS187B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE170"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design at Large",
+    "code": "DSGN 119",
+    "raw_prereq": "COMM 124A or COGS 10 or DSGN 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM124A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Design",
+    "code": "DSGN 160",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Project",
+    "code": "DSGN 161",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instructional Apprenticeship in Design",
+    "code": "DSGN 195",
+    "raw_prereq": "upper-division standing, 3.0 GPA, consent of instructor, and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "DSGN 198",
+    "raw_prereq": "upper-division standing, 2.5 GPA, consent of instructor, and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Project",
+    "code": "DSGN 199",
+    "raw_prereq": "upper-division standing, 2.5 GPA, consent of instructor, and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human-Centered Design and Complex Sociotechnical Systems",
+    "code": "DSGN 201",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design at Large",
+    "code": "DSGN 219",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Design",
+    "code": "DSGN 260",
+    "raw_prereq": "graduate standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Design Project",
+    "code": "DSGN 261",
+    "raw_prereq": "graduate standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Project",
+    "code": "DSGN 299",
+    "raw_prereq": "graduate standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

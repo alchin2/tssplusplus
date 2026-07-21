@@ -1,0 +1,253 @@
+[
+  {
+    "name": "Independent Research",
+    "code": "NEU 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Neuroscience",
+    "code": "NEU 200A-B-C",
+    "raw_prereq": "graduate student or consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology Boot Camp",
+    "code": "NEU 210",
+    "raw_prereq": "graduate standing only. For students in the following major codes: BI77, BI79, NE75, NE78.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BI77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI79"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NE75"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics and Survival Skills in Academia",
+    "code": "NEU 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physiological Basis of Human Information",
+    "code": "NEU 243",
+    "raw_prereq": "NEU 238 or PSYC 231, and consent of instructor. (S/U grades only.) (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NEU238"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC231"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Development of Neural Circuits",
+    "code": "NEU 266",
+    "raw_prereq": "graduate standing only. For students in the following major codes: NE75, NE78, BI77, BI79, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NE75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NE78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI79"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular and Cellular Neurobiology",
+    "code": "NEU 268",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Disease: Mechanisms of Neurodegeneration",
+    "code": "NEU 270A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Disease: Neurodevelopmental Disorders",
+    "code": "NEU 270B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroscience Research Rounds",
+    "code": "NEU 276",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuropsychopharmacology",
+    "code": "NEU 277",
+    "raw_prereq": "graduate standing. (S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Trails: Issues and Dilemmas in Clinical Trials",
+    "code": "NEU 285",
+    "raw_prereq": "medical or graduate student standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurosciences Independent Study Project",
+    "code": "NEU 298",
+    "raw_prereq": "approved ISP proposal. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurology General Clinical Selective Clerkship",
+    "code": "NEU 401",
+    "raw_prereq": "successful completion of first two years of medical school. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Subintern Pediatric Neurology",
+    "code": "NEU 426",
+    "raw_prereq": "Neurology 401 or consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurology Outpatient",
+    "code": "NEU 427",
+    "raw_prereq": "Neurosciences 401 or equivalent. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Clinical Independent Study",
+    "code": "NEU 496",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Neurosciences",
+    "code": "NEUG 221",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tools for Experimental Data Analysis",
+    "code": "NEUG 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Foundations for Computational Neuroscience",
+    "code": "NEUG 240",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroanatomy",
+    "code": "NEUG 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanisms of Pain",
+    "code": "NEUG 265",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Minor Proposition",
+    "code": "NEUG 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurosciences Research Rotation",
+    "code": "NEUG 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurosciences Research",
+    "code": "NEUG 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprenticeship Teaching",
+    "code": "NEUG 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

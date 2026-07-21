@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Reading North by South: Latin American Studies and the US Liberation Movements",
+    "code": "LATI 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Latin America",
+    "code": "LATI 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethnoracial Politics in Latin America",
+    "code": "LATI 124",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latinx Environmental Justice",
+    "code": "LATI 130",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gender as a Border",
+    "code": "LATI 131",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decolonial Thought and Practices in Latin America",
+    "code": "LATI 140",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Oral History in Latin America",
+    "code": "LATI 150",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin American Third Cinema",
+    "code": "LATI 160",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Visual Culture in Latin America",
+    "code": "LATI 165",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin Food Culture: Culinary Ethnography of the Americas",
+    "code": "LATI 166",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Science Research in Latin America",
+    "code": "LATI 170",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Participatory Action Research: Action and Knowledge",
+    "code": "LATI 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Latin American Studies",
+    "code": "LATI 180",
+    "raw_prereq": "LATI 50 or permission of instructor, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "LATI50"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Global South Studies",
+    "code": "LATI 184",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar",
+    "code": "LATI 190",
+    "raw_prereq": "satisfactory completion of LATI 50 and a working knowledge of Spanish.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "LATI50"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Individual Study",
+    "code": "LATI 199",
+    "raw_prereq": "LATI 50 and working knowledge of Spanish.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "LATI50"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Core Seminar on Interdisciplinary Research and Methodology in Latin American Studies",
+    "code": "LATI 200",
+    "raw_prereq": "enrollment in the master’s degree program in Latin American Studies or permission of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Reading",
+    "code": "LATI 298",
+    "raw_prereq": "graduate standing in Latin American Studies.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Research",
+    "code": "LATI 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Apprenticeship",
+    "code": "LATI 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

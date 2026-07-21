@@ -1,0 +1,2559 @@
+[
+  {
+    "name": "Introduction to Principles of Learning",
+    "code": "EDS 20S",
+    "raw_prereq": "Summer Bridge participation. Department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Writing and Learning—Triton Transition",
+    "code": "EDS 21S",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Education in Cuba: Institutional Structures, History, and Culture",
+    "code": "EDS 22",
+    "raw_prereq": "Summer Bridge participation, instructor approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Education in Cuba—Field Experience",
+    "code": "EDS 22S",
+    "raw_prereq": "students must be participants in the OASIS Learning Communities Program. Enrollment by instructor approval only. Due to expenses of field experience, enrollment will be limited to students who have completed EDS 22 and attended planning meetings with the instructor to discuss cost and travel requirements.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS22"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Success and Satisfaction in the Second Year of Higher Education: Research Trends and Conclusions",
+    "code": "EDS 23",
+    "raw_prereq": "department approval required. This course is a collaboration with Student Affairs “2 Excel Program.” Enrollees should only be program participants.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thriving in College",
+    "code": "EDS 24",
+    "raw_prereq": "department/instructor approval required. This course is intended for first-year students who completed OASIS Summer Bridge Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Higher Education and the Collegiate Experience",
+    "code": "EDS 25",
+    "raw_prereq": "Summer Bridge participation. Department/instructor approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Teaching Science",
+    "code": "EDS 31/CHEM 96",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Explorations in Education",
+    "code": "EDS 38",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Explorations in Secondary STEM Education",
+    "code": "EDS 39",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nature, Community, and Education",
+    "code": "EDS 40",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chancellor’s Associates Scholars Program First-year Student Introductory Course",
+    "code": "EDS 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar in Education Studies",
+    "code": "EDS 87",
+    "raw_prereq": "Enrollment priority will be given to first-year students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-being: Compassion for Self and Others in Education",
+    "code": "EDS 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Qualitative Methods in Education Research",
+    "code": "EDS 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Quantitative Methods in Education Research",
+    "code": "EDS 103",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching and Learning Physics",
+    "code": "EDS 105/PHYS 180",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Struggle for K–12 Ethnic Studies",
+    "code": "EDS 107",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Cognition, and Schooling in the Americas",
+    "code": "EDS 108GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Early Learning Environments for Diverse Learners",
+    "code": "EDS 110R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Child, Family, and Community Partnerships with Schools",
+    "code": "EDS 111",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Child, Family, and Community Partnerships with Schools",
+    "code": "EDS 111GS",
+    "raw_prereq": "department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Education in the United States",
+    "code": "EDS 112",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chicanas/os and Latinos in Education: Policy, Practice, and Challenges to Equity",
+    "code": "EDS 113",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Development and Interactive Computing Environments",
+    "code": "EDS 114",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Development and Education",
+    "code": "EDS 115",
+    "raw_prereq": "upper-division or graduate majors ED 78 or ED 76 standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Development and Education",
+    "code": "EDS 115GS",
+    "raw_prereq": "department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Equity-Minded Education",
+    "code": "EDS 116",
+    "raw_prereq": "department approval (consent of instructor) required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language, Culture, and Education",
+    "code": "EDS 117",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language, Culture, and Education",
+    "code": "EDS 117GS",
+    "raw_prereq": "department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Adolescent Development and Education",
+    "code": "EDS 118",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First and Second Language Learning: From Childhood through Adolescence",
+    "code": "EDS/LIGN 119",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Design-Based Educational Research: A Field Experience for Improving San Diego Schools",
+    "code": "EDS 120",
+    "raw_prereq": "upper-division standing and HIUS 180 or HIUS 136 or HITO 156 or HITO 136 or EDS 126 or EDS 136 or USP 129 or SOCI 139 or SOCI 127 or SOCI 126 or POLI 108 or POLI 100Q or POLI 100O or POLI 100H or LTCS 130 or HILD 7C or HILD 7B or HILD 7A or ETHN 3 or ETHN 2 or ANTH 131 or ANTH 21 or ANTH 23 or DOC 1 or DOC 100D or EDS 112 or EDS 113 or EDS 117 or SOCI 117 or EDS 125.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HIUS180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HIUS136"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HITO156"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HITO136"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS136"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP129"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SOCI139"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SOCI127"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SOCI126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI100Q"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI100O"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI100H"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LTCS130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HILD7C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HILD7B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HILD7A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH23"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC100D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS112"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS113"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS117"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SOCI117"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Teaching and Learning Science",
+    "code": "EDS 122/CHEM 187",
+    "raw_prereq": "EDS 31/CHEM 87: Introduction to Teaching Science, Chemistry 6C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Capstone Seminar in Science Education",
+    "code": "EDS 123/CHEM 188",
+    "raw_prereq": "EDS 122/CHEM 187.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Computation in the Digital World",
+    "code": "EDS 124AR",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Computational Thinking for Everyone",
+    "code": "EDS 124BR",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History, Politics, and Theory of Bilingual Education",
+    "code": "EDS 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Organization of Education",
+    "code": "EDS 126",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Education Policy in the United States",
+    "code": "EDS 127",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Teaching and Learning",
+    "code": "EDS 128 A-B",
+    "raw_prereq": "department approval required; EDS 139 must be taken as corequisite. EDS 130 or 131 or 133 or 135 or 136 or 137 or 145 or 146 must be completed before EDS 128A, and 128A for 128B. EDS 128A and EDS 128B are restricted for students applying to the EDS MEd/Multiple Subject Credential Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Teaching and Learning",
+    "code": "EDS 129 A-B-C",
+    "raw_prereq": "department approval required; EDS 139 must be taken as corequisite. Must have successfully completed EDS 135, 136, or 129A for 129B, and 129B for 129C. EDS 129B and 129C are restricted for students applying to the EDS MEd/Single Subject Credential Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Academic Mentoring of Elementary/School Students",
+    "code": "EDS 130",
+    "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Early Childhood Development and Education",
+    "code": "EDS 131",
+    "raw_prereq": "department approval. Students will need to fill out a placement form prior to getting approval to enroll in EDS 131. This form provides the course instructor with information to make the appropriate field placement; EDS 139 must be taken as a corequisite.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Counseling, Mentoring, and Academic Advising",
+    "code": "EDS 133",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Working with Newcomer Communities in San Diego",
+    "code": "EDS 135",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Academic Tutoring of Secondary School Students",
+    "code": "EDS 136",
+    "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Discipline-Specific Teaching and Learning",
+    "code": "EDS 137",
+    "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Teaching and Learning",
+    "code": "EDS 139",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Action Research in P–12 Schools",
+    "code": "EDS 140",
+    "raw_prereq": "EDS 130 or EDS 131 or EDS 133 or EDS 135 or EDS 136 or EDS 137 or EDS 145 or EDS 146, department approval. Students will need to fill out a placement form prior to getting approval to enroll in EDS 140. This form provides the course instructor with information regarding student’s prior experiences with PAL, areas/topics of interest; EDS 139 must be taken as a corequisite. If students wish to continue their service-learning practicum at their host school, they can take EDS 139.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS133"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS135"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS136"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS137"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS145"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS146"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Action Research in P–12 Education: Advanced Practicum in P–12 Schools and Communities",
+    "code": "EDS 141",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Artsbridge: Integrating the Arts Across the Curriculum",
+    "code": "EDS 145",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mindfulness and Education",
+    "code": "EDS 146",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Learning in Practice",
+    "code": "EDS 149",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chancellor’s Associates Scholars Program Transfer Introductory Course",
+    "code": "EDS 150",
+    "raw_prereq": "open to Chancellor’s Associates Scholars Program transfer students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Climate Education for Climate Justice",
+    "code": "EDS 155",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Building Equitable Learning Environments: Tools for Transformative Teaching",
+    "code": "EDS 162",
+    "raw_prereq": "upper-division or graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Early Childhood Policy: Children, Contexts, and Policies in Diverse Societies",
+    "code": "EDS 164R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Psychology of Reading and Education",
+    "code": "EDS 165",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Education Studies",
+    "code": "EDS 180",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Practicum",
+    "code": "EDS 190",
+    "raw_prereq": "consent of instructor. (F,W,S)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "EDS 195",
+    "raw_prereq": "consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "EDS 198",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Studies",
+    "code": "EDS 199",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Impacts of Technology",
+    "code": "EDS 324AR",
+    "raw_prereq": "upper-division or graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Thinking and Block-Based Programming",
+    "code": "EDS 324BR",
+    "raw_prereq": "upper-division or graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learn to Teach Java",
+    "code": "EDS 324CR",
+    "raw_prereq": "upper-division or graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Methods in Computer Science",
+    "code": "EDS 324DR",
+    "raw_prereq": "upper-division or graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CS for All: Teaching Computer Science Foundations in Elementary Grades",
+    "code": "EDS 324ER",
+    "raw_prereq": "upper-division or graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "ASL-English Bilingual Education Practices",
+    "code": "EDS 342A",
+    "raw_prereq": "must be an ED76 major. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "ASL-English Bilingual Education Practices",
+    "code": "EDS 342B",
+    "raw_prereq": "EDS 342A, EDS 361A. Must be an ED76 major. Concurrent enrollment in EDS 361B and 369A. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS342A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS361B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "ASL-English Bilingual Education Practices",
+    "code": "EDS 342C",
+    "raw_prereq": "EDS 342A, EDS 342B, EDS 361A. Must be an ED76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS342A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS342B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deaf Education Specialist Student Teaching Practicum",
+    "code": "EDS 349",
+    "raw_prereq": "must be an ED76 major, Teaching and Bilingual Education (ASL-English)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching the English Language Learner",
+    "code": "EDS 351",
+    "raw_prereq": "ED76 or ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bilingual Instructional Practices I",
+    "code": "EDS 352A",
+    "raw_prereq": "ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship. Department approval for all other students required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bilingual Instructional Practices II",
+    "code": "EDS 352B",
+    "raw_prereq": "EDS 352A. ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bilingual Instructional Practices III",
+    "code": "EDS 352C",
+    "raw_prereq": "EDS 352B. ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Mathematics Teaching Practices for Grades K–6",
+    "code": "EDS 355A",
+    "raw_prereq": "admission into the ED78: Multiple Subject (MS-2 program), and concurrent enrollment in EDS 361A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS361A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Mathematics Teaching Practices for Grades K–6",
+    "code": "EDS 355B",
+    "raw_prereq": "EDS 355A, admission into the ED85: Multiple Subject (MS-2 program), and concurrent enrollment in EDS 361B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS355A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS2"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EDS361B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Mathematics Teaching Practices for Grades K–6",
+    "code": "EDS 355C",
+    "raw_prereq": "EDS 355B is required prior to EDS 355C. Students must have been admitted to ED85; Multiple Subject (MS-2 program), and concurrent enrollment in EDS 361C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS355B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED85"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Education Specialist Teaching Practicum",
+    "code": "EDS 359",
+    "raw_prereq": "must be an ED78 major: Affirmed Education Specialist Credential candidate at UC San Diego who has advanced to student teaching or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innovative Instructional Practices I",
+    "code": "EDS 361A",
+    "raw_prereq": "must be an ED76 major: Teaching and Learning Bilingual Education (ASL-English) or ED78 major only for Elementary Multiple Subject candidate who has advanced to student teaching. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED76"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innovative Instructional Practices II",
+    "code": "EDS 361B",
+    "raw_prereq": "EDS 361A, ED76 major: Teaching and Learning Bilingual Education (ASL-English) or ED78 major only for Elementary Multiple Subject candidate who has advanced to student teaching.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS361A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innovative Instructional Practices III",
+    "code": "EDS 361C",
+    "raw_prereq": "EDS 361B, ED76 major: Teaching and Learning Bilingual Education (ASL-English) or ED78 major only for Elementary Multiple Subject candidate who has advanced to student teaching.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS361B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instructional Planning and Assessment",
+    "code": "EDS 368",
+    "raw_prereq": "ED78 majors for Elementary Multiple Subjects only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiple Subject",
+    "code": "EDS 369A",
+    "raw_prereq": "ED76 or ED78 majors for Elementary Multiple Subjects only. Affirmed Multiple Subject Credential candidate at UC San Diego who has advanced to student teaching. EDS 370A must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS370A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiple Subject",
+    "code": "EDS 369B",
+    "raw_prereq": "EDS 369A, ED78 major for Elementary Multiple Subjects only. Affirmed Multiple Subject Credential candidate at UC San Diego who has advanced to student teaching. EDS 370B must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS369A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS370B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiple Subject",
+    "code": "EDS 369C",
+    "raw_prereq": "EDS 369B, ED78 major for Elementary Multiple Subjects only. Affirmed Multiple Subject Credential candidate at UC San Diego who has advanced to student teaching. EDS 370C must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS369B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS370C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiple Subject",
+    "code": "EDS 370A",
+    "raw_prereq": "ED76 or ED78 majors for Elementary Multiple Subjects only. Affirmed Multiple Subject Credential candidate at UC San Diego who has advanced to student teaching. EDS 369A must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS369A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiple Subject",
+    "code": "EDS 370B",
+    "raw_prereq": "ED76 or ED78 majors for Elementary Multiple Subjects only. Affirmed Multiple Subject Credential candidate at UC San Diego who has advanced to student teaching. EDS 369B must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS369B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multiple Subject",
+    "code": "EDS 370C",
+    "raw_prereq": "ED76 or ED78 majors for Elementary Multiple Subjects only. Affirmed Multiple Subject Credential candidate at UC San Diego who has advanced to student teaching. EDS 369C must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS369C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Secondary History-Social Science Teaching Practices",
+    "code": "EDS 371",
+    "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "World Language Teaching Practices",
+    "code": "EDS 372",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Secondary English Teaching Practices",
+    "code": "EDS 373",
+    "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Secondary Mathematics Teaching Practices",
+    "code": "EDS 374",
+    "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Secondary Science Teaching Practices",
+    "code": "EDS 375",
+    "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language and Learning Instruction",
+    "code": "EDS 376",
+    "raw_prereq": "ED78 Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instructional Planning and Assessment",
+    "code": "EDS 378",
+    "raw_prereq": "ED78 majors for Single Subjects only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Single Subject",
+    "code": "EDS 379A",
+    "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor. EDS 380A must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS380A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Single Subject",
+    "code": "EDS 379B",
+    "raw_prereq": "EDS 379A. ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship. EDS 380B must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS380B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Single Subject",
+    "code": "EDS 379C",
+    "raw_prereq": "EDS 379B. ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship. EDS 380C must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS380C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Single Subject",
+    "code": "EDS 380A",
+    "raw_prereq": "ED78 Single Subject major only. EDS 379A must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS379A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Single Subject",
+    "code": "EDS 380B",
+    "raw_prereq": "EDS 380A. ED78 Single Subject major only. EDS 379B must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS379B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Single Subject",
+    "code": "EDS 380C",
+    "raw_prereq": "EDS 380A-B. ED78 Single Subject major only. EDS 379C must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS379C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health Education",
+    "code": "EDS 381",
+    "raw_prereq": "ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inclusive Educational Practices",
+    "code": "EDS 382",
+    "raw_prereq": "ED78 or ED81 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship and department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED81"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Deaf Education Practices",
+    "code": "EDS 384",
+    "raw_prereq": "must be an ED78 major: Affirmed Education Specialist Credential candidate at UC San Diego who has advanced to student teaching or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elementary School Mathematics Content and Pedagogy",
+    "code": "EDS 385",
+    "raw_prereq": "students must be ED78 majors: MEd/Elementary-Multiple Subject Credential candidates who have advanced to student teaching or internship. (MS-2).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED78"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Resources for Teaching and Learning",
+    "code": "EDS 201",
+    "raw_prereq": "students must be registered EDS graduate students (ED 76, 77, 78, 79, 80).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technology, Teaching, and Learning",
+    "code": "EDS 203",
+    "raw_prereq": "students must be registered EDS graduate students (ED 76, 77, 78, 79, 80).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technology and Professional Assessment",
+    "code": "EDS 204",
+    "raw_prereq": "students must be registered as an MEd/Credential graduate student (ED78).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technology and Professional Assessment",
+    "code": "EDS 204R",
+    "raw_prereq": "students must be registered as an MEd/Credential graduate student (ED78).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reflective Teaching Practice",
+    "code": "EDS 205A",
+    "raw_prereq": "students must be registered EDS graduate students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reflective Teaching Practice",
+    "code": "EDS 205B",
+    "raw_prereq": "EDS 205A, and students must be registered EDS graduate students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS205A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Performance Assessment Portfolio",
+    "code": "EDS 206",
+    "raw_prereq": "students must be registered EDS graduate students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Performance Assessment Portfolio",
+    "code": "EDS 206R",
+    "raw_prereq": "students must be registered EDS graduate students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Educational Resources",
+    "code": "EDS 229",
+    "raw_prereq": "students must be registered ED75 majors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED75"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in Curriculum Design",
+    "code": "EDS 230A-B-C",
+    "raw_prereq": "must be ED75 major or consent of instructor. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED75"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Instructional Practices",
+    "code": "EDS 231",
+    "raw_prereq": "must be ED75 major or consent of instructor. (Su)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED75"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Education",
+    "code": "EDS 232",
+    "raw_prereq": "ED75 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED75"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Education Research and Design",
+    "code": "EDS 233A",
+    "raw_prereq": "ED79 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED79"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Education Research and Design",
+    "code": "EDS 233B",
+    "raw_prereq": "EDS 233A: ED79 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED79"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in ASL-English Bilingual Education",
+    "code": "EDS 240A",
+    "raw_prereq": "ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in ASL-English Bilingual Education",
+    "code": "EDS 240B",
+    "raw_prereq": "EDS 240A, and ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS240A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ED76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in ASL-English Bilingual Education",
+    "code": "EDS 240C",
+    "raw_prereq": "EDS 240A/EDS 240B, and ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED76"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "EDS First-Year Doctoral Seminar",
+    "code": "EDS 246",
+    "raw_prereq": "department approval required; first-year EDS PhD students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Rotation Experience",
+    "code": "EDS 247",
+    "raw_prereq": "department approval required; EDS PhD students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Equity in Higher Education",
+    "code": "EDS 249",
+    "raw_prereq": "graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Equitable Educational Research and Practice",
+    "code": "EDS 250",
+    "raw_prereq": "students must be registered EDS graduate students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transforming Learning Environments(4)",
+    "code": "EDS 251",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transforming Inequities in Student Outcomes",
+    "code": "EDS 252",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transforming Educational Systems and Policy",
+    "code": "EDS 253",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Research Design and Quantitative Data Analysis",
+    "code": "EDS 254",
+    "raw_prereq": "doctoral students in education ED82 or MSED major ME75 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ED82"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ME75"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Quantitative Data Analysis",
+    "code": "EDS 255",
+    "raw_prereq": "EDS 254. Restricted to doctoral students (ED82), MSED major ME75, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ME75"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mixed Methods Research Design and Analysis",
+    "code": "EDS 256",
+    "raw_prereq": "EDS 254 and EDS 264. ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS254"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Case Study Research",
+    "code": "EDS 257",
+    "raw_prereq": "ED82 and ED79 majors, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ED79"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communicating Research",
+    "code": "EDS 259",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communicating Research and Reviewing Literature",
+    "code": "EDS 259A",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communicating Research for Broad Audiences",
+    "code": "EDS 259B",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Research and Evaluation Design",
+    "code": "EDS 260A",
+    "raw_prereq": "admission into the EdD program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Research and Evaluation Design",
+    "code": "EDS 260B",
+    "raw_prereq": "EDS 260A, and admission into the EdD program or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS260A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Research and Evaluation Design",
+    "code": "EDS 260C",
+    "raw_prereq": "EDS 260B, and admission into the EdD program or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS260B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research and Evaluation Methods",
+    "code": "EDS 261A",
+    "raw_prereq": "admission into the EdD program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research and Evaluation Methods",
+    "code": "EDS 261B",
+    "raw_prereq": "EDS 261A, and admission into the EdD program or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS261A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research and Evaluation Methods",
+    "code": "EDS 261C",
+    "raw_prereq": "EDS 261B, and admission into the EdD program or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS261B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 262A",
+    "raw_prereq": "admission into the EdD program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 262B",
+    "raw_prereq": "EDS 262A, and admission into the EdD program or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS262A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 262C",
+    "raw_prereq": "EDS 262B, and admission into the EdD program or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS262B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Developmental Theory and Culture",
+    "code": "EDS 263",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Qualitative Analysis",
+    "code": "EDS 264",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Qualitative Methods",
+    "code": "EDS 265",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Quantitative Methods",
+    "code": "EDS 266",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contexts for Teaching and Change",
+    "code": "EDS 267",
+    "raw_prereq": "restricted to PhD (ED82) and EdD (ED79) students, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Critical Race Theory and Education",
+    "code": "EDS 268",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Diverse College Students",
+    "code": "EDS 269",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership and Equity in Educational Reform",
+    "code": "EDS 270",
+    "raw_prereq": "admission into the EdD program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Education and Culture",
+    "code": "EDS 272",
+    "raw_prereq": "admission into the EdD program or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Talking Culture, Culture Talking: Voices of Diversity",
+    "code": "EDS 278/COGR 278",
+    "raw_prereq": "graduate status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Campus Activism",
+    "code": "EDS 279",
+    "raw_prereq": "graduate-level standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rethinking Leadership",
+    "code": "EDS 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership for Learning",
+    "code": "EDS 281",
+    "raw_prereq": "Joint EdD in Educational Leadership student status (ED81).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership for a Diverse Society",
+    "code": "EDS 282",
+    "raw_prereq": "Joint EdD in Educational Leadership student status.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership for Organizational Change",
+    "code": "EDS 283",
+    "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership for Organizational Development",
+    "code": "EDS 284",
+    "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership for the Future",
+    "code": "EDS 285",
+    "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Leadership",
+    "code": "EDS 286",
+    "raw_prereq": "Joint EdD in Educational Leadership student status.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Research and Evaluation Design A",
+    "code": "EDS 287A",
+    "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Research and Evaluation Design B",
+    "code": "EDS 287B",
+    "raw_prereq": "EDS 287A and EDS doctoral student (ED81 or ED82), or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS287A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Educational Research and Evaluation Design C—Qualitative Methods",
+    "code": "EDS 287C",
+    "raw_prereq": "EDS 287A, EDS 287B, and EDS doctoral student (ED81 or ED82), or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS287A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS287B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research and Evaluation Methods A—Quantitative Methods",
+    "code": "EDS 288A",
+    "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research and Evaluation Methods B—Qualitative Methods",
+    "code": "EDS 288B",
+    "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research and Evaluation Methods C—Quantitative Methods",
+    "code": "EDS 288C",
+    "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 289A",
+    "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 289B",
+    "raw_prereq": "EDS 289A, and Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS289A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 289C",
+    "raw_prereq": "EDS 289B, and Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS289B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Writing Seminar",
+    "code": "EDS 289D",
+    "raw_prereq": "EDS 289C, and Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS289C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Practicum",
+    "code": "EDS 290",
+    "raw_prereq": "MA candidate and consent of instructor. (S/U grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership Research Practicum",
+    "code": "EDS 291A",
+    "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Leadership Research Practicum",
+    "code": "EDS 291B",
+    "raw_prereq": "EDS 291A, and Joint EdD in Educational Leadership student status.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS291A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Qualifying Paper Preparation",
+    "code": "EDS 292",
+    "raw_prereq": "Joint EdD in Educational Leadership student status. (S/U grade permitted)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Leadership Research Practicum",
+    "code": "EDS 293A",
+    "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Leadership Research Practicum",
+    "code": "EDS 293B",
+    "raw_prereq": "EDS 293A, and Joint EdD in Educational Leadership student status or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS293A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Colloquium on Educational Leadership",
+    "code": "EDS 294A",
+    "raw_prereq": "graduate student status or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Colloquium on Educational Leadership",
+    "code": "EDS 294B",
+    "raw_prereq": "EDS 294A, and graduate student status or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS294A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MA Thesis",
+    "code": "EDS 295",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Advisory Course",
+    "code": "EDS 296",
+    "raw_prereq": "ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED82"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "EDS 297",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "EDS 298",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Research",
+    "code": "EDS 299",
+    "raw_prereq": "admission into the EdD or PhD program (major codes ED81 and ED82) and consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED81"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching in Education",
+    "code": "EDS 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

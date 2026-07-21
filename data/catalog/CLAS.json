@@ -1,0 +1,188 @@
+[
+  {
+    "name": "First-year Seminar",
+    "code": "CLAS 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Greek Seminar",
+    "code": "CLAS 109",
+    "raw_prereq": "LTGK 1, 2, 3, or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "LTGK1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LTGK2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LTGK3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Latin Seminar",
+    "code": "CLAS 110",
+    "raw_prereq": "LTLA 1, 2, 3, or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "LTLA1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LTLA2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LTLA3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Early Christianity",
+    "code": "CLAS 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Classical Diversities",
+    "code": "CLAS 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "World Wisdom Traditions",
+    "code": "CLAS 121R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mythologies of the Ancient Mediterranean",
+    "code": "CLAS 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Classical Studies",
+    "code": "CLAS 140",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Honors Thesis in Classical Studies",
+    "code": "CLAS 196A-B",
+    "raw_prereq": "acceptance into the classical studies honors program and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "CLAS 198",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CLAS 199",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Literary Theory and the Classics",
+    "code": "CLASSIC 200A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Diachronic Perspectives on Classical Antiquity",
+    "code": "CLASSIC 200B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Greece and Rome in Their Contemporary Cultural Contexts",
+    "code": "CLASSIC 200C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concurrent Readings",
+    "code": "CLASSIC 205",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Classics Graduate Seminar",
+    "code": "CLASSIC 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CLASSIC 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in Classics",
+    "code": "CLASSIC 290",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dissertation Research",
+    "code": "CLASSIC 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "University Teaching",
+    "code": "CLASSIC 399",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

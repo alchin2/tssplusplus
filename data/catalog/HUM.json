@@ -1,0 +1,159 @@
+[
+  {
+    "name": "The Ancient Mediterranean World",
+    "code": "HUM 1",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rome and the Medieval World",
+    "code": "HUM 2",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Renaissance, Reformation, and Early Modern Europe",
+    "code": "HUM 3",
+    "raw_prereq": "completion of HUM 1 or HUM 2; open to Revelle students only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HUM1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Renaissance, Reformation, and Early Modern Europe",
+    "code": "HUM 3R",
+    "raw_prereq": "completion of HUM 1 or HUM 2; open to Revelle students only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HUM1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Renaissance, Reformation, and Early Modern Europe",
+    "code": "HUM 3GS",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement and acceptance into Global Seminar Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enlightenment, Romanticism, Revolution",
+    "code": "HUM 4",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enlightenment, Romanticism, Revolution",
+    "code": "HUM 4R",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enlightenment, Romanticism, Revolution",
+    "code": "HUM 4GS",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement and acceptance into Global Seminar Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Culture",
+    "code": "HUM 5",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Culture",
+    "code": "HUM 5R",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Culture",
+    "code": "HUM 5GS",
+    "raw_prereq": "satisfaction of the UC Entry Level Writing requirement and acceptance into Global Seminar Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Humanities Perspective",
+    "code": "HUM 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in the Humanities",
+    "code": "HUM 100",
+    "raw_prereq": "open to Revelle students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Humanities",
+    "code": "HUM 119",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Methods of Teaching Humanities",
+    "code": "HUM 195",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Studies",
+    "code": "HUM 199",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in the Humanities",
+    "code": "HUM 200",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

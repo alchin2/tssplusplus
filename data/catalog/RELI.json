@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Introduction to Religion",
+    "code": "RELI 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative World Religions",
+    "code": "RELI 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Technoscience and Religion",
+    "code": "RELI 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar in Religion",
+    "code": "RELI 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tools and Methods in the Study of Religion",
+    "code": "RELI 101",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Religion and Sexuality",
+    "code": "RELI 131",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Orthodoxy and Heterodoxy",
+    "code": "RELI 132",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in American Religion",
+    "code": "RELI 134",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Literature and Religion",
+    "code": "RELI 140",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Sphere and Religion",
+    "code": "RELI 141",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Secularization and Religion",
+    "code": "RELI 142",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Performing Religion",
+    "code": "RELI 143",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Devils and Demons in Christianity",
+    "code": "RELI 144",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Technology, and Religion",
+    "code": "RELI 145",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication, Technology, and Religion",
+    "code": "RELI 145GS",
+    "raw_prereq": "students must apply and be accepted to the Global Seminars program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in the Religions of Antiquity",
+    "code": "RELI 146",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pagan Europe and Its Christian Aftermath",
+    "code": "RELI 147",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Religion and Women’s Activisms",
+    "code": "RELI 148",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Islam in America",
+    "code": "RELI 149",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Religion and Cinema",
+    "code": "RELI 150",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Deep Ecology: Knowing Place",
+    "code": "RELI 151",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Media and Islam in the U",
+    "code": "RELI 152",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hispanic American Religions",
+    "code": "RELI 153",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Asian American Religions",
+    "code": "RELI 154",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "African American Religions",
+    "code": "RELI 155",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Posthuman Spirituality",
+    "code": "RELI 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Religion in Japan",
+    "code": "RELI 157GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Japanese Literature and Spirituality",
+    "code": "RELI 158GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Native Religions",
+    "code": "RELI 159GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Religion and Politics",
+    "code": "RELI 160GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drama, Politics, and Religion in Ancient Greece",
+    "code": "RELI 161GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Religion",
+    "code": "RELI 188",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Religion",
+    "code": "RELI 188GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Religion",
+    "code": "RELI 189",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Religion",
+    "code": "RELI 192",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis in Religion",
+    "code": "RELI 196AH",
+    "raw_prereq": "RELI 101 (may be completed concurrently with the honors sequence). Department approval required for entry into the Honors Program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "RELI101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis in Religion",
+    "code": "RELI 196BH",
+    "raw_prereq": "RELI 196A. Department approval required for continuing participation in the Honors Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Advanced Readings",
+    "code": "RELI 197",
+    "raw_prereq": "upper-division standing; RELI 110A or 110B; overall GPA of 2.5.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Research Study for Undergraduates",
+    "code": "RELI 199",
+    "raw_prereq": "upper-division standing, with 2.5 GPA (overall); program stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

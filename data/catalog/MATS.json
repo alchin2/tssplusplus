@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Graduate Seminar",
+    "code": "MATS 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thermodynamics of Solids",
+    "code": "MATS 201A",
+    "raw_prereq": "consent of instructor. (Cross-listed with ECE 238A, MAE 271A, NANO 265.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE238A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE271A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid State Diffusion and Reaction Kinetics",
+    "code": "MATS 201B",
+    "raw_prereq": "consent of instructor. (Cross-listed with ECE 238B, MAE 271B.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE238B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Phase Transformations",
+    "code": "MATS 201C",
+    "raw_prereq": "consent of instructor. (Cross-listed with MAE 271C.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MATS Academy I",
+    "code": "MATS 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "MATS Academy II",
+    "code": "MATS 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Imperfections in Solids",
+    "code": "MATS 205A",
+    "raw_prereq": "consent of instructor. (Cross-listed with MAE 272.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dynamic Behavior of Materials I",
+    "code": "MATS 213A",
+    "raw_prereq": "consent of instructor. (Cross-listed with MAE 273A.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structure and Analysis of Solids",
+    "code": "MATS 227",
+    "raw_prereq": "graduate student or consent of instructor. (Cross-listed with CHEM 222, MAE 251, NANO 227.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE251"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics of Soft Materials",
+    "code": "MATS 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Ceramics",
+    "code": "MATS 236",
+    "raw_prereq": "graduate standing or consent of instructor. (Cross-listed with MAE 253.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic and Photonic Properties of Materials",
+    "code": "MATS 251A",
+    "raw_prereq": "consent of the instructor. (Cross-listed with MAE 265A.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Magnetic Materials: Principles and Applications",
+    "code": "MATS 251B",
+    "raw_prereq": "consent of instructor. (Cross-listed with ECE 221, MAE 265B, NANO 251A.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE265B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomaterials and Medical Devices",
+    "code": "MATS 252",
+    "raw_prereq": "consent of instructor. (Cross-listed with MAE 266.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nanomaterials and Properties",
+    "code": "MATS 253",
+    "raw_prereq": "consent of instructor. (Cross-listed with MAE 267.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Frontier Micro-Electro-Mechanical Systems",
+    "code": "MATS 254",
+    "raw_prereq": "consent of instructor. (Cross-listed with MAE 268.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biomaterials and Biomimetics",
+    "code": "MATS 255",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Energy Materials and Applications",
+    "code": "MATS 256",
+    "raw_prereq": "graduate standing or consent of instructor. (Cross-listed with MAE 254.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Polymer Science and Engineering",
+    "code": "MATS 257",
+    "raw_prereq": "graduate standing. (Cross-listed with BENG 242, NANO 257, MAE 257.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG242"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO257"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Processing of Polymers and Composites",
+    "code": "MATS 261A",
+    "raw_prereq": "graduate standing. (Cross-listed with SE 251A.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanical Behavior of Polymers and Composites",
+    "code": "MATS 261B",
+    "raw_prereq": "graduate standing. (Cross-listed with SE 251B.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Solar Cells at the Nanoscale",
+    "code": "MATS 269",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Materials Science and Engineering",
+    "code": "MATS 290",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Conference",
+    "code": "MATS 295",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "MATS 296",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research",
+    "code": "MATS 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

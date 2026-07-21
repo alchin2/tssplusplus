@@ -1,0 +1,2627 @@
+[
+  {
+    "name": "Principles of Microeconomics",
+    "code": "ECON 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Market Imperfections and Policy",
+    "code": "ECON 2",
+    "raw_prereq": "ECON 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Macroeconomics",
+    "code": "ECON 3",
+    "raw_prereq": "ECON 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Accounting",
+    "code": "ECON 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Analytics for the Social Sciences",
+    "code": "ECON 5",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Analytics for the Social Sciences",
+    "code": "POLI 5R, POLI 5DR, ECON 5R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "10x10 Career Lessons",
+    "code": "ECON 86",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "ECON 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics A",
+    "code": "ECON 100A",
+    "raw_prereq": "ECON 1 and MATH 10C or 20C or 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics B",
+    "code": "ECON 100B",
+    "raw_prereq": "ECON 100A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics C",
+    "code": "ECON 100C",
+    "raw_prereq": "ECON 100B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Microeconomics A",
+    "code": "ECON 100AH",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Microeconomics B",
+    "code": "ECON 100BH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Microeconomics C",
+    "code": "ECON 100CH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Trade",
+    "code": "ECON 101",
+    "raw_prereq": "ECON 100B or 102.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Globalization",
+    "code": "ECON 102",
+    "raw_prereq": "ECON 1 or 100B and 2 or 3 or MATH 20C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topic in Globalization",
+    "code": "ECON 102T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Monetary Relations",
+    "code": "ECON 103",
+    "raw_prereq": "ECON 102 or 110B or 173A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON110B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nobody’s Fool: Economics with Morals",
+    "code": "ECON 104",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Industrial Organization and Firm Strategy",
+    "code": "ECON 105",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Economic Agreements",
+    "code": "ECON 106",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic Regulation and Antitrust Policy",
+    "code": "ECON 107",
+    "raw_prereq": "ECON 2 or 100B; and MATH 10C or 20C or 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Game Theory",
+    "code": "ECON 109",
+    "raw_prereq": "ECON 100C or MATH 31CH or MATH 109 or (CSE 20 and MATH 20 C).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON100C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Game Theory",
+    "code": "ECON 109T",
+    "raw_prereq": "department approval required. May be taken concurrently with ECON 109 or after completion of ECON 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON109"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Long Run Macroeconomics",
+    "code": "ECON 110A",
+    "raw_prereq": "ECON 1 and ECON 3 and MATH 10C or MATH 20C or MATH 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Short Run Macroeconomics",
+    "code": "ECON 110B",
+    "raw_prereq": "ECON 1 and ECON 3 and MATH 10C or MATH 20C or MATH 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Macroeconomics A",
+    "code": "ECON 110AH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Macroeconomics B",
+    "code": "ECON 110BH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Monetary Economics",
+    "code": "ECON 111",
+    "raw_prereq": "ECON 110B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macroeconomic Data Analysis",
+    "code": "ECON 112",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Economics",
+    "code": "ECON 113",
+    "raw_prereq": "ECON 100C or MATH 140A or MATH 142A and MATH 18 or MATH 31AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON100C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH142A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic Development",
+    "code": "ECON 116",
+    "raw_prereq": "ECON 2 or 100B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic Growth",
+    "code": "ECON 117",
+    "raw_prereq": "ECON 100A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Law and Economics: Torts, Property, and Crime",
+    "code": "ECON 118",
+    "raw_prereq": "ECON 2 or 100A; and MATH 10A or 20A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Law and Economics: Contracts and Corporations",
+    "code": "ECON 119",
+    "raw_prereq": "ECON 2 or 100A and MATH 10A or 20A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH10A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics A",
+    "code": "ECON 120A",
+    "raw_prereq": "ECON 1; and MATH 10C or 20C or 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics B",
+    "code": "ECON 120B",
+    "raw_prereq": "ECON 120A or ECE 109 or MAE 108 or MATH 180A or MATH 183 or MATH 186.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics C",
+    "code": "ECON 120C",
+    "raw_prereq": "ECON 120B or MATH 181B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON120B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Econometrics A",
+    "code": "ECON 120AH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Econometrics B",
+    "code": "ECON 120BH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Econometrics C",
+    "code": "ECON 120CH",
+    "raw_prereq": "department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Econometrics and Data Analysis",
+    "code": "ECON 121",
+    "raw_prereq": "(ECON 120B or MATH 181B) and (ECON 120C or ECON 5 or POLI 5 or POLI 5D).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometric Theory",
+    "code": "ECON 122",
+    "raw_prereq": "ECON 120B or MATH 181B and MATH 18 or MATH 31AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181B"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Science of Population",
+    "code": "ECON 125",
+    "raw_prereq": "PSYC 60 or MATH 183 or MATH 181A or MATH 11 or ECON 120A or MATH 186 or ECE 109 or MAE 108.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cities, Inequality, Innovation",
+    "code": "ECON 129",
+    "raw_prereq": "ECON 110A and (ECON 120A or ECE 109 or MAE 108 or MATH 180A or MATH 183 or MATH 186).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON110A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Policy",
+    "code": "ECON 130",
+    "raw_prereq": "ECON 2 or 100A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of the Environment",
+    "code": "ECON 131",
+    "raw_prereq": "ECON 2 or 100A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Energy Economics",
+    "code": "ECON 132",
+    "raw_prereq": "ECON 1 and (ECON 2 or 3 or 100A or 131 or ESYS 103 or MAE 124) and MATH 10C or 20C or 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ESYS103"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Energy Economics",
+    "code": "ECON 132T",
+    "raw_prereq": "ECON 132.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "US Budget Policy",
+    "code": "ECON 134",
+    "raw_prereq": "ECON 100A. Enrollment limited to majors in the Department of Economics.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Economics",
+    "code": "ECON 135",
+    "raw_prereq": "ECON 2 or 100A; and MATH 10A or 20A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Resources",
+    "code": "ECON 136",
+    "raw_prereq": "ECON 100B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corruption",
+    "code": "ECON 137",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Discrimination",
+    "code": "ECON 138",
+    "raw_prereq": "ECON 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Labor Economics",
+    "code": "ECON 139",
+    "raw_prereq": "ECON 2 or 100B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Health Care Production and Finance",
+    "code": "ECON 140",
+    "raw_prereq": "ECON 2 or ECON 100B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Health Consumers",
+    "code": "ECON 141",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Economics",
+    "code": "ECON 142",
+    "raw_prereq": "ECON 100B or ECON 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Economics",
+    "code": "ECON 143",
+    "raw_prereq": "ECON 100C. Enrollment limited to majors in the Department of Economics and MA33 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MA33"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Conservation",
+    "code": "ECON 144",
+    "raw_prereq": "ECON 2 or 100A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Ocean Resources",
+    "code": "ECON 145",
+    "raw_prereq": "ECON 2 or 100A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON2"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic Stabilization",
+    "code": "ECON 146",
+    "raw_prereq": "ECON 110B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Education",
+    "code": "ECON 147",
+    "raw_prereq": "ECON 2 or 100A; and ECON 120B or MATH 181B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Economic Design",
+    "code": "ECON 149",
+    "raw_prereq": "MATH 109 or MATH 15A or ECON 100A or CSE 21 or CSE 20 or MATH 154 or MATH 188 or MATH 184.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH15A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics: Taxation",
+    "code": "ECON 150",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics: Expenditures I",
+    "code": "ECON 151",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics: Expenditures II",
+    "code": "ECON 152",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Family Economics and Social Insurance",
+    "code": "ECON 152T",
+    "raw_prereq": "ECON 152.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic History of the United States I",
+    "code": "ECON 158",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economic History of the United States II",
+    "code": "ECON 159",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Mexico",
+    "code": "ECON 162",
+    "raw_prereq": "ECON 1 and 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Indian Economy",
+    "code": "ECON 164",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in the Indian Economy",
+    "code": "ECON 164T",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Middle East Economics",
+    "code": "ECON 165",
+    "raw_prereq": "ECON 1 and 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Middle East Economics",
+    "code": "ECON 165T",
+    "raw_prereq": "department approval required. May be taken concurrently with ECON 165 or after completion of ECON 165.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON165"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of China",
+    "code": "ECON 167",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Modern Israel",
+    "code": "ECON 168",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Korea",
+    "code": "ECON 169",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decisions Under Uncertainty",
+    "code": "ECON 171",
+    "raw_prereq": "ECON 100A and ECE 109 or MAE 108 or MATH 181A or ECON 120A or MATH 180A or MATH 183 or MATH 186 or MATH 180B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operations Research A",
+    "code": "ECON 172A",
+    "raw_prereq": "ECON 100A; and ECON 120A or ECE 109 or MATH 180A or MATH 183 or MATH 186; and MATH 18 or 31AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Operations Research B",
+    "code": "ECON 172B",
+    "raw_prereq": "ECON 172A or MATH 171A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON172A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Markets",
+    "code": "ECON 173A",
+    "raw_prereq": "ECON 100A and ECON 120B or MATH 181B; and MATH 18 or 31AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Corporate Finance",
+    "code": "ECON 173B",
+    "raw_prereq": "ECON 4 or MGT 4; and ECON 173A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Financial Risk Management",
+    "code": "ECON 174",
+    "raw_prereq": "ECON 173A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Financial Markets",
+    "code": "ECON 175",
+    "raw_prereq": "ECON 1 and ECON 3 and MATH 10C or MATH 20C or MATH 31BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marketing",
+    "code": "ECON 176",
+    "raw_prereq": "ECON 120C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Economics and Business",
+    "code": "ECON 178",
+    "raw_prereq": "ECON 120C. Enrollment limited to EN25, EN26, EN28, and MA33 majors only or by consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EN25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EN26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EN28"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MA33"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Economics",
+    "code": "ECON 181",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Microeconomics",
+    "code": "ECON 182",
+    "raw_prereq": "ECON 100C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Macroeconomics",
+    "code": "ECON 183",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Economics with Data Analytics",
+    "code": "ECON 184",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Detecting Discrimination in Data",
+    "code": "ECON 185",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Careers in Economics and Business",
+    "code": "ECON 186",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "An Introduction to Research in Economics",
+    "code": "ECON 190",
+    "raw_prereq": "ECON 100A and ECE 109 or ECON 120A or MATH 181A or MATH 186 or MATH 183 or MAE 108 or MATH 180A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Essay Seminar A",
+    "code": "ECON 191A",
+    "raw_prereq": "department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Essay Seminar B",
+    "code": "ECON 191B",
+    "raw_prereq": "department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "ECON 195P",
+    "raw_prereq": "consent of the department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "ECON 198",
+    "raw_prereq": "upper-division standing and consent of instructor. May be repeated up to three times when course topics vary. (P/NP grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "ECON 199",
+    "raw_prereq": "consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics A",
+    "code": "ECON 200A",
+    "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics B",
+    "code": "ECON 200B",
+    "raw_prereq": "ECON 200A. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics C",
+    "code": "ECON 200C",
+    "raw_prereq": "ECON 200B. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Economic Theory",
+    "code": "ECON 201",
+    "raw_prereq": "ECON 207 and 213.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON207"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop in Economic Theory",
+    "code": "ECON 202A-B-C",
+    "raw_prereq": "ECON 207 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON207"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contract Theory",
+    "code": "ECON 204",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics for Economists",
+    "code": "ECON 205",
+    "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decisions",
+    "code": "ECON 206",
+    "raw_prereq": "ECON 200A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Games and Information",
+    "code": "ECON 208",
+    "raw_prereq": "ECON 200A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macroeconomics A",
+    "code": "ECON 210A",
+    "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macroeconomics B",
+    "code": "ECON 210B",
+    "raw_prereq": "ECON 210A. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macroeconomics C",
+    "code": "ECON 210C",
+    "raw_prereq": "ECON 210B. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Monetary Economics and Business Cycles",
+    "code": "ECON 210D",
+    "raw_prereq": "graduate standing and ECON 210A-B-C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Macroeconomics",
+    "code": "ECON 211",
+    "raw_prereq": "graduate standing and ECON 210A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop in Macroeconomics",
+    "code": "ECON 212A-B-C",
+    "raw_prereq": "ECON 210C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Macroeconomic Theory",
+    "code": "ECON 213",
+    "raw_prereq": "ECON 210A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Macroeconomics",
+    "code": "ECON 214",
+    "raw_prereq": "graduate standing and ECON 210A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macroeconomic Policy",
+    "code": "ECON 215",
+    "raw_prereq": "ECON 210A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computation for Macroeconomics",
+    "code": "ECON 216",
+    "raw_prereq": "ECON 210A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Frictions and Financial Frictions",
+    "code": "ECON 217",
+    "raw_prereq": "ECON 210A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Readings in Macroeconomics",
+    "code": "ECON 219",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics A",
+    "code": "ECON 220A",
+    "raw_prereq": "graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics B",
+    "code": "ECON 220B",
+    "raw_prereq": "ECON 220A, graduate standing; Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON220A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics C",
+    "code": "ECON 220C",
+    "raw_prereq": "ECON 220B, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON220B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics D",
+    "code": "ECON 220D",
+    "raw_prereq": "ECON 220C, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON220C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics E",
+    "code": "ECON 220E",
+    "raw_prereq": "ECON 220D, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON220D"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Econometrics F",
+    "code": "ECON 220F",
+    "raw_prereq": "ECON 220E, graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON220E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Econometrics",
+    "code": "ECON 221",
+    "raw_prereq": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON220E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop in Econometrics",
+    "code": "ECON 222A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Forecasting",
+    "code": "ECON 225",
+    "raw_prereq": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON220E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bayesian and Numerical Methods",
+    "code": "ECON 226",
+    "raw_prereq": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON220E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonparametric and Semiparametric Models",
+    "code": "ECON 227",
+    "raw_prereq": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON220E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonstandard Inference",
+    "code": "ECON 228",
+    "raw_prereq": "graduate standing and ECON 220A, 220B, 220C, 220D, and 220E or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON220E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics: Taxation",
+    "code": "ECON 230",
+    "raw_prereq": "ECON 200A-B-C and ECON 220A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics: Public Goods and Externalities",
+    "code": "ECON 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics: Redistribution and Social Insurance",
+    "code": "ECON 232",
+    "raw_prereq": "graduate standing and ECON 200A-B-C and ECON 220A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Economics of Health Care",
+    "code": "ECON 233",
+    "raw_prereq": "graduate standing and ECON 200A-B-C and ECON 220A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Workshop in Applied Economics",
+    "code": "ECON 235A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Political Economy: Microeconomic Perspectives",
+    "code": "ECON 237",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microeconomics of Development",
+    "code": "ECON 241",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Macroeconomics of Development",
+    "code": "ECON 242",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organizational Economics of Development",
+    "code": "ECON 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Trade",
+    "code": "ECON 245",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Macroeconomics",
+    "code": "ECON 246",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Empirical Topics in International Economics",
+    "code": "ECON 247",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Spatial Economics",
+    "code": "ECON 248",
+    "raw_prereq": "ECON 200A and ECON 210A and ECON 280.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON200A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON210A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Development Workshop I",
+    "code": "ECON 249A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Development Workshop III",
+    "code": "ECON 249C",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Empirical Methods in Labor Economics",
+    "code": "ECON 250A",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Labor Economics",
+    "code": "ECON 250B",
+    "raw_prereq": "ECON 250A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Labor Economics",
+    "code": "ECON 250C",
+    "raw_prereq": "ECON 250A and ECON 250B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON250A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Industrial Organization: Firms",
+    "code": "ECON 260",
+    "raw_prereq": "ECON 220C. Enrollment by completion of prerequisites or by consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Industrial Organization: Markets",
+    "code": "ECON 261",
+    "raw_prereq": "ECON 200C and 220C. Enrollment by completion of prerequisites or by consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON200C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Game Theory",
+    "code": "ECON 262",
+    "raw_prereq": "graduate standing and ECON 200A-B-C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modeling Behavioral Economics",
+    "code": "ECON 263",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Economics",
+    "code": "ECON 264",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Alternative Choice Theory",
+    "code": "ECON 265",
+    "raw_prereq": "graduate standing and ECON 200A-B-C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Economics of Natural Resources",
+    "code": "ECON 266",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Environmental and Resource Economics",
+    "code": "ECON 267",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Energy and Environmental Economics",
+    "code": "ECON 268",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finance—Core Asset Pricing",
+    "code": "ECON 270",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finance—Theory and Testing of Intertemporal Asset Pricing Models",
+    "code": "ECON 272",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computation",
+    "code": "ECON 280",
+    "raw_prereq": "enrollment limited to economics PhD students (EN75).",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Economics",
+    "code": "ECON 281",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Becoming an Economist",
+    "code": "ECON 284",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Precandidacy Presentation",
+    "code": "ECON 285",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research Presentation Workshop",
+    "code": "ECON 286",
+    "raw_prereq": "graduate standing, ECON 285.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Field Advising",
+    "code": "ECON 291",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Original Research Paper",
+    "code": "ECON 296",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "ECON 297",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research in Economics for Dissertation",
+    "code": "ECON 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Methods in Economics",
+    "code": "ECON 500A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

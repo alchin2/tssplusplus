@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mind, Brain & Behavior",
+    "code": "CLIN 227A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mind, Brain & Behavior II",
+    "code": "CLIN 227B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mind, Brain & Behavior II—Psychiatry Emphasis",
+    "code": "CLIN 228",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Proseminar in Neuropsychology",
+    "code": "CLIN 294",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "CLIN 296",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

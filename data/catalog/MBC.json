@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Introduction to Marine Biodiversity and Conservation—Seminar",
+    "code": "SIO 295S",
+    "raw_prereq": "consent of instructors. Corequisites: SIO 295LS and MAS students only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO295LS"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Marine Biodiversity and Conservation—Lab",
+    "code": "SIO 295LS",
+    "raw_prereq": "consent of instructor. Corequisites: SIO 295S and MAS students only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO295S"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marine Conservation and Communication Practicum 1",
+    "code": "MBC 258",
+    "raw_prereq": "SIO 295S and SIO 295LS summer courses. Limited to registered students in MAS Marine Biodiversity and Conservation program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO295S"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SIO295LS"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marine Conservation and Communication Practicum 2",
+    "code": "MBC 259",
+    "raw_prereq": "MBC 258. Limited to registered students in MAS Marine Biodiversity and Conservation program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Capstone Independent Study Project",
+    "code": "MBC 296",
+    "raw_prereq": "SIOB 258. MBC 296 is restricted to students in the Master of Advanced Studies—Marine Biodiversity and Conservation Program (SI83).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MBC296"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Varies",
+    "code": "Electives",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

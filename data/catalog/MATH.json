@@ -1,0 +1,3437 @@
+[
+  {
+    "name": "Introduction to College Mathematics",
+    "code": "MATH 2",
+    "raw_prereq": "Math Placement Exam qualifying score.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Precalculus",
+    "code": "MATH 3B",
+    "raw_prereq": "Math Placement Exam qualifying score.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Precalculus",
+    "code": "MATH 3C",
+    "raw_prereq": "Math Placement Exam qualifying score or MATH 3B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Precalculus for Science and Engineering",
+    "code": "MATH 4C",
+    "raw_prereq": "Math Placement Exam qualifying score, or MATH 3C, or AP Precalculus score of 4 or 5, or AP Calculus AB score (or subscore) of 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH3C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus I",
+    "code": "MATH 10A",
+    "raw_prereq": "Math Placement Exam qualifying score, or AP Precalculus score of 4 or 5, or AP Calculus AB score of 2, or MATH 3C, or MATH 4C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH3C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus II",
+    "code": "MATH 10B",
+    "raw_prereq": "AP Calculus AB score of 3, 4, or 5 (or equivalent AB subscore on BC exam), or MATH 10A, or MATH 20A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH10A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus III",
+    "code": "MATH 10C",
+    "raw_prereq": "AP Calculus BC score of 3, 4, or 5, or MATH 10B, or MATH 20B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH10B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus-Based Introductory Probability and Statistics",
+    "code": "MATH 11",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Linear Algebra",
+    "code": "MATH 18",
+    "raw_prereq": "Math Placement Exam qualifying score, or AP Calculus AB score of 3 (or equivalent AB subscore on BC exam), or MATH 4C, or MATH 10A, or MATH 20A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus for Science and Engineering",
+    "code": "MATH 20A",
+    "raw_prereq": "Math Placement Exam qualifying score, or AP Precalculus score of 5, or AP Calculus AB score of 3 (or equivalent AB subscore on BC exam), or MATH 4C or MATH 10A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH4C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus for Science and Engineering",
+    "code": "MATH 20B",
+    "raw_prereq": "AP Calculus AB score of 4 or 5, or AP Calculus BC score of 3, or MATH 20A with a grade of C– or better, or MATH 10B with a grade of C– or better, or MATH 10C with a grade of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus and Analytic Geometry for Science and Engineering",
+    "code": "MATH 20C",
+    "raw_prereq": "AP Calculus BC score of 4 or 5, or MATH 20B with a grade of C– or better.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Differential Equations",
+    "code": "MATH 20D",
+    "raw_prereq": "MATH 20C or MATH 31BH and MATH 18 or MATH 31AH with a grade of C– or better. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Vector Calculus",
+    "code": "MATH 20E",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH and MATH 20C (or MATH 21C) or MATH 31BH with a grade of C– or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Linear Algebra",
+    "code": "MATH 31AH",
+    "raw_prereq": "AP Calculus BC score of 5. Students without an AP Math BC score of 5 may enroll with a prerequisite of MATH 20A-B with a grade of A or better in each. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Multivariable Calculus",
+    "code": "MATH 31BH",
+    "raw_prereq": "MATH 31AH with a grade of B– or better, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31AH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Vector Calculus",
+    "code": "MATH 31CH",
+    "raw_prereq": "MATH 31BH with a grade of B– or better, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31BH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "MATH 87",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Mathematician’s Perspective",
+    "code": "MATH 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Teaching Math",
+    "code": "MATH 95",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Putnam Seminar",
+    "code": "MATH 96",
+    "raw_prereq": "AP Calculus AB score of 4 or more, or AP Calculus BC score of 3 or more, or MATH 20A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "MATH 99R",
+    "raw_prereq": "Must be of first-year standing and a Regent’s Scholar.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Abstract Algebra I",
+    "code": "MATH 100A",
+    "raw_prereq": "MATH 31CH or MATH 109 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Abstract Algebra II",
+    "code": "MATH 100B",
+    "raw_prereq": "MATH 100A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH100A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Abstract Algebra III",
+    "code": "MATH 100C",
+    "raw_prereq": "MATH 100B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH100B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Linear Algebra",
+    "code": "MATH 102",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Algebra I",
+    "code": "MATH 103A",
+    "raw_prereq": "MATH 31CH or MATH 109 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modern Algebra II",
+    "code": "MATH 103B",
+    "raw_prereq": "MATH 103A or MATH 100A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH103A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH100A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Number Theory I",
+    "code": "MATH 104A",
+    "raw_prereq": "MATH 100B or MATH 103B. Students who have not completed the listed prerequisite(s) may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH100B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Number Theory II",
+    "code": "MATH 104B",
+    "raw_prereq": "MATH 104A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH104A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Number Theory",
+    "code": "MATH 105",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Algebraic Geometry",
+    "code": "MATH 106",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Reasoning",
+    "code": "MATH 109",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH, and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Partial Differential Equations",
+    "code": "MATH 110",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH and MATH 20D and MATH 20E or MATH 31CH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Modeling I",
+    "code": "MATH 111A",
+    "raw_prereq": "MATH 20D, MATH 18 or MATH 20F or MATH 31AH, and MATH 109 or MATH 31CH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH109"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Modeling II",
+    "code": "MATH 111B",
+    "raw_prereq": "MATH 111A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH111A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Biology I",
+    "code": "MATH 112A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Biology II",
+    "code": "MATH 112B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computational Stochastics",
+    "code": "MATH 114",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elements of Complex Analysis",
+    "code": "MATH 120A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Complex Analysis",
+    "code": "MATH 120B",
+    "raw_prereq": "MATH 120A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH120A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Teaching and Learning Mathematics I",
+    "code": "MATH 121A",
+    "raw_prereq": "EDS 30/MATH 95 and MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Teaching and Learning Math II",
+    "code": "MATH 121B",
+    "raw_prereq": "MATH 121A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Differential Equations and Dynamical Systems",
+    "code": "MATH 130",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH and MATH 20D. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Real Analysis I",
+    "code": "MATH 140A",
+    "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Real Analysis II",
+    "code": "MATH 140B",
+    "raw_prereq": "MATH 140A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH140A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Real Analysis III",
+    "code": "MATH 140C",
+    "raw_prereq": "MATH 140B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH140B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Analysis I",
+    "code": "MATH 142A",
+    "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Analysis II",
+    "code": "MATH 142B",
+    "raw_prereq": "MATH 142A or MATH 140A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH142A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Fourier Analysis",
+    "code": "MATH 144",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analysis of Ordinary Differential Equations",
+    "code": "MATH 146",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analysis of Partial Differential Equations",
+    "code": "MATH 148",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Differential Geometry",
+    "code": "MATH 150A",
+    "raw_prereq": "MATH 20E or MATH 31CH and either MATH 18 or MATH 20F or MATH 31AH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Calculus on Manifolds",
+    "code": "MATH 150B",
+    "raw_prereq": "MATH 150A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH150A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applicable Mathematics and Computing",
+    "code": "MATH 152",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geometry for Secondary Teachers",
+    "code": "MATH 153",
+    "raw_prereq": "MATH 109 or MATH 31CH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discrete Mathematics and Graph Theory",
+    "code": "MATH 154",
+    "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geometric Computer Graphics",
+    "code": "MATH 155A",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH, and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Computer Graphics",
+    "code": "MATH 155B",
+    "raw_prereq": "MATH 155A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Software",
+    "code": "MATH 157",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Extremal Combinatorics and Graph Theory",
+    "code": "MATH 158",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elementary Mathematical Logic I",
+    "code": "MATH 160A",
+    "raw_prereq": "MATH 100A, or MATH 103A, or MATH 140A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH103A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Elementary Mathematical Logic II",
+    "code": "MATH 160B",
+    "raw_prereq": "MATH 160A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH160A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Mathematics",
+    "code": "MATH 163",
+    "raw_prereq": "MATH 20B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Applied Mathematics—Computer Science",
+    "code": "MATH 168A",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH, and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Numerical Analysis: Linear Algebra",
+    "code": "MATH 170A",
+    "raw_prereq": "MATH 18 or MATH 31AH, and MATH 20C or MATH 31BH and CSE 20 or MATH 15A or MATH 31CH or MATH 109. Students who have not completed the listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH15A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Numerical Analysis: Approximation and Nonlinear Equations",
+    "code": "MATH 170B",
+    "raw_prereq": "MATH 170A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Numerical Analysis: Ordinary Differential Equations",
+    "code": "MATH 170C",
+    "raw_prereq": "MATH 20D or 21D and MATH 170B, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH21D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH170B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Numerical Optimization: Linear Programming",
+    "code": "MATH 171A",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH, and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Numerical Optimization: Nonlinear Programming",
+    "code": "MATH 171B",
+    "raw_prereq": "MATH 20C or MATH 31BH and MATH 171A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH171A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optimization Methods for Data Science I",
+    "code": "MATH 173A",
+    "raw_prereq": "MATH 20C or MATH 31BH and MATH 18 or 31AH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Optimization Methods for Data Science II",
+    "code": "MATH 173B",
+    "raw_prereq": "DSC 123A or MATH 173A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC123A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Methods for Physical Modeling",
+    "code": "MATH 174",
+    "raw_prereq": "Math 20D or MATH 21D, and either MATH 20F or MATH 31AH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH21D"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Methods for Partial Differential Equations",
+    "code": "MATH 175",
+    "raw_prereq": "MATH 174 or MATH 274, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH274"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Projects in Computational and Applied Mathematics",
+    "code": "MATH 179",
+    "raw_prereq": "MATH 174 or MATH 274 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH274"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Probability",
+    "code": "MATH 180A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Stochastic Processes I",
+    "code": "MATH 180B",
+    "raw_prereq": "MATH 20D and either MATH 18 or MATH 20F or MATH 31AH, and MATH 109 or MATH 31CH, and MATH 180A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Stochastic Processes II",
+    "code": "MATH 180C",
+    "raw_prereq": "MATH 180B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH180B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Statistics I",
+    "code": "MATH 181A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Statistics II",
+    "code": "MATH 181B",
+    "raw_prereq": "MATH 181A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH181A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Statistics—Nonparametric Statistics",
+    "code": "MATH 181C",
+    "raw_prereq": "MATH 181B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH181B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning",
+    "code": "MATH 181D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Statistics—Time Series",
+    "code": "MATH 181E",
+    "raw_prereq": "MATH 181B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH181B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sampling Surveys and Experimental Design",
+    "code": "MATH 181F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hidden Data in Random Matrices",
+    "code": "MATH 182",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Methods",
+    "code": "MATH 183",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Enumerative Combinatorics",
+    "code": "MATH 184",
+    "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computational Statistics",
+    "code": "MATH 185",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability and Statistics for Bioinformatics",
+    "code": "MATH 186",
+    "raw_prereq": "MATH 20C or MATH 31BH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Cryptography",
+    "code": "MATH 187A",
+    "raw_prereq": "MATH 10A or MATH 20A. Students who have not completed listed prerequisite may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH10A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics of Modern Cryptography",
+    "code": "MATH 187B",
+    "raw_prereq": "MATH 187A and MATH 18 or MATH 31AH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH187A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebraic Combinatorics",
+    "code": "MATH 188",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploratory Data Analysis and Inference",
+    "code": "MATH 189",
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH, and MATH 20C and one of BENG 134, CSE 103, ECE 109, ECON 120A, MAE 108, MATH 180A, MATH 183, MATH 186, or SE 125. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Topology I",
+    "code": "MATH 190A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Topology II",
+    "code": "MATH 190B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Topology",
+    "code": "MATH 191",
+    "raw_prereq": "MATH 190A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH190A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Actuarial Mathematics I",
+    "code": "MATH 193A",
+    "raw_prereq": "MATH 180A or MATH 183, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Actuarial Mathematics II",
+    "code": "MATH 193B",
+    "raw_prereq": "MATH 193A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH193A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Mathematics of Finance",
+    "code": "MATH 194",
+    "raw_prereq": "MATH 20D, and either MATH 18 or MATH 20F or MATH 31AH, and MATH 180A. Students who have not completed listed prerequisites may enroll with consent of instructor. Students completing ECON 120A instead of MATH 180A must obtain consent of instructor to enroll.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Student Colloquium",
+    "code": "MATH 196",
+    "raw_prereq": "upper-division status.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Extracurricular Industry Practicum",
+    "code": "MATH 197",
+    "raw_prereq": "permission of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study for Undergraduates",
+    "code": "MATH 199",
+    "raw_prereq": "permission of department.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis Research for Undergraduates",
+    "code": "MATH 199H",
+    "raw_prereq": "admission to the Honors Program in mathematics, department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebra I",
+    "code": "MATH 200A",
+    "raw_prereq": "graduate standing in MA75, MA76, MA77, MA80, MA81. All other students may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MA75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MA76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MA77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MA80"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebra II",
+    "code": "MATH 200B",
+    "raw_prereq": "MATH 200A. Students who have not completed MATH 200A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebra III",
+    "code": "MATH 200C",
+    "raw_prereq": "MATH 200B. Students who have not completed MATH 200B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Topics in Algebra I",
+    "code": "MATH 201A",
+    "raw_prereq": "MATH 200C. Students who have not taken MATH 200C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Algebra I",
+    "code": "MATH 202A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Algebra II",
+    "code": "MATH 202B",
+    "raw_prereq": "MATH 202A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH202A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Algebra III",
+    "code": "MATH 202C",
+    "raw_prereq": "MATH 202B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH202B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebraic Geometry I",
+    "code": "MATH 203A",
+    "raw_prereq": "MATH 200C. Students who have not taken MATH 200C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebraic Geometry II",
+    "code": "MATH 203B",
+    "raw_prereq": "MATH 203A. Students who have not taken MATH 203A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH203A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algebraic Geometry III",
+    "code": "MATH 203C",
+    "raw_prereq": "MATH 203B. Students who have not taken MATH 203B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH203B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Number Theory I",
+    "code": "MATH 204A",
+    "raw_prereq": "MATH 200C. Students who have not taken MATH 200C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Number Theory II",
+    "code": "MATH 204B",
+    "raw_prereq": "MATH 204A. Students who have not taken MATH 204A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH204A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Number Theory III",
+    "code": "MATH 204C",
+    "raw_prereq": "MATH 204B. Students who have not taken MATH 204B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH204B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Number Theory",
+    "code": "MATH 205",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Algebraic Geometry",
+    "code": "MATH 206A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Algebraic Geometry",
+    "code": "MATH 206B",
+    "raw_prereq": "MATH 206A. Students who have not completed MATH 206A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH206A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Algebra",
+    "code": "MATH 207A",
+    "raw_prereq": "MATH 200C. Students who have not completed MATH 200C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Algebraic Geometry",
+    "code": "MATH 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Number Theory",
+    "code": "MATH 209",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods in Physics and Engineering",
+    "code": "MATH 210A",
+    "raw_prereq": "MATH 20D-E-F, 140A/142A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods in Physics and Engineering",
+    "code": "MATH 210B",
+    "raw_prereq": "MATH 210A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH210A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods in Physics and Engineering",
+    "code": "MATH 210C",
+    "raw_prereq": "MATH 210B or consent of instructor. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH210B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Algebra",
+    "code": "MATH 211A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Group Actions",
+    "code": "MATH 211B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Biology I",
+    "code": "MATH 212A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Mathematical Biology II",
+    "code": "MATH 212B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Survival Analysis",
+    "code": "MATH 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computational Stochastics",
+    "code": "MATH 214",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods in Data Science I",
+    "code": "MATH 216A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods in Data Science II",
+    "code": "MATH 216B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Methods in Data Science III",
+    "code": "MATH 216C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Applied Mathematics",
+    "code": "MATH 217",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Mathematics of Biological Systems",
+    "code": "MATH 218",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Complex Analysis",
+    "code": "MATH 220A-B-C",
+    "raw_prereq": "MATH 140A-B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Several Complex Variables",
+    "code": "MATH 221A",
+    "raw_prereq": "MATH 200A and 220C. Students who have not completed MATH 200A and 220C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH200A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH220C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Several Complex Variables",
+    "code": "MATH 221B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Partial Differential Equations I",
+    "code": "MATH 231A",
+    "raw_prereq": "MATH 210B or 240C. Students who have not completed MATH 210B or 240C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH240C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Partial Differential Equations II",
+    "code": "MATH 231B",
+    "raw_prereq": "MATH 231A. Students who have not completed MATH 231A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH231A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Partial Differential Equations III",
+    "code": "MATH 231C",
+    "raw_prereq": "MATH 231B. Students who have not completed MATH 231B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH231B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Differential Equations",
+    "code": "MATH 237A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Differential Equations",
+    "code": "MATH 237B",
+    "raw_prereq": "MATH 237A. Students who have not completed MATH 237A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH237A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Analysis I",
+    "code": "MATH 240A",
+    "raw_prereq": "graduate standing in MA75, MA76, MA77, MA80, MA81. All other students may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MA75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MA76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MA77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MA80"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Analysis II",
+    "code": "MATH 240B",
+    "raw_prereq": "MATH 240A. Students who have not completed MATH 240A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH240A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Analysis III",
+    "code": "MATH 240C",
+    "raw_prereq": "MATH 240B. Students who have not completed MATH 240B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH240B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Functional Analysis I",
+    "code": "MATH 241A",
+    "raw_prereq": "MATH 240C. Students who have not completed MATH 240C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH240C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Functional Analysis II",
+    "code": "MATH 241B",
+    "raw_prereq": "MATH 241A. Students who have not completed MATH 241A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH241A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Fourier Analysis",
+    "code": "MATH 242",
+    "raw_prereq": "MATH 240C, students who have not completed MATH 240C may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH240C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH240C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Functional Analysis",
+    "code": "MATH 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Convex Analysis and Optimization I",
+    "code": "MATH 245A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Convex Analysis and Optimization II",
+    "code": "MATH 245B",
+    "raw_prereq": "MATH 245A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH245A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Convex Analysis and Optimization III",
+    "code": "MATH 245C",
+    "raw_prereq": "MATH 245B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH245B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Real Analysis",
+    "code": "MATH 247A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Real Analysis",
+    "code": "MATH 247B",
+    "raw_prereq": "MATH 247A. Students who have not completed MATH 247A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH247A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Real Analysis",
+    "code": "MATH 248",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Differential Geometry",
+    "code": "MATH 250A-B-C",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lie Groups",
+    "code": "MATH 251A-B-C",
+    "raw_prereq": "MATH 200 and 250 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH200"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH250"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Lie Groups and Lie Algebras",
+    "code": "MATH 256",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Differential Geometry",
+    "code": "MATH 257A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Differential Geometry",
+    "code": "MATH 257B",
+    "raw_prereq": "MATH 257A. Students who have not completed MATH 257A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH257A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Differential Geometry",
+    "code": "MATH 258",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geometrical Physics",
+    "code": "MATH 259A-B-C",
+    "raw_prereq": "graduate standing in mathematics, physics, or engineering, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Logic I",
+    "code": "MATH 260A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Logic II",
+    "code": "MATH 260B",
+    "raw_prereq": "MATH 260A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH260A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probabilistic Combinatorics and Algorithms",
+    "code": "MATH 261A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probabilistic Combinatorics and Algorithms II",
+    "code": "MATH 261B",
+    "raw_prereq": "MATH 261A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probabilistic Combinatorics and Algorithms III",
+    "code": "MATH 261C",
+    "raw_prereq": "MATH 261B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Combinatorial Mathematics",
+    "code": "MATH 262A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Combinatorial Mathematics",
+    "code": "MATH 262B",
+    "raw_prereq": "MATH 262A. Students who have not completed MATH 262A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH262A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Combinatorics",
+    "code": "MATH 264A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Mathematical Logic",
+    "code": "MATH 267A",
+    "raw_prereq": "graduate standing or consent of instructor. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Mathematical Logic",
+    "code": "MATH 267B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Logic",
+    "code": "MATH 268",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Combinatorics",
+    "code": "MATH 269",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Linear Algebra",
+    "code": "MATH 270A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Approximation and Nonlinear Equations",
+    "code": "MATH 270B",
+    "raw_prereq": "MATH 270A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH270A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Ordinary Differential Equations",
+    "code": "MATH 270C",
+    "raw_prereq": "MATH 270B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH270B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Optimization",
+    "code": "MATH 271A-B-C",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Partial Differential Equations I",
+    "code": "MATH 272A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Partial Differential Equations II",
+    "code": "MATH 272B",
+    "raw_prereq": "MATH 272A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH272A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Partial Differential Equations III",
+    "code": "MATH 272C",
+    "raw_prereq": "MATH 272B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH272B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Techniques in Computational Mathematics I",
+    "code": "MATH 273A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Techniques in Computational Mathematics II",
+    "code": "MATH 273B",
+    "raw_prereq": "MATH 273A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH273A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Techniques in Computational Mathematics III",
+    "code": "MATH 273C",
+    "raw_prereq": "MATH 273B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH273B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Methods for Physical Modeling",
+    "code": "MATH 274",
+    "raw_prereq": "MATH 20D or 21D, and either MATH 20F or MATH 31AH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH21D"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Methods for Partial Differential Equations",
+    "code": "MATH 275",
+    "raw_prereq": "MATH 174 or MATH 274 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH274"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Analysis in Multiscale Biology",
+    "code": "MATH 276",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Computational and Applied Mathematics",
+    "code": "MATH 277A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Computational and Applied Mathematics",
+    "code": "MATH 278A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Mathematics of Information, Data, and Signals",
+    "code": "MATH 278B",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Optimization",
+    "code": "MATH 278C",
+    "raw_prereq": "graduate standing. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Projects in Computational and Applied Mathematics",
+    "code": "MATH 279",
+    "raw_prereq": "MATH 174, or MATH 274, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH274"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability Theory I",
+    "code": "MATH 280A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability Theory II",
+    "code": "MATH 280B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Probability Theory III",
+    "code": "MATH 280C",
+    "raw_prereq": "a grade of B or better required in MATH 280B. Students who have not completed MATH 280B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH280B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Statistics",
+    "code": "MATH 281A",
+    "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Statistics",
+    "code": "MATH 281B",
+    "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematical Statistics",
+    "code": "MATH 281C",
+    "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Statistics I",
+    "code": "MATH 282A",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Statistics II",
+    "code": "MATH 282B",
+    "raw_prereq": "MATH 282A or consent of instructor. (S/U grades permitted.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH282A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Methods in Bioinformatics",
+    "code": "MATH 283",
+    "raw_prereq": "one year of calculus, one statistics course or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lifetime Data Analysis",
+    "code": "MATH 284",
+    "raw_prereq": "MATH 282A. Students who have not completed listed prerequisite may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stochastic Processes",
+    "code": "MATH 285",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stochastic Differential Equations",
+    "code": "MATH 286",
+    "raw_prereq": "MATH 280A-B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH280A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH280B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Time Series Analysis",
+    "code": "MATH 287A",
+    "raw_prereq": "MATH 282A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH282A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multivariate Analysis",
+    "code": "MATH 287B",
+    "raw_prereq": "MATH 282A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH282A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Time Series Analysis",
+    "code": "MATH 287C",
+    "raw_prereq": "MATH 287A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH287A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Learning",
+    "code": "MATH 287D",
+    "raw_prereq": "MATH 282A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH282A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Probability and Statistics",
+    "code": "MATH 288",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Probability and Statistics",
+    "code": "MATH 289A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Probability and Statistics",
+    "code": "MATH 289B",
+    "raw_prereq": "MATH 289A. Students who have not completed MATH 289A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH289A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploratory Data Analysis and Inference",
+    "code": "MATH 289C",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topology",
+    "code": "MATH 290A-B-C",
+    "raw_prereq": "MATH 100A-B-C and MATH 140A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH100C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Topology",
+    "code": "MATH 291A",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Further Topics in Topology",
+    "code": "MATH 291B",
+    "raw_prereq": "MATH 291A. Students who have not completed MATH 291A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH291A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Topology",
+    "code": "MATH 292",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Mathematics of Finance",
+    "code": "MATH 294",
+    "raw_prereq": "MATH 180A (or equivalent probability course) or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Mathematics",
+    "code": "MATH 295",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Student Colloquium",
+    "code": "MATH 296",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mathematics Graduate Research Internship",
+    "code": "MATH 297",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Reading and Research",
+    "code": "MATH 299",
+    "raw_prereq": "consent of instructor. (S/U grades permitted.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Assistant Training",
+    "code": "MATH 500",
+    "raw_prereq": "consent of adviser. (S/U grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

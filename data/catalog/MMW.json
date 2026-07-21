@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Prehistory and Ancient Foundations",
+    "code": "MMW 11",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Prehistory and Ancient Foundations",
+    "code": "MMW 11R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transforming Traditions and Emerging World Communities, circa 100 BCE–1200 CE",
+    "code": "MMW 12",
+    "raw_prereq": "satisfaction of the Entry Level Writing Requirement.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transforming Traditions and Emerging World Communities, circa 100 BCE–1200 CE",
+    "code": "MMW 12R",
+    "raw_prereq": "satisfaction of the Entry Level Writing Requirement.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "A Globalizing World: Exchanges, Entanglements, and Exploitation, Thirteenth–Eighteenth Century",
+    "code": "MMW 13",
+    "raw_prereq": "MMW 12 or MMW 12R with a grade of D or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MMW12"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "A Globalizing World: Exchanges, Entanglements, and Exploitation, Thirteenth–Eighteenth Century",
+    "code": "MMW 13R",
+    "raw_prereq": "MMW 12 or MMW 12R with a grade of D or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MMW12"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
+    "code": "MMW 14",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
+    "code": "MMW 14R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
+    "code": "MMW 14GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
+    "code": "MMW 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
+    "code": "MMW 15R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
+    "code": "MMW 15GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring the Premodern World",
+    "code": "MMW 121",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring the Premodern World",
+    "code": "MMW 121R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring the Modern World",
+    "code": "MMW 122",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring the Modern World",
+    "code": "MMW 122R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

@@ -1,0 +1,1500 @@
+[
+  {
+    "name": "Fundamentals of Music A",
+    "code": "MUS 1A",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Music B",
+    "code": "MUS 1B",
+    "raw_prereq": "MUS 1A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamentals of Music C",
+    "code": "MUS 1C",
+    "raw_prereq": "MUS 1B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Musicianship",
+    "code": "MUS 2A-B-C",
+    "raw_prereq": "passing score on proficiency exam or consent of instructor. Must be taken in sequence. Music majors must be concurrently enrolled in MUS 2AK, 2BK, and 2CK (Basic Keyboard).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS2AK"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2BK"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MUS2CK"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Keyboard",
+    "code": "MUS 2AK-BK-CK",
+    "raw_prereq": "concurrent enrollment in MUS 2A, B, C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS2A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jazz Keyboard",
+    "code": "MUS 2JK",
+    "raw_prereq": "MUS 2AK and 2BK or passing proficiency exam, or consent of instructor. Concurrent enrollment in MUS 2C. Majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS2AK"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MUS2BK"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Western Music",
+    "code": "MUS 4",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sound in Time",
+    "code": "MUS 5",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Music",
+    "code": "MUS 6",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music, Media, and Technology",
+    "code": "MUS 7",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "American Music: Jazz Cultures",
+    "code": "MUS 8",
+    "raw_prereq": "none. (Offered in selected years.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Symphony",
+    "code": "MUS 9",
+    "raw_prereq": "none. (Offered in selected years.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Folk Music",
+    "code": "MUS 11",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Opera",
+    "code": "MUS 12",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Worlds of Music",
+    "code": "MUS 13",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Music",
+    "code": "MUS 14",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Popular Music",
+    "code": "MUS 15",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Beatles",
+    "code": "MUS 16",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hip-Hop",
+    "code": "MUS 17",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Klezmer Music",
+    "code": "MUS 18",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Blacktronika: Afrofuturism in Electronic Music",
+    "code": "MUS 19",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring the Musical Mind",
+    "code": "MUS 20",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instrumental/Vocal Instruction",
+    "code": "MUS 32",
+    "raw_prereq": "audition and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Group Instrumental Instruction",
+    "code": "MUS 32G",
+    "raw_prereq": "written recommendation of ensemble director and audition for performance faculty on first day of classes required. Department approval required. May be taken for credit six times. (Offered in selected years.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Vocal Instruction",
+    "code": "MUS 32V",
+    "raw_prereq": "audition and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Vocal Master Class",
+    "code": "MUS 32VM",
+    "raw_prereq": "concurrent enrollment in MUS 32V, 132V, or 132C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS32V"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS132V"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Composition I",
+    "code": "MUS 33A",
+    "raw_prereq": "MUS 2C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS2C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Composition II",
+    "code": "MUS 33B",
+    "raw_prereq": "MUS 33A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Composition III",
+    "code": "MUS 33C",
+    "raw_prereq": "MUS 33B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Department Seminar",
+    "code": "MUS 43",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Music",
+    "code": "MUS 80",
+    "raw_prereq": "consent of the instructor based on the instructor and topic in a given quarter.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "MUS 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sustainable Well-Being/Music",
+    "code": "MUS 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ensemble Performance",
+    "code": "MUS 95",
+    "raw_prereq": "audition and consent of instructor for each section. Materials fee required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music Theory and Practice I",
+    "code": "MUS 101A",
+    "raw_prereq": "MUS 2C and 2CK.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS2C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music Theory and Practice II",
+    "code": "MUS 101B",
+    "raw_prereq": "MUS 2C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music Theory and Practice III",
+    "code": "MUS 101C",
+    "raw_prereq": "MUS 101B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Music Theory",
+    "code": "MUS 102",
+    "raw_prereq": "MUS 101B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Composition I",
+    "code": "MUS 103A",
+    "raw_prereq": "MUS 33C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Composition II",
+    "code": "MUS 103B",
+    "raw_prereq": "MUS 103A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Composition III",
+    "code": "MUS 103C",
+    "raw_prereq": "MUS 103B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Seminar in Composition",
+    "code": "MUS 103D-E-F",
+    "raw_prereq": "MUS 103A-B-C and admission into the Department of Music Honors Program in composition. Department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS103A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS103B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS103C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jazz Composition",
+    "code": "MUS 105",
+    "raw_prereq": "MUS 101A and 101B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS101A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MUS101B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Musical Analysis",
+    "code": "MUS 106",
+    "raw_prereq": "MUS 2C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Critical Studies Seminar",
+    "code": "MUS 107",
+    "raw_prereq": "upper-division standing. Restricted to music majors or consent of instructor; department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Ethnomusicology Seminar",
+    "code": "MUS 110",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics/World Music Traditions",
+    "code": "MUS 111",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in European Music Before 1750",
+    "code": "MUS 112",
+    "raw_prereq": "knowledge of music notation or consent of instructor; MUS 4, 8–10, or 120 recommended.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Classic, Romantic, and Modern Music",
+    "code": "MUS 113",
+    "raw_prereq": "upper-division standing or consent of instructor. Department approval required. MUS 4, 8–10, or 120 recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS120"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music and Ideas Since 1900",
+    "code": "MUS 114",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Women in Music",
+    "code": "MUS 115",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Popular Music Studies Seminar",
+    "code": "MUS 116",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Music in Western Culture I",
+    "code": "MUS 120A",
+    "raw_prereq": "MUS 1C or 2C or passing grade on proficiency exam. Music majors are recommended to take MUS 101A concurrently. Department approval required for nonmajors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS1C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS101A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Music in Western Culture II",
+    "code": "MUS 120B",
+    "raw_prereq": "MUS 120A. Music majors are recommended to take MUS 101B concurrently. Department approval required for nonmajors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS101B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Music in Western Culture III",
+    "code": "MUS 120C",
+    "raw_prereq": "MUS 120B. Music majors are recommended to take MUS 101C concurrently. Department approval required for nonmajors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS101C"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Blues: An Oral Tradition",
+    "code": "MUS 126",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Discover Jazz",
+    "code": "MUS 127",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles and Practice of Conducting",
+    "code": "MUS 128",
+    "raw_prereq": "MUS 2A-B-C and 101A-B-C. Department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS101B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chamber Music Performance",
+    "code": "MUS 130",
+    "raw_prereq": "consent of instructor through audition. Department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Improvisation Performance",
+    "code": "MUS 131",
+    "raw_prereq": "consent of instructor through audition. Department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Proseminar in Music Performance",
+    "code": "MUS 132",
+    "raw_prereq": "audition and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Vocal Coaching",
+    "code": "MUS 132C",
+    "raw_prereq": "at least one quarter of MUS 132V and consent of instructor. Department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS132V"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recital Preparation",
+    "code": "MUS 132R",
+    "raw_prereq": "by audition only; MUS 132. Department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Proseminar in Vocal Instruction",
+    "code": "MUS 132V",
+    "raw_prereq": "audition and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Projects in New Music Performance",
+    "code": "MUS 133",
+    "raw_prereq": "consent of instructor through audition.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Symphonic Orchestra",
+    "code": "MUS 134",
+    "raw_prereq": "audition and department approval required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jazz Theory and Improvisation",
+    "code": "MUS 137A",
+    "raw_prereq": "MUS 2A-B-C, proficiency exam, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jazz Theory and Improvisation",
+    "code": "MUS 137B",
+    "raw_prereq": "MUS 137A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS137A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jazz Theory and Improvisation",
+    "code": "MUS 137C",
+    "raw_prereq": "MUS 137B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS137B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Jazz Studies I",
+    "code": "MUS 137D",
+    "raw_prereq": "MUS 137A-B-C and admission into the Music Department Honors Program in jazz. Department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS137A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS137B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS137C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Jazz Studies II",
+    "code": "MUS 137E",
+    "raw_prereq": "MUS 137D and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS137D"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Jazz Studies III",
+    "code": "MUS 137F",
+    "raw_prereq": "MUS 137E and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS137E"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Department Seminar",
+    "code": "MUS 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Jazz and the Music of the African Diaspora: Special Topics Seminar",
+    "code": "MUS 150",
+    "raw_prereq": "MUS 126/ETHN 178, or MUS 127/ETHN 179, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Race, Culture, and Social Change",
+    "code": "MUS 151",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hip Hop: The Politics of Culture",
+    "code": "MUS 152",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "African Americans and the Mass Media",
+    "code": "MUS 153",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Project in Computing Arts I",
+    "code": "MUS 160A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Project in Computing Arts II",
+    "code": "MUS 160B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Art of Sound",
+    "code": "MUS 170",
+    "raw_prereq": "MUS 1A, 2A, 5, 6, or 7, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS1A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS6"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS7"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Music I",
+    "code": "MUS 171",
+    "raw_prereq": "upper-division standing; MUS 170 recommended.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Music II",
+    "code": "MUS 172",
+    "raw_prereq": "MUS 171. Depending on the instructor, this course may include the following tools: Max/MSP, pd.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electronic Music Production and Composition",
+    "code": "MUS 173A",
+    "raw_prereq": "upper-division standing; restricted to music, ICAM-music, and ICAM-visual arts majors and minors, or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Electronic Music Production",
+    "code": "MUS 173B",
+    "raw_prereq": "MUS 173A; restricted to music and ICAM-music majors. Consent of instructor if students do not meet prerequisites.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS173A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Audio/MlDI Studio Techniques I",
+    "code": "MUS 174A",
+    "raw_prereq": "MUS 170; restricted to music, ICAM-music, and ICAM-visual arts majors and minors, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS170"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Audio/MlDI Studio Techniques II",
+    "code": "MUS 174B",
+    "raw_prereq": "MUS 170, MUS 174A; restricted to music, ICAM-music, and ICAM-visual arts majors and minors, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS170"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS174A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Audio/MlDI Studio Techniques III",
+    "code": "MUS 174C",
+    "raw_prereq": "MUS 170, MUS 174B; restricted to music, ICAM-music, and ICAM-visual arts majors and minors, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS170"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS174B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Musical Psychoacoustics",
+    "code": "MUS 175",
+    "raw_prereq": "MUS 170 recommended; restricted to music, ICAM-music, and ICAM-visual arts majors and minors, or consent of instructor. Depending on the instructor, this course may include the following tools: MATLAB.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS170"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music Technology Seminar",
+    "code": "MUS 176",
+    "raw_prereq": "consent of instructor, MUS 171 recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS171"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music Programming",
+    "code": "MUS 177",
+    "raw_prereq": "MUS 172 (formerly MUS 161); restricted to music, ICAM-music, and ICAM-visual arts majors and minors, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS172"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Music",
+    "code": "MUS 192",
+    "raw_prereq": "upper-division standing; department approval and/or consent of instructor required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Instructional Assistance",
+    "code": "MUS 195",
+    "raw_prereq": "consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "MUS 198",
+    "raw_prereq": "consent of instructor and department chair approval. Pass/Not Pass grade only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "MUS 199",
+    "raw_prereq": "consent of instructor and department chair approval. Department approval required. Pass/Not Pass grade only. May be taken for credit twice.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Chamber Opera Performance",
+    "code": "MUS 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Projects in New Music Performance",
+    "code": "MUS 201A-B-C-D-E-F",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Performance",
+    "code": "MUS 202",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Composition",
+    "code": "MUS 203A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Composition",
+    "code": "MUS 203B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Composition",
+    "code": "MUS 203C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Composition",
+    "code": "MUS 203D",
+    "raw_prereq": "203A-B-C and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Focus on Composition",
+    "code": "MUS 204",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Focus on Integrative Studies",
+    "code": "MUS 205",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Studies Seminar",
+    "code": "MUS 206",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theoretical Studies Seminar",
+    "code": "MUS 207",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Music Theory and Practice",
+    "code": "MUS 209",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Musical Analysis",
+    "code": "MUS 210",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Ethnomusicology",
+    "code": "MUS 211",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to System Inquiry",
+    "code": "MUS 212",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Critical Studies",
+    "code": "MUS 213",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Creative Practices",
+    "code": "MUS 214",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Integrative Studies I",
+    "code": "MUS 215A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Integrative Studies II",
+    "code": "MUS 215B",
+    "raw_prereq": "MUS 215A; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS215A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Integrative Studies III",
+    "code": "MUS 215C",
+    "raw_prereq": "MUS 215A-B; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS215A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS215B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Integrative Studies IV",
+    "code": "MUS 215D",
+    "raw_prereq": "MUS 215A-B-C; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS215A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS215B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS215C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Conducting",
+    "code": "MUS 228",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval. (Offered in selected years.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Orchestration",
+    "code": "MUS 229",
+    "raw_prereq": "graduate standing. (Offered in selected years.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chamber Music Performance",
+    "code": "MUS 230",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Proseminar in Music Performance",
+    "code": "MUS 232",
+    "raw_prereq": "consent of instructor through audition.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Symphonic Orchestra",
+    "code": "MUS 234",
+    "raw_prereq": "audition required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Focus on Performance",
+    "code": "MUS 245",
+    "raw_prereq": "consent of instructor. (S/U grade option only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrative Studies Seminar in Ethnomusicology",
+    "code": "MUS 251",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrative Studies Seminar in Systems Inquiry",
+    "code": "MUS 252",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrative Studies Seminar in Critical Studies",
+    "code": "MUS 253",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrative Studies Seminar in Creative Practice",
+    "code": "MUS 254",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Music Technology Seminar",
+    "code": "MUS 267",
+    "raw_prereq": "MUS 173 or equivalent and consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS173"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Digital Audio Processing",
+    "code": "MUS 270A",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Musical Cognitive Science",
+    "code": "MUS 270B",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Compositional Algorithms",
+    "code": "MUS 270C",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Projects in Computer Music",
+    "code": "MUS 270D",
+    "raw_prereq": "consent of instructor and completion of MUS 270A-B-C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Survey of Electronic Music Techniques I",
+    "code": "MUS 271A",
+    "raw_prereq": "graduate standing in music.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Survey of Electronic Music Techniques II",
+    "code": "MUS 271B",
+    "raw_prereq": "MUS 271A and graduate standing in music.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS271A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Survey of Electronic Music Techniques III",
+    "code": "MUS 271C",
+    "raw_prereq": "MUS 271B and graduate standing in music.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS271B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Live Computer Music",
+    "code": "MUS 272",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music Research Methods",
+    "code": "MUS 291",
+    "raw_prereq": "graduate standing. (Letter grade option only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Research in Performance",
+    "code": "MUS 296",
+    "raw_prereq": "graduate standing. (S/U grade option only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Research",
+    "code": "MUS 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Research Projects and Independent Study",
+    "code": "MUS 299",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval. (S/U grades permitted.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching",
+    "code": "MUS 500",
+    "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval. (S/U grade option only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Apprentice Teaching—Nondepartmental",
+    "code": "MUS 501",
+    "raw_prereq": "graduate standing and consent of instructor. (S/U grade option only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

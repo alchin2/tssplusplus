@@ -1,0 +1,1835 @@
+[
+  {
+    "name": "Introduction to Structures and Design",
+    "code": "SE 1",
+    "raw_prereq": "none. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE31"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graphical Communication for Engineering Design",
+    "code": "SE 3",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Spatial Visualization",
+    "code": "SE 7",
+    "raw_prereq": "none.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Algorithms and Programming for Structural Engineering",
+    "code": "SE 9",
+    "raw_prereq": "MATH 20A and MATH 20B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Student Seminar",
+    "code": "SE 87",
+    "raw_prereq": "open to first-year students only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "SE 99H",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics I: Statics",
+    "code": "SE 101A",
+    "raw_prereq": "MATH 20C or MATH 31BH and PHYS 2A or PHYS 2AR.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics II: Dynamics",
+    "code": "SE 101B",
+    "raw_prereq": "SE 101A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics III: Vibrations",
+    "code": "SE 101C",
+    "raw_prereq": "MATH 18 or MATH 31AH and SE 101B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computing for Engineers",
+    "code": "SE 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Conceptual Structural Design",
+    "code": "SE 103",
+    "raw_prereq": "SE 3, SE 9, SE 101A, and SE 105.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE9"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE101A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Materials",
+    "code": "SE 105",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid Mechanics I",
+    "code": "SE 110A",
+    "raw_prereq": "MATH 20D and SE 101A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid Mechanics II",
+    "code": "SE 110B",
+    "raw_prereq": "SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE31"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fluid Mechanics for Structural Engineering",
+    "code": "SE 115",
+    "raw_prereq": "PHYS 2A or PHYS 2AR and MATH 20D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2AR"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Graphics and Computer Aided Structural Design",
+    "code": "SE 120",
+    "raw_prereq": "SE 102 and SE 103.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE102"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistics, Probability and Reliability",
+    "code": "SE 125",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Analysis I",
+    "code": "SE 130A",
+    "raw_prereq": "grade of C– or better in SE 110A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Analysis II",
+    "code": "SE 130B",
+    "raw_prereq": "MATH 18 or MATH 31AH and SE 130A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Element Analysis",
+    "code": "SE 131A",
+    "raw_prereq": "MATH 20E, SE 3, and SE 110B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Element Analysis: Beam and Shell Models",
+    "code": "SE 131B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning for Structural Engineering",
+    "code": "SE 132",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Civil Structures I",
+    "code": "SE 140A",
+    "raw_prereq": "SE 130B and SE 150A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE130B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Civil Structures II",
+    "code": "SE 140B",
+    "raw_prereq": "SE 140A, SE 151A, and SE 181.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE151A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics and Design of Composite Structures",
+    "code": "SE 142",
+    "raw_prereq": "SE 110A or MAE 131A or MAE 131AR and SE 110B or MAE 131.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE110A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131AR"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE110B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structural Design I",
+    "code": "SE 143A",
+    "raw_prereq": "SE 3, SE 142, and SE 160B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE142"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structural Design II",
+    "code": "SE 143B",
+    "raw_prereq": "SE 143A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Steel Structures I",
+    "code": "SE 150A",
+    "raw_prereq": "SE 130A, SE 110B, and SE 103.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE130A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE110B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Steel Structures II",
+    "code": "SE 150B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Reinforced Concrete",
+    "code": "SE 151A",
+    "raw_prereq": "SE 130A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Prestressed Concrete",
+    "code": "SE 151B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seismic Design of Structures",
+    "code": "SE 152",
+    "raw_prereq": "SE 130B, SE 150A, and SE 151A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE130B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE150A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design of Timber Structures",
+    "code": "SE 154",
+    "raw_prereq": "grade of C– or better in both SE 103 and SE 130A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE103"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE31"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structural Mechanics I",
+    "code": "SE 160A",
+    "raw_prereq": "SE 105 or MAE 21 and SE 101B or MAE 30B and SE 110A or MAE 131A or MAE 131AR.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE105"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE21"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE101B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE30B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE110A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structural Mechanics II",
+    "code": "SE 160B",
+    "raw_prereq": "SE 160A. Enrollment restricted to MC25, MC27, and SE27, SE28, SE29, SE30, SE31 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MC25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC27"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE31"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nondestructive Evaluation",
+    "code": "SE 163",
+    "raw_prereq": "SE 110A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensors and Data Acquisition for Structural Engineering",
+    "code": "SE 164",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Health Monitoring",
+    "code": "SE 165",
+    "raw_prereq": "SE 101C.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Signal Processing and Spectral Analysis for Structural Engineering",
+    "code": "SE 167",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural System Testing and Model Correlation",
+    "code": "SE 168",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structures Repair",
+    "code": "SE 171",
+    "raw_prereq": "SE 110A or MAE 131A or MAE 131AR and SE 110B or MAE 131B. Enrollment restricted to SE27, SE28, SE29, SE30, SE31, MC25, and MC27 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE110A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131AR"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE110B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE31"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC25"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MC27"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Earthquake Engineering",
+    "code": "SE 180",
+    "raw_prereq": "grade of C– or better in all SE 9, SE 101C, and SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE9"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE101C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE31"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geotechnical Engineering",
+    "code": "SE 181",
+    "raw_prereq": "grade of C– or better in SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE28"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE31"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundation Engineering",
+    "code": "SE 182",
+    "raw_prereq": "SE 181.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ground Improvement",
+    "code": "SE 184",
+    "raw_prereq": "SE 181.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar",
+    "code": "SE 192",
+    "raw_prereq": "SE major. Department stamp and/or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching",
+    "code": "SE 195",
+    "raw_prereq": "B average in major, upper-division standing, and consent of department chair. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Internship",
+    "code": "SE 197",
+    "raw_prereq": "completion of ninety units with a 2.5 GPA and consent of department chair. Department stamp required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Study Group",
+    "code": "SE 198",
+    "raw_prereq": "consent of instructor or department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "SE 199",
+    "raw_prereq": "consent of instructor or department stamp.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Mathematics in Structural Engineering",
+    "code": "SE 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Structural Analysis",
+    "code": "SE 201A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonlinear Structural Analysis",
+    "code": "SE 201B",
+    "raw_prereq": "SE 201A or equivalent, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE201A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Stability",
+    "code": "SE 202",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Dynamics I",
+    "code": "SE 203A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Dynamics II",
+    "code": "SE 203B",
+    "raw_prereq": "SE 203A or SE 203 and graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE203A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE203"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Structural Dynamics",
+    "code": "SE 204",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonlinear Mechanical Vibrations",
+    "code": "SE 205",
+    "raw_prereq": "SE 203 or SE 203A or consent of instructor, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE203"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE203A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Random Vibrations",
+    "code": "SE 206",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Structural Engineering",
+    "code": "SE 207",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Structural Concrete",
+    "code": "SE 211",
+    "raw_prereq": "department approval or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Structural Steel Design",
+    "code": "SE 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bridge Design",
+    "code": "SE 213",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Masonry Structures",
+    "code": "SE 214",
+    "raw_prereq": "SE 151A, B, or equivalent basic reinforced concrete course, or consent of instructor, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE151A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cable Structures",
+    "code": "SE 215",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seismic Isolation and Energy Dissipation",
+    "code": "SE 220",
+    "raw_prereq": "SE 221 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE221"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Earthquake Engineering",
+    "code": "SE 221",
+    "raw_prereq": "SE 201A or SE 203 or SE 203A, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE201A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE203"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE203A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geotechnical Earthquake Engineering",
+    "code": "SE 222",
+    "raw_prereq": "department approval and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Seismic Design of Structures",
+    "code": "SE 223",
+    "raw_prereq": "department approval and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Reliability and Risk Analysis",
+    "code": "SE 224",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Geotechnical Groundwater Engineering",
+    "code": "SE 226",
+    "raw_prereq": "SE 241 or consent of instructor, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE241"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seismic Design and Performance of Nonstructural Components and Systems",
+    "code": "SE 227",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Machine Learning in Computational Mechanics",
+    "code": "SE 232",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Techniques in Finite Elements",
+    "code": "SE 233",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plates and Shells",
+    "code": "SE 234",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wave Propagation in Elastic Media",
+    "code": "SE 235",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Wave Propagation in Continuous Structural Elements",
+    "code": "SE 236",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Soil Mechanics",
+    "code": "SE 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Foundation Engineering",
+    "code": "SE 242",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Soil-Structure Interaction",
+    "code": "SE 243",
+    "raw_prereq": "SE 203 or SE 203A, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE203"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE203A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Numerical Methods in Geomechanics",
+    "code": "SE 244",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Unsaturated Soil Mechanics",
+    "code": "SE 246",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ground Improvement",
+    "code": "SE 247",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Properties of Soils",
+    "code": "SE 248",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Rock Mechanics and Engineering",
+    "code": "SE 249",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stability of Earth Slopes and Retaining Walls",
+    "code": "SE 250",
+    "raw_prereq": "department approval and graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Processing of Polymers and Composites",
+    "code": "SE 251A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanical Behaviors of Polymers and Composites",
+    "code": "SE 251B",
+    "raw_prereq": "graduate standing required.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Experimental Mechanics and NDE",
+    "code": "SE 252",
+    "raw_prereq": "department approval required, graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics and Design of Composite Structures",
+    "code": "SE 253A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics and Design of Composite Structures II",
+    "code": "SE 253B",
+    "raw_prereq": "SE 253A or equivalent, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE253A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mechanics of Laminated Anisotropy Plates and Shells",
+    "code": "SE 253C",
+    "raw_prereq": "SE 253B; graduate standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE253B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "FRPs in Civil Structures",
+    "code": "SE 254",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Textile Composite Structures",
+    "code": "SE 255",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structural Mechanics I",
+    "code": "SE 260A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structural Mechanics II",
+    "code": "SE 260B",
+    "raw_prereq": "SE 260A, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE260A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Engineering Design",
+    "code": "SE 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aerospace Structures Repair",
+    "code": "SE 262",
+    "raw_prereq": "graduate standing. Restricted to SE and MAE graduate students (major codes SE75, SE76, SE77, SE78, SE79, SE80, SE81, SE82, MC75, MC76, MC78, MC80, MC81, MC82, MC83, MC84, MC85, MC86, MC87, MC88).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE79"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE82"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC82"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC84"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC85"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC86"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MC87"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nondestructive Evaluation",
+    "code": "SE 263",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensors and Data Acquisition for Structural Engineering",
+    "code": "SE 264",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Health Monitoring",
+    "code": "SE 265",
+    "raw_prereq": "graduate student, undergraduate vibrations or structural dynamics course.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Smart and Multifunctional Materials",
+    "code": "SE 266",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Signal Processing and Spectral Analysis for Structural Engineering",
+    "code": "SE 267A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural System Testing and Model Correlation",
+    "code": "SE 268",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Verification and Validation of Computational Models",
+    "code": "SE 269",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fracture Mechanics of Materials and Structures",
+    "code": "SE 270",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Solid Mechanics for Structural and Aerospace Engineering",
+    "code": "SE 271",
+    "raw_prereq": "SE 110A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE110A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Theory of Elasticity",
+    "code": "SE 272",
+    "raw_prereq": "SE 271 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE271"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inelasticity",
+    "code": "SE 273",
+    "raw_prereq": "graduate standing and SE 271/MAE 231A or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nonlinear Finite Element Methods for Solid Mechanics",
+    "code": "SE 274",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Element Methods in Solid Mechanics I",
+    "code": "SE 276A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Element Methods in Solid Mechanics II",
+    "code": "SE 276B",
+    "raw_prereq": "graduate standing and SE 276A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Element Methods in Solid Mechanics III",
+    "code": "SE 276C",
+    "raw_prereq": "graduate standing and SE 276A or MAE 232A and MAE 231A or SE 271.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE276A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE232A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE231A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Error Control in Finite Element Analysis",
+    "code": "SE 277",
+    "raw_prereq": "SE 232B or MAE 232B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE232B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Elements for Fluid Mechanics",
+    "code": "SE 278A",
+    "raw_prereq": "MAE 232A or SE 276A or consent of instructor, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE232A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE276A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Fluid-Structure Interaction",
+    "code": "SE 278B",
+    "raw_prereq": "SE 278A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Meshfree Methods for Linear and Nonlinear Mechanics",
+    "code": "SE 279",
+    "raw_prereq": "SE 276A or MAE 232A, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE276A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE232A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finite Element Computations in Solid Mechanics",
+    "code": "SE 280",
+    "raw_prereq": "graduate standing, SE 276A or MAE 232A, and SE 276B or MAE 232B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE276A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE232A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE276B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "3D Printable Robotics",
+    "code": "SE 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Diagnostic Imaging",
+    "code": "SE 282",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Engineering Frontiers",
+    "code": "SE 283",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Optimization",
+    "code": "SE 285",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Optimization for Additive Manufacturing",
+    "code": "SE 286",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Engineering Seminar",
+    "code": "SE 290",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "SE 296",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "SE 298",
+    "raw_prereq": "consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research",
+    "code": "SE 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Experience",
+    "code": "SE 501",
+    "raw_prereq": "consent of instructor and the department. (S/U grades permitted.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

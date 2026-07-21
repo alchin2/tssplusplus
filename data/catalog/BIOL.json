@@ -1,0 +1,2840 @@
+[
+  {
+    "name": "The Cell",
+    "code": "BILD 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Multicellular Life",
+    "code": "BILD 2",
+    "raw_prereq": "BILD 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Organismic and Evolutionary Biology",
+    "code": "BILD 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introductory Biology Lab",
+    "code": "BILD 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Analysis and Design for Biologists",
+    "code": "BILD 5",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Beginning of Life",
+    "code": "BILD 7",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Fundamental Concepts of Modern Biology",
+    "code": "BILD 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology and Behavior",
+    "code": "BILD 12",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Impact on the Environment",
+    "code": "BILD 18",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Genetics in Modern Society",
+    "code": "BILD 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Nutrition",
+    "code": "BILD 22",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Microbiology through Fermented Food",
+    "code": "BILD 24",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Physiology",
+    "code": "BILD 26",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Immunology, Vaccines, and Immunotherapy",
+    "code": "BILD 28",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology of Plagues: Past and Present",
+    "code": "BILD 30",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Cancer Biology",
+    "code": "BILD 32",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AIDS Science and Society",
+    "code": "BILD 36",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dementia, Science, and Society",
+    "code": "BILD 38",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Our Sustainable Future",
+    "code": "BILD 42",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Perspectives for a Changing World",
+    "code": "BILD 44",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ecology of a Changing Planet",
+    "code": "BILD 46",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring Issues of Diversity, Equity, and Inclusion in Relation to Human Biology",
+    "code": "BILD 60",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring Issues of Diversity, Equity, and Inclusion in Biological and Global Contexts",
+    "code": "BILD 60GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology, Race, and Society",
+    "code": "BILD 61",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Python for Biologists",
+    "code": "BILD 62",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genomics Research Initiative Lab I",
+    "code": "BILD 70",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Essential Lab Techniques in the Biological Sciences",
+    "code": "BILD 75",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Job and Internship Preparation: Job Application",
+    "code": "BILD 80",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Job and Internship Preparation: Interview Skills",
+    "code": "BILD 81",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Job and Internship Preparation: Professional Development Skills",
+    "code": "BILD 82",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Business Communications for Biological Sciences",
+    "code": "BILD 83",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Career Exploration in Biological Sciences",
+    "code": "BILD 84R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "BILD 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Biologist’s Perspective",
+    "code": "BILD 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology First-year Students: Strategies for Success",
+    "code": "BILD 91",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Development Topics in the Biological Sciences",
+    "code": "BILD 92",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Workshops",
+    "code": "BILD 95",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Modern Biology: Professional Development and Analysis",
+    "code": "BILD 97",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "BILD 98",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Research",
+    "code": "BILD 99",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Structural Biochemistry",
+    "code": "BIBC 100",
+    "raw_prereq": "BENG 120 or CHEM 140A or CHEM 40A or CHEM 41A and BENG 120 or CHEM 140B or CHEM 40B or CHEM 41B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Metabolic Biochemistry",
+    "code": "BIBC 102",
+    "raw_prereq": "BENG 120 or CHEM 140A or CHEM 40A or CHEM 41A and BENG 120 or CHEM 140B or CHEM 40B or CHEM 41B.<strong>Note:</strong>Students may not receive credit for both BIBC 102 and CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biochemical Techniques",
+    "code": "BIBC 103",
+    "raw_prereq": "BILD 1.<strong> Note: </strong>Students may not receive credit for BIBC 103 after taking CHEM 108. Attendance at the first lecture/lab is required. Nonattendance may result in the student’s being dropped from the course roster.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIBC103"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gene Editing and Biotechnology",
+    "code": "BIBC 104",
+    "raw_prereq": "BICD 100 or BICD 100R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BICD100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Catalysis, Reactivity, and Molecular Structure",
+    "code": "BIBC 110",
+    "raw_prereq": "BILD 1 and CHEM 6B or CHEM 6BH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Nutrition",
+    "code": "BIBC 120",
+    "raw_prereq": "BIBC 102 or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIBC102"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Chemistry of Biological Interactions",
+    "code": "BIBC 151",
+    "raw_prereq": "BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Biochemistry",
+    "code": "BIBC 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetics",
+    "code": "BICD 100",
+    "raw_prereq": "BILD 1 and BILD 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetics",
+    "code": "BICD 100R",
+    "raw_prereq": "BILD 1 and BILD 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Eukaryotic Genetics Laboratory",
+    "code": "BICD 101",
+    "raw_prereq": "upper-division standing; BILD 1 and BILD 4.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetic Inquiry",
+    "code": "BICD 102",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetic Inquiry in Global Context",
+    "code": "BICD 102GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetic Neurobiology",
+    "code": "BICD 104",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cell Biology",
+    "code": "BICD 110",
+    "raw_prereq": "BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cell Biology",
+    "code": "BICD 110R",
+    "raw_prereq": "BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Stem Cells and Regeneration",
+    "code": "BICD 112",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Basis of Plant Development",
+    "code": "BICD 120",
+    "raw_prereq": "BILD 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plant Molecular Genetics and Biotechnology Laboratory",
+    "code": "BICD 123",
+    "raw_prereq": "upper-division standing; BICD 100 or BICD 100R and BILD 4.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plant Innate Immunity",
+    "code": "BICD 124",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Embryos, Genes, and Development",
+    "code": "BICD 130",
+    "raw_prereq": "upper-division standing; BICD 100 or BICD 100R and BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "AIDS Science and Society",
+    "code": "BICD 136",
+    "raw_prereq": "BILD 1, BILD 2 recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Immunology",
+    "code": "BICD 140",
+    "raw_prereq": "BICD 100 or BICD 100R and BIMM 100. BIBC 100 recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIBC100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Forces of Life: Introduction to Physical Biology",
+    "code": "BICD 142",
+    "raw_prereq": "BILD 1 and PHYS 1A and PHYS 1B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS1A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory in Molecular Medicine",
+    "code": "BICD 145",
+    "raw_prereq": "BIMM 100 and BILD 4.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Population Genetics",
+    "code": "BICD 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Active Genetics",
+    "code": "BICD 158",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Cellular Development",
+    "code": "BICD 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introductory Ecology—Organisms and Habitat",
+    "code": "BIEB 102",
+    "raw_prereq": "BILD 3 or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ecology Laboratory",
+    "code": "BIEB 121",
+    "raw_prereq": "BIEB 100 or MATH 11 or SIO 187 and BILD 3 and BILD 4.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Methods in Evolution and Ecology Lab",
+    "code": "BIEB 123",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Plant Ecology",
+    "code": "BIEB 126",
+    "raw_prereq": "BILD 3.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Insect Diversity",
+    "code": "BIEB 128",
+    "raw_prereq": "BILD 3.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Marine Conservation Biology",
+    "code": "BIEB 130",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Biological Oceanography",
+    "code": "BIEB 134",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aquatic Ecology Lab",
+    "code": "BIEB 135",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Tropical Field Ecology",
+    "code": "BIEB 136GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sea Turtle Ecology and Conservation",
+    "code": "BIEB 137GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biodiversity of the Galapagos Island and Mainland Ecuador",
+    "code": "BIEB 138GS",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biodiversity",
+    "code": "BIEB 140",
+    "raw_prereq": "BILD 3.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Quantitative Modeling for Biologists’ Lab",
+    "code": "BIEB 141",
+    "raw_prereq": "BILD 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computer Modeling in Evolution and Ecology",
+    "code": "BIEB 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genome Diversity and Dynamics",
+    "code": "BIEB 146",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Disease Ecology",
+    "code": "BIEB 148",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolution",
+    "code": "BIEB 150",
+    "raw_prereq": "BILD 3 and BILD 1 or BIEB 143.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolution of Infectious Diseases",
+    "code": "BIEB 152",
+    "raw_prereq": "<strong><em>:</em></strong>BILD 3.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolutionary Inquiry",
+    "code": "BIEB 154",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Evolution and Society",
+    "code": "BIEB 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbiomes: The Ecology and Evolution of Microbes",
+    "code": "BIEB 158",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbiome Function Laboratory",
+    "code": "BIEB 159",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Behavioral Ecology and Conservation",
+    "code": "BIEB 164",
+    "raw_prereq": "BILD 3.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Animal Behavior and Communication",
+    "code": "BIEB 166",
+    "raw_prereq": "BILD 3 and Physics 1A or 2A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD1A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ecosystems and Global Change",
+    "code": "BIEB 174",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology of Conservation and the Human Predicament",
+    "code": "BIEB 176",
+    "raw_prereq": "BILD 3.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology of Global Change",
+    "code": "BIEB 182",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Ecology, Behavior, Evolution",
+    "code": "BIEB 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Biology",
+    "code": "BIMM 100",
+    "raw_prereq": "BILD 1 and BIBC 103 or BILD 4 or BILD 70 or BIMM 101 and BENG 120 or CHEM 40A or CHEM 40AH or CHEM 41A and BENG 120 or CHEM 40B or CHEM 40BH or CHEM 41B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM101"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Biology",
+    "code": "BIMM 100R",
+    "raw_prereq": "BILD 1 and BIBC 103 or BILD 4 or BILD 70 or BIMM 101 and BENG 120 or CHEM 40A or CHEM 40AH or CHEM 41A and BENG 120 or CHEM 40B or CHEM 40BH or CHEM 41B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM101"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recombinant DNA Techniques",
+    "code": "BIMM 101",
+    "raw_prereq": "BILD 1 and BILD 4.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Basis of Human Disease",
+    "code": "BIMM 110",
+    "raw_prereq": "BICD 100 or BICD 100R and BIMM 100 and BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B, upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Regulation of Eukaryotic Gene Expressions",
+    "code": "BIMM 112",
+    "raw_prereq": "BIMM 100.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Virology",
+    "code": "BIMM 114",
+    "raw_prereq": "BIMM 100.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Circadian Rhythms—Biological Clocks",
+    "code": "BIMM 116",
+    "raw_prereq": "BILD 1 or COGS 107B or PSYC 106. Students may receive credit for one of the following: BIMM 116 or BIMM 116R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM116"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "BioClock Studio",
+    "code": "BIMM 116B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Circadian Rhythms—Biological Clocks",
+    "code": "BIMM 116R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pharmacology",
+    "code": "BIMM 118",
+    "raw_prereq": "BIPN 100 or BIPN 100R and BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbiology",
+    "code": "BIMM 120",
+    "raw_prereq": "BILD 3 and BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B and BIMM 100.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbiology Laboratory",
+    "code": "BIMM 121",
+    "raw_prereq": "BILD 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbial Genetics",
+    "code": "BIMM 122",
+    "raw_prereq": "BIMM 100.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Medical Microbiology",
+    "code": "BIMM 124",
+    "raw_prereq": "BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Finding the Fountain of Youth—Introduction to the Modern Biology of Aging",
+    "code": "BIMM 128",
+    "raw_prereq": "BILD 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbial Physiology",
+    "code": "BIMM 130",
+    "raw_prereq": "BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbial Diversity and Evolution",
+    "code": "BIMM 132GS",
+    "raw_prereq": "BILD 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology of Cancer",
+    "code": "BIMM 134",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Principles in Biology",
+    "code": "BIMM 140",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics Laboratory",
+    "code": "BIMM 143",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics Laboratory",
+    "code": "BIMM 143R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computation for Biologists",
+    "code": "BIMM 149",
+    "raw_prereq": "BILD 1 and BILD 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genomics Research Initiative Laboratory II",
+    "code": "BIMM 170",
+    "raw_prereq": "BILD 70.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genome Science",
+    "code": "BIMM 172",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genomics, Big Data, and Human Health",
+    "code": "BIMM 174",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Sequence Analysis",
+    "code": "BIMM 181",
+    "raw_prereq": "CSE 100 or CSE 100R and CSE 101 and BIMM 100 or CHEM 114C. Students may receive credit for one of the following: CSE 181, BIMM 181, or BENG 181.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE101"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biological Databases",
+    "code": "BIMM 182",
+    "raw_prereq": "CSE 100 or CSE 100R. Students may receive credit for one of the following: CSE 182, BENG 182, or BIMM 182.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG182"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics Laboratory",
+    "code": "BIMM 185",
+    "raw_prereq": "two courses out of BIMM 181 or BENG 181 or CSE 181, BIMM 182 or BENG 182 or CSE 182, BENG 183, BIMM 184 or BENG 184 or CSE 184. Attendance at the first lecture/lab is required. Nonattendance may result in the student’s being dropped from the course roster.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG184"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Molecular Biology",
+    "code": "BIMM 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Physiology I",
+    "code": "BIPN 100",
+    "raw_prereq": "BILD 1 and BILD 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Physiology I",
+    "code": "BIPN 100R",
+    "raw_prereq": "BILD 1 and BILD 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Physiology II",
+    "code": "BIPN 102",
+    "raw_prereq": "BIPN 100 or BIPN 100R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Physiology II in Global Context",
+    "code": "BIPN 102GS",
+    "raw_prereq": "BIPN 100.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Anatomy with Lab",
+    "code": "BIPN 103",
+    "raw_prereq": "BILD 4 and BIPN 100 or BIPN 100R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD4"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIPN100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Physiological Inquiry in Global Context",
+    "code": "BIPN 104GS",
+    "raw_prereq": "BIPN 100.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Physiology Lab",
+    "code": "BIPN 105",
+    "raw_prereq": "BIPN 100 or BIPN 100R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN100"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Physiology",
+    "code": "BIPN 106",
+    "raw_prereq": "BILD 2, CHEM 6A-B-C. BILD 3 is recommended.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology and Medicine of Exercise",
+    "code": "BIPN 108",
+    "raw_prereq": "BIPN 100 or BIPN 100R and BIBC 102 or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIBC102"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuropharmacology",
+    "code": "BIPN 118",
+    "raw_prereq": "BIPN 140.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Endocrinology",
+    "code": "BIPN 120",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Reproduction",
+    "code": "BIPN 134",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cellular Neurobiology",
+    "code": "BIPN 140",
+    "raw_prereq": "BILD 1 and BILD 2.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Neurobiology",
+    "code": "BIPN 142",
+    "raw_prereq": "BIPN 100 or BIPN 100R or BIPN 140.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Developmental Neurobiology",
+    "code": "BIPN 144",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology Laboratory",
+    "code": "BIPN 145",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Cellular Neurobiology",
+    "code": "BIPN 146",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Systems Neurobiology",
+    "code": "BIPN 147",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cellular Basis of Learning and Memory",
+    "code": "BIPN 148",
+    "raw_prereq": "BIPN 140.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Diseases of the Nervous System",
+    "code": "BIPN 150",
+    "raw_prereq": "BICD 100 or BICD 100R and BIBC 102 or CHEM 114B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIBC102"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Healthy and Diseased Brain",
+    "code": "BIPN 152",
+    "raw_prereq": "BIPN 140.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Stress and Mental Disorders",
+    "code": "BIPN 154",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Glial Neurobiology",
+    "code": "BIPN 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroanatomy",
+    "code": "BIPN 160",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Data Science",
+    "code": "BIPN 162",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Models and Theories in Neuroscience",
+    "code": "BIPN 164",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain, Behavior, and Evolution",
+    "code": "BIPN 189",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Physiology and Neuroscience",
+    "code": "BIPN 194",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioscholars Seminar: From Bench to Bedside and Beyond",
+    "code": "BISP 170",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Essential Lab Techniques in the Biological Sciences",
+    "code": "BISP 175",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cooperative Education and Analysis",
+    "code": "BISP 182",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology Transfers: Strategies for Success",
+    "code": "BISP 191",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Seminar in Biology",
+    "code": "BISP 192",
+    "raw_prereq": "upper-division standing; department stamp and/or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology Education Research",
+    "code": "BISP 193",
+    "raw_prereq": "department approval required. Enrollment is via department approval only. Students must complete a Special Studies form as well as a research plan. Paperwork for a BISP 193 must be submitted to SIS by all published deadlines as listed on the biology web page.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BISP193"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology",
+    "code": "BISP 194",
+    "raw_prereq": "BICD 100 or BICD 100R; upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "BISP 195P",
+    "raw_prereq": "school approval required and upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis in Biological Sciences",
+    "code": "BISP 196",
+    "raw_prereq": "Students must have senior standing; 3.5 overall and major GPA or above. Research must be approved by Honors thesis faculty adviser. Enrollment in this course is for those students participating in the Honors Program in Biological Sciences and is via department approval only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biology Internship Program",
+    "code": "BISP 197",
+    "raw_prereq": "department approval required. Students must complete at least ninety units of credit and have a minimum GPA of 2.5. A completed and approved application/research plan/learning agreement is required for enrollment.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "BISP 198",
+    "raw_prereq": "department approval required. Enrollment is via department approval only. Students must complete a Special Studies form. Paperwork for a BISP 198 must be submitted to SIS by Friday of the eighth week of the quarter preceding the quarter in which the 198 will be completed.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BISP198"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "THE198"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Individual Research for Undergraduates",
+    "code": "BISP 199",
+    "raw_prereq": "department approval required. Students must complete at least ninety units of credit and have a minimum GPA of 2.5.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate School Fundamentals: Introduction to Graduate Studies in the School of Biological Sciences",
+    "code": "BGGN 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Methods in Computational Neuroscience",
+    "code": "BGGN 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Development for Biologists",
+    "code": "BGGN 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Ecology, Behavior, and Evolution",
+    "code": "BGGN 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Community and Population Ecology",
+    "code": "BGGN 204",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communicating Science",
+    "code": "BGGN 205",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concepts of Reasoning and Experimentation",
+    "code": "BGGN 206A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Concepts of Reasoning and Experimentation",
+    "code": "BGGN 206B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Ethics",
+    "code": "BGGN 207",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biological Sciences Graduate Boot Camp",
+    "code": "BGGN 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Issues in Biology",
+    "code": "BGGN 209",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Recent Advances and Experimental Approaches in Modern Biology",
+    "code": "BGGN 211",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Quantitative Evolutionary Biology",
+    "code": "BGGN 212",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations of Bioinformatics",
+    "code": "BGGN 213",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Q-Biology",
+    "code": "BGGN 214",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Bioinformatics Lab",
+    "code": "BGGN 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Biostatistics",
+    "code": "BGGN 216",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Principles of Drug Development and Pharmacology",
+    "code": "BGGN 218",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Molecular Biology",
+    "code": "BGGN 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Cell Biology",
+    "code": "BGGN 222",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Genetics",
+    "code": "BGGN 223",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Immunology",
+    "code": "BGGN 225",
+    "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Animal Virology",
+    "code": "BGGN 226",
+    "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Topics in Plant Biology",
+    "code": "BGGN 227",
+    "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Developmental Biology",
+    "code": "BGGN 228",
+    "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Signal Transduction",
+    "code": "BGGN 230",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Current Concepts in Stem Cell Biology",
+    "code": "BGGN 231",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Innate Immunity",
+    "code": "BGGN 232",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practical Histopathology and Mouse Models of Human Disease",
+    "code": "BGGN 234",
+    "raw_prereq": "standard undergraduate biology courses.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Glycobiology",
+    "code": "BGGN 236",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Methods in Genetics",
+    "code": "BGGN 237",
+    "raw_prereq": "BIOM 252 and BIOM 272, or equivalent. Enrollment restricted to the following major codes: BS75, BI77, BI78, BF76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIOM252"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIOM272"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI78"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrative Microbiology I",
+    "code": "BGGN 238A",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Integrative Microbiology II",
+    "code": "BGGN 238B",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bioinformatics for Immunologists",
+    "code": "BGGN 239",
+    "raw_prereq": "BGGN 213. Enrollment restricted to the following major codes: BI77, BI78, BI80, BI81, BI82, BI83, BI85, BI86, BS75, and BS81.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BI77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI82"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI85"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BI86"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BS75"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Data Science",
+    "code": "BGGN 240",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genome Science",
+    "code": "BGGN 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Cancer Research and Therapy",
+    "code": "BGGN 245",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Neurobiology",
+    "code": "BGGN 246A",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Molecular Mechanisms of Neural Development",
+    "code": "BGGN 248",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Basic Neuroscience",
+    "code": "BGGN 249A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Developmental Neurobiology",
+    "code": "BGGN 250",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Cellular Neurobiology",
+    "code": "BGGN 251",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Systems Neurobiology",
+    "code": "BGGN 252",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Stress and Mental Disorders",
+    "code": "BGGN 253",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroanatomy",
+    "code": "BGGN 254",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems and Circuits Neuroscience",
+    "code": "BGGN 255",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "BioClock Workshop",
+    "code": "BGGN 257",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Quantitative Physiology",
+    "code": "BGGN 259",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurodynamics",
+    "code": "BGGN 260",
+    "raw_prereq": "graduate level or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Microbiome Function Laboratory",
+    "code": "BGGN 261",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "3-D Cryo-Electron Microscopy of Macromolecules and Cells",
+    "code": "BGGN 262",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Laboratory in Biophysical Techniques",
+    "code": "BGGN 266",
+    "raw_prereq": "graduate standing or consent of instructor. PHYS 120A, BILD 1, and CHEM 6CL for undergraduates.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6CL"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Models and Theories in Neuroscience",
+    "code": "BGGN 267",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Master of Science Fundamentals",
+    "code": "BGGN 270",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Experimental Methods in Biology",
+    "code": "BGGN 271",
+    "raw_prereq": "consent of instructor and approval of school chair.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Theories",
+    "code": "BGGN 272",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Biostatistics for Master’s Students",
+    "code": "BGGN 273",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lab Methodology",
+    "code": "BGGN 275",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Lab Analysis",
+    "code": "BGGN 276",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Biochemistry",
+    "code": "BGGN 280",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Cellular Development",
+    "code": "BGGN 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Ecology, Behavior, and Evolution",
+    "code": "BGGN 282",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Molecular Biology",
+    "code": "BGGN 283",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology: Physiology and Neuroscience",
+    "code": "BGGN 284",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Modern Biology",
+    "code": "BGGN 285",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advances in Cellular and Molecular Mechanisms",
+    "code": "BGGN 290",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Professional Pathways in Biological Sciences",
+    "code": "BGGN 292",
+    "raw_prereq": "graduate (PhD) standing only; for students in the following major code BI77; or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Writing in Biology",
+    "code": "BGGN 293",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transitional Laboratory Projects in Biology",
+    "code": "BGGN 294",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Scientific Presentation in Biology",
+    "code": "BGGN 295",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Conference",
+    "code": "BGGN 297",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory Projects in Biology",
+    "code": "BGGN 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Research in Biology",
+    "code": "BGGN 299",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to College Biology Education",
+    "code": "BGGN 500",
+    "raw_prereq": "department approval required. Enrollment restricted to biological sciences graduate students.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cellular and Molecular Immunology",
+    "code": "BGJC 204",
+    "raw_prereq": "none for graduate students. Undergraduates must be seniors or enrolled in BISP 199.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journal Club in Neurobiology",
+    "code": "BGJC 207",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journal Club in Plant Molecular Biology",
+    "code": "BGJC 208",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journal Club in Computational Neurobiology",
+    "code": "BGJC 213",
+    "raw_prereq": "none for graduate students. Undergraduates must be seniors or enrolled in BISP 199.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Journal Club in Biology Education Research",
+    "code": "BGJC 215",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Discussion",
+    "code": "BGRD 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar in Biology",
+    "code": "BGSE 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graduate Research Seminar",
+    "code": "BGSE 205",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

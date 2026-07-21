@@ -1,0 +1,2100 @@
+[
+  {
+    "name": "Introduction to Cognitive Science",
+    "code": "COGS 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Neuroeconomics",
+    "code": "COGS 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computing",
+    "code": "COGS 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Computing",
+    "code": "COGS 3R",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Hands-on Computing",
+    "code": "COGS 8",
+    "raw_prereq": "freshman and sophomore standing. (No prior programming experience required.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Data Science",
+    "code": "COGS 9",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Consequences of Technology",
+    "code": "COGS 10",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Minds and Brains",
+    "code": "COGS 11",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language, Culture, and Cognition",
+    "code": "COGS 12",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Methods: Studying Cognition in the Wild",
+    "code": "COGS 13",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Research Methods",
+    "code": "COGS 14A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Statistical Analysis",
+    "code": "COGS 14B",
+    "raw_prereq": "COGS 14A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "What the *#!?: An Uncensored Introduction to Language",
+    "code": "COGS 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Cognition",
+    "code": "COGS 17",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Python",
+    "code": "COGS 18",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Exploring the Musical Mind",
+    "code": "COGS 20",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "COGS 87",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Cognitive Scientist’s Perspective",
+    "code": "COGS 88",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Undergraduate Seminar",
+    "code": "COGS 90",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "SCANS Presents",
+    "code": "COGS 91",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Resiliency in the Face of Adversity",
+    "code": "COGS 92",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "COGS 99",
+    "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cyborgs Now and in the Future",
+    "code": "COGS 100",
+    "raw_prereq": "COGS 1 or COGS 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sensation and Perception",
+    "code": "COGS 101A",
+    "raw_prereq": "COGS 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Learning, Memory, and Attention",
+    "code": "COGS 101B",
+    "raw_prereq": "COGS 1. Recommended: COGS 101A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language",
+    "code": "COGS 101C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Perspectives",
+    "code": "COGS 102A",
+    "raw_prereq": "COGS 1 and COGS 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS1"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Ethnography",
+    "code": "COGS 102B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Design Studio",
+    "code": "COGS 102C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroanatomy and Physiology",
+    "code": "COGS 107A",
+    "raw_prereq": "BILD 12 or COGS 17.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD12"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Systems Neuroscience",
+    "code": "COGS 107B",
+    "raw_prereq": "COGS 107A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Neuroscience",
+    "code": "COGS 107C",
+    "raw_prereq": "COGS 107B and its prerequisites.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS107B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data Science in Practice",
+    "code": "COGS 108",
+    "raw_prereq": "CSE 11 or CSE 8A or COGS 18 or DSC 10 or MAE 8.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modeling and Data Analysis",
+    "code": "COGS 109",
+    "raw_prereq": "COGS 14B, MATH 18 or MATH 31AH, and COGS 18 or CSE 7 or CSE 8A or CSE 11.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE7"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Developing Mind",
+    "code": "COGS 110",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Beauty and the Brain",
+    "code": "COGS 111",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Humor",
+    "code": "COGS 112",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurological Development and Cognitive Change",
+    "code": "COGS 115",
+    "raw_prereq": "BILD 10 or BILD 12 or COGS 107A or COGS 107B or COGS 17 or HDP 110.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Developmental Cognitive Neuroscience",
+    "code": "COGS 116",
+    "raw_prereq": "COGS 107A and COGS 107B or PSYC 106.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS107A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS107B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Growing Minds: Babies, Brains, and Machines",
+    "code": "COGS 117",
+    "raw_prereq": "COGS 1.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Supervised Machine Learning Algorithms",
+    "code": "COGS 118A",
+    "raw_prereq": "COGS 18 or CSE 8B or CSE 11 and MATH 18 or MATH 31AH and MATH 20E and MATH 180A and COGS 108 or COGS 109 or COGS 118B or CSE 150 or CSE 151 or CSE 158 or ECE 174 or ECE 175A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20E"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE150"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE174"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Machine Learning",
+    "code": "COGS 118B",
+    "raw_prereq": "BILD 62 or COGS 18 or CSE 11 or CSE 8B or CSE 11 and MATH 18 or MATH 31AH and MATH 20E and ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186 and COGS 108 or COGS 109 or COGS 118A or COGS 188 or CSE 150A or CSE 151A or CSE 158 or CSE 158R or DSC 148 or ECE 174 or ECE 175A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20E"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS188"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE150A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC148"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE174"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Signal Processing",
+    "code": "COGS 118C",
+    "raw_prereq": "MATH 18 or MATH 31AH, COGS 14B or PSYC 60, and COGS 108 or COGS 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS108"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Modeling and Analysis of Human Behavior",
+    "code": "COGS 118D",
+    "raw_prereq": "MATH 18 or MATH 31AH and MATH 180A or MATH 183 or MATH 186 or ECE 109 or ECON 120A or MAE 108 and COGS 108 or COGS 109 or COGS 118A or COGS 118B or COGS 188 or CSE 150A or CSE 151A or CSE 158 or CSE 158R or DSC 148 or ECE 174 or ECE 175A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS188"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE150A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC148"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE174"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Programming for Experimental Research",
+    "code": "COGS 119",
+    "raw_prereq": "COGS 14B or MATH 11 or PSYC 60.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Interaction Design",
+    "code": "COGS 120",
+    "raw_prereq": "COGS 108 or CSE 12 or DSC 30 and COGS 1 or COGS 10 or DSGN 1 or ENG 100D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Human Computer Interaction Portfolio Design Studio",
+    "code": "COGS 121",
+    "raw_prereq": "COGS 120 or CSE 170 and COGS 18 or CSE 8B or CSE 11 or DSC 30.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE170"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Start-up Studio",
+    "code": "COGS 122",
+    "raw_prereq": "DSGN 100 or COGS 187B or COGS 187A or COGS 120 or CSE 170.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSGN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS187B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS187A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Computing",
+    "code": "COGS 123",
+    "raw_prereq": "COGS 102C or COGS 120 or COGS 187A or COGS 187B or DSGN 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS102C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS187A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS187B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "HCI Technical Systems Research",
+    "code": "COGS 124",
+    "raw_prereq": "COGS 127 or COGS 121.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS127"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Interaction Design",
+    "code": "COGS 125",
+    "raw_prereq": "CSE 11 or 8B and COGS 120 or CSE 170.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS120"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thinking with Computers",
+    "code": "COGS 126",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Data-Driven UX/Product Design",
+    "code": "COGS 127",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Information Visualization",
+    "code": "COGS 128",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practical Data Science in R",
+    "code": "COGS 137",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Data Science",
+    "code": "COGS 138",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Animal Communication",
+    "code": "COGS 142",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Animal Cognition",
+    "code": "COGS 143",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Cognition: A Developmental and Evolutionary Perspective",
+    "code": "COGS 144",
+    "raw_prereq": "COGS 14A-B.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Large Language Models and Cognitive Science",
+    "code": "COGS 150",
+    "raw_prereq": "COGS 14A and COGS 14B or MATH 11 or PSYC 60.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS14A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Analogy and Conceptual Systems",
+    "code": "COGS 151",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Foundations of Mathematics",
+    "code": "COGS 152",
+    "raw_prereq": "CHEM 96 or COGS 1 or MATH 95 or PHIL 1 or PSYC 1 or EDS (20S or 30 or 31).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM96"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH95"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHIL1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC30"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language Comprehension",
+    "code": "COGS 153",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Communication Disorders in Children and Adults",
+    "code": "COGS 154",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gesture and Cognition",
+    "code": "COGS 155",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Language Development",
+    "code": "COGS 156",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Music and the Mind",
+    "code": "COGS 157",
+    "raw_prereq": "COGS 101A or COGS 101B or COGS 101C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS101B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Bilingual Minds and Brains",
+    "code": "COGS 158",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Upper-Division Seminar on Special Topics",
+    "code": "COGS 160",
+    "raw_prereq": "department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Metabolic Disorders of the Brain",
+    "code": "COGS 163",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neurobiology of Motivation",
+    "code": "COGS 164",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neuroimaging of Cognition",
+    "code": "COGS 165",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetic Information for Behavior: From Single Cells to Mammals",
+    "code": "COGS 169",
+    "raw_prereq": "COGS 1 and 107A or permission of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS107A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain Waves across Scales",
+    "code": "COGS 170",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mirror Neuron System",
+    "code": "COGS 171",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain Disorders and Cognition",
+    "code": "COGS 172",
+    "raw_prereq": "COGS 107A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Drugs: Brain, Mind, and Culture",
+    "code": "COGS 174",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Neuropsychological Basis of Alternate States of Consciousness",
+    "code": "COGS 175",
+    "raw_prereq": "COGS 101A or COGS 107A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS101A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "From Sleep to Attention",
+    "code": "COGS 176",
+    "raw_prereq": "COGS 107A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Space and Time in the Brain",
+    "code": "COGS 177",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genes, Brains, and Behavior",
+    "code": "COGS 178",
+    "raw_prereq": "COGS 107A-B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrophysiology of Cognition",
+    "code": "COGS 179",
+    "raw_prereq": "COGS 107A or COGS 17 or BILD 12.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decision-Making",
+    "code": "COGS 180",
+    "raw_prereq": "BILD 12 or COGS 17 and BILD 62 or COGS 18 or CSE 6R or CSE 8A and COGS 14A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Networks and Deep Learning",
+    "code": "COGS 181",
+    "raw_prereq": "COGS 18 or CSE 11 or CSE 8B and MATH 18 or MATH 31AH and MATH 20E and MATH 180A and COGS 118A or COGS 118B or CSE 150 or CSE 151A or CSE 158 or ECE 174 or ECE 175A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20E"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE150"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE174"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Reinforcement Learning",
+    "code": "COGS 182",
+    "raw_prereq": "COGS 18 or CSE 11 or CSE 8B and MATH 18 or MATH 31AH and MATH 180A and COGS 108 or COGS 109 or COGS 118B or CSE 150A or CSE 150B or CSE 151A or CSE 151B or CSE 158 or ECE 174 or ECE 175A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE150A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE150B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE174"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Generative AI",
+    "code": "COGS 183",
+    "raw_prereq": "COGS 118A or COGS 118B or COGS 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Modeling the Evolution of Cognition",
+    "code": "COGS 184",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Machine Learning Methods",
+    "code": "COGS 185",
+    "raw_prereq": "COGS 118A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetic Algorithms",
+    "code": "COGS 186",
+    "raw_prereq": "COGS 108 or COGS 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS108"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Usability and Information Architecture",
+    "code": "COGS 187A",
+    "raw_prereq": "COGS 18 or CSE 11 or CSE 8A and COGS 10 or DSGN 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Practicum in Professional Web Design",
+    "code": "COGS 187B",
+    "raw_prereq": "COGS 187A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS187A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Artificial Intelligence Algorithms",
+    "code": "COGS 188",
+    "raw_prereq": "COGS 109 or COGS 118A or COGS 118B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Brain Computer Interfaces",
+    "code": "COGS 189",
+    "raw_prereq": "COGS 108 or COGS 109 or COGS 118A or COGS 118B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pre-Honors Project in Cognitive Science",
+    "code": "COGS 190A",
+    "raw_prereq": "upper-division standing; instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Studies in Cognitive Science",
+    "code": "COGS 190B",
+    "raw_prereq": "COGS 190A and formal admittance to the Cognitive Science Honors Program; department stamp.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS190A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis in Cognitive Science",
+    "code": "COGS 190C",
+    "raw_prereq": "COGS 190B with grade of A– or better and formal admittance to the Cognitive Science Honors Program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS190B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Preparation for Thesis Presentation",
+    "code": "COGS 190D",
+    "raw_prereq": "COGS 190A-B and COGS 198.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS190A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS190B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Science Career Seminar",
+    "code": "COGS 193",
+    "raw_prereq": "junior and senior standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "COGS 195P",
+    "raw_prereq": "upper-division standing; 3.0 GPA; instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Science Internship",
+    "code": "COGS 197",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "COGS 198",
+    "raw_prereq": "upper-division standing; 2.5 GPA; consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Project",
+    "code": "COGS 199",
+    "raw_prereq": "upper-division standing; 2.5 GPA; consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Science Seminar",
+    "code": "COGS 200",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Dynamics of Cognition",
+    "code": "COGS 201",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Computational Modeling of Cognition",
+    "code": "COGS 202",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Science Foundations: Theories and Methods in the Study of Cognitive Phenomena",
+    "code": "COGS 203",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Thesis Research",
+    "code": "COGS 205",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Machine Learning for Social Sciences",
+    "code": "COGS 209",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Research",
+    "code": "COGS 210A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Methods in Cognitive Science",
+    "code": "COGS 211A-B-C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Programming for Behavioral Sciences",
+    "code": "COGS 219",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Information Visualization",
+    "code": "COGS 220",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Collective Intelligence",
+    "code": "COGS 223",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Image Recognition",
+    "code": "COGS 225",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design at Large",
+    "code": "COGS 229",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Human-Computer Interaction",
+    "code": "COGS 230",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Design Seminar on Human-Centered Programming Tools",
+    "code": "COGS 231",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Foundations for Future User Interfaces",
+    "code": "COGS 234",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Topics in Cognitive Linguistics",
+    "code": "COGS 238",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethics and Survival Skills in Academia",
+    "code": "COGS 241",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Statistical Inference and Data Analysis",
+    "code": "COGS 243",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Science of Mathematics",
+    "code": "COGS 252",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Seminar on Special Topics",
+    "code": "COGS 260",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Mirroring in Social Cognition",
+    "code": "COGS 277",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Genetics and Individuality",
+    "code": "COGS 278",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Electrophysiology of Cognition",
+    "code": "COGS 279",
+    "raw_prereq": "COGS 107A or PSYC 106; COGS 101A or PSYC 105.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Neural Oscillations",
+    "code": "COGS 280",
+    "raw_prereq": "department approval. Python/MATLAB experience required prior to enrollment.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Neural Signal Processing",
+    "code": "COGS 281",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Big Visual Data Processing",
+    "code": "COGS 283",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cognitive Science Laboratory Rotation",
+    "code": "COGS 290",
+    "raw_prereq": "consent of instructor. S/U only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Laboratory Research",
+    "code": "COGS 291",
+    "raw_prereq": "consent of the instructor and department approval. (May be repeated for credit.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Independent Study",
+    "code": "COGS 298",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Thesis Research",
+    "code": "COGS 299",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Teaching Apprenticeship",
+    "code": "COGS 500",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

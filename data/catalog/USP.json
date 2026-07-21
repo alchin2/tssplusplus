@@ -1,0 +1,917 @@
+[
+  {
+    "name": "History of US Urban Communities",
+    "code": "USP 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban World System",
+    "code": "USP 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The City and Social Theory",
+    "code": "USP 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Geographic Information Systems",
+    "code": "USP 4",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to the Real Estate and Development Process",
+    "code": "USP 5",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Global Architecture",
+    "code": "USP 6",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Climate Change Planning and Policy",
+    "code": "USP 7",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Applied Urban Economics for Planning and Development",
+    "code": "USP 15",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate and Development Principles and Analysis",
+    "code": "USP 25",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Studies and Planning Colloquium",
+    "code": "USP 30",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate and Development Colloquium",
+    "code": "USP 50",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Practice of Planning Research",
+    "code": "USP 60",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Urban Planning",
+    "code": "USP 100",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Policy Analysis",
+    "code": "USP 101",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Economics",
+    "code": "USP 102",
+    "raw_prereq": "ECON 2 or 100A and MATH 10A or 20A and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Ethnic Diversity and the City",
+    "code": "USP 104",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Sociology",
+    "code": "USP 105",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The History of Race and Ethnicity in American Cities",
+    "code": "USP 106",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Politics",
+    "code": "USP 107",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planning Theories",
+    "code": "USP 108",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Topics in Urban Politics",
+    "code": "USP 110",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Inclusive Urbanism",
+    "code": "USP 118",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planning for Natural Hazards",
+    "code": "USP 119",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Planning, Infrastructure, and Real Estate",
+    "code": "USP 120",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Law and Regulation",
+    "code": "USP 121",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Redevelopment Planning, Policymaking, and Law",
+    "code": "USP 122",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Law, Planning, and Public Policy",
+    "code": "USP 123",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Land Use Planning",
+    "code": "USP 124",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Design of Social Research",
+    "code": "USP 125",
+    "raw_prereq": "upper-division standing or consent of instructor. Enrollment restricted to USP (US26) majors and minors only.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Comparative Land Use and Resource Management",
+    "code": "USP 126",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Climate Action Scholars: Community Engagement and Research",
+    "code": "USP 128A",
+    "raw_prereq": "upper-division standing or consent of instructor and departmental approval. This is an application-based course.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Climate Action Scholars: Capstone Project",
+    "code": "USP 128B",
+    "raw_prereq": "ANTH 128A or USP 128A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ANTH128A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Culture, Tourism, and the Urban Economy: Case Studies of Craft Breweries",
+    "code": "USP 131",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "African Americans, Religion, and the City",
+    "code": "USP 132",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Social Inequality and Public Policy",
+    "code": "USP 133",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Asian and Latina Immigrant Workers in the Global Economy",
+    "code": "USP 135",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Community Organizing",
+    "code": "USP 136",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Housing and Community Development Policy and Practice",
+    "code": "USP 137",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Economic Development",
+    "code": "USP 138",
+    "raw_prereq": "USP 15 and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP15"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Healthy Placemaking",
+    "code": "USP 140",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Life Course Scholars Research and Core Fundamentals",
+    "code": "USP 141A",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Life Course Scholars Capstone Project",
+    "code": "USP 141B",
+    "raw_prereq": "successful completion of USP 141A.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Challenges: Homelessness in San Diego Core Fundamentals",
+    "code": "USP 142A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Challenges: Homelessness in San Diego Fieldwork",
+    "code": "USP 142B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Challenges: Sustainable Food Systems",
+    "code": "USP 142C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The US Health-Care System",
+    "code": "USP 143",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental and Preventive Health Issues",
+    "code": "USP 144",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Aging—Social and Health Policy Issues",
+    "code": "USP 145",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Case Studies in Health-Care Programs/Poor and Underserved Population",
+    "code": "USP 147",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Health and the Built Environment",
+    "code": "USP 148",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate and Development Law and Regulation",
+    "code": "USP 150",
+    "raw_prereq": ":",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Planning and Development",
+    "code": "USP 151",
+    "raw_prereq": ":",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Development Finance and Investment",
+    "code": "USP 152A",
+    "raw_prereq": ":",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Real Estate Development Finance and Investment",
+    "code": "USP 152B",
+    "raw_prereq": ":",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate and Development Market Analysis",
+    "code": "USP 153",
+    "raw_prereq": ":",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Development in Global and Comparative Perspective",
+    "code": "USP 155",
+    "raw_prereq": "<strong>:</strong>",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Special Topics in Real Estate and Development",
+    "code": "USP 158A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate University Challenge I",
+    "code": "USP 159A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "NAIOP Real Estate University Challenge II",
+    "code": "USP 159B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Methods: Analyzing Crime",
+    "code": "USP 160",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Environmental Design and Crime Prevention",
+    "code": "USP 161",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Migration and the City",
+    "code": "USP 162",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Community-Based Research and Planning",
+    "code": "USP 163",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Cities in Film",
+    "code": "USP 164",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Special Topics in Housing",
+    "code": "USP 165A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Special Topics in Sustainability",
+    "code": "USP 165B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Special Topics in Transportation",
+    "code": "USP 165C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Special Topics in Urban Design and Land Use",
+    "code": "USP 165D",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of New York City",
+    "code": "USP 167",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Los Angeles",
+    "code": "USP 168",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Introduction to Green Building",
+    "code": "USP 169",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Planning for Sustainable Communities",
+    "code": "USP 170",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sustainable Development",
+    "code": "USP 171",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Sustainable Development",
+    "code": "USP 171GS",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Graphics, Visual Communication, and Urban Information",
+    "code": "USP 172",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Urban Planning and Design",
+    "code": "USP 173",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "History of Urban Planning and Design",
+    "code": "USP 173GS",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Site Analysis",
+    "code": "USP 175",
+    "raw_prereq": "USP 124, upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP124"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Planning and Development: U",
+    "code": "USP 176",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Design Practicum",
+    "code": "USP 177A",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Urban Design",
+    "code": "USP 177B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Urban Design, Theory, and Practice",
+    "code": "USP 179",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Transportation Planning",
+    "code": "USP 180",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Public Transportation",
+    "code": "USP 181",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Gentrification",
+    "code": "USP 182",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "The Geography of American Opportunity",
+    "code": "USP 183",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "International Urban Design Practicum",
+    "code": "USP 183GS",
+    "raw_prereq": "upper-division standing and department approval.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Decolonizing Design: Histories and Theories",
+    "code": "USP 184",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Finance and Development Studio I",
+    "code": "USP 185A",
+    "raw_prereq": "USP 5, USP 15, USP 25, USP 50, USP 124, USP 151, USP 152A, and USP 153. Restricted to seniors within the Real Estate and Development major. (Only offered fall quarter.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "USP5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP124"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP151"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP152A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Real Estate Finance and Development Studio II",
+    "code": "USP 185B",
+    "raw_prereq": "USP 185A and RED technical elective. (Only offered winter quarter.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP185A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Sequence Research Proposal",
+    "code": "USP 186",
+    "raw_prereq": "USP 30, USP 60, USP 124, one USP technical elective, and one USP Research Methods course. Restricted to seniors within the Urban Studies and Planning major. (Only offered fall quarter.)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "USP30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP124"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Sequence Research Project",
+    "code": "USP 187",
+    "raw_prereq": "USP 186. (Only offered winter quarter.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Research in Migrant Communities—Practicum",
+    "code": "USP 188",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Analysis and Reporting",
+    "code": "USP 188B",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Special Topics in Urban Planning",
+    "code": "USP 189",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Senior Honors Seminar",
+    "code": "USP 190",
+    "raw_prereq": "USP 187 or USP 185B, major GPA 3.5, and department approval. This is an application-based course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "USP187"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP185B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Intermediate GIS for Urban and Community Planning",
+    "code": "USP 191A",
+    "raw_prereq": "USP 4 and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP4"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced GIS for Urban and Community Planning",
+    "code": "USP 191B",
+    "raw_prereq": "USP 191A and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP191A"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "San Diego Community Research",
+    "code": "USP 193",
+    "raw_prereq": "upper-division standing or consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Research Seminar in Washington, DC",
+    "code": "USP 194",
+    "raw_prereq": "department approval and participating in UCDC Program.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "USP 195P",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "USP 198",
+    "raw_prereq": "upper-division standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Independent Study",
+    "code": "USP 199",
+    "raw_prereq": "upper-division standing and consent of instructor.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Land Use Planning",
+    "code": "USP 224",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Advanced Special Topics in Transportation",
+    "code": "USP 265C",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Sustainable Development",
+    "code": "USP 271",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

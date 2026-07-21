@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Dimensions of Culture: Diversity",
+    "code": "DOC 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dimensions of Culture: Justice",
+    "code": "DOC 2",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dimensions of Culture: Imagination",
+    "code": "DOC 3",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Dimensions of Culture: Promises and Contradictions in US Culture",
+    "code": "DOC 100D",
+    "raw_prereq": "upper-division standing and completion of college writing.",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]

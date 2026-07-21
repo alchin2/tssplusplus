@@ -1,0 +1,44 @@
+[
+  {
+    "name": "CI: The University in Society",
+    "code": "CONT 1",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Disability, Race, and Diversity",
+    "code": "CONT 68",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "College Academic Mentor Program",
+    "code": "CONT 150A",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "College Academic Mentor Program Field Study",
+    "code": "CONT 150B",
+    "raw_prereq": "CONT 150A. (P/NP grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Contemporary Issues Workshop",
+    "code": "CONT 196",
+    "raw_prereq": "",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Group Studies in Contemporary Issues",
+    "code": "CONT 198",
+    "raw_prereq": "department approval required. (P/NP grades only.)",
+    "prerequisites": [],
+    "offered_this_qtr": false
+  }
+]
