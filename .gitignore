@@ -2,3 +2,8 @@
 .env
 __pycache__
 .ds_Store
+cookie.txt
+tests/
+.pytest_cache/
+.claude
+skills-lock.json
