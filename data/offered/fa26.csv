@@ -1,0 +1,2547 @@
+module_id,code,name
+1,AAPI-087,First-year Seminar
+4,AAS-010R,Intro/African-American Studies
+10,AAS-170,Legacies of Research
+24,COSE-215,Decision and Risk Analysis
+31,COSE-230A,Quarterly Team Project
+49,MAE-020,Elements of Materials Science
+50,MAE-003,Intro to Mechanical Design
+54,MAE-101A,Introductory Fluid Mechanics
+56,MAE-101C,Heat Transfer
+58,CENG-101A,Introductory Fluid Mechanics
+62,MAE-105,Intro to Mathematical Physics
+65,MAE-011,Thermodynamics
+67,CENG-122,Separation Processes
+80,MAE-131A,Solid Mechanics I
+83,SE-181,Geotechnical Engineering
+93,SE-142,Mech/Design Composite Str
+95,CENG-120,Chemical Process Dynmics&Cntrl
+101,MAE-142,Dynmcs&Control/Aerospace Vehic
+103,MAE-181,Space Mission Analysis/Design
+104,ECE-174,Intro/Linear&Nonlinear Optimiz
+110,MAE-191,Topics in Mech & Aero Lab
+135,CENG-100,Material and Energy Balances
+136,MAE-107,Computational Methods/Engineer
+139,MAE-156A,Fund. Prin./Mechanical Desgn I
+140,MAE-156B,Fund. Prin/Mechanical Desgn II
+142,MAE-150,Computational Methods/Design
+143,MAE-113,Fundamentals of Propulsion
+150,MAE-170,Experimental Techniques
+161,BENG-110,Musculoskeletal Biomechanics
+167,BENG-186A,Principles/Biomaterials Design
+175,MAE-205,Graduate Seminar
+204,MAE-210A,Fluid Mechanics I
+229,SE-201A,Advanced Structural Analysis
+234,MAE-232A,Finite Elemnt in Solid Mech I
+239,MAE-233A,Fracture Mechanics
+252,SE-213,Bridge Design
+255,SE-212,Advanc/Structural Steel Design
+263,CENG-252,Chemical Reaction Engineering
+284,BENG-230B,Cell and Molecular Biology
+297,MAE-280A,Linear Systems Theory
+299,BENG-281,Seminar in Bioengineering
+303,MAE-283A,Parametric Ident/Theory&Method
+308,MAE-290A,Numerical Linear Algebra
+313,MAE-294A,Intro to Applied Mathematics
+318,MAE-299,Graduate Research
+329,ANAR-104,Intro GIS for Anth & Arch
+337,ANAR-117,"Archaeology Field&Lab, SoCal"
+338,ANAR-120,Documenting Climate Change
+352,ANAR-159,Societies/CaribbeanArchipelago
+357,ANAR-166,Environmental Archaeology
+363,ANBI-100,Special Topic/Biological Anth
+370,ANBI-112,Methods in Human Neuroscience
+374,ANBI-117,Ancient Genomics
+386,ANBI-134,Human Evolutionary Genetics
+389,ANBI-136,Human Comparative Neuroanatomy
+445,ANAR-181,Archaeology/Hunters-Gatherers
+481,ANAR-111,Foundations of Archaeology
+484,ANSC-122,Language in Society
+525,ANTH-212,Adv Topics in Biological Anthr
+585,ANTH-280D,Core Sem/Anthro Archaeology
+603,ANTH-087,Freshman Seminar
+604,ANTH-101,Foundations/Social Complexity
+609,ANTH-196A,Honors Studies in Anthropology
+650,ANSC-142,Anthropology of Latin America
+661,ANSC-104,The US-Mexico Border
+684,ANSC-118,Language and Culture
+692,ANSC-129,Meaning and Healing
+707,ANSC-148,Global Health&Cultrl Diversity
+713,ANSC-152,Social Justice in South Asia
+726,ANSC-169,Culture & Envr/Resrch Sem/Prac
+729,ANSC-173,Ethnography in Practice
+757,ANTH-004,Intro to Linguistic Anthro
+760,ANTH-002,Human Origins
+761,ANTH-010,Climate Justice
+770,ANTH-021,Race and Racisms
+771,ANTH-001,Introduction to Culture
+772,ANTH-023,Debating Multiculturalism
+780,ANTH-030,Decolonizing the Body
+785,ANTH-043,Intro/Bio & Culture of Race
+799,ANTH-105,"Climate Change, Race,& Inequal"
+800,ANSC-124,Cultural Anthropology
+802,ANSC-121,Psychological Anthropology
+803,ANTH-107,"Dsgn:Disasters,Emerg,Weather"
+805,ANTH-108,"IndigPpls, Develop,& ClimChng"
+916,ANTH-203,Introduction to Anthropogeny
+950,ANTH-230,Department Colloquium
+971,ANTH-241,Ling Anth Workshop
+1013,ANTH-273,Colloquium in Science Studies
+1019,ANTH-278,Anthropological Methods
+1021,ANTH-280A,Core Seminar in Social Anthro
+1024,ANTH-281A,Proseminar
+1029,ANTH-285,Grants Writing Practicum
+1033,ANTH-295,Master's Thesis Preparation
+1034,ANTH-296,Dissertation Fieldwork Prep
+1039,ANTH-299,Dissertation Research
+1040,ANTH-500,Apprentice Teaching
+1067,ASTR-001,Stars and Black Holes
+1073,ASTR-018,Topics in Classical Physics
+1074,ASTR-020A,Intro to Astrophysics I
+1078,ASTR-065,Astronomy of Climate Change
+1082,ASTR-101,Astrophysical Dynamics
+1085,ASTR-104,Thermal Astrophysics
+1090,ASTR-122,Physical Cosmology
+1095,ASTR-150,Observational Optical Lab
+1106,ASTR-215,Stellar Remnants
+1109,ASTR-250,Astro Colloquium
+1110,ASTR-251,Astro Journal Club
+1116,ASTR-500,Astronomical Teaching Training
+1117,AUD-236,Preceptorship in Neuro-Otology
+1120,AUD-257,Ear Diseases & Treatment
+1122,AUD-263,Phys & Behav Tests Vest Func
+1128,AUD-274,Adv Techn Aspects/Hearing Ampl
+1132,AUD-284,Clin Practice in Audiology II
+1133,AUD-291,Clinical Case Studies/Staffing
+1134,AUD-296,Research Practicum
+1135,AUD-298,Independent Research
+1136,AUD-299,Doctoral Project
+1137,AWP-003,Analytical Writing
+1139,AWP-004B,Analytical Writing B
+1148,BENG-001,Introduction to Bioengineering
+1149,BENG-002,Intro Computer Prog & MATLAB
+1159,BENG-100,Intro to Prob & Stats for BENG
+1171,BENG-122A,Biosystems and Control
+1183,BENG-133,Numerical Analys-Computatn Eng
+1185,BENG-135,Biomedical Signals & Systems
+1190,BENG-141,Biomedical Optics and Imaging
+1197,BENG-152,BioSystems Engineering Lab
+1202,BENG-161A,Bioreactor Engineering
+1205,BENG-162,Biotechnology Laboratory
+1207,BENG-166A,Cell and Tissue Engineering
+1209,BENG-168,Biomolecular Engineering
+1217,BENG-183,Applied Genomic Technologies
+1220,BENG-187B,BENG Design Project:Developmnt
+1223,BENG-188A,Design Development in BENG
+1231,BENG-195P,PLA Teaching
+1232,BENG-196,Bioeng Industrial Internship
+1233,BENG-197,Engineering Internship
+1235,BENG-199,Independent Study/Undergrads
+1239,BENG-207,Topics in Bioengineering
+1245,BENG-216,NeuroIntegrated Bioelectronics
+1246,BENG-219,Data Sci Multiscale Biology
+1248,BENG-221,Mathematical Methods/Bioeng
+1253,BENG-226,Foundations of Bioeng I
+1254,BENG-230A,Biochemistry
+1261,BENG-241A,Tissue Eng/Regenerat Med:Fndtn
+1265,BENG-242,PolymerScience&Engineering
+1266,BENG-247A,Advanced BioPhotonics
+1269,BENG-254,Synthetic Biology
+1276,BENG-280A,Principles/Biomedical Imaging
+1279,BENG-282,Seminar: Faculty Research
+1285,BENG-294A,Patient-Cent Clinical Medicine
+1288,BENG-295,BENG Design Proj & Industr Trn
+1292,BENG-299,Graduate Research
+1294,BENG-501,Teaching Experience
+1297,BGGN-202,Prof Develop for Biologists
+1300,BGGN-206A,Concepts/Reasoning/Exprmt I
+1302,BGGN-207,Scientific Ethics
+1303,BGGN-208,Biologicl Scien/Grad Boot Camp
+1308,BGGN-213,Foundations of Bioinformatics
+1334,BGGN-245,Adv Topics/Cancer Res&Therapy
+1339,BGGN-249A,Molecular&CellularNeuroscience
+1366,BGGN-275,Lab Methodology
+1367,BGGN-276,Lab Analysis
+1377,BGGN-294,Transitional Lab Projects
+1385,BGJC-204,Cellular & Moleculr Immunology
+1392,BGJC-215,JC: Bio Ed Research
+1429,BGSE-205,Graduate Research Seminar
+1451,BICD-145,Lab in Molecular Medicine
+1455,BICD-194,Adv Topics-Cellular Dev
+1456,BIEB-102,Intro Eclgy/Organisms&Habitats
+1464,SIO-132,Introduction to Marine Biology
+1477,BIEB-146,Genome Diversity and Dynamics
+1478,SIO-147,Applications of Phylogenetics
+1480,BIEB-152,Evol of Infectious Diseases
+1495,BILD-004,Introductory Biology Lab
+1496,BILD-005,Data Analysis/Design for Bio
+1514,BILD-062,Intro to Python for Biologists
+1523,BILD-087,First-year Seminar
+1524,BILD-088,Sustainable WellBeing Biology
+1550,BIMM-143,Bioinformatics Laboratory
+1551,BIMM-143R,Bioinformatics Laboratory
+1568,BILD-001,The Cell
+1569,BILD-002,Multicellular Life
+1570,BILD-003,Organismic&Evolutionary Biol
+1575,BILD-010,Fundamental Concepts/Modrn Bio
+1590,BIBC-100,Structural Biochemistry
+1591,BIBC-102,Metabolic Biochemistry
+1593,BIBC-103,Biochemical Techniques
+1595,BIMM-100,Molecular Biology
+1600,BICD-110,Cell Biology
+1602,BICD-140,Immunology
+1608,BICD-130,"Embryos, Genes, & Development"
+1617,BICD-100,Genetics
+1621,BIMM-122,Microbial Genetics
+1623,BIMM-101,Recombinant DNA Techniques
+1625,BIMM-120,Microbiology
+1626,BIMM-121,Microbiology Laboratory
+1630,BIPN-100,Human Physiology I
+1631,BIPN-105,Human Physiology Lab
+1636,BIPN-140,Cellular Neurobiology
+1639,BIPN-145,Neurobiology Laboratory
+1644,BIEB-164,Behav Ecology & Conservation
+1647,BIEB-150,Evolution
+1651,BIEB-121,Ecology Laboratory
+1665,BISP-199,Individual Research for Ugrads
+1666,BGSE-200,Seminar in Biology
+1681,BGGN-220,Graduate Molecular Biology
+1712,BGGN-271,Adv Experimental Methods/Bio
+1715,BGGN-298,Laboratory Projects in Biology
+1716,BGGN-299,Thesis Research in Biology
+1718,BIOM-200A,Molecules to Organisms:Concept
+1719,BIOM-200B,Molecules-Organisms:Approaches
+1721,BIOM-201,Seminars in Biomed Research
+1723,BIOM-202,Biomed Sci Research Rotation
+1724,BIOM-203A,Topics in Biomed Sciences I
+1736,BIOM-218,Current Topics in Anthropogeny
+1753,BIOM-242,Seminar in Genetics
+1779,BIOM-293,Grant Writing Essentials
+1782,BIPN-103,Human Anatomy with Lab
+1786,BIPN-118,Neuropharmacology
+1789,BIPN-148,Cellular Basis Learning&Memory
+1790,BIPN-150,Diseases of the Nervous System
+1797,BIPN-189,"Brain, Behavior, and Evolution"
+1798,BIPN-194,Adv Topics-Phys/Neuro
+1801,BISP-182,Cooperative Edu and Analysis
+1803,BISP-194,Adv Topics in Modern Biology
+1806,BISP-195P,Pedagogy Learning Apprentice
+1810,BNFO-281,Sem in Bioinformtcs & Sys Biol
+1811,BNFO-283,BNFO Student Research Talks
+1816,BNFO-298,Research Rotation
+1817,BNFO-299,Graduate Research
+1818,BNFO-500,Teaching Assistanship
+1825,CAT-001,"Culture, Art, and Technology 1"
+1835,CAT-090,Experiential Learning Seminar
+1840,CAT-124,Sixth College Practicum
+1843,CAT-125,Public Rhetoric & Prac Comm
+1845,CAT-125R,Pub Rhet & Prac Comm Online
+1855,CCE-001,CriticalApproach/CommPractice
+1856,CCE-002,Cultivat/CommInformedPractices
+1857,CCE-003,Elements/CommEngageColResearch
+1858,CCE-110,Foundations/CommPartnership
+1859,CCE-120,CommPartnership/ProjDesign
+1860,CCE-500,Apprentice Teaching in CCE
+1866,CENG-004,Experience Chemical Eng
+1868,CENG-015R,Eng Comp Using MATLAB Online
+1871,CENG-110,Material&Energy Balances/Appl
+1876,CENG-170,Experimental Methods/ChemEng
+1881,CENG-205,Grad Sem./Chem&NanoEngineering
+1885,CENG-211,Intro to NanoEngineering
+1890,CENG-221A,Heat Transfer
+1900,CENG-299,Graduate Research/Chemical Eng
+1946,PH-258,Public Health Seminar
+1949,PH-259,Epidemiology Practicum
+1976,CGS-002A,"Intro/CGS: Key Terms, Concepts"
+1978,CGS-087,First-year Seminar
+1980,CGS-100A,Conceptualizing Gndr: Theories
+1982,CGS-101,Gender & Globalization
+1994,CGS-111,Gender and the Body
+1995,CGS-112,Sexuality & Nation
+1996,CGS-113,Gender & Sexuality in the Arts
+2010,CGS-134,Gender and Climate Justice
+2015,CGS-150,"Visuality, Sexuality, and Race"
+2025,CHEM-004,Chemical Thinking
+2028,CHEM-006A,General Chemistry I
+2030,CHEM-006B,General Chemistry II
+2033,CHEM-006C,General Chemistry  III
+2037,CHEM-007L,General Chemistry Laboratory
+2048,CHEM-041A,Organic I: Struct & React
+2050,CHEM-041C,Organic III: SynthReact&Macro
+2051,CHEM-087,Freshman Seminar
+2056,CHEM-096,Introductn to Teaching Science
+2060,CHEM-100A,Analytical Chemistry Lab
+2074,CHEM-108,Protein Biochemistry Lab
+2075,CHEM-109,Recombinant DNA Laboratory
+2077,CHEM-114A,Biochemical Structure&Function
+2081,CHEM-114D,Molecular & Cellular Biochem
+2084,CHEM-116,Chemical Biology
+2086,CHEM-117,Biomed Res in Hlth Disparities
+2097,CHEM-126A,Phys Biochem: Thermodynamics
+2099,CHEM-130,Chem Physics: Quantum Mech
+2105,CHEM-040A,Organic Chem for Life Sci I
+2107,CHEM-040B,Organic Chem for Life Sci II
+2116,CHEM-142,Intro to Glycosciences
+2117,CHEM-043A,Organic Chemistry Laboratory
+2119,CHEM-143B,Organic Chemistry Lab II
+2127,CHEM-152,Synthetic Methods/Organic Chem
+2128,CHEM-171,Environmental Chemistry I
+2136,CHEM-163,Intro to Mass Spectrometry
+2180,CHEM-232A,Statistical Mechanics I
+2186,ECON-159,Economic Hist/United States II
+2187,CHEM-209,Macromolecular Recognition
+2203,CHEM-213A,Struct Biomolecule Assemblies
+2207,CHEM-214,Molecular & Cellular Biochem
+2216,CHEM-216,Chemical Biology
+2222,ECON-168,Economics of Modern Israel
+2229,CHEM-219A,Special Topics in Biochemistry
+2247,CHEM-222,Structure & Analysis of Solids
+2252,CHEM-223,Organometallic Chemistry
+2257,CHEM-224,Spectroscopic Tech/Organmetalc
+2266,MAE-244,Renewable Energy Integration
+2273,CHEM-227,Seminar/Inorganic Chemistry
+2286,CHEM-231,Chem Kinetics&Mole Reactn Dynm
+2287,MAE-249,Soft Robotics
+2292,MAE-251,Structure & Analysis of Solids
+2296,CHEM-234,Photochemistry & Photophysics
+2302,MAE-253,Advanced Ceramics
+2314,MAE-257,PolymerScience&Engineering
+2338,MAE-265A,Elect&Photon Props. Materials
+2346,CHEM-242,Intro to Glycosciences
+2352,TDDM-001,Introduction to Dance Making
+2379,TDGE-040,Dance and Social Movement(s)
+2380,MAE-271A,Thermodynamics of Solids
+2396,ECON-181,Topics in Economics
+2398,CHEM-252,Synthetic Methods/Organic Chem
+2401,ECON-182,Topics in Microeconomics
+2405,POLI-102G,Spec Topics/American Politics
+2407,MAE-274,Model Reduction
+2427,ECON-186,Careers in Econ and Business
+2458,ECON-191A,Senior Essay Seminar A
+2462,ECON-191B,Senior Essay Seminar B
+2481,MATH-010A,Calculus I
+2489,ECON-195P,Pedagogy & Learning Apprentice
+2493,CHEM-263,Intro to Mass Spectrometry
+2494,MATH-010B,Calculus II
+2503,ECON-200A,Microeconomics A
+2506,MATH-010C,Calculus III
+2515,MATH-002,Intro to College Mathematics
+2535,TDGR-229,Theatre Externship
+2539,MATH-020A,Calculus/Science & Engineering
+2548,TDGR-244,New Plays Workshop
+2552,MATH-020B,Calculus/Science & Engineering
+2569,CHEM-280,Applied Bioinformatics
+2571,TDGR-280A,Stage Management 1
+2580,MATH-020C,Calculus&Analyt Geom/Sci&Engnr
+2584,POLI-104J,Introduction/Legal Reasoning
+2585,TDGR-282,Advanced Sound Design
+2587,TDGR-289,Intro to Doctoral Studies
+2592,POLI-104M,Law and Sex
+2600,TDGR-289D,Professionalization Seminar
+2602,ECON-205,Mathematics for Economists
+2609,CHEM-291,Molecular Biophysics Seminar
+2618,CHEM-292,Chem-Biol Interfaces Seminar
+2620,MATH-020D,Intro/Differential Equations
+2625,POLI-104U,Introduction to Business Law
+2630,CHEM-294,Organic Chemistry Seminar
+2631,TDHD-175,Cultural Perspectives on Dance
+2637,ECON-210A,Macroeconomics A
+2645,TDHT-010,Introduction to Play Analysis
+2647,TDHT-021,Ancient and Medieval Theatre
+2650,CHEM-299,Research in Chemistry
+2656,MATH-018,Linear Algebra
+2663,CHEM-509,Teaching Methods in Chemistry
+2672,TDHT-109,African American Theatre
+2674,MATH-020E,Vector Calculus
+2694,MATH-003B,Foundations of Precalculus
+2701,MATH-003C,Precalculus
+2707,TDMV-011,Theatrical Tap
+2712,TDMV-020,Movement Lab
+2715,TDMV-110,Intermediate Ballet
+2721,MATH-004C,Precalculus for Sci & Engn
+2747,MATH-011,Calculus-Based Prob & Stats
+2751,ECON-220A,Econometrics A
+2756,TDMV-120,Intermediate Contemp Dance
+2764,ECON-220D,Econometrics D
+2768,POLI-111B,Global Justice/Theory & Action
+2776,CHIN-010AD,First-Yr Chinese/Dialect I
+2781,CHIN-010AM,First-Yr Chinese/Mandarin I
+2784,ECON-221,Advanced Topics/Econometrics
+2789,TDMV-123,Contact Improvisation
+2796,MATH-031AH,Honors Linear Algebra
+2809,CHIN-010AN,First-Year Chinese I
+2812,TDMV-038,Beginning Hip Hop
+2820,MATH-087,First-year Seminar
+2829,MATH-109,Mathematical Reasoning
+2830,TDMV-142,Latine Diaspora
+2835,TDMV-043,West African Dance
+2843,CHIN-020AD,Second-Yr Chinese/Dialect I
+2850,CHIN-020AM,Second-Yr Chinese/Mandarin I
+2851,TDMV-144,Asian Diaspora
+2852,MATH-096,Putnam Seminar
+2857,TDMV-146,Intermediate Latin Dance
+2860,ECON-232,Pub Econ: Redistr/Social Ins
+2861,MATH-100A,Abstract Algebra I
+2862,CHIN-020AN,Second-Year Chinese I
+2871,TDPF-160,Studies/Perform-Fall Product
+2879,TDPR-006,Theatre Practicum
+2880,POLI-117R,Bending/Curve: Climate Change
+2884,MATH-102,Applied Linear Algebra
+2885,POLI-112B,Game Theory/Political Science
+2886,TDTR-010,Introduction to Dance
+2888,TDTR-115,Dance Movement and Analysis
+2891,MATH-103A,Modern Algebra I
+2892,TDTR-120,Dance On Film
+2906,MATH-104A,Number Theory I
+2916,GPCO-481,Politics of Policy Making
+2924,GPCO-482,Global Economics and Markets
+2925,MATH-105,Basic Number Theory
+2944,EDS-114,Cogn Develp&Intractv Compt Env
+2957,EDS-117,"Language, Culture & Education"
+2963,MATH-111A,Mathematical Modeling I
+2971,ECON-242,Macroeconomics of Development
+2976,ECON-266,Economics of Natural Resources
+2979,CHIN-100AM,Third-Yr Chinese/Mandarin I
+2985,CHIN-100AN,Third-Year Chinese I
+2986,EDS-118,Adolescent Devlp & Education
+3000,POLI-121D,Digital Politics
+3008,MATH-120A,Elements of Complex Analysis
+3016,ECON-250A,Empirical Methods: Labor Econ
+3021,EDS-130,Intro/Acad Ment/Elem Schl Stdn
+3037,ECON-263,Modeling Behavioral Economics
+3043,ECON-281,Special Topics in Economics
+3066,EDS-126,Social Organization/Education
+3080,POLI-124A,Pol Conseq/Electoral Systems
+3084,MATH-140A,Foundations of Real Analysis I
+3112,MATH-142A,Introduction to Analysis I
+3118,ECON-285,Pre-Candidacy Presentation
+3130,EDS-136,Intro/Acad Tut/Second Schl Std
+3155,MATH-150A,Differential Geometry
+3172,ECON-286,Grad Resrch Presntation Worksh
+3182,MATH-152,Applicable Math and Computing
+3185,CHIN-185A,Chinese Culture & Society I
+3190,EDS-139,Practicum in Teaching/Learning
+3192,MATH-153,Geometry for Secondary Teacher
+3197,MATH-154,Discrete Math & Graph Theory
+3198,POLI-130B,Politics/People's Rep of China
+3200,ECON-296,Original Research Paper
+3216,ECON-500A,Teaching Methods in Economics
+3270,EDS-031,Introductn to Teaching Science
+3289,EDS-038,Explorations in Education
+3308,EDS-102,Intro to Qual Methods/EdRsrch
+3317,EDS-103,Intro to Quant Methods/EdRsrch
+3353,MATH-170A,Intro Numerical Analys/Linear
+3363,EDS-112,U.S. Urban Education
+3366,EDS-129A,Intro/Teach&Learn (Secondary)
+3410,EDS-124AR,Teach Computation/DigitalWorld
+3415,CLIN-294A,Proseminar in Neuropsychology
+3419,EDS-124BR,Teach Computational Thinking
+3424,EDS-131,Early Child Dev & Education
+3428,MATH-173A,Optimization/Data Science I
+3434,EDS-115,Cog Development & Education
+3437,CLIN-296,Independent Study
+3439,CLIN-297,Advanced Clinical Practicum
+3507,EDS-149,Prof. Learning in Practice
+3515,MATH-180A,Introduction to Probability
+3544,POLI-142D,Weapons of Mass Destruction
+3554,MATH-180C,Intro/Stochastic Processes II
+3562,POLI-142K,Politics and Warfare
+3565,EDS-164R,Early Childhood Policy
+3570,POLI-142L,Insurgency and Terrorism
+3579,MATH-181B,Intro/Math Statistics II
+3607,POLI-144,International Political Econmy
+3611,CLRE-254,Biostatistics II
+3621,MATH-183,Statistical Methods
+3629,CLRE-255,Data Management & Informatics
+3632,MATH-184,Enumerative Combinatorics
+3648,CLRE-256,Patient-Oriented Research II
+3660,EDS-253,Transform Edu Sys and Policy
+3663,POLI-145C,Interntnl Reltn After Cold War
+3669,CLRE-257,Epidemiology II
+3670,EDS-256,Mixed Methd/Res Desgn/Analysis
+3677,CLRE-258,Prof Develpmnt/Clinical Resrch
+3682,MATH-187A,Introduction to Cryptography
+3691,MATH-187B,Math of Modern Cryptography
+3702,CLRE-260,Directed Studies in Clin Rsrch
+3706,MATH-188,Algebraic Combinatorics
+3710,MATH-189,Data Analysis and Inference
+3735,GPPS-400,Intl Relations of Asia-Pacific
+3737,MATH-190A,Foundations of Topology I
+3739,EDS-292,Qualifying Paper Preparation
+3742,EDS-296,Research Advisory Course
+3744,POLI-151,International Organizations
+3747,EDS-195,Apprentice Teaching
+3762,CLRE-295A,ISP Seminar Series A
+3772,POLI-154,Spec Topic/Internatnl Relation
+3780,CLRE-297,Independent Study Proj-2 units
+3788,EDS-201,Intro/Resources/Tching&Lrning
+3790,EDS-203,"Technology,Teaching & Learning"
+3800,MATH-196,Student Colloquium
+3805,EDS-205A,Reflective Teaching Practice
+3807,EDS-351,Teaching/English Lang Learner
+3810,EDS-352A,Bilingual Instr Practices I
+3814,MATH-197,Industry Practicum
+3827,SOCI-188D,Latin Amer: Society & Politics
+3835,MATH-200A,Algebra I
+3851,EDS-361A,Innovative Instruct Pract I
+3872,EDS-368,InstrPlanning&Assessmnt(Elem)
+3873,EDS-369A,Mlt Sub(Elem)Stdnt Tch Prc I
+3882,MATH-202A,Applied Algebra I
+3891,EDS-370A,MS Student Teaching SeminarI
+3901,MATH-203A,Algebraic Geometry I
+3926,MATH-204A,Number Theory I
+3929,EDS-378,InstrPlanning&Assessmnt(Secnd)
+3930,EDS-379A,SinglSubj(Secnd)Intrn Prac I
+3934,EDS-250,Equitable Educ/Res & Practice
+3946,POLI-172,Advanced Social Data Analytics
+3947,EDS-380A,SS Internship Seminar I
+3962,POLI-174D,Data Politics
+4001,MATH-208,Seminar in Algebraic Geometry
+4009,MATH-209,Seminar in Number Theory
+4013,MATH-210A,Math Meth/Physics&Engineering
+4015,POLI-191A,Senr Hon Sem:Frontier/POLI I
+4029,MATH-211A,Seminar in Algebra
+4030,COMM-127,The Problem of Voice
+4031,POLI-194,Research Seminar/Washington DC
+4040,POLI-195,Apprentice Teaching
+4041,MATH-211B,Seminar in Group Actions
+4058,EDS-283,Leadership for Organiztn Chang
+4070,EDS-285,Leadership for the Future
+4074,EDS-286,Advanced Topics in Leadership
+4077,POLI-197SD,Local Internship Pol Sci
+4087,COMM-103D,Documentary History & Theory
+4117,MATH-218,Seminar/Math of Bio Systems
+4120,MATH-220A,Complex Analysis
+4130,ENG-005,Orientation to Engr Profession
+4133,ENG-010,Fundamentals/Engineering Appln
+4138,ENG-015,Engineer Your Success
+4143,EDS-289D,Disseration Writing Seminar
+4147,ENG-020,Intro to Engineering Research
+4149,POLI-204A,Research Design
+4150,POLI-204B,Quantitative Methods
+4167,COMM-106G,CI: Tourism - Global Industry
+4187,MATH-231A,Partial Diff Equations I
+4240,EDS-299,Dissertation Research
+4257,MATH-240A,Real Analysis I
+4265,GPEC-431,Fiscal and Monetary Policy
+4272,ENVR-110,Environmental Law
+4293,TDAC-101,Acting I
+4294,MATH-243,Seminar in Functional Analysis
+4299,TDAC-108,Advanced Topics
+4303,GPPS-433,Debating US Security Policy
+4330,ENVR-152,IndigenousApproach/ClimChange
+4335,MATH-248,Seminar in Real Analysis
+4336,TDAC-115,Movement for Actors
+4338,GPEC-435,Topics in International Trade
+4344,MATH-250A,Differential Geometry
+4348,TDAC-122,Ensemble: Undergrad Production
+4372,MATH-257A,Topics in Diff Geometry
+4383,TDMV-001,Beginning Ballet
+4392,TDMV-002,Beginning Contemporary Dance
+4393,ERC-088,Learn Sustainable Well-being
+4396,MATH-258,Seminar/Differential Geometry
+4402,MATH-259A,Geometrical Physics
+4406,TDMV-003,Beginning Jazz
+4450,MATH-262A,Topics in Combinatorial Math
+4459,GPPS-441,Government and Regulation
+4471,SIO-030,The Oceans
+4475,MATH-264A,Combinatorics
+4478,GPPS-442,Foundations/Strategic Studies
+4480,SIO-001,The Planets
+4499,GPEC-443,GIS & Spatial Data Analysis
+4509,MATH-269,Seminar in Combinatorics
+4513,MATH-270A,Numerical Linear Algebra
+4528,MATH-271A,Numerical Optimization
+4530,POLI-240,International Relations Theory
+4532,SIO-040,Life and Climate on Earth
+4541,SIO-015,Natural Disasters
+4543,MATH-272A,Numer Partial Diff Equatns I
+4547,TDDE-130,Assistant Designer
+4584,COMM-010,Introduction to Communication
+4587,TDDR-108,Text Analysis/Actors&Directors
+4597,COMM-101,Intro Audio-Vis Media Practice
+4605,SIO-050,Intro to Physical Geology
+4608,TDGE-010,Theatre and Film
+4609,POLI-256,RaceClassInstit/Amer Pol. Econ
+4616,TDGE-001,Introduction to Theatre
+4625,MATH-278A,Seminar/Computatl&Applied Math
+4630,MATH-278B,Seminar/Math Info/Data/Signals
+4633,MATH-278C,Seminar/Optimization
+4634,SIO-102,Introduction to Geochemistry
+4635,TDDE-001,Intro/Design for the Theatre
+4638,MATH-280A,Probability Theory I
+4641,SIO-103,Introduction to Geophysics
+4648,GPIM-452,Big Data:Policy/Governing/Mgmt
+4656,POLI-270,Math & Statistical Foundations
+4660,MATH-281A,Mathematical Statistics
+4670,SIO-105,Sedimentology & Stratigraphy
+4673,MATH-282A,Applied Statistics I
+4674,TDGE-011,Great Performances on Film
+4675,COMM-196A,Honors Seminar I: Methods
+4682,MATH-283,Stat Methods in Bioinformatics
+4688,TDAC-001,Introduction to Acting
+4706,COMM-194,Research Seminar/Washington DC
+4717,MATH-286,Stochastic Differential Equatn
+4721,POLI-279,Special Topics in Methodology
+4727,POLI-280,Wrkshp: Intl Law & Regulation
+4728,POLI-281,Workshop: American Politics
+4735,COGR-200A,Intro Study/Comm as Soc Force
+4744,COGR-200C,Intro Study/Comm&The Individul
+4745,MATH-288,Seminar/Probability&Statistics
+4748,GPIM-457,Cost Benefit Analysis
+4753,POLI-282,Workshop: Comparative Politics
+4757,TDPW-001,Introduction to Playwriting
+4759,COGR-201B,Ethnographic Methds/Comm Rsrch
+4767,MATH-290A,Topology
+4772,POLI-283,Workshop:International Relatns
+4798,POLI-285,Workshop: Political Theory
+4801,POLI-286,Workshop: Methodology
+4803,MATH-295,Special Topics in Mathematics
+4813,MATH-297,Math Grad Research Internship
+4828,MATH-292,Seminar In Topology
+4836,MATH-299,Reading and Research
+4846,MATH-500,Teaching Assistant Training
+4856,SIO-170,Volcanology
+4864,GPPS-463,Politics of Southeast Asia
+4865,MATS-201A,Thermodynamics of Solids
+4876,COGR-225C,Colloquium in Science Studies
+4883,MATS-202,MATS Academy I
+4919,SIO-194,Research Seminar/Washington DC
+4929,TDDE-111,Theatre Process - Costumes
+4963,SIOG-228,Research Seminar
+4977,MATS-227,Structure & Analysis of Solids
+4989,COGR-262,"Geog of Diff, Exclsn &Conflict"
+5011,COGR-275,Topic/Communication/ProSeminar
+5023,MATS-236,Advanced Ceramics
+5046,ESYS-090,Undergraduate Seminar
+5055,ESYS-101,Environmental Biology
+5061,MATS-251A,Elect&Photon Props. Materials
+5066,COGR-500,Practice Teaching/Communicatn
+5073,COGS-001,Introduction to Cognitive Sci
+5077,COGS-003,Introduction to Computing
+5097,ESYS-187A,Senior Internship Project I
+5099,MATS-257,PolymerScience&Engineering
+5106,COGS-009,Introduction to Data Science
+5111,GPPS-476,Chinese Sources and Methods
+5112,COGS-010,Cognitv Consequence/Technology
+5127,COGS-011,Minds & Brains
+5130,MATS-295,Research Conference
+5137,MATS-299,Graduate Research
+5139,MBC-258,Marine Consrv/Comm Practicum 1
+5147,ETHN-001R,R-Intro: Land and Labor
+5159,COGS-014A,Intro. to Research Methods
+5161,MCWP-040C,CritWrit: Climate Change
+5164,MCWP-040R,Critical Writing
+5167,ETHN-020R,R-Intro to Asian Amer Studies
+5170,PSYC-001,Psychology
+5173,ETHN-087,First-year Seminar
+5174,COGS-014B,Intro. to Statistical Analysis
+5175,MCWP-125,Argument and Analysis
+5177,PSYC-002,Gen Psych:Biological Foundatns
+5185,COGS-015,Uncensored Intro. to Language
+5186,PSYC-003,Gen Psych:Cognitive Foundatns
+5190,MCWP-500,Apprentice Teaching in MCWP
+5193,COGS-017,Neurobiology of Cognition
+5198,ETHN-100A,Theoretical Approaches
+5199,COGS-018,Introduction to Python
+5217,PSYC-006,General Psychology: Social
+5253,COGS-088,SustainableWell-Being/CogSci
+5271,PSYC-060,Introduction to Statistics
+5277,TDMV-140,African Diaspora
+5280,PSYC-070,Research Methods in Psychology
+5283,PSYC-071,Lab/Psych Research Methods
+5285,COGS-100,Cyborgs Now and in the Future
+5286,GPEC-485,The Korean Economy
+5293,ETHN-110,Wrld Views/Indigenous America
+5295,COGS-101A,Sensation and Perception
+5299,PSYC-088,Learning Sustainable Wellbeing
+5319,GPEC-488,Environmental & Reg Economics
+5323,PSYC-101,Developmental Psychology
+5326,COGS-107A,Neuroanatomy and Physiology
+5328,ETHN-116,US-Mexico Bordr/Comp. Perspect
+5332,PSYC-102,Sensory Neuroscience
+5336,ETHN-119,Race in the Americas
+5340,GPGN-490,Special Topics Course
+5344,PSYC-122,Mechanisms of Animal Behavior
+5348,COGS-107C,Cognitive Neuroscience
+5350,PSYC-104,Social Psychology
+5354,ETHN-122,Asian American Cult & Identity
+5355,ETHN-122A,AsianAmerican Culture & Health
+5370,PSYC-105,Cognitive Psychology
+5379,PSYC-106,Behavioral Neuroscience
+5387,ETHN-127,Sexuality & Nation
+5400,ETHN-133,Latinx Theatre and Performance
+5405,TDDR-101,Stage Management
+5406,PSYC-108,Cognitive Neuroscience
+5447,COGS-109,Modeling & Data Analysis
+5449,TDAC-104,Classical Text
+5465,PSYC-112,Health Sciences Research
+5469,COGS-111,Beauty and the Brain
+5485,COGS-115,Neurologcl Devlp & Cogntv Chng
+5498,COGS-116,Developmental Cog Neuroscience
+5504,COGS-117,"Babies, Brains, and Machines"
+5509,COGS-118A,Supvr/Mach Learning Algorithms
+5525,COGS-118B,Intro to Machine Learning
+5530,PSYC-116A,Lab/Clinical Psych Research I
+5545,ETHN-150,"Visuality, Sexuality, and Race"
+5554,COGS-118D,Comput Modeling and Analysis
+5561,ETHN-152,Law and Civil Rights
+5579,ETHN-155,U.S. Militarism
+5593,TDPW-102,Advanced Playwriting
+5629,COGS-123,Social Computing
+5632,ETHN-161,Black Poli&Protest since 1941
+5636,COGS-124,HCI Technical Systems Research
+5639,PSYC-124,Clinical Assessment/Treatment
+5640,COGS-125,Advanced Interaction Design
+5663,COGS-128,Information Visualization
+5682,COGS-102A,Cognitive Perspectives
+5699,ETHN-166,Topic:Arab/Muslim Amer Identy
+5703,COGS-108,Data Science in Practice
+5722,COGS-137,Practical Data Science in R
+5732,PSYC-132,Hormones and Behavior
+5743,COGS-143,Animal Cognition
+5750,ETHN-171,Ethnic Studies and Education
+5789,ETHN-179,Discover Jazz
+5792,COGS-155,Gesture and Cognition
+5815,TDDE-132,UG Mainstage Production:Design
+5817,COGS-163,Metabolic Disorders/Brain
+5826,COGS-165,Neuroimaging of Cognition
+5828,PSYC-137,Social Cognition
+5829,COGS-160,Seminar on Special Topics
+5844,PSYC-138,Sound And Music Perception
+5849,COGS-171,Mirror Neuron System
+5853,PSYC-169,Brain Damage & Mental Function
+5861,JAPN-010A,First Year Japanese I
+5880,TDDE-131,Spec Topics in Theatre Design
+5890,TDHT-111,Latinx Theatre and Performance
+5907,PSYC-145,Psychology of Language
+5909,ETHN-200A,Departures:Genealogy of Racial
+5910,JAPN-020A,Second Year Japanese I
+5936,TDDR-190,Major Project in Directing
+5940,ETHN-230,Departmental Colloquium
+6016,PSYC-154,Behavior Modification
+6026,COGS-187A,Usability & Info. Architecture
+6028,TDGE-199,Special Projects
+6043,JAPN-130A,Third Year Japanese I
+6050,ETHN-289,Topics/Ethnic Studies Research
+6060,COGS-188,AI Algorithms
+6068,ETHN-298,Directed Reading
+6072,ETHN-299,Thesis Research
+6075,JAPN-140A,Fourth Year Japanese I
+6076,ETHN-500,Apprntice Teaching/Ethn Stdies
+6082,ETIM-289,Interdis Methds Sem Spec Topic
+6084,COGS-190A,Projects in Cognitive Science
+6100,JAPN-135A,Prof. Skills Japanese I
+6102,PSYC-100,Clinical Psychology
+6103,MGT-003,Quant Methods in Business
+6107,MGT-004,Financial Accounting
+6115,MGT-005,Managerial Accounting
+6120,MGT-012,Personal Financial Management
+6126,JAPN-137A,Business Japanese I
+6133,MGT-016,Personal Ethics at Work
+6137,MGT-018,Managing Diverse Teams
+6145,COGS-194,Research Seminar/Washington DC
+6148,ERC-020,Frshmn Honors Sem:Intntl Theme
+6149,MGT-045,Principles of Accounting
+6153,MGT-052,Test & Measurement at Work
+6155,MGT-071,Operating Successful Business
+6161,MGT-071R,Operating Successful Business
+6166,MGT-100,Customer Analytics
+6168,MGT-102,E-Commerce
+6171,MGT-103,Product Marketing & Management
+6174,MGT-105,Product Promotion & Brand Mgt
+6178,MGT-106,Sales and Sales Management
+6179,PSYC-171,Neurobiology-Learning & Memory
+6182,FILM-071,Fundamentals of Cinematography
+6183,MGT-108R,Applied Market Research
+6184,FILM-072,Fundamentals of Directing
+6186,MGT-109,Topics in Marketing
+6189,FILM-073,Fundamentals of Editing
+6191,PSYC-172,Psychology of Human Sexuality
+6194,FILM-087,First-year Seminar
+6197,MGT-112,Global Business Strategy
+6201,FILM-179,Fundamentals of Animation
+6203,MGT-119,Topics in Business
+6206,MGT-121A,Innovation to Market A
+6229,PSYC-174,Visual Cognition
+6234,MGT-127R,AI & Technology Strategy
+6248,JWSP-001,Beginning Hebrew
+6251,COGS-210A,Introduction to Research
+6258,PH-161,ClinicalNutrition/PublicHealth
+6259,MGT-131A,Intermediate Accounting A
+6262,PSYC-178,Industrial Organizational Psyc
+6267,MGT-132,Auditing
+6268,PH-191,Topics in Public Health
+6273,PH-193,Public Health Capstone I
+6274,MGT-135,Federal Taxation-Companies
+6282,COGS-211A,Research Methods/Cogn Science
+6285,MGT-137,Financial Statement Analysis
+6291,PSYC-181,Drugs And Behavior
+6304,PHB-221,Biostatistical Methods I
+6313,MGT-151A,Business Analytics
+6318,MGT-151R,Business Analytics
+6320,TDGR-219,Directing Process Studio
+6323,PHB-224,Biostat Methods in Clin Trials
+6324,MGT-153,Info Tech - Business Analytics
+6332,TDGR-220A,Process II: Classical Text I
+6342,PHB-227,Stat Learn & Multivar Analysis
+6351,PSYC-184,Choice and Self-Control
+6353,MGT-160,Experiments in Firms
+6359,MGT-162,Negotiations
+6364,PHB-243A,PracticumBiostatistics A
+6365,TDGR-221A,Speech for the Actor II
+6366,MGT-162R,Negotiations
+6370,MGT-164,Business and Org Leadership
+6379,COGS-229,Design at Large
+6382,PHB-244A,Foundations in Biostatistics A
+6386,MGT-166,Corp Social Responsibility
+6389,COGS-230,Interaction Design Research
+6390,JWSP-104,Practicum in Advanced Hebrew
+6391,MGT-167,Social Entrepreneurship
+6392,PSYC-188,Impulse Control Disorders
+6393,PHB-280,Biostat Journal Club
+6400,PH-291,Special Topics: Public Health
+6401,TDGR-223A,Movement for Theatre II
+6409,MGT-172,Business Project Management
+6416,PH-400,Introduction to Biostatistics
+6417,PSYC-189,"Brain, Behavior, and Evolution"
+6420,TDGR-224A,Voice for Theatre II
+6421,LATI-010,Lat Amer Studies&US Liberation
+6422,MGT-173,Project Mgt- Health Services
+6425,PH-401,Introduction to Epidemiology
+6426,MGT-175,Supply Chain Management
+6428,LATI-050,Introduction to Latin America
+6436,TDGR-225A,Singing for Actor II
+6439,MGT-180,Business Finance
+6450,MGT-181,Enterprise Finance
+6456,PSYC-193,Topics in Psychology
+6459,MGT-183,Financial Investments
+6472,LATI-166,Latin Food Ethno Amer
+6473,PSYC-193L,Psychology Laboratory Topics
+6477,LATI-170,Social Science Rsrch/Lat Am
+6480,PSYC-194A,Honors Thesis I
+6486,LATI-180,Special Topic/Lat Amer Studies
+6493,MGT-187,New Venture Finance
+6499,MGT-189,Topics in Finance
+6506,LATI-200,Core Sem/Latin Americn Studies
+6525,LATI-220,Special Topic/Lat Amer Studies
+6531,COGS-260,Seminar on Special Topics
+6537,PH-427,Mental Hlth Across/Life Course
+6568,TDGR-239,Skills
+6574,PH-441,Org&Financing/US HealthcareSys
+6580,COGS-500,Teaching Apprenticeship
+6584,COMM-100A,"Comm, the Person&Everyday Life"
+6586,TDGR-240,Directing Seminar
+6592,PH-491,Special Topics/Public Health
+6618,TDGR-250,Playwriting Seminar
+6631,TDGR-251,Playwriting Practicum
+6634,PSYC-203,Department Proseminar
+6648,MGT-225,Behavioral Economics
+6711,COMM-182,Education & Global Citizenship
+6730,LIAB-001A,Arabic Conversation
+6731,MGT-444,Topics in Business Strategy
+6737,LIAB-001AX,Analysis of Arabic
+6747,MGT-252,Stat Programming & Data Inf I
+6749,PH-270,Culturl Prcepts/Health&Disease
+6753,MGT-255,Psychology and Decision Making
+6758,PSYC-218,Area Prosem/Cognitive Psyc
+6760,LIAB-001D,Arabic Conversation
+6770,LIAB-001DX,Analysis of Arabic
+6790,MGT-420,Negotiation
+6794,PSYC-221,Sensation & Perception
+6798,TDGR-270A,Design Studio I:Scenic Design
+6799,COMM-110M,LLC: Comm & Community
+6809,MGT-262,Topics in Marketing Research
+6813,MGT-439,Topics/Organizational Behavior
+6838,PSYC-224,Current Directions/CNS
+6846,PH-280,GlobalHealth&BehaviorPracticum
+6861,LIFR-011,Elementary French Reading
+6883,TDGR-274,Advanced Scenic Design
+6908,LIFR-001A,French Conversation
+6909,TDGR-275,Advanced Lighting Design
+6912,LIFR-001B,French Conversation
+6921,TDGR-276,Advanced Costume Design
+6926,LIFR-001D,French Conversation
+6934,LIFR-001AX,Analysis of French
+6944,LIFR-001BX,Analysis of French
+6953,TDGR-278,Spec Topics in Theatre Design
+6958,LIFR-001DX,Analysis of French
+6989,COMM-020,Media Analysis
+7001,LIGM-011,Elementary German Reading
+7011,COMM-040,Promotional Communication
+7015,COMM-050,Presenting & Public Speaking
+7026,COMM-080,UCSD Speech & Debate
+7030,PH-040,Introduction to Public Health
+7031,LIGM-001A,German Conversation
+7038,PSYC-242,Current Dir/Developmental Psyc
+7041,MGT-296,Research/Mgmt for Dissertation
+7043,PH-050,Primary Care and Public Health
+7049,COMM-101T,Media Prod Lab: Topics in Prod
+7051,MGT-499,Individual Directed Study
+7054,LIGM-001D,German Conversation
+7055,PH-101,Epidemiology
+7059,MGT-299,Individual Directed Study
+7061,LIGM-001AX,Analysis of German
+7064,COMM-106,Intro to Media Industries
+7070,TDGR-288,Stage Management Seminar
+7075,PH-102,Biostatistics in Public Health
+7079,MGT-403,Business Analytics/Managers
+7085,LIGM-001DX,Analysis of German
+7087,MGT-403R,Business Analytics/Managers
+7091,MGT-404,Accounting
+7092,PSYC-247,Learning by Thinking
+7097,COMM-110X,Texting & Talking
+7098,PH-110,HealthBehavior/Chronic Disease
+7102,MGT-405,Managerial Economics
+7104,TDGR-296,Stage Management Practicum
+7107,MGT-405R,Managerial Economics
+7110,MGT-406,Leading People
+7112,LIGN-005,Linguistics of Invented Lang
+7116,LIGN-006,Computers and Language
+7117,MGT-406R,Leading People
+7120,LIGN-008,Languages & Cultures/America
+7123,TDGR-297,Thesis Research
+7124,COMM-113T,Intm Topics in Communication
+7135,PH-130,Environment/OccupationalHealth
+7139,COMM-114I,CSI: Media Tech&Social Mvments
+7140,COMM-114J,CSI: Food Justice
+7142,TDGR-299,Thesis Project
+7153,LIGN-017,Making and Breaking Codes
+7158,TDGR-500,Apprentice Teaching
+7164,MGT-410,Strategy
+7175,MGT-410R,Strategy
+7182,COMM-118A,Action Cinema
+7185,TDGE-025,Public Speaking
+7187,MGT-412,New Venture Design
+7189,COMM-119,Advanced Persuasion
+7202,MGT-412R,New Venture Design
+7222,LIGN-007,Sign Languages&Their Cultures
+7243,MGT-414R,Rady Action Project
+7249,TDGE-124,Cult Films: Weirdly Dramatic
+7250,COMM-142,Film Authorship
+7258,TDGE-125,Topics in Theatre and Film
+7266,GLBH-020,Introduction to Global Health
+7273,GLBH-100,Special Topics/Global Health
+7280,GLBH-102,Global Health Epidemiology
+7288,MGT-440,Supply Chain Cost Mgmt Strat
+7291,MGT-441,Strategic Sourcing
+7296,MGT-446,Spreadsheet Modeling
+7297,COMM-181,Citizen Consumers
+7303,MGT-451R,AI & Disruptive Tech Strategy
+7311,COMM-190,Junior Seminar in Comm
+7314,TDGR-212,Acting Practicum: Skills
+7316,LIGN-121,Syntax I
+7328,GLBH-111,Health Frontiers in Tijuana
+7330,MGT-458,Experiments in Firms
+7342,COMM-101D,MPL:Non-Linear Digital Editing
+7343,LIGN-130,Semantics
+7357,LIGN-139,Field Methods
+7358,GLBH-116,GlobalHealth&InfectiousDisease
+7359,PSYC-270A,Intro/Laboratory Experiment I
+7369,GLBH-118,Intro to GH Humanities
+7372,GLBH-119,Global Health & NGOs
+7374,MGT-487,Valuation in Corporate Finance
+7378,MGT-488R,Applied Market Research
+7380,MGT-490,M&A and Corp Restructurings
+7381,GLBH-129,Meaning and Healing
+7383,LIGN-143,The Structure of Spanish
+7386,TDGR-245,Directing Practicum
+7397,GLBH-141,Clinical Perspectives in GH
+7398,PSYC-272,Selected Topics/Cognitive Psyc
+7403,MGT-493R,New Venture Finance
+7409,PSYC-274,Current Directions/Social Psyc
+7414,MGTA-402,Data Driven Communications
+7416,GLBH-148,Global Health&Cultrl Diversity
+7418,TDGR-254,Television Writing
+7428,PSYC-275,Current Directions/Cog Psyc
+7437,PSYC-280,Sem/Communication&Info Resrch
+7448,MGTA-452,Collecting/Analyzing Lrg Data
+7452,MGTA-453,Business Analytics
+7457,GLBH-171R,Global Mental Health
+7464,LIGN-150,Historical Linguistics
+7465,GLBH-190,Global Health Careers
+7466,PSYC-296,Research Practicum
+7481,LIGN-154,Language and Consciousness
+7482,COMM-102C,MMPP: Media & Design Practicum
+7483,PSYC-299,Independent Research
+7491,MGTA-457,Business Intelligence Systems
+7492,PSYC-500,Apprentice Teaching
+7496,GLBH-200,Global Health MA Core Seminar
+7498,COMM-101K,MPL: Documentary Sketchbook
+7506,MGTA-459,Managerial Judg/Decis Making
+7511,LIGN-167,Deep Learning/Natural Language
+7517,COMM-101N,MPL:Sound Prductn & Manipulatn
+7520,MGTA-461,Web Mining and Recommender Sys
+7526,GLBH-241,Clinical Perspectives in GH
+7536,LIGN-171,Child Language Acquisition
+7537,GLBH-248,Intro/Global Health Research
+7540,TDGR-279,Design Practicum
+7557,MGTF-401,Financial Accounting
+7567,MGTF-402,Investment Analysis
+7577,LIGN-175,Sociolinguistics
+7580,MGTF-404,Fin Econometric/Empirical Mthd
+7581,TDGR-292,Cultural & Critical Theory
+7582,GPCO-408,PolAnalysis & PubWelfare
+7584,MGTF-405,Business Forecasting
+7593,TDGR-295,Acting Practicum
+7595,GPEC-243,GIS & Spatial Data Analysis
+7622,ENVR-030,Intro to Environmental Studies
+7632,LIGN-188R,Intro to Research Methods
+7641,MGTF-415,Collect/Analyze Financial Data
+7649,LIGN-199,Independent Study/Linguistics
+7656,LIGN-200,Research Forum
+7659,MGTF-418,Preparing for the CFA Exam
+7677,GPEC-450,Macroeconomics of Development
+7681,RELI-087,Freshman Seminar
+7710,MGTF-490,Capstone: Applied Finance Proj
+7719,MGTF-495,Special Topics
+7724,TMC-020,Thurgood Marshall Col Hnrs Sem
+7725,MGTP-401,Professional Seminar
+7729,MGTP-414,Business Law
+7736,LIGN-221,Syntax
+7737,MGTP-421,Internal Control/Fin Reporting
+7738,COSE-200,Leadership Values and Skills
+7742,COSE-220,Sustainable Innovation
+7744,GPIM-421,MarktplaceBehav&Survey Methods
+7749,MGTP-424,Prof. Comms for Accountants
+7756,MGTP-425,Prof. Research for Accountants
+7765,MGTP-432,Adv. Auditing & Forensic Acct
+7767,TDPR-102,Advanced Theatre Practicum
+7771,RELI-144,Devils & Demons/Christianity
+7785,TDPR-104,Adv Practicum/Stage Management
+7835,LIGN-230,Semantics
+7848,RELI-188,Special Topics in Religion
+7849,TMC-015,Public Service in America
+7854,TMC-087,Freshman Seminar
+7859,RELI-189,Seminar in Religion
+7860,MMW-014,Divergent Paths to Modernity
+7876,LIGN-241,Fieldwork
+7895,REV-001,First Year Experience
+7897,COMM-106I,CI: Internet Industry
+7906,REV-020,Revelle Honors Seminar
+7912,MMW-015,The Contemporary Era
+7920,REV-087,First-year Seminar
+7927,REV-088,Succeeding in Sci Research
+7928,GSS-020,Intro to Global South Studies
+7944,LIGN-256,Statistical Natural Lang Proc
+7962,MMW-011,Prehistory/Ancient Foundations
+7968,COMM-176,Communication and Religion
+8001,LIGN-280,Sign Language Research
+8020,GPPA-464,Environmental Justice
+8040,MMW-122,Exploring the Modern World
+8044,LIGN-293,Research Practicum
+8061,MMW-501,Teaching/Making/Modern World
+8063,LIGN-296,Directed Research
+8085,MSED-295,Orientation Practicum
+8087,LIGN-299,Doctoral Research
+8099,LIGN-500,Ling Graduate IA Training
+8107,LIGN-502,Apprentice Teaching/Linguistcs
+8110,LIGN-503,Apprentc Teachn/Amer Sign Lang
+8116,LIGN-504,Apprentice Teaching of French
+8119,LIGN-505,Apprentice Teaching of German
+8122,LIGN-506,Apprentice Teaching of Italian
+8124,LIGN-507,Apprentice Teaching of Spanish
+8127,LIGN-508,Apprentc Teachn/Directed Study
+8130,LIGN-509,Apprentc Teachn/Head TA
+8136,LIGN-510,Apprentice Teaching of Arabic
+8140,LIGN-511,Apprentice Teaching/Portugese
+8163,MSED-299,Reading and Research
+8187,GPPS-439,Eurasian Security
+8188,LIHL-112F,Filipino for Filipino Speakers
+8205,MCWP-040,Critical Writing
+8213,LIHL-114F,Beginning Vietnamese for Vietn
+8221,ETHN-174,Themes/Afro-Americn Literature
+8222,MCWP-041,Special Study in Writing
+8226,MCWP-050,Critical Writing
+8228,GPPS-451,Public Opinion/Foreign Policy
+8249,COMM-111G,CCP: Popular Culture
+8257,HDS-001,Intro/HumanDevelopmentScience
+8266,MUS-001A,Fundamentals of Music A
+8274,LIHL-117F,Persian for Persian Speakers
+8290,MUS-002A,Basic Musicianship
+8294,HDS-111,Evolution in Human Development
+8295,LIHL-118F,Cantonese for Cantonese Spkrs
+8303,MUS-002AK,Basic Keyboard
+8317,COMM-160,Poli Economy-Internatl Comm
+8348,LIHL-124F,Int Vietnamese/Vietnamese Spkr
+8349,SE-001,Intro. to Structures & Design
+8354,HDS-150,Senior Seminar
+8357,MUS-006,Electronic Music
+8359,LIHL-132F,Adv Filipino/Filipino Spkrs
+8360,MUS-007,"Music, Media and Technology"
+8366,MUS-008,American Music: Jazz Cultures
+8373,HDS-175,PowerWealth&Inequality/HumDev
+8377,HDS-181,Exper Proj/Human Dev. Resear
+8380,USP-004,Intro/Geographic Info Systems
+8383,USP-005,Intro to Real Estate/Develmnt
+8385,LIHL-134F,Adv Vietnamese/Vietnamese Spkr
+8396,USP-001,History/US Urban Communities
+8400,MUS-012,Opera
+8401,CSE-003,Fluency/Information Technology
+8423,SE-101A,Mechanics I: Statics
+8425,USP-015,Urban Econ/Plan&Development
+8428,USP-025,Real Estate/Principle&Analysis
+8430,CSE-005,Principles and Practice of AI
+8435,MUS-014,Contemporary Music
+8436,SE-101C,Mechanics III: Vibrations
+8440,MUS-015,Popular Music
+8443,USP-050,Real Estate & Dev Colloquium
+8445,HDS-191,Field Resrch/Human Development
+8447,MUS-017,Hip-Hop
+8449,USP-060,Practice of Planning Research
+8454,LIHL-138F,Adv Cantonese for Canto Spkrs
+8459,MUS-019R,Blacktronika: Afrofuturism
+8461,CSE-008A,Intro to Programming 1
+8476,MUS-020R,Exploring the Musical Mind
+8478,MUS-120A,Hist Mus in Westrn Culture I
+8479,HDS-060,Intro to Statistical Analysis
+8484,HDS-124,Lifespan Cognitive Development
+8493,LIIT-001A,Italian Conversation
+8497,LIIT-001AX,Analysis of Italian
+8509,CSE-011,Accel. Intro to Programming
+8514,MUS-032,Instrumental Instruction
+8516,SE-105,Structural Materials
+8527,MUS-032V,Vocal Instruction
+8531,MUS-032VM,Vocal Master Class
+8565,MUS-043,Department Seminar
+8569,CSE-029,Sys Prog and Software Tools
+8575,LIPO-001A,Portuguese Conversation
+8587,LIPO-001AX,Analysis of Portuguese
+8601,SE-131B,Finite Element Analysis: Beam
+8615,MUS-095C,Concert Choir
+8617,SE-125,"Stats, Probability&Reliability"
+8628,MUS-095D,Symphonic Chorus
+8630,SE-130A,Structural Analysis I
+8632,CSE-030,Computer Organization
+8636,LIPO-001D,Portuguese Conversation
+8637,MUS-095E,Chamber Orchestra
+8640,USP-124,Land Use Planning
+8642,LIPO-001DX,Analysis of Portuguese
+8644,CSE-110,Software Engineering
+8648,MUS-095F,Percussion Ensemble
+8650,MUS-095G,Gospel Choir
+8660,HIEA-137,Women & Family/Chinese History
+8661,CSE-012,Basic Data Struct & OO Design
+8673,USP-125,The Design of Social Research
+8682,LISL-001A,American Sign Lang Conversatn
+8687,LISL-001AR,"ASL Language and Culture, LV 1"
+8692,LISL-001AX,Analysis of American Sign Lang
+8693,HIEA-150,"Modern Korea, 1800-1945"
+8696,MUS-095JC,Jazz Chamber Ensembles
+8698,LISL-001B,American Sign Lang Conversatn
+8699,LISL-001BX,Analysis of American Sign Lang
+8700,CSE-087,First-year Seminar
+8706,CSE-088,LearnSustainableWell-Being/CSE
+8707,LISL-001D,American Sign Lang Conversatn
+8709,CSE-089,Intro to CSE Seminar
+8710,LISL-001DX,Analysis of American Sign Lang
+8725,MUS-095L,Wind Ensemble
+8731,CSE-095,Tutor Apprentice
+8742,MUS-095W,World Music Ensembles
+8754,CSE-103,Practical Intro/Prob & Stats
+8756,MUS-095P,Persian Music Ensemble
+8757,LISP-018,Intermed Spanish/Health Sci
+8761,MUS-101A,Music Theory and Practice I
+8762,USP-136,Community Organizing
+8778,LISP-001A,Spanish Conversation
+8782,CSE-107,Intro to Modern Cryptography
+8786,LISP-001B,Spanish Conversation
+8798,LISP-001D,Spanish Conversation
+8806,LISP-015,Intermediate Spanish/Soc Sci
+8807,USP-141A,Life Course Scholars Research
+8813,SE-163,Nondestructive Evaluation
+8817,MUS-103A,Seminar in Composition I
+8823,LISP-001AX,Analysis of Spanish
+8824,SE-164,Sensors/Data Acquisition SE
+8825,USP-142C,Urban Challenges: Food Systems
+8827,USP-143,The US Health Care System
+8828,LISP-001BX,Analysis of Spanish
+8830,USP-144,Environ/Prevent Health Issues
+8839,LISP-001DX,Analysis of Spanish
+8857,MUS-170,Art of Sound
+8861,USP-150,Real Estate/Law & Regulation
+8866,CSE-127,Intro to Computer Security
+8870,USP-151,Real Estate Plan & Development
+8890,USP-152B,Adv. RED Finance & Invest
+8897,SE-180,Earthquake Engineering
+8900,USP-154,Global Justice/Theory & Action
+8916,MUS-107,Critical Studies Seminar
+8921,LTAM-120,Ecocriticism in Latin America
+8927,CSE-134B,Web Client Languages
+8947,LTCH-101,Readings/Contemp Chinese Lit
+8950,USP-161,Environ Design & Crime Prevent
+8956,MUS-111,Topics/World Music Traditions
+8972,SE-203A,Structural Dynamics I
+8976,USP-165C,Adv.SpecTopics/Transportation
+8982,MUS-113,Topic/Classic&Romantc & Modern
+9001,USP-169,Intro to Green Building
+9009,LTCO-201,Theory&Methods of Lit Analysis
+9020,SE-220,Seismic Isolatn &Energy Dissip
+9032,USP-171,Sustainable Development
+9038,HIEU-113,Russian Empire 1775-1917
+9061,CSE-150A,AI: Probabilistic Models
+9068,MUS-127,Discover Jazz
+9076,CSE-150B,AI: Search and Reasoning
+9079,SE-233,Computational Tech/Finite Elmn
+9091,SE-241,Advanced Soil Mechanics
+9098,HIEU-116C,Greece/Balkans/20th Century
+9100,MUS-130,Chamber Music Performance
+9101,MUS-131,Advd Improvisation Performance
+9105,MUS-132,Pro-Seminar/Instrmntl Instruct
+9106,CSE-151A,ML: Learning Algorithms
+9109,SE-244,Numerical Methods/Geomechanics
+9115,MUS-132R,Recital Preparation
+9119,USP-175,Site Analysis
+9120,MUS-132V,Pro-Seminar in Vocal Instruct
+9121,HIEU-118,Americanization in Europe
+9128,SE-248,Engineering Properties of Soil
+9135,SE-253A,Mech/Design Composite Str
+9137,MUS-134,Symphonic Orchestra
+9141,CSE-152A,Intro to Comp Vision I
+9143,USP-177A,Urban Design Practicum
+9144,MUS-137A,Jazz Theory and Improvisation
+9163,USP-179,"Urban Design,Theory & Practice"
+9174,MUS-143,Department Seminar
+9175,HIEU-124,The Age of Alexander
+9177,CSE-151B,Deep Learning
+9192,HIGL-127,Sport in the Modern World
+9207,CSE-158,Recommender Sys&Web Mining
+9216,MUS-175,Musical Psychoacoustics
+9219,USP-183,Geography/American Opportunity
+9224,SE-263,Nondestructive Evaluation
+9226,SE-264,Sensors/Data Acquisition SE
+9233,USP-186,Senior Sequence Resrch Proposl
+9235,CSE-158R,Recommender Sys&Web Mining
+9241,CSE-020,Discrete Mathematics
+9247,MUS-176,Music Technology Seminar
+9255,CSE-021,Math/Algorithm&Systems Analys
+9257,LTCS-010,Studies in Popular Culture
+9270,MUS-174A,Audio&MIDIStudioTechniques I
+9272,SE-276A,Finite Elemnt in Solid Mech I
+9273,CSE-100,Advanced Data Structures
+9275,USP-185A,Real Estate Fin/Dev Studio I
+9276,LTCS-087,First-year Seminar
+9292,LTCS-110,Popular Culture
+9317,SE-285,Structural Optimization
+9326,SE-290,Structural Engineering Seminar
+9330,LTCS-130,"Gender,Race/Ethn,Class&Culture"
+9334,MUS-199,Independent Study
+9339,SE-296,Independent Study
+9348,SE-299,Graduate Research
+9351,MUS-201A,Projects in New Music Prfrmnce
+9353,SE-501,Teaching Experience
+9358,MUS-201B,Projects in New Music Prfrmnce
+9362,USP-191A,Int. GIS for Urban & Comm Plan
+9365,MUS-201C,Projects in New Music Prfrmnce
+9371,MUS-201D,Projects in New Music Prfrmnce
+9376,SIO-003,Life in the Oceans
+9386,HIEU-152,Everyday Life/Dictatorial Soc
+9387,LTCS-165,Spec Topics: Politics of Food
+9389,SIO-020R,The Atmosphere
+9390,LTCS-170,Visual Culture
+9392,USP-193,San Diego Community Research
+9406,USP-194,Research Seminar/Washington DC
+9415,CSE-105,Theory of Computation
+9416,MUS-203D,Advanced Prjcts in Composition
+9422,MUS-204,Focus on Composition
+9440,SIO-087,First-year Seminar
+9455,SIO-101,California Coast Oceanography
+9458,USP-265C,Adv.SpecTopics/Transportation
+9460,MUS-206,Experimental Studies Seminar
+9461,USP-271,Sustainable Development
+9462,CSE-123,Computer Networks
+9463,LTCS-250,Topics in Cultural Studies
+9477,VIS-001,Intr/Art-Making:2-D Practices
+9488,SIO-109R,Bending/Curve: Climate Change
+9502,HIEU-184,Yugoslavia Before During After
+9528,MUS-215A,Seminar/IntegrativeStudies I
+9551,SIO-117,Physical Basis/Global Warming
+9558,LTEA-110A,Classicl Chinese Fict/Transltn
+9561,CSE-170,Human-Comp Interaction Design
+9581,CSE-140,Component&Desgn Tech/Digtl Sys
+9582,VIS-020,Intro to Art in Europe/America
+9599,VIS-023,Art History Methods
+9604,CSE-141,Intro/Computer Architecture
+9606,SIO-125,Biomechanics of Marine Life
+9607,VIS-030,Intro to Speculative Design
+9611,VIS-031,Undead Media All Things Zombie
+9619,LTEA-138,Japanese Films
+9625,MUS-245,Focus on Performance
+9632,VIS-141A,Computer Programming/Arts I
+9640,CSE-120,Operating Systems Principles
+9643,LTEA-140,Modern Korean Lit/Translation
+9644,SIO-136,Marine Biology Laboratory
+9655,LTEA-143,Gndr&Sexuality/Kor'n Lit&Cult.
+9667,HIGR-202A,Topical Research Seminar I
+9669,MUS-270D,Adv Projects in Computer Music
+9678,VIS-041,Design Communication
+9687,VIS-042,Intro to Creative Coding
+9689,LTEN-028,Intr/Asian-American Literature
+9692,VIS-060,Intro/Digital Photography
+9716,LTEN-022,Intro/Lit/Brtish Is:1660-1832
+9717,HIGR-208,Grad. Professional Development
+9718,MUS-298,Directed Research
+9721,VIS-070N,Introduction to Media
+9722,MUS-299,Advncd Rsrch Prjcts&Indpnt Stu
+9726,MUS-500,Apprentice Teaching
+9735,NANO-004,Experience NanoEngineering
+9736,SIO-166,Environmental Archaeology
+9743,HIGR-240,Colloquium in Science Studies
+9751,NANO-015R,Eng Comp Using MATLAB Online
+9754,VIS-080,Introduction to Studio Major
+9755,SIO-171,Intro to Physical Oceanography
+9757,NANO-020L,IntroNanomaterialSynthesisLab
+9758,HIGR-210,H. Scholar/Modern Chinese Hist
+9767,SIO-175,Analysis Ocean/Atmosph Data
+9773,SIO-177,Fluid Dynamics
+9780,SIO-179,Ocean Instruments and Sensors
+9788,VIS-085A,Media History
+9789,NANO-102,Foundatn NanoEng: Chem Princpl
+9792,LTEN-110,Topics: The Renaissance
+9794,HIGR-236B,Rsrch Sem./History of Science
+9805,VIS-100,Introduction to Public Culture
+9815,VIS-100A,Design of Public Culture
+9817,SIO-188,Biology of Fishes
+9819,SIO-189,"Pollution, Environmnt & Health"
+9821,LTEN-117,Topics: The 17th Century
+9830,SIO-190L,Spc Topic/Earth/Ocean/Atmo-Lab
+9832,NANO-107,Elect Dev&Circuits for NanoEng
+9852,VIS-103D,History of Speculative Design
+9858,CSE-167,Computer Graphics
+9868,LTEN-125,Romantic Poetry
+9888,VIS-105A,Drawing: Representing/Subject
+9889,CSE-101,Design & Analysis of Algorithm
+9898,VIS-105B,Drawing: Practices and Genre
+9903,NANO-119,NanoEng System Design Seminar
+9911,VIS-105C,Drawing: Portfolio Projects
+9912,SIOC-203A,Intro to Applied Mathematics
+9943,VIS-106A,Painting:  Image Making
+9954,VIS-106B,Painting: Practices and Genre
+9956,SIOC-204,Underwater Acoustics
+9965,NANO-148,Thermodynamics of Materials
+9981,SIOC-207A,Intr/Digital Signal Processing
+9983,VIS-107A,Sculpture: Making the Object
+9984,CSE-190,Top/Computer Sci & Engineering
+9991,CSE-191,Semnr/Computer Sci & Engineer
+9997,CSE-193,Introduction to CS Research
+10003,CSE-194,"Race, Gender & Computing"
+10005,VIS-107C,Sculpture: Portfolio Projects
+10013,LTEN-148,Genres/English&American Lit
+10016,CSE-197,Field Study/Computer Sci&Engin
+10018,VIS-110E,Art/Public Spaces/Site Specifc
+10039,SIOC-208,Seminar/Applied Ocean Sciences
+10057,VIS-108,Advanced Projects in Art
+10058,SIOC-210,Physical Oceanography
+10087,CSE-208,Advanced Cryptography
+10096,NANO-200,Grad Sem./Chem&NanoEngineering
+10104,NANO-201,Intro to NanoEngineering
+10107,HIGR-281,Global History/Modern Era
+10110,CSE-209A,"Top/Sem/Algrthms,Complxty&Logc"
+10113,CSE-209B,Top/Seminar in Cryptography
+10115,NANO-202,Intermolecular& Surface Forces
+10121,CSE-216,Interaction Design Research
+10137,CSE-219,Design at Large
+10146,NANO-227,Structure & Analysis of Solids
+10148,SIOC-214A,Intro To Fluid Mechanics
+10169,LTEN-179,Topic:Arab/Muslim Amer Identy
+10184,CSE-227,Computer Security
+10198,NANO-247A,Advanced BioPhotonics
+10221,LTEN-185,Themes/Afro-Americn Literature
+10238,NANO-257,PolymerScience&Engineering
+10241,CSE-229A,Tops/Seminar/Computer Systems
+10242,HILA-118,US Agression/Latin Am 1898-Prs
+10253,CSE-229C,Tops/Seminar/Computer Security
+10273,NANO-265,Thermodynamics of Solids
+10274,SIOC-217A,Atmospheric & Climate Sci I
+10276,CSE-237C,Validation&Testing/EmbeddedSys
+10294,CSE-239B,Top/Sem/Programming Languages
+10307,SIOC-218,Cloud Dynamics and Climate
+10348,HILA-135,Knowledge & Science 1500-1800
+10355,NANO-299,Grad Research NanoEngineering
+10369,NEUG-200A,Molecular&CellularNeuroscience
+10377,CSE-249E,Seminar in Embedded Systems
+10386,SIOC-221A,Anlys/Physicl Oceanograph Data
+10387,CSE-251U,Unsupervised Learning
+10391,HILA-169,Schlr/Latin American 20th Cent
+10395,SIOC-222,Underwater Bioacoustics
+10400,SIOG-223A,Geophysical Data Analysis I
+10401,NEUG-221,Advanced Topics/Neuroscience
+10420,LTEN-258,African/Diaspora Literature
+10421,SIOG-225,Physics of Earth Materials
+10427,LTEN-259,Transnational Literary Studies
+10433,CSE-256,Statistical Natural Lang Proc
+10442,HILA-269,Schlr/Latin American 20th Cent
+10467,CSE-258,Recommender Sys&Web Mining
+10472,CSE-258R,Recommender Sys&Web Mining
+10479,HILD-010,East Asia: The Great Tradition
+10491,CSE-210,Principle/Software Engineering
+10509,VIS-124E,The Production of Nature
+10510,HILD-014,Film & History in Latin Amer
+10528,HILD-030,History of Public Health
+10564,LTEU-141,French Literature/Translation
+10585,LTEU-150A,Russian&Soviet Lit/1800-1860
+10618,CSE-293,Spec Proj/Computer Sci & Engin
+10624,LTFR-002A,Intermediate French I
+10634,CSE-270,Discrete Differential Geometry
+10638,CSE-240A,Princ/Computer Architecture
+10642,SIOG-239,Special Topics in Geophysics
+10650,SIOG-240,Marine Geology
+10651,VIS-126P,Latin American Art: 1890-1950
+10692,CSE-260,Parallel Computation
+10723,CSE-276A,Introduction to Robotics
+10725,HINE-118,Middle East/Twentieth Century
+10730,LTFR-104,Adv French Reading and Writing
+10732,NEUG-265,Mechanisms of Pain
+10733,CSE-276C,Mathematics for Robotics
+10762,CSE-250A,Probabilistic Reason&Learning
+10765,HINE-125,Jews in Greek and Roman World
+10781,VIS-128E,Topics/Art History of Asia
+10788,VIS-129F,Seminar/Art Theory & Criticism
+10793,CSE-202,Algorithm Design and Analysis
+10805,HINE-137,Two Peoples-Palestine/Israel
+10808,CSE-290,Sem/Computer Sci & Engineering
+10814,HINE-144,Topics/Middle Eastern History
+10822,HINE-145,Islam and Science
+10829,NEUG-276,Neurosciences Research Rounds
+10858,VIS-131,Special Projects in Media
+10874,VIS-133A,Studio Topics in Spec Design
+10937,VIS-142,Practices in Computing Arts
+10968,VIS-145B,Time&Process Digital Media II
+10974,CSE-292,Faculty Research Seminar
+10989,CSE-291A,Topics in AI
+11007,CSE-291I,Topics in Human-comp Interact
+11008,VIS-146B,Comp Controlled Fab Art II
+11016,VIS-147A,Electronic Technologies/Art I
+11022,CSE-291Y,Topics in Comp Sys & Security
+11023,NEUG-210,Neurosciences Boot Camp
+11024,SIOB-262,Marine Chemical Biology Seminr
+11025,CSE-294,Research Meeting in CSE
+11033,VIS-147B,Electronic Technologies/Art II
+11034,CSE-297,Field Study CompSci/Engin
+11038,CSE-298,Independent Study
+11041,NEUG-299,Neurosciences Research
+11042,CSE-299,Research
+11051,CSE-500,Teaching Assistantship
+11053,VIS-149,Contemporary Computer Topics
+11057,HISA-122,History and Lit. in South Asia
+11063,LTGK-001,Beginning Greek
+11064,CSE-599,Teaching Methods/Computer Sci
+11069,CSS-001,Prog Computational Social Sci
+11112,CSS-209,Comp Social Science Rsrch Sem
+11113,LTGK-103,Greek Drama
+11115,CSS-211,Stats Methods for CSS
+11165,VIS-157D,USCivilRights:Art&Media
+11176,VIS-158B,Photography After 1960
+11177,SIOB-273,Professional Ethics in Science
+11191,HISC-109,Invention of Tropical Disease
+11194,SIOB-275A,Benthic Ecology
+11195,DDPM-200,"Opps/Pharma,Biotech,&Mgd Care"
+11199,DDPM-201,Pharmacotherapy and Diseases
+11202,DDPM-202,Pharma/SmMolecle&Macromolecule
+11205,DDPM-203,Pre-Clin&Clin RegSubmiss&Strat
+11219,VIS-162,Spec. Science&Design Invention
+11226,VIS-163,Design Research & Criticism
+11232,LTGM-002A,Intermediate German I
+11234,VIS-165,Black and White Darkroom
+11256,SIOB-278,Seminar in Ocean Biosciences
+11267,SIOB-279,Ecology Seminar/BO
+11274,VIS-164,Photographic Strategies
+11275,SIOB-280,Biological Oceanography
+11300,DOC-001,Diversity
+11305,VIS-167,Social Engagement&Photography
+11335,SIOB-285,Physical-Biological Interactns
+11343,DOC-100D,Promises&Contradictions/USCult
+11358,DOC-500,Apprentice Teaching/Marshall
+11362,DSC-010,Principles of Data Science
+11378,DSC-020,Prgrmng/DataStruc for Data Sci
+11382,HISC-176,History/Medicine/E & SE Asia
+11395,DSC-030,DataStrc/Algrthms for Data Sci
+11413,VIS-174,Media Sketchbook
+11416,DSC-040A,Theor Fndtns of Data Sci I
+11431,VIS-175,Editing - Theory & Practice
+11434,DSC-040B,Theor Fndtns of Data Sci II
+11456,DSC-080,Practice of Data Science
+11479,HISC-276,History/Medicine/E & SE Asia
+11480,DSC-095,Tutor Appshp in Data Science
+11507,SIOB-296,Special Topics/Ocean Bio
+11508,DSC-102,Systems for Scalable Analytics
+11514,HILD-002A,United States History
+11516,SIOB-297,Marine Biology Seminar
+11517,DSC-106,Intro to Data Visualization
+11529,VIS-179,Intermediate Projects in Media
+11533,DSC-123A,Optimization/Data Science I
+11537,SIO-299,Research
+11540,DSC-140A,Probabilistic Modeling and ML
+11546,VIS-180A,Documentary Evidence/Media Pra
+11548,SIOB-218,Ocean & Coastal Law and Policy
+11560,VIS-180B,Fic & Allegory/Curr Media Prac
+11564,DSC-152,Applied Stat. Data Analysis
+11582,HILD-007A,Race & Ethnicity/United States
+11587,SIOC-223,Proposal Writing / Exp Design
+11597,DSC-180A,Data Science Project I
+11612,DSC-190,Topics in Data Science
+11616,VIS-183B,Strategies of Alterity
+11631,SIOC-299,CSP Capstone Project
+11637,DSC-198,Dir Group Study/Data Science
+11639,SIOG-200B,Geophysics Research Skills II
+11642,DSC-200,Data Science Programming
+11658,SIOG-238,Numerical Methods
+11660,DSC-204A,Scalable Data Systems
+11694,SOCI-001,Introduction to Sociology
+11697,DSC-210,Numerical Linear Algebra
+11706,DSC-212,Probs. & Stats. for DSC
+11731,DSC-240,Machine Learning
+11737,DSC-242,High-Dimensional Prob/Stats
+11764,VIS-200,Methods and Theories
+11766,SOCI-100,Classical Sociological Theory
+11774,VIS-203,Working Critique
+11790,VIS-205,Intro/Grad Studies/Art Practic
+11802,VIS-207,Working Practice for AP PhD's
+11810,DSC-261,Responsible Data Science
+11815,VIS-209,Thesis Writing
+11835,LTWL-100,Mythology
+11837,DSC-291,Topics in Data Science
+11838,SOCI-104,Fld Res:Meth/Participnt Observ
+11841,DSC-293,Faculty Research Seminar
+11845,SOCI-105,Ethnographic Film: Media Meth
+11853,DSC-295,Academia Survival Skills
+11868,DSC-500,Teaching Assistantship
+11872,DSC-599,Teaching Methods/Data Science
+11879,DSE-200,Python for Data Anlaysis
+11893,DSE-203,Data Integration and ETL
+11898,LTEU-110,European Romanticism
+11922,DSE-250,Beyond Relational Data Models
+11932,DSE-290,Case Studies in Data Science
+11936,DSGN-001,Design of Everyday Things
+11958,VIS-244,Relationships/Theory &Practice
+11960,DSGN-100,Prototyping
+11965,SOCI-112,Social Psychology
+11977,DSGN-119,Design at Large
+12006,DSGN-201,HCD/Complex Sociotechnical Sys
+12008,DSGN-219,Design at Large
+12010,SOCI-117,"Language, Culture & Education"
+12011,VIS-256,Seminar in Media and New Media
+12029,LTAF-120,Lit & Film of Modern Africa
+12037,ECE-005,Intro to ECE
+12061,SOCI-120T,"Spec Top/Cult,Lang&Soc Interac"
+12082,ECE-015,Eng Computation: Prgrm in C
+12098,VIS-502,Graduate Teaching in Vis Arts
+12107,ECE-017,Object-Oriented Programming
+12110,ECE-018,Python Programming
+12111,SOCI-126,Social Organization/Education
+12131,SOCI-129,The Family
+12134,ECE-025,Introduction to Digital Design
+12143,HIEU-171,Topic/Twentieth Century Europe
+12145,ECE-035,Introduction to Analog Design
+12156,SOCI-135,Medical Sociology
+12160,WARR-099H,Independent Study
+12166,ECE-045,Circuits and Systems
+12184,SOCI-140,Sociology Of Law
+12187,LTFR-141,Topics/Literatures in French
+12192,SOCI-141,Crime And Society
+12198,SOCI-142,Social Deviance
+12199,LTAM-110,Latin American Lit/Translation
+12232,SOCI-148,Political Sociology
+12237,WCWP-010A,The Writing Course A
+12255,ECE-065,Components & Circuits Lab
+12260,WCWP-010B,The Writing Course B
+12281,WCWP-100,Academic Writing
+12291,ECE-030,Intro to Computer Engineering
+12309,SOCI-156,Sociology of Religion
+12332,WES-237C,Hardware for Embedded Systems
+12349,WES-268A,Digtl Comm Sys I
+12352,ECE-100,Linear Electronic Systems
+12377,ECE-101,Linear Systems Fundamentals
+12402,ECE-111,Advanced Digital Design Proj
+12408,CGS-190,Honors Seminar
+12412,LTWL-110B,Folk and Fairy Tales
+12420,ECE-116,Adv Hardware & Software Dsn
+12428,CGS-198,Directed Group Study
+12443,CGS-500,Apprentice Teaching
+12447,ECE-121A,Power Sys Analysis & Fundmntls
+12450,ECE-107,Electromagnetism
+12482,ECE-128A,Real Wrld Pwr Grid Operation
+12485,HILA-132,Modern Mexico
+12507,HILA-122,ColonyToSocialistRepublic:Cuba
+12528,ECE-102,Intro/Active Circuit Design
+12545,SOCI-180,Social Movemnts&Social Protest
+12558,LTWL-180,Film Studies&Lit:Film History
+12560,ECE-135A,Semiconductor Physics
+12604,SOCI-187,African Societies Through Film
+12611,ECE-103,Fundamntls/Devices & Materials
+12613,SOCI-188E,Community&Social Change/Africa
+12621,LTWL-500,Apprentice Teaching/Literature
+12634,HIUS-141,Economic Hist/United States II
+12662,ECE-181,Physical Optics&Fourier Optics
+12758,ECE-143,Programming for Data Analysis
+12764,PH-045,Intro: Public Health Research
+12773,PH-090,Exploring Public Health
+12775,PH-091,Topics in Public Health
+12786,PH-120R,Health Policies/Lifestyles
+12791,ECE-164,Analog Integrtd Circuit Design
+12795,HIAF-111,Modern Africa Since 1880
+12797,PH-157,Intersectionality&PublicHealth
+12802,ECE-165,Digtl Integrated Circuit Desgn
+12816,LTIT-002A,Intermediate Italian I
+12824,ECE-166,Microwave Systems and Circuits
+12828,PH-223,Intro to Comm-Engd Hlth Rsch
+12840,PH-275,HSRIS Colloquium Series
+12843,SOCG-226,Political Sociology
+12844,PH-289R,Implementation Science
+12849,PH-417R,CVD Epidemiology
+12853,PH-429,Substance Use/Population Hlth
+12854,ECE-148,Intro to Autonomous Vehicles
+12857,PH-433,The Internet as Data
+12859,PH-442,Qualitative Research Methods
+12907,ECE-109,Engineering Probability&Stats
+12933,SOCG-255C,Colloquium in Science Studies
+12944,ECE-155,Digital Communications Theory
+12949,LTKO-001A,Beginning Korean:First Yr. I
+12983,SOCG-290,Graduate Seminar
+12985,LTKO-002A,Intermediate Korean:2nd Yr I
+13004,SOCI-104Q,Qualitative Interviewing
+13013,ECE-158A,Data Networks I
+13018,HITO-194,History Honors
+13022,ECE-108,Digital Circuits
+13026,PHB-281,Biostatistics Seminar Series
+13028,HITO-196,Honors Seminar
+13035,PHIL-001,Introduction to Philosophy
+13043,PHIL-010,Introduction to Logic
+13050,PHIL-013,Intro to Philosophy:  Ethics
+13062,LTKO-130F,Third-Year Korean I
+13080,ECE-161A,Intr/Digital Signal Processing
+13084,SOCI-125,Sociology of Immigration
+13087,LTLA-001,Beginning Latin
+13092,ECE-171B,Linear Control System Theory
+13093,PHIL-027,Ethics And Society
+13098,LTLA-100,Introduction/Latin Literature
+13100,PHIL-028,Ethics And Society II
+13110,SOCI-137,Sociology of Food
+13114,SOCI-145,Violence and Society
+13131,PHIL-035,Philosophy in the Americas
+13134,PHIL-050,Law & Society
+13139,PHIL-051,Climate Ethics
+13152,PHIL-087,Freshman Seminar
+13164,SOCI-134,The Making of Modern Medicine
+13179,SOCI-138,Genetics and Society
+13194,ECE-191,Engineering Group Design Proj
+13224,PHIL-120,Symbolic Logic
+13225,SOCI-150,Madness and the Movies
+13237,ECE-197,ECE Internship
+13244,ECE-198,Direct Group Study
+13248,ECE-199,Independent Study/Undergrads
+13249,ECE-200,Research Conference
+13254,ECE-201,Introduction to Biophysics
+13264,ECE-203,Biomedical Integrat Circ & Sys
+13278,ECE-207A,Prin of Medical Imaging I
+13286,LTRU-001A,First-Year Russian
+13313,PHIL-134,Philosophy of Language
+13316,SOCI-175,Nationality and Citizenship
+13330,LTRU-002A,Second Year Russian
+13333,ECE-212AN,Princples/Nanoscience &NanoTec
+13336,PHIL-136,Philosophy of Mind
+13347,ECE-230A,Solid State Electronics I
+13356,HIGR-200,History and Theory
+13363,PHIL-142,Philosophy of Emotion
+13382,SOCE-194,Research Seminar/Washington DC
+13384,LTRU-104B,Advanced Practicum in Russian
+13404,LTRU-110A,Russian&Soviet Lit/1800-1860
+13406,PHIL-153,Philosophy and Animals
+13424,ECE-225A,Prob & Stats for Data Science
+13426,PHIL-110,History of Philosophy: Ancient
+13431,SOCG-227,Ethnographic Film: Media Meth
+13433,ECE-226,Optimize&Accelerate/Platforms
+13437,ECE-236A,Fund of Heterostrc Materl/Dev
+13453,PHIL-159,Metaethics
+13472,PHIL-168,Philosophy Of Law
+13497,SOCG-252,Research Practicum I
+13500,PHIL-167,Contemporary Political Phil
+13501,SOCG-253,Research Practicum II
+13517,ECE-222A,Antennas & Their System Applic
+13535,PHIL-173,Topics in Bioethics
+13537,LTSP-002C,Intermediate Spanish III
+13544,SOCG-271,Teaching Sociology
+13548,LTSP-002F,Spanish Heritage Learners II
+13549,PHIL-176,Philosophy of Culture
+13557,LTSP-003F,Spanish Heritage Learners III
+13575,ECE-240A,Lasers and Optics
+13578,LTSP-002A,Intermediate Spanish I
+13579,PHIL-147,Philosophy of Biology
+13602,HITO-087,First-year Seminar
+13605,LTSP-002B,Intermediate Spanish II
+13614,HITO-100,The Craft of History
+13619,SOCI-122,Social Networks
+13620,SOCI-123,Japanese Culture Inside/Out
+13628,PHIL-189,Applied Ethics
+13633,ECE-241A,Nonlinear Optics
+13642,PHIL-195P,Pedagogy & Learning Appr.
+13645,PHIL-191A,Philosophy Honors
+13650,PHIL-191B,The Honors Essay
+13661,PHIL-199,Directed Individual Study
+13663,SOCI-140K,Law and Society in China
+13667,SOCI-143V,Love
+13668,PHIL-200,Proseminar
+13673,LTSP-087,First-year Seminar
+13674,PHIL-210,Greek Philosophy
+13684,PHIL-202,Core Course in Ethics
+13694,LTSP-100A,Adv Spanish Language & Culture
+13703,LTSP-100F,Adv Span Heritage Lang & Cult
+13710,SOCI-173,"Soc/Health, Illness, Medicine"
+13724,SOCI-183,Geography/American Opportunity
+13728,ECE-247A,Advanced BioPhotonics
+13747,LTSP-116,Representatns/Span Colonialism
+13750,HITO-136,Jews/AfricanAmericans/Slavery
+13763,ECE-250,Random Processes
+13765,PHIL-209C,Colloquium in Science Studies
+13777,SOCI-030,"Science, Technology & Society"
+13781,SOCI-050,Introduction to Law & Society
+13785,SOCI-060,Practice of Social Research
+13806,ECE-251C,Filter Banks and Wavelets
+13826,PHIL-220,"Agency,Responsibility&Freedom"
+13845,ECE-253,Fundmntls/Digital Image Proces
+13855,HITO-193,Research Seminar/Washington DC
+13902,PHIL-271,"Agency, Morality, and Psych RG"
+13911,ECE-257A,Modern Communication Networks
+13914,PHIL-275,German Philosophy RG
+13924,PHIL-277,Phenomenology Reading Group
+13927,PHIL-278,Tops&Meths/Contemp Philosophy
+13935,ECE-258A,Digital Communications I
+13937,PHIL-280,Phil of Sci Topics & Methods
+13939,PHIL-281,Hist of Phil/Research Methods
+13943,PHIL-282,Topics & Methods in Ethics
+13946,PHIL-283,Topics & Methods Latin Am Phil
+13950,PHIL-284,Philosophy of Bio Research Grp
+13952,ECE-255A,Information Theory
+13957,PHIL-286,Philosophy/Physic Research Grp
+13958,PHIL-287,Greek Reading Group
+13964,PHIL-290,Directed Independent Study
+13966,PHIL-295,Research Topics
+13970,PHIL-299,Thesis Research
+13973,PHIL-500,Apprentice Teaching
+13980,ECE-259C,Advanced Topics in Coding
+13989,ECE-260A,VLSI Digit Sys Algorithms&Arch
+13994,HIUS-112,The U.S. Civil War
+14008,LTSP-145,Hispanic Memory/HumRghts/Cultr
+14011,ECE-263,Pwr Mgmt Integr Circuits Des
+14019,HIUS-114A,California:Conquest-Gold Rush
+14037,ECE-264C,CMOS Analg Integr Circ&Sys III
+14055,ECE-265C,Power Amplifiers/Wireless Comm
+14069,ECE-266B,CMOS Circuits Lab II
+14090,ECE-238A,Thermodynamics of Solids
+14118,ECE-271A,Statistical Learning I
+14193,LTSP-175,"Feminisms, Gender, & Sexuality"
+14203,BIOM-296,Directed Reading
+14214,BIOM-298,Directed Study
+14222,BIOM-299,Independent Study
+14223,ECE-276C,Robot Manipulation and Control
+14227,LTSP-192,Senior Seminar
+14233,ASTR-200,Survey of Astronomy
+14275,ECE-284,Topics/Computer Engineering
+14282,ECE-285,Spec Topic/Signal&Imag/Robotic
+14290,HIUS-146,"Race, Riots & Violence in U.S."
+14292,ECE-287,Spec Topics/Comm Theory & Syst
+14298,PHYS-001A,Mechanics
+14320,PHYS-001AL,Mechanics Laboratory
+14329,PHYS-001B,Electricity and Magnetism
+14342,LTSP-272,Literature & Society Studies
+14353,HIUS-156,American Women/Amern Womanhood
+14361,PHYS-001BL,Electricity & Magnetism Lab
+14386,ECE-298,Independent Study
+14387,PHYS-001C,"Waves, Optics & Modern Physics"
+14390,ECE-299,Research
+14393,LTTH-115,Introduction/Critical Theory
+14394,ECE-501,Teaching
+14397,ECON-001,Principles of Microeconomics
+14408,ECON-003,Principles of Macroeconomics
+14412,PHYS-001CL,"Waves,Optics&Modrn Phys Lab"
+14419,ECON-002,Market Imperfections & Policy
+14433,PHYS-002A,Physics-Mechanics
+14437,LTTH-210A,Literary Scholarship
+14438,ECON-004,Financial Accounting
+14444,HIUS-181,Topics in 20th Century U.S.
+14453,ECON-005,Data Analytics/Social Sciences
+14468,LTTH-250,Writing and Theory
+14471,PHYS-002B,Phys-Electricity and Magnetism
+14479,ECON-086,10x10 Career Lessons
+14487,PHYS-002C,"Physics-Flu,Wav,Thrmdyn,Optics"
+14499,ECON-100A,Microeconomics A
+14502,PHYS-002CL,Phys Lab-Elec&Magnetism
+14520,PHYS-002D,Phys-Relativity&Quantm Physics
+14523,LTWL-012,Migration and Literature
+14529,ECON-100B,Microeconomics B
+14533,PHYS-002DL,Physics Lab-Modern Physics
+14535,LTWL-101,Death & Life in Ancient Egypt
+14550,ECON-100BH,Honors Microeconomics B
+14569,ECON-100C,Microeconomics C
+14593,ECON-102,Globalization
+14601,PHYS-004C,Phys Majrs-Elect & Magnetism
+14603,ECON-103,International Monetary Relatns
+14668,ECON-110A,Long Run Macroeconomics
+14676,LTWL-172,Special Topics in Literature
+14692,ECON-110AH,Honors Macroeconomics A
+14701,ECON-110B,Short Run Macroeconomics
+14721,PHYS-012,Energy and the Environment
+14722,LTWL-194,Capstone Course for Lit Majors
+14733,PHYS-039,Phys Intro Spec. Topics
+14736,LTWR-008A,Writing Fiction
+14756,LTWR-008B,Writing Poetry
+14758,PHYS-100A,Electromagnetism I
+14783,HUM-001,AncientMediterraneanWorld
+14794,ECON-120A,Econometrics A
+14804,HUM-003,"Renaissance,Reform&Early Europ"
+14806,PHYS-110A,Mechanics I
+14808,LTWR-100W,Short Fiction Workshop
+14822,ECON-120B,Econometrics B
+14828,LTWR-102W,Poetry Workshop
+14838,LTWR-103C,Digital Poetics Craft
+14844,ECON-120C,Econometrics C
+14856,PHYS-122,Experimental Techniques
+14865,LTWR-106C,Sci Fi Fantasy Craft
+14882,HUM-088,LearnSustainableWell-Being/Hum
+14884,HUM-100,Advanced Topics/Humanities
+14890,ECON-130,Public Policy
+14893,PHYS-130B,Quantum Physics II
+14896,ECON-131,Economics of the Environment
+14914,LTWR-113C,Intercultural Writing Craft
+14920,PHYS-133,Condensed Matter/MATL Sci. Lab
+14928,LTWR-114C,Graphic Texts Craft
+14941,LTWR-115C,Experimental Writing Craft
+14942,PHYS-139,Special Topics
+14947,PHYS-140A,Statistical & Thermal Phys I
+14961,ECON-140,Econ of Health Care Finance
+14971,PHYS-141,Comp Phys I:Prob Models & Simu
+14975,PHYS-142,Comp Phys II:PDE & Matrix Modl
+14976,ECON-141,Economics of Health Consumers
+14988,HUM-501,Apprentice Teaching
+15007,ECON-121,Applied Econometrics & Data
+15012,LTWR-126W,Creative Nonfiction Workshop
+15028,VIS-143A,Virtual Environments I
+15033,PHYS-161,Black Holes
+15034,LTWR-129C,Distributing Literature Craft
+15039,PHYS-162,Modern Cosmology
+15055,LTWR-148,Theory for Writers
+15071,LTWR-194,Capstone Course for Writing
+15080,PHYS-175,Biological Physics
+15084,INTL-100,Analysis/Argument/Real-World
+15088,INTL-101,Cult & Society/Intrn'l Perspec
+15095,LTWR-215,Cross-Genre Workshop
+15098,INTL-102,"Econ, Politics & Intn'l Change"
+15108,PHYS-191,Undergraduate Seminar/Physics
+15109,INTL-190,Seminar/International Studies
+15122,INTL-190H,Honors Seminar/ Int'l Studies
+15130,MAE-002,Intro to Aerospace Engineering
+15138,PHYS-200A,Theoretical Mechanics I
+15141,MAE-008,MATLAB Program for Engr Analys
+15143,MAE-021,Aerospace Materials Science
+15148,MAE-030A,Statics & Intro to Dynamics
+15149,PHYS-201,Mathematical Physics
+15151,GPCO-401,Microeconomics for Policy/Mgmt
+15152,PHYS-202,Physics Estimates
+15161,MAE-040,Linear Circuits
+15186,PHYS-210B,Nonequilib/Statistical Mechans
+15189,MAE-108,Prob & Stats/Method for Eng
+15192,PHYS-211A,Solid-State Physics I
+15195,MAE-114,Space Propulsion
+15197,PHYS-212A,Quantum Mechanics I
+15228,PHYS-215A,Quantum Fields I
+15242,PHYS-215D,Sel. Topics in Quantum Fields
+15250,GPCO-453,Quantitative Methods I
+15252,PHYS-217,Fld Thry/Renormaliztn Group
+15272,PHYS-219,Condensed Matter/MATL Sci. Lab
+15273,MAE-143A,Signals and Systems
+15277,MAE-144,Embedded Control & Robotics
+15291,MAE-148,Intro to Autonomous Vehicles
+15299,MAE-152,Intro Manual and CNC Machining
+15305,MAE-154,Prod. Desgn. & Entrepreneur.
+15320,GPCO-412,Globalization
+15322,MAE-165,Fatige&Failure Anlys/Eng Comp
+15326,PHYS-225A,General Relativity
+15347,MAE-180,Orbital Mechanics
+15361,MAE-190,Topics in Mech and Aero Eng
+15368,MAE-201,Mechanics of Fluids
+15371,MAE-202,Thermal Processes
+15373,MAE-203,Solid Mechanics and Materials
+15384,GLBH-181,Essentials of Global Health
+15385,MAE-208,Mathematics for Engineers
+15398,GPEC-486,Economic/Social Develop/China
+15406,PHYS-241,Comp Phys I:Prob Models & Simu
+15413,PHYS-242,Comp Phys II:PDE & Matrix Modl
+15422,MAE-221A,Conduction Heat Transfer
+15440,PHYS-250,Condensed Matter Physics Sem
+15443,PHYS-251,High Energy Physics Seminar
+15445,PHYS-252,Plasma Physics Seminar
+15449,PHYS-253,Astrophysics & Cosmology Sem
+15457,PHYS-254,Biophysics Seminar
+15463,PHYS-255,Biophysics Talks
+15507,PHYS-275,Biological Physics
+15528,PHYS-298,Directed Study in Physics
+15530,PHYS-299,Thesis Research in Physics
+15531,PHYS-500,Introduction/Physics Teaching
+15535,POLI-005D,Data Analytics/Social Sciences
+15546,POLI-010D,Intro/Poli Sci:Amer Politics
+15551,POLI-011D,Intro/Poli Sci:Compar Politics
+15557,POLI-012D,Intro/Poli Sci:Int'l Relations
+15563,POLI-013D,Power and Justice
+15584,POLI-030D,Political Inquiry
+15618,SYN-002,Inquiring/Changing Planet
+15620,SYN-100,Engaging/Changing Planet
+15622,SYN-150,Defining Scope/Changing Planet
+15633,TDAC-106,Chekhov Acting
+16433,EDUC-X312.17,Culture and Inclusion
+16437,EDUC-X312.18,Language/Language Development
+16441,EDUC-X312.19,Assessment of English Learners
+16444,EDUC-X312.20,Foundations/Methods of Eng Dev
+16447,EDUC-X312.21,CTEL Portfolio
+16705,BUSA-X400.09,Financial Acctg/Non Accountant
+16710,EDUC-X313.00,Orientation: CLAD Through CTEL
+16736,BUSA-X400.17,Employee and Labor Relations
+16751,BUSA-X400.20,Training & Development
+16813,BUSA-X400.34,Accounting-Adv
+16815,BUSA-X400.35,Accounting-II/Int
+16817,BUSA-X400.36,Accounting I-Elementary
+16820,BUSA-X400.37,Accounting-II/Elem
+16858,BUSA-X400.47,Fed Individual Income Taxatn
+16860,BUSA-X400.48,Auditing
+16863,BUSA-X400.49,Cost Accounting
+16866,BUSA-X400.50,Business & Entrepreneurship
+16905,BUSA-X400.63,Principles of Facilities Mgt
+16908,BUSA-X400.64,Project Management Essentials
+16914,BUSA-X400.66,Systems Engineering Management
+17001,BUSA-X400.94,Accounting-I/Int
+17052,BUSA-X401.09,Work Team Concepts/Skills
+17060,EDUC-X314.15,R&L: Culture of Literacy
+17063,EDUC-X314.16,"R&L: Assess, Inter, & Instruct"
+17066,EDUC-X314.17,"R&L: Resrch, Instruct, & Inter"
+17069,EDUC-X314.18,"R&L: Pln,Org& Prd Ltrcy Instrc"
+17072,EDUC-X314.19,Reading & Literacy Portfolio
+17135,BUSA-X401.30,Financial Statement Analysis
+17384,EDUC-X315.10,K-12 Pedagogy for Teachers
+17489,DSGN-X400.00,Foundations of Design
+17490,EDUC-X315.37,"Teach Read, Beginning Readers"
+17497,DSGN-X400.02,Branding and Identity Design
+17565,AMES-X400.19,HVAC Design Calculations
+17676,BUSA-X402.63,Intellectual Property Law
+17811,BUSA-X403.01,Business Law for Managers
+18037,EDUC-X316.93,Mentor Induction Debrief
+18074,BUSA-X403.68,Business Communications Skills
+18077,EDUC-X317.04,Year 1 Reflection
+18081,EDUC-X317.05,Induction Inquiry II
+18097,EDUC-X317.10,Mentor Y1 Reflection
+18100,EDUC-X317.11,Mentor Induction Inquiry II
+18138,EDUC-X317.22,R&L: Fieldwork
+18142,EDUC-X317.23,Induction ILP
+18146,EDUC-X317.24,Mentor ILP
+18342,BUSA-X404.39,Financial Management
+18350,BUSA-X404.41,Business Decision Making
+18645,BUSA-X405.29,Taxation of the Busines Entity
+18649,BUSA-X405.30,BioBusiness
+18655,BUSA-X405.31,Workplace Ethics
+18675,BUSA-X405.37,Principles of Patents
+18688,BUSA-X405.41,Patent Searchng/Intrnet Resrch
+18811,ECE-X400.51,Signals & Systems
+18911,EDUC-X400.90,Tchg Gifted/Recog Indiv Diff
+18914,EDUC-X400.91,Current Issues in Adult Educ
+18922,EDUC-X400.93,Intro/Tchg English as Sec Lang
+18933,EDUC-X400.96,Foundations of Adult Learning
+18942,EDUC-X400.99,GATE/Differenting/Curriculum
+18946,EDUC-X401.00,Program Development/Gifted
+18949,EDUC-X401.01,Strategies/Tch Gifted/Talented
+19002,ECE-X401.05,Embedded Linux
+19021,EDUC-X401.21,Counsel Stdnt-LearnDiffer&ADHD
+19022,ECE-X401.53,Intro to Embedded Systems
+19052,EDUC-X401.30,Principles College Counseling
+19055,EDUC-X401.31,Strategies/College Counseling
+19059,EDUC-X401.32,College Counseling Practicum
+19087,ECE-X401.71,RFIC Design
+19147,BUSA-X406.82,Patent Drafting
+19180,BUSA-X406.93,Proj Mgt/Scientific/Rsrch Envr
+19264,BUSA-X407.15,Project Planning & Scheduling
+19267,BUSA-X407.16,Biotech Patent Law
+19354,ECE-X402.44,Mixed Signal Design
+19360,BUSA-X407.39,CA Environmental Quality Act
+19362,ECE-X402.46,GIS II: Spatial Analysis
+19394,EDUC-X402.22,Departmentalized ELD K-12
+19463,ECE-X402.72,GIS Capstone Project
+19512,ECE-X402.84,Distributed Energy Resources
+19536,ECE-X402.90,Embedded Real-Time Operate Sys
+19540,ECE-X402.91,Embedded Contrler Prog w/EmbC
+19551,ECE-X402.94,RF PLL Synthesizers
+19563,ECE-X402.97,Intro to IoT & Embedded Syst
+19579,ECE-X403.01,SystemVerilog for Design&Verif
+19595,BUSA-X408.01,Foundation Principles
+19603,BUSA-X408.03,Transformational Leadership
+19622,EDUC-X402.79,Pillars of Dual Language
+19625,EDUC-X402.80,Curriculum Dvlpmnt / Dual Lang
+19626,ECE-X403.13,Operating Smart Power Grids
+19633,EDUC-X402.82,Educ Leadership / Dual Languag
+19637,EDUC-X402.83,Assess & Accntblty / Dual Lang
+19672,ECE-X408.58,Embedded Machine Learning
+19677,BUSA-X408.22,Real Estate Tax & Accounting
+19685,ECE-X408.62,GEISA Fundamentals
+19813,EDUC-X403.23,ES Induction Inquiry II
+19841,EDUC-X403.29,ES Mentor Induction Inq II
+19850,BUSA-X408.60,Agile Power Practices
+19870,BUSA-X408.64,Fraud and Forensic Accounting
+19896,LAFR-X400.01,French Communication II
+19899,BUSA-X408.69,TaxationPracticeProced&Ethics
+19914,BUSA-X408.72,Components of Compensation
+19915,LAFR-X400.03,French Communication III
+19924,BUSA-X408.74,Strategic Talent Acquisition
+19925,LAFR-X400.04,French Refining Fluency Part A
+19930,BUSA-X408.75,Fund of Employee Benefits
+19939,BUSA-X408.77,Performance Management
+19954,BUSA-X408.79,Digital Marketing
+19960,BUSA-X408.80,Content Marketing
+19977,LAFR-X400.10,French Communication V
+20167,LAFR-X400.45,French Communication VI
+20178,BUSA-X409.22,Organizational Behavior
+20183,BUSA-X409.23,Business Presentations
+20186,BUSA-X409.24,Digital Marketing Analytics
+20220,BUSA-X409.30,Donor Relations & Stewardship
+20239,EDUC-X404.08,Tchg/Testg ESL Listeng/Speakg
+20246,LAGM-X400.00,German Communication I
+20249,BUSA-X409.35,Influencer Marketing
+20251,EDUC-X405.56,Teaching Community College
+20272,BUSA-X409.40,Elements of Marketing
+20297,EDUC-X412.31,Adv.CrclmDesignF/OnlineClsrm
+20302,EDUC-X412.32,Teaching Online Practicum
+20308,EDUC-X412.33,CC Capstone Portfolio
+20324,BUSA-X409.50,Project Management Boot Camp
+20329,BUSA-X409.51,Market Research
+20363,EDUC-X413.82,Differentiation Sys Design I
+20364,BUSA-X409.57,Grant Writing for Nonprofits
+20369,BUSA-X409.58,Internal Auditing
+20378,EDUC-X413.91,Differentiation Sys Design II
+20379,BUSA-X409.60,Lean Healthcare Green Belt
+20431,BUSA-X409.66,Workplace Investigations
+20442,BUSA-X409.68,Lean Healthcare Yellow Belt
+20444,LAJA-X400.00,Japanese Communication I
+20457,BUSA-X409.70,Project Cost Management
+20461,BUSA-X409.71,Project Risk Management
+20469,EDUC-X414.29,DifferentiationSystemDesignIII
+20475,BUSA-X409.74,DS: Understanding Amer Wrkplc
+20496,BUSA-X409.78,Leading & Managing Change
+20519,BUSA-X409.82,Corp Relations/Partnership
+20527,BUSA-X409.84,Intro to Fundraising & Devo
+20531,LAJA-X400.12,Japanese Communication V
+20539,LAJA-X400.13,Japanese Communication VII
+20561,BUSA-X409.91,Lean Six Sigma Yellow Belt
+20566,BUSA-X409.92,HealthFinModel
+20571,BUSA-X409.93,Audit and Risk Governance
+20584,BUSA-X409.95,Lean Six Sigma Black Belt
+20600,BUSA-X409.98,Health Fin Acct
+20605,BUSA-X409.99,Fin Analysis Tableau
+20639,ARCH-900.05,Revit Architecture I
+20643,BUSA-X410.06,LSS Green Belt
+20735,BUSA-X410.23,Annual Giving
+20740,BUSA-X410.24,Major Gifts and Planned Giving
+20749,BUSA-X410.26,Strategic Financial Management
+20752,ARCH-X400.00,AutoCAD III
+20759,ARCH-X400.01,AutoCAD I
+20762,BUSA-X410.28,Gov & Not For Profit Acct
+20767,BUSA-X410.29,Info Systems Controls Audit I
+20777,BUSA-X410.31,Digital Marketing en Español
+20781,BUSA-X410.32,AI Fundamentals for Leadership
+20784,ARCH-X400.04,AutoCAD II
+20787,BUSA-X410.33,Business Strategy
+20797,BUSA-X410.35,Bus Analytics for Managers
+20803,BUSA-X410.36,Power and Politics
+20812,BUSA-X410.38,Managing HR: An Overview
+20817,BUSA-X410.39,Scale Fast: Rev & Grwth Strats
+20820,ARCH-X400.09,Revit I: Introduction
+20822,BUSA-X410.40,Starting Your Business
+20827,BUSA-X410.41,Information System Controls II
+20829,ARCH-X400.10,Revit II: Intermediate
+20836,BUSA-X410.43,Accounting Ethics
+20838,ARCH-X400.11,Revit III
+20842,BUSA-X410.44,AI in Digital Marketing
+20847,BUSA-X410.45,AI-Driven SEO
+20853,BUSA-X410.46,Bus Bookkeeping - An Intro
+20858,BUSA-X410.47,Applied Bookkeeping: Trans Tax
+20879,BUSA-X410.51,Internship and Career Dev Sem
+21050,ART-813.15,Cntmpry Floral Dsgn Fall Flwr
+21194,EDS-XSD324A,Teaching Impacts of Technology
+21200,EDS-XSD324B,Comp Thinking & BB Prog
+21206,EDS-XSD324C,Learn to Teach Java
+21212,EDS-XSD324D,Teaching Methods in Comp Sci
+21303,EDUC-800.12,Reading & Literacy Orientation
+21451,EDUC-X422.65,IC ES Mentor Inquiry II
+21457,EDUC-X422.66,IC ES Inquiry II
+21586,EDUC-800.61,TESL Practicum
+21766,EDUC-900.08,GRE Test Prep
+21784,EDUC-900.11,MCAT Test Prep
+21922,EDUC-900.34,Enlistment ASVAB Test Prep
+22171,CDEV-700.00,Course Development- Photo
+22180,LANG-901.19,Discuss TV/Video Int ESL
+22234,LANG-901.53,Volunteer Lead ESL Adv
+22240,LANG-901.57,Adv. Academic Skills
+22252,LANG-901.63,High-Int Academic Skills
+22257,LANG-901.69,Pre-Int/Int Academic Skills
+22270,LANG-901.80,High-Int/Adv Conv/Culture
+22313,EDUC-X424.08,Child Growth and Development
+22326,EDUC-X424.10,DAP in Early Childhood
+22332,EDUC-X424.11,Home and School Collaboration
+22338,EDUC-X424.12,Obs. & Assessment in ECE
+22343,LANG-902.28,Professional English Elect. I
+22344,EDUC-X424.13,Language & Literacy in ECE
+22350,EDUC-X424.14,Pos. Behavior Support in ECE
+22356,EDUC-X424.15,Intentional Teaching in ECE
+22362,EDUC-X424.16,Early Education Portfolio
+22373,LANG-902.37,Professional Leadership Sem.
+22385,LANG-902.44,Professional Elective IV
+22408,LANG-902.53,Disc.Idioms/Slang Pre-Int/Int.
+22414,LANG-902.54,Disc.Idioms/Slang High-Int/Adv
+22426,LANG-902.56,Disc TV/Film/Vid High-Int/Adv.
+22444,LANG-902.59,IELTS L/S High-Int/Adv.
+22456,LANG-902.61,Pre-Int/Int. Comm. Grammar
+22462,LANG-902.62,High-Int. Comm. Grammar
+22474,LANG-902.64,High-Int/Adv. Comm. Grammar
+22486,LANG-902.66,Military English
+23248,LANG-X400.09,ASL I
+23256,EDUC-X425.76,ES Induction ILP
+23259,LANG-X400.10,ASL II
+23262,EDUC-X425.77,ES Mentor ILP
+23268,EDUC-X425.78,IC ES Induction ILP
+23274,EDUC-X425.79,IC ES Mentor Induction
+23357,LANG-X400.26,Comm in Business Settings
+23358,EDUC-X425.93,Teach and Learn Online
+23363,LANG-X400.27,Mastering Public Speaking
+23365,EDUC-X425.94,Learning Design & Technologies
+23377,EDUC-X425.96,Digital Media Best Pract OL Ed
+23381,LANG-X400.30,Career Success: ESL Workshop
+23389,EDUC-X425.98,Instructional Design Portfolio
+23393,LANG-X400.32,Mastering Eng Pronunciation
+23398,LANG-X400.33,ASL III
+23404,LANG-X400.34,ASL IV
+23651,EDUC-X426.42,Leading ECE Programs
+23661,EDUC-X426.43,Principles Play-Based Learning
+23667,EDUC-X426.44,ECE Program Administration
+23678,EDUC-X426.45,Supervision of ECE Teams
+23869,LASP-X400.01,Spanish Communication I
+23880,LASP-X400.02,Spanish Communication II
+23891,LASP-X400.03,Spanish Communication III
+23901,LASP-X400.04,Spanish Communication IV
+23912,LASP-X400.05,Spanish Communication V
+23922,LASP-X400.06,Spanish Communication VI
+23962,LASP-X400.11,Span Healthcare Profess II
+24263,EE-X400.60,Systems Hardware/Software Intg
+24310,LASP-X400.59,Spanish Fluency: The Caribbean
+24432,LASP-X400.82,Spanish Communication VII
+24443,LASP-X400.83,Spanish Fluency: Mexico
+24465,LASP-X400.86,SHP: Cultural Competence
+24618,EE-X401.29,Antenna Theory and Design
+24664,EE-X401.37,RF Principles & Applications
+24678,LASP-X401.50,Span Healthcare Profess I
+24699,LASP-X401.52,Span Healthcare Profess III
+24863,EE-X401.74,Fund. of Electric Power
+24874,ART-X400.02,Oil Painting I
+24912,ART-X400.06,Figure Drawing I
+24961,EE-X401.88,Fault Tolerant Systems
+25004,EE-X401.94,Intro to EMC & EMI
+25040,EE-X401.98,Wireless Comm Net Conn
+25047,EE-X401.99,Wireless Comm Net Arch.
+25055,EE-X402.00,Wireless Comm Tech Internship
+25090,EE-X410.04,Basic PCB Design
+25098,EE-X410.05,PCB Fab Technology
+25111,EE-X410.06,RF Transceiver Design
+25572,LAW-X400.00,Intro to Legal System
+25789,LAW-X400.18,Civil Litigation I
+25797,LAW-X400.19,Contracts
+25859,LAW-X400.28,Profssnl Ethics f/Legal Assts
+26092,MUS-X400.06,Piano I
+26095,ART-X401.66,Drawing: Focus on Perception
+26116,MUS-X400.09,Piano II
+26166,LAW-X400.70,Computers for Paralegals
+26194,LAW-X400.74,Intro to Tribal Legal Studies
+26197,MUS-X400.21,Singing I
+26206,ART-X401.80,Introduction to Painting
+26235,LAW-X400.80,Business Law
+26272,CHEM-X400.04,Analytical Chemistry
+26275,MUS-X400.32,Guitar I
+26278,CHEM-X400.05,Clinical Chemistry
+26285,CHEM-X400.06,General Chemistry I
+26292,CHEM-X400.07,General Chemistry I with Lab
+26296,MUS-X400.35,Singing II
+26300,CHEM-X400.08,General Chemistry II
+26301,ART-X401.91,Creative Process I
+26304,MUS-X400.36,Guitar II
+26308,CHEM-X400.09,General Chemistry II with Lab
+26315,CHEM-X400.10,Organic Chemistry
+26324,CHEM-X400.11,Organic Chemistry II
+26331,CHEM-X400.12,Organic Chemistry Laboratory
+26430,MUS-X400.54,Music Theory 101
+26656,ART-X402.42,Acrylic Painting I
+26728,ART-X402.53,Drawing: Refining Technique
+27108,ART-X403.11,Adobe Photoshop I
+27651,ART-X403.85,Intro to Mosaic Sculpture
+27750,ART-X403.98,Fundamentals Photo Lighting
+27910,LING-900.12,Intro to Transl and Interp
+27914,ART-X404.20,Western Art- Part I
+27951,ART-X404.26,Western Art: Part II
+27963,ART-X404.28,Intro to Illustration
+28403,ART-X404.83,Plein Air- Working Method
+28592,NURS-X400.14,"Emergency Dept Nursing, Part I"
+28598,NURS-X400.15,"Emerg. Dept Nursing, Part II"
+28645,ENVR-X400.00,Conservation Psychology
+28688,ENVR-X400.05,Community Engagement
+28709,ENVR-X400.08,Writing CEQA EIR
+28717,ENVR-X400.09,Advanced CEQA
+28724,ENVR-X400.10,CEQA in Practice
+28733,ENVR-X400.11,CEQA Project Management
+28740,ART-X405.27,Illustrator
+28822,ART-X405.35,User Interface Design
+28952,OSHR-700.01,Politics & Current Events 1
+28989,ART-X405.57,Animation I
+29003,LING-X400.00,Ling/Gram Analysis/Lang Tchr
+29013,OSHR-700.10,Activities & Events 1
+29018,OSHR-700.11,Activities & Events 2
+29025,OSHR-700.12,Activities & Events 3
+29027,LING-X400.04,Theory/Practice of Translation
+29030,OSHR-700.13,Activities & Events 4
+29069,OSHR-700.19,Art & Humanities 1
+29077,OSHR-700.20,Art & Humanities 2
+29093,LING-X400.11,Spanish/English Translation II
+29187,OSHR-700.37,History 1
+29195,ART-X405.87,Adobe AfterEffects
+29227,OSHR-700.43,Literature 1
+29233,OSHR-700.44,Literature 2
+29240,OSHR-700.45,Literature 3
+29248,LING-X400.31,Theories/Sec Lang Acquisition
+29292,LING-X400.37,Consecutive Interpretation
+29300,LING-X400.38,Simultaneous Interpretation
+29308,LING-X400.39,English/Spanish Translation I
+29338,LING-X400.41,Grammar and Editing I
+29425,LING-X400.48,Teaching Listening Skills
+29462,ART-X406.25,Watercolor I
+29497,ART-X406.29,Photo I
+29541,ART-X406.35,Child Book Illustration II
+29564,ART-X406.38,Principles User Exp (UX)
+29570,ART-X406.39,UX Design: Methods
+29774,ART-X406.65,Intro to Adobe CC
+29859,OSHR-701.31,Literature 4
+29979,LING-X401.06,IntroductionToTranslation
+30004,LING-X401.09,IntroductionToInterpretation
+30092,ART-X407.05,Digital Photo Workflow
+30294,ART-X407.30,Food and Product Photography
+30309,ART-X407.32,Color Theory for Photographers
+30398,ART-X407.43,Foundations of Portraiture
+30437,PATH-X400.18,Intro to Clinical Hematology
+30485,LIPO-X400.00,Portuguese Communication I
+30492,LIPO-X400.01,Portuguese Communication II
+30498,LIPO-X400.02,Portuguese Communication III
+30511,LIPO-X400.04,Portuguese Communication IV
+30742,BENG-900.11,BioEng Research Proposal
+30769,BENG-900.16,Mammalian Cell & Tissue
+31186,BIOL-800.07,Pharma & Biotech Drugs Journey
+31716,BIOL-900.72,Fruit Fly Neurobio & Behavior
+31728,BIOL-900.74,Applied Bioinfo & Biostats
+31733,BIOL-900.75,Fundamentals Bioinfo & Biostat
+31811,CSE-901.03,FTRS: Intro to Robotics w/JS
+31918,FPM-X400.54,AddctnPrblm:PrvtnPblcHlth/Plcy
+32189,CSE-901.62,Python and Mathematics for ML
+32415,CSE-901.94,Digital Logic Circuits
+32721,FPM-X401.73,Drug Development Process
+32841,FPM-X401.89,Regulation of Drugs Biologics
+32944,FPM-X402.04,Good Clinical Practices
+32951,FPM-X402.05,Science of Clincl Trial Design
+32971,FPM-X402.08,Site & Investigator Recruitmnt
+33081,FPM-X402.26,Case Management Intensive
+33470,FPM-X402.80,OSHA 500 - Trainer for Const.
+33478,FPM-X402.81,OSHA 501 - Trainer for GI
+33583,FPM-X402.96,OSHA 521 - Industrial Hygiene
+33589,FPM-X402.97,OSHA 2255 - Princples of Ergo
+33608,FPM-X402.99,OSHA 510 - OSHA Stnds Const.
+33615,FPM-X403.00,OSHA 3095 - Electrical Stands
+33621,FPM-X403.01,OSHA 3015 - Excavation & Trnch
+33635,FPM-X403.03,OSHA 2225 - Respiratory
+33670,FPM-X403.08,Trainer Course - Trenching
+33753,FPM-X403.20,Anatomy & Physiology AH
+33858,LIT-X400.69,Women and Madness
+33881,FPM-X403.38,Finan Mngmt of Clinical Trials
+34023,LIT-X400.93,History of Children Lit
+34055,FPM-X403.66,OSHA 511 - OSHA Standards GI
+34070,FPM-X403.68,OSHA 7000
+34148,FPM-X403.79,OSHA 7500 - Intro to S&H Mgmt
+34207,FPM-X403.88,Human Subjects Protect & IRBS
+34321,FPM-X404.03,OSHA 7205 - Health Hazard
+34335,FPM-X404.05,OSHA 7005 - Public Warehousing
+34369,FPM-X404.10,OSHA 7105 - Intro Evacuation
+34389,FPM-X404.13,OSHA 2055 - Cranes
+34527,FPM-X404.32,Exercise Physiology
+34671,THEA-X400.07,Introduction to Acting
+34831,FPM-X404.75,Elctrcl Sfty Stndrds-NFPA 70E
+34890,FPM-X404.84,OSHA 5400 - Maritime Trainer
+34892,THEA-X400.40,Somatic Movement & Dance
+34922,FPM-X404.89,OSHA 3115 - Fall Protection
+34956,FPM-X404.93,Understanding Oncology
+34963,FPM-X404.94,Monitoring Oncology Trials
+34985,FPM-X404.97,OSHA 7115 - Lockout/Tagout
+35026,CSE-X400.28,Intro to Programming
+35081,FPM-X405.11,OSHA 5109 - Cal/OSHA Stnds Con
+35087,FPM-X405.12,OSHA 5119 - Cal/OSHA Stnds GI
+35159,CSE-X400.49,Data Structures&AlgorithmC/C++
+35183,FPM-X405.28,Fire and Life Safety
+35239,FPM-X405.37,OSHA 502 - Update Const Trnr
+35246,FPM-X405.38,OSHA 503 - Update for GI Trnrs
+35252,FPM-X405.39,Cal OSHA Construction Update
+35260,FPM-X405.40,OSHA 5039 - Cal/OSHA Update GI
+35265,FPM-X405.41,OSHA 7845 - Recordkeeping Rule
+35333,FPM-X405.52,Overview Alcohol/Drug Problems
+35346,FPM-X405.54,Occupational Safety & Security
+35394,FPM-X405.62,OSHA 5402 - Update Marit Trnr
+35412,FPM-X405.65,OSHA 5410 - Maritime Standards
+35418,FPM-X405.66,Trainer Course - Fall Protect
+35483,FPM-X405.77,Infection Prev./Clinical Epid
+35541,FPM-X405.87,BehaviorChange/LifestyleCoach
+35671,FPM-X406.08,Figures Tables & Graphs
+35731,FPM-X406.17,Pathophysiology Humn Dis
+35740,FPM-X406.18,Food as Medicine
+35745,FPM-X406.19,Business Integrative Nutrition
+35752,FPM-X406.20,Advanced Nutrition Topics
+35793,FPM-X406.27,Capstone: Med Ed Materials
+35798,FPM-X406.28,Capstone: Reg. Writing
+35809,FPM-X406.30,Capstone: Jrn Art. Pub Dev
+35823,FPM-X406.32,Medical Terminology
+35856,FPM-X406.37,OSHA 7505 - Intro to Incident
+35863,FPM-X406.38,OSHA 3085 - Scaffolding
+35874,FPM-X406.40,Workers Compensation F/Safety
+35887,FPM-X406.42,Safety Leadership II
+35978,FPM-X406.56,Prjct Mgt Clinical Trials
+35992,FPM-X406.58,Communicating RWE
+36098,FPM-X406.75,Medical Ethics
+36102,FPM-X406.76,Medical Documentation
+36152,FPM-X406.84,Human Anatomy with Lab
+36158,FPM-X406.85,Documents in Drug Development
+36165,FPM-X406.86,OSHA 2455 - S&H Mgmt Pgm
+36201,FPM-X406.91,OSHA 7515 - JHA
+36208,FPM-X406.92,Health & Wellness Coaching
+36214,FPM-X406.93,Coaching Structure
+36228,FPM-X406.95,Heat Stress
+36235,FPM-X406.96,Intro to Med Writing & Editing
+36260,FPM-X407.00,Intro to Event Safety
+36312,FPM-X407.07,"Crowd Safety, Planning & Mgmt"
+36337,FPM-X407.11,Event Safety Planning & Design
+36374,FPM-X407.17,CT RSCH Fundamentals
+36408,FPM-X407.22,Techniques of Eval for Fire
+36428,FPM-X407.25,CAMCT
+36435,FPM-X407.26,Statistics and Research
+36649,BIOL-X401.89,Toxicology
+36947,BIOL-X402.36,Bioinformatics Fundamentals
+36959,BIOL-X402.37,Genomic Sequencing Technologis
+37211,BIOL-X402.75,Nutrition: The Lifecycle
+37273,EDUC-X300.08,US Constitution/Prep & Exam
+37436,BIOL-X403.15,Biostatistical Methods I
+37442,BIOL-X403.16,Biostatistical Methods II
+37464,BIOL-X403.20,Foundations Nutrition I
+37469,BIOL-X403.21,Foundations Nutrition II
+37476,BIOL-X403.22,Overview RA Med Dev
+37482,BIOL-X403.23,QMS Medical Device
+37489,BIOL-X403.24,Design Control/Med Device
+37501,BIOL-X403.26,Post Market/Med Device
+37506,BIOL-X403.27,Process Data Genomics
+37515,BIOL-X403.29,Introductory Pharmacology
+37550,BIOL-X403.35,Microbiology with Lab
+37568,BIOL-X403.38,Genetics
+37580,BIOL-X403.40,Human Physiology
+37586,BIOL-X403.41,QC Operations
+37587,EDUC-X300.57,Persp. Health Educ/Teacher
+37625,BIOL-X403.48,General Biology I with Lab
+37677,BIOL-X403.57,Biochemistry
+37683,BIOL-X403.58,Cell & Molecular Biology
+37688,BIOL-X403.59,Genetic Counseling
+37694,BIOL-X403.60,Gen Bio I
+37718,BIOL-X403.64,Gen Bio II w/ Lab
+37731,BIOL-X403.66,Human Anatomy
+37739,BIOL-X403.67,Medical Microbiology
+37746,BIOL-X403.68,Human Physiology with Lab
+37765,BIOL-X403.71,Immunology
+37791,BIOL-X403.74,Modern Omics
+37802,BIOL-X403.76,Cancer Biology
+37808,BIOL-X403.77,Epidemiology
+37815,BIOL-X403.78,Present & Future of DDD
+37821,BIOL-X403.79,Essentials of Drug Dis&Dev
+37853,BIOL-X403.84,Virology
+37866,BIOL-X403.86,Medical Neurology and Cardio
+37883,BIOL-X403.89,Cellular Foundations of Med
+37890,BIOL-X403.90,Biochemical Foundations of Med
+37912,BIOL-X403.94,Next Gen Modalities/Drug Dev
+37935,BIOL-X403.99,Cell and Molecular Biology Lab
+37964,BIOL-X404.05,Biostatistics
+38011,CSE-X404.75,C/C++ ProgI:Fund Prog Concepts
+38019,CSE-X404.76,C/C++ ProgII: Dynamic Memory
+38026,CSE-X404.77,C/C++ ProgIII: Prog W/Obj
+38033,CSE-X404.78,C/C++ Prog IV: Advan Prog
+38049,CSE-X404.81,Java Prog III: OOJP
+38055,CSE-X404.82,Java Prog IV: Advanced Java
+38219,EDUC-X301.45,The Reading Process
+38225,EDUC-X301.46,Mainstreaming/Special Child
+38250,EDUC-X301.50,Integ Tech in Educ K-12 Levl 1
+38255,EDUC-X301.51,Integ Tech in Educ K-12 Levl 2
+38332,CSE-X405.34,C# Programming I
+38488,BIOM-X400.01,Biomed Research Practicum I
+38771,CSE-X406.03,C# Programming II
+39191,BUSA-800.61,Crafting Unique Personal Brand
+39198,BUSA-800.62,Interpersonal Communication
+39205,BUSA-800.63,Navigating Conflict
+39212,BUSA-800.64,Uncovering Unconscious Bias
+39218,BUSA-800.65,Lean Six Sigma Cinturón Blanco
+39371,BUSA-900.17,FTRS Business Decision Making
+39394,CSE-X407.06,C# Programming III
+39506,PHYS-X400.24,Electricity And Magnetism
+39512,PHYS-X400.25,Mechanics and Thermodynamics
+39520,PHYS-X400.26,General Physics I
+39528,PHYS-X400.27,General Physics II
+39536,PHYS-X400.28,Elements of Modern Physics
+39711,BUSA-900.70,FTRS: Principles of Marketing
+39974,CSE-X407.98,Instructional Technology Tools
+39982,CSE-X407.99,Enhnc OL Crse/Stremng&Mltimed
+40411,LTIT-X400.00,Italian Communication I
+40447,LTIT-X400.03,Italian Communication III
+40833,CSE-X409.33,Intro SQL Programming Concepts
+40929,CSE-X409.48,Intermediate SQL Programming
+41202,CSE-X409.91,GIS I: Introduction to GIS
+41496,WCWP-X401.05,Science Writing I
+41701,CSE-X410.69,Introduction to Statistics
+41737,WCWP-X401.42,"Finding Our Voices, Part I"
+41807,WCWP-X401.51,Technical Communication I
+41861,WCWP-X401.58,Writing Online Documentation
+41890,CSE-X410.97,Introduction to R Programming
+42059,WCWP-X401.86,Writing for Children I
+42318,CSE-X411.61,Adv Excel for Analysis & BI
+42340,EDUC-X307.93,Induction Portfolio
+42363,WCWP-X402.30,Science Writing II
+42399,WCWP-X402.34,Grammar Lab
+42422,WCWP-X402.36,Copyediting I
+42436,WCWP-X402.37,Copyediting II
+42450,WCWP-X402.38,Copyediting III
+42580,CSE-X411.98,Intro to Statistics using R
+42624,CSE-X412.04,Data Analytics w/ Python
+42627,WCWP-X402.61,Writing Childrens Picture Book
+42645,CSE-X412.07,Introduction to HTML & CSS
+42763,CSE-X412.21,Overview BI & Data Analysis
+42771,CSE-X412.22,Dashboards & Data Visual
+42793,CSE-X412.25,Python for Informatics
+42932,CSE-X412.43,Discrete Math
+42985,CSE-X412.50,Intermediate Excel
+43014,CSE-X412.54,Introduction to SPSS
+43042,CSE-X412.58,Fundamentals of Data Science
+43047,WCWP-X403.13,Self-Publishing
+43062,CSE-X412.60,UserExperienceMetrics
+43093,CSE-X412.64,Stats for Data Analytics
+43101,CSE-X412.65,Managing SW QA & Testing
+43109,CSE-X412.66,Software Testing for QA
+43116,CSE-X412.67,Web Perfrmnce & Test Auto
+43163,CSE-X412.73,Python Programming Fundam
+43267,CSE-X412.87,Linear Algebra for AI
+43298,CSE-X412.91,"Microgrid Design,Econ.Opt.&Sim"
+43313,CSE-X412.93,Sys.Engineering SftwreOverview
+43409,CSE-X413.05,Probability & Stats Deep Learn
+43424,MAE-X400.17,Systems Thinking
+43450,CSE-X413.10,Intermediate Python
+43466,CSE-X413.12,Deep Learning using TensorFlow
+43521,CSE-X413.19,Adv HTML and CSS
+43536,MAE-X400.30,Mech. Design with MATLAB
+43552,MAE-X400.32,IntrFEMAP&ANSYSFntElmntMdlg
+43561,MAE-X400.33,PltcPrtDsgnfInjctnMoldng
+43569,MAE-X400.34,Intro to RvrsEngnrg w/SldWrks
+43592,MAE-X400.37,Principles of Fire Prtctn Eng
+43601,MAE-X400.38,Additive Manufctrng Technology
+43616,MAE-X400.40,Fire Protection System Design
+43631,CSE-X413.33,Linux Op System Fundamentals
+43664,CSE-X413.37,AWS Academy Cloud Developing
+43671,CSE-X413.38,Data Struct and Algrthms in C#
+43692,MAE-X400.51,Blueprint Reading & Sketching
+43704,CSE-X413.43,Intuitive Lrn of Quant Comp
+43751,CSE-X413.49,AI for Finance
+43819,CSE-X413.59,Info. Security Management
+43840,CSE-X413.62,Ethical Hacking
+43847,CSE-X413.63,Cybersecurity Fundamentals
+43861,CSE-X413.65,Linux Networking
+43874,CSE-X413.67,Information Systems Auditing
+43957,CSE-X413.79,Build Automation with Jenkins
+43959,WKSP-700.45,SDUSD Induction Mentor Service
+43999,MARI-900.44,Introduction to Marine Science
+44021,CSE-X413.88,Deep Learning Computer Vision
+44047,MARI-900.51,Intro to Scientific Writing
+44055,CSE-X413.93,GIS III: Web GIS
+44069,CSE-X413.95,Fundamentals of Networking
+44118,CSE-X414.02,"Responsible AI:Tr, Ac, Ex & Pr"
+44146,CSE-X414.06,Introduction to QML
+44159,CSE-X414.07,Digital Engineering with AI
+44198,CSE-X414.13,AI Development with .NET
+45853,PSY-X400.70,Appld Sklls f/Grp Dynamic/Fac
+45854,INFO-700.34,Copyediting Information Sess
+46257,INFO-701.81,ELI Info & Resources
+46275,PSY-X402.14,Addiction&Recvry:Etiology&Phys
+46302,INFO-701.97,Project Management Information
+46331,MATH-X400.18,Precalculus
+46334,MATH-X400.19,Calculus II
+46340,MATH-X400.21,Intro to Graph Theory
+46345,MATH-X400.23,Linear Algebra
+46348,MATH-X400.24,Calculus I
+46351,MATH-X400.25,Calc III: Multivariable Calc
+46354,MATH-X400.26,Ordinary Differential Equation
+46357,MATH-X400.27,Stoch. Proc & Markov Chainsc
+46584,PSY-X403.21,Practicum Alc/Drug Abuse Cnslr
+46654,PSY-X403.46,Intro to Counseling Models
+46728,PSY-X403.74,Basic/Adv Counseling Skills
+46824,PSY-X404.08,Intro Behavioral Health System
+46830,PSY-X404.10,Laws and Ethics for SUD Tx
+46833,PSY-X404.11,Confidentiality for SUDC
+46836,PSY-X404.12,Co-occurring Conditions
+46839,PSY-X404.13,Clinical Documentation in SUDC
+46842,PSY-X404.14,Introduction to MAT
+46845,PSY-X404.15,Utilization of EHR for SUDC
+46847,PSY-X404.16,Case Management in SUDC
+46850,PSY-X404.17,Cultural Competence in SUDC
+46853,PSY-X404.18,Intro to ASAM Criteria
+46855,PSY-X404.19,The DSM for SUD Counselors
+46857,PSY-X404.20,Prof Boundaries for SUDC
+46970,MEDC-X400.18,ICD-10-CM
+46973,MEDC-X400.20,CPT/HCPCS Coding
+46983,MEDC-X400.24,Intro to Medical Coding
+46992,MEDC-X400.28,Rev Cycle 1
+46997,MEDC-X400.30,Rev Cycle 3
+47000,MEDC-X400.31,Healthcare Rev Cycle Intensive
+47005,MEDC-X402.53,Clinical Practicum I
+47457,LAAR-X400.00,Arabic Communication I
+47462,LAAR-X400.01,Arabic Communication II
+47537,LACH-X400.21,Cantonese Communication I
+47539,LACH-X400.22,Cantonese II
+47544,LACH-X400.24,Cantonese III
+47549,LACH-X400.26,Cantonese IV
+47558,LACH-X400.31,Cantonese Communication VI
+47642,LAFR-X400.00,French Communication I
+48187,PSYC-X400.29,Human Growth and Development
+48400,RMED-800.15,LC Lecture Review
+48402,RMED-800.17,Clinical Preceptor Symposium
+48473,RMED-X400.30,Pathway 1 - LC Education
+48475,RMED-X400.32,Pathway 2: Didactic
+48479,RMED-X400.36,LER
+48480,RMED-X400.37,Clinical Competencies Interns
+48482,RMED-X400.39,Lactation Education Counselor
+48483,RMED-X400.40,Foundations of Lactation Edu
+48579,BIOM-900.06,Sports Medicine
+48589,CSE-902.15,Foundations Programming & Math
+48594,CSE-X414.16,Cloud Data Architecture
+48600,EDUC-X426.64,Infant and Toddler Development
+48691,EXAM-900.00,Entrance Exam: Translation
+48716,MAE-X400.55,Applied S.E.for Space Missions
+48722,OSHR-701.82,Osher - Law and Society
+48724,OSHR-701.80,Osher - Master Class
+48725,OSHR-701.86,Membership: Quarterly
+48726,OSHR-701.85,Membership: Annual
+48727,LTIT-X400.25,Essential Italian Travelers
+48728,OSHR-701.84,Osher - Literature and History
+48737,OSHR-701.81,Osher - Premier Class
+48738,OSHR-701.89,Membership: Affiliate
+48744,OSHR-701.83,Osher - Arts and Humanities
+48757,OSHR-701.94,Osher - Sci/Med/Engineering
+48758,OSHR-701.93,Osher - IR/Politics/CurrentEvt
+48759,OSHR-701.93,Osher - IR/Politics/CurrentEvt
+48760,OSHR-701.92,Osher - Business and Economics
+48761,OSHR-701.91,Osher - Activities and Events
+48762,OSHR-701.90,Osher - Discussion Groups
+48779,LIGN-103,Ling Analysis: Syn/Sem/Prag
+48781,CSE-X414.17,Applied Gen AI and Automation
+48852,EE-X410.08,Advanced PCB Design
