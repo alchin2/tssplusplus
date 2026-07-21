@@ -52,6 +52,30 @@ PERID_TERM_ABBR = {"2": "fa"}
 # key (module_id already is).
 SUBJECT_CODE_RE = re.compile(r"^([A-Z]{2,6})[\s-]*(.*)$")
 
+# UCSD Extension (Extended Studies) offerings show up two ways in the
+# Short code: prefixed right after the dept code, e.g. "MATH-X400.18",
+# "EDS-XSD324A" (confirmed against a real fa26 scrape -- 595 courses
+# matched this shape and were legitimately excluded), or suffixed with
+# a trailing X, e.g. "LIAB-001AX", "COMM-110X" (same Extension-style
+# naming, not independently confirmed against a live scrape).
+EXCLUDED_PREFIX_RE = re.compile(r"^[A-Z]{2,6}-X")
+EXCLUDED_SUFFIX_RE = re.compile(r"X$")
+
+
+def is_excluded_code(short: str | None) -> bool:
+    if not short:
+        return False
+    code = short.strip().upper()
+    excluded = bool(EXCLUDED_PREFIX_RE.match(code)) or bool(EXCLUDED_SUFFIX_RE.search(code))
+    if excluded:
+        print(f"  skipping UCSD Extension course: {code}")
+    return excluded
+
+
+def filter_titles(titles: list[dict]) -> list[dict]:
+    """Drops titles whose code matches DEPT-X### (e.g. "MATH-X010")."""
+    return [title for title in titles if not is_excluded_code(title.get("Short"))]
+
 
 def term_slug(peryr: str, perid: str) -> str:
     abbr = PERID_TERM_ABBR.get(perid, f"p{perid}")
@@ -137,8 +161,12 @@ def main():
     if args.titles_only:
         print(f"Fetching titles for Peryr={args.peryr} Perid={args.perid}...")
         titles = fetch_titles(session, args.peryr, args.perid)
-        out_path = write_titles_csv(titles, args.peryr, args.perid)
-        print(f"Wrote {len(titles)} title records to {out_path.resolve()}")
+        kept = filter_titles(titles)
+        skipped = len(titles) - len(kept)
+        if skipped:
+            print(f"Skipped {skipped} UCSD Extension course(s) total.")
+        out_path = write_titles_csv(kept, args.peryr, args.perid)
+        print(f"Wrote {len(kept)} title records to {out_path.resolve()}")
         return
 
     scrape_all_sections(session, args.peryr, args.perid)

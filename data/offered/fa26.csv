@@ -840,13 +840,11 @@ module_id,code,name
 6711,COMM-182,Education & Global Citizenship
 6730,LIAB-001A,Arabic Conversation
 6731,MGT-444,Topics in Business Strategy
-6737,LIAB-001AX,Analysis of Arabic
 6747,MGT-252,Stat Programming & Data Inf I
 6749,PH-270,Culturl Prcepts/Health&Disease
 6753,MGT-255,Psychology and Decision Making
 6758,PSYC-218,Area Prosem/Cognitive Psyc
 6760,LIAB-001D,Arabic Conversation
-6770,LIAB-001DX,Analysis of Arabic
 6790,MGT-420,Negotiation
 6794,PSYC-221,Sensation & Perception
 6798,TDGR-270A,Design Studio I:Scenic Design
@@ -862,10 +860,7 @@ module_id,code,name
 6912,LIFR-001B,French Conversation
 6921,TDGR-276,Advanced Costume Design
 6926,LIFR-001D,French Conversation
-6934,LIFR-001AX,Analysis of French
-6944,LIFR-001BX,Analysis of French
 6953,TDGR-278,Spec Topics in Theatre Design
-6958,LIFR-001DX,Analysis of French
 6989,COMM-020,Media Analysis
 7001,LIGM-011,Elementary German Reading
 7011,COMM-040,Promotional Communication
@@ -881,16 +876,13 @@ module_id,code,name
 7054,LIGM-001D,German Conversation
 7055,PH-101,Epidemiology
 7059,MGT-299,Individual Directed Study
-7061,LIGM-001AX,Analysis of German
 7064,COMM-106,Intro to Media Industries
 7070,TDGR-288,Stage Management Seminar
 7075,PH-102,Biostatistics in Public Health
 7079,MGT-403,Business Analytics/Managers
-7085,LIGM-001DX,Analysis of German
 7087,MGT-403R,Business Analytics/Managers
 7091,MGT-404,Accounting
 7092,PSYC-247,Learning by Thinking
-7097,COMM-110X,Texting & Talking
 7098,PH-110,HealthBehavior/Chronic Disease
 7102,MGT-405,Managerial Economics
 7104,TDGR-296,Stage Management Practicum
@@ -1097,7 +1089,6 @@ module_id,code,name
 8479,HDS-060,Intro to Statistical Analysis
 8484,HDS-124,Lifespan Cognitive Development
 8493,LIIT-001A,Italian Conversation
-8497,LIIT-001AX,Analysis of Italian
 8509,CSE-011,Accel. Intro to Programming
 8514,MUS-032,Instrumental Instruction
 8516,SE-105,Structural Materials
@@ -1106,7 +1097,6 @@ module_id,code,name
 8565,MUS-043,Department Seminar
 8569,CSE-029,Sys Prog and Software Tools
 8575,LIPO-001A,Portuguese Conversation
-8587,LIPO-001AX,Analysis of Portuguese
 8601,SE-131B,Finite Element Analysis: Beam
 8615,MUS-095C,Concert Choir
 8617,SE-125,"Stats, Probability&Reliability"
@@ -1116,7 +1106,6 @@ module_id,code,name
 8636,LIPO-001D,Portuguese Conversation
 8637,MUS-095E,Chamber Orchestra
 8640,USP-124,Land Use Planning
-8642,LIPO-001DX,Analysis of Portuguese
 8644,CSE-110,Software Engineering
 8648,MUS-095F,Percussion Ensemble
 8650,MUS-095G,Gospel Choir
@@ -1125,16 +1114,13 @@ module_id,code,name
 8673,USP-125,The Design of Social Research
 8682,LISL-001A,American Sign Lang Conversatn
 8687,LISL-001AR,"ASL Language and Culture, LV 1"
-8692,LISL-001AX,Analysis of American Sign Lang
 8693,HIEA-150,"Modern Korea, 1800-1945"
 8696,MUS-095JC,Jazz Chamber Ensembles
 8698,LISL-001B,American Sign Lang Conversatn
-8699,LISL-001BX,Analysis of American Sign Lang
 8700,CSE-087,First-year Seminar
 8706,CSE-088,LearnSustainableWell-Being/CSE
 8707,LISL-001D,American Sign Lang Conversatn
 8709,CSE-089,Intro to CSE Seminar
-8710,LISL-001DX,Analysis of American Sign Lang
 8725,MUS-095L,Wind Ensemble
 8731,CSE-095,Tutor Apprentice
 8742,MUS-095W,World Music Ensembles
@@ -1151,13 +1137,10 @@ module_id,code,name
 8807,USP-141A,Life Course Scholars Research
 8813,SE-163,Nondestructive Evaluation
 8817,MUS-103A,Seminar in Composition I
-8823,LISP-001AX,Analysis of Spanish
 8824,SE-164,Sensors/Data Acquisition SE
 8825,USP-142C,Urban Challenges: Food Systems
 8827,USP-143,The US Health Care System
-8828,LISP-001BX,Analysis of Spanish
 8830,USP-144,Environ/Prevent Health Issues
-8839,LISP-001DX,Analysis of Spanish
 8857,MUS-170,Art of Sound
 8861,USP-150,Real Estate/Law & Regulation
 8866,CSE-127,Intro to Computer Security
@@ -1887,186 +1870,9 @@ module_id,code,name
 15620,SYN-100,Engaging/Changing Planet
 15622,SYN-150,Defining Scope/Changing Planet
 15633,TDAC-106,Chekhov Acting
-16433,EDUC-X312.17,Culture and Inclusion
-16437,EDUC-X312.18,Language/Language Development
-16441,EDUC-X312.19,Assessment of English Learners
-16444,EDUC-X312.20,Foundations/Methods of Eng Dev
-16447,EDUC-X312.21,CTEL Portfolio
-16705,BUSA-X400.09,Financial Acctg/Non Accountant
-16710,EDUC-X313.00,Orientation: CLAD Through CTEL
-16736,BUSA-X400.17,Employee and Labor Relations
-16751,BUSA-X400.20,Training & Development
-16813,BUSA-X400.34,Accounting-Adv
-16815,BUSA-X400.35,Accounting-II/Int
-16817,BUSA-X400.36,Accounting I-Elementary
-16820,BUSA-X400.37,Accounting-II/Elem
-16858,BUSA-X400.47,Fed Individual Income Taxatn
-16860,BUSA-X400.48,Auditing
-16863,BUSA-X400.49,Cost Accounting
-16866,BUSA-X400.50,Business & Entrepreneurship
-16905,BUSA-X400.63,Principles of Facilities Mgt
-16908,BUSA-X400.64,Project Management Essentials
-16914,BUSA-X400.66,Systems Engineering Management
-17001,BUSA-X400.94,Accounting-I/Int
-17052,BUSA-X401.09,Work Team Concepts/Skills
-17060,EDUC-X314.15,R&L: Culture of Literacy
-17063,EDUC-X314.16,"R&L: Assess, Inter, & Instruct"
-17066,EDUC-X314.17,"R&L: Resrch, Instruct, & Inter"
-17069,EDUC-X314.18,"R&L: Pln,Org& Prd Ltrcy Instrc"
-17072,EDUC-X314.19,Reading & Literacy Portfolio
-17135,BUSA-X401.30,Financial Statement Analysis
-17384,EDUC-X315.10,K-12 Pedagogy for Teachers
-17489,DSGN-X400.00,Foundations of Design
-17490,EDUC-X315.37,"Teach Read, Beginning Readers"
-17497,DSGN-X400.02,Branding and Identity Design
-17565,AMES-X400.19,HVAC Design Calculations
-17676,BUSA-X402.63,Intellectual Property Law
-17811,BUSA-X403.01,Business Law for Managers
-18037,EDUC-X316.93,Mentor Induction Debrief
-18074,BUSA-X403.68,Business Communications Skills
-18077,EDUC-X317.04,Year 1 Reflection
-18081,EDUC-X317.05,Induction Inquiry II
-18097,EDUC-X317.10,Mentor Y1 Reflection
-18100,EDUC-X317.11,Mentor Induction Inquiry II
-18138,EDUC-X317.22,R&L: Fieldwork
-18142,EDUC-X317.23,Induction ILP
-18146,EDUC-X317.24,Mentor ILP
-18342,BUSA-X404.39,Financial Management
-18350,BUSA-X404.41,Business Decision Making
-18645,BUSA-X405.29,Taxation of the Busines Entity
-18649,BUSA-X405.30,BioBusiness
-18655,BUSA-X405.31,Workplace Ethics
-18675,BUSA-X405.37,Principles of Patents
-18688,BUSA-X405.41,Patent Searchng/Intrnet Resrch
-18811,ECE-X400.51,Signals & Systems
-18911,EDUC-X400.90,Tchg Gifted/Recog Indiv Diff
-18914,EDUC-X400.91,Current Issues in Adult Educ
-18922,EDUC-X400.93,Intro/Tchg English as Sec Lang
-18933,EDUC-X400.96,Foundations of Adult Learning
-18942,EDUC-X400.99,GATE/Differenting/Curriculum
-18946,EDUC-X401.00,Program Development/Gifted
-18949,EDUC-X401.01,Strategies/Tch Gifted/Talented
-19002,ECE-X401.05,Embedded Linux
-19021,EDUC-X401.21,Counsel Stdnt-LearnDiffer&ADHD
-19022,ECE-X401.53,Intro to Embedded Systems
-19052,EDUC-X401.30,Principles College Counseling
-19055,EDUC-X401.31,Strategies/College Counseling
-19059,EDUC-X401.32,College Counseling Practicum
-19087,ECE-X401.71,RFIC Design
-19147,BUSA-X406.82,Patent Drafting
-19180,BUSA-X406.93,Proj Mgt/Scientific/Rsrch Envr
-19264,BUSA-X407.15,Project Planning & Scheduling
-19267,BUSA-X407.16,Biotech Patent Law
-19354,ECE-X402.44,Mixed Signal Design
-19360,BUSA-X407.39,CA Environmental Quality Act
-19362,ECE-X402.46,GIS II: Spatial Analysis
-19394,EDUC-X402.22,Departmentalized ELD K-12
-19463,ECE-X402.72,GIS Capstone Project
-19512,ECE-X402.84,Distributed Energy Resources
-19536,ECE-X402.90,Embedded Real-Time Operate Sys
-19540,ECE-X402.91,Embedded Contrler Prog w/EmbC
-19551,ECE-X402.94,RF PLL Synthesizers
-19563,ECE-X402.97,Intro to IoT & Embedded Syst
-19579,ECE-X403.01,SystemVerilog for Design&Verif
-19595,BUSA-X408.01,Foundation Principles
-19603,BUSA-X408.03,Transformational Leadership
-19622,EDUC-X402.79,Pillars of Dual Language
-19625,EDUC-X402.80,Curriculum Dvlpmnt / Dual Lang
-19626,ECE-X403.13,Operating Smart Power Grids
-19633,EDUC-X402.82,Educ Leadership / Dual Languag
-19637,EDUC-X402.83,Assess & Accntblty / Dual Lang
-19672,ECE-X408.58,Embedded Machine Learning
-19677,BUSA-X408.22,Real Estate Tax & Accounting
-19685,ECE-X408.62,GEISA Fundamentals
-19813,EDUC-X403.23,ES Induction Inquiry II
-19841,EDUC-X403.29,ES Mentor Induction Inq II
-19850,BUSA-X408.60,Agile Power Practices
-19870,BUSA-X408.64,Fraud and Forensic Accounting
-19896,LAFR-X400.01,French Communication II
-19899,BUSA-X408.69,TaxationPracticeProced&Ethics
-19914,BUSA-X408.72,Components of Compensation
-19915,LAFR-X400.03,French Communication III
-19924,BUSA-X408.74,Strategic Talent Acquisition
-19925,LAFR-X400.04,French Refining Fluency Part A
-19930,BUSA-X408.75,Fund of Employee Benefits
-19939,BUSA-X408.77,Performance Management
-19954,BUSA-X408.79,Digital Marketing
-19960,BUSA-X408.80,Content Marketing
-19977,LAFR-X400.10,French Communication V
-20167,LAFR-X400.45,French Communication VI
-20178,BUSA-X409.22,Organizational Behavior
-20183,BUSA-X409.23,Business Presentations
-20186,BUSA-X409.24,Digital Marketing Analytics
-20220,BUSA-X409.30,Donor Relations & Stewardship
-20239,EDUC-X404.08,Tchg/Testg ESL Listeng/Speakg
-20246,LAGM-X400.00,German Communication I
-20249,BUSA-X409.35,Influencer Marketing
-20251,EDUC-X405.56,Teaching Community College
-20272,BUSA-X409.40,Elements of Marketing
-20297,EDUC-X412.31,Adv.CrclmDesignF/OnlineClsrm
-20302,EDUC-X412.32,Teaching Online Practicum
-20308,EDUC-X412.33,CC Capstone Portfolio
-20324,BUSA-X409.50,Project Management Boot Camp
-20329,BUSA-X409.51,Market Research
-20363,EDUC-X413.82,Differentiation Sys Design I
-20364,BUSA-X409.57,Grant Writing for Nonprofits
-20369,BUSA-X409.58,Internal Auditing
-20378,EDUC-X413.91,Differentiation Sys Design II
-20379,BUSA-X409.60,Lean Healthcare Green Belt
-20431,BUSA-X409.66,Workplace Investigations
-20442,BUSA-X409.68,Lean Healthcare Yellow Belt
-20444,LAJA-X400.00,Japanese Communication I
-20457,BUSA-X409.70,Project Cost Management
-20461,BUSA-X409.71,Project Risk Management
-20469,EDUC-X414.29,DifferentiationSystemDesignIII
-20475,BUSA-X409.74,DS: Understanding Amer Wrkplc
-20496,BUSA-X409.78,Leading & Managing Change
-20519,BUSA-X409.82,Corp Relations/Partnership
-20527,BUSA-X409.84,Intro to Fundraising & Devo
-20531,LAJA-X400.12,Japanese Communication V
-20539,LAJA-X400.13,Japanese Communication VII
-20561,BUSA-X409.91,Lean Six Sigma Yellow Belt
-20566,BUSA-X409.92,HealthFinModel
-20571,BUSA-X409.93,Audit and Risk Governance
-20584,BUSA-X409.95,Lean Six Sigma Black Belt
-20600,BUSA-X409.98,Health Fin Acct
-20605,BUSA-X409.99,Fin Analysis Tableau
 20639,ARCH-900.05,Revit Architecture I
-20643,BUSA-X410.06,LSS Green Belt
-20735,BUSA-X410.23,Annual Giving
-20740,BUSA-X410.24,Major Gifts and Planned Giving
-20749,BUSA-X410.26,Strategic Financial Management
-20752,ARCH-X400.00,AutoCAD III
-20759,ARCH-X400.01,AutoCAD I
-20762,BUSA-X410.28,Gov & Not For Profit Acct
-20767,BUSA-X410.29,Info Systems Controls Audit I
-20777,BUSA-X410.31,Digital Marketing en Español
-20781,BUSA-X410.32,AI Fundamentals for Leadership
-20784,ARCH-X400.04,AutoCAD II
-20787,BUSA-X410.33,Business Strategy
-20797,BUSA-X410.35,Bus Analytics for Managers
-20803,BUSA-X410.36,Power and Politics
-20812,BUSA-X410.38,Managing HR: An Overview
-20817,BUSA-X410.39,Scale Fast: Rev & Grwth Strats
-20820,ARCH-X400.09,Revit I: Introduction
-20822,BUSA-X410.40,Starting Your Business
-20827,BUSA-X410.41,Information System Controls II
-20829,ARCH-X400.10,Revit II: Intermediate
-20836,BUSA-X410.43,Accounting Ethics
-20838,ARCH-X400.11,Revit III
-20842,BUSA-X410.44,AI in Digital Marketing
-20847,BUSA-X410.45,AI-Driven SEO
-20853,BUSA-X410.46,Bus Bookkeeping - An Intro
-20858,BUSA-X410.47,Applied Bookkeeping: Trans Tax
-20879,BUSA-X410.51,Internship and Career Dev Sem
 21050,ART-813.15,Cntmpry Floral Dsgn Fall Flwr
-21194,EDS-XSD324A,Teaching Impacts of Technology
-21200,EDS-XSD324B,Comp Thinking & BB Prog
-21206,EDS-XSD324C,Learn to Teach Java
-21212,EDS-XSD324D,Teaching Methods in Comp Sci
 21303,EDUC-800.12,Reading & Literacy Orientation
-21451,EDUC-X422.65,IC ES Mentor Inquiry II
-21457,EDUC-X422.66,IC ES Inquiry II
 21586,EDUC-800.61,TESL Practicum
 21766,EDUC-900.08,GRE Test Prep
 21784,EDUC-900.11,MCAT Test Prep
@@ -2078,15 +1884,7 @@ module_id,code,name
 22252,LANG-901.63,High-Int Academic Skills
 22257,LANG-901.69,Pre-Int/Int Academic Skills
 22270,LANG-901.80,High-Int/Adv Conv/Culture
-22313,EDUC-X424.08,Child Growth and Development
-22326,EDUC-X424.10,DAP in Early Childhood
-22332,EDUC-X424.11,Home and School Collaboration
-22338,EDUC-X424.12,Obs. & Assessment in ECE
 22343,LANG-902.28,Professional English Elect. I
-22344,EDUC-X424.13,Language & Literacy in ECE
-22350,EDUC-X424.14,Pos. Behavior Support in ECE
-22356,EDUC-X424.15,Intentional Teaching in ECE
-22362,EDUC-X424.16,Early Education Portfolio
 22373,LANG-902.37,Professional Leadership Sem.
 22385,LANG-902.44,Professional Elective IV
 22408,LANG-902.53,Disc.Idioms/Slang Pre-Int/Int.
@@ -2097,139 +1895,19 @@ module_id,code,name
 22462,LANG-902.62,High-Int. Comm. Grammar
 22474,LANG-902.64,High-Int/Adv. Comm. Grammar
 22486,LANG-902.66,Military English
-23248,LANG-X400.09,ASL I
-23256,EDUC-X425.76,ES Induction ILP
-23259,LANG-X400.10,ASL II
-23262,EDUC-X425.77,ES Mentor ILP
-23268,EDUC-X425.78,IC ES Induction ILP
-23274,EDUC-X425.79,IC ES Mentor Induction
-23357,LANG-X400.26,Comm in Business Settings
-23358,EDUC-X425.93,Teach and Learn Online
-23363,LANG-X400.27,Mastering Public Speaking
-23365,EDUC-X425.94,Learning Design & Technologies
-23377,EDUC-X425.96,Digital Media Best Pract OL Ed
-23381,LANG-X400.30,Career Success: ESL Workshop
-23389,EDUC-X425.98,Instructional Design Portfolio
-23393,LANG-X400.32,Mastering Eng Pronunciation
-23398,LANG-X400.33,ASL III
-23404,LANG-X400.34,ASL IV
-23651,EDUC-X426.42,Leading ECE Programs
-23661,EDUC-X426.43,Principles Play-Based Learning
-23667,EDUC-X426.44,ECE Program Administration
-23678,EDUC-X426.45,Supervision of ECE Teams
-23869,LASP-X400.01,Spanish Communication I
-23880,LASP-X400.02,Spanish Communication II
-23891,LASP-X400.03,Spanish Communication III
-23901,LASP-X400.04,Spanish Communication IV
-23912,LASP-X400.05,Spanish Communication V
-23922,LASP-X400.06,Spanish Communication VI
-23962,LASP-X400.11,Span Healthcare Profess II
-24263,EE-X400.60,Systems Hardware/Software Intg
-24310,LASP-X400.59,Spanish Fluency: The Caribbean
-24432,LASP-X400.82,Spanish Communication VII
-24443,LASP-X400.83,Spanish Fluency: Mexico
-24465,LASP-X400.86,SHP: Cultural Competence
-24618,EE-X401.29,Antenna Theory and Design
-24664,EE-X401.37,RF Principles & Applications
-24678,LASP-X401.50,Span Healthcare Profess I
-24699,LASP-X401.52,Span Healthcare Profess III
-24863,EE-X401.74,Fund. of Electric Power
-24874,ART-X400.02,Oil Painting I
-24912,ART-X400.06,Figure Drawing I
-24961,EE-X401.88,Fault Tolerant Systems
-25004,EE-X401.94,Intro to EMC & EMI
-25040,EE-X401.98,Wireless Comm Net Conn
-25047,EE-X401.99,Wireless Comm Net Arch.
-25055,EE-X402.00,Wireless Comm Tech Internship
-25090,EE-X410.04,Basic PCB Design
-25098,EE-X410.05,PCB Fab Technology
-25111,EE-X410.06,RF Transceiver Design
-25572,LAW-X400.00,Intro to Legal System
-25789,LAW-X400.18,Civil Litigation I
-25797,LAW-X400.19,Contracts
-25859,LAW-X400.28,Profssnl Ethics f/Legal Assts
-26092,MUS-X400.06,Piano I
-26095,ART-X401.66,Drawing: Focus on Perception
-26116,MUS-X400.09,Piano II
-26166,LAW-X400.70,Computers for Paralegals
-26194,LAW-X400.74,Intro to Tribal Legal Studies
-26197,MUS-X400.21,Singing I
-26206,ART-X401.80,Introduction to Painting
-26235,LAW-X400.80,Business Law
-26272,CHEM-X400.04,Analytical Chemistry
-26275,MUS-X400.32,Guitar I
-26278,CHEM-X400.05,Clinical Chemistry
-26285,CHEM-X400.06,General Chemistry I
-26292,CHEM-X400.07,General Chemistry I with Lab
-26296,MUS-X400.35,Singing II
-26300,CHEM-X400.08,General Chemistry II
-26301,ART-X401.91,Creative Process I
-26304,MUS-X400.36,Guitar II
-26308,CHEM-X400.09,General Chemistry II with Lab
-26315,CHEM-X400.10,Organic Chemistry
-26324,CHEM-X400.11,Organic Chemistry II
-26331,CHEM-X400.12,Organic Chemistry Laboratory
-26430,MUS-X400.54,Music Theory 101
-26656,ART-X402.42,Acrylic Painting I
-26728,ART-X402.53,Drawing: Refining Technique
-27108,ART-X403.11,Adobe Photoshop I
-27651,ART-X403.85,Intro to Mosaic Sculpture
-27750,ART-X403.98,Fundamentals Photo Lighting
 27910,LING-900.12,Intro to Transl and Interp
-27914,ART-X404.20,Western Art- Part I
-27951,ART-X404.26,Western Art: Part II
-27963,ART-X404.28,Intro to Illustration
-28403,ART-X404.83,Plein Air- Working Method
-28592,NURS-X400.14,"Emergency Dept Nursing, Part I"
-28598,NURS-X400.15,"Emerg. Dept Nursing, Part II"
-28645,ENVR-X400.00,Conservation Psychology
-28688,ENVR-X400.05,Community Engagement
-28709,ENVR-X400.08,Writing CEQA EIR
-28717,ENVR-X400.09,Advanced CEQA
-28724,ENVR-X400.10,CEQA in Practice
-28733,ENVR-X400.11,CEQA Project Management
-28740,ART-X405.27,Illustrator
-28822,ART-X405.35,User Interface Design
 28952,OSHR-700.01,Politics & Current Events 1
-28989,ART-X405.57,Animation I
-29003,LING-X400.00,Ling/Gram Analysis/Lang Tchr
 29013,OSHR-700.10,Activities & Events 1
 29018,OSHR-700.11,Activities & Events 2
 29025,OSHR-700.12,Activities & Events 3
-29027,LING-X400.04,Theory/Practice of Translation
 29030,OSHR-700.13,Activities & Events 4
 29069,OSHR-700.19,Art & Humanities 1
 29077,OSHR-700.20,Art & Humanities 2
-29093,LING-X400.11,Spanish/English Translation II
 29187,OSHR-700.37,History 1
-29195,ART-X405.87,Adobe AfterEffects
 29227,OSHR-700.43,Literature 1
 29233,OSHR-700.44,Literature 2
 29240,OSHR-700.45,Literature 3
-29248,LING-X400.31,Theories/Sec Lang Acquisition
-29292,LING-X400.37,Consecutive Interpretation
-29300,LING-X400.38,Simultaneous Interpretation
-29308,LING-X400.39,English/Spanish Translation I
-29338,LING-X400.41,Grammar and Editing I
-29425,LING-X400.48,Teaching Listening Skills
-29462,ART-X406.25,Watercolor I
-29497,ART-X406.29,Photo I
-29541,ART-X406.35,Child Book Illustration II
-29564,ART-X406.38,Principles User Exp (UX)
-29570,ART-X406.39,UX Design: Methods
-29774,ART-X406.65,Intro to Adobe CC
 29859,OSHR-701.31,Literature 4
-29979,LING-X401.06,IntroductionToTranslation
-30004,LING-X401.09,IntroductionToInterpretation
-30092,ART-X407.05,Digital Photo Workflow
-30294,ART-X407.30,Food and Product Photography
-30309,ART-X407.32,Color Theory for Photographers
-30398,ART-X407.43,Foundations of Portraiture
-30437,PATH-X400.18,Intro to Clinical Hematology
-30485,LIPO-X400.00,Portuguese Communication I
-30492,LIPO-X400.01,Portuguese Communication II
-30498,LIPO-X400.02,Portuguese Communication III
-30511,LIPO-X400.04,Portuguese Communication IV
 30742,BENG-900.11,BioEng Research Proposal
 30769,BENG-900.16,Mammalian Cell & Tissue
 31186,BIOL-800.07,Pharma & Biotech Drugs Journey
@@ -2237,301 +1915,30 @@ module_id,code,name
 31728,BIOL-900.74,Applied Bioinfo & Biostats
 31733,BIOL-900.75,Fundamentals Bioinfo & Biostat
 31811,CSE-901.03,FTRS: Intro to Robotics w/JS
-31918,FPM-X400.54,AddctnPrblm:PrvtnPblcHlth/Plcy
 32189,CSE-901.62,Python and Mathematics for ML
 32415,CSE-901.94,Digital Logic Circuits
-32721,FPM-X401.73,Drug Development Process
-32841,FPM-X401.89,Regulation of Drugs Biologics
-32944,FPM-X402.04,Good Clinical Practices
-32951,FPM-X402.05,Science of Clincl Trial Design
-32971,FPM-X402.08,Site & Investigator Recruitmnt
-33081,FPM-X402.26,Case Management Intensive
-33470,FPM-X402.80,OSHA 500 - Trainer for Const.
-33478,FPM-X402.81,OSHA 501 - Trainer for GI
-33583,FPM-X402.96,OSHA 521 - Industrial Hygiene
-33589,FPM-X402.97,OSHA 2255 - Princples of Ergo
-33608,FPM-X402.99,OSHA 510 - OSHA Stnds Const.
-33615,FPM-X403.00,OSHA 3095 - Electrical Stands
-33621,FPM-X403.01,OSHA 3015 - Excavation & Trnch
-33635,FPM-X403.03,OSHA 2225 - Respiratory
-33670,FPM-X403.08,Trainer Course - Trenching
-33753,FPM-X403.20,Anatomy & Physiology AH
-33858,LIT-X400.69,Women and Madness
-33881,FPM-X403.38,Finan Mngmt of Clinical Trials
-34023,LIT-X400.93,History of Children Lit
-34055,FPM-X403.66,OSHA 511 - OSHA Standards GI
-34070,FPM-X403.68,OSHA 7000
-34148,FPM-X403.79,OSHA 7500 - Intro to S&H Mgmt
-34207,FPM-X403.88,Human Subjects Protect & IRBS
-34321,FPM-X404.03,OSHA 7205 - Health Hazard
-34335,FPM-X404.05,OSHA 7005 - Public Warehousing
-34369,FPM-X404.10,OSHA 7105 - Intro Evacuation
-34389,FPM-X404.13,OSHA 2055 - Cranes
-34527,FPM-X404.32,Exercise Physiology
-34671,THEA-X400.07,Introduction to Acting
-34831,FPM-X404.75,Elctrcl Sfty Stndrds-NFPA 70E
-34890,FPM-X404.84,OSHA 5400 - Maritime Trainer
-34892,THEA-X400.40,Somatic Movement & Dance
-34922,FPM-X404.89,OSHA 3115 - Fall Protection
-34956,FPM-X404.93,Understanding Oncology
-34963,FPM-X404.94,Monitoring Oncology Trials
-34985,FPM-X404.97,OSHA 7115 - Lockout/Tagout
-35026,CSE-X400.28,Intro to Programming
-35081,FPM-X405.11,OSHA 5109 - Cal/OSHA Stnds Con
-35087,FPM-X405.12,OSHA 5119 - Cal/OSHA Stnds GI
-35159,CSE-X400.49,Data Structures&AlgorithmC/C++
-35183,FPM-X405.28,Fire and Life Safety
-35239,FPM-X405.37,OSHA 502 - Update Const Trnr
-35246,FPM-X405.38,OSHA 503 - Update for GI Trnrs
-35252,FPM-X405.39,Cal OSHA Construction Update
-35260,FPM-X405.40,OSHA 5039 - Cal/OSHA Update GI
-35265,FPM-X405.41,OSHA 7845 - Recordkeeping Rule
-35333,FPM-X405.52,Overview Alcohol/Drug Problems
-35346,FPM-X405.54,Occupational Safety & Security
-35394,FPM-X405.62,OSHA 5402 - Update Marit Trnr
-35412,FPM-X405.65,OSHA 5410 - Maritime Standards
-35418,FPM-X405.66,Trainer Course - Fall Protect
-35483,FPM-X405.77,Infection Prev./Clinical Epid
-35541,FPM-X405.87,BehaviorChange/LifestyleCoach
-35671,FPM-X406.08,Figures Tables & Graphs
-35731,FPM-X406.17,Pathophysiology Humn Dis
-35740,FPM-X406.18,Food as Medicine
-35745,FPM-X406.19,Business Integrative Nutrition
-35752,FPM-X406.20,Advanced Nutrition Topics
-35793,FPM-X406.27,Capstone: Med Ed Materials
-35798,FPM-X406.28,Capstone: Reg. Writing
-35809,FPM-X406.30,Capstone: Jrn Art. Pub Dev
-35823,FPM-X406.32,Medical Terminology
-35856,FPM-X406.37,OSHA 7505 - Intro to Incident
-35863,FPM-X406.38,OSHA 3085 - Scaffolding
-35874,FPM-X406.40,Workers Compensation F/Safety
-35887,FPM-X406.42,Safety Leadership II
-35978,FPM-X406.56,Prjct Mgt Clinical Trials
-35992,FPM-X406.58,Communicating RWE
-36098,FPM-X406.75,Medical Ethics
-36102,FPM-X406.76,Medical Documentation
-36152,FPM-X406.84,Human Anatomy with Lab
-36158,FPM-X406.85,Documents in Drug Development
-36165,FPM-X406.86,OSHA 2455 - S&H Mgmt Pgm
-36201,FPM-X406.91,OSHA 7515 - JHA
-36208,FPM-X406.92,Health & Wellness Coaching
-36214,FPM-X406.93,Coaching Structure
-36228,FPM-X406.95,Heat Stress
-36235,FPM-X406.96,Intro to Med Writing & Editing
-36260,FPM-X407.00,Intro to Event Safety
-36312,FPM-X407.07,"Crowd Safety, Planning & Mgmt"
-36337,FPM-X407.11,Event Safety Planning & Design
-36374,FPM-X407.17,CT RSCH Fundamentals
-36408,FPM-X407.22,Techniques of Eval for Fire
-36428,FPM-X407.25,CAMCT
-36435,FPM-X407.26,Statistics and Research
-36649,BIOL-X401.89,Toxicology
-36947,BIOL-X402.36,Bioinformatics Fundamentals
-36959,BIOL-X402.37,Genomic Sequencing Technologis
-37211,BIOL-X402.75,Nutrition: The Lifecycle
-37273,EDUC-X300.08,US Constitution/Prep & Exam
-37436,BIOL-X403.15,Biostatistical Methods I
-37442,BIOL-X403.16,Biostatistical Methods II
-37464,BIOL-X403.20,Foundations Nutrition I
-37469,BIOL-X403.21,Foundations Nutrition II
-37476,BIOL-X403.22,Overview RA Med Dev
-37482,BIOL-X403.23,QMS Medical Device
-37489,BIOL-X403.24,Design Control/Med Device
-37501,BIOL-X403.26,Post Market/Med Device
-37506,BIOL-X403.27,Process Data Genomics
-37515,BIOL-X403.29,Introductory Pharmacology
-37550,BIOL-X403.35,Microbiology with Lab
-37568,BIOL-X403.38,Genetics
-37580,BIOL-X403.40,Human Physiology
-37586,BIOL-X403.41,QC Operations
-37587,EDUC-X300.57,Persp. Health Educ/Teacher
-37625,BIOL-X403.48,General Biology I with Lab
-37677,BIOL-X403.57,Biochemistry
-37683,BIOL-X403.58,Cell & Molecular Biology
-37688,BIOL-X403.59,Genetic Counseling
-37694,BIOL-X403.60,Gen Bio I
-37718,BIOL-X403.64,Gen Bio II w/ Lab
-37731,BIOL-X403.66,Human Anatomy
-37739,BIOL-X403.67,Medical Microbiology
-37746,BIOL-X403.68,Human Physiology with Lab
-37765,BIOL-X403.71,Immunology
-37791,BIOL-X403.74,Modern Omics
-37802,BIOL-X403.76,Cancer Biology
-37808,BIOL-X403.77,Epidemiology
-37815,BIOL-X403.78,Present & Future of DDD
-37821,BIOL-X403.79,Essentials of Drug Dis&Dev
-37853,BIOL-X403.84,Virology
-37866,BIOL-X403.86,Medical Neurology and Cardio
-37883,BIOL-X403.89,Cellular Foundations of Med
-37890,BIOL-X403.90,Biochemical Foundations of Med
-37912,BIOL-X403.94,Next Gen Modalities/Drug Dev
-37935,BIOL-X403.99,Cell and Molecular Biology Lab
-37964,BIOL-X404.05,Biostatistics
-38011,CSE-X404.75,C/C++ ProgI:Fund Prog Concepts
-38019,CSE-X404.76,C/C++ ProgII: Dynamic Memory
-38026,CSE-X404.77,C/C++ ProgIII: Prog W/Obj
-38033,CSE-X404.78,C/C++ Prog IV: Advan Prog
-38049,CSE-X404.81,Java Prog III: OOJP
-38055,CSE-X404.82,Java Prog IV: Advanced Java
-38219,EDUC-X301.45,The Reading Process
-38225,EDUC-X301.46,Mainstreaming/Special Child
-38250,EDUC-X301.50,Integ Tech in Educ K-12 Levl 1
-38255,EDUC-X301.51,Integ Tech in Educ K-12 Levl 2
-38332,CSE-X405.34,C# Programming I
-38488,BIOM-X400.01,Biomed Research Practicum I
-38771,CSE-X406.03,C# Programming II
 39191,BUSA-800.61,Crafting Unique Personal Brand
 39198,BUSA-800.62,Interpersonal Communication
 39205,BUSA-800.63,Navigating Conflict
 39212,BUSA-800.64,Uncovering Unconscious Bias
 39218,BUSA-800.65,Lean Six Sigma Cinturón Blanco
 39371,BUSA-900.17,FTRS Business Decision Making
-39394,CSE-X407.06,C# Programming III
-39506,PHYS-X400.24,Electricity And Magnetism
-39512,PHYS-X400.25,Mechanics and Thermodynamics
-39520,PHYS-X400.26,General Physics I
-39528,PHYS-X400.27,General Physics II
-39536,PHYS-X400.28,Elements of Modern Physics
 39711,BUSA-900.70,FTRS: Principles of Marketing
-39974,CSE-X407.98,Instructional Technology Tools
-39982,CSE-X407.99,Enhnc OL Crse/Stremng&Mltimed
-40411,LTIT-X400.00,Italian Communication I
-40447,LTIT-X400.03,Italian Communication III
-40833,CSE-X409.33,Intro SQL Programming Concepts
-40929,CSE-X409.48,Intermediate SQL Programming
-41202,CSE-X409.91,GIS I: Introduction to GIS
-41496,WCWP-X401.05,Science Writing I
-41701,CSE-X410.69,Introduction to Statistics
-41737,WCWP-X401.42,"Finding Our Voices, Part I"
-41807,WCWP-X401.51,Technical Communication I
-41861,WCWP-X401.58,Writing Online Documentation
-41890,CSE-X410.97,Introduction to R Programming
-42059,WCWP-X401.86,Writing for Children I
-42318,CSE-X411.61,Adv Excel for Analysis & BI
-42340,EDUC-X307.93,Induction Portfolio
-42363,WCWP-X402.30,Science Writing II
-42399,WCWP-X402.34,Grammar Lab
-42422,WCWP-X402.36,Copyediting I
-42436,WCWP-X402.37,Copyediting II
-42450,WCWP-X402.38,Copyediting III
-42580,CSE-X411.98,Intro to Statistics using R
-42624,CSE-X412.04,Data Analytics w/ Python
-42627,WCWP-X402.61,Writing Childrens Picture Book
-42645,CSE-X412.07,Introduction to HTML & CSS
-42763,CSE-X412.21,Overview BI & Data Analysis
-42771,CSE-X412.22,Dashboards & Data Visual
-42793,CSE-X412.25,Python for Informatics
-42932,CSE-X412.43,Discrete Math
-42985,CSE-X412.50,Intermediate Excel
-43014,CSE-X412.54,Introduction to SPSS
-43042,CSE-X412.58,Fundamentals of Data Science
-43047,WCWP-X403.13,Self-Publishing
-43062,CSE-X412.60,UserExperienceMetrics
-43093,CSE-X412.64,Stats for Data Analytics
-43101,CSE-X412.65,Managing SW QA & Testing
-43109,CSE-X412.66,Software Testing for QA
-43116,CSE-X412.67,Web Perfrmnce & Test Auto
-43163,CSE-X412.73,Python Programming Fundam
-43267,CSE-X412.87,Linear Algebra for AI
-43298,CSE-X412.91,"Microgrid Design,Econ.Opt.&Sim"
-43313,CSE-X412.93,Sys.Engineering SftwreOverview
-43409,CSE-X413.05,Probability & Stats Deep Learn
-43424,MAE-X400.17,Systems Thinking
-43450,CSE-X413.10,Intermediate Python
-43466,CSE-X413.12,Deep Learning using TensorFlow
-43521,CSE-X413.19,Adv HTML and CSS
-43536,MAE-X400.30,Mech. Design with MATLAB
-43552,MAE-X400.32,IntrFEMAP&ANSYSFntElmntMdlg
-43561,MAE-X400.33,PltcPrtDsgnfInjctnMoldng
-43569,MAE-X400.34,Intro to RvrsEngnrg w/SldWrks
-43592,MAE-X400.37,Principles of Fire Prtctn Eng
-43601,MAE-X400.38,Additive Manufctrng Technology
-43616,MAE-X400.40,Fire Protection System Design
-43631,CSE-X413.33,Linux Op System Fundamentals
-43664,CSE-X413.37,AWS Academy Cloud Developing
-43671,CSE-X413.38,Data Struct and Algrthms in C#
-43692,MAE-X400.51,Blueprint Reading & Sketching
-43704,CSE-X413.43,Intuitive Lrn of Quant Comp
-43751,CSE-X413.49,AI for Finance
-43819,CSE-X413.59,Info. Security Management
-43840,CSE-X413.62,Ethical Hacking
-43847,CSE-X413.63,Cybersecurity Fundamentals
-43861,CSE-X413.65,Linux Networking
-43874,CSE-X413.67,Information Systems Auditing
-43957,CSE-X413.79,Build Automation with Jenkins
 43959,WKSP-700.45,SDUSD Induction Mentor Service
 43999,MARI-900.44,Introduction to Marine Science
-44021,CSE-X413.88,Deep Learning Computer Vision
 44047,MARI-900.51,Intro to Scientific Writing
-44055,CSE-X413.93,GIS III: Web GIS
-44069,CSE-X413.95,Fundamentals of Networking
-44118,CSE-X414.02,"Responsible AI:Tr, Ac, Ex & Pr"
-44146,CSE-X414.06,Introduction to QML
-44159,CSE-X414.07,Digital Engineering with AI
-44198,CSE-X414.13,AI Development with .NET
-45853,PSY-X400.70,Appld Sklls f/Grp Dynamic/Fac
 45854,INFO-700.34,Copyediting Information Sess
 46257,INFO-701.81,ELI Info & Resources
-46275,PSY-X402.14,Addiction&Recvry:Etiology&Phys
 46302,INFO-701.97,Project Management Information
-46331,MATH-X400.18,Precalculus
-46334,MATH-X400.19,Calculus II
-46340,MATH-X400.21,Intro to Graph Theory
-46345,MATH-X400.23,Linear Algebra
-46348,MATH-X400.24,Calculus I
-46351,MATH-X400.25,Calc III: Multivariable Calc
-46354,MATH-X400.26,Ordinary Differential Equation
-46357,MATH-X400.27,Stoch. Proc & Markov Chainsc
-46584,PSY-X403.21,Practicum Alc/Drug Abuse Cnslr
-46654,PSY-X403.46,Intro to Counseling Models
-46728,PSY-X403.74,Basic/Adv Counseling Skills
-46824,PSY-X404.08,Intro Behavioral Health System
-46830,PSY-X404.10,Laws and Ethics for SUD Tx
-46833,PSY-X404.11,Confidentiality for SUDC
-46836,PSY-X404.12,Co-occurring Conditions
-46839,PSY-X404.13,Clinical Documentation in SUDC
-46842,PSY-X404.14,Introduction to MAT
-46845,PSY-X404.15,Utilization of EHR for SUDC
-46847,PSY-X404.16,Case Management in SUDC
-46850,PSY-X404.17,Cultural Competence in SUDC
-46853,PSY-X404.18,Intro to ASAM Criteria
-46855,PSY-X404.19,The DSM for SUD Counselors
-46857,PSY-X404.20,Prof Boundaries for SUDC
-46970,MEDC-X400.18,ICD-10-CM
-46973,MEDC-X400.20,CPT/HCPCS Coding
-46983,MEDC-X400.24,Intro to Medical Coding
-46992,MEDC-X400.28,Rev Cycle 1
-46997,MEDC-X400.30,Rev Cycle 3
-47000,MEDC-X400.31,Healthcare Rev Cycle Intensive
-47005,MEDC-X402.53,Clinical Practicum I
-47457,LAAR-X400.00,Arabic Communication I
-47462,LAAR-X400.01,Arabic Communication II
-47537,LACH-X400.21,Cantonese Communication I
-47539,LACH-X400.22,Cantonese II
-47544,LACH-X400.24,Cantonese III
-47549,LACH-X400.26,Cantonese IV
-47558,LACH-X400.31,Cantonese Communication VI
-47642,LAFR-X400.00,French Communication I
-48187,PSYC-X400.29,Human Growth and Development
 48400,RMED-800.15,LC Lecture Review
 48402,RMED-800.17,Clinical Preceptor Symposium
-48473,RMED-X400.30,Pathway 1 - LC Education
-48475,RMED-X400.32,Pathway 2: Didactic
-48479,RMED-X400.36,LER
-48480,RMED-X400.37,Clinical Competencies Interns
-48482,RMED-X400.39,Lactation Education Counselor
-48483,RMED-X400.40,Foundations of Lactation Edu
 48579,BIOM-900.06,Sports Medicine
 48589,CSE-902.15,Foundations Programming & Math
-48594,CSE-X414.16,Cloud Data Architecture
-48600,EDUC-X426.64,Infant and Toddler Development
 48691,EXAM-900.00,Entrance Exam: Translation
-48716,MAE-X400.55,Applied S.E.for Space Missions
 48722,OSHR-701.82,Osher - Law and Society
 48724,OSHR-701.80,Osher - Master Class
 48725,OSHR-701.86,Membership: Quarterly
 48726,OSHR-701.85,Membership: Annual
-48727,LTIT-X400.25,Essential Italian Travelers
 48728,OSHR-701.84,Osher - Literature and History
 48737,OSHR-701.81,Osher - Premier Class
 48738,OSHR-701.89,Membership: Affiliate
@@ -2543,5 +1950,3 @@ module_id,code,name
 48761,OSHR-701.91,Osher - Activities and Events
 48762,OSHR-701.90,Osher - Discussion Groups
 48779,LIGN-103,Ling Analysis: Syn/Sem/Prag
-48781,CSE-X414.17,Applied Gen AI and Automation
-48852,EE-X410.08,Advanced PCB Design
