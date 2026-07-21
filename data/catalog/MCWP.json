@@ -51,8 +51,18 @@
   {
     "name": "Critical Writing",
     "code": "MCWP 50",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "satisfaction of the MCWP 40 requirement or completion of IGETC.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MCWP40"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

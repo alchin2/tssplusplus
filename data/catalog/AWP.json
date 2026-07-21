@@ -16,7 +16,7 @@
   {
     "name": "Analytical Writing and Academic English B",
     "code": "AWP 4B",
-    "raw_prereq": "",
+    "raw_prereq": "AWP 4A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -37,42 +37,42 @@
   {
     "name": "Writing a Researched Argument",
     "code": "AWP 100",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division or graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Writing about Science",
     "code": "AWP 101",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division or graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Writing for the Professions",
     "code": "AWP 102",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division or graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Writing for the Professions",
     "code": "AWP 102R",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division or graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Writing about the Law",
     "code": "AWP 103",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division or graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Writing about Climate Change",
     "code": "AWP 104",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division or graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

@@ -65,7 +65,7 @@
   {
     "name": "Topics in Judaic Studies",
     "code": "JWSP 111",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

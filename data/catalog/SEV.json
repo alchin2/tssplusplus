@@ -2,21 +2,21 @@
   {
     "name": "First-Year Honors Seminar",
     "code": "SEV 20",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required. May be taken for credit up to three times.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Instructional Apprenticeship",
     "code": "SEV 195",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Apprentice Teaching",
     "code": "SEV 500",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required. Students will have an application process for this course.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

@@ -190,7 +190,7 @@
   {
     "name": "Advanced Topics in Neurosciences",
     "code": "NEUG 221",
-    "raw_prereq": "",
+    "raw_prereq": "priority given to neuroscience PhD students, or consent of instructor. (F,W,S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -211,8 +211,18 @@
   {
     "name": "Neuroanatomy",
     "code": "NEUG 257",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "for neurosciences graduate students in major codes NE75 and NE78. Other disciplines may enroll with consent of instructor of record. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NE75"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -225,7 +235,7 @@
   {
     "name": "Minor Proposition",
     "code": "NEUG 280",
-    "raw_prereq": "",
+    "raw_prereq": "neurosciences PhD majors only; NE75, NE78, and NE80. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -246,7 +256,7 @@
   {
     "name": "Apprenticeship Teaching",
     "code": "NEUG 500",
-    "raw_prereq": "",
+    "raw_prereq": "neurosciences graduate students. (S/U grades only.) (F,W,S)",
     "prerequisites": [],
     "offered_this_qtr": false
   }

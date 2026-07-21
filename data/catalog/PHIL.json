@@ -79,8 +79,152 @@
   {
     "name": "Ethics and Society",
     "code": "PHIL 27",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CAT 2 and 3 or CAT 2CE and 3CE or CCE 1 and 2 or DOC 2 and 3 or HUM 1 and 2 or MCWP 40 and 50 or MCWP 40R and 50R or MMW 12 and 13 or WCWP 10A and B or SYN 1 and 2 or WARR 11A and 11B or SYN 1R and 2R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CAT2"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CAT2CE"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT3CE"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CCE1"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CCE2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC2"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DOC3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM1"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MCWP50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP40R"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MCWP50R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WCWP10A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SYN1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SYN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WARR11A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "WARR11B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SYN1R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -394,7 +538,7 @@
   {
     "name": "Probability and Decision Theory",
     "code": "PHIL 125",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -474,28 +618,28 @@
   {
     "name": "Free Will",
     "code": "PHIL 140",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Meaning of Life",
     "code": "PHIL 141",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Philosophy of Emotion",
     "code": "PHIL 142",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Philosophy of Perception",
     "code": "PHIL 143",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -572,28 +716,38 @@
   {
     "name": "Latinx Philosophy",
     "code": "PHIL 156",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Latin American and Latinx Philosophy",
     "code": "PHIL 157",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHIL 35 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL35"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Chinese Philosophy",
     "code": "PHIL 158",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Metaethics",
     "code": "PHIL 159",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -677,28 +831,28 @@
   {
     "name": "Topics in Philosophy of Law",
     "code": "PHIL 171",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Political Philosophy",
     "code": "PHIL 172",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Bioethics",
     "code": "PHIL 173",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Data Ethics",
     "code": "PHIL 174",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -733,7 +887,7 @@
   {
     "name": "Topics in German Philosophy Translation—Advanced",
     "code": "PHIL 179",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor or completion of PHIL 178.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

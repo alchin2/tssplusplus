@@ -501,15 +501,119 @@
   {
     "name": "Advanced Data Structures",
     "code": "CSE 100",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 12 and CSE 15L or CSE 29 or ECE 15; restricted to undergraduates. Graduate students will be allowed as space permits. Students may not receive credit for both CSE 100R and CSE 100.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Data Structures",
     "code": "CSE 100R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 12 and CSE 15L or CSE 29 or ECE 15. This course is a distance education course. Students may not receive credit for both CSE 100R and CSE 100.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -679,8 +783,65 @@
   {
     "name": "Discrete and Continuous Optimization",
     "code": "CSE 106",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 18 or MATH 31AH and MATH 20C or MATH 31BH and CSE 21 or DSC 40B or MATH 154 or MATH 158 or MATH 184 or MATH 188.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH154"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1393,15 +1554,111 @@
   {
     "name": "Introduction to Computer Architecture: A Software Perspective",
     "code": "CSE 142",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 30 or ECE 30 and CSE 100 or CSE 100R. Restricted to students within CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS29"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EC26"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Software Project for Computer Architecture",
     "code": "CSE 142L",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 30 or ECE 30 and CSE 100 or CSE 100R. Restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS26"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS29"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EC26"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1485,64 +1742,799 @@
   {
     "name": "Introduction to Artificial Intelligence: Probabilistic Reasoning and Decision-Making",
     "code": "CSE 150A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 and MATH 20A and MATH 18 or MATH 31AH; restricted to students within the CS25, CS26, CS27, CS29, EC26, and DS25 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Artificial Intelligence: Search and Reasoning",
     "code": "CSE 150B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 and CSE 100 or CSE 100R; restricted to students within the CS25, CS26, CS27, CS29, EC26, and DS25 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning: Learning Algorithms",
     "code": "CSE 151A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 and MATH 18 or MATH 31AH and MATH 20C or MATH 31BH; restricted to students within the CS25, CS26, CS27, CS29, EC26, and DS25 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Deep Learning",
     "code": "CSE 151B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20C or MATH 31BH and BENG 134 or COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or SE 125 and COGS 118A or COGS 118B or COGS 188 or CSE 151A or DSC 140B or ECE 175A; restricted to students within the CS25, CS26, CS27, CS28, CS29, EC26, and DS25 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE125"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS188"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE175A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Computer Vision I",
     "code": "CSE 152A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 18 or MATH 31AH and CSE 12 or DSC 30 and CSE 15L or CSE 29 or DSC 80; Python programming experience recommended; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Computer Vision II",
     "code": "CSE 152B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 152A or CSE 152 or CSE 166; Python programming experience recommended; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE152A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE152"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE166"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning for Music",
     "code": "CSE 153",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and BENG 100 or BENG 134 or COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186; restricted to students within the CS25, CS26, CS27, CS28, CS29, EC26, and DS25 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning for Music",
     "code": "CSE 153R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and BENG 100 or BENG 134 or COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186; restricted to students within the CS25, CS26, CS27, CS28, CS29, EC26, and DS25 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Natural Language Processing",
     "code": "CSE 156",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 12 or DSC 40B and CSE 15L or CSE 29 or DSC 80 and BENG 134 or COGS 118D or CSE 103 or ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC40B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE15L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE29"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2007,15 +2999,74 @@
   {
     "name": "Interaction Design",
     "code": "CSE 170",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 108 or CSE 12 or DSC 30 and COGS 1 or COGS 10 or DSGN 1 or ENG 100D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC30"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Successful Entrepreneurship for Engineers",
     "code": "CSE 175",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "instructor approval required to ensure sufficient project experience to be successful in the course. No credit offered for CSE 175 if ECE 150 taken previously or concurrently.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE175"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE150"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2047,22 +3098,84 @@
   {
     "name": "Robot Systems Design and Implementation",
     "code": "CSE 176E",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to junior and senior students; instructor approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biology Meets Computing",
     "code": "CSE 180",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 1 or BILD 4 or CSE 11 or CSE 3 or CSE 8A or CSE 8B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biology Meets Computing",
     "code": "CSE 180R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 1 or BILD 4 or CSE 11 or CSE 3 or CSE 8A or CSE 8B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2154,8 +3267,27 @@
   {
     "name": "Biological Databases",
     "code": "CSE 182",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 100 or CSE 100R; restricted to BE28, BI34, CH37, and CS27 majors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2203,8 +3335,65 @@
   {
     "name": "Advanced Bioinformatics Laboratory",
     "code": "CSE 185",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 11 or CSE 8B and CSE 12 and MATH 20C or MATH 31BH and BILD 1 and BIEB 123 or BILD 4 or BIMM 101 or CHEM 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE12"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIEB123"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM101"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2231,15 +3420,115 @@
   {
     "name": "Introduction to Computer Science Research",
     "code": "CSE 193",
-    "raw_prereq": "",
+    "raw_prereq": "consent of the department chair. Department stamp required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Race, Gender, and Computing",
     "code": "CSE 194",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "AAS 10 or CSE 12 or ECE 35 or ETHN 3 or HILD 7A or LTEN 27 and CAT 125 or CAT 125R or CAT 3 or DOC 3 or HUM 2 or MCWP 125 or MCWP 125R or MCWP 50 or MCWP 50R or MMW 121 or MMW 121R or MMW 122 or MMW 13 or SYN 2 or WCWP 100 or WCWP 10B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "AAS10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ETHN3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HILD7A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LTEN27"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CAT125"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CAT125R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CAT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DOC3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HUM2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP125"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP125R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MCWP50R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW121"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW121R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW122"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SYN2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WCWP100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2578,7 +3867,7 @@
   {
     "name": "Design at Large",
     "code": "CSE 219",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2889,7 +4178,7 @@
   {
     "name": "Topics/Seminar in Programming Languages",
     "code": "CSE 239B",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3201,21 +4490,52 @@
   {
     "name": "Deep Learning",
     "code": "CSE 251B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSE 251A. Restricted to students within the CS75, CS76, CS78, CS88, and CS89 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS89"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Principles of Machine Learning: Machine Learning Theory",
     "code": "CSE 251C",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Unsupervised Learning",
     "code": "CSE 251U",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3267,7 +4587,7 @@
   {
     "name": "Advanced Computer Vision",
     "code": "CSE 252D",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3302,7 +4622,7 @@
   {
     "name": "Statistical Natural Language Processing",
     "code": "CSE 256/LING 256",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3464,42 +4784,89 @@
   {
     "name": "Introduction to Robotics",
     "code": "CSE 276A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Human Robot Interaction",
     "code": "CSE 276B",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mathematics for Robotics",
     "code": "CSE 276C",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Healthcare Robotics",
     "code": "CSE 276D",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Robot Systems Design and Implementation",
     "code": "CSE 276E",
-    "raw_prereq": "",
+    "raw_prereq": "instructor approval required to ensure sufficient programming and project experience to be successful in the course.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning for Robotics",
     "code": "CSE 276F",
-    "raw_prereq": "",
+    "raw_prereq": "instructor approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3566,8 +4933,55 @@
   {
     "name": "Personal Genomics for Bioinformaticians",
     "code": "CSE 284",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CS75"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS81"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CS83"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

@@ -98,21 +98,21 @@
   {
     "name": "Senior Internship Project I",
     "code": "ESYS 187A",
-    "raw_prereq": "",
+    "raw_prereq": "ESYS 103.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Senior Internship Project II",
     "code": "ESYS 187B",
-    "raw_prereq": "",
+    "raw_prereq": "ESYS 187A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Environmental Systems Senior Seminar",
     "code": "ESYS 187C",
-    "raw_prereq": "",
+    "raw_prereq": "ESYS 187B.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

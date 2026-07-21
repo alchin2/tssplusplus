@@ -23,7 +23,7 @@
   {
     "name": "The Earth",
     "code": "SIO 10GS",
-    "raw_prereq": "",
+    "raw_prereq": "students must apply and be accepted to the Global Seminars Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -152,8 +152,18 @@
   {
     "name": "Geological History of Earth",
     "code": "SIO 75",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIO 50 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO50"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -378,8 +388,18 @@
   {
     "name": "Water Pollution",
     "code": "SIO 107",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(CHEM 6B or 6BH) and (BILD 3 or SIO 50 or SIO 60)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO50"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -486,14 +506,7 @@
   {
     "name": "The Science and Analysis of Environmental Justice",
     "code": "SIO 114",
-    "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "",
-    "code": "Prerequisites:",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -619,8 +632,31 @@
   {
     "name": "Biology of the Cryosphere",
     "code": "SIO 121",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 1, BILD 2, BILD 3, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -643,8 +679,18 @@
   {
     "name": "Ecological Developmental Biology",
     "code": "SIO 122",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 3, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -994,8 +1040,18 @@
   {
     "name": "Ecosystems and Fisheries",
     "code": "SIO 137",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIO 134 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO134"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1144,15 +1200,35 @@
   {
     "name": "Introduction to Field Methods in Biological Oceanography",
     "code": "SIO 145",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIO 134 or BIEB 134.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO134"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Methods in Cell and Developmental Biology of Marine Organisms Lab",
     "code": "SIO 146",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 2 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1196,8 +1272,18 @@
   {
     "name": "Geomorphology",
     "code": "SIO 153",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIO 50 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO50"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1325,7 +1411,7 @@
   {
     "name": "Introduction to Environmental Archaeology—Theory and Method of Socioecodynamics and Human Paleoecology",
     "code": "SIO 166",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1369,7 +1455,7 @@
   {
     "name": "Introduction to Volcanology",
     "code": "SIO 170GS",
-    "raw_prereq": "",
+    "raw_prereq": "Students must apply and be accepted to the Global Seminars Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1465,50 +1551,214 @@
   {
     "name": "Chemistry of the Atmosphere and Oceans",
     "code": "SIO 174",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 6C or CHEM 6CH and MATH 20C or MATH 31BH or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Analysis of Oceanic and Atmospheric Data",
     "code": "SIO 175",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Observational Physical Oceanography",
     "code": "SIO 176",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIO 171 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIO171"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Fluid Dynamics",
     "code": "SIO 177",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A and MATH 20D and MATH 20E or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20E"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Geophysical Fluid Dynamics",
     "code": "SIO 178",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2C and SIO 177 and MATH 18 or MATH 20F or MATH 31AH or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SIO177"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Ocean Instruments and Sensors",
     "code": "SIO 179",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 6A or CHEM 6AH or PHYS 2A or PHYS 4A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Communicating Science to Informal Audiences",
     "code": "SIO 180",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 6A or SIO 50 or BILD 1 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1521,8 +1771,31 @@
   {
     "name": "Environmental and Exploration Geophysics",
     "code": "SIO 182",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20C or MATH 31BH, and PHYS 2C, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1545,8 +1818,18 @@
   {
     "name": "Marine Invertebrates",
     "code": "SIO 184",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 3 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1929,15 +2212,34 @@
   {
     "name": "Digital Signal Processing I",
     "code": "SIOC 207B",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Digital Signal Processing II",
     "code": "SIOC 207C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECE 251A or ECE 251AN.) Prerequisites: graduate standing ECE 251A (for ECE 251B); SIOC 207B or SIO 207B (for SIOC 207C).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE251A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE251A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1978,8 +2280,40 @@
   {
     "name": "Ocean Waves II",
     "code": "SIOC 211B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and SIOC 211A or SIO 211A and SIOC 214A or SIO 214A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC211A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO211A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC214A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO214A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1992,21 +2326,63 @@
   {
     "name": "Geophysical Fluid Dynamics II",
     "code": "SIOC 212B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and SIOC 212A or SIO 212A and SIOC 214A or SIO 214A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC212A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO212A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC214A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO214A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Geophysical Fluid Dynamics III",
     "code": "SIOC 212C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and SIOC 212B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIOC212B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Turbulence and Mixing",
     "code": "SIOC 213",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2027,22 +2403,73 @@
   {
     "name": "Applied Mathematics for Oceanographers I",
     "code": "SIOC 215A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Applied Mathematics for Oceanographers II",
     "code": "SIOC 215B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and SIOC 215A or SIO 215A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC215A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO215A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Applied Mathematics for Oceanographers III",
     "code": "SIOC 215C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and SIOC 215A or SIO 215A and SIOC 215B or SIO 215B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC215A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO215A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC215B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO215B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2304,35 +2731,35 @@
   {
     "name": "Underwater Bioacoustics",
     "code": "SIOC 222",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Proposal Writing and Oceanographic Experiment Design",
     "code": "SIOC 223",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Numerical Modeling of the Climate System",
     "code": "SIOC 224",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ice Sheet-Ocean Interactions",
     "code": "SIOC 225",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning for Physical Applications",
     "code": "SIOC 228",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2513,14 +2940,37 @@
   {
     "name": "Nearshore Physical Oceanography",
     "code": "SIOC 261",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIOC 202A or SIOC 211A or SIOC 214A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC202A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIOC211A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIOC214A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biogeochemistry",
     "code": "SIOC 267",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2548,8 +2998,18 @@
   {
     "name": "Ocean-Atmosphere Processes and Climate Variability",
     "code": "SIOC 293",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "SIOC 290S and graduate standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIOC290S"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2569,28 +3029,28 @@
   {
     "name": "Geophysics Research Skills I—Effective Writing",
     "code": "SIOG 200A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Geophysics Research Skills II—Effective Presentation Techniques",
     "code": "SIOG 200B",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Geophysics Research Skills III—Reading, Understanding, and Synthesis",
     "code": "SIOG 200C",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Plate Tectonics in Practice",
     "code": "SIOG 221",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2806,7 +3266,7 @@
   {
     "name": "Space Geodesy",
     "code": "SIOG 237",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades only)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2834,14 +3294,14 @@
   {
     "name": "Geological Field Methods for Geophysicists",
     "code": "SIOG 241",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Rates and Dates: Applications of Modern Geochronology Methods",
     "code": "SIOG 242",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3021,14 +3481,14 @@
   {
     "name": "The Archaeology of Climate Change—Social Adaptation and Vulnerability in Temporal Perspective",
     "code": "SIOG 270",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Paleoethnobotany",
     "code": "SIOG 275",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3042,7 +3502,7 @@
   {
     "name": "Ocean Law and Policy",
     "code": "SIOB 218",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3142,7 +3602,7 @@
   {
     "name": "Marine Chemical Ecology",
     "code": "SIOB 265",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3230,7 +3690,7 @@
   {
     "name": "Professional Ethics in Science",
     "code": "SIOB 273",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3408,7 +3868,7 @@
   {
     "name": "Communicating Science to Informal Audiences",
     "code": "SIOB 292",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3429,7 +3889,7 @@
   {
     "name": "Behavior and Ecology of Fishes",
     "code": "SIOB 295",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

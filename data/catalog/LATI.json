@@ -44,8 +44,18 @@
   {
     "name": "Digital Oral History in Latin America",
     "code": "LATI 150",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "LATI 50; upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "LATI50"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

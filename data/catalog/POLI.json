@@ -217,7 +217,7 @@
   {
     "name": "Participation and Inequality",
     "code": "POLI 100I",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -287,28 +287,38 @@
   {
     "name": "Organized Interests",
     "code": "POLI 100V",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Politics, Policy, and Educational Inequality",
     "code": "POLI 100W",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI 30 or POLI 30D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI30"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Analysis and United States Politics",
     "code": "POLI 100X",
-    "raw_prereq": "",
+    "raw_prereq": "POLI 5D/POLI 5D/ECON 5 or POLI 30D.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Asian American Politics in the United States",
     "code": "POLI 100Y",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -495,7 +505,7 @@
   {
     "name": "Legal Argument Formulation",
     "code": "POLI 104K",
-    "raw_prereq": "",
+    "raw_prereq": "POLI 104J.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -530,7 +540,7 @@
   {
     "name": "Survey in Evidence, Civil Procedure, and Criminal Law",
     "code": "POLI 104T",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and POLI 104J.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -764,7 +774,7 @@
   {
     "name": "Feminist Theory",
     "code": "POLI 116A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -778,15 +788,25 @@
   {
     "name": "Bending the Curve",
     "code": "POLI 117R",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Political Theory of Liberation Theology",
     "code": "POLI 118B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "upper-division standing and POLI 13 or POLI 13D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -869,8 +889,18 @@
   {
     "name": "Politics and Revolution I: The Politics of the French Revolution",
     "code": "POLI 120J",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "for POLI 120J, one lower-division political science course; for POLI 220J, graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI120J"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -988,7 +1018,7 @@
   {
     "name": "The Politics of Conservation in Developing Countries",
     "code": "POLI 125E",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1075,7 +1105,7 @@
   {
     "name": "Politics of Modern India",
     "code": "POLI 130G",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1183,14 +1213,14 @@
   {
     "name": "Cuba: Revolution and Reform",
     "code": "POLI 134J",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Comparative LGBT Politics",
     "code": "POLI 135",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1211,14 +1241,14 @@
   {
     "name": "A Sports Analytics Approach to the Social Sciences",
     "code": "POLI 137",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Comparative Political Parties and Interest Groups",
     "code": "POLI 137A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1326,7 +1356,7 @@
   {
     "name": "International Terrorism",
     "code": "POLI 142O",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1542,15 +1572,53 @@
   {
     "name": "Algorithms, Public Policy, and Ethics",
     "code": "POLI 170",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI 5, POLI 5D, or ECON 5.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI5D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Applied Data Analysis for Political Science",
     "code": "POLI 170A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI 30 or POLI 30D or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1624,35 +1692,78 @@
   {
     "name": "Social Network Analysis",
     "code": "POLI 173",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Analyzing Elections",
     "code": "POLI 174",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI 112A or POLI 118.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI112A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning for Social Scientists",
     "code": "POLI 175",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CCS 1 or ECON 5/5R or POLI 5/5D/5R/5DR or POLI 30/30D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CCS1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Text as Data",
     "code": "POLI 176",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI/ECON 5D or POLI 30D or POLI 170A or POLI 171 or POLI 172.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI170A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI171"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Political Science Methodology",
     "code": "POLI 179",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1687,7 +1798,7 @@
   {
     "name": "Local Internship Research Seminar",
     "code": "POLI 194SD",
-    "raw_prereq": "department approval and consent of instructor.<span class=\"italic\"><strong>Corequisites:</strong></span>POLI 197SD.",
+    "raw_prereq": "department approval and consent of instructor. Corequisites: POLI 197SD.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1715,7 +1826,7 @@
   {
     "name": "Local Internship in Political Science",
     "code": "POLI 197SD",
-    "raw_prereq": "ninety units completed; 2.5 minimum cumulative GPA overall and 3.0 in political science; POLI 30 and at least two upper-division courses in political science. Department approval and consent of instructor.<span class=\"italic\"><strong>Corequisites:</strong></span>POLI 194SD.",
+    "raw_prereq": "ninety units completed; 2.5 minimum cumulative GPA overall and 3.0 in political science; POLI 30 and at least two upper-division courses in political science. Department approval and consent of instructor. Corequisites: POLI 194SD.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1764,15 +1875,25 @@
   {
     "name": "Analytic Theory I",
     "code": "POLI 203A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate student standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Analytic Theory II",
     "code": "POLI 203B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI 203A, graduate student standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI203A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1848,7 +1969,7 @@
   {
     "name": "Social Norms Change and Development",
     "code": "POLI 215",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1970,7 +2091,7 @@
   {
     "name": "Historical Political Economy",
     "code": "POLI 228",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1984,7 +2105,7 @@
   {
     "name": "Political Economy of Development",
     "code": "POLI 231",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2040,7 +2161,7 @@
   {
     "name": "Weapons of Mass Destruction",
     "code": "POLI 242D",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2061,7 +2182,7 @@
   {
     "name": "European Integration",
     "code": "POLI 244A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2117,7 +2238,7 @@
   {
     "name": "The Politics of Race, Ethnicity, and Immigration",
     "code": "POLI 250",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2138,7 +2259,7 @@
   {
     "name": "Research in State Politics",
     "code": "POLI 253",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2159,7 +2280,7 @@
   {
     "name": "Race, Class, and Institutions in American Political Economy",
     "code": "POLI 256",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2187,8 +2308,26 @@
   {
     "name": "Social Science Replication",
     "code": "POLI 260",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "POLI 204B and POLI 270 and POLI 271; graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI204B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "POLI270"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "POLI271"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2250,7 +2389,7 @@
   {
     "name": "Qualitative Methods",
     "code": "POLI 276",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2271,7 +2410,7 @@
   {
     "name": "Workshop: International Law and Regulation",
     "code": "POLI 280",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

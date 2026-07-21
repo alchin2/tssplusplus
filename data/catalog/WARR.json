@@ -9,7 +9,7 @@
   {
     "name": "Transfer Year Experience",
     "code": "WARR 2",
-    "raw_prereq": "",
+    "raw_prereq": "open to Warren College transfer students only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -47,7 +47,7 @@
   {
     "name": "Technical Writing for Scientists and Engineers",
     "code": "WCWP 160",
-    "raw_prereq": "",
+    "raw_prereq": "junior/senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

@@ -93,28 +93,28 @@
   {
     "name": "Public Rhetoric and Practical Communication",
     "code": "CAT 125",
-    "raw_prereq": "",
+    "raw_prereq": "Sixth College students only; upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Rhetoric and Practical Communication Global Seminar",
     "code": "CAT 125GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Rhetoric and Practical Communication Online",
     "code": "CAT 125R",
-    "raw_prereq": "",
+    "raw_prereq": "Sixth College students only; upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Rhetoric and Practical Communication Online Global Seminar",
     "code": "CAT 125RS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

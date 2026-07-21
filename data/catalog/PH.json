@@ -331,50 +331,220 @@
   {
     "name": "Qualitative Research for Global Public Health",
     "code": "PH 155",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40. Restricted enrollment to sophomore, junior, and senior standing. Renumbered from FMPH 155. Students may not receive credit for both FMPH 155 and PH 155.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PH40"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH155"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Skills for Health Promotion and Communication",
     "code": "PH 156",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40 and sophomore standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Race, Intersectionality, and Public Health",
     "code": "PH 157",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40 and sophomore standing. Renumbered from FMPH 191. Students can’t receive credit for PH 157 if they have already completed FMPH 191 subtitled “Race, Intersectionality, and Public Health.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH157"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH191"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Clinical Nutrition in Public Health",
     "code": "PH 161",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40. Restricted enrollment to sophomore, junior, and senior standing. Renumbered from FMPH 161. Students may not receive credit for both FMPH 161 and PH 161.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PH40"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH161"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Critical Digital Health",
     "code": "PH 162",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40 and sophomore standing. Renumbered from FMPH 191. Students cannot receive credit for FMPH 162 if they have already completed FMPH 191 subtitled “Critical Digital Health.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH162"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH191"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Field Epidemiology and Outbreak Investigations",
     "code": "PH 171",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40 and PH 101 or FMPH 101. Restricted enrollment to sophomore, junior, and senior standing. Renumbered from FMPH 171. Students may not receive credit for both FMPH 171 and PH 171.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PH101"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH171"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Immunizations and Public Health",
     "code": "PH 172",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PH 40 or FMPH 40 and sophomore standing. Renumbered from FMPH 191. Students can’t receive credit for FMPH 172 if they have already completed FMPH 191 subtitled “Immunizations and Public Health.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH191"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -769,7 +939,7 @@
   {
     "name": "Directed Group Study",
     "code": "PH 198",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -783,85 +953,485 @@
   {
     "name": "Biostatistical Methods I",
     "code": "PHB 221",
-    "raw_prereq": "",
+    "raw_prereq": "biostatistics major or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistical Methods II",
     "code": "PHB 222",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 244A or PHB 244A or MATH 281A or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Analysis of Longitudinal Data",
     "code": "PHB 223",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 222 or PHB 222 and MATH 281A or MATH 282A or FMPH 244B or PHB 244B or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH282A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistical Methods in Clinical Trials",
     "code": "PHB 224",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 and FMPH 223 or PHB 223 or program approval. Restricted to PB76, PB77, PB79, PB80, PB81, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB79"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB81"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Non- and Semi-Parametric Statistics and Functional Data",
     "code": "PHB 225",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221, and FMPH 222 or PHB 222, and FMPH 223 or PHB 223 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Methods for Observational Studies",
     "code": "PHB 226",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221, FMPH 222 or PHB 222, and FMPH 223 or PHB 223 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Learning and Multivariate Analysis",
     "code": "PHB 227",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Computing",
     "code": "PHB 228",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 221 or PHB 221, and FMPH 222 or PHB 222, and FMPH 244B or MATH 281A or PHB 244B. Restricted to biostatistics majors or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistics Rotation",
     "code": "PHB 241",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222; biostatistics major only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Topics in Biostatistics",
     "code": "PHB 242",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Practicum in Biostatistics A",
     "code": "PHB 243A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 222 and FMPH 223 or PHB 223. Restricted to major code PB76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH223"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Practicum in Biostatistics B",
     "code": "PHB 243B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 243A or PHB 243B. Restricted to major code PB76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH243A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -874,22 +1444,61 @@
   {
     "name": "Foundations in Biostatistics B",
     "code": "PHB 244B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 244A or PHB 244A, restricted to major code PB76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Applied Survival Analysis",
     "code": "PHB 248",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 244B or PHB 244B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH244B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Health Policy, Technology, and Public Health",
     "code": "PH 277",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in the UC San Diego/SDSU Joint Doctoral Program in public health (PU75, PU76, and PU77), biostatistics major (FM77), or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PU76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -902,8 +1511,31 @@
   {
     "name": "Biostatistics Seminar Series",
     "code": "PHB 281",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 290 or PHB 280. Restricted to PB76 and PB77 majors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH290"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB76"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PB77"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1091,274 +1723,1146 @@
   {
     "name": "Special Topics in Public Health",
     "code": "PHB 298",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Dissertation Research",
     "code": "PHB 299",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Biostatistics",
     "code": "PH 400",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 400. Students may not receive credit for both FMPH 400 and PH 400.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH400"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Epidemiology",
     "code": "PH 401",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 401. Students may not receive credit for both FMPH 401 and PH 401.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH401"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Health Behavior",
     "code": "PH 402",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 402. Students may not receive credit for both FMPH 402 and PH 402.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH402"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Research Methods",
     "code": "PH 403",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 403. Students may not receive credit for both FMPH 403 and PH 403.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH403"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Environmental and Occupational Health",
     "code": "PH 404",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 404. Students may not receive credit for both FMPH 404 and PH 404.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH404"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Health Policy",
     "code": "PH 405",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 405. Students may not receive credit for both FMPH 405 and PH 405.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH405"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Scientific Writing",
     "code": "PH 406",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 406. Students may not receive credit for both FMPH 406 and PH 406.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH406"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Health Behavior Interventions",
     "code": "PH 410",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB87) or program approval and successfully completed PH 402. Renumbered from FMPH 410. Students may not receive credit for both FMPH 410 and PH 410.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH410"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Program Optimization and Evaluation",
     "code": "PH 411",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB87, PB90, and PB75) or program approval and successfully completed FMPH 402 or PH 402, and FMPH 403 or PH 403. Renumbered from FMPH 411. Students may not receive credit for both FMPH 411 and PH 411.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB90"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH402"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH402"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH403"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH411"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Health Promotion and Communication",
     "code": "PH 412",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB90) or program approval and successfully completed FMPH 402 or PH 402. Renumbered from FMPH 412. Students may not receive credit for both FMPH 412 and PH 412.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB87"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH402"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH412"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Ethics in Public Health Research and Practice",
     "code": "PH 413",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in the MPH program (PB91, PB87, PB88, PB90, and PB75) or program approval. Renumbered from FMPH 413. Students may not receive credit for both FMPH 413 and PH 413.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH413"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Epidemiologic Methods",
     "code": "PH 415",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 415. Students may not receive credit for both FMPH 415 and PH 415.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH401"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH415"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Cardiovascular Disease Epidemiology",
     "code": "PH 417",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 417. Students may only receive credit for one of these courses: PH 417, PH 417R, or FMPH 417.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH401"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH417"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH417R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Cardiovascular Disease Epidemiology",
     "code": "PH 417R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Students may only receive credit for one of these courses: PH 417, PH 417R, or FMPH 417.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH401"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH417"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH417R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Infectious Diseases and Public Health",
     "code": "PH 418",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 418. Students may not receive credit for both FMPH 418 and PH 418.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH401"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH418"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistics II",
     "code": "PH 419",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB91) or program approval and successfully completed FMPH 400 or PH 400. Renumbered from FMPH 419. Students may not receive credit for both FMPH 419 and PH 419.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB87"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH400"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH419"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Infectious Disease Epidemic and Economic Modeling for Health Policymaking",
     "code": "PH 420",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB90, and PB91) or program approval and successfully completed FMPH 401 or PH 401. Students can’t receive credit for PH 420 if they have already completed FMPH 491 subtitled “Introduction to Infectious Disease Epidemic and Economic Modeling for Health Policymaking.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB90"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH401"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PH420"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH491"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Public Mental Health Epidemiology",
     "code": "PH 425",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB89, and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 425. Students may not receive credit for both FMPH 425 and PH 425.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB89"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH401"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH425"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Public Mental and Behavior Health and Addiction",
     "code": "PH 426",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB89) or program approval and successfully completed FMPH 402 or PH 402. Renumbered from FMPH 402. Students may not receive credit for both FMPH 402 and PH 402.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB87"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH402"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH402"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Mental Health Across the Life Course",
     "code": "PH 427",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB89) or program approval. Renumbered from FMPH 427. Students may not receive credit for both FMPH 427 and PH 427.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH427"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Dissemination and Implementation, Policy, and Health Services in Mental Health",
     "code": "PH 428",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB88, and PB89) or program approval. Renumbered from FMPH 428. Students may not receive credit for both FMPH 428 and PH 428.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB88"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH428"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Substance Use and Population Health",
     "code": "PH 429",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB89). Students cannot receive credit for PH 429 if they have already completed FMPH 491 subtitled “Substance Use and Population Health.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PB87"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH429"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH491"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Technology and Precision Health",
     "code": "PH 430",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB90) or program approval. Renumbered from FMPH 430. Students may not receive credit for both FMPH 430 and PH 430.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH430"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Informatics",
     "code": "PH 431",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB90) or program approval. Renumbered from FMPH 431. Students may not receive credit for both FMPH 431 and PH 431.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH431"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Health Economics",
     "code": "PH 440",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB88) and successfully completed FMPH 405 or PH 405. Renumbered from FMPH 440. Students may not receive credit for both FMPH 440 and PH 440.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH405"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH440"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "The Organization and Financing of the U",
     "code": "PH 441",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB88) and successfully completed FMPH 405 or PH 405. Renumbered from FMPH 441. Students may not receive credit for both FMPH 441 and PH 441.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH405"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH441"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Qualitative Research Methods",
     "code": "PH 442",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB88). Students cannot receive credit for PH 442 if they have already completed FMPH 491 subtitled “Qualitative Research Methods.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH442"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH491"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Design and Public Health",
     "code": "PH 460",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75 and PB90) or program approval. Renumbered from FMPH 460. Students may not receive credit for both FMPH 460 and PH 460.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH460"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Current Issues in Public Health",
     "code": "PH 461",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 461. Students may not receive credit for both FMPH 461 and PH 461.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH461"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Non-Communicable Diseases and Global Health",
     "code": "PH 462",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 462. Students may not receive credit for both FMPH 462 and PH 462.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH462"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "VIIDAI: Public Health Field Practice in Baja",
     "code": "PH 463",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91). Students cannot receive credit for PH 463 if they have already completed FMPH 491 subtitled “VIIDAI: Public Health Field Practice in Baja.”",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH463"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH491"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Foundation and Government Grant Writing",
     "code": "PH 480",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Public Health",
     "code": "PH 491",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 491.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Leadership in Practice",
     "code": "PH 496A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91). Renumbered from FMPH 496A. Students may not receive credit for both FMPH 496A and PH 496A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH496A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "MPH Practicum Field Placement",
     "code": "PH 496B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91). Renumbered from FMPH 496B. Students may not receive credit for both FMPH 496B and PH 496B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH496B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study",
     "code": "PH 498",
-    "raw_prereq": "",
+    "raw_prereq": "program approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Master’s Capstone/Thesis",
     "code": "PH 499",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PB87"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB88"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB89"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB90"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

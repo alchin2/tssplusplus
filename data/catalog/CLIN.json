@@ -9,7 +9,7 @@
   {
     "name": "Mind, Brain & Behavior II",
     "code": "CLIN 227B",
-    "raw_prereq": "",
+    "raw_prereq": "CLIN 227A. S/U grades only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

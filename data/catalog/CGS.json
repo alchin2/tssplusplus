@@ -284,36 +284,131 @@
   {
     "name": "Women of Color Writers",
     "code": "CGS 125",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CGS 2A or CGS 2B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Muslims on Gender and Sexuality",
     "code": "CGS 126",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CGS 2A or 2B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Feminist Border Studies",
     "code": "CGS 127",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CGS 2A or 2B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Transnational Feminisms",
     "code": "CGS 128",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CGS 2A or 2B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Queer Performativity",
     "code": "CGS 130",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CGS 2A or 2B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -326,8 +421,27 @@
   {
     "name": "Feminist Science and Technology Studies",
     "code": "CGS 135",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CGS 2A or 2B or at least one CGS upper-division course.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CGS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CGS2B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

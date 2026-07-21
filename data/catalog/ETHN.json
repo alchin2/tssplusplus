@@ -696,7 +696,7 @@
   {
     "name": "Critical Perspectives on the Vietnam War",
     "code": "ETHN 155GS",
-    "raw_prereq": "",
+    "raw_prereq": "students must apply and be accepted into the Global Seminars program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1116,8 +1116,18 @@
   {
     "name": "Representing Native America: Exhibition Design",
     "code": "ETHN 214B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ETHN 214A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ETHN214A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1172,14 +1182,14 @@
   {
     "name": "Popular Culture and Pedagogy",
     "code": "ETHN 266",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "History and Memory",
     "code": "ETHN 267",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

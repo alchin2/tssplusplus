@@ -2,7 +2,7 @@
   {
     "name": "Orientation to Engineering Profession",
     "code": "ENG 5",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -23,7 +23,7 @@
   {
     "name": "Introduction to Engineering Research",
     "code": "ENG 20",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -144,7 +144,7 @@
   {
     "name": "Basics of Entrepreneurism and Technology Commercialization",
     "code": "ENG 208",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

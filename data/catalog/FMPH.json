@@ -134,22 +134,32 @@
   {
     "name": "Qualitative Research for Global Public Health",
     "code": "FMPH 155",
-    "raw_prereq": "",
+    "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Clinical Nutrition in Public Health",
     "code": "FMPH 161",
-    "raw_prereq": "",
+    "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Field Epidemiology and Outbreak Investigations",
     "code": "FMPH 171",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 40 and FMPH 101. Restricted enrollment to sophomore, junior, and senior standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH40"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -286,14 +296,14 @@
   {
     "name": "Public Health Honors Practicum III",
     "code": "FMPH 196C",
-    "raw_prereq": "",
+    "raw_prereq": "FMPH 196B. Restricted to upper-division public health majors only (FP25).",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Group Study",
     "code": "FMPH 198",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -307,85 +317,485 @@
   {
     "name": "Biostatistical Methods I",
     "code": "PHB 221",
-    "raw_prereq": "",
+    "raw_prereq": "biostatistics major or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistical Methods II",
     "code": "PHB 222",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 244A or PHB 244A or MATH 281A or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Analysis of Longitudinal Data",
     "code": "PHB 223",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 222 or PHB 222 and MATH 281A or MATH 282A or FMPH 244B or PHB 244B or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH282A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistical Methods in Clinical Trials",
     "code": "PHB 224",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 and FMPH 223 or PHB 223 or program approval. Restricted to PB76, PB77, PB79, PB80, PB81, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB79"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB80"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB81"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Non- and Semi-Parametric Statistics and Functional Data",
     "code": "PHB 225",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221, and FMPH 222 or PHB 222, and FMPH 223 or PHB 223 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Methods for Observational Studies",
     "code": "PHB 226",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221, FMPH 222 or PHB 222, and FMPH 223 or PHB 223 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Learning and Multivariate Analysis",
     "code": "PHB 227",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Computing",
     "code": "PHB 228",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 221 or PHB 221, and FMPH 222 or PHB 222, and FMPH 244B or MATH 281A or PHB 244B. Restricted to biostatistics majors or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistics Rotation",
     "code": "PHB 241",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222; biostatistics major only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Topics in Biostatistics",
     "code": "PHB 242",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Practicum in Biostatistics A",
     "code": "PHB 243A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 221 or PHB 222 and FMPH 223 or PHB 223. Restricted to major code PB76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB222"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH223"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Practicum in Biostatistics B",
     "code": "PHB 243B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "successful completion of FMPH 243A or PHB 243B. Restricted to major code PB76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH243A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -398,22 +808,61 @@
   {
     "name": "Foundations in Biostatistics B",
     "code": "PHB 244B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 244A or PHB 244A, restricted to major code PB76.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Applied Survival Analysis",
     "code": "PHB 248",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 244B or PHB 244B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH244B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Health Policy, Technology, and Public Health",
     "code": "FMPH 277",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in the UC San Diego/SDSU Joint Doctoral Program in public health (PU75, PU76, and PU77), biostatistics major (FM77), or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PU76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -426,8 +875,31 @@
   {
     "name": "Biostatistics Seminar Series",
     "code": "PHB 281",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 290 or PHB 280. Restricted to PB76 and PB77 majors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH290"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PB76"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PB77"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -440,84 +912,94 @@
   {
     "name": "Special Topics in Public Health",
     "code": "PHB 298",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Dissertation Research",
     "code": "PHB 299",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Biostatistics",
     "code": "FMPH 400",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Epidemiology",
     "code": "FMPH 401",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Health Behavior",
     "code": "FMPH 402",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Research Methods",
     "code": "FMPH 403",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Environmental and Occupational Health",
     "code": "FMPH 404",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Health Policy",
     "code": "FMPH 405",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Scientific Writing",
     "code": "FMPH 406",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Health Behavior Interventions",
     "code": "FMPH 410",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 402.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Program Optimization and Evaluation",
     "code": "FMPH 411",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 402 and FMPH 403.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH402"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Health Promotion and Communication",
     "code": "FMPH 412",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 402.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -531,42 +1013,42 @@
   {
     "name": "Advanced Epidemiologic Methods",
     "code": "FMPH 415",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 401.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cardiovascular Disease Epidemiology",
     "code": "FMPH 417",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 401.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Infectious Diseases: Epidemiologic Methods and Emerging Trends",
     "code": "FMPH 418",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 401.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biostatistics II",
     "code": "FMPH 419",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 400.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Epidemiology of Public Mental Health",
     "code": "FMPH 425",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 401.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Mental and Behavior Health and Addiction",
     "code": "FMPH 426",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 402.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -587,84 +1069,107 @@
   {
     "name": "Technology and Precision Health",
     "code": "FMPH 430",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Informatics",
     "code": "FMPH 431",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Health Economics",
     "code": "FMPH 440",
-    "raw_prereq": "",
+    "raw_prereq": "successfully completed FMPH 405.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Organization and Financing of the US Health Care System",
     "code": "FMPH 441",
-    "raw_prereq": "",
+    "raw_prereq": "successfully completed FMPH 405.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human-Centered Design and Public Health",
     "code": "FMPH 460",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Current Issues in Public Health",
     "code": "FMPH 461",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Non-Communicable Diseases and Global Health",
     "code": "FMPH 462",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "must be enrolled in MPH program (FM75, FM76, FM77, PU75, or PU77) or program approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FM76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FM77"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PU75"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Public Health",
     "code": "FMPH 491",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Leadership in Practice",
     "code": "FMPH 496A",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "MPH Practicum Field Placement",
     "code": "FMPH 496B",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study",
     "code": "FMPH 498",
-    "raw_prereq": "",
+    "raw_prereq": "program approval required",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Health Master’s Capstone/Thesis",
     "code": "FMPH 499",
-    "raw_prereq": "",
+    "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 495.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

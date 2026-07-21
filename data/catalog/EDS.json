@@ -68,7 +68,7 @@
   {
     "name": "Explorations in Education",
     "code": "EDS 38",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -89,7 +89,7 @@
   {
     "name": "Chancellor’s Associates Scholars Program First-year Student Introductory Course",
     "code": "EDS 50",
-    "raw_prereq": "",
+    "raw_prereq": "Open to Chancellor’s Associates Scholars Program first-year students only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -110,42 +110,119 @@
   {
     "name": "Introduction to Qualitative Methods in Education Research",
     "code": "EDS 102",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ED25 major and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Quantitative Methods in Education Research",
     "code": "EDS 103",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ED25 major and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ED25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Teaching and Learning Physics",
     "code": "EDS 105/PHYS 180",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 1A or PHYS 2A or PHYS 4A and PHYS 1B or PHYS 2B or PHYS 4C and PHYS 1C or PHYS 2C or PHYS 2D or PHYS 4B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "The Struggle for K–12 Ethnic Studies",
     "code": "EDS 107",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Culture, Cognition, and Schooling in the Americas",
     "code": "EDS 108GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Early Learning Environments for Diverse Learners",
     "code": "EDS 110R",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -410,7 +487,7 @@
   {
     "name": "Teaching Computational Thinking for Everyone",
     "code": "EDS 124BR",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -466,14 +543,24 @@
   {
     "name": "Counseling, Mentoring, and Academic Advising",
     "code": "EDS 133",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "department approval required. EDS 139 must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS139"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Working with Newcomer Communities in San Diego",
     "code": "EDS 135",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -551,28 +638,48 @@
   {
     "name": "Action Research in P–12 Education: Advanced Practicum in P–12 Schools and Communities",
     "code": "EDS 141",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "EDS 140, department approval. Students will need to fill out a placement form prior to getting approval to enroll in EDS 140. This form provides the course instructor with information regarding student’s prior experiences with PAL, areas/topics of interest; EDS 139 must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS140"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Artsbridge: Integrating the Arts Across the Curriculum",
     "code": "EDS 145",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mindfulness and Education",
     "code": "EDS 146",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "department approval required, EDS 139 must be taken as a corequisite.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "EDS139"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Professional Learning in Practice",
     "code": "EDS 149",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -600,14 +707,14 @@
   {
     "name": "Early Childhood Policy: Children, Contexts, and Policies in Diverse Societies",
     "code": "EDS 164R",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Psychology of Reading and Education",
     "code": "EDS 165",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2191,14 +2298,37 @@
   {
     "name": "Introduction to Critical Race Theory and Education",
     "code": "EDS 268",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "EDS 251 or EDS 252 or EDS 253. ED82 major or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS251"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS252"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ED82"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Diverse College Students",
     "code": "EDS 269",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

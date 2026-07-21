@@ -2,168 +2,168 @@
   {
     "name": "First-Year Chinese I",
     "code": "CHIN 10AN",
-    "raw_prereq": "",
+    "raw_prereq": "placement interview required for department approval to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese for Mandarin Speakers I",
     "code": "CHIN 10AM",
-    "raw_prereq": "",
+    "raw_prereq": "placement interview required for department approval to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese for Dialect Speakers I",
     "code": "CHIN 10AD",
-    "raw_prereq": "",
+    "raw_prereq": "placement interview required for department approval to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese II",
     "code": "CHIN 10BN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese for Mandarin Speakers II",
     "code": "CHIN 10BM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese for Dialect Speakers II",
     "code": "CHIN 10BD",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese III",
     "code": "CHIN 10CN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese for Mandarin Speakers III",
     "code": "CHIN 10CM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Chinese for Dialect Speakers III",
     "code": "CHIN 10CD",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese I",
     "code": "CHIN 20AN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese for Mandarin Speakers I",
     "code": "CHIN 20AM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese for Dialect Speakers I",
     "code": "CHIN 20AD",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese II",
     "code": "CHIN 20BN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese for Mandarin Speakers II",
     "code": "CHIN 20BM",
-    "raw_prereq": "previous course or department approval through placement interview",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese for Dialect Speakers II",
     "code": "CHIN 20BD",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese III",
     "code": "CHIN 20CN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese for Mandarin Speakers III",
     "code": "CHIN 20CM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Chinese for Dialect Speakers III",
     "code": "CHIN 20CD",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Chinese I",
     "code": "CHIN 100AN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Chinese for Mandarin and Dialect Speakers I",
     "code": "CHIN 100AM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Chinese II",
     "code": "CHIN 100BN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Chinese for Mandarin and Dialect Speakers II",
     "code": "CHIN 100BM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Chinese III",
     "code": "CHIN 100CN",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Chinese for Mandarin and Dialect Speakers III",
     "code": "CHIN 100CM",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

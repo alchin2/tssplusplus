@@ -2,21 +2,31 @@
   {
     "name": "Dimensions of Culture: Diversity",
     "code": "DOC 1",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "satisfaction of UC Entry Level Writing Requirement or concurrent enrollment in AWP 3, Analytical Writing. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "AWP3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Dimensions of Culture: Justice",
     "code": "DOC 2",
-    "raw_prereq": "",
+    "raw_prereq": "satisfaction of UC Entry Level Writing Requirement and completion of DOC 1. Enrollment by department approval only. (W)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Dimensions of Culture: Imagination",
     "code": "DOC 3",
-    "raw_prereq": "",
+    "raw_prereq": "DOC 2. (S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },

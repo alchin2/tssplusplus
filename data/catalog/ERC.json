@@ -23,15 +23,25 @@
   {
     "name": "Learning Sustainable Well-being",
     "code": "ERC 88",
-    "raw_prereq": "",
+    "raw_prereq": "open to Eleanor Roosevelt College students only. Pass/Not Pass only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Practicum in Math Tutoring",
     "code": "ERC 89",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "Math 10A or 20A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH10A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -58,7 +68,7 @@
   {
     "name": "Honors Project",
     "code": "ERC 196",
-    "raw_prereq": "",
+    "raw_prereq": "admission to Eleanor Roosevelt College Individual Studies major.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

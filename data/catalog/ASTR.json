@@ -44,21 +44,79 @@
   {
     "name": "Additional Topics in Classical Physics",
     "code": "ASTR 18",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A or PHYS 2AR and PHYS 2B and PHYS 2C and PHYS 2D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2AR"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Astrophysics I",
     "code": "ASTR 20A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20A-B-C or 31BH and PHYS 2A/2AR-B or 4A and 4C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH4A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Astrophysics II",
     "code": "ASTR 20B",
-    "raw_prereq": "",
+    "raw_prereq": "ASTR 20A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -100,127 +158,333 @@
   {
     "name": "Astrophysical Dynamics",
     "code": "ASTR 101",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E, and MATH 18 or 31AH and 20E. Recommended preparation: ASTR 18.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Electrodynamics and Optics for Astrophysicists",
     "code": "ASTR 102",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ASTR 101, and PHYS 2A/2AR-B-C-D or 4A-B-C-D-E, and ASTR 18.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR101"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4E"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Dynamics of Radiation and Fluids",
     "code": "ASTR 103",
-    "raw_prereq": "",
+    "raw_prereq": "ASTR 102.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Thermal Astrophysics",
     "code": "ASTR 104",
-    "raw_prereq": "",
+    "raw_prereq": "ASTR 103.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Fundamentals of Quantum Mechanics",
     "code": "ASTR 105",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ASTR 101, and PHYS 2A/2AR-B-C-D or 4A-B-C-D-E, and ASTR 18.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR101"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR4E"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Quantum Mechanics of Radiation, Atoms and Molecules",
     "code": "ASTR 106",
-    "raw_prereq": "",
+    "raw_prereq": "ASTR 105.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Stellar Astrophysics",
     "code": "ASTR 120",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Explosive Universe",
     "code": "ASTR 121",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Physical Cosmology",
     "code": "ASTR 122",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Galaxies",
     "code": "ASTR 123",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Exoplanets",
     "code": "ASTR 124",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Astrobiology",
     "code": "ASTR 130",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "From the Stars to Earth: Using Nuclear Energy",
     "code": "ASTR 131",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Observational Optical Research Lab",
     "code": "ASTR 150",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E and BILD 62 or COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 10 or PHYS 41.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Observational Optical Research Lab",
     "code": "ASTR 151",
-    "raw_prereq": "",
+    "raw_prereq": "ASTR 150.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Observational Radio Research Lab",
     "code": "ASTR 152",
-    "raw_prereq": "",
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science in Astronomy",
     "code": "ASTR 154",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E and BILD 62 or COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 10 or PHYS 41.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Computational Astrophysics",
     "code": "ASTR 155",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E and BILD 62 or COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 10 or PHYS 41.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC10"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

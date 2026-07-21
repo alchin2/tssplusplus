@@ -97,22 +97,83 @@
   {
     "name": "Chemical Engineering Thermodynamics",
     "code": "CENG 102",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CENG 100, CHEM 6C, and MATH 20C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Material and Energy Balances with Applications",
     "code": "CENG 110",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CENG 4 and CHEM 6B or CHEM 6BH. Students may not receive credit for both CENG 100 and CENG 110.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG4"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Chemical Reaction Engineering",
     "code": "CENG 113",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CENG 15, CENG 100 and MATH 20D.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -190,8 +251,22 @@
   {
     "name": "Chemical Plant and Process Design I",
     "code": "CENG 124A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "admission to chemical engineering major and grades of C– or better in CENG 113 and CENG 122, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG113"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG122"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -264,14 +339,24 @@
   {
     "name": "Experimental Methods for Chemical Engineers",
     "code": "CENG 170",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CENG 100 and CENG 102.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "NanoEngineering in Medicine",
     "code": "CENG 175",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -322,7 +407,7 @@
   {
     "name": "Graduate Seminar in Chemical and Nano Engineering",
     "code": "CENG 205",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -468,15 +553,29 @@
   {
     "name": "Process Technology in the Semiconductor Industry",
     "code": "CENG 257",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. Open to chemical engineering and NanoEngineering majors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Biochemical Engineering",
     "code": "CENG 260",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "department approval will ensure students have taken CENG 100 or an equivalent undergraduate-level material and energy balances course. Students may not receive credit for both CENG 160 and CENG 260.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG100"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG160"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -489,14 +588,14 @@
   {
     "name": "Independent Study in Chemical Engineering",
     "code": "CENG 296",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Group Study",
     "code": "CENG 297",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor, graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -510,7 +609,7 @@
   {
     "name": "Teaching Experience",
     "code": "CENG 501",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -559,22 +658,67 @@
   {
     "name": "Foundations in NanoEngineering: Chemical Principles",
     "code": "NANO 102",
-    "raw_prereq": "",
+    "raw_prereq": "CHEM 6C. Restricted to NanoEngineering majors or by department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Foundations in NanoEngineering: Biochemical Principles",
     "code": "NANO 103",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 1, CHEM 6C or CHEM 6CH, NANO 11 and NANO 102. Priority given to NA25 majors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO11"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NA25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Foundations in NanoEngineering: Physical Principles",
     "code": "NANO 104",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20D and NANO 11. Priority given to NA25 majors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NA25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -638,63 +782,145 @@
   {
     "name": "Molecular Modeling of Nanoscale Systems",
     "code": "NANO 110",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20F or MATH 18, NANO 102, NANO 104, and NANO 15 or CENG 15 or MAE 8. Restricted to NanoEngineering majors or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO104"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NANO15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Characterization of NanoEngineering Systems",
     "code": "NANO 111",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 102.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Synthesis and Fabrication of NanoEngineering Systems",
     "code": "NANO 112",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "NANO 102 and NANO 104.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO102"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Probability and Statistical Methods for Engineers",
     "code": "NANO 114",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20F or MATH 18 and NANO 15 or CENG 15 or MAE 8.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NANO15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG15"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Nanoengineering Laboratory",
     "code": "NANO 115L",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 111.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Multiscale Transport",
     "code": "NANO 117",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "NanoEngineering System Design Seminar",
     "code": "NANO 119",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 115L.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "NanoEngineering System Design I",
     "code": "NANO 120A",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 110.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "NanoEngineering System Design II",
     "code": "NANO 120B",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 120A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -718,15 +944,35 @@
   {
     "name": "Engineering Mechanics I: Analysis of Equilibrium",
     "code": "NANO 141A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20C and PHYS 2A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Engineering Mechanics II: Analysis of Motion",
     "code": "NANO 141B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20D and NANO 141A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -784,15 +1030,64 @@
   {
     "name": "Electrochemistry: Fundamentals and Applications",
     "code": "NANO 159",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 6A or 6AH, CHEM 6B or 6BH, CHEM 6C or 6CH, CHEM 7L or 7LM.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7L"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Material Selection in Engineering",
     "code": "NANO 161",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "NANO 108. Department approval required. Restricted to major code NA25 or by department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NA25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -841,29 +1136,48 @@
   {
     "name": "Mechanical Behavior of Materials",
     "code": "NANO 174",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 108.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mechanical Behavior Laboratory",
     "code": "NANO 174L",
-    "raw_prereq": "",
+    "raw_prereq": "NANO 174.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "NanoEngineering in Medicine",
     "code": "NANO 175",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science in Materials Science",
     "code": "NANO 181",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "NANO 114 or CENG 114. Students may not receive credit for both NANO 181 and NANO 181R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "NANO114"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO181"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -963,7 +1277,7 @@
   {
     "name": "Structure and Analysis of Solids",
     "code": "NANO 227",
-    "raw_prereq": "<span>graduate standing</span>.",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1253,21 +1567,21 @@
   {
     "name": "Independent Study in NanoEngineering",
     "code": "NANO 298",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Graduate Research in NanoEngineering",
     "code": "NANO 299",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Teaching Experience",
     "code": "NANO 501",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

@@ -168,14 +168,14 @@
   {
     "name": "The Beatles",
     "code": "MUS 16",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Hip-Hop",
     "code": "MUS 17",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -189,7 +189,7 @@
   {
     "name": "Blacktronika: Afrofuturism in Electronic Music",
     "code": "MUS 19",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -858,15 +858,48 @@
   {
     "name": "Senior Project in Computing Arts I",
     "code": "MUS 160A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 141B or VIS 145B or VIS 147B or MUS 172. Open to music and ICAM majors only. Department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS141B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS145B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS147B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Senior Project in Computing Arts II",
     "code": "MUS 160B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MUS 160A or VIS 160A. Open to music and ICAM majors only. Department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS160A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1096,7 +1129,7 @@
   {
     "name": "Contemporary Chamber Opera Performance",
     "code": "MUS 200",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in music, MU75/MU76, or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

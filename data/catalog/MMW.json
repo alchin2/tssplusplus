@@ -64,43 +64,181 @@
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
     "code": "MMW 14",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MMW13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
     "code": "MMW 14R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MMW13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
     "code": "MMW 14GS",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better. Students must apply and be accepted to the Global Seminars program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MMW13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
     "code": "MMW 15",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MMW13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
     "code": "MMW 15R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MMW13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
     "code": "MMW 15GS",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better. Students must apply and be accepted to the Global Seminars program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MMW13"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

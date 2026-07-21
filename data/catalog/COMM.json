@@ -121,15 +121,56 @@
   {
     "name": "Production of Activist Media",
     "code": "COMM 101A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 10 or COMM 20 or COMM 30 or COMM 30GS or COMM 40 and COMM 101.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "MPL: Nonlinear/Digital Editing",
     "code": "COMM 101D",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 101 or VIS 70N.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -193,8 +234,31 @@
   {
     "name": "MPL: Topics in Production",
     "code": "COMM 101T",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 101 or COGN 22 or VIS 70N prerequisites can be taken concurrently by permission.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGN22"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -357,7 +421,7 @@
   {
     "name": "CT: Photographic Technologies",
     "code": "COMM 105P",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -480,28 +544,55 @@
   {
     "name": "CI: Internet Industry",
     "code": "COMM 106I",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advertising and Society",
     "code": "COMM 106M",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM30GS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Journalism and the News Industry",
     "code": "COMM 106N",
-    "raw_prereq": "",
+    "raw_prereq": "junior or senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Journalism and the News Industry",
     "code": "COMM 106NR",
-    "raw_prereq": "",
+    "raw_prereq": "junior or senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -515,7 +606,7 @@
   {
     "name": "Visual Culture",
     "code": "COMM 107",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -557,7 +648,7 @@
   {
     "name": "LLC: Communication in Organizations",
     "code": "COMM 110G",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -619,7 +710,7 @@
   {
     "name": "CCP: Communication and Cultural Production: Introduction",
     "code": "COMM 111A",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -633,7 +724,7 @@
   {
     "name": "CCP: Cities and Politics of Space",
     "code": "COMM 111C",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -661,7 +752,7 @@
   {
     "name": "CCP: Cultural Politics of Sport",
     "code": "COMM 111T",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -713,7 +804,7 @@
   {
     "name": "CSI: On Constitutions",
     "code": "COMM 114C",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -795,7 +886,7 @@
   {
     "name": "CSI: Communication and the Law: The Body in Law",
     "code": "COMM 114N",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 10.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1209,7 +1300,7 @@
   {
     "name": "Critical Design Practice/Topic Studio",
     "code": "COMM 124B",
-    "raw_prereq": "",
+    "raw_prereq": "COMM 124A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1223,8 +1314,31 @@
   {
     "name": "Children and Media",
     "code": "COMM 126",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1957,8 +2071,31 @@
   {
     "name": "Media and Conflict Environment: Textual and Visual Representations",
     "code": "COMM 156",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2511,15 +2648,61 @@
   {
     "name": "Education and Global Citizenship",
     "code": "COMM 182",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 10, COMM 100A, 100B, and 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Global Economy and Consumer Culture",
     "code": "COMM 183",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2776,14 +2959,14 @@
   {
     "name": "Genealogical Analysis",
     "code": "COGR 201N",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Information and Society",
     "code": "COGR 210",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2797,7 +2980,7 @@
   {
     "name": "Regulation of Telecommunications",
     "code": "COGR 215",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2908,7 +3091,7 @@
   {
     "name": "Geography and Communication",
     "code": "COGR 241",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2922,7 +3105,7 @@
   {
     "name": "Media Technologies",
     "code": "COGR 243",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2950,14 +3133,14 @@
   {
     "name": "Writing for Media",
     "code": "COGR 247",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Visual Culture",
     "code": "COGR 248",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3020,7 +3203,7 @@
   {
     "name": "Language in Human Communication",
     "code": "COGR 258",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3041,21 +3224,21 @@
   {
     "name": "Geographies of Difference, Exclusion and Conflict",
     "code": "COGR 262",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Writing Research Proposals",
     "code": "COGR 263",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Feminisms in Critical Dialogue",
     "code": "COGR 264",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3083,7 +3266,7 @@
   {
     "name": "Understanding Everyday Life",
     "code": "COGR 281",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -3118,7 +3301,7 @@
   {
     "name": "The History of Communication Research",
     "code": "COGR 294",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

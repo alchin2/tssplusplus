@@ -37,7 +37,7 @@
   {
     "name": "Current Topics in Anthropogeny",
     "code": "BIOM 218",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -65,7 +65,7 @@
   {
     "name": "Advanced Anthropogeny",
     "code": "BIOM 229",
-    "raw_prereq": "",
+    "raw_prereq": "BIOM 225.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -171,8 +171,27 @@
   {
     "name": "Molecular Basis of Drug Action and Disease Therapy",
     "code": "BIOM 255",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BIOM 200A-B, 201. Limited to BMS graduate students except by consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM200B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -185,8 +204,31 @@
   {
     "name": "Quantitative Methods in Genetics",
     "code": "BIOM 262",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BGGN 223, or BIOM 252 and BIOM 272, or equivalent.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BGGN223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM252"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIOM272"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

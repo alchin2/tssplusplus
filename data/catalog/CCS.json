@@ -2,36 +2,74 @@
   {
     "name": "Carbon Neutrality Initiative at University of California",
     "code": "CCS 101",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Research Perspectives on Climate Change",
     "code": "CCS 102",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Policy and Politics of Climate Change",
     "code": "CCS 123",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Carbon Neutrality Internship",
     "code": "CCS 197",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CCS 101, CCS 102, and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CCS101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CCS102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Supervised Independent Study or Research",
     "code": "CCS 199",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CCS 101, CCS 102, and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CCS101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CCS102"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   }
 ]

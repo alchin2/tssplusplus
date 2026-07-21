@@ -102,7 +102,7 @@
   {
     "name": "Honors Microeconomics A",
     "code": "ECON 100AH",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -179,8 +179,18 @@
   {
     "name": "Advanced Topic in Globalization",
     "code": "ECON 102T",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "department approval required. May be taken concurrently with ECON 102 or after completion of ECON 102.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON102"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -226,8 +236,18 @@
   {
     "name": "International Economic Agreements",
     "code": "ECON 106",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 100B and 102.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -403,8 +423,26 @@
   {
     "name": "Macroeconomic Data Analysis",
     "code": "ECON 112",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 110B and ECON 120B or MATH 181B. Enrollment limited to majors in the Department of Economics and MA33 only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON110B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON120B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MA33"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -897,8 +935,22 @@
   {
     "name": "Corruption",
     "code": "ECON 137",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 100C and 120C. Enrollment limited to majors in the Department of Economics and MA33 only; department approval required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MA33"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1158,15 +1210,35 @@
   {
     "name": "The Indian Economy",
     "code": "ECON 164",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 1 and 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Topics in the Indian Economy",
     "code": "ECON 164T",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "department approval required. May be taken concurrently with ECON 164 or after completion of ECON 164.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON164"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1206,22 +1278,52 @@
   {
     "name": "Economics of China",
     "code": "ECON 167",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 1 and 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Economics of Modern Israel",
     "code": "ECON 168",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 1 and 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Economics of Korea",
     "code": "ECON 169",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 3 and 100A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1449,8 +1551,18 @@
   {
     "name": "Topics in Economics",
     "code": "ECON 181",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 1 and ECON 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1463,29 +1575,59 @@
   {
     "name": "Topics in Macroeconomics",
     "code": "ECON 183",
-    "raw_prereq": "",
+    "raw_prereq": "ECON 110B.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Economics with Data Analytics",
     "code": "ECON 184",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 120B or MATH 181B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON120B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Detecting Discrimination in Data",
     "code": "ECON 185",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 120B or MATH 181B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON120B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Careers in Economics and Business",
     "code": "ECON 186",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 1 and ECON 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1627,7 +1769,7 @@
   {
     "name": "Contract Theory",
     "code": "ECON 204",
-    "raw_prereq": "",
+    "raw_prereq": "ECON 200A-B-C.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2255,8 +2397,44 @@
   {
     "name": "Public Economics: Public Goods and Externalities",
     "code": "ECON 231",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and ECON 200A-B-C and ECON 220A-B-C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON220A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2355,7 +2533,7 @@
   {
     "name": "Political Economy: Microeconomic Perspectives",
     "code": "ECON 237",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2376,7 +2554,7 @@
   {
     "name": "Organizational Economics of Development",
     "code": "ECON 243",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2501,7 +2679,7 @@
   {
     "name": "Modeling Behavioral Economics",
     "code": "ECON 263",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing and ECON 200A-B-C.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2536,8 +2714,31 @@
   {
     "name": "Energy and Environmental Economics",
     "code": "ECON 268",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing and ECON 200A-B-C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

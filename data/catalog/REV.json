@@ -23,7 +23,7 @@
   {
     "name": "Leadership in Practice",
     "code": "REV 16",
-    "raw_prereq": "",
+    "raw_prereq": "enrollment limited to Revelle College students. (W)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -51,14 +51,14 @@
   {
     "name": "Independent Study",
     "code": "REV 99H",
-    "raw_prereq": "",
+    "raw_prereq": "first-year class standing. Students must have been offered a Regents Scholarship. Special Studies preauthorization required. (F,W,S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Revelle College Senior Honors Seminar",
     "code": "REV 110H",
-    "raw_prereq": "",
+    "raw_prereq": "students who meet honors criteria will be invited to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

@@ -161,15 +161,69 @@
   {
     "name": "Bioengineering Mass Transfer",
     "code": "BENG 103B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CENG 101A or MAE 101A or BENG 112A, or consent of department. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CENG101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BENG112A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Musculoskeletal Biomechanics",
     "code": "BENG 110",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20D, MATH 20E or MATH 31CH, MATH 18 or MATH 31AH; PHYS 2A or PHYS 2AR, PHYS 2BL, or consent of department. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -948,8 +1002,18 @@
   {
     "name": "Bioengineering Design Project: Development",
     "code": "BENG 187B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BENG 187A; bioengineering, bioengineering: biotechnology, or bioengineering: biosystems or bioengineering: bioinformatics majors only or consent of instructor. (F)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG187A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1357,29 +1421,39 @@
   {
     "name": "Regulatory Affairs",
     "code": "BENG 224",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in bioengineering only or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Business of Biotech",
     "code": "BENG 225",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in bioengineering or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Foundations of Bioengineering I: Tissue and Cell Properties",
     "code": "BENG 226",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Transport Phenomena in Living Systems",
     "code": "BENG 227",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BENG 221, graduate standing, or consent of instructor. (S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG221"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1456,7 +1530,7 @@
   {
     "name": "Musculoskeletal Health, Injury, and Disease",
     "code": "BENG 232",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1477,7 +1551,7 @@
   {
     "name": "Molecular Imaging and Quantitation in Living Cells",
     "code": "BENG 235",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1560,7 +1634,7 @@
   {
     "name": "Synthetic Biology",
     "code": "BENG 254",
-    "raw_prereq": "",
+    "raw_prereq": "graduate bioengineering majors only or consent of instructor. (S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1595,8 +1669,18 @@
   {
     "name": "Magnetic Resonance Imaging",
     "code": "BENG 278/RAD 278",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BENG 280A or basic knowledge of linear systems and MRI, or consent of instructor. (W)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG280A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1616,7 +1700,7 @@
   {
     "name": "Imaging Cardiovascular Disease",
     "code": "BENG 280C",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1681,29 +1765,49 @@
   {
     "name": "Scientific Ethics",
     "code": "BENG 292",
-    "raw_prereq": "",
+    "raw_prereq": "doctoral students only or consent of department. (F,W,S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Patient-Centered Clinical Medicine for Bioengineers",
     "code": "BENG 294A",
-    "raw_prereq": "",
+    "raw_prereq": "bioengineering MS medicine majors only or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Engineering in the Patient Healthcare System",
     "code": "BENG 294B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BENG 294A; bioengineering MS medicine majors only or consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG294A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Clinical Experience in Bioengineering",
     "code": "BENG 294C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BENG 294B; bioengineering MS medicine majors only or consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BENG294B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1744,7 +1848,7 @@
   {
     "name": "Apprentice Teaching for Specialization in Multi-Scale Biology",
     "code": "BENG 500",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and department approval. (F,W,S)",
     "prerequisites": [],
     "offered_this_qtr": false
   },

@@ -23,126 +23,176 @@
   {
     "name": "First-Year Japanese",
     "code": "JAPN 10B",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "First-Year Japanese",
     "code": "JAPN 10C",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Japanese",
     "code": "JAPN 20A",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Japanese",
     "code": "JAPN 20B",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Second-Year Japanese",
     "code": "JAPN 20C",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Japanese",
     "code": "JAPN 130A",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Japanese",
     "code": "JAPN 130B",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Third-Year Japanese",
     "code": "JAPN 130C",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Professional Skills in Japanese",
     "code": "JAPN 135A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "JAPN 20C, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JAPN20C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Professional Skills in Japanese",
     "code": "JAPN 135B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "JAPN 135A, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JAPN135A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Professional Skills in Japanese",
     "code": "JAPN 135C",
-    "raw_prereq": "",
+    "raw_prereq": "JAPN 135B.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Business Japanese",
     "code": "JAPN 137A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "JAPN 20C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JAPN20C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Business Japanese",
     "code": "JAPN 137B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "JAPN 20C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JAPN20C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Business Japanese",
     "code": "JAPN 137C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "JAPN 20C or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JAPN20C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Fourth-Year Japanese",
     "code": "JAPN 140A",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Fourth-Year Japanese",
     "code": "JAPN 140B",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Fourth-Year Japanese",
     "code": "JAPN 140C",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Japanese",
     "code": "JAPN 150A-B-C",
-    "raw_prereq": "",
+    "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

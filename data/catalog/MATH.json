@@ -91,8 +91,18 @@
   {
     "name": "Calculus-Based Introductory Probability and Statistics",
     "code": "MATH 11",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "AP Calculus BC score of 3, 4, or 5, or MATH 10B or MATH 20B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH10B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -509,15 +519,35 @@
   {
     "name": "Basic Number Theory",
     "code": "MATH 105",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed the listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Algebraic Geometry",
     "code": "MATH 106",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 100B or MATH 103B. Students who have not completed the listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH100B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -646,29 +676,106 @@
   {
     "name": "Introduction to Mathematical Biology I",
     "code": "MATH 112A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 11 or MATH 180A or MATH 183 or MATH 186, and MATH 18 or MATH 31AH, and MATH 20D, and BILD 1. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Mathematical Biology II",
     "code": "MATH 112B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 112A and MATH 110 and MATH 180A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH112A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH110"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Computational Stochastics",
     "code": "MATH 114",
-    "raw_prereq": "",
+    "raw_prereq": "MATH 180A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Elements of Complex Analysis",
     "code": "MATH 120A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20E or MATH 31CH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -830,22 +937,52 @@
   {
     "name": "Introduction to Fourier Analysis",
     "code": "MATH 144",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 140B or MATH 142B. Students who have not completed listed prerequisite(s) may enroll with the consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH140B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Analysis of Ordinary Differential Equations",
     "code": "MATH 146",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 140B or MATH 142B. Students who have not completed listed prerequisite(s) may enroll with the consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH140B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Analysis of Partial Differential Equations",
     "code": "MATH 148",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 140B or MATH 142B. Students who have not completed listed prerequisite(s) may enroll with the consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH140B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -907,8 +1044,31 @@
   {
     "name": "Applicable Mathematics and Computing",
     "code": "MATH 152",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20D and either MATH 18 or MATH 20F or MATH 31AH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -994,15 +1154,89 @@
   {
     "name": "Introduction to Mathematical Software",
     "code": "MATH 157",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH and one of BILD 62, COGS 18 or CSE 5A or CSE 6R or CSE 8A or CSE 11 or DSC 10 or ECE 15 or ECE 143 or MATH 189. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE5A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE143"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Extremal Combinatorics and Graph Theory",
     "code": "MATH 158",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed the listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH31CH"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1393,8 +1627,27 @@
   {
     "name": "Introduction to Probability",
     "code": "MATH 180A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "Math 20C or MATH 31BH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1464,8 +1717,35 @@
   {
     "name": "Introduction to Mathematical Statistics I",
     "code": "MATH 181A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 180A, and MATH 18 or MATH 20F or MATH 31AH, and MATH 20C. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1505,8 +1785,43 @@
   {
     "name": "Statistical Learning",
     "code": "MATH 181D",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECE 109 or ECON 120A or MAE 108 or MATH 181A or MATH 183 or MATH 186 or MATH 189. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1529,22 +1844,94 @@
   {
     "name": "Sampling Surveys and Experimental Design",
     "code": "MATH 181F",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 181A or MATH 183 or MATH 186 or MATH 189. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Hidden Data in Random Matrices",
     "code": "MATH 182",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 180A, and MATH 18 or MATH 31AH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Methods",
     "code": "MATH 183",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20C or MATH 31BH, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1567,8 +1954,48 @@
   {
     "name": "Introduction to Computational Statistics",
     "code": "MATH 185",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 181A, or ECON 120B, and either MATH 18 or MATH 20F or MATH 31AH, and MATH 20C or MATH 31BH. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1638,8 +2065,44 @@
   {
     "name": "Algebraic Combinatorics",
     "code": "MATH 188",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 31CH or MATH 109 and MATH 18 or MATH 31AH and MATH 100A or 103A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH100A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1716,14 +2179,33 @@
   {
     "name": "Foundations of Topology I",
     "code": "MATH 190A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 31CH or MATH 140A or MATH 142A. Students who have not completed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Foundations of Topology II",
     "code": "MATH 190B",
-    "raw_prereq": "",
+    "raw_prereq": "MATH 190A. Students who have not completed the listed prerequisite may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2141,7 +2623,7 @@
   {
     "name": "Seminar in Algebraic Geometry",
     "code": "MATH 208",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. (S/U grade only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2219,77 +2701,130 @@
   {
     "name": "Seminar in Algebra",
     "code": "MATH 211A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. May be taken for credit nine times. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Group Actions",
     "code": "MATH 211B",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. May be taken for credit nine times. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Mathematical Biology I",
     "code": "MATH 212A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Mathematical Biology II",
     "code": "MATH 212B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 212A and graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH212A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Applied Survival Analysis",
     "code": "MATH 213",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "FMPH 244B or PHB 244B. Students who have not taken FMPH 244B or PHB 244B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Computational Stochastics",
     "code": "MATH 214",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mathematical Methods in Data Science I",
     "code": "MATH 216A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mathematical Methods in Data Science II",
     "code": "MATH 216B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 216A. Students who have not completed MATH 216A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH216A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Mathematical Methods in Data Science III",
     "code": "MATH 216C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 216B. Students who have not completed MATH 216B may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH216B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Applied Mathematics",
     "code": "MATH 217",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Mathematics of Biological Systems",
     "code": "MATH 218",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2347,8 +2882,18 @@
   {
     "name": "Further Topics in Several Complex Variables",
     "code": "MATH 221B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 221A. Students who have not completed MATH 221A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH221A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2570,7 +3115,7 @@
   {
     "name": "Seminar in Functional Analysis",
     "code": "MATH 243",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2767,7 +3312,7 @@
   {
     "name": "Topics in Combinatorial Mathematics",
     "code": "MATH 262A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2805,8 +3350,27 @@
   {
     "name": "Further Topics in Mathematical Logic",
     "code": "MATH 267B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 267A or consent of instructor. Students who have not completed MATH 267A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH267A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH267A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3089,8 +3653,18 @@
   {
     "name": "Probability Theory II",
     "code": "MATH 280B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "a grade of B or better required in MATH 280A. Students who have not completed MATH 280A may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH280A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

@@ -16,8 +16,27 @@
   {
     "name": "General Chemistry I",
     "code": "CHEM 6A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 4, or AP Chemistry score of 3, or Math Placement Exam qualifying score, or AP Calculus AB score of 2, or MATH 3C or higher.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH3C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -66,7 +85,7 @@
   {
     "name": "Honors General Chemistry II",
     "code": "CHEM 6BH",
-    "raw_prereq": "CHEM 6AH and MATH 20A.<span class=\"course-descriptions\">Recommended: </span>concurrent or prior enrollment in MATH 20B.",
+    "raw_prereq": "CHEM 6AH and MATH 20A. Recommended: concurrent or prior enrollment in MATH 20B.",
     "prerequisites": [
       {
         "type": "AND",
@@ -391,7 +410,7 @@
   {
     "name": "Independent Study",
     "code": "CHEM 99H",
-    "raw_prereq": "",
+    "raw_prereq": "student must be of first-year standing and a Regent’s Scholar; approved Special Studies form.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -480,15 +499,35 @@
   {
     "name": "Mass Spectrometry in Research Laboratory",
     "code": "CHEM 103",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 163 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM163"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to X-ray Crystallography",
     "code": "CHEM 104",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A and 2B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -636,14 +675,24 @@
   {
     "name": "Origins of Life and the Universe",
     "code": "CHEM 111",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 6C or 6CH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biophysical Chemistry of Macromolecules",
     "code": "CHEM 113",
-    "raw_prereq": "",
+    "raw_prereq": "CHEM 41C.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -757,8 +806,18 @@
   {
     "name": "Genome, Epigenome, and Transcriptome Editing",
     "code": "CHEM 115",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 114A and 114C. Corequisite: CHEM 109.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -823,8 +882,40 @@
   {
     "name": "RNA Biochemistry",
     "code": "CHEM 119",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BIMM 100 or CHEM 114C and CHEM 40C, 40CH, or 41C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40CH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -956,15 +1047,60 @@
   {
     "name": "Physical Biochemistry I: Thermodynamics and Kinetics of Biomolecules",
     "code": "CHEM 126A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 6C or 6CH, PHYS 1C or 2C or 2D, and MATH 10C or 20C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH10C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Physical Biochemistry II: Quantum and Statistical Mechanics of Biomolecules",
     "code": "CHEM 126B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 126A or 127.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM126A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1205,8 +1341,31 @@
   {
     "name": "Organic Chemistry Laboratory",
     "code": "CHEM 143B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 43A or 43AM and CHEM 40B or 41B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM43AM"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM40B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1587,8 +1746,18 @@
   {
     "name": "3-D Cryo-Electron Microscopy of Macromolecules and Cells",
     "code": "CHEM 165",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 114A or BIBC 100.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1767,8 +1936,35 @@
   {
     "name": "Molecular Simulations Lab",
     "code": "CHEM 186",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20C and CHEM 126 or CHEM 126B or CHEM 130 or CHEM 133.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM130"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1932,7 +2128,7 @@
   {
     "name": "Biochemistry and Biophysics of Cell Membranes",
     "code": "CHEM 212",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1960,7 +2156,7 @@
   {
     "name": "Genome, Epigenome, and Transcriptome Editing",
     "code": "CHEM 215",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2096,8 +2292,18 @@
   {
     "name": "Quantum Mechanics II",
     "code": "CHEM 230B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CHEM 230A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM230A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2216,7 +2422,7 @@
   {
     "name": "Research Survival Skills",
     "code": "CHEM 250",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2315,7 +2521,7 @@
   {
     "name": "Applied Spectroscopy",
     "code": "CHEM 258",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2364,14 +2570,14 @@
   {
     "name": "3-D Cryo-Electron Microscopy of Macromolecules and Cells",
     "code": "CHEM 265",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (May not be offered every year.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Environmental Nanotechnology, Sustainable Nanotechnology, and Nanotoxicity",
     "code": "CHEM 267",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2434,28 +2640,28 @@
   {
     "name": "Molecular Simulations Lab",
     "code": "CHEM 286",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mathematics for Physical Chemistry",
     "code": "CHEM 290",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Molecular Biophysics Student Seminar",
     "code": "CHEM 291",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing and department approval required. This course is only open for students supported or affiliated with the Molecular Biophysics Training Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Chemistry-Biology Interfaces Seminar",
     "code": "CHEM 292",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing and department approval required. This course is only open for students supported or affiliated with the Chemistry-Biology Interfaces Training Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

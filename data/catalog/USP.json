@@ -209,7 +209,7 @@
   {
     "name": "Redevelopment Planning, Policymaking, and Law",
     "code": "USP 122",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -237,7 +237,7 @@
   {
     "name": "Comparative Land Use and Resource Management",
     "code": "USP 126",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -327,7 +327,7 @@
   {
     "name": "Healthy Placemaking",
     "code": "USP 140",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -348,21 +348,21 @@
   {
     "name": "Urban Challenges: Homelessness in San Diego Core Fundamentals",
     "code": "USP 142A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Urban Challenges: Homelessness in San Diego Fieldwork",
     "code": "USP 142B",
-    "raw_prereq": "",
+    "raw_prereq": "successful completion of USP 142A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Urban Challenges: Sustainable Food Systems",
     "code": "USP 142C",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor and departmental approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -404,133 +404,182 @@
   {
     "name": "Real Estate and Development Law and Regulation",
     "code": "USP 150",
-    "raw_prereq": ":",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Real Estate Planning and Development",
     "code": "USP 151",
-    "raw_prereq": ":",
-    "prerequisites": [],
+    "raw_prereq": "USP 5 and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP5"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Real Estate Development Finance and Investment",
     "code": "USP 152A",
-    "raw_prereq": ":",
-    "prerequisites": [],
+    "raw_prereq": "USP 15, USP 25, and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "USP15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Real Estate Development Finance and Investment",
     "code": "USP 152B",
-    "raw_prereq": ":",
-    "prerequisites": [],
+    "raw_prereq": "USP 152 or USP 152A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP152"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Real Estate and Development Market Analysis",
     "code": "USP 153",
-    "raw_prereq": ":",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Real Estate Development in Global and Comparative Perspective",
     "code": "USP 155",
-    "raw_prereq": "<strong>:</strong>",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Special Topics in Real Estate and Development",
     "code": "USP 158A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Real Estate University Challenge I",
     "code": "USP 159A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "NAIOP Real Estate University Challenge II",
     "code": "USP 159B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "USP 159A and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP159A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Research Methods: Analyzing Crime",
     "code": "USP 160",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Environmental Design and Crime Prevention",
     "code": "USP 161",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Migration and the City",
     "code": "USP 162",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Community-Based Research and Planning",
     "code": "USP 163",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cities in Film",
     "code": "USP 164",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Special Topics in Housing",
     "code": "USP 165A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Special Topics in Sustainability",
     "code": "USP 165B",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Special Topics in Transportation",
     "code": "USP 165C",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Special Topics in Urban Design and Land Use",
     "code": "USP 165D",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "History of New York City",
     "code": "USP 167",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -544,8 +593,18 @@
   {
     "name": "Introduction to Green Building",
     "code": "USP 169",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "USP 124 and upper-division standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP124"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -624,8 +683,27 @@
   {
     "name": "Advanced Urban Design",
     "code": "USP 177B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "USP 177, USP 177A, or USP 179.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "USP177"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP177A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -652,7 +730,7 @@
   {
     "name": "Gentrification",
     "code": "USP 182",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -780,21 +858,31 @@
   {
     "name": "Field Research in Migrant Communities—Practicum",
     "code": "USP 188",
-    "raw_prereq": "",
+    "raw_prereq": "department approval. In order to take this course, students must have applied and been admitted to participate in the Mexican Migration Field Research Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Research Analysis and Reporting",
     "code": "USP 188B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "USP 188 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP188"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Urban Planning",
     "code": "USP 189",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -896,21 +984,21 @@
   {
     "name": "Land Use Planning",
     "code": "USP 224",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Special Topics in Transportation",
     "code": "USP 265C",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Sustainable Development",
     "code": "USP 271",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

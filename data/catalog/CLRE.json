@@ -108,42 +108,79 @@
   {
     "name": "Applied Translational Research II",
     "code": "CLRE 239",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CLRE 238 and admission to the MAS Clinical Research Program or consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLRE238"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Designing Research for Diversity",
     "code": "CLRE 240",
-    "raw_prereq": "",
+    "raw_prereq": "admission to the MAS Clinical Research Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Life Cycle Evidence Planning",
     "code": "CLRE 242",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CLRE 250 or CLRE 250R or CLRE 236 or CLRE 236R and admission to the MAS Clinical Research Program or consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CLRE250"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CLRE250R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CLRE236"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CLRE236R"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Dissemination and Implementation",
     "code": "CLRE 243",
-    "raw_prereq": "",
+    "raw_prereq": "admission to the MAS Clinical Research Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Patient-Oriented Research I",
     "code": "CLRE 250",
-    "raw_prereq": "",
+    "raw_prereq": "admission to the MAS in Clinical Research Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Patient-Oriented Research I",
     "code": "CLRE 250R",
-    "raw_prereq": "",
+    "raw_prereq": "admission to the MAS in Clinical Research Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -275,8 +312,18 @@
   {
     "name": "Machine Learning and Predictive Analytics in Biomedical Research",
     "code": "CLRE 267",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CLRE 253, admission to the MAS in Clinical Research Program, or consent of department.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLRE253"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

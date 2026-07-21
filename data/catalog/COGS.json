@@ -187,8 +187,18 @@
   {
     "name": "Language",
     "code": "COGS 101C",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 1 and 14A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -211,14 +221,14 @@
   {
     "name": "Cognitive Ethnography",
     "code": "COGS 102B",
-    "raw_prereq": "",
+    "raw_prereq": "COGS 102A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cognitive Design Studio",
     "code": "COGS 102C",
-    "raw_prereq": "",
+    "raw_prereq": "COGS 102B.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -347,21 +357,40 @@
   {
     "name": "The Developing Mind",
     "code": "COGS 110",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 1 or HDP 1 or HDS 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Beauty and the Brain",
     "code": "COGS 111",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Humor",
     "code": "COGS 112",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1020,42 +1049,170 @@
   {
     "name": "Thinking with Computers",
     "code": "COGS 126",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 120 or COGS 121 or CSE 170.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS121"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data-Driven UX/Product Design",
     "code": "COGS 127",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 41 or VIS 30 or DSGN 1 or COGS 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS41"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Information Visualization",
     "code": "COGS 128",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 10 or DSGN 1 and COGS 108.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Practical Data Science in R",
     "code": "COGS 137",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 14B or MATH 11 or PSYC 60.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Neural Data Science",
     "code": "COGS 138",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "BILD 62 or COGS 18 or CSE 6R or CSE 8A and COGS 118C or COGS 189 or DSC 120 or ECE 45 or MATH 144.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD62"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS118C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS189"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Animal Communication",
     "code": "COGS 142",
-    "raw_prereq": "",
+    "raw_prereq": "COGS 14A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1155,7 +1312,7 @@
   {
     "name": "Language Comprehension",
     "code": "COGS 153",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1176,7 +1333,7 @@
   {
     "name": "Language Development",
     "code": "COGS 156",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and background in development psychology and/or linguistics is recommended.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1237,8 +1394,31 @@
   {
     "name": "Neuroimaging of Cognition",
     "code": "COGS 165",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 107B or COGS 107C or PSYC 106 or PSYC 108.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1265,8 +1445,18 @@
   {
     "name": "Brain Waves across Scales",
     "code": "COGS 170",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 17 or BILD 12.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS17"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1617,8 +1807,35 @@
   {
     "name": "Modeling the Evolution of Cognition",
     "code": "COGS 184",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 17 or COGS 107A or COGS 107B or COGS 107C or BILD 12.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1836,7 +2053,7 @@
   {
     "name": "Cognitive Science Internship",
     "code": "COGS 197",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; 2.5 GPA; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

@@ -9,14 +9,49 @@
   {
     "name": "Data and Model Programming for Computational Social Science",
     "code": "CSS 2",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "CSS 1 and choose one of the following courses: COGS 14B, MATH 11, MGT 3, POLI 30, POLI 30D, PSYC 60.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSS1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Programming for Computational Social Science",
     "code": "CSS 100",
-    "raw_prereq": "",
+    "raw_prereq": "CSS 2.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -51,28 +86,51 @@
   {
     "name": "Advanced Statistical Applications",
     "code": "CSS 205",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "graduate standing, CSS 204, POLI 204B, POLI 270, or PSYC 201A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSS204"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI204B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI270"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Computational Social Science Research Seminar",
     "code": "CSS 209",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Research in Computational Social Science",
     "code": "CSS 296",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Teaching Apprentice",
     "code": "CSS 500",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

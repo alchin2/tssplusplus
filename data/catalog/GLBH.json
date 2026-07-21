@@ -23,8 +23,44 @@
   {
     "name": "Global Health Epidemiology",
     "code": "GLBH 102",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "COGS 14B or MATH 11 or PSYC 60 and GLBH 20 or FMPH 40 and GLBH 181.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "GLBH20"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -271,7 +307,7 @@
   {
     "name": "Global Health Policy",
     "code": "GLBH 160",
-    "raw_prereq": "<em><strong> </strong></em>upper-division standing.",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -313,7 +349,7 @@
   {
     "name": "Global Health and Social Justice Seminar",
     "code": "GLBH 196",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -334,49 +370,49 @@
   {
     "name": "Independent Study in Global Health Field Experience",
     "code": "GLBH 199",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health Master’s Core Seminar",
     "code": "GLBH 200",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Global Health",
     "code": "GLBH 201",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health Epidemiology",
     "code": "GLBH 202",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing or department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Clinic on the Border: Health Frontiers in Tijuana",
     "code": "GLBH 211",
-    "raw_prereq": "",
+    "raw_prereq": "Students must apply to participate in the program quarterly.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "“Experiencing Epidemics”: Anthropologies of Infectious Diseases",
     "code": "GLBH 212",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health Program Design and Evaluation",
     "code": "GLBH 213",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required, graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -390,21 +426,21 @@
   {
     "name": "Community Health Workers",
     "code": "GLBH 215",
-    "raw_prereq": "",
+    "raw_prereq": "graduate level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Clinical Perspectives in Global Health",
     "code": "GLBH 241",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Native American Health and Healing",
     "code": "GLBH 245",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -418,21 +454,21 @@
   {
     "name": "Social Epidemiology",
     "code": "GLBH 249",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health Policy",
     "code": "GLBH 260",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health Policy, Diplomacy, and Advocacy",
     "code": "GLBH 261",
-    "raw_prereq": "",
+    "raw_prereq": "GLBH 260.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -446,35 +482,35 @@
   {
     "name": "Essentials of Global Health",
     "code": "GLBH 281",
-    "raw_prereq": "",
+    "raw_prereq": "graduate level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health Internship",
     "code": "GLBH 297",
-    "raw_prereq": "",
+    "raw_prereq": "students must complete Special Studies paperwork, have a faculty adviser, and receive department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Study",
     "code": "GLBH 298",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing. Students must receive approval from the program to enroll with a faculty member in a directed study course.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Research",
     "code": "GLBH 299",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing. Students must receive approval from the program to enroll with a faculty member in an independent research course.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Teaching Apprenticeship",
     "code": "GLBH 500",
-    "raw_prereq": "",
+    "raw_prereq": "graduate-level standing. Department approval required; students must be a TA for the global health program to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

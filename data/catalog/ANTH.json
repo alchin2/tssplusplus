@@ -121,161 +121,191 @@
   {
     "name": "Foundations of Social Complexity",
     "code": "ANTH 101",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Humans Are Cultural Animals",
     "code": "ANTH 102",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Sociocultural Anthropology",
     "code": "ANTH 103",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Transforming the Global Environment",
     "code": "ANTH 104",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Climate Change, Race, and Inequality",
     "code": "ANTH 105",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Climate and Civilization",
     "code": "ANTH 106",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Designing for Disasters, Emergencies, and Extreme Weather",
     "code": "ANTH 107",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenous Peoples, Extractive Development, and Climate Change",
     "code": "ANTH 108",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Climate Change, Cultural Heritage, and Vulnerability",
     "code": "ANTH 109",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Climate Change Seminar",
     "code": "ANTH 110",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Religion and Ecology: How Religion Matters in the Anthropocene",
     "code": "ANTH 111",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Regenerative Science and Human Ecology",
     "code": "ANTH 112",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Methods in Environmental Anthropology: Case Studies",
     "code": "ANTH 113",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Climate Change in California: Problems and Solutions",
     "code": "ANTH 120",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Climate Action Scholars: Community Engagement and Research",
     "code": "ANTH 128A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Climate Action Scholars: Capstone Project",
     "code": "ANTH 128B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ANTH 128A or USP 128A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ANTH128A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Decolonizing the Body",
     "code": "ANTH 130",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropology of AI",
     "code": "ANTH 131",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Senior Seminar in Anthropology",
     "code": "ANTH 192",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; department stamp and/or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Instructional Apprenticeship in Anthropology",
     "code": "ANTH 195",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and consent of instructor and department stamp. Received grade of A in course to be taught or equivalent. Student will need to apply for the Undergraduate Instructional Apprentice position through ASES, fulfill the Academic Senate Regulations, and receive the approval of the department, instructor, department chair, and Academic Senate.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Honors Studies in Anthropology",
     "code": "ANTH 196A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ANTH 192 and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ANTH192"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Honors Studies in Anthropology",
     "code": "ANTH 196B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "completion of ANTH 196A with grade of B+ or better.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ANTH196A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Honors Studies in Anthropology",
     "code": "ANTH 196C",
-    "raw_prereq": "",
+    "raw_prereq": "ANTH 196A-B.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -289,406 +319,406 @@
   {
     "name": "Directed Group Study",
     "code": "ANTH 198",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and upper-division standing with minimum GPA of 2.5 and completed and approved Special Studies form. Department approval required. (Formerly known as ANPR 198.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study",
     "code": "ANTH 199",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and upper-division standing with minimum GPA of 2.5 and completed and approved Special Studies form. Department approval required. (Formerly known as ANPR 199.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Anthropological Archaeology",
     "code": "ANAR 100",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Geographic Information Systems",
     "code": "ANAR 104",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Foundations of Archaeology",
     "code": "ANAR 111",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Past, Present, and Future Perspectives on Natural Resources in Israel",
     "code": "ANAR 113",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Environmental Hazards in Israel",
     "code": "ANAR 114",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Coastal Geomorphology and Environmental Change—Perspectives from Israel and the South-Eastern Mediterranean",
     "code": "ANAR 115",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Coastal Geomorphology and GIS Applications",
     "code": "ANAR 115B",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Sea Level Change—The Israel Case in World Perspective",
     "code": "ANAR 116",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeological Field and Lab Class, Southern California",
     "code": "ANAR 117",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeology of the UC San Diego Campus",
     "code": "ANAR 118",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeological Field and Lab Class",
     "code": "ANAR 119S",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Documenting Climate Change: Past and Present",
     "code": "ANAR 120",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cyber-Archaeology and World Digital Cultural Heritage",
     "code": "ANAR 121",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeology of Asia",
     "code": "ANAR 124",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ancient Mediterranean Civilization",
     "code": "ANAR 135",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mesopotamia: The Emergence of Civilization",
     "code": "ANAR 138",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biblical Archaeology—Fact or Fiction",
     "code": "ANAR 143",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Pharaohs, Mummies, and Pyramids: Introduction to Egyptology",
     "code": "ANAR 144",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Study Abroad: Egypt of the Pharaohs",
     "code": "ANAR 145S",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Feeding the World",
     "code": "ANAR 146",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Mysterious Maya",
     "code": "ANAR 153",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Aztecs and their Ancestors",
     "code": "ANAR 154",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Study Abroad: Ancient Mesoamerica",
     "code": "ANAR 155",
-    "raw_prereq": "",
+    "raw_prereq": "students must apply to study abroad program and obtain consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Study Abroad: Ancient Mesoamerica",
     "code": "ANAR 155S",
-    "raw_prereq": "",
+    "raw_prereq": "students must apply and be accepted to the study abroad program to be given permission to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Archaeology of South America",
     "code": "ANAR 156",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Early Empires of the Andes: The Middle Horizon",
     "code": "ANAR 157",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Early Empires of the Andes: The Middle Horizon",
     "code": "ANAR 157S",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Inca: Empire of the Andes",
     "code": "ANAR 158",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Inca",
     "code": "ANAR 158GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminars Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Pre-Hispanic Societies of the Caribbean Archipelago",
     "code": "ANAR 159",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "“1492”: Coexistence, Crusade, and the Origins of the Spanish Conquest",
     "code": "ANAR 159GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminars Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ancient Maya: Archaeological Problems and Perspectives",
     "code": "ANAR 160",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and ANAR 153. Graduate students wishing to enroll should have already taken ANTH 202.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Underwater Archaeology—From Atlantis to Science",
     "code": "ANAR 164",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Marine and Coastal Archaeology and the Biblical Seas",
     "code": "ANAR 165",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Environmental Archaeology—Theory and Method of Socioecodynamics and Human Paleoecology",
     "code": "ANAR 166",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Geoarchaeology in Theory and Practice",
     "code": "ANAR 167",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeology Workshop: Advanced Lab Work in Archaeology",
     "code": "ANAR 180",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Archaeology of Hunters-Gatherers",
     "code": "ANAR 181",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Origins of Agriculture and Sedentism",
     "code": "ANAR 182",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Chiefdoms, States, and the Emergence of Civilizations",
     "code": "ANAR 183",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Empires in Archaeological Perspective",
     "code": "ANAR 184",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Human Era: The Archaeology of the Anthropocene",
     "code": "ANAR 186",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Biological Anthropology",
     "code": "ANBI 100",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Brain Mind Workshop",
     "code": "ANBI 109",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human Evolution",
     "code": "ANBI 111",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Methods in Human Comparative Neuroscience",
     "code": "ANBI 112",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Methods in Primate Conservation",
     "code": "ANBI 114",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human Sexuality in an Evolutionary Perspective",
     "code": "ANBI 116",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ancient Genomics: Who We Are and How We Got Here",
     "code": "ANBI 117",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Technology on the Go: Mobile Tools for Human Biology",
     "code": "ANBI 118",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ethical Dilemmas in Biological Anthropology",
     "code": "ANBI 120",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Original Moonshot: The Voyaging Achievements of the Polynesian Ancestors",
     "code": "ANBI 121",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biology of Inequality",
     "code": "ANBI 130",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Biology and Culture of Race",
     "code": "ANBI 131",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Conservation and the Human Predicament",
     "code": "ANBI 132",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Planet of the Apes: Evolution and Ecology of the Great Ape",
     "code": "ANBI 133",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -729,406 +759,433 @@
   {
     "name": "Human Comparative Neuroanatomy",
     "code": "ANBI 136",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Evolution of Human Disease",
     "code": "ANBI 139",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Evolution of the Human Brain",
     "code": "ANBI 140",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Evolution of Human Diet",
     "code": "ANBI 141",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Human Skeleton",
     "code": "ANBI 143",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Human Skeleton in Paris",
     "code": "ANBI 143GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human Anatomy",
     "code": "ANBI 144",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Human Anatomy in Paris",
     "code": "ANBI 144GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Bioarcheology (4)",
     "code": "ANBI 145",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Stable Isotopes in Ecology",
     "code": "ANBI 146",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Not by Genes Alone: The Ecology and Evolution of Primate Behavior",
     "code": "ANBI 148",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Social and Behavioral Epigenetics",
     "code": "ANBI 149",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "upper-division standing. ANBI 130 or ANBI 131 or ANBI 134 or ANBI 135 or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANBI130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANBI131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANBI134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANBI135"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Biological and Cultural Perspectives on Intelligence",
     "code": "ANBI 159",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "How Monkeys See the World",
     "code": "ANBI 173",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Conservation and the Media: Film Lab",
     "code": "ANBI 174",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Paleofantasy: The Evidence for Our Early Ancestors",
     "code": "ANBI 175",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenous Knowledge and Climate Change",
     "code": "ANBI 176",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Sociocultural Anthropology",
     "code": "ANSC 100",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Aging: Culture and Health in Late Life Human Development",
     "code": "ANSC 101",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Korean Wave Media and Cultural Change",
     "code": "ANSC 101A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mexico",
     "code": "ANSC 103",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The US-Mexico Border",
     "code": "ANSC 104",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health and Inequality",
     "code": "ANSC 105",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. First- and second-year students cannot enroll without consent of the instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health and Inequality",
     "code": "ANSC 105GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health and Inequality—Study Abroad",
     "code": "ANSC 105S",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students are required to apply for this Study Abroad course. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health: Indigenous Medicines in Latin America",
     "code": "ANSC 106",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. First- and second-year students cannot enroll without consent of the instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health: Indigenous Medicines in Latin America—Study Abroad",
     "code": "ANSC 106S",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students are required to apply for this Study Abroad course. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health: Indigenous Medicines in Latin America",
     "code": "ANSC 106GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Capitalism and Empire",
     "code": "ANSC 107",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Capitalism and Money",
     "code": "ANSC 108",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Capitalism and the State",
     "code": "ANSC 109",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Societies and Cultures of the Caribbean",
     "code": "ANSC 110",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language, Style, and Youth Identities",
     "code": "ANSC 113",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Food Cultures of South Asia",
     "code": "ANSC 114",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Transgenderisms",
     "code": "ANSC 117",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language and Culture",
     "code": "ANSC 118",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gesture, Communication, and the Body",
     "code": "ANSC 119GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Religion and Culture",
     "code": "ANSC 120",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Psychological Anthropology",
     "code": "ANSC 121",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language in Society",
     "code": "ANSC 122",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Political Anthropology",
     "code": "ANSC 123",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cultural Anthropology",
     "code": "ANSC 124",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gender, Sexuality, and Society",
     "code": "ANSC 125",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gender, Sexuality, and Society",
     "code": "ANSC 125GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Childhood and Adolescence",
     "code": "ANSC 126",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Discourse, Interaction, and Social Life",
     "code": "ANSC 127",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Meaning and Healing",
     "code": "ANSC 129",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Hinduism",
     "code": "ANSC 130",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language, Law, and Social Justice",
     "code": "ANSC 131",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Sex and Love",
     "code": "ANSC 132",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Peoples and Cultures of the Middle East",
     "code": "ANSC 133",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Politics of Environmental Change",
     "code": "ANSC 134",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenous Peoples of Latin America",
     "code": "ANSC 135",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenous Peoples of Latin America",
     "code": "ANSC 135GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Traditional Chinese Society",
     "code": "ANSC 136",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Chinese Popular Religion",
     "code": "ANSC 137",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Cultural Design Practicum: Using Anthropology to Solve Human Problems",
     "code": "ANSC 138",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Native American Health and Healing",
     "code": "ANSC 139",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1142,427 +1199,540 @@
   {
     "name": "Anthropology of Latin America",
     "code": "ANSC 142",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mental Health as Global Health Priority",
     "code": "ANSC 143",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Immigrant and Refugee Health",
     "code": "ANSC 144",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenous Peoples of North America",
     "code": "ANSC 145",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "A Global Health Perspective on HIV",
     "code": "ANSC 146",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health and the Environment",
     "code": "ANSC 147",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health and Cultural Diversity",
     "code": "ANSC 148",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Conflict, Health, and Inequality",
     "code": "ANSC 149",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Culture and Mental Health",
     "code": "ANSC 150",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "US-Mexico Border Ethnographies",
     "code": "ANSC 151",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Social Justice in South Asia",
     "code": "ANSC 152",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "War in Lived Experience",
     "code": "ANSC 153",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gender and Religion",
     "code": "ANSC 154",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Humanitarian Aid: What Is It Good For?",
     "code": "ANSC 155",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ANTH 101, ANSC 123, or ANSC 148 and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANTH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC123"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC148"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Mad Films: Cultural Studies of Mental Illness in Cinema",
     "code": "ANSC 156",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Anthropology of Marriage",
     "code": "ANSC 159",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Nature, Culture, and Environmentalism",
     "code": "ANSC 160",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "California: Undergraduate Research Seminar",
     "code": "ANSC 161",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language, Identity, and Community",
     "code": "ANSC 162",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Medical Anthropology",
     "code": "ANSC 164",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Contemporary South Asia",
     "code": "ANSC 165",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Film and Culture in Asia",
     "code": "ANSC 166",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Culture and Environment: Research Seminar and Practicum",
     "code": "ANSC 169",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Multimodal Methods in Ethnography",
     "code": "ANSC 171",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ethnography in Practice",
     "code": "ANSC 173",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Beyond Capitalism: The Future of Money, Work, and Nature",
     "code": "ANSC 175",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Step Into Anthrohistory: The Past and Its Hold on the Future",
     "code": "ANSC 177",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Brain, Mind, Culture, and History",
     "code": "ANSC 178",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Capitalism and Gender",
     "code": "ANSC 180",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Animal Affairs",
     "code": "ANSC 181",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Visualizing the Human: Film, Photography, and Digital Technologies",
     "code": "ANSC 183",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Food, Culture, and Society",
     "code": "ANSC 184",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "#BlackLivesMatter",
     "code": "ANSC 185",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gender and Incarceration",
     "code": "ANSC 186",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropology of Mental Health in Israel and the Diaspora",
     "code": "ANSC 187",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cultures of Healing",
     "code": "ANSC 188",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Social Justice in South Asia",
     "code": "ANSC 189",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Yoga Practices: From Banaras to Beverly Hills",
     "code": "ANSC 190",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Medicine and Healing in South Asia",
     "code": "ANSC 190GS",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ANSC 101, ANSC 121, ANSC 155, ANSC 173, ANTH 103, ANSC 146, ANSC 147, ANSC 148, or ANSC 164, department approval required, and upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANSC101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC121"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC155"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC173"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC146"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC147"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC148"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC164"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Stories and Selves",
     "code": "ANSC 191",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Everyday Life in South Asia: Beyond the Clichés",
     "code": "ANSC 191GS",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ANSC 121, ANSC 148, ANSC 155, ANSC 164, ANTH 1, ANTH 21, ANTH 23, or ANTH 103, department approval required, and upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANSC121"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC148"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC155"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANSC164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH21"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH23"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH103"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Liberation Bound: Struggles Against Capitalism and Imperialism Worldwide",
     "code": "ANSC 192",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "US Empire: What Is It?",
     "code": "ANSC 192A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Rethinking Poverty and Development",
     "code": "ANSC 192GS",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required and upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Capitalism and Nature",
     "code": "ANSC 193",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human Rights and Environmental Justice",
     "code": "ANSC 193GS",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required and upper-division standing. Students must submit applications to the Global Initiatives Study Abroad Office and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language, Migration, Borders",
     "code": "ANSC 194",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human Rights Advocacy Seminar",
     "code": "ANSC 196",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Anthropology Graduate Studies",
     "code": "ANTH 200",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Anthropological Archaeology",
     "code": "ANTH 201",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Olmec and Maya Archaeology",
     "code": "ANTH 202",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Anthropogeny",
     "code": "ANTH 203",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Contemporary Anthropology",
     "code": "ANTH 204",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Postcolonial and Decolonial Anthropology",
     "code": "ANTH 205",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Race, Ethnicity, and Citizenship",
     "code": "ANTH 206",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Eastern Mediterranean Archaeology—New Perspectives",
     "code": "ANTH 207",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeology’s Role in Building National Narrative: Israel as a Case Study",
     "code": "ANTH 209",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Capitalism and Science",
     "code": "ANTH 211",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Topics in Biological Anthropology",
     "code": "ANTH 212",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropology and Mental Health",
     "code": "ANTH 213",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Topics in Sociocultural Anthropology",
     "code": "ANTH 215",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1576,308 +1746,308 @@
   {
     "name": "The Human Body in Discourse and Experience",
     "code": "ANTH 220",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Phenomenology of Perception",
     "code": "ANTH 221",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropological Studies of Subjectivity",
     "code": "ANTH 222",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropological Interviewing",
     "code": "ANTH 223",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (Formerly known as ANGR 223.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Anthropology of Gender and Sexuality",
     "code": "ANTH 224",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ethnography of Christianity",
     "code": "ANTH 226",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (Formerly known as ANGR 226.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Living in an Emotional World",
     "code": "ANTH 227",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Partners Not Subjects: Community-Engaged Research for Anthropologists",
     "code": "ANTH 228",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Religion and Healing",
     "code": "ANTH 229",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Department Colloquium",
     "code": "ANTH 230",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (S/U grades only.) (Formerly known as ANGR 230.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Maritime Archaeology in the Eastern Mediterranean—New Perspectives on Climate, Environmental, and Cultural Change",
     "code": "ANTH 231",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Labor and Semiotics",
     "code": "ANTH 232",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Critical Studies of Capitalism",
     "code": "ANTH 233",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Theories of Social Justice",
     "code": "ANTH 235",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "What is Religion?",
     "code": "ANTH 236",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Native American Health and Healing",
     "code": "ANTH 237",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Immigrant and Refugee Health",
     "code": "ANTH 238",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Contemporary Religious Movements",
     "code": "ANTH 239",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Linguistic Anthropology Workshop",
     "code": "ANTH 241",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropology of Latin America",
     "code": "ANTH 242",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mental Health as Global Health Priority",
     "code": "ANTH 243",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Andean Prehistory: Origins of Chiefdoms and States",
     "code": "ANTH 244",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Middle Horizon",
     "code": "ANTH 245",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Inca and the Late Horizon",
     "code": "ANTH 246",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Multimodal Interaction",
     "code": "ANTH 247",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Health and Cultural Diversity",
     "code": "ANTH 248",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gender and Mental Health",
     "code": "ANTH 249",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Anthropology of Human Rights",
     "code": "ANTH 250",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Ethnography of Modernity",
     "code": "ANTH 251",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Who Cares? Sympathy and the Conduct of Liberalism",
     "code": "ANTH 253",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Dissertation Practicum",
     "code": "ANTH 254",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar on Brain Evolution (4)",
     "code": "ANTH 256",
-    "raw_prereq": "",
+    "raw_prereq": "graduate student in anthropology or consent of instructor. (Formerly known as ANGR 256.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mind, Self, and Identity",
     "code": "ANTH 257",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Analytical Methods in Archaeology",
     "code": "ANTH 258",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (Formerly known as ANGR 258.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Gender and Mental Health",
     "code": "ANTH 259",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Medical and Psychological Anthropology",
     "code": "ANTH 260",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Critical Anthropology Workshop",
     "code": "ANTH 262",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Beyond the Genome",
     "code": "ANTH 263",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Human Evolutionary Genetics",
     "code": "ANTH 264",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Marine and Coastal Archaeology: Israel and the Neighboring Lands",
     "code": "ANTH 265",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropology of Love",
     "code": "ANTH 266",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Decolonizing Ethnography: Ethics, Politics, and Praxis",
     "code": "ANTH 267",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Science Studies: Part I",
     "code": "ANTH 268",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Science Studies: Part II",
     "code": "ANTH 269",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1891,224 +2061,224 @@
   {
     "name": "Ethics and Survival Skills in Academia",
     "code": "ANTH 271",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Science Studies",
     "code": "ANTH 272",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Colloquium in Science Studies",
     "code": "ANTH 273",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Debates in Anthropology",
     "code": "ANTH 274",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology. (Formerly known as ANGR 274.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Paleoethnobotany",
     "code": "ANTH 275",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Mental Health",
     "code": "ANTH 276",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Critique of Value and the Value of Critique",
     "code": "ANTH 277",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropological Methods",
     "code": "ANTH 278",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics in Language and Society",
     "code": "ANTH 279",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (Formerly known as ANGR 279.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Core Seminar in Social Anthropology",
     "code": "ANTH 280A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280A.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Core Seminar in Cultural Anthropology",
     "code": "ANTH 280B",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280B.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Core Seminar in Psychological Anthropology",
     "code": "ANTH 280C",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280C.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Core Seminar in Anthropological Archaeology",
     "code": "ANTH 280D",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280D.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Core Seminar in Biological Anthropology",
     "code": "ANTH 280E",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280E.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Language, Semiosis, Culture",
     "code": "ANTH 280F",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Proseminar",
     "code": "ANTH 281A",
-    "raw_prereq": "",
+    "raw_prereq": "first-year graduate standing in anthropology.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Proseminar",
     "code": "ANTH 281B",
-    "raw_prereq": "",
+    "raw_prereq": "first-year graduate standing in anthropology.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Anthropology Proseminar",
     "code": "ANTH 281C",
-    "raw_prereq": "",
+    "raw_prereq": "first-year graduate standing in anthropology.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Fieldwork Seminar",
     "code": "ANTH 283A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (Formerly known as ANGR 283A.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Master Writing Practicum",
     "code": "ANTH 284",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Grants Writing Practicum",
     "code": "ANTH 285",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Ethnography Practicum",
     "code": "ANTH 287",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeology Practicum",
     "code": "ANTH 288",
-    "raw_prereq": "",
+    "raw_prereq": "consent of the instructor. (Formerly known as ANGR 288.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Tanzania Anthropogeny Study Tour",
     "code": "ANTH 289S",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Archaeology of Highland Mexico",
     "code": "ANTH 291",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (Formerly known as ANGR 291.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Social Evolution/Iron Age Levant",
     "code": "ANTH 292",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (Formerly known as ANGR 292.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Primate Socioecology",
     "code": "ANTH 293",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor. (Formerly known as ANGR 293.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Master’s Thesis Preparation",
     "code": "ANTH 295",
-    "raw_prereq": "",
+    "raw_prereq": "graduate student in anthropology and consent of master’s thesis chair. (Formerly known as ANGR 295.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Dissertation Fieldwork Proposal Preparation",
     "code": "ANTH 296",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing in anthropology and consent of departmental committee chair. (Formerly known as ANGR 296A/296B.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Research Practicum",
     "code": "ANTH 297",
-    "raw_prereq": "",
+    "raw_prereq": "for anthropology graduate students who have returned from their field research.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study",
     "code": "ANTH 298",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing. (Formerly known as ANGR 298.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Dissertation Research",
     "code": "ANTH 299",
-    "raw_prereq": "",
+    "raw_prereq": "PhD candidacy in anthropology. (Formerly known as ANGR 299.)",
     "prerequisites": [],
     "offered_this_qtr": false
   },

@@ -219,21 +219,21 @@
   {
     "name": "Film Aesthetics",
     "code": "VIS 84B",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Media History",
     "code": "VIS 85A",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Media Aesthetics",
     "code": "VIS 85B",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -247,7 +247,7 @@
   {
     "name": "Introduction to Public Culture",
     "code": "VIS 100",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -282,56 +282,56 @@
   {
     "name": "Architectural Practices",
     "code": "VIS 103",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Contemporary Arts in South Korea",
     "code": "VIS 103A",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Architecture and Urbanism of Korea",
     "code": "VIS 103B",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Silk Roads: A Critical Study",
     "code": "VIS 103C",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "History of Speculative Design: Projects, Programs, and Practices",
     "code": "VIS 103D",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Performance: Art Practice",
     "code": "VIS 104A",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 80.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Performance: Art and Material Form",
     "code": "VIS 104B",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 104A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Performance: Art and Public Culture",
     "code": "VIS 104C",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 104A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -415,7 +415,7 @@
   {
     "name": "Professional Practice in the Visual Arts",
     "code": "VIS 110B",
-    "raw_prereq": "",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -457,7 +457,7 @@
   {
     "name": "Art and Text",
     "code": "VIS 110H",
-    "raw_prereq": "",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -471,7 +471,7 @@
   {
     "name": "Digital Studio",
     "code": "VIS 110K",
-    "raw_prereq": "",
+    "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -534,7 +534,7 @@
   {
     "name": "Arts and Visual Culture in China",
     "code": "VIS 114GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -555,7 +555,7 @@
   {
     "name": "Critical Theory and Visual Practice",
     "code": "VIS 117G",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -597,7 +597,7 @@
   {
     "name": "Art and the Bible in the Middle Ages: Sign and Design",
     "code": "VIS 121C",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -611,7 +611,7 @@
   {
     "name": "Baroque: Painters, Sculptors, Architects",
     "code": "VIS 122B",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -667,14 +667,14 @@
   {
     "name": "Art in the Age of Revolutions",
     "code": "VIS 124F",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Art and Modernity",
     "code": "VIS 124G",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -702,14 +702,14 @@
   {
     "name": "History of Socially Engaged Art",
     "code": "VIS 125G",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "History of Socially Engaged Art",
     "code": "VIS 125GR",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -730,14 +730,14 @@
   {
     "name": "Indigenisms I: The Making of the Modern, Nineteenth Century to Mid-Twentieth Century",
     "code": "VIS 126E",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenisms II: Contemporary Disseminations, Neo-Avantgarde to the Present",
     "code": "VIS 126F",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -793,7 +793,7 @@
   {
     "name": "Issues in Modern and Contemporary Chinese Art",
     "code": "VIS 127GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -821,7 +821,7 @@
   {
     "name": "Topics in Art History and Theory",
     "code": "VIS 128A–E",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -835,7 +835,7 @@
   {
     "name": "Topics in Early Modern Art History",
     "code": "VIS 128B",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -897,8 +897,18 @@
   {
     "name": "Seminar in Early Modern Art History",
     "code": "VIS 129B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 112 or two upper-division courses in art history (VIS 113AN–129F).",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -921,7 +931,7 @@
   {
     "name": "Seminar in Art History of the Americas",
     "code": "VIS 129D",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -983,21 +993,31 @@
   {
     "name": "Lecture Topics in Speculative Design",
     "code": "VIS 133",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing. Open to media, studio, ICAM, and speculative design majors and speculative design minors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Studio Topics in Speculative Design",
     "code": "VIS 133A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 30 or VIS 41. Open to media, studio, ICAM, and speculative design majors and speculative design minors.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS30"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to 3-D Asset Design",
     "code": "VIS 134",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1021,7 +1041,7 @@
   {
     "name": "Speculative Fiction Seminar",
     "code": "VIS 136A",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 30. Open to media, studio, ICAM, and speculative design majors and speculative design minors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1204,8 +1224,27 @@
   {
     "name": "Seminar in Film History and Theory",
     "code": "VIS 150A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 83 or VIS 84 or VIS 85A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS84"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1245,8 +1284,35 @@
   {
     "name": "Seminar in Media History and Theory",
     "code": "VIS 151A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 22 or VIS 83 or VIS 84 or VIS 85A or VIS 159.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS22"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS84"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS85A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1309,14 +1375,14 @@
   {
     "name": "Environmentalism in Arts and Media",
     "code": "VIS 157",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "US Civil Rights in Art and Media",
     "code": "VIS 157D",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1398,15 +1464,52 @@
   {
     "name": "Senior Project in Computing Arts I",
     "code": "VIS 160A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 145A and one course from VIS 141B or VIS 145B or VIS 147B or MUS 172. Open to ICAM majors only. Department stamp required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS145A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS141B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS145B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS147B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Senior Project in Computing Arts II",
     "code": "VIS 160B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 160A or MUS 160A. Open to ICAM majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS160A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1450,21 +1553,21 @@
   {
     "name": "Black and White Darkroom",
     "code": "VIS 165",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Photographic Print",
     "code": "VIS 165A",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "The Photographer’s Studio",
     "code": "VIS 165B",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1564,15 +1667,38 @@
   {
     "name": "Motion Design and Visual Effects",
     "code": "VIS 172",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Animation",
     "code": "VIS 173",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 60 or VIS 71 and VIS 70N or VIS 72. Open to media and cinematic arts majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS71"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "VIS70N"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1613,15 +1739,25 @@
   {
     "name": "Intermediate Projects in Media",
     "code": "VIS 179",
-    "raw_prereq": "",
+    "raw_prereq": "VIS 174. Open to media and speculative design majors and film production minors.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Projects in 3-D and CGI",
     "code": "VIS 180",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "VIS 172 or VIS 173. Open to media and cinematic arts majors only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS172"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2278,21 +2414,21 @@
   {
     "name": "Media Honors Thesis",
     "code": "VIS 197",
-    "raw_prereq": "consent of instructor.<strong>Note:</strong>Requires a written proposal, 3.5 GPA in the major, prior consent from all involved, and approvals by the department chair and provost.",
+    "raw_prereq": "consent of instructor. Note: Requires a written proposal, 3.5 GPA in the major, prior consent from all involved, and approvals by the department chair and provost.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Group Study",
     "code": "VIS 198",
-    "raw_prereq": "consent of instructor.<strong>Note:</strong>Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.",
+    "raw_prereq": "consent of instructor. Note: Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Special Studies in the Visual Arts",
     "code": "VIS 199",
-    "raw_prereq": "consent of instructor.<strong>Note:</strong>Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.",
+    "raw_prereq": "consent of instructor. Note: Open only to upper-division students. Requires instructor’s, department chair’s, and provost’s approval. Pass/Not Pass grades only.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2523,21 +2659,21 @@
   {
     "name": "Seminar in North American Indian Art",
     "code": "VIS 260",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Material Culture",
     "code": "VIS 261",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Design Studies",
     "code": "VIS 262",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

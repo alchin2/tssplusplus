@@ -23,7 +23,7 @@
   {
     "name": "Conservation Solutions",
     "code": "ENVR 105",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -58,49 +58,59 @@
   {
     "name": "Wilderness and Human Values Workshop",
     "code": "ENVR 141",
-    "raw_prereq": "",
+    "raw_prereq": "consent of instructor and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Wilderness and Human Values Abroad",
     "code": "ENVR 142GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing required. Must apply and be accepted to the Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Wilderness Training",
     "code": "ENVR 144",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Environmental Justice",
     "code": "ENVR 150",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "upper-division standing or consent of instructor. Students will not receive credit for both ENVR 150 and ENVR 150GS.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ENVR150"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Environmental Justice",
     "code": "ENVR 150GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; program or materials fees may apply. Must apply to Global Seminar Program and be accepted. Students will not receive credit for both ENVR 150 and ENVR 150GS.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Indigenous Approaches to Climate Change",
     "code": "ENVR 152",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Apprentice Teaching",
     "code": "ENVR 195",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

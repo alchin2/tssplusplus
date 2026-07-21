@@ -37,14 +37,14 @@
   {
     "name": "Topics in Religion and Sexuality",
     "code": "RELI 131",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Orthodoxy and Heterodoxy",
     "code": "RELI 132",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -65,14 +65,14 @@
   {
     "name": "Public Sphere and Religion",
     "code": "RELI 141",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Secularization and Religion",
     "code": "RELI 142",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -177,7 +177,7 @@
   {
     "name": "Posthuman Spirituality",
     "code": "RELI 156",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -198,21 +198,21 @@
   {
     "name": "Native Religions",
     "code": "RELI 159GS",
-    "raw_prereq": "",
+    "raw_prereq": "Students must apply and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Religion and Politics",
     "code": "RELI 160GS",
-    "raw_prereq": "",
+    "raw_prereq": "Students must apply and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Drama, Politics, and Religion in Ancient Greece",
     "code": "RELI 161GS",
-    "raw_prereq": "",
+    "raw_prereq": "Students must apply and be accepted to the Global Seminars Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

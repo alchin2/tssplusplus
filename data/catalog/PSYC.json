@@ -82,7 +82,7 @@
   {
     "name": "Laboratory in Psychological Research Methods",
     "code": "PSYC 71",
-    "raw_prereq": "upper-division standing,<strong class=\"italic\"> </strong>COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
+    "raw_prereq": "upper-division standing, COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
     "prerequisites": [
       {
         "type": "AND",
@@ -90,6 +90,10 @@
           {
             "type": "OR",
             "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
               {
                 "type": "COURSE",
                 "course_id": "PSYC60"
@@ -112,7 +116,7 @@
   {
     "name": "Laboratory in Brain, Behavior, and Evolution",
     "code": "PSYC 81",
-    "raw_prereq": "upper-division standing,<strong class=\"italic\"> </strong>COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
+    "raw_prereq": "upper-division standing, COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
     "prerequisites": [
       {
         "type": "AND",
@@ -120,6 +124,10 @@
           {
             "type": "OR",
             "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
               {
                 "type": "COURSE",
                 "course_id": "PSYC60"
@@ -264,8 +272,73 @@
   {
     "name": "Electroencephalogram",
     "code": "PSYC 113",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PSYC 60 or COGS 14B or MATH 11, and PSYC 70 or COGS 14A, and COGS 101A or COGS 107A or COGS 107B or COGS 107C or PSYC 102 or PSYC 106 or PSYC 108. Department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -399,8 +472,44 @@
   {
     "name": "Laboratory in Animal Behavior",
     "code": "PSYC 118",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "upper-division standing, PSYC 60 or COGS 14B or MATH 11 and PSYC 70 or COGS 14A, and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -427,21 +536,54 @@
   {
     "name": "Practicum in Community Mental Health Care",
     "code": "PSYC 126",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PSYC 100 and PSYC 124 and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC100"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC124"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Sexual Health Inequities and Sexual Well-Being",
     "code": "PSYC 127",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "upper-division standing, PSYC 60, PSYC 70, PSYC 172.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Scientific Racism: Genetics, Intelligence, and Race",
     "code": "PSYC 131",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -861,8 +1003,35 @@
   {
     "name": "Psychology of Mindfulness and Well-being",
     "code": "PSYC 175",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "upper-division standing, COGS 14B or MATH 11 or PSYC 60, and COGS 14A or PSYC 70. Department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS14A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -896,7 +1065,7 @@
   {
     "name": "Psychopharmacology—Drugs and Behavior",
     "code": "PSYC 181",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -917,21 +1086,21 @@
   {
     "name": "Psychology of Climate Crisis",
     "code": "PSYC 185",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Evolutionary Psychology",
     "code": "PSYC 186",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Global Seminar—Early History of Psychiatry: Psychiatry, Neuroscience, and Pharmacology of the Renaissance through the Enlightenment",
     "code": "PSYC 186GS",
-    "raw_prereq": "",
+    "raw_prereq": "Students must submit applications to the International Center Programs Abroad Office and be accepted into the Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1048,14 +1217,7 @@
   {
     "name": "Honors Thesis I",
     "code": "PSYC 194A",
-    "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "Honors Thesis II",
-    "code": "PSYC 194B",
-    "raw_prereq": "PSYC 110, PSYC 111A-B,<strong> </strong>PSYC 194A, department approval, psychology majors only, acceptance to the Honors program.",
+    "raw_prereq": "PSYC 110, PSYC 111A-B, department approval, psychology majors only, acceptance to the Honors Program.",
     "prerequisites": [
       {
         "type": "AND",
@@ -1070,6 +1232,40 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC111A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC111B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Honors Thesis II",
+    "code": "PSYC 194B",
+    "raw_prereq": "PSYC 110, PSYC 111A-B, PSYC 194A, department approval, psychology majors only, acceptance to the Honors program.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC111A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC111B"
               },
               {
                 "type": "COURSE",
@@ -1160,8 +1356,27 @@
   {
     "name": "Writing and Presenting Academic Research Papers",
     "code": "PSYC 202",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "psychology graduate students (major code: PC76 or PC78 or PC79), or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PC76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC78"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1188,7 +1403,7 @@
   {
     "name": "Judgment and Decision Making",
     "code": "PSYC 209",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1202,7 +1417,7 @@
   {
     "name": "Computational Models of Mind",
     "code": "PSYC 211",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1237,8 +1452,31 @@
   {
     "name": "Writing about Thinking",
     "code": "PSYC 219",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "restricted to students with the major codes PC76 or PC78 or PC79, or consent of instructor and graduate standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PC76"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC78"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PC79"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1265,7 +1503,7 @@
   {
     "name": "Current Directions in Vision",
     "code": "PSYC 223",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1286,21 +1524,21 @@
   {
     "name": "Computational Approaches to Visual Abstraction",
     "code": "PSYC 230",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Tools for Experimental Data Analysis",
     "code": "PSYC 231",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Probabilistic Models of Cognition",
     "code": "PSYC 232",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1314,21 +1552,21 @@
   {
     "name": "Evolution of Language",
     "code": "PSYC 234",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Thought and Language",
     "code": "PSYC 235",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Substance Abuse",
     "code": "PSYC 236",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1398,7 +1636,7 @@
   {
     "name": "Advanced Topics in Applied Behavior Analysis II",
     "code": "PSYC 249B",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1503,7 +1741,7 @@
   {
     "name": "Social Psychology and Medicine",
     "code": "PSYC 265",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1614,7 +1852,7 @@
   {
     "name": "Selected Topics in Quantitative Methods in Psychology",
     "code": "PSYC 273",
-    "raw_prereq": "graduate standing or consent of the instructor.<a id=\"psyc274\" name=\"psyc274\"></a>",
+    "raw_prereq": "graduate standing or consent of the instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

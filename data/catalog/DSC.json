@@ -2,581 +2,1693 @@
   {
     "name": "Principles of Data Science",
     "code": "DSC 10/R",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Programming and Basic Data Structures for Data Science",
     "code": "DSC 20/R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 10/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Structures and Algorithms for Data Science",
     "code": "DSC 30/R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 20/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Theoretical Foundations of Data Science I",
     "code": "DSC 40A/R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 10/R, (MATH 20C or MATH 31BH) and (MATH 18 or MATH 20F or MATH 31AH). Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DS25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Theoretical Foundations of Data Science II",
     "code": "DSC 40B/R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 20/R and 40A/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "The Practice and Application of Data Science",
     "code": "DSC 80/R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 30/R and DSC 40A/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Data Science",
     "code": "DSC 90",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 10. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Tutor Apprenticeship in Data Science",
     "code": "DSC 95",
-    "raw_prereq": "",
+    "raw_prereq": "DSC 10. Students must have applied for and been accepted as a tutor for a DSC course for the first time; enrollment in DSC 95 is required for these students.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Workshop in Data Science",
     "code": "DSC 96",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Internship in Data Science",
     "code": "DSC 97",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(MATH 20C or MATH 31BH), and (MATH 18 or MATH 31AH), and DSC 20 and DSC 40A. Completion of thirty units at UC San Diego with a university GPA of 3.0. Special Studies form, consent of the instructor, and approval of the department required. Priority enrollment is given to data science majors DS25. Restricted to first-year and sophomore level students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC20"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Group Study in Data Science",
     "code": "DSC 98",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(MATH 20C or MATH 31BH) and (MATH 18 or MATH 31AH) and DSC 20 and DSC 40A. Completion of thirty units at UC San Diego with a university GPA of 3.0. Special Studies form, consent of the instructor, and approval of the department required. Priority enrollment is given to data science majors DS25. Restricted to first-year and sophomore level students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC20"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study in Data Science",
     "code": "DSC 99",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(MATH 20C or MATH 31BH) and (MATH 18 or MATH 31AH) and DSC 20 and DSC 40A. Completion of thirty units at UC San Diego with a university GPA of 3.0. Special Studies form, consent of the instructor, and approval of the department required. Priority enrollment is given to data science majors DS25. Restricted to first-year and sophomore level students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC20"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Data Management",
     "code": "DSC 100",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 40B/R and DSC 80/R. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Systems for Scalable Analytics",
     "code": "DSC 102",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 100. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Beyond Relational Data Management",
     "code": "DSC 104",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 100. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Data Visualization",
     "code": "DSC 106",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 80/R. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Signal Processing for Data Analysis",
     "code": "DSC 120",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(MATH 18 or MATH 31AH) and (MATH 20C or MATH 31BH) and DSC 80/R. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Optimization Methods for Data Science I",
     "code": "DSC 123A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(MATH 20C or MATH 31BH) and (MATH 18 or MATH 31 AH). Students may not receive credit for both DSC 123A and MATH 173A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC123A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Optimization Methods for Data Science II",
     "code": "DSC 123B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 123A or MATH 173A. Students may not receive credit for both DSC 123B and MATH 173B. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC123A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC123B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Probabilistic Modeling and Machine Learning",
     "code": "DSC 140A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 80/R and (ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186). Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DS25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Representation Learning",
     "code": "DSC 140B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 80/R and (ECE 109 or ECON 120A or MAE 108 or MATH 180A or MATH 183 or MATH 186). Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DS25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Data Mining",
     "code": "DSC 148",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "(DSC 40B or CSE 12) and (DSC 80 or CSE 15L or CSE 29) and (MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or CSE 103 or ECE 109 or ECON 120A or MAE 108). Students may not receive credit for DSC 148 and CSE 158 or CSE 158R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE15L"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC148"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DS25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Hidden Data in Random Matrices",
     "code": "DSC 155",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 180A and (MATH 18 or MATH 31AH). Students will not receive credit for both MATH 182 and DSC 155. Completion of MATH 102 is encouraged but not required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH182"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH102"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science and the Arts",
     "code": "DSC 160",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 80. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Text as Data",
     "code": "DSC 161",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECON 5 or POLI 170A or POLI 171 or POLI 30 or POLI 30D or POLI 5 or POLI 5D. Students will not receive credit for both POLI 176 and DSC 161. Restricted to junior and senior level students. Restricted to students with upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI170A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI176"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Fairness and Algorithmic Decision-Making",
     "code": "DSC 167",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 80. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Spatial Data Science and Applications",
     "code": "DSC 170",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 80. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science Project I",
     "code": "DSC 180A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 102 and MATH 189 and DSC 140B or CSE 151A or COGS 188 or CSE 158 or CSE 158R or DSC 148 or DSC 140A or CSE 151A and DSC 106. Restricted to students with upper-division standing. Restricted to students within the DS25 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC102"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH189"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS188"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE158R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC148"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE151A"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS25"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science Project II",
     "code": "DSC 180B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 180A. Students are only cleared to enroll into the discussion section associated with their DSC 180A discussion section. Restricted to students with upper-division standing. Restricted to students within the DS25 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DS25"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Data Science",
     "code": "DSC 190",
-    "raw_prereq": "",
+    "raw_prereq": "department and instructor approval required to monitor enrollment and to ensure that students have the sufficient educational background for a given topic. Restricted to students with upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Data Science",
     "code": "DSC 191",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to students with upper-division standing. Department and instructor approval is required to monitor enrollment and to ensure that students have the sufficient educational background for a given topic.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science Internship",
     "code": "DSC 197",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. An application for Special Studies must be filed with the Registrar’s office after approval from the instructor and the department chair.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Group Study in Data Science",
     "code": "DSC 198",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. Department stamp required. An application for Special Studies must be filed with the Registrar’s office after approval from the instructor and the department chair.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study for Data Science Undergraduates",
     "code": "DSC 199",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. An application for Special Studies must be filed with the Registrar’s Office after approval from the instructor and the department chair.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science Programming",
     "code": "DSC 200",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Management for Data Science",
     "code": "DSC 202",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Visualization and Scalable Visual Analytics",
     "code": "DSC 203",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 202. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Scalable Data Systems",
     "code": "DSC 204A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 202. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Geometry of Data",
     "code": "DSC 205",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 or ECE 269 and DSC 212 and DSC 240. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC210"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE269"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DSC212"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Algorithms for Data Science",
     "code": "DSC 206",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 212. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Python for Data Science",
     "code": "DSC 207R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Management for Analytics",
     "code": "DSC 208R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 207R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Visualization",
     "code": "DSC 209R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 208R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Numerical Linear Algebra",
     "code": "DSC 210",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Optimization",
     "code": "DSC 211",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Probability and Statistics for Data Science",
     "code": "DSC 212",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistics on Manifolds",
     "code": "DSC 213",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 and DSC 212. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC210"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topological Data Analysis",
     "code": "DSC 214",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Thinking and Experimental Design",
     "code": "DSC 215",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Foundations of Probability and Statistics in Data Science",
     "code": "DSC 215R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Embedded Sensing, IOT Data Models, and Methods",
     "code": "DSC 231",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. The class is designed for electronic enthusiasts who are quick learners on new embedded, sensor network devices. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Big Data Analytics Using Spark",
     "code": "DSC 232R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 255R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning",
     "code": "DSC 240",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 and DSC 212. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC210"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Models",
     "code": "DSC 241",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 and DSC 212. Restricted to students within the DS75 and DS76 major.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC210"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "High-Dimensional Probability and Statistics",
     "code": "DSC 242",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Optimization",
     "code": "DSC 243",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 211 and DSC 212. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC211"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Large-Scale Statistical Analysis",
     "code": "DSC 244",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 and DSC 212 and DSC 241. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC210"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DSC212"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Introduction to Causal Inference",
     "code": "DSC 245",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 212 and DSC 240. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC212"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Data Mining",
     "code": "DSC 250",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning in Control",
     "code": "DSC 251",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 211 and DSC 240. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC211"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Natural Language Processing",
     "code": "DSC 252",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Data-Driven Text Mining",
     "code": "DSC 253",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Statistical Signal and Image Analysis",
     "code": "DSC 254",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 or ECE 269 and DSC 212. Need to verify background in signal processing from undergraduate or other graduate courses. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC210"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE269"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Machine Learning Fundamentals",
     "code": "DSC 255R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 215R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Mining on the Web",
     "code": "DSC 256R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 215R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Unsupervised Learning",
     "code": "DSC 257R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 255R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Natural Language Processing",
     "code": "DSC 258R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 255R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Practice and Applications",
     "code": "DSC 259R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 208R and DSC 255R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC208R"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Science, Ethics, and Society",
     "code": "DSC 260",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Responsible Data Science",
     "code": "DSC 261",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 210 and DSC 240. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC210"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Human-Centered Artificial Intelligence",
     "code": "DSC 266R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 208R and DSC 255R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC208R"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Data Fairness and Ethics",
     "code": "DSC 267R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 208R and DSC 255R. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC208R"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Interpretability and Explainability in Machine Learning",
     "code": "DSC 270",
-    "raw_prereq": "",
+    "raw_prereq": "DSC 240. Students should be comfortable reading research papers with a critical perspective; have prior course work in machine learning (e.g., DSC 240); and have some interest in interpretability and explainability for your research or career. Restricted to major codes DS75 and DS76.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Graduate Capstone in Data Science",
     "code": "DSC 288R",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 208R, DSC 255R, and DSC 256R. Restricted to major codes DS78 and DS79.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC208R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC255R"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS78"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Seminar in Data Science",
     "code": "DSC 290",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Data Science",
     "code": "DSC 291",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Faculty Research Seminar",
     "code": "DSC 293",
-    "raw_prereq": "",
+    "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Research Rotation",
     "code": "DSC 294",
-    "raw_prereq": "",
+    "raw_prereq": "none. Only first-year PhD students are eligible.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Academia Survival Skills",
     "code": "DSC 295",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "DSC Graduate Internship",
     "code": "DSC 297",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "none. Restricted to DS75 and DS76 students.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DS75"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "DS76"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Graduate Research",
     "code": "DSC 299",
-    "raw_prereq": "",
+    "raw_prereq": "none. Restricted to graduate-level students.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Teaching Assistantship",
     "code": "DSC 500",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "DSC 500 is for selected teaching assistants only; therefore, consent of instructor is required.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DSC500"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Teaching Methods in Data Science",
     "code": "DSC 599",
-    "raw_prereq": "",
+    "raw_prereq": "Consent of faculty required. Only graduate students who are TAing for the first time in the data science program are eligible to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

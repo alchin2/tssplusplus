@@ -61,8 +61,22 @@
   {
     "name": "MATLAB Programming for Engineering Analysis",
     "code": "MAE 08",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20A and 20B or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -157,22 +171,63 @@
   {
     "name": "Statics and Introduction to Dynamics(4)",
     "code": "MAE 30A",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "PHYS 2A and MATH 31BH or MATH 20C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH31BH"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Dynamics and Vibrations",
     "code": "MAE 30B",
-    "raw_prereq": "",
+    "raw_prereq": "MAE 30A.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Linear Circuits",
     "code": "MAE 40",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 20D and MATH 31AH or MATH 18 or MATH 20F, and PHYS 2B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -206,7 +261,7 @@
   {
     "name": "Design Competition—Design, Build, and Test Race Car",
     "code": "MAE 93",
-    "raw_prereq": "",
+    "raw_prereq": "department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -332,7 +387,7 @@
   {
     "name": "Heat Transfer",
     "code": "MAE 101C",
-    "raw_prereq": "MAE 101A or CENG 101A,<span>MAE 101B, </span>and MAE 105.",
+    "raw_prereq": "MAE 101A or CENG 101A, MAE 101B, and MAE 105.",
     "prerequisites": [
       {
         "type": "AND",
@@ -343,6 +398,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CENG101A"
               },
               {
                 "type": "COURSE",
@@ -477,8 +536,18 @@
   {
     "name": "Probability and Statistical Methods for Engineering",
     "code": "MAE 108",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 18 or 20F.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH18"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -700,14 +769,24 @@
   {
     "name": "Introduction to Transport in Porous Media",
     "code": "MAE 123",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MAE 105, or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE105"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Building Energy Efficiency",
     "code": "MAE 125",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -747,8 +826,27 @@
   {
     "name": "Advanced Vibrations",
     "code": "MAE 130",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MATH 18 or MATH 31AH and MAE 30B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1018,8 +1116,35 @@
   {
     "name": "Introduction to Autonomous Vehicles",
     "code": "MAE 148",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "ECE 15 or ECE 35 or MAE 2 or MAE 3 and department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE35"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1115,7 +1240,7 @@
   {
     "name": "Product Design and Entrepreneurship",
     "code": "MAE 154",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1410,11 +1535,24 @@
   {
     "name": "Mechanical Engineering Laboratory I",
     "code": "MAE 171A",
-    "raw_prereq": "MAE 101A,<span>MAE 143B</span><span>,</span><span> </span>and MAE 170. Enrollment restricted to MC 27 and MC 30–34 majors only.",
+    "raw_prereq": "MAE 101A, MAE 143B, and MAE 170. Enrollment restricted to MC 27 and MC 30–34 majors only.",
     "prerequisites": [
       {
         "type": "AND",
         "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE143B"
+              }
+            ]
+          },
           {
             "type": "COURSE",
             "course_id": "MC27"
@@ -1476,28 +1614,38 @@
   {
     "name": "Flight Simulation Techniques",
     "code": "MAE 184",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Computational Fluid Mechanics",
     "code": "MAE 185",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MAE 101B and MAE 107.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE101B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Mechanical and Aerospace Engineering",
     "code": "MAE 190",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Topics in Mechanical and Aerospace Engineering with Laboratory",
     "code": "MAE 191",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1525,35 +1673,35 @@
   {
     "name": "Controls",
     "code": "MAE 200",
-    "raw_prereq": "",
+    "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Mechanics of Fluids",
     "code": "MAE 201",
-    "raw_prereq": "",
+    "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Thermal Processes",
     "code": "MAE 202",
-    "raw_prereq": "",
+    "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Solid Mechanics and Materials",
     "code": "MAE 203",
-    "raw_prereq": "",
+    "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Robotics",
     "code": "MAE 204",
-    "raw_prereq": "",
+    "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1567,7 +1715,7 @@
   {
     "name": "Energy Systems",
     "code": "MAE 206",
-    "raw_prereq": "",
+    "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -1881,8 +2029,18 @@
   {
     "name": "Environmental Fluid Dynamics II",
     "code": "MAE 224B",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MAE 224A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE224A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2156,56 +2314,56 @@
   {
     "name": "Space Flight Mechanics",
     "code": "MAE 240",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Robot Motion Planning",
     "code": "MAE 242",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Electric Power Systems Modeling",
     "code": "MAE 243",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Renewable Energy Integration",
     "code": "MAE 244",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Cooperative Control of Multi-agent Systems",
     "code": "MAE 247",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Safety for Autonomous Systems",
     "code": "MAE 248",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Soft Robotics",
     "code": "MAE 249",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Structure and Analysis of Solids",
     "code": "MAE 251",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2219,7 +2377,7 @@
   {
     "name": "Energy Materials and Applications",
     "code": "MAE 254",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2250,21 +2408,21 @@
   {
     "name": "Polymer Science and Engineering",
     "code": "MAE 257",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "ODE Simulation Methods",
     "code": "MAE 259",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Fundamentals and Applications of Computational Materials Science",
     "code": "MAE 260",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2361,7 +2519,7 @@
   {
     "name": "Electronic and Photonic Properties of Materials",
     "code": "MAE 265A",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2396,7 +2554,7 @@
   {
     "name": "Multidisciplinary Design Optimization",
     "code": "MAE 270",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2424,7 +2582,7 @@
   {
     "name": "Imperfections in Solids",
     "code": "MAE 272",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2438,8 +2596,18 @@
   {
     "name": "Model Reduction",
     "code": "MAE 274",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MAE 280A and MAE 290A.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE280A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2452,7 +2620,7 @@
   {
     "name": "Uncertainty Quantification",
     "code": "MAE 279",
-    "raw_prereq": "",
+    "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -2699,8 +2867,18 @@
   {
     "name": "Flow Control",
     "code": "MAE 293",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "MAE 290A or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE290A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

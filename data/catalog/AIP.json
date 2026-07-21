@@ -16,14 +16,14 @@
   {
     "name": "UCDC: Washington, DC Internship",
     "code": "AIP 197DC",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Public Service Internship",
     "code": "AIP 197P",
-    "raw_prereq": "",
+    "raw_prereq": "ninety units completed; 2.5 minimum cumulative GPA; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
   },

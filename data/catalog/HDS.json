@@ -63,8 +63,31 @@
   {
     "name": "Evolutionary Principles in Human Development",
     "code": "HDS 111",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "HDP 1 or HDS 1 or ANTH 2 or BILD 3.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH2"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -96,35 +119,93 @@
   {
     "name": "The Developing Mind",
     "code": "HDS 121",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "HDP 1 or HDS 1 or COGS 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Development of Social Cognition",
     "code": "HDS 122",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "HDP 1 or HDS 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "HDP1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Cross-Cultural Perspectives on Developmental Science",
     "code": "HDS 133",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "HDP 1 or HDS 1 or PSYC 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Senior Seminar",
     "code": "HDS 150",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "senior standing, HDP 181 or HDS 181. Department approval required. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "HDP181"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Special Topics Seminar in Human Developmental Sciences",
     "code": "HDS 160",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing, department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
@@ -145,49 +226,98 @@
   {
     "name": "Power, Wealth, and Inequality in Human Development",
     "code": "HDS 175",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Experimental Projects in Human Development Research",
     "code": "HDS 181",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "HDS 1 and BIEB 100 or COGS 14B or ECON 120A or MATH 11 or POLI 30 or POLI 30D or PSYC 60. Department approval required. A minimum of three upper-division HDS major courses, at least one in each domain, is needed for enrollment approval. Must be a declared HDS major. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "HDS1"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Field Research in Human Development",
     "code": "HDS 191",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "HDS 1 and HDS 181. Department approval required. (F,W,S)",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "HDS1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Advanced Research in Human Developmental Sciences",
     "code": "HDS 193",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing; department approval required. Overall GPA of 2.8, one lab course, and three HDS core courses completed.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Honors Thesis in Human Developmental Sciences",
     "code": "HDS 194A-B-C",
-    "raw_prereq": "",
+    "raw_prereq": "overall GPA of 3.2, and a 3.5 GPA for courses taken in the HDS major; an advanced course in statistics or experimental design, department approval, and consent of instructor required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Instructional Apprentice in Human Developmental Sciences",
     "code": "HDS 195",
-    "raw_prereq": "",
+    "raw_prereq": "overall GPA of 3.0, 90 units completed, department approval, and consent of instructor required.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study in Human Developmental Sciences",
     "code": "HDS 199",
-    "raw_prereq": "",
+    "raw_prereq": "department approval and consent of the instructor required; completion of at least ninety undergraduate units with a minimum of 2.5 GPA, and a completed and approved Special Studies form.",
     "prerequisites": [],
     "offered_this_qtr": false
   }

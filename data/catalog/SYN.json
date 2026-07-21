@@ -2,84 +2,114 @@
   {
     "name": "Communicating for a Changing Planet",
     "code": "SYN 1",
-    "raw_prereq": "",
+    "raw_prereq": "Seventh College students only, completion of UC Entry Level Writing requirement, must be taken for a letter grade to count toward Seventh College general-education requirements. Duplicate credit with SYN 1R.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Communicating for a Changing Planet",
     "code": "SYN 1R",
-    "raw_prereq": "",
+    "raw_prereq": "Seventh College students only, completion of UC Entry Level Writing requirement, must be taken for a letter grade to count toward Seventh College general-education requirements. Duplicate credit with SYN 1.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Inquiring about a Changing Planet",
     "code": "SYN 2",
-    "raw_prereq": "",
+    "raw_prereq": "Seventh College students only, SYN 1/1R, must be taken for a letter grade to count toward Seventh College general-education requirements. Duplicate credit with SYN 2R.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Inquiring about a Changing Planet",
     "code": "SYN 2R",
-    "raw_prereq": "",
+    "raw_prereq": "Seventh College students only, SYN 1/1R, must be taken for a letter grade to count toward Seventh College general-education requirements. Duplicate credit with SYN 2.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Engaging with a Changing Planet",
     "code": "SYN 100",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to Seventh College students only, upper-division standing, completion of SYN 1/1R and SYN 2/2R, must be taken for a letter grade to count toward Seventh College general-education requirements.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Engaging with a Changing Planet Global Seminar",
     "code": "SYN 100GS",
-    "raw_prereq": "",
+    "raw_prereq": "upper-division standing, completion of SYN 1/1R and SYN 2/2R, must be taken for a letter grade to count toward Seventh College general-education requirements. Students must apply and be accepted to the Global Seminar Program to enroll. Duplicate credit with SYN 100.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Defining the Scope of a Changing Planet",
     "code": "SYN 150",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to Seventh College transfer students only, must be taken for a letter grade to count toward Seventh College high-impact requirement, cannot be taken concurrently or after SYN 100. Duplicate credit with SYN 150R.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Defining the Scope of a Changing Planet",
     "code": "SYN 150R",
-    "raw_prereq": "",
+    "raw_prereq": "restricted to Seventh College transfer students only, must be taken for a letter grade to count toward Seventh College high-impact requirement, cannot be taken concurrently or after SYN 100. Duplicate credit with SYN 150.",
     "prerequisites": [],
     "offered_this_qtr": false
   },
   {
     "name": "Instruction in Project-Based Learning Management",
     "code": "SYN 195",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "completion of SYN 100, restricted to upper-division Seventh College students only, must be taken P/NP only, can be taken once for credit, a student application and departmental approval is required for enrollment, enrollment satisfies the Seventh College high-impact requirement.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SYN100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Directed Group Study",
     "code": "SYN 198",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "completion of SYN 100, restricted to upper-division Seventh College students only, must be taken P/NP only, can be taken up to two times for credit, must complete at least ninety units with a 2.5 GPA in upper-division undergraduate courses at UC San Diego, department approval for the entire group is required, enrollment satisfies the Seventh College high-impact requirement.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SYN100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Independent Study",
     "code": "SYN 199",
-    "raw_prereq": "",
-    "prerequisites": [],
+    "raw_prereq": "completion of SYN 100, restricted to upper-division Seventh College students only, must be taken P/NP only, can be taken up to two times for credit, must complete at least ninety units with a 2.5 GPA in upper-division undergraduate courses at UC San Diego, department approval is required, enrollment satisfies the Seventh College high-impact requirement.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SYN100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
     "name": "Apprentice Teaching in Synthesis Program",
     "code": "SYN 500",
-    "raw_prereq": "",
+    "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
   }
