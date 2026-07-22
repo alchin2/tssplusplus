@@ -126,4 +126,5 @@ If you would like to contribute, send me a message on discord @alowo.
 
 * [WebReg++](https://github.com/yxli001/webregplusplus): An archived site i used when i first enrolled, featuring an easier way of browsing offered courses
 * [ClassGraph](https://github.com/nehalc200/classgraph): Prerequisite viewer i built under a team as apart of DS3's WI26 Projects cohort. Found it very useful
+* Shoutout Claude Code
 
