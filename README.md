@@ -3,9 +3,9 @@
 <!-- ABOUT THE PROJECT -->
 ## TSS++
 
-On ~~7/10~~ ~~7/20~~ 7/21 8:00 am PST. A new student info system called Triton Student System (TSS) was released. This replaced the beloved webreg system that helped UCSD students enroll and plan their courses for years. TSS recieved many complaints, not only ue to the delay in launch but also for its lack luster UI design and slow responses.
+On ~~7/10~~ ~~7/20~~ 7/21 8:00 am PST. A new student info system called Triton Student System (TSS) was released. Triton Student System (TSS), replacing the beloved WebReg that carried generations of students through enrollment seasons.
 
-TSS++ Offers an alternative way to browse through the schedule of classes, and plan your schedule (without TritonGPT). It also features a live prerequisite viewer to assist with course planning
+TSS++ Offers an alternative way to browse through the schedule of classes, and plan your schedule (without TritonGPT). It also features a live prerequisite viewer to assist with course planning, as well as exporting built schedules to standard .ics formats.
 
 ### Built With
 
