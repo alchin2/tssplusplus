@@ -4,14 +4,14 @@
     "code": "ECE 5",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineering Computation: Introduction to Programming in C",
     "code": "ECE 15",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Rapid Hardware and Software Design for Interfacing with the World",
@@ -67,7 +67,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Programming in Python and Object-Oriented Principles",
@@ -93,14 +93,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Digital Design",
     "code": "ECE 25",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computer Engineering",
@@ -121,7 +121,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Analog Design",
@@ -138,14 +138,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Circuits and Systems",
     "code": "ECE 45",
     "raw_prereq": "ECE 35.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Components and Circuits Laboratory",
@@ -162,7 +162,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "iTunes 101: A Survey of Information Technology",
@@ -238,7 +238,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Linear Systems Fundamentals",
@@ -276,7 +276,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Active Circuit Design",
@@ -297,7 +297,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fundamentals of Devices and Materials",
@@ -327,7 +327,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electromagnetism",
@@ -374,7 +374,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Circuits",
@@ -421,7 +421,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineering Probability and Statistics",
@@ -451,7 +451,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Digital Design Project",
@@ -468,7 +468,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fast Prototyping",
@@ -513,7 +513,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer Interfacing",
@@ -559,7 +559,7 @@
     "code": "ECE 121A",
     "raw_prereq": "ECE 35.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Energy Conversion",
@@ -638,7 +638,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Renewable Energy and Power Grid Modernization",
@@ -673,7 +673,7 @@
     "code": "ECE 135A",
     "raw_prereq": "ECE 103 with a grade of C– or better.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electronic Devices",
@@ -769,7 +769,7 @@
     "code": "ECE 143",
     "raw_prereq": "ECE 16.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "LabVIEW Programming: Design and Applications",
@@ -846,7 +846,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Entrepreneurship for Engineers",
@@ -914,7 +914,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sensor Networks",
@@ -991,7 +991,7 @@
     "code": "ECE 158A",
     "raw_prereq": "ECE 109 with a grade of C– or better.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Networks II",
@@ -1012,7 +1012,7 @@
     "code": "ECE 161A",
     "raw_prereq": "ECE 101.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Signal Processing",
@@ -1064,7 +1064,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Integrated Circuit Design",
@@ -1094,7 +1094,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Microwave Systems and Circuits",
@@ -1115,7 +1115,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Linear Control System Theory",
@@ -1156,7 +1156,7 @@
     "code": "ECE 171B",
     "raw_prereq": "ECE 171A with a grade of C– or better.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Intelligent Systems: Robotics and Machine Intelligence",
@@ -1199,7 +1199,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Elements of Machine Intelligence: Pattern Recognition and Machine Learning",
@@ -1277,7 +1277,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electromagnetic Optics, Guided-Wave, and Fiber Optics",
@@ -1407,7 +1407,7 @@
     "code": "ECE 191",
     "raw_prereq": "completion of all of the breadth courses and one depth course.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Project",
@@ -1481,35 +1481,35 @@
     "code": "ECE 197",
     "raw_prereq": "minimum UC San Diego 2.5 GPA. Consent of instructor and department stamp.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
     "code": "ECE 198",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study for Undergraduates",
     "code": "ECE 199",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Conference",
     "code": "ECE 200",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Biophysics",
     "code": "ECE 201",
     "raw_prereq": "senior or graduate level standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Implantable Medical Devices and Interfaces",
@@ -1523,7 +1523,7 @@
     "code": "ECE 203",
     "raw_prereq": "graduate level standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Learning in Bioinformatics",
@@ -1560,7 +1560,7 @@
     "code": "ECE 207A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Evolutionary Biology",
@@ -1600,7 +1600,7 @@
     "code": "ECE 212AN",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nanoelectronics",
@@ -1692,7 +1692,7 @@
     "code": "ECE 222A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Applied Electromagnetic Theory—Electromagnetics",
@@ -1750,7 +1750,7 @@
     "code": "ECE 225A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Universal Probability and Its Applications in Data Science",
@@ -1806,7 +1806,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Big Network Data",
@@ -1853,7 +1853,7 @@
     "code": "ECE 230A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid State Electronics II",
@@ -1911,7 +1911,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Optical Processes in Semiconductors",
@@ -1942,7 +1942,7 @@
     "code": "ECE 238A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid State Diffusion and Reaction Kinetics",
@@ -1956,7 +1956,7 @@
     "code": "ECE 240A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Optical Information Processing",
@@ -1997,7 +1997,7 @@
     "code": "ECE 241A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Integrated Photonics",
@@ -2062,7 +2062,7 @@
     "code": "ECE 247A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "BioElectronics",
@@ -2083,7 +2083,7 @@
     "code": "ECE 250",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Signal Processing I",
@@ -2104,7 +2104,7 @@
     "code": "ECE 251C",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Array Processing",
@@ -2142,7 +2142,7 @@
     "code": "ECE 253",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Detection Theory",
@@ -2156,7 +2156,7 @@
     "code": "ECE 255A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Source Coding",
@@ -2204,7 +2204,7 @@
     "code": "ECE 257A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Wireless Networks",
@@ -2245,7 +2245,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Communications II",
@@ -2312,14 +2312,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "VLSI Digital System Algorithms and Architectures",
     "code": "ECE 260A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "VLSI Integrated Circuits and Systems Design",
@@ -2350,7 +2350,7 @@
     "code": "ECE 263",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CMOS Analog Integrated Circuits and Systems I",
@@ -2395,7 +2395,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CMOS Analog Integrated Circuits and Systems IV",
@@ -2480,7 +2480,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Communication Circuits III",
@@ -2530,7 +2530,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Network/Graph Algorithms and Analysis",
@@ -2558,7 +2558,7 @@
     "code": "ECE 271A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Learning II",
@@ -2707,7 +2707,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "GPU Programming",
@@ -2756,14 +2756,14 @@
     "code": "ECE 284",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Signal and Image Processing/Robotics and Control Systems",
     "code": "ECE 285",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "State-of-the-Art Topics in Computational Statistics and Machine Learning",
@@ -2777,7 +2777,7 @@
     "code": "ECE 287",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Electrical and Computer Engineering",
@@ -2840,20 +2840,20 @@
     "code": "ECE 298",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research",
     "code": "ECE 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching",
     "code": "ECE 501",
     "raw_prereq": "graduate standing or consent of department chair.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

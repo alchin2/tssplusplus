@@ -4,20 +4,20 @@
     "code": "CCE 1",
     "raw_prereq": "Eighth College students only; completion of UC Entry Level Writing Requirement.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cultivating Community-Informed Practices",
     "code": "CCE 2",
     "raw_prereq": "Eighth College students only; CCE 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Elements of Community-Engaged Collaborative Research",
     "code": "CCE 3",
     "raw_prereq": "Eighth College students only; CCE 2.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

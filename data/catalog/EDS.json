@@ -70,7 +70,7 @@
     "code": "EDS 38",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Explorations in Secondary STEM Education",
@@ -122,7 +122,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Quantitative Methods in Education Research",
@@ -139,7 +139,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching and Learning Physics",
@@ -245,7 +245,7 @@
     "code": "EDS 112",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chicanas/os and Latinos in Education: Policy, Practice, and Challenges to Equity",
@@ -259,7 +259,7 @@
     "code": "EDS 114",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Development and Education",
@@ -285,7 +285,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Development and Education",
@@ -306,7 +306,7 @@
     "code": "EDS 117",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Language, Culture, and Education",
@@ -320,7 +320,7 @@
     "code": "EDS 118",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First and Second Language Learning: From Childhood through Adolescence",
@@ -482,14 +482,14 @@
     "code": "EDS 124AR",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Computational Thinking for Everyone",
     "code": "EDS 124BR",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "History, Politics, and Theory of Bilingual Education",
@@ -503,7 +503,7 @@
     "code": "EDS 126",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Education Policy in the United States",
@@ -531,14 +531,14 @@
     "code": "EDS 130",
     "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Early Childhood Development and Education",
     "code": "EDS 131",
     "raw_prereq": "department approval. Students will need to fill out a placement form prior to getting approval to enroll in EDS 131. This form provides the course instructor with information to make the appropriate field placement; EDS 139 must be taken as a corequisite.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Counseling, Mentoring, and Academic Advising",
@@ -569,7 +569,7 @@
     "code": "EDS 136",
     "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Discipline-Specific Teaching and Learning",
@@ -583,7 +583,7 @@
     "code": "EDS 139",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Action Research in P–12 Schools",
@@ -681,7 +681,7 @@
     "code": "EDS 149",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chancellor’s Associates Scholars Program Transfer Introductory Course",
@@ -709,7 +709,7 @@
     "code": "EDS 164R",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Psychology of Reading and Education",
@@ -737,7 +737,7 @@
     "code": "EDS 195",
     "raw_prereq": "consent of instructor and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -906,7 +906,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bilingual Instructional Practices I",
@@ -923,7 +923,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bilingual Instructional Practices II",
@@ -1068,7 +1068,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Innovative Instructional Practices II",
@@ -1145,7 +1145,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Multiple Subject",
@@ -1175,7 +1175,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Multiple Subject",
@@ -1265,7 +1265,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Multiple Subject",
@@ -1434,7 +1434,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Single Subject",
@@ -1460,7 +1460,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Single Subject",
@@ -1538,7 +1538,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Single Subject",
@@ -1674,14 +1674,14 @@
     "code": "EDS 201",
     "raw_prereq": "students must be registered EDS graduate students (ED 76, 77, 78, 79, 80).",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Technology, Teaching, and Learning",
     "code": "EDS 203",
     "raw_prereq": "students must be registered EDS graduate students (ED 76, 77, 78, 79, 80).",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Technology and Professional Assessment",
@@ -1702,7 +1702,7 @@
     "code": "EDS 205A",
     "raw_prereq": "students must be registered EDS graduate students.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Reflective Teaching Practice",
@@ -1918,7 +1918,7 @@
     "code": "EDS 250",
     "raw_prereq": "students must be registered EDS graduate students.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Transforming Learning Environments(4)",
@@ -1969,7 +1969,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Research Design and Quantitative Data Analysis",
@@ -2033,7 +2033,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Case Study Research",
@@ -2386,7 +2386,7 @@
     "code": "EDS 283",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Leadership for Organizational Development",
@@ -2400,14 +2400,14 @@
     "code": "EDS 285",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Leadership",
     "code": "EDS 286",
     "raw_prereq": "Joint EdD in Educational Leadership student status.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Educational Research and Evaluation Design A",
@@ -2536,7 +2536,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Practicum",
@@ -2574,7 +2574,7 @@
     "code": "EDS 292",
     "raw_prereq": "Joint EdD in Educational Leadership student status. (S/U grade permitted)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Leadership Research Practicum",
@@ -2646,7 +2646,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -2677,7 +2677,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching in Education",

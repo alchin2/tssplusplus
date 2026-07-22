@@ -18,7 +18,7 @@
     "code": "JAPN 10A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-Year Japanese",
@@ -39,7 +39,7 @@
     "code": "JAPN 20A",
     "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Second-Year Japanese",
@@ -60,7 +60,7 @@
     "code": "JAPN 130A",
     "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Third-Year Japanese",
@@ -91,7 +91,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Professional Skills in Japanese",
@@ -132,7 +132,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Japanese",
@@ -173,7 +173,7 @@
     "code": "JAPN 140A",
     "raw_prereq": "previous course or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fourth-Year Japanese",

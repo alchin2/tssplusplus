@@ -4,7 +4,7 @@
     "code": "PH 40",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Methods and Ethics in Public Health Research",
@@ -21,14 +21,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Primary Care and Public Health",
     "code": "PH 50",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Racism as a Public Health Crisis",
@@ -49,14 +49,14 @@
     "code": "PH 90",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Public Health",
     "code": "PH 91",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Medical School Prep 101",
@@ -124,7 +124,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biostatistics in Public Health",
@@ -171,7 +171,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Health Behavior and Chronic Diseases",
@@ -188,7 +188,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Health Policies for Healthy Lifestyles",
@@ -248,7 +248,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Planning, Conducting, and Reporting Responsible and Ethical Research",
@@ -412,7 +412,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Clinical Nutrition in Public Health",
@@ -433,7 +433,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Critical Digital Health",
@@ -562,7 +562,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Health Capstone I",
@@ -633,7 +633,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Health Capstone I",
@@ -955,7 +955,7 @@
     "code": "PHB 221",
     "raw_prereq": "biostatistics major or program approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biostatistical Methods II",
@@ -1117,7 +1117,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Non- and Semi-Parametric Statistics and Functional Data",
@@ -1255,7 +1255,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Computing",
@@ -1415,7 +1415,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practicum in Biostatistics B",
@@ -1439,7 +1439,7 @@
     "code": "PHB 244A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations in Biostatistics B",
@@ -1506,7 +1506,7 @@
     "code": "PHB 280",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biostatistics Seminar Series",
@@ -1536,7 +1536,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Public Health",
@@ -1613,14 +1613,14 @@
     "code": "PH 258",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Epidemiology Practicum",
     "code": "PH 259",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Scientific Writing",
@@ -1641,14 +1641,14 @@
     "code": "PH 270",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "HSRIS Colloquium Series",
     "code": "PH 275",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Addressing Health Equity through Policy",
@@ -1669,7 +1669,7 @@
     "code": "PH 280",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Qualitative Research Methods",
@@ -1683,14 +1683,14 @@
     "code": "PH 289R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Public Health",
     "code": "PH 291",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Community-Engaged Research Practicum",
@@ -1770,7 +1770,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Epidemiology",
@@ -1808,7 +1808,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Health Behavior",
@@ -2208,7 +2208,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Infectious Diseases and Public Health",
@@ -2375,7 +2375,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Dissemination and Implementation, Policy, and Health Services in Mental Health",
@@ -2426,7 +2426,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Technology and Precision Health",
@@ -2512,7 +2512,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Qualitative Research Methods",
@@ -2538,7 +2538,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design and Public Health",
@@ -2746,7 +2746,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Health Leadership in Practice",

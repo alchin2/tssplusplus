@@ -4,21 +4,21 @@
     "code": "CHIN 10AN",
     "raw_prereq": "placement interview required for department approval to enroll.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-Year Chinese for Mandarin Speakers I",
     "code": "CHIN 10AM",
     "raw_prereq": "placement interview required for department approval to enroll.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-Year Chinese for Dialect Speakers I",
     "code": "CHIN 10AD",
     "raw_prereq": "placement interview required for department approval to enroll.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-Year Chinese II",
@@ -67,21 +67,21 @@
     "code": "CHIN 20AN",
     "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Second-Year Chinese for Mandarin Speakers I",
     "code": "CHIN 20AM",
     "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Second-Year Chinese for Dialect Speakers I",
     "code": "CHIN 20AD",
     "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Second-Year Chinese II",
@@ -130,14 +130,14 @@
     "code": "CHIN 100AN",
     "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Third-Year Chinese for Mandarin and Dialect Speakers I",
     "code": "CHIN 100AM",
     "raw_prereq": "previous course or department approval through placement interview.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Third-Year Chinese II",
@@ -586,7 +586,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Readings in Chinese Culture and Society II",

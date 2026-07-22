@@ -4,7 +4,7 @@
     "code": "ASTR 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Galaxies and the Universe",
@@ -73,7 +73,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Astrophysics I",
@@ -111,7 +111,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Astrophysics II",
@@ -132,7 +132,7 @@
     "code": "ASTR 65",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-Year Seminar",
@@ -179,7 +179,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electrodynamics and Optics for Astrophysicists",
@@ -235,7 +235,7 @@
     "code": "ASTR 104",
     "raw_prereq": "ASTR 103.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fundamentals of Quantum Mechanics",
@@ -305,7 +305,7 @@
     "code": "ASTR 122",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Galaxies",
@@ -379,7 +379,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Observational Optical Research Lab",
@@ -520,7 +520,7 @@
     "code": "ASTR 200",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Radiative Processes in Astrophysics",
@@ -576,7 +576,7 @@
     "code": "ASTR 215",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Astronomical Instrumentation and Observational Techniques",
@@ -646,14 +646,14 @@
     "code": "ASTR 250",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Astronomy and Astrophysics Journal Club",
     "code": "ASTR 251",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Science in Astronomy",
@@ -688,6 +688,6 @@
     "code": "ASTR 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

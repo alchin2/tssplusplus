@@ -4,7 +4,7 @@
     "code": "VIS 1",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Art Making: Motion and Time-Based Art",
@@ -74,7 +74,7 @@
     "code": "VIS 20",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to the Art of the Americas or Africa and Oceania",
@@ -116,21 +116,21 @@
     "code": "VIS 23",
     "raw_prereq": "none. Art history majors only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Speculative Design",
     "code": "VIS 30",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Undead Media: All Things Zombie",
     "code": "VIS 31",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Art, Design, and the Brain",
@@ -144,28 +144,28 @@
     "code": "VIS 41",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Creative Coding",
     "code": "VIS 42",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Digital Photography",
     "code": "VIS 60",
     "raw_prereq": "none. Open to visual arts majors and minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Media",
     "code": "VIS 70N",
     "raw_prereq": "none. Open to visual arts and cinematic arts majors and minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Cinematography",
@@ -193,7 +193,7 @@
     "code": "VIS 80",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Photographic History",
@@ -228,7 +228,7 @@
     "code": "VIS 85A",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Media Aesthetics",
@@ -249,14 +249,14 @@
     "code": "VIS 100",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design of Public Culture",
     "code": "VIS 100A",
     "raw_prereq": "VIS 100.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Urban Ecologies",
@@ -312,7 +312,7 @@
     "code": "VIS 103D",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Performance: Art Practice",
@@ -340,35 +340,35 @@
     "code": "VIS 105A",
     "raw_prereq": "VIS 80.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Drawing: Practices and Genre",
     "code": "VIS 105B",
     "raw_prereq": "VIS 105A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Drawing: Portfolio Projects",
     "code": "VIS 105C",
     "raw_prereq": "VIS 105B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Painting: Image Making",
     "code": "VIS 106A",
     "raw_prereq": "VIS 80.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Painting: Practices and Genre",
     "code": "VIS 106B",
     "raw_prereq": "VIS 106A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Painting: Portfolio Projects",
@@ -382,7 +382,7 @@
     "code": "VIS 107A",
     "raw_prereq": "VIS 80.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sculpture: Practices and Genre",
@@ -396,14 +396,14 @@
     "code": "VIS 107C",
     "raw_prereq": "VIS 107B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Projects in Art",
     "code": "VIS 108",
     "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Contemporary Issues and Practices",
@@ -438,7 +438,7 @@
     "code": "VIS 110E",
     "raw_prereq": "senior standing. Open to media, studio, ICAM, and speculative design majors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Installation: Cross-Disciplinary Projects",
@@ -662,7 +662,7 @@
     "code": "VIS 124E",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Art in the Age of Revolutions",
@@ -767,7 +767,7 @@
     "code": "VIS 126P",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Latin American Art: Modern to Postmodern, 1950–Present",
@@ -858,7 +858,7 @@
     "code": "VIS 128E",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Art Criticism and Theory",
@@ -967,7 +967,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Projects in Visual Arts",
@@ -981,7 +981,7 @@
     "code": "VIS 131",
     "raw_prereq": "senior standing or consent of instructor required. Open to media, studio, ICAM, and speculative design majors only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Installation Production and Studio",
@@ -1012,7 +1012,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to 3-D Asset Design",
@@ -1050,7 +1050,7 @@
     "code": "VIS 141A",
     "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer Programming for the Arts II",
@@ -1103,7 +1103,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Virtual Environments I",
@@ -1120,7 +1120,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Virtual Environments II",
@@ -1151,7 +1151,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer-controlled Fabrication in Art I",
@@ -1165,7 +1165,7 @@
     "code": "VIS 146B",
     "raw_prereq": "VIS 146A. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electronic Technologies for Art I",
@@ -1191,14 +1191,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electronic Technologies for Art II",
     "code": "VIS 147B",
     "raw_prereq": "VIS 147A. Open to media, studio, ICAM, and speculative design majors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Visualizing Art Practice",
@@ -1212,7 +1212,7 @@
     "code": "VIS 149",
     "raw_prereq": "upper-division standing. Open to media, studio, ICAM, and speculative design majors and ICAM and speculative design minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Landmarks of World Cinema",
@@ -1384,7 +1384,7 @@
     "code": "VIS 157D",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Contemporary Photography",
@@ -1418,7 +1418,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "History of Social Documentary",
@@ -1524,7 +1524,7 @@
     "code": "VIS 162",
     "raw_prereq": "VIS 135.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design Research and Criticism",
@@ -1541,21 +1541,21 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Photographic Strategies: Looking and Seeing",
     "code": "VIS 164",
     "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Black and White Darkroom",
     "code": "VIS 165",
     "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Photographic Print",
@@ -1586,7 +1586,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pictorialism and Constructed Reality",
@@ -1706,14 +1706,14 @@
     "code": "VIS 174",
     "raw_prereq": "VIS 70N. Open to media, studio, ICAM, speculative design, and cinematic arts majors; and film production and speculative design minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Editing: Theory and Practice",
     "code": "VIS 175",
     "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "16mm Filmmaking",
@@ -1741,7 +1741,7 @@
     "code": "VIS 179",
     "raw_prereq": "VIS 174. Open to media and speculative design majors and film production minors.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Projects in 3-D and CGI",
@@ -1820,7 +1820,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fiction and Allegory in Current Media Practices",
@@ -1882,7 +1882,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Sound and Lighting",
@@ -2222,7 +2222,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Scripting",
@@ -2437,7 +2437,7 @@
     "code": "VIS 200",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Contemporary Critical Issues",
@@ -2458,7 +2458,7 @@
     "code": "VIS 203",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Rethinking Art History",
@@ -2472,7 +2472,7 @@
     "code": "VIS 205",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Art Practice Research",
@@ -2486,7 +2486,7 @@
     "code": "VIS 207",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Exhibition",
@@ -2500,7 +2500,7 @@
     "code": "VIS 209",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fact and Fiction",
@@ -2598,7 +2598,7 @@
     "code": "VIS 244",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Medieval Art",
@@ -2633,7 +2633,7 @@
     "code": "VIS 256",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Meso-American Art",
@@ -2724,6 +2724,6 @@
     "code": "VIS 502",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

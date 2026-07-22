@@ -4,7 +4,7 @@
     "code": "MMW 11",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Prehistory and Ancient Foundations",
@@ -89,7 +89,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
@@ -179,7 +179,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
@@ -260,7 +260,7 @@
     "code": "MMW 122",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Exploring the Modern World",

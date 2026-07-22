@@ -319,7 +319,7 @@
     "code": "PHB 221",
     "raw_prereq": "biostatistics major or program approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biostatistical Methods II",
@@ -481,7 +481,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Non- and Semi-Parametric Statistics and Functional Data",
@@ -619,7 +619,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Computing",
@@ -779,7 +779,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practicum in Biostatistics B",
@@ -803,7 +803,7 @@
     "code": "PHB 244A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations in Biostatistics B",
@@ -870,7 +870,7 @@
     "code": "PHB 280",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biostatistics Seminar Series",
@@ -900,7 +900,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Public Health",

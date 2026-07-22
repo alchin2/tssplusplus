@@ -11,7 +11,7 @@
     "code": "ETHN 1R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Ethnic Studies: Circulations of Difference",
@@ -53,7 +53,7 @@
     "code": "ETHN 20R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Chicanx and Latinx Studies",
@@ -67,7 +67,7 @@
     "code": "ETHN 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Field Studies in Racial and Ethnic Communities",
@@ -118,7 +118,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Interdisciplinary Methodologies",
@@ -281,7 +281,7 @@
     "code": "ETHN 110",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Native American Literature",
@@ -351,7 +351,7 @@
     "code": "ETHN 116",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Social Movements",
@@ -372,7 +372,7 @@
     "code": "ETHN 119",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Race and Performance: The Politics of Popular Culture",
@@ -407,14 +407,14 @@
     "code": "ETHN 122",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Asian American Culture and Health",
     "code": "ETHN 122A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Remote—Asian American Culture and Health",
@@ -470,7 +470,7 @@
     "code": "ETHN 127",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Hip-Hop: The Politics of Culture",
@@ -512,7 +512,7 @@
     "code": "ETHN 133",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Immigration and Ethnicity in Modern American Society",
@@ -670,7 +670,7 @@
     "code": "ETHN 150",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethnic Politics in America",
@@ -684,14 +684,14 @@
     "code": "ETHN 152",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "US Militarism (4)",
     "code": "ETHN 155",
     "raw_prereq": "upper-division standing or instructor approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Critical Perspectives on the Vietnam War",
@@ -761,7 +761,7 @@
     "code": "ETHN 161",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practicum in California Tribal Law and Journalism (4)",
@@ -824,7 +824,7 @@
     "code": "ETHN 166",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Muslim Identity in America",
@@ -866,7 +866,7 @@
     "code": "ETHN 171",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Afro-American Prose",
@@ -887,7 +887,7 @@
     "code": "ETHN 174",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Literature of the Harlem Renaissance",
@@ -922,7 +922,7 @@
     "code": "ETHN 179",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Mexican-American History",
@@ -1069,7 +1069,7 @@
     "code": "ETHN 200A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Formulations: Interdisciplinarity and Knowledge Production in Ethnic Studies",
@@ -1135,7 +1135,7 @@
     "code": "ETHN 230",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Race, Gender, and Space",
@@ -1233,7 +1233,7 @@
     "code": "ETHN 289",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Comprehensive Examination Preparation",
@@ -1261,27 +1261,27 @@
     "code": "ETHN 298",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Research",
     "code": "ETHN 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching in Ethnic Studies",
     "code": "ETHN 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Interdisciplinary Methods Seminar: Special Topics",
     "code": "ETIM 289",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

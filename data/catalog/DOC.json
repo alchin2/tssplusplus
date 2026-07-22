@@ -14,7 +14,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Dimensions of Culture: Justice",
@@ -35,6 +35,6 @@
     "code": "DOC 100D",
     "raw_prereq": "upper-division standing and completion of college writing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

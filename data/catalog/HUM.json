@@ -4,7 +4,7 @@
     "code": "HUM 1",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Rome and the Medieval World",
@@ -37,7 +37,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Renaissance, Reformation, and Early Modern Europe",
@@ -119,14 +119,14 @@
     "code": "HUM 88",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in the Humanities",
     "code": "HUM 100",
     "raw_prereq": "open to Revelle students only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Humanities",

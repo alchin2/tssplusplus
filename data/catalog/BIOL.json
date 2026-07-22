@@ -4,35 +4,35 @@
     "code": "BILD 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Multicellular Life",
     "code": "BILD 2",
     "raw_prereq": "BILD 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organismic and Evolutionary Biology",
     "code": "BILD 3",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introductory Biology Lab",
     "code": "BILD 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Analysis and Design for Biologists",
     "code": "BILD 5",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Beginning of Life",
@@ -46,7 +46,7 @@
     "code": "BILD 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neurobiology and Behavior",
@@ -200,7 +200,7 @@
     "code": "BILD 62",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Genomics Research Initiative Lab I",
@@ -256,14 +256,14 @@
     "code": "BILD 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Biologist’s Perspective",
     "code": "BILD 88",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biology First-year Students: Strategies for Success",
@@ -356,7 +356,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Metabolic Biochemistry",
@@ -411,7 +411,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biochemical Techniques",
@@ -428,7 +428,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gene Editing and Biotechnology",
@@ -560,7 +560,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Genetics",
@@ -668,7 +668,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cell Biology",
@@ -743,7 +743,7 @@
     "code": "BICD 130",
     "raw_prereq": "upper-division standing; BICD 100 or BICD 100R and BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "AIDS Science and Society",
@@ -799,7 +799,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Forces of Life: Introduction to Physical Biology",
@@ -837,7 +837,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Population Genetics",
@@ -901,7 +901,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introductory Ecology—Organisms and Habitat",
@@ -918,7 +918,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ecology Laboratory",
@@ -952,7 +952,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Molecular Methods in Evolution and Ecology Lab",
@@ -1087,7 +1087,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Disease Ecology",
@@ -1115,14 +1115,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Evolution of Infectious Diseases",
     "code": "BIEB 152",
     "raw_prereq": "BILD 3.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Evolutionary Inquiry",
@@ -1197,7 +1197,7 @@
     "code": "BIEB 164",
     "raw_prereq": "BILD 3.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Animal Behavior and Communication",
@@ -1322,7 +1322,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Molecular Biology",
@@ -1415,7 +1415,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Molecular Basis of Human Disease",
@@ -1628,21 +1628,21 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Microbiology Laboratory",
     "code": "BIMM 121",
     "raw_prereq": "BILD 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Microbial Genetics",
     "code": "BIMM 122",
     "raw_prereq": "BIMM 100.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Medical Microbiology",
@@ -1770,7 +1770,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioinformatics Laboratory",
@@ -1800,7 +1800,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computation for Biologists",
@@ -2026,7 +2026,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Human Physiology I",
@@ -2088,7 +2088,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physiological Inquiry in Global Context",
@@ -2112,7 +2112,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Comparative Physiology",
@@ -2183,7 +2183,7 @@
     "code": "BIPN 118",
     "raw_prereq": "BIPN 140.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Endocrinology",
@@ -2234,7 +2234,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Systems Neurobiology",
@@ -2288,7 +2288,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Cellular Neurobiology",
@@ -2381,7 +2381,7 @@
     "code": "BIPN 148",
     "raw_prereq": "BIPN 140.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Diseases of the Nervous System",
@@ -2411,7 +2411,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Healthy and Diseased Brain",
@@ -2592,14 +2592,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Modern Biology: Physiology and Neuroscience",
     "code": "BIPN 194",
     "raw_prereq": "BIPN 140.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioscholars Seminar: From Bench to Bedside and Beyond",
@@ -2630,7 +2630,7 @@
     "code": "BISP 182",
     "raw_prereq": "BILD 82.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biology Transfers: Strategies for Success",
@@ -2687,14 +2687,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "BISP 195P",
     "raw_prereq": "school approval required and upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Thesis in Biological Sciences",
@@ -2741,7 +2741,7 @@
     "code": "BISP 199",
     "raw_prereq": "department approval required. Students must complete at least ninety units of credit and have a minimum GPA of 2.5.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graduate School Fundamentals: Introduction to Graduate Studies in the School of Biological Sciences",
@@ -2762,7 +2762,7 @@
     "code": "BGGN 202",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Ecology, Behavior, and Evolution",
@@ -2800,7 +2800,7 @@
     "code": "BGGN 206A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Concepts of Reasoning and Experimentation",
@@ -2824,14 +2824,14 @@
     "code": "BGGN 207",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biological Sciences Graduate Boot Camp",
     "code": "BGGN 208",
     "raw_prereq": "graduate (PhD) standing only; for students in the following major code BI77.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Issues in Biology",
@@ -2859,7 +2859,7 @@
     "code": "BGGN 213",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Q-Biology",
@@ -2894,7 +2894,7 @@
     "code": "BGGN 220",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graduate Cell Biology",
@@ -3098,7 +3098,7 @@
     "code": "BGGN 245",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Neurobiology",
@@ -3247,7 +3247,7 @@
     "code": "BGGN 271",
     "raw_prereq": "consent of instructor and approval of school chair.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Learning Theories",
@@ -3268,14 +3268,14 @@
     "code": "BGGN 275",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Lab Analysis",
     "code": "BGGN 276",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Modern Biology: Biochemistry",
@@ -3345,7 +3345,7 @@
     "code": "BGGN 294",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Scientific Presentation in Biology",
@@ -3366,14 +3366,14 @@
     "code": "BGGN 298",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Research in Biology",
     "code": "BGGN 299",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to College Biology Education",
@@ -3387,7 +3387,7 @@
     "code": "BGJC 204",
     "raw_prereq": "none for graduate students. Undergraduates must be seniors or enrolled in BISP 199.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Journal Club in Neurobiology",
@@ -3415,7 +3415,7 @@
     "code": "BGJC 215",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Discussion",
@@ -3429,13 +3429,13 @@
     "code": "BGSE 200",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graduate Research Seminar",
     "code": "BGSE 205",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

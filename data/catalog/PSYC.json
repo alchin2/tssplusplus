@@ -4,21 +4,21 @@
     "code": "PSYC 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "General Psychology: Biological Foundations",
     "code": "PSYC 2",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "General Psychology: Cognitive Foundations",
     "code": "PSYC 3",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "General Psychology: Cognitive Foundations",
@@ -39,7 +39,7 @@
     "code": "PSYC 6",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "General Psychology: Developmental Foundations",
@@ -60,7 +60,7 @@
     "code": "PSYC 60",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Methods in Psychology",
@@ -77,7 +77,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Laboratory in Psychological Research Methods",
@@ -111,7 +111,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Laboratory in Brain, Behavior, and Evolution",
@@ -159,7 +159,7 @@
     "code": "PSYC 88",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Undergraduate Seminar",
@@ -187,49 +187,49 @@
     "code": "PSYC 100",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Developmental Psychology",
     "code": "PSYC 101",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sensory Neuroscience",
     "code": "PSYC 102",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Psychology",
     "code": "PSYC 104",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Psychology",
     "code": "PSYC 105",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Behavioral Neuroscience",
     "code": "PSYC 106",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Neuroscience",
     "code": "PSYC 108",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Juniors Honors Research Seminars",
@@ -267,7 +267,7 @@
     "code": "PSYC 112",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electroencephalogram",
@@ -423,7 +423,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Laboratory in Clinical Psychology Research II",
@@ -517,14 +517,14 @@
     "code": "PSYC 122",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Clinical Assessment and Treatment",
     "code": "PSYC 124",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Clinical Neuropsychology",
@@ -592,7 +592,7 @@
     "code": "PSYC 132",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Circadian Rhythms—Biological Clocks",
@@ -680,14 +680,14 @@
     "code": "PSYC 137",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sound and Music Perception",
     "code": "PSYC 138",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Evolution and Human Nature",
@@ -722,7 +722,7 @@
     "code": "PSYC 145",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Language and Conceptual Development",
@@ -778,7 +778,7 @@
     "code": "PSYC 154",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Health Psychology",
@@ -942,7 +942,7 @@
     "code": "PSYC 169",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neurobiology of Learning and Memory",
@@ -984,21 +984,21 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Psychology of Human Sexuality",
     "code": "PSYC 172",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Visual Cognition",
     "code": "PSYC 174",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Psychology of Mindfulness and Well-being",
@@ -1046,7 +1046,7 @@
     "code": "PSYC 178",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Drugs, Addiction, and Mental Disorders",
@@ -1067,7 +1067,7 @@
     "code": "PSYC 181",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Illusions and the Brain",
@@ -1081,7 +1081,7 @@
     "code": "PSYC 184",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Psychology of Climate Crisis",
@@ -1116,7 +1116,7 @@
     "code": "PSYC 188",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Brain, Behavior, and Evolution",
@@ -1150,7 +1150,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Science of Parenting",
@@ -1178,7 +1178,7 @@
     "code": "PSYC 193",
     "raw_prereq": "upper-division standing and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Psychology Laboratory Topics",
@@ -1212,7 +1212,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Thesis I",
@@ -1242,7 +1242,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Thesis II",
@@ -1384,7 +1384,7 @@
     "code": "PSYC 203",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Emotion",
@@ -1447,7 +1447,7 @@
     "code": "PSYC 218",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Writing about Thinking",
@@ -1491,7 +1491,7 @@
     "code": "PSYC 221",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Area Proseminar in Biological Psychology",
@@ -1512,7 +1512,7 @@
     "code": "PSYC 224",
     "raw_prereq": "graduate standing. S/U grades only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Happiness",
@@ -1596,7 +1596,7 @@
     "code": "PSYC 242",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sound and Music Perception",
@@ -1624,7 +1624,7 @@
     "code": "PSYC 247",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Applied Behavior Analysis I",
@@ -1819,7 +1819,7 @@
     "code": "PSYC 270A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Laboratory Experimentation II",
@@ -1847,7 +1847,7 @@
     "code": "PSYC 272",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Selected Topics in Quantitative Methods in Psychology",
@@ -1861,14 +1861,14 @@
     "code": "PSYC 274",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Current Directions in Cognitive Psychology",
     "code": "PSYC 275",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Selected Topics in Social Psychology",
@@ -1882,7 +1882,7 @@
     "code": "PSYC 280",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Auditory Neuroscience",
@@ -1896,20 +1896,20 @@
     "code": "PSYC 296",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Practicum",
     "code": "PSYC 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching",
     "code": "PSYC 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

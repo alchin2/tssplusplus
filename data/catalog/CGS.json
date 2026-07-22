@@ -4,7 +4,7 @@
     "code": "CGS 2A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Critical Gender Studies: Social Formations",
@@ -18,7 +18,7 @@
     "code": "CGS 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Conceptualizing Gender: Theoretical Approaches",
@@ -44,7 +44,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Conceptualizing Gender: Methods and Methodologies",
@@ -77,7 +77,7 @@
     "code": "CGS 101",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Queer Theory",
@@ -119,21 +119,21 @@
     "code": "CGS 111",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sexuality and Nation",
     "code": "CGS 112",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gender and Sexuality in the Arts",
     "code": "CGS 113",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gender, Race, Ethnicity, and Class",
@@ -416,7 +416,7 @@
     "code": "CGS 134",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Feminist Science and Technology Studies",
@@ -567,7 +567,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gender and Sexuality in African American Communities",
@@ -657,7 +657,7 @@
     "code": "CGS 190",
     "raw_prereq": "consent of instructor and department preauthorization required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Critical Gender Studies Honors Research",
@@ -678,7 +678,7 @@
     "code": "CGS 198",
     "raw_prereq": "consent of instructor and director of Critical Gender Studies Program and department stamp required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
@@ -720,6 +720,6 @@
     "code": "CGS 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

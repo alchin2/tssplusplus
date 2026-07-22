@@ -4,7 +4,7 @@
     "code": "DSGN 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Designing Your Future Self",
@@ -32,7 +32,7 @@
     "code": "DSGN 100",
     "raw_prereq": "DSGN 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design for Future Creativity and Productivity",
@@ -92,7 +92,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Design",
@@ -134,14 +134,14 @@
     "code": "DSGN 201",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design at Large",
     "code": "DSGN 219",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Design",

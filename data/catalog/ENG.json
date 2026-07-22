@@ -4,28 +4,28 @@
     "code": "ENG 5",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fundamentals of Engineering Applications",
     "code": "ENG 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineer Your Success",
     "code": "ENG 15",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Engineering Research",
     "code": "ENG 20",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Creative Problem-Solving for the Twenty-First-Century Changemaker",

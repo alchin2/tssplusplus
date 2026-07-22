@@ -4,42 +4,42 @@
     "code": "MGT 3",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Financial Accounting",
     "code": "MGT 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Managerial Accounting",
     "code": "MGT 5",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Personal Financial Management",
     "code": "MGT 12",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Personal Ethics at Work",
     "code": "MGT 16",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Managing Diverse Teams",
     "code": "MGT 18",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Managing Diverse Teams",
@@ -53,28 +53,28 @@
     "code": "MGT 45",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Test and Measurement in the Workplace",
     "code": "MGT 52",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Operating a Successful Business",
     "code": "MGT 71",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Operating a Successful Business",
     "code": "MGT 71R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Customer Analytics",
@@ -136,21 +136,21 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "E-Commerce",
     "code": "MGT 102",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Product Marketing and Management",
     "code": "MGT 103",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Strategic Customer Insight",
@@ -193,7 +193,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sales and Sales Management",
@@ -210,7 +210,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Consumer Behavior",
@@ -234,7 +234,7 @@
     "code": "MGT 108R",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Marketing",
@@ -260,7 +260,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Behavioral Science of Money",
@@ -320,7 +320,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Law",
@@ -334,14 +334,14 @@
     "code": "MGT 119",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Innovation to Market A",
     "code": "MGT 121A",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Innovation to Market B",
@@ -400,7 +400,7 @@
     "code": "MGT 127R",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Innovation and Growth",
@@ -451,7 +451,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Intermediate Accounting B",
@@ -465,7 +465,7 @@
     "code": "MGT 132",
     "raw_prereq": "MGT 131B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Cost Accounting",
@@ -486,7 +486,7 @@
     "code": "MGT 135",
     "raw_prereq": "MGT 131B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Accounting",
@@ -532,7 +532,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Accounting Information Systems",
@@ -751,7 +751,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Information Technology in Business Analytics",
@@ -846,7 +846,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Business Research",
@@ -1013,28 +1013,28 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Negotiations",
     "code": "MGT 162",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Negotiations",
     "code": "MGT 162R",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business and Organizational Leadership",
     "code": "MGT 164",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business and Organizational Leadership",
@@ -1048,14 +1048,14 @@
     "code": "MGT 166",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Entrepreneurship",
     "code": "MGT 167",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Management Information Systems",
@@ -1093,7 +1093,7 @@
     "code": "MGT 172",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Project Management",
@@ -1107,14 +1107,14 @@
     "code": "MGT 173",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Supply Chain Management",
     "code": "MGT 175",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Strategic Cost Management",
@@ -1210,7 +1210,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Finance",
@@ -1286,7 +1286,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Financial Investments",
@@ -1320,7 +1320,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Money and Banking",
@@ -1395,7 +1395,7 @@
     "code": "MGT 187",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Collecting and Analyzing Financial Data",
@@ -1455,7 +1455,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -1483,21 +1483,21 @@
     "code": "MGT 403",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Analytics for Managers",
     "code": "MGT 403R",
     "raw_prereq": "Executive MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Accounting",
     "code": "MGT 404",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Accounting",
@@ -1511,28 +1511,28 @@
     "code": "MGT 405",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Managerial Economics",
     "code": "MGT 405R",
     "raw_prereq": "Executive MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Leading People",
     "code": "MGT 406",
     "raw_prereq": "MBA student or department or instructor approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Leading People",
     "code": "MGT 406R",
     "raw_prereq": "Executive MBA student or department or instructor approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marketing",
@@ -1581,28 +1581,28 @@
     "code": "MGT 410",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Strategy",
     "code": "MGT 410R",
     "raw_prereq": "Executive MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "New Venture Design",
     "code": "MGT 412",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "New Venture Design",
     "code": "MGT 412R",
     "raw_prereq": "Executive MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Operations Management",
@@ -1630,7 +1630,7 @@
     "code": "MGT 414R",
     "raw_prereq": "Executive MBA student or by instructor approval or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "New Venture Development",
@@ -1665,7 +1665,7 @@
     "code": "MGT 420",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Negotiation",
@@ -1794,7 +1794,7 @@
     "code": "MGT 439",
     "raw_prereq": "MBA student or consent of instructor and department stamp.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Supply Chain Cost Management Strategy",
@@ -1811,7 +1811,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Strategic Sourcing",
@@ -1828,7 +1828,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Decision Sciences",
@@ -1849,7 +1849,7 @@
     "code": "MGT 444",
     "raw_prereq": "MBA student or consent of instructor and department stamp.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Regulation and Innovation",
@@ -1873,7 +1873,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Leveraging Blockchain Technologies: The Case Study of Healthcare Transformation",
@@ -1918,7 +1918,7 @@
     "code": "MGT 451R",
     "raw_prereq": "MBA student or instructor approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "New Product Development",
@@ -2010,7 +2010,7 @@
     "code": "MGT 458",
     "raw_prereq": "restricted to MBA students or by instructor or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Experiments in Firms",
@@ -2296,14 +2296,14 @@
     "code": "MGT 487",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Applied Market Research",
     "code": "MGT 488R",
     "raw_prereq": "MBA student or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Marketing",
@@ -2317,7 +2317,7 @@
     "code": "MGT 490",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Investments",
@@ -2362,7 +2362,7 @@
     "code": "MGT 493R",
     "raw_prereq": "MBA student or instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Financial Statement Analysis",
@@ -2414,14 +2414,14 @@
     "code": "MGT 499",
     "raw_prereq": "MBA student or consent of instructor and department stamp.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Forecasting",
     "code": "MGTF 405",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Behavioral Finance",
@@ -2471,14 +2471,14 @@
     "code": "MGTF 401",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Investment Analysis",
     "code": "MGTF 402",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Financial Risk Management",
@@ -2492,14 +2492,14 @@
     "code": "MGTF 404",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Forecasting",
     "code": "MGTF 405",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Behavioral Finance",
@@ -2599,7 +2599,7 @@
     "code": "MGTF 415",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Professional Seminars in Finance",
@@ -2620,7 +2620,7 @@
     "code": "MGTF 418",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CFA Level II Exam Preparation",
@@ -2732,14 +2732,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Finance",
     "code": "MGTF 495",
     "raw_prereq": "restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Driven Communications",
@@ -2769,7 +2769,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "AI-Assisted Math and Programming for Business Analytics",
@@ -2854,7 +2854,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Analytics",
@@ -2871,7 +2871,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Analytics Capstone Project",
@@ -3068,7 +3068,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Experiments in Business Analytics",
@@ -3124,7 +3124,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Analytics Project Management",
@@ -3161,7 +3161,7 @@
     "code": "MGTA 461",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Big Data Technology and Business",
@@ -3240,14 +3240,14 @@
     "code": "MGTP 401",
     "raw_prereq": "restricted to MPAc students (major code RS91) or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Business Law",
     "code": "MGTP 414",
     "raw_prereq": "restricted to MPAc students (major code RS91) or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethics in Accounting and Business",
@@ -3261,7 +3261,7 @@
     "code": "MGTP 421",
     "raw_prereq": "restricted to MPAc students (major code RS91) or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Systems, Processes, and Technology for Accounting",
@@ -3275,14 +3275,14 @@
     "code": "MGTP 424",
     "raw_prereq": "restricted to MPAc students (major code RS91) or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Professional Research for Accountants",
     "code": "MGTP 425",
     "raw_prereq": "restricted to MPAc students (major code RS91) or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Accounting and Auditing",
@@ -3313,7 +3313,7 @@
     "code": "MGTP 432",
     "raw_prereq": "restricted to MPAc students (major code RS91) or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Current Issues in the Practice and Regulation of Auditing",
@@ -3491,7 +3491,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Theory of Industrial Organization and Business Strategy",
@@ -3613,7 +3613,7 @@
     "code": "MGT 252",
     "raw_prereq": "admission to management PhD program or by consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Programming and Data Inference II",
@@ -3627,7 +3627,7 @@
     "code": "MGT 255",
     "raw_prereq": "admission to management PhD program or by consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Consumer Behavior Research",
@@ -3679,7 +3679,7 @@
     "code": "MGT 262",
     "raw_prereq": "admission to management PhD program or by consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Financial Economics",
@@ -3771,13 +3771,13 @@
     "code": "MGT 296",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Field Advising",
     "code": "MGT 299",
     "raw_prereq": "admission to management PhD program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

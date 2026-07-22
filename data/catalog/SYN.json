@@ -18,7 +18,7 @@
     "code": "SYN 2",
     "raw_prereq": "Seventh College students only, SYN 1/1R, must be taken for a letter grade to count toward Seventh College general-education requirements. Duplicate credit with SYN 2R.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Inquiring about a Changing Planet",
@@ -32,7 +32,7 @@
     "code": "SYN 100",
     "raw_prereq": "restricted to Seventh College students only, upper-division standing, completion of SYN 1/1R and SYN 2/2R, must be taken for a letter grade to count toward Seventh College general-education requirements.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engaging with a Changing Planet Global Seminar",
@@ -46,7 +46,7 @@
     "code": "SYN 150",
     "raw_prereq": "restricted to Seventh College transfer students only, must be taken for a letter grade to count toward Seventh College high-impact requirement, cannot be taken concurrently or after SYN 100. Duplicate credit with SYN 150R.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Defining the Scope of a Changing Planet",

@@ -18,7 +18,7 @@
     "code": "MSED 295",
     "raw_prereq": "admission to MSED Joint Doctoral Program. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Theories and Applications of Mathematics and Science Education",
@@ -80,6 +80,6 @@
     "code": "MSED 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

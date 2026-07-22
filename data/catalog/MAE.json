@@ -4,7 +4,7 @@
     "code": "MAE 02",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Mechanical Design",
@@ -42,7 +42,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantitative Computer Skills",
@@ -77,7 +77,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thermodynamics",
@@ -94,7 +94,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Elements of Materials Science",
@@ -128,7 +128,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Aerospace Materials Science",
@@ -166,7 +166,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statics and Introduction to Dynamics(4)",
@@ -187,7 +187,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Dynamics and Vibrations",
@@ -228,7 +228,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-year Student Seminar",
@@ -339,7 +339,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Fluid Mechanics",
@@ -412,7 +412,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Intermediate Heat Transfer",
@@ -492,7 +492,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Methods in Engineering",
@@ -531,7 +531,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Probability and Statistical Methods for Engineering",
@@ -548,7 +548,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thermodynamic Systems",
@@ -629,14 +629,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Space Propulsion",
     "code": "MAE 114",
     "raw_prereq": "MAE 113.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Elementary Plasma Physics",
@@ -877,7 +877,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fundamentals of Solid Mechanics II",
@@ -950,7 +950,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Signals and Systems",
@@ -992,7 +992,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Linear Control",
@@ -1039,7 +1039,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Robotic Planning and Estimation",
@@ -1145,7 +1145,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sensor Networks",
@@ -1202,7 +1202,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introductions to Manual and CNC Machining",
@@ -1228,7 +1228,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design of Machine Components",
@@ -1242,7 +1242,7 @@
     "code": "MAE 154",
     "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Aerospace Engineering Design I",
@@ -1373,7 +1373,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fundamental Principles of Mechanical Design II",
@@ -1416,7 +1416,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanical Behavior of Materials",
@@ -1461,7 +1461,7 @@
     "code": "MAE 165",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Modern Concepts in Nanotechnology",
@@ -1530,7 +1530,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanical Engineering Laboratory I",
@@ -1581,14 +1581,14 @@
     "code": "MAE 180",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Space Mission Analysis and Design",
     "code": "MAE 181",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Spacecraft Guidance and Navigation",
@@ -1640,14 +1640,14 @@
     "code": "MAE 190",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Mechanical and Aerospace Engineering with Laboratory",
     "code": "MAE 191",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineering Internship",
@@ -1682,21 +1682,21 @@
     "code": "MAE 201",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thermal Processes",
     "code": "MAE 202",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid Mechanics and Materials",
     "code": "MAE 203",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Robotics",
@@ -1710,7 +1710,7 @@
     "code": "MAE 205",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Energy Systems",
@@ -1731,7 +1731,7 @@
     "code": "MAE 208",
     "raw_prereq": "nongraduate students can enroll with consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Continuum Mechanics Applied to Medicine/Biology",
@@ -1794,7 +1794,7 @@
     "code": "MAE 210A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fluid Mechanics II",
@@ -1989,7 +1989,7 @@
     "code": "MAE 221A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mass Transfer",
@@ -2192,7 +2192,7 @@
     "code": "MAE 232A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Finite Element Methods in Solid Mechanics II",
@@ -2265,7 +2265,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Micromechanics",
@@ -2337,7 +2337,7 @@
     "code": "MAE 244",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cooperative Control of Multi-agent Systems",
@@ -2358,21 +2358,21 @@
     "code": "MAE 249",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structure and Analysis of Solids",
     "code": "MAE 251",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Ceramics",
     "code": "MAE 253",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Energy Materials and Applications",
@@ -2410,7 +2410,7 @@
     "code": "MAE 257",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "ODE Simulation Methods",
@@ -2521,7 +2521,7 @@
     "code": "MAE 265A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Magnetic Materials: Principles and Applications",
@@ -2563,7 +2563,7 @@
     "code": "MAE 271A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid State Diffusion and Reaction Kinetics",
@@ -2608,7 +2608,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics of Soft Materials",
@@ -2629,7 +2629,7 @@
     "code": "MAE 280A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Linear Control Design",
@@ -2657,7 +2657,7 @@
     "code": "MAE 283A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Approximate Identification and Control",
@@ -2807,7 +2807,7 @@
     "code": "MAE 290A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Numerical Differential Equations",
@@ -2886,7 +2886,7 @@
     "code": "MAE 294A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Applied Mathematics II",
@@ -2970,6 +2970,6 @@
     "code": "MAE 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

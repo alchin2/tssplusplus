@@ -23,7 +23,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics Laboratory",
@@ -53,7 +53,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electricity and Magnetism",
@@ -83,7 +83,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electricity and Magnetism Laboratory",
@@ -121,7 +121,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Waves, Optics, and Modern Physics",
@@ -151,7 +151,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Waves, Optics, and Modern Physics Laboratory",
@@ -189,7 +189,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics—Mechanics",
@@ -227,7 +227,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics—Electricity and Magnetism",
@@ -270,7 +270,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics Laboratory—Mechanics",
@@ -335,7 +335,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics Laboratory—Electricity and Magnetism",
@@ -374,7 +374,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics—Relativity and Quantum Physics",
@@ -404,7 +404,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics Laboratory—Modern Physics",
@@ -430,7 +430,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics for Physics Majors–Mechanics",
@@ -548,7 +548,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics for Physics Majors—Electromagnetic Waves, Special Relativity and Optics",
@@ -787,7 +787,7 @@
     "code": "PHYS 12",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Poetry for Physicists",
@@ -869,7 +869,7 @@
     "code": "PHYS 39",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics Introductory Special Topics Lab",
@@ -938,7 +938,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electromagnetism II",
@@ -1372,7 +1372,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics II",
@@ -1557,7 +1557,7 @@
     "code": "PHYS 122",
     "raw_prereq": "PHYS 120.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Laboratory Projects",
@@ -1684,7 +1684,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantum Physics III",
@@ -1741,7 +1741,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nuclear Physics",
@@ -1876,7 +1876,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical and Thermal Physics I",
@@ -1922,7 +1922,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical and Thermal Physics II",
@@ -1979,14 +1979,14 @@
     "code": "PHYS 141",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Physics II: PDE and Matrix Models",
     "code": "PHYS 142",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Elementary Plasma Physics",
@@ -2038,14 +2038,14 @@
     "code": "PHYS 161",
     "raw_prereq": "PHYS 4A-B-C-D-E.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Modern Cosmology",
     "code": "PHYS 162",
     "raw_prereq": "PHYS 4A-B-C-D-E.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Medical Instruments: Principles and Practice",
@@ -2143,7 +2143,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantitative Microbiology",
@@ -2191,7 +2191,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Seminar in Physics",
@@ -2226,7 +2226,7 @@
     "code": "PHYS 200A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Dynamics: Deterministic, Stochastic, Statistical",
@@ -2240,14 +2240,14 @@
     "code": "PHYS 201",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Estimation and Scaling in Physics",
     "code": "PHYS 202",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Classical Electrodynamics I",
@@ -2294,14 +2294,14 @@
     "code": "PHYS 210B",
     "raw_prereq": "PHYS 210A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid-State Physics I",
     "code": "PHYS 211A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid-State Physics II",
@@ -2325,7 +2325,7 @@
     "code": "PHYS 212A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantum Mechanics II",
@@ -2360,7 +2360,7 @@
     "code": "PHYS 215A",
     "raw_prereq": "PHYS 212C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantum Fields II",
@@ -2381,7 +2381,7 @@
     "code": "PHYS 215D",
     "raw_prereq": "PHYS 215B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fluid Dynamics for Physicists",
@@ -2395,7 +2395,7 @@
     "code": "PHYS 217",
     "raw_prereq": "PHYS 210A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Plasma Physics I",
@@ -2423,7 +2423,7 @@
     "code": "PHYS 219",
     "raw_prereq": "PHYS 211A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Group Theoretical Methods in Physics",
@@ -2541,14 +2541,14 @@
     "code": "PHYS 241",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Physics II: PDE and Matrix Models",
     "code": "PHYS 242",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Stochastic Methods",
@@ -2569,42 +2569,42 @@
     "code": "PHYS 250",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "High-Energy Physics Seminar",
     "code": "PHYS 251",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Plasma Physics Seminar",
     "code": "PHYS 252",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Astrophysics and Cosmology Seminar",
     "code": "PHYS 253",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biophysics Seminar",
     "code": "PHYS 254",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biophysics Research Talks",
     "code": "PHYS 255",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "High-Energy Physics Special Topics Seminar",
@@ -2698,7 +2698,7 @@
     "code": "PHYS 275",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantitative Microbiology",
@@ -2761,20 +2761,20 @@
     "code": "PHYS 298",
     "raw_prereq": "instructor and department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Research in Physics",
     "code": "PHYS 299",
     "raw_prereq": "instructor and department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Instruction in Physics Teaching",
     "code": "PHYS 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

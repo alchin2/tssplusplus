@@ -192,7 +192,7 @@
     "code": "NEUG 221",
     "raw_prereq": "priority given to neuroscience PhD students, or consent of instructor. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Tools for Experimental Data Analysis",
@@ -230,7 +230,7 @@
     "code": "NEUG 265",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Minor Proposition",
@@ -251,7 +251,7 @@
     "code": "NEUG 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprenticeship Teaching",

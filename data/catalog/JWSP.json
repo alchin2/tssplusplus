@@ -4,7 +4,7 @@
     "code": "JWSP 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Intermediate Hebrew",
@@ -53,7 +53,7 @@
     "code": "JWSP 104",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Judaism",

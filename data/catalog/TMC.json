@@ -18,14 +18,14 @@
     "code": "TMC 15",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thurgood Marshall College Honors Seminar",
     "code": "TMC 20",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Undergraduate Seminar",

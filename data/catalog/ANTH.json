@@ -4,14 +4,14 @@
     "code": "ANTH 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Human Origins",
     "code": "ANTH 2",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Archaeology",
@@ -25,7 +25,7 @@
     "code": "ANTH 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Human Machine",
@@ -39,7 +39,7 @@
     "code": "ANTH 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Environmental Anthropology: Human Dimensions of Climate Change",
@@ -53,14 +53,14 @@
     "code": "ANTH 21",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Debating Multiculturalism: Race, Ethnicity, and Class in American Societies",
     "code": "ANTH 23",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mapping Capitalism",
@@ -81,7 +81,7 @@
     "code": "ANTH 30",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Primates in a Human-Dominated World",
@@ -95,7 +95,7 @@
     "code": "ANTH 43",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Wisdom and Ecstasy",
@@ -116,14 +116,14 @@
     "code": "ANTH 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Social Complexity",
     "code": "ANTH 101",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Humans Are Cultural Animals",
@@ -151,7 +151,7 @@
     "code": "ANTH 105",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Climate and Civilization",
@@ -165,14 +165,14 @@
     "code": "ANTH 107",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Indigenous Peoples, Extractive Development, and Climate Change",
     "code": "ANTH 108",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Climate Change, Cultural Heritage, and Vulnerability",
@@ -283,7 +283,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Studies in Anthropology",
@@ -342,14 +342,14 @@
     "code": "ANAR 104",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Archaeology",
     "code": "ANAR 111",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Past, Present, and Future Perspectives on Natural Resources in Israel",
@@ -391,7 +391,7 @@
     "code": "ANAR 117",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Archaeology of the UC San Diego Campus",
@@ -412,7 +412,7 @@
     "code": "ANAR 120",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cyber-Archaeology and World Digital Cultural Heritage",
@@ -538,7 +538,7 @@
     "code": "ANAR 159",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "“1492”: Coexistence, Crusade, and the Origins of the Spanish Conquest",
@@ -573,7 +573,7 @@
     "code": "ANAR 166",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geoarchaeology in Theory and Practice",
@@ -594,7 +594,7 @@
     "code": "ANAR 181",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Origins of Agriculture and Sedentism",
@@ -629,7 +629,7 @@
     "code": "ANBI 100",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Brain Mind Workshop",
@@ -650,7 +650,7 @@
     "code": "ANBI 112",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Methods in Primate Conservation",
@@ -671,7 +671,7 @@
     "code": "ANBI 117",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Technology on the Go: Mobile Tools for Human Biology",
@@ -737,7 +737,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Genetic Anthropology Lab Techniques",
@@ -761,7 +761,7 @@
     "code": "ANBI 136",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Evolution of Human Disease",
@@ -935,7 +935,7 @@
     "code": "ANSC 104",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Health and Inequality",
@@ -1033,7 +1033,7 @@
     "code": "ANSC 118",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gesture, Communication, and the Body",
@@ -1054,14 +1054,14 @@
     "code": "ANSC 121",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Language in Society",
     "code": "ANSC 122",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Political Anthropology",
@@ -1075,7 +1075,7 @@
     "code": "ANSC 124",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gender, Sexuality, and Society",
@@ -1110,7 +1110,7 @@
     "code": "ANSC 129",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Hinduism",
@@ -1201,7 +1201,7 @@
     "code": "ANSC 142",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mental Health as Global Health Priority",
@@ -1243,7 +1243,7 @@
     "code": "ANSC 148",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Conflict, Health, and Inequality",
@@ -1271,7 +1271,7 @@
     "code": "ANSC 152",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "War in Lived Experience",
@@ -1378,7 +1378,7 @@
     "code": "ANSC 169",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Multimodal Methods in Ethnography",
@@ -1392,7 +1392,7 @@
     "code": "ANSC 173",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Beyond Capitalism: The Future of Money, Work, and Nature",
@@ -1671,7 +1671,7 @@
     "code": "ANTH 203",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Contemporary Anthropology",
@@ -1720,7 +1720,7 @@
     "code": "ANTH 212",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Anthropology and Mental Health",
@@ -1811,7 +1811,7 @@
     "code": "ANTH 230",
     "raw_prereq": "graduate standing. (S/U grades only.) (Formerly known as ANGR 230.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Maritime Archaeology in the Eastern Mediterranean—New Perspectives on Climate, Environmental, and Cultural Change",
@@ -1874,7 +1874,7 @@
     "code": "ANTH 241",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Anthropology of Latin America",
@@ -2077,7 +2077,7 @@
     "code": "ANTH 273",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Debates in Anthropology",
@@ -2112,7 +2112,7 @@
     "code": "ANTH 278",
     "raw_prereq": "graduate standing",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Language and Society",
@@ -2126,7 +2126,7 @@
     "code": "ANTH 280A",
     "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280A.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Core Seminar in Cultural Anthropology",
@@ -2147,7 +2147,7 @@
     "code": "ANTH 280D",
     "raw_prereq": "graduate standing in anthropology or consent of instructor. (Formerly known as ANGR 280D.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Core Seminar in Biological Anthropology",
@@ -2168,7 +2168,7 @@
     "code": "ANTH 281A",
     "raw_prereq": "first-year graduate standing in anthropology.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Proseminar",
@@ -2203,7 +2203,7 @@
     "code": "ANTH 285",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethnography Practicum",
@@ -2252,14 +2252,14 @@
     "code": "ANTH 295",
     "raw_prereq": "graduate student in anthropology and consent of master’s thesis chair. (Formerly known as ANGR 295.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Dissertation Fieldwork Proposal Preparation",
     "code": "ANTH 296",
     "raw_prereq": "graduate standing in anthropology and consent of departmental committee chair. (Formerly known as ANGR 296A/296B.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Practicum",
@@ -2280,13 +2280,13 @@
     "code": "ANTH 299",
     "raw_prereq": "PhD candidacy in anthropology. (Formerly known as ANGR 299.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching",
     "code": "ANTH 500",
     "raw_prereq": "graduate student in anthropology. (Formerly known as ANGR 500.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

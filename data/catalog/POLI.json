@@ -369,7 +369,7 @@
     "code": "POLI 102G",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Urban Politics",
@@ -500,7 +500,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Legal Argument Formulation",
@@ -521,7 +521,7 @@
     "code": "POLI 104M",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Race and Law",
@@ -549,7 +549,7 @@
     "code": "POLI 104U",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Law: Special Topics",
@@ -689,7 +689,7 @@
     "code": "POLI 111B",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Changing Harmful Social Norms",
@@ -710,7 +710,7 @@
     "code": "POLI 112B",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Political Theory and Artistic Vision",
@@ -790,7 +790,7 @@
     "code": "POLI 117R",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Political Theory of Liberation Theology",
@@ -950,7 +950,7 @@
     "code": "POLI 121D",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Politics of Human Rights",
@@ -985,7 +985,7 @@
     "code": "POLI 124A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gender, Politics, and Globalization",
@@ -1100,7 +1100,7 @@
     "code": "POLI 130B",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Politics of Modern India",
@@ -1309,7 +1309,7 @@
     "code": "POLI 142D",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "National and International Security",
@@ -1330,14 +1330,14 @@
     "code": "POLI 142K",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Insurgency and Terrorism",
     "code": "POLI 142L",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "U",
@@ -1393,7 +1393,7 @@
     "code": "POLI 144",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Selected Topics in International Political Economy",
@@ -1435,7 +1435,7 @@
     "code": "POLI 145C",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The US and Latin America: Political and Economic Relations",
@@ -1480,7 +1480,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Gender in International Conflict",
@@ -1501,7 +1501,7 @@
     "code": "POLI 154",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Policy Analysis",
@@ -1687,7 +1687,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Network Analysis",
@@ -1786,7 +1786,7 @@
     "code": "POLI 194",
     "raw_prereq": "participating in UCDC Program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Apprenticeship Seminar",
@@ -1807,7 +1807,7 @@
     "code": "POLI 195",
     "raw_prereq": "department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Community Stations Fieldwork",
@@ -1828,7 +1828,7 @@
     "code": "POLI 197SD",
     "raw_prereq": "ninety units completed; 2.5 minimum cumulative GPA overall and 3.0 in political science; POLI 30 and at least two upper-division courses in political science. Department approval and consent of instructor. Corequisites: POLI 194SD.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -1901,14 +1901,14 @@
     "code": "POLI 204A",
     "raw_prereq": "graduate student standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantitative Methods I",
     "code": "POLI 204B",
     "raw_prereq": "graduate student standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Game Theory 1",
@@ -2142,7 +2142,7 @@
     "code": "POLI 240",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "International Conflict",
@@ -2282,7 +2282,7 @@
     "code": "POLI 256",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Voting and Elections",
@@ -2349,7 +2349,7 @@
     "code": "POLI 270",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Statistical Applications",
@@ -2405,35 +2405,35 @@
     "code": "POLI 279",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop: International Law and Regulation",
     "code": "POLI 280",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop: American Politics",
     "code": "POLI 281",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop: Comparative Politics",
     "code": "POLI 282",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop: International Relations",
     "code": "POLI 283",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop: Evidence-Based Teaching",
@@ -2447,14 +2447,14 @@
     "code": "POLI 285",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop: Methodology",
     "code": "POLI 286",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Multidisciplinary Methods in Political Science: Social Networks",

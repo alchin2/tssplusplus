@@ -4,7 +4,7 @@
     "code": "COMM 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Communication",
@@ -18,7 +18,7 @@
     "code": "COMM 20",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
@@ -39,14 +39,14 @@
     "code": "COMM 40",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Presenting and Public Speaking",
     "code": "COMM 50",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Environmental Justice",
@@ -67,7 +67,7 @@
     "code": "COMM 80",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-year Student Seminar",
@@ -81,7 +81,7 @@
     "code": "COMM 100A",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Communication, Culture, and Representation",
@@ -116,7 +116,7 @@
     "code": "COMM 101",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Production of Activist Media",
@@ -171,7 +171,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "MPL: Ethnographic Methods for Media Production",
@@ -205,7 +205,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "MPL: Communication and Computers",
@@ -229,7 +229,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "MPL: Topics in Production",
@@ -259,7 +259,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "MMPP: Audio Story and Podcasting Practicum",
@@ -283,7 +283,7 @@
     "code": "COMM 102C",
     "raw_prereq": "none",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "MMPP: Practicum in Child Development",
@@ -360,7 +360,7 @@
     "code": "COMM 103D",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CM: History of Electronic Media",
@@ -457,7 +457,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Streaming Media Industries",
@@ -539,14 +539,14 @@
     "code": "COMM 106G",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CI: Internet Industry",
     "code": "COMM 106I",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advertising and Society",
@@ -657,7 +657,7 @@
     "code": "COMM 110M",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "LLC: Language and Human Communication",
@@ -740,7 +740,7 @@
     "code": "COMM 111G",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CCP: Performance and Cultural Studies",
@@ -785,7 +785,7 @@
     "code": "COMM 113T",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CSI: Human Rights, Communication, and Contemporary Global Justice",
@@ -860,14 +860,14 @@
     "code": "COMM 114I",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CSI: Food Justice",
     "code": "COMM 114J",
     "raw_prereq": "COMM 10.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "CSI: Community Fieldwork",
@@ -1028,7 +1028,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Comic Books as a Cultural Form",
@@ -1103,7 +1103,7 @@
     "code": "COMM 119",
     "raw_prereq": "COMM 80.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "AMP: Social Issues in Media Production",
@@ -1369,7 +1369,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Race, Nation, and Violence in Multicultural California",
@@ -1763,7 +1763,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Science Fiction",
@@ -2186,7 +2186,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Studies in Cultural Industries",
@@ -2523,7 +2523,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Culture, Domination, and Resistance",
@@ -2643,7 +2643,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Education and Global Citizenship",
@@ -2673,7 +2673,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Economy and Consumer Culture",
@@ -2793,7 +2793,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Junior Seminar in Communication",
@@ -2830,7 +2830,7 @@
     "code": "COMM 194",
     "raw_prereq": "participation in UCDC program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Communication Instructional Assistant",
@@ -2844,7 +2844,7 @@
     "code": "COMM 196A",
     "raw_prereq": "admission to the departmental honors program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Seminar in Communication II: Research",
@@ -2898,7 +2898,7 @@
     "code": "COGR 200A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Study of Communication: Communication and Culture",
@@ -2912,14 +2912,14 @@
     "code": "COGR 200C",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethnographic Methods for Communication Research",
     "code": "COGR 201B",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Discourse Analysis",
@@ -3024,7 +3024,7 @@
     "code": "COGR 225C",
     "raw_prereq": "enrollment in the Science Studies Program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Science Studies Part II",
@@ -3226,7 +3226,7 @@
     "code": "COGR 262",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Writing Research Proposals",
@@ -3247,7 +3247,7 @@
     "code": "COGR 275",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Talking Culture, Culture Talking: Voices of Diversity",
@@ -3331,6 +3331,6 @@
     "code": "COGR 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

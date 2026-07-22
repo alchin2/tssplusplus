@@ -122,7 +122,7 @@
     "code": "DSC 95",
     "raw_prereq": "DSC 10. Students must have applied for and been accepted as a tutor for a DSC course for the first time; enrollment in DSC 95 is required for these students.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop in Data Science",
@@ -224,7 +224,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Beyond Relational Data Management",
@@ -258,7 +258,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Signal Processing for Data Analysis",
@@ -301,7 +301,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Optimization Methods for Data Science II",
@@ -365,7 +365,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Representation Learning",
@@ -667,7 +667,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Science Project II",
@@ -700,7 +700,7 @@
     "code": "DSC 190",
     "raw_prereq": "department and instructor approval required to monitor enrollment and to ensure that students have the sufficient educational background for a given topic. Restricted to students with upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Data Science",
@@ -721,7 +721,7 @@
     "code": "DSC 198",
     "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. Department stamp required. An application for Special Studies must be filed with the Registrar’s office after approval from the instructor and the department chair.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study for Data Science Undergraduates",
@@ -749,7 +749,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Management for Data Science",
@@ -812,7 +812,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geometry of Data",
@@ -943,7 +943,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Optimization",
@@ -985,7 +985,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistics on Manifolds",
@@ -1132,7 +1132,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Models",
@@ -1178,7 +1178,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Optimization",
@@ -1514,7 +1514,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Human-Centered Artificial Intelligence",
@@ -1607,14 +1607,14 @@
     "code": "DSC 291",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Faculty Research Seminar",
     "code": "DSC 293",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Rotation",
@@ -1638,7 +1638,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "DSC Graduate Internship",
@@ -1683,13 +1683,13 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Methods in Data Science",
     "code": "DSC 599",
     "raw_prereq": "Consent of faculty required. Only graduate students who are TAing for the first time in the data science program are eligible to enroll.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

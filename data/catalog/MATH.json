@@ -4,21 +4,21 @@
     "code": "MATH 2",
     "raw_prereq": "Math Placement Exam qualifying score.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Precalculus",
     "code": "MATH 3B",
     "raw_prereq": "Math Placement Exam qualifying score.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Precalculus",
     "code": "MATH 3C",
     "raw_prereq": "Math Placement Exam qualifying score or MATH 3B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Precalculus for Science and Engineering",
@@ -35,7 +35,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus I",
@@ -52,7 +52,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus II",
@@ -69,7 +69,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus III",
@@ -86,7 +86,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus-Based Introductory Probability and Statistics",
@@ -103,7 +103,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Linear Algebra",
@@ -129,7 +129,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus for Science and Engineering",
@@ -146,7 +146,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus for Science and Engineering",
@@ -172,14 +172,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus and Analytic Geometry for Science and Engineering",
     "code": "MATH 20C",
     "raw_prereq": "AP Calculus BC score of 4 or 5, or MATH 20B with a grade of C– or better.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Differential Equations",
@@ -209,7 +209,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Vector Calculus",
@@ -243,7 +243,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Linear Algebra",
@@ -269,7 +269,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Multivariable Calculus",
@@ -310,7 +310,7 @@
     "code": "MATH 87",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Mathematician’s Perspective",
@@ -331,7 +331,7 @@
     "code": "MATH 96",
     "raw_prereq": "AP Calculus AB score of 4 or more, or AP Calculus BC score of 3 or more, or MATH 20A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
@@ -364,7 +364,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Abstract Algebra II",
@@ -428,7 +428,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Modern Algebra I",
@@ -454,7 +454,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Modern Algebra II",
@@ -497,7 +497,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Number Theory II",
@@ -531,7 +531,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Algebraic Geometry",
@@ -578,7 +578,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Partial Differential Equations",
@@ -654,7 +654,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Modeling II",
@@ -776,7 +776,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Applied Complex Analysis",
@@ -864,7 +864,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Real Analysis II",
@@ -915,7 +915,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Analysis II",
@@ -1022,7 +1022,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Calculus on Manifolds",
@@ -1069,7 +1069,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geometry for Secondary Teachers",
@@ -1095,7 +1095,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Discrete Mathematics and Graph Theory",
@@ -1112,7 +1112,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geometric Computer Graphics",
@@ -1387,7 +1387,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Numerical Analysis: Approximation and Nonlinear Equations",
@@ -1514,7 +1514,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Optimization Methods for Data Science II",
@@ -1648,7 +1648,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Stochastic Processes I",
@@ -1712,7 +1712,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Mathematical Statistics I",
@@ -1763,7 +1763,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Statistics—Nonparametric Statistics",
@@ -1932,7 +1932,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Enumerative Combinatorics",
@@ -1949,7 +1949,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computational Statistics",
@@ -2039,7 +2039,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematics of Modern Cryptography",
@@ -2060,7 +2060,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Algebraic Combinatorics",
@@ -2103,7 +2103,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Exploratory Data Analysis and Inference",
@@ -2174,7 +2174,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Topology I",
@@ -2200,7 +2200,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations of Topology II",
@@ -2321,14 +2321,14 @@
     "code": "MATH 196",
     "raw_prereq": "upper-division status.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Extracurricular Industry Practicum",
     "code": "MATH 197",
     "raw_prereq": "permission of department.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study for Undergraduates",
@@ -2376,7 +2376,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Algebra II",
@@ -2434,7 +2434,7 @@
     "code": "MATH 202A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Applied Algebra II",
@@ -2485,7 +2485,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Algebraic Geometry II",
@@ -2536,7 +2536,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Number Theory II",
@@ -2625,14 +2625,14 @@
     "code": "MATH 208",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Number Theory",
     "code": "MATH 209",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Methods in Physics and Engineering",
@@ -2662,7 +2662,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Methods in Physics and Engineering",
@@ -2703,14 +2703,14 @@
     "code": "MATH 211A",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. May be taken for credit nine times. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Group Actions",
     "code": "MATH 211B",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. May be taken for credit nine times. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Mathematical Biology I",
@@ -2826,7 +2826,7 @@
     "code": "MATH 218",
     "raw_prereq": "graduate standing. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Complex Analysis",
@@ -2924,7 +2924,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Partial Differential Equations II",
@@ -3016,7 +3016,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real Analysis II",
@@ -3117,7 +3117,7 @@
     "code": "MATH 243",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Convex Analysis and Optimization I",
@@ -3189,7 +3189,7 @@
     "code": "MATH 248",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Differential Geometry",
@@ -3231,7 +3231,7 @@
     "code": "MATH 257A",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Further Topics in Differential Geometry",
@@ -3255,7 +3255,7 @@
     "code": "MATH 258",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geometrical Physics",
@@ -3314,7 +3314,7 @@
     "code": "MATH 262A",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Further Topics in Combinatorial Mathematics",
@@ -3385,14 +3385,14 @@
     "code": "MATH 269",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Numerical Linear Algebra",
     "code": "MATH 270A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Numerical Approximation and Nonlinear Equations",
@@ -3440,7 +3440,7 @@
     "code": "MATH 272A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Numerical Partial Differential Equations II",
@@ -3601,21 +3601,21 @@
     "code": "MATH 278A",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Mathematics of Information, Data, and Signals",
     "code": "MATH 278B",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Optimization",
     "code": "MATH 278C",
     "raw_prereq": "graduate standing. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Projects in Computational and Applied Mathematics",
@@ -3648,7 +3648,7 @@
     "code": "MATH 280A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Probability Theory II",
@@ -3689,7 +3689,7 @@
     "code": "MATH 281A",
     "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Statistics",
@@ -3710,7 +3710,7 @@
     "code": "MATH 282A",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Applied Statistics II",
@@ -3734,7 +3734,7 @@
     "code": "MATH 283",
     "raw_prereq": "one year of calculus, one statistics course or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Lifetime Data Analysis",
@@ -3774,7 +3774,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Time Series Analysis",
@@ -3849,7 +3849,7 @@
     "code": "MATH 288",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Probability and Statistics",
@@ -3954,7 +3954,7 @@
     "code": "MATH 292",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Mathematics of Finance",
@@ -3978,7 +3978,7 @@
     "code": "MATH 295",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graduate Student Colloquium",
@@ -3992,20 +3992,20 @@
     "code": "MATH 297",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Reading and Research",
     "code": "MATH 299",
     "raw_prereq": "consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Assistant Training",
     "code": "MATH 500",
     "raw_prereq": "consent of adviser. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

@@ -4,7 +4,7 @@
     "code": "REV 1",
     "raw_prereq": "open to Revelle College first-year students only. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Transfer Year Experience",
@@ -32,21 +32,21 @@
     "code": "REV 20",
     "raw_prereq": "by invitation only. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-Year Student Seminar",
     "code": "REV 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Succeeding in Scientific Research",
     "code": "REV 88",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",

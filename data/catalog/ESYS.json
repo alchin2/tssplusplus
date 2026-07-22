@@ -18,7 +18,7 @@
     "code": "ESYS 90",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Environmental Biology",
@@ -48,7 +48,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Solid and Fluid Earth",
@@ -100,7 +100,7 @@
     "code": "ESYS 187A",
     "raw_prereq": "ESYS 103.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Internship Project II",

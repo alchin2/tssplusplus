@@ -4,7 +4,7 @@
     "code": "CSE 3",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Beauty in Rome",
@@ -56,7 +56,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles and Practice of Artificial Intelligence",
@@ -122,14 +122,14 @@
     "code": "CSE 8A",
     "raw_prereq": "restricted to undergraduates. Graduate students will be allowed as space permits.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Programming and Computational Problem-Solving: Accelerated Pace",
     "code": "CSE 11",
     "raw_prereq": "restricted to undergraduates. Graduate students will be allowed as space permits.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Basic Data Structures and Object-Oriented Design",
@@ -155,7 +155,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Software Tools and Techniques Laboratory",
@@ -223,7 +223,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematics for Algorithms and Systems",
@@ -253,7 +253,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Artificial Intelligence",
@@ -333,7 +333,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer Organization",
@@ -363,7 +363,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Building and Programming Electronic Devices",
@@ -454,21 +454,21 @@
     "code": "CSE 87",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Computing Perspective",
     "code": "CSE 88",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computer Science and Engineering Seminar",
     "code": "CSE 89",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Undergraduate Seminar",
@@ -489,7 +489,7 @@
     "code": "CSE 95",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study in Computer Science and Engineering",
@@ -555,7 +555,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Data Structures",
@@ -665,7 +665,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "A Practical Introduction to Probability and Statistics",
@@ -707,7 +707,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Theory of Computability",
@@ -778,7 +778,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Discrete and Continuous Optimization",
@@ -888,7 +888,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Programming Contests",
@@ -940,7 +940,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Software Engineering",
@@ -1058,7 +1058,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real-World Operating Systems",
@@ -1142,7 +1142,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Networked Services",
@@ -1246,7 +1246,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Programming Languages: Principles and Paradigms",
@@ -1413,7 +1413,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Online Database Analytics Applications",
@@ -1472,7 +1472,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Systems Laboratory",
@@ -1519,7 +1519,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Project in Computer Architecture",
@@ -1842,7 +1842,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Artificial Intelligence: Search and Reasoning",
@@ -1943,7 +1943,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Machine Learning: Learning Algorithms",
@@ -2057,7 +2057,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Deep Learning",
@@ -2165,7 +2165,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computer Vision I",
@@ -2221,7 +2221,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computer Vision II",
@@ -2631,7 +2631,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Recommender Systems and Web Mining",
@@ -2727,7 +2727,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Parallel Computing",
@@ -2882,7 +2882,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer Graphics",
@@ -3041,7 +3041,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Successful Entrepreneurship for Engineers",
@@ -3401,14 +3401,14 @@
     "code": "CSE 190",
     "raw_prereq": "consent of instructor. Department stamp required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in CSE",
     "code": "CSE 191",
     "raw_prereq": "consent of instructor. Department stamp required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Seminar in Computer Science and Engineering",
@@ -3422,7 +3422,7 @@
     "code": "CSE 193",
     "raw_prereq": "consent of the department chair. Department stamp required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Race, Gender, and Computing",
@@ -3529,7 +3529,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Field Study in Computer Science and Engineering",
@@ -3567,7 +3567,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cooperative Practicum in Computer Science and Engineering",
@@ -3662,7 +3662,7 @@
     "code": "CSE 202",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Algorithms",
@@ -3766,28 +3766,28 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics/Seminar in Algorithms, Complexity, and Logic",
     "code": "CSE 209A",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics/Seminar in Cryptography",
     "code": "CSE 209B",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Software Engineering",
     "code": "CSE 210",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Software Testing and Analysis",
@@ -3801,7 +3801,7 @@
     "code": "CSE 216",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Human-Centered Computing for Health",
@@ -3869,7 +3869,7 @@
     "code": "CSE 219",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Operating Systems Principles",
@@ -4038,21 +4038,21 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics/Seminar in Computer Systems",
     "code": "CSE 229A",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics/Seminar in Computer Security",
     "code": "CSE 229C",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Programming Languages",
@@ -4159,7 +4159,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Embedded Systems Design Project",
@@ -4180,7 +4180,7 @@
     "code": "CSE 239B",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Human-Computer Interaction Seminar",
@@ -4194,7 +4194,7 @@
     "code": "CSE 240A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Parallel Computer Architecture",
@@ -4401,7 +4401,7 @@
     "code": "CSE 249E",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Artificial Intelligence: Probabilistic Reasoning and Learning",
@@ -4455,7 +4455,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Machine Learning: Learning Algorithms",
@@ -4537,7 +4537,7 @@
     "code": "CSE 251U",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer Vision I",
@@ -4638,7 +4638,7 @@
     "code": "CSE 258",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Modeling",
@@ -4652,7 +4652,7 @@
     "code": "CSE 258R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Artificial Intelligence",
@@ -4666,7 +4666,7 @@
     "code": "CSE 260",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Data-Driven Text Mining",
@@ -4694,7 +4694,7 @@
     "code": "CSE 270",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Navigating Academic Job Market",
@@ -4833,7 +4833,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Human Robot Interaction",
@@ -4847,7 +4847,7 @@
     "code": "CSE 276C",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Healthcare Robotics",
@@ -4989,7 +4989,7 @@
     "code": "CSE 290",
     "raw_prereq": "consent of instructor. (Offered as faculty resources permit.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Computer Science and Engineering",
@@ -5003,7 +5003,7 @@
     "code": "CSE 291A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Bioinformatics",
@@ -5038,7 +5038,7 @@
     "code": "CSE 291I",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Robotics",
@@ -5066,55 +5066,55 @@
     "code": "CSE 291Y",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Faculty Research Seminar",
     "code": "CSE 292",
     "raw_prereq": "CSE graduate status.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Project in Computer Science and Engineering",
     "code": "CSE 293",
     "raw_prereq": "CSE graduate student status. (CS 75, 76, 77, 78, 79, 80, 81) (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Meeting in CSE",
     "code": "CSE 294",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
     "code": "CSE 298",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research",
     "code": "CSE 299",
     "raw_prereq": "consent of faculty.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Assistantship",
     "code": "CSE 500",
     "raw_prereq": "graduate standing and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Methods in Computer Science",
     "code": "CSE 599",
     "raw_prereq": "consent of faculty.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

@@ -18,7 +18,7 @@
     "code": "WCWP 10A",
     "raw_prereq": "satisfaction of the UC Entry Level Writing Requirement and must be a Warren College student.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Writing Course B",
@@ -35,14 +35,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Academic Writing",
     "code": "WCWP 100",
     "raw_prereq": "junior/senior standing and must be a Warren College student.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Technical Writing for Scientists and Engineers",

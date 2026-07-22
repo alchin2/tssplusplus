@@ -4,7 +4,7 @@
     "code": "CENG 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineering Computation Using MATLAB",
@@ -18,7 +18,7 @@
     "code": "CENG 15R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Material and Energy Balances",
@@ -48,7 +48,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introductory Fluid Mechanics",
@@ -78,7 +78,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Heat Transfer",
@@ -148,7 +148,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chemical Reaction Engineering",
@@ -220,7 +220,7 @@
     "code": "CENG 120",
     "raw_prereq": "admission to the major; CENG 15 or MAE 8 or NANO 15, and CENG 100, CENG 101B, CENG 113, and MATH 20D. Restricted to majors CE 25, NA 25, MC 25, MC 27, MC 28, MC 29.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Separation Processes",
@@ -246,7 +246,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chemical Plant and Process Design I",
@@ -351,7 +351,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "NanoEngineering in Medicine",
@@ -409,7 +409,7 @@
     "code": "CENG 205",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nanomedicine",
@@ -447,7 +447,7 @@
     "code": "CENG 211",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Intermolecular and Surface Forces",
@@ -492,7 +492,7 @@
     "code": "CENG 221A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mass Transfer",
@@ -520,7 +520,7 @@
     "code": "CENG 252",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Heterogeneous Catalysis",
@@ -604,7 +604,7 @@
     "code": "CENG 299",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Experience",
@@ -618,7 +618,7 @@
     "code": "NANO 4",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to NanoEngineering",
@@ -639,14 +639,14 @@
     "code": "NANO 15R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Nanomaterials Synthesis Lab",
     "code": "NANO 20L",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physical Properties of Materials Lab",
@@ -660,7 +660,7 @@
     "code": "NANO 102",
     "raw_prereq": "CHEM 6C. Restricted to NanoEngineering majors or by department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundations in NanoEngineering: Biochemical Principles",
@@ -770,7 +770,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Materials Science and Engineering",
@@ -908,7 +908,7 @@
     "code": "NANO 119",
     "raw_prereq": "NANO 115L.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "NanoEngineering System Design I",
@@ -987,7 +987,7 @@
     "code": "NANO 148",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics of Nanomaterials",
@@ -1199,21 +1199,21 @@
     "code": "NANO 200",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to NanoEngineering",
     "code": "NANO 201",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Intermolecular and Surface Forces",
     "code": "NANO 202",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nanoscale Characterization",
@@ -1279,7 +1279,7 @@
     "code": "NANO 227",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Synchrotron Characterization of Nanomaterials",
@@ -1342,7 +1342,7 @@
     "code": "NANO 247A",
     "raw_prereq": "consent of instructor and graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "BioElectronics",
@@ -1405,7 +1405,7 @@
     "code": "NANO 257",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nanoscale Transport Phenomenon",
@@ -1461,7 +1461,7 @@
     "code": "NANO 265",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantum Mechanical Modeling of Materials and Nanostructures",
@@ -1576,7 +1576,7 @@
     "code": "NANO 299",
     "raw_prereq": "consent of instructor and graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Experience",

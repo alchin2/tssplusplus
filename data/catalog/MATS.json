@@ -30,7 +30,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid State Diffusion and Reaction Kinetics",
@@ -61,7 +61,7 @@
     "code": "MATS 202",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "MATS Academy II",
@@ -108,7 +108,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics of Soft Materials",
@@ -122,14 +122,14 @@
     "code": "MATS 236",
     "raw_prereq": "graduate standing or consent of instructor. (Cross-listed with MAE 253.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Electronic and Photonic Properties of Materials",
     "code": "MATS 251A",
     "raw_prereq": "consent of the instructor. (Cross-listed with MAE 265A.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Magnetic Materials: Principles and Applications",
@@ -216,7 +216,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Processing of Polymers and Composites",
@@ -251,7 +251,7 @@
     "code": "MATS 295",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
@@ -265,6 +265,6 @@
     "code": "MATS 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

@@ -4,7 +4,7 @@
     "code": "PHIL 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Puzzles and Paradoxes",
@@ -18,7 +18,7 @@
     "code": "PHIL 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Scientific Reasoning",
@@ -32,7 +32,7 @@
     "code": "PHIL 13",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Philosophy: The Nature of Reality",
@@ -225,7 +225,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethics and Society II",
@@ -242,7 +242,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Ancient Philosophy",
@@ -270,21 +270,21 @@
     "code": "PHIL 35",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Law and Society",
     "code": "PHIL 50",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Climate Ethics",
     "code": "PHIL 51",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Living in a Digital World",
@@ -312,7 +312,7 @@
     "code": "PHIL 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Basic Problem in Philosophy",
@@ -424,7 +424,7 @@
     "code": "PHIL 110",
     "raw_prereq": "upper-division standing and department stamp or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "History of Philosophy: Early Modern",
@@ -482,7 +482,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topics in Logic",
@@ -585,14 +585,14 @@
     "code": "PHIL 134",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy of Mind",
     "code": "PHIL 136",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Moral Psychology",
@@ -634,7 +634,7 @@
     "code": "PHIL 142",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy of Perception",
@@ -662,7 +662,7 @@
     "code": "PHIL 147",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy and the Environment",
@@ -704,7 +704,7 @@
     "code": "PHIL 153",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mexican Philosophy",
@@ -749,7 +749,7 @@
     "code": "PHIL 159",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethical Theory",
@@ -805,14 +805,14 @@
     "code": "PHIL 167",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy of Law",
     "code": "PHIL 168",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Feminism and Philosophy",
@@ -847,7 +847,7 @@
     "code": "PHIL 173",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Ethics",
@@ -868,7 +868,7 @@
     "code": "PHIL 176",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy and Literature",
@@ -938,42 +938,42 @@
     "code": "PHIL 189",
     "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy Honors",
     "code": "PHIL 191A",
     "raw_prereq": "department approval; consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Honors Essay",
     "code": "PHIL 191B",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "PHIL 195P",
     "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Individual Study",
     "code": "PHIL 199",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Proseminar",
     "code": "PHIL 200",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Core Course in History",
@@ -987,7 +987,7 @@
     "code": "PHIL 202",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Core Course in Philosophy of Science",
@@ -1043,7 +1043,7 @@
     "code": "PHIL 209C",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Science Studies Part II",
@@ -1057,7 +1057,7 @@
     "code": "PHIL 210",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Early Modern Philosophy",
@@ -1092,7 +1092,7 @@
     "code": "PHIL 220",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy of Logic",
@@ -1190,63 +1190,63 @@
     "code": "PHIL 271",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "German Philosophy Reading Group",
     "code": "PHIL 275",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Phenomenology Reading Group",
     "code": "PHIL 277",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics and Methods in Contemporary Philosophy",
     "code": "PHIL 278",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy of Science Topics and Methods",
     "code": "PHIL 280",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "History of Philosophy Research and Methods",
     "code": "PHIL 281",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics and Methods in Ethics",
     "code": "PHIL 282",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics and Methods in Latin American Philosophy",
     "code": "PHIL 283",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Philosophy of Biology Research Group",
     "code": "PHIL 284",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar on Special Topics",
@@ -1260,14 +1260,14 @@
     "code": "PHIL 286",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Greek Reading Group",
     "code": "PHIL 287",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Latin Reading Group",
@@ -1281,7 +1281,7 @@
     "code": "PHIL 290",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Writing Workshop",
@@ -1295,20 +1295,20 @@
     "code": "PHIL 295",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Research",
     "code": "PHIL 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching",
     "code": "PHIL 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

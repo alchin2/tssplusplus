@@ -220,35 +220,35 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Management and Informatics",
     "code": "CLRE 255",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Patient-Oriented Research II",
     "code": "CLRE 256",
     "raw_prereq": "CLRE 250.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Epidemiology II",
     "code": "CLRE 257",
     "raw_prereq": "CLRE 251.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Professional Development in Clinical Research",
     "code": "CLRE 258",
     "raw_prereq": "MAS program or permission of department.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Scientific Communication Skills",
@@ -262,7 +262,7 @@
     "code": "CLRE 260",
     "raw_prereq": "MAS program or permission of department.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Longitudinal Data Analysis",
@@ -345,7 +345,7 @@
     "code": "CLRE 295A",
     "raw_prereq": "admission to the MAS Clinical Research Program or consent of department.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study Project",
@@ -379,7 +379,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study Project",

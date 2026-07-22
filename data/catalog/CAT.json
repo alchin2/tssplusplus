@@ -4,7 +4,7 @@
     "code": "CAT 1",
     "raw_prereq": "Sixth College students only; completion of UC Entry Level Writing Requirement.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Culture, Art, and Technology 2",
@@ -60,7 +60,7 @@
     "code": "CAT 90",
     "raw_prereq": "Sixth College students only; department authorization required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Culture, Art, and Technology Lower-Division Group Study",
@@ -74,7 +74,7 @@
     "code": "CAT 124",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sixth College Practicum Global Seminar",
@@ -95,7 +95,7 @@
     "code": "CAT 125",
     "raw_prereq": "Sixth College students only; upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Rhetoric and Practical Communication Global Seminar",
@@ -109,7 +109,7 @@
     "code": "CAT 125R",
     "raw_prereq": "Sixth College students only; upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Rhetoric and Practical Communication Online Global Seminar",

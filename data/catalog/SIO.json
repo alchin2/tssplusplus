@@ -4,14 +4,14 @@
     "code": "SIO 1",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Life in the Oceans",
     "code": "SIO 3",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Earth",
@@ -39,7 +39,7 @@
     "code": "SIO 15",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geology of the National Parks",
@@ -60,7 +60,7 @@
     "code": "SIO 20R",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Climate Change and Society",
@@ -74,7 +74,7 @@
     "code": "SIO 30",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Water",
@@ -95,7 +95,7 @@
     "code": "SIO 40",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Volcanoes",
@@ -123,7 +123,7 @@
     "code": "SIO 50",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Experiences in Oceanic and Atmospheric Sciences",
@@ -171,7 +171,7 @@
     "code": "SIO 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Undergraduate Seminar",
@@ -226,7 +226,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geochemistry",
@@ -272,7 +272,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Geophysics",
@@ -315,7 +315,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Paleobiology and History of Life",
@@ -349,7 +349,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Hydrogeology",
@@ -444,7 +444,7 @@
     "code": "SIO 109R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to GIS and GPS for Scientists",
@@ -573,7 +573,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Responding to Climate Change: Possible Solutions",
@@ -777,7 +777,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Microbiology",
@@ -933,7 +933,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Mammal Biology",
@@ -1035,7 +1035,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ecosystems and Fisheries",
@@ -1246,7 +1246,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Petrology and Petrography",
@@ -1413,7 +1413,7 @@
     "code": "SIO 166",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geoarchaeology in Theory and Practice",
@@ -1450,7 +1450,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Volcanology",
@@ -1504,7 +1504,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physics of the Atmosphere",
@@ -1615,7 +1615,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Observational Physical Oceanography",
@@ -1657,7 +1657,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geophysical Fluid Dynamics",
@@ -1729,7 +1729,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Communicating Science to Informal Audiences",
@@ -1933,7 +1933,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pollution, Environment and Health",
@@ -1963,7 +1963,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Earth, Oceans, and Atmosphere",
@@ -1977,7 +1977,7 @@
     "code": "SIO 190L",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Seminar in Scripps Institution of Oceanography",
@@ -1991,7 +1991,7 @@
     "code": "SIO 194",
     "raw_prereq": "department approval. Participation in the UCDC Program during quarter enrolled in seminar.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Methods of Teaching Earth Sciences",
@@ -2040,7 +2040,7 @@
     "code": "SIOG 228",
     "raw_prereq": "current SIO department BS/MS student. Department approval required. Must be taken for letter grade only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computational Ocean Acoustics and Signal Processing I",
@@ -2130,7 +2130,7 @@
     "code": "SIOC 203A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Applied Mathematics II",
@@ -2193,7 +2193,7 @@
     "code": "SIOC 204",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Estuarine and Coastal Processes",
@@ -2207,7 +2207,7 @@
     "code": "SIOC 207A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Digital Signal Processing I",
@@ -2254,7 +2254,7 @@
     "code": "SIOC 208",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics",
@@ -2268,7 +2268,7 @@
     "code": "SIOC 210",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ocean Waves I",
@@ -2391,7 +2391,7 @@
     "code": "SIOC 214A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Environmental Fluid Dynamics",
@@ -2514,7 +2514,7 @@
     "code": "SIOC 217A",
     "raw_prereq": "graduate standing or consent of instructor. (Letter grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Atmospheric and Climate Sciences II",
@@ -2626,7 +2626,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Observational Techniques in Oceanography",
@@ -2661,7 +2661,7 @@
     "code": "SIOC 221A",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Analysis of Physical Oceanographic Data",
@@ -2733,14 +2733,14 @@
     "code": "SIOC 222",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Proposal Writing and Oceanographic Experiment Design",
     "code": "SIOC 223",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Numerical Modeling of the Climate System",
@@ -3024,7 +3024,7 @@
     "code": "SIOC 299",
     "raw_prereq": "graduate standing. Only students registered in MAS-CSP program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geophysics Research Skills I—Effective Writing",
@@ -3038,7 +3038,7 @@
     "code": "SIOG 200B",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geophysics Research Skills III—Reading, Understanding, and Synthesis",
@@ -3066,7 +3066,7 @@
     "code": "SIOG 223A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geophysical Data Analysis II",
@@ -3106,7 +3106,7 @@
     "code": "SIOG 225",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Seismology",
@@ -3275,21 +3275,21 @@
     "code": "SIOG 238",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Geophysics",
     "code": "SIOG 239",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Geology",
     "code": "SIOG 240",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geological Field Methods for Geophysicists",
@@ -3504,7 +3504,7 @@
     "code": "SIOB 218",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Biotechnology I: Tools and Methods",
@@ -3590,7 +3590,7 @@
     "code": "SIOB 262",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Marine Natural Products Chemistry",
@@ -3692,7 +3692,7 @@
     "code": "SIOB 273",
     "raw_prereq": "graduate standing and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Natural History Below the Tides",
@@ -3706,7 +3706,7 @@
     "code": "SIOB 275A",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Quantitative Theory of Populations and Communities",
@@ -3753,21 +3753,21 @@
     "code": "SIOB 278",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ecology Seminar in Biological Oceanography",
     "code": "SIOB 279",
     "raw_prereq": "graduate standing. (S/U grades only)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biological Oceanography",
     "code": "SIOB 280",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Physiology",
@@ -3821,7 +3821,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Science, Economics, and Policy",
@@ -3898,14 +3898,14 @@
     "code": "SIOB 296",
     "raw_prereq": "graduate standing. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Marine Biology Seminar",
     "code": "SIOB 297",
     "raw_prereq": "graduate standing. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Studies in Marine Sciences",
@@ -3933,7 +3933,7 @@
     "code": "SIO 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Apprenticeship",

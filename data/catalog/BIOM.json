@@ -4,28 +4,28 @@
     "code": "BIOM 200A",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Molecules to Organisms: Approaches",
     "code": "BIOM 200B",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminars in Biomedical Research",
     "code": "BIOM 201",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biomedical Sciences Research Rotation",
     "code": "BIOM 202",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Lipid Cell Signaling Genomics, Proteomics, and Metabolomics",
@@ -39,7 +39,7 @@
     "code": "BIOM 218",
     "raw_prereq": "graduate standing required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethics in Scientific Research",
@@ -81,7 +81,7 @@
     "code": "BIOM 242",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Current Literature in Glycobiology",
@@ -278,7 +278,7 @@
     "code": "BIOM 296",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Progress in Signal Transduction",
@@ -292,13 +292,13 @@
     "code": "BIOM 298",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study or Research",
     "code": "BIOM 299",
     "raw_prereq": "consent of instructor. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

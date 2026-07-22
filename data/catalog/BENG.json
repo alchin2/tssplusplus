@@ -4,14 +4,14 @@
     "code": "BENG 1",
     "raw_prereq": "none. (F,W)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introductory Computer Programming and MATLAB",
     "code": "BENG 2",
     "raw_prereq": "bioengineering: biosystems majors only or consent of department. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-year Student Seminar",
@@ -139,7 +139,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Molecular Components of Living Systems",
@@ -224,7 +224,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Soft Tissue Biomechanics",
@@ -305,7 +305,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Dynamic Simulation in Bioengineering",
@@ -449,7 +449,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Measurements, Statistics, and Probability",
@@ -500,7 +500,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioengineering Physiology",
@@ -615,7 +615,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biosystems Engineering Laboratory",
@@ -641,7 +641,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chemical and Molecular Bioengineering Techniques",
@@ -704,7 +704,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biochemical Engineering",
@@ -746,7 +746,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cell and Tissue Engineering",
@@ -809,7 +809,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biomolecular Engineering",
@@ -826,7 +826,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioengineering Laboratory",
@@ -903,7 +903,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Biomaterials Design",
@@ -937,7 +937,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Bioinstrumentation Design",
@@ -1014,7 +1014,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioengineering Design Project: Implementation",
@@ -1065,7 +1065,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design Implementation in Bioengineering",
@@ -1212,21 +1212,21 @@
     "code": "BENG 195P",
     "raw_prereq": "3.0 GPA in the major and department approval. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioengineering Industrial Internship",
     "code": "BENG 196",
     "raw_prereq": "consent of department and completion of all lower-division course requirements, including general-science requirement; laboratory experience. (F,W,S,Su)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineering Internship",
     "code": "BENG 197",
     "raw_prereq": "completion of ninety units with a 2.5 GPA and approval from a bioengineering faculty coordinator. (F,W,S,Su)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -1240,7 +1240,7 @@
     "code": "BENG 199",
     "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form. (F,W,S,Su)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioinformatics II: Introduction to Bioinformatics Algorithms",
@@ -1297,7 +1297,7 @@
     "code": "BENG 207",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Bioengineering with Lab",
@@ -1395,21 +1395,21 @@
     "code": "BENG 216",
     "raw_prereq": "graduate standing. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Science for Multiscale Biology",
     "code": "BENG 219",
     "raw_prereq": "graduate standing or consent of instructor. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mathematical Methods for Bioengineering",
     "code": "BENG 221",
     "raw_prereq": "graduate standing in bioengineering or consent of instructor. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thermodynamics, Statistical Mechanics, Interfacial Phenomena in Living Systems",
@@ -1437,7 +1437,7 @@
     "code": "BENG 226",
     "raw_prereq": "graduate standing or consent of instructor. (S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Transport Phenomena in Living Systems",
@@ -1461,7 +1461,7 @@
     "code": "BENG 230A",
     "raw_prereq": "restricted to bioengineering graduate students with major code BE75. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cell and Molecular Biology",
@@ -1478,7 +1478,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cardiovascular Physiology",
@@ -1567,7 +1567,7 @@
     "code": "BENG 241A",
     "raw_prereq": "graduate standing. (F)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Tissue Engineering and Regenerative Medicine: Cell Microenvironment",
@@ -1636,7 +1636,7 @@
     "code": "BENG 254",
     "raw_prereq": "graduate bioengineering majors only or consent of instructor. (S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neurodynamics",
@@ -1709,14 +1709,14 @@
     "code": "BENG 281",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar: Faculty Research",
     "code": "BENG 282",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Supramolecular Structure Determination Laboratory",
@@ -1774,7 +1774,7 @@
     "code": "BENG 294A",
     "raw_prereq": "bioengineering MS medicine majors only or consent of department.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Engineering in the Patient Healthcare System",
@@ -1815,7 +1815,7 @@
     "code": "BENG 295",
     "raw_prereq": "consent of instructor and department approval. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
@@ -1843,7 +1843,7 @@
     "code": "BENG 299",
     "raw_prereq": "consent of instructor. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching for Specialization in Multi-Scale Biology",
@@ -1857,6 +1857,6 @@
     "code": "BENG 501",
     "raw_prereq": "consent of instructor and department approval. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

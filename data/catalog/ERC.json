@@ -18,14 +18,14 @@
     "code": "ERC 20",
     "raw_prereq": "open to students in the Eleanor Roosevelt College First-year Student Honors Program only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Learning Sustainable Well-being",
     "code": "ERC 88",
     "raw_prereq": "open to Eleanor Roosevelt College students only. Pass/Not Pass only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practicum in Math Tutoring",

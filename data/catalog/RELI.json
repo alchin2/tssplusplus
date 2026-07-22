@@ -25,7 +25,7 @@
     "code": "RELI 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Tools and Methods in the Study of Religion",
@@ -88,7 +88,7 @@
     "code": "RELI 144",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Communication, Technology, and Religion",
@@ -221,7 +221,7 @@
     "code": "RELI 188",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Religion",
@@ -235,7 +235,7 @@
     "code": "RELI 189",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Seminar in Religion",

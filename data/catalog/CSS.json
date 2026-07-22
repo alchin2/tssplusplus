@@ -4,7 +4,7 @@
     "code": "CSS 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data and Model Programming for Computational Social Science",
@@ -81,7 +81,7 @@
     "code": "CSS 211",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Statistical Applications",
@@ -118,7 +118,7 @@
     "code": "CSS 209",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research in Computational Social Science",

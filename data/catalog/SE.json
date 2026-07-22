@@ -35,7 +35,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graphical Communication for Engineering Design",
@@ -110,7 +110,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics II: Dynamics",
@@ -143,7 +143,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computing for Engineers",
@@ -207,7 +207,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid Mechanics I",
@@ -356,14 +356,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Analysis I",
     "code": "SE 130A",
     "raw_prereq": "grade of C– or better in SE 110A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Analysis II",
@@ -441,7 +441,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Machine Learning for Structural Engineering",
@@ -544,7 +544,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Aerospace Structural Design I",
@@ -802,14 +802,14 @@
     "code": "SE 163",
     "raw_prereq": "SE 110A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sensors and Data Acquisition for Structural Engineering",
     "code": "SE 164",
     "raw_prereq": "SE 110A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Health Monitoring",
@@ -1002,7 +1002,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Geotechnical Engineering",
@@ -1040,7 +1040,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Foundation Engineering",
@@ -1103,7 +1103,7 @@
     "code": "SE 201A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nonlinear Structural Analysis",
@@ -1134,7 +1134,7 @@
     "code": "SE 203A",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Dynamics II",
@@ -1240,14 +1240,14 @@
     "code": "SE 212",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bridge Design",
     "code": "SE 213",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Masonry Structures",
@@ -1288,7 +1288,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Earthquake Engineering",
@@ -1377,7 +1377,7 @@
     "code": "SE 233",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Plates and Shells",
@@ -1405,7 +1405,7 @@
     "code": "SE 241",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Foundation Engineering",
@@ -1445,7 +1445,7 @@
     "code": "SE 244",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Unsaturated Soil Mechanics",
@@ -1466,7 +1466,7 @@
     "code": "SE 248",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Rock Mechanics and Engineering",
@@ -1508,7 +1508,7 @@
     "code": "SE 253A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanics and Design of Composite Structures II",
@@ -1698,14 +1698,14 @@
     "code": "SE 263",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sensors and Data Acquisition for Structural Engineering",
     "code": "SE 264",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Health Monitoring",
@@ -1825,7 +1825,7 @@
     "code": "SE 276A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Finite Element Methods in Solid Mechanics II",
@@ -1996,7 +1996,7 @@
     "code": "SE 285",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design Optimization for Additive Manufacturing",
@@ -2010,14 +2010,14 @@
     "code": "SE 290",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
     "code": "SE 296",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -2031,13 +2031,13 @@
     "code": "SE 299",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Experience",
     "code": "SE 501",
     "raw_prereq": "consent of instructor and the department. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

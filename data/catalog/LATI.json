@@ -4,14 +4,14 @@
     "code": "LATI 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Latin America",
     "code": "LATI 50",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Ethnoracial Politics in Latin America",
@@ -77,14 +77,14 @@
     "code": "LATI 166",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Science Research in Latin America",
     "code": "LATI 170",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Participatory Action Research: Action and Knowledge",
@@ -108,7 +108,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Global South Studies",
@@ -156,7 +156,7 @@
     "code": "LATI 200",
     "raw_prereq": "enrollment in the master’s degree program in Latin American Studies or permission of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Reading",

@@ -4,7 +4,7 @@
     "code": "COGS 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Neuroeconomics",
@@ -18,7 +18,7 @@
     "code": "COGS 3",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Computing",
@@ -39,21 +39,21 @@
     "code": "COGS 9",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Consequences of Technology",
     "code": "COGS 10",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Minds and Brains",
     "code": "COGS 11",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Language, Culture, and Cognition",
@@ -74,35 +74,35 @@
     "code": "COGS 14A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Statistical Analysis",
     "code": "COGS 14B",
     "raw_prereq": "COGS 14A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "What the *#!?: An Uncensored Introduction to Language",
     "code": "COGS 15",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neurobiology of Cognition",
     "code": "COGS 17",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Python",
     "code": "COGS 18",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Exploring the Musical Mind",
@@ -123,7 +123,7 @@
     "code": "COGS 88",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Undergraduate Seminar",
@@ -168,14 +168,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sensation and Perception",
     "code": "COGS 101A",
     "raw_prereq": "COGS 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Learning, Memory, and Attention",
@@ -216,7 +216,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Cognitive Ethnography",
@@ -247,7 +247,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Systems Neuroscience",
@@ -271,7 +271,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Science in Practice",
@@ -305,7 +305,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Modeling and Data Analysis",
@@ -352,7 +352,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Developing Mind",
@@ -385,7 +385,7 @@
     "code": "COGS 111",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Humor",
@@ -430,7 +430,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Developmental Cognitive Neuroscience",
@@ -451,14 +451,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Growing Minds: Babies, Brains, and Machines",
     "code": "COGS 117",
     "raw_prereq": "COGS 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Supervised Machine Learning Algorithms",
@@ -542,7 +542,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Machine Learning",
@@ -671,7 +671,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neural Signal Processing",
@@ -813,7 +813,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Programming for Experimental Research",
@@ -997,7 +997,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "HCI Technical Systems Research",
@@ -1014,7 +1014,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Interaction Design",
@@ -1044,7 +1044,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thinking with Computers",
@@ -1126,7 +1126,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practical Data Science in R",
@@ -1152,7 +1152,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neural Data Science",
@@ -1221,7 +1221,7 @@
     "code": "COGS 143",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Cognition: A Developmental and Evolutionary Perspective",
@@ -1328,7 +1328,7 @@
     "code": "COGS 155",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Language Development",
@@ -1375,14 +1375,14 @@
     "code": "COGS 160",
     "raw_prereq": "department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Metabolic Disorders of the Brain",
     "code": "COGS 163",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Neurobiology of Motivation",
@@ -1419,7 +1419,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Genetic Information for Behavior: From Single Cells to Mammals",
@@ -1464,7 +1464,7 @@
     "code": "COGS 171",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Brain Disorders and Cognition",
@@ -1894,7 +1894,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practicum in Professional Web Design",
@@ -1937,7 +1937,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Brain Computer Interfaces",
@@ -1974,7 +1974,7 @@
     "code": "COGS 190A",
     "raw_prereq": "upper-division standing; instructor and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Studies in Cognitive Science",
@@ -2160,14 +2160,14 @@
     "code": "COGS 229",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Human-Computer Interaction",
     "code": "COGS 230",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Design Seminar on Human-Centered Programming Tools",
@@ -2216,7 +2216,7 @@
     "code": "COGS 260",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mirroring in Social Cognition",
@@ -2312,6 +2312,6 @@
     "code": "COGS 500",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

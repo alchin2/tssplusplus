@@ -4,35 +4,35 @@
     "code": "ECON 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Market Imperfections and Policy",
     "code": "ECON 2",
     "raw_prereq": "ECON 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles of Macroeconomics",
     "code": "ECON 3",
     "raw_prereq": "ECON 1.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Financial Accounting",
     "code": "ECON 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Analytics for the Social Sciences",
     "code": "ECON 5",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Analytics for the Social Sciences",
@@ -46,7 +46,7 @@
     "code": "ECON 86",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "First-year Student Seminar",
@@ -83,21 +83,21 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Microeconomics B",
     "code": "ECON 100B",
     "raw_prereq": "ECON 100A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Microeconomics C",
     "code": "ECON 100C",
     "raw_prereq": "ECON 100B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Microeconomics A",
@@ -111,7 +111,7 @@
     "code": "ECON 100BH",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Microeconomics C",
@@ -174,7 +174,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Topic in Globalization",
@@ -217,7 +217,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Nobody’s Fool: Economics with Morals",
@@ -363,7 +363,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Short Run Macroeconomics",
@@ -397,14 +397,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Macroeconomics A",
     "code": "ECON 110AH",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Macroeconomics B",
@@ -574,7 +574,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Econometrics B",
@@ -612,7 +612,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Econometrics C",
@@ -629,7 +629,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Econometrics A",
@@ -676,7 +676,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Econometric Theory",
@@ -811,7 +811,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Economics of the Environment",
@@ -828,7 +828,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Energy Economics",
@@ -992,14 +992,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Economics of Health Consumers",
     "code": "ECON 141",
     "raw_prereq": "ECON 100C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Behavioral Economics",
@@ -1188,7 +1188,7 @@
     "code": "ECON 159",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Economics of Mexico",
@@ -1307,7 +1307,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Economics of Korea",
@@ -1563,14 +1563,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Microeconomics",
     "code": "ECON 182",
     "raw_prereq": "ECON 100C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Macroeconomics",
@@ -1628,7 +1628,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "An Introduction to Research in Economics",
@@ -1681,21 +1681,21 @@
     "code": "ECON 191A",
     "raw_prereq": "department stamp required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Essay Seminar B",
     "code": "ECON 191B",
     "raw_prereq": "department stamp required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "ECON 195P",
     "raw_prereq": "consent of the department.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -1716,7 +1716,7 @@
     "code": "ECON 200A",
     "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Microeconomics B",
@@ -1778,7 +1778,7 @@
     "code": "ECON 205",
     "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Decisions",
@@ -1845,7 +1845,7 @@
     "code": "ECON 210A",
     "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Macroeconomics B",
@@ -2067,7 +2067,7 @@
     "code": "ECON 220A",
     "raw_prereq": "graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Econometrics B",
@@ -2118,7 +2118,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Econometrics E",
@@ -2190,7 +2190,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Workshop in Econometrics",
@@ -2478,7 +2478,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Public Economics of Health Care",
@@ -2549,7 +2549,7 @@
     "code": "ECON 242",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organizational Economics of Development",
@@ -2619,7 +2619,7 @@
     "code": "ECON 250A",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Labor Economics",
@@ -2681,7 +2681,7 @@
     "code": "ECON 263",
     "raw_prereq": "graduate standing and ECON 200A-B-C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Experimental Economics",
@@ -2702,7 +2702,7 @@
     "code": "ECON 266",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in Environmental and Resource Economics",
@@ -2767,7 +2767,7 @@
     "code": "ECON 281",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Becoming an Economist",
@@ -2781,14 +2781,14 @@
     "code": "ECON 285",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graduate Research Presentation Workshop",
     "code": "ECON 286",
     "raw_prereq": "graduate standing, ECON 285.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Field Advising",
@@ -2802,7 +2802,7 @@
     "code": "ECON 296",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",

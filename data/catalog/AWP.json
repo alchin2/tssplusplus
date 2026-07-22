@@ -4,7 +4,7 @@
     "code": "AWP 3",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Analytical Writing and Academic English A",
@@ -18,7 +18,7 @@
     "code": "AWP 4B",
     "raw_prereq": "AWP 4A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Language and Learning in the American Academy",

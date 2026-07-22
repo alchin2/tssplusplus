@@ -11,7 +11,7 @@
     "code": "CHEM 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "General Chemistry I",
@@ -37,7 +37,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors General Chemistry I",
@@ -80,7 +80,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors General Chemistry II",
@@ -114,7 +114,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors General Chemistry III",
@@ -148,7 +148,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "General Chemistry Laboratory for Majors",
@@ -234,14 +234,14 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry for Life Sciences II",
     "code": "CHEM 40B",
     "raw_prereq": "CHEM 40A.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry III",
@@ -292,7 +292,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry II: Reactivity and Synthesis",
@@ -306,7 +306,7 @@
     "code": "CHEM 41C",
     "raw_prereq": "CHEM 41B.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry Laboratory",
@@ -345,7 +345,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry Laboratory for Majors",
@@ -391,14 +391,14 @@
     "code": "CHEM 87",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Teaching Science",
     "code": "CHEM 96",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study",
@@ -451,7 +451,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Instrumental Chemistry Laboratory",
@@ -636,7 +636,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Recombinant DNA Laboratory",
@@ -670,7 +670,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Origins of Life and the Universe",
@@ -711,7 +711,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biochemical Structure and Function",
@@ -801,7 +801,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Genome, Epigenome, and Transcriptome Editing",
@@ -844,7 +844,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biomedical Research in Health Disparities",
@@ -870,7 +870,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pharmacology and Toxicology",
@@ -1084,7 +1084,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Physical Biochemistry II: Quantum and Statistical Mechanics of Biomolecules",
@@ -1140,7 +1140,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chemical Physics: Stat Thermo I",
@@ -1336,7 +1336,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry Laboratory",
@@ -1366,7 +1366,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry Laboratory",
@@ -1566,7 +1566,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Mechanisms of Organic Reactions",
@@ -1698,7 +1698,7 @@
     "code": "CHEM 163",
     "raw_prereq": "CHEM 41C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Biology of Viruses",
@@ -1842,7 +1842,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Environmental Chemistry II",
@@ -2116,7 +2116,7 @@
     "code": "CHEM 209",
     "raw_prereq": "biochemistry background and graduate standing, or approval of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Lipid Cell Signaling Genomics, Proteomics, and Metabolomics",
@@ -2137,7 +2137,7 @@
     "code": "CHEM 213A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biophysical Chemistry of Macromolecules",
@@ -2151,7 +2151,7 @@
     "code": "CHEM 214",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Genome, Epigenome, and Transcriptome Editing",
@@ -2165,7 +2165,7 @@
     "code": "CHEM 216",
     "raw_prereq": "graduate standing or consent of instructor. (May not be offered every year.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "RNA Structure, Function, and Biology",
@@ -2196,7 +2196,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Biochemistry",
@@ -2231,21 +2231,21 @@
     "code": "CHEM 222",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organometallic Chemistry",
     "code": "CHEM 223",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Spectroscopic Techniques",
     "code": "CHEM 224",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Bioinorganic Chemistry",
@@ -2266,7 +2266,7 @@
     "code": "CHEM 227",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Solid State Chemistry",
@@ -2311,14 +2311,14 @@
     "code": "CHEM 231",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Mechanics I",
     "code": "CHEM 232A",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Statistical Mechanics II",
@@ -2342,7 +2342,7 @@
     "code": "CHEM 234",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Molecular Spectroscopy",
@@ -2410,7 +2410,7 @@
     "code": "CHEM 242",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Kinetics and Mechanism",
@@ -2438,7 +2438,7 @@
     "code": "CHEM 252",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Antibiotics",
@@ -2558,7 +2558,7 @@
     "code": "CHEM 263",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Structural Biology of Viruses",
@@ -2621,7 +2621,7 @@
     "code": "CHEM 280",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Supramolecular Structure Determination Laboratory",
@@ -2656,21 +2656,21 @@
     "code": "CHEM 291",
     "raw_prereq": "graduate standing and department approval required. This course is only open for students supported or affiliated with the Molecular Biophysics Training Program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Chemistry-Biology Interfaces Seminar",
     "code": "CHEM 292",
     "raw_prereq": "graduate standing and department approval required. This course is only open for students supported or affiliated with the Chemistry-Biology Interfaces Training Program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Organic Chemistry Seminar",
     "code": "CHEM 294",
     "raw_prereq": "advanced graduate-student standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Biochemistry Seminar",
@@ -2705,7 +2705,7 @@
     "code": "CHEM 299",
     "raw_prereq": "graduate-student standing and consent of instructor. (S/U grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching",
@@ -2719,6 +2719,6 @@
     "code": "CHEM 509",
     "raw_prereq": "graduate-student standing and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

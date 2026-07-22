@@ -4,7 +4,7 @@
     "code": "USP 1",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Urban World System",
@@ -25,14 +25,14 @@
     "code": "USP 4",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to the Real Estate and Development Process",
     "code": "USP 5",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Global Architecture",
@@ -53,14 +53,14 @@
     "code": "USP 15",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real Estate and Development Principles and Analysis",
     "code": "USP 25",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Urban Studies and Planning Colloquium",
@@ -74,14 +74,14 @@
     "code": "USP 50",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Practice of Planning Research",
     "code": "USP 60",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Urban Planning",
@@ -225,14 +225,14 @@
     "code": "USP 124",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Design of Social Research",
     "code": "USP 125",
     "raw_prereq": "upper-division standing or consent of instructor. Enrollment restricted to USP (US26) majors and minors only.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Comparative Land Use and Resource Management",
@@ -298,7 +298,7 @@
     "code": "USP 136",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Housing and Community Development Policy and Practice",
@@ -336,7 +336,7 @@
     "code": "USP 141A",
     "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Life Course Scholars Capstone Project",
@@ -364,21 +364,21 @@
     "code": "USP 142C",
     "raw_prereq": "upper-division standing or consent of instructor and departmental approval. This is an application-based course.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The US Health-Care System",
     "code": "USP 143",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Environmental and Preventive Health Issues",
     "code": "USP 144",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Aging—Social and Health Policy Issues",
@@ -406,7 +406,7 @@
     "code": "USP 150",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real Estate Planning and Development",
@@ -423,7 +423,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real Estate Development Finance and Investment",
@@ -466,7 +466,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real Estate and Development Market Analysis",
@@ -525,7 +525,7 @@
     "code": "USP 161",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Migration and the City",
@@ -567,7 +567,7 @@
     "code": "USP 165C",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Special Topics in Urban Design and Land Use",
@@ -605,7 +605,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Planning for Sustainable Communities",
@@ -619,7 +619,7 @@
     "code": "USP 171",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "International Sustainable Development",
@@ -664,7 +664,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "International Planning and Development: U",
@@ -678,7 +678,7 @@
     "code": "USP 177A",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Urban Design",
@@ -711,7 +711,7 @@
     "code": "USP 179",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Transportation Planning",
@@ -739,7 +739,7 @@
     "code": "USP 183",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "International Urban Design Practicum",
@@ -799,7 +799,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Real Estate Finance and Development Studio II",
@@ -846,7 +846,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Senior Sequence Research Project",
@@ -927,7 +927,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced GIS for Urban and Community Planning",
@@ -951,14 +951,14 @@
     "code": "USP 193",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research Seminar in Washington, DC",
     "code": "USP 194",
     "raw_prereq": "department approval and participating in UCDC Program.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
@@ -993,13 +993,13 @@
     "code": "USP 265C",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Sustainable Development",
     "code": "USP 271",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   }
 ]

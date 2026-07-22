@@ -4,14 +4,14 @@
     "code": "GLBH 20",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Global Health",
     "code": "GLBH 100",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Aging: Culture and Health in Late Life Human Development",
@@ -61,7 +61,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Health Disparities and the Quest for Global Health Equity",
@@ -131,7 +131,7 @@
     "code": "GLBH 111",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Medicine, Global Health, and Bioethics",
@@ -173,7 +173,7 @@
     "code": "GLBH 116",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Health and Non-Communicable Diseases",
@@ -187,14 +187,14 @@
     "code": "GLBH 118",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Intersection of Global Health and Non-Governmental Organizations",
     "code": "GLBH 119",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "From Global Health to Planetary Health",
@@ -215,7 +215,7 @@
     "code": "GLBH 129",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Health and Climate Change",
@@ -236,7 +236,7 @@
     "code": "GLBH 141",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "“When the field is a ward”: Ethnographies of the Clinic",
@@ -271,7 +271,7 @@
     "code": "GLBH 148",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Culture and Mental Health",
@@ -316,7 +316,7 @@
     "code": "GLBH 171R",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Substance Use and Global Mental Health: Case Studies for Research and Praxis",
@@ -330,14 +330,14 @@
     "code": "GLBH 181",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Global Health Careers",
     "code": "GLBH 190",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Instructional Apprenticeship in Global Health",
@@ -379,7 +379,7 @@
     "code": "GLBH 200",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Global Health",
@@ -435,7 +435,7 @@
     "code": "GLBH 241",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Native American Health and Healing",
@@ -449,7 +449,7 @@
     "code": "GLBH 248",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Social Epidemiology",

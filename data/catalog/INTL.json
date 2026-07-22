@@ -11,35 +11,35 @@
     "code": "INTL 100",
     "raw_prereq": "sophomore standing or above and completion of at least one quarter of a university-level writing course.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Culture and Society in International Perspective",
     "code": "INTL 101",
     "raw_prereq": "completion of INTL 100 with a grade of C– or better.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Economics, Politics, and International Change",
     "code": "INTL 102",
     "raw_prereq": "completion of INTL 100 with a grade of C– or better.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in International Studies",
     "code": "INTL 190",
     "raw_prereq": "open to international studies majors only; successful completion with a C– or better of INTL 100, INTL 101, and 102.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Seminar in International Studies",
     "code": "INTL 190H",
     "raw_prereq": "international studies major with 3.5 major GPA; department application process required; senior standing; INTL 100; INTL 101; INTL 102.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "International Studies Honors Program",

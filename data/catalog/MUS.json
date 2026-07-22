@@ -4,7 +4,7 @@
     "code": "MUS 1A",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Fundamentals of Music B",
@@ -107,21 +107,21 @@
     "code": "MUS 6",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Music, Media, and Technology",
     "code": "MUS 7",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "American Music: Jazz Cultures",
     "code": "MUS 8",
     "raw_prereq": "none. (Offered in selected years.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Symphony",
@@ -142,7 +142,7 @@
     "code": "MUS 12",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Worlds of Music",
@@ -156,14 +156,14 @@
     "code": "MUS 14",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Popular Music",
     "code": "MUS 15",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "The Beatles",
@@ -177,7 +177,7 @@
     "code": "MUS 17",
     "raw_prereq": "none.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Klezmer Music",
@@ -205,7 +205,7 @@
     "code": "MUS 32",
     "raw_prereq": "audition and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Group Instrumental Instruction",
@@ -219,7 +219,7 @@
     "code": "MUS 32V",
     "raw_prereq": "audition and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Vocal Master Class",
@@ -245,7 +245,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Composition I",
@@ -283,7 +283,7 @@
     "code": "MUS 43",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Special Topics in Music",
@@ -328,7 +328,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Music Theory and Practice II",
@@ -356,7 +356,7 @@
     "code": "MUS 103A",
     "raw_prereq": "MUS 33C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Composition II",
@@ -435,7 +435,7 @@
     "code": "MUS 107",
     "raw_prereq": "upper-division standing. Restricted to music majors or consent of instructor; department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Introduction to Ethnomusicology Seminar",
@@ -449,7 +449,7 @@
     "code": "MUS 111",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Topics in European Music Before 1750",
@@ -482,7 +482,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Music and Ideas Since 1900",
@@ -533,7 +533,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "History of Music in Western Culture II",
@@ -581,7 +581,7 @@
     "code": "MUS 127",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Principles and Practice of Conducting",
@@ -631,21 +631,21 @@
     "code": "MUS 130",
     "raw_prereq": "consent of instructor through audition. Department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Improvisation Performance",
     "code": "MUS 131",
     "raw_prereq": "consent of instructor through audition. Department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Proseminar in Music Performance",
     "code": "MUS 132",
     "raw_prereq": "audition and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Vocal Coaching",
@@ -669,14 +669,14 @@
     "code": "MUS 132R",
     "raw_prereq": "by audition only; MUS 132. Department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Proseminar in Vocal Instruction",
     "code": "MUS 132V",
     "raw_prereq": "audition and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Projects in New Music Performance",
@@ -690,7 +690,7 @@
     "code": "MUS 134",
     "raw_prereq": "audition and department approval required.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Jazz Theory and Improvisation",
@@ -720,7 +720,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Jazz Theory and Improvisation",
@@ -825,7 +825,7 @@
     "code": "MUS 143",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Jazz and the Music of the African Diaspora: Special Topics Seminar",
@@ -938,7 +938,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Computer Music I",
@@ -993,7 +993,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Audio/MlDI Studio Techniques II",
@@ -1062,7 +1062,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Music Technology Seminar",
@@ -1079,7 +1079,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Music Programming",
@@ -1124,7 +1124,7 @@
     "code": "MUS 199",
     "raw_prereq": "consent of instructor and department chair approval. Department approval required. Pass/Not Pass grade only. May be taken for credit twice.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Contemporary Chamber Opera Performance",
@@ -1173,14 +1173,14 @@
     "code": "MUS 203D",
     "raw_prereq": "203A-B-C and consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Focus on Composition",
     "code": "MUS 204",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Focus on Integrative Studies",
@@ -1194,7 +1194,7 @@
     "code": "MUS 206",
     "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Theoretical Studies Seminar",
@@ -1250,7 +1250,7 @@
     "code": "MUS 215A",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar in Integrative Studies II",
@@ -1365,7 +1365,7 @@
     "code": "MUS 245",
     "raw_prereq": "consent of instructor. (S/U grade option only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Integrative Studies Seminar in Ethnomusicology",
@@ -1438,7 +1438,7 @@
     "code": "MUS 270D",
     "raw_prereq": "consent of instructor and completion of MUS 270A-B-C.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Survey of Electronic Music Techniques I",
@@ -1507,21 +1507,21 @@
     "code": "MUS 298",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Advanced Research Projects and Independent Study",
     "code": "MUS 299",
     "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval. (S/U grades permitted.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching",
     "code": "MUS 500",
     "raw_prereq": "graduate standing in music; others by written consent of instructor and department approval. (S/U grade option only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Apprentice Teaching—Nondepartmental",
