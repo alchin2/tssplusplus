@@ -11,6 +11,13 @@ the scraped catalog (`data/catalog/*.json`) and per-course detail
 - `GET /api/courses/{module_id}` -- full detail: catalog fields
   (prereqs, offered flag) joined via `data/offered/<term>.csv`, plus
   live sections/meetings grouped from the `<term>` MongoDB collection.
+- `GET /api/courses/{module_id}/prereqs` -- full transitive prerequisite
+  tree, ported from [ClassGraph](https://github.com/nehalc200/classgraph/tree/main/data/helpers)'s
+  RootNode/ChildNode AST (see `app/prereqs.py`). Recurses into every
+  referenced course's own prereqs; a `visited` set (per path from the
+  root, not global) stops on real cycles instead of recursing forever.
+  Regenerates on every request and upserts a cached copy into the
+  `prereq_graphs` Mongo collection, keyed by course code.
 - `GET /health` -- liveness check.
 
 ## Running it

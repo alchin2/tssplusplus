@@ -12,6 +12,19 @@ class PrereqNode(BaseModel):
     course_id: str | None = None
 
 
+class PrereqGraphNode(BaseModel):
+    """GET /api/courses/{module_id}/prereqs -- the resolved, transitive
+    tree, ported from ClassGraph's RootNode/ChildNode (see
+    app/prereqs.py). `type` is "ROOT" for the single root node and
+    "CHILD" for everything else, including OR-group containers (an OR
+    group is a CHILD node with code=="OR" and its alternatives as
+    children) -- matching ClassGraph's to_dict() shape exactly."""
+
+    code: str
+    type: str
+    children: list["PrereqGraphNode"] = []
+
+
 class CourseSummary(BaseModel):
     """GET /api/courses list item -- lightweight, per the design doc."""
 

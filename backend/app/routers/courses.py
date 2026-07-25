@@ -3,9 +3,10 @@ import re
 from fastapi import APIRouter, HTTPException, Query
 
 from app.catalog import find_by_normalized_code, normalize_code, search_courses
-from app.db import get_courses_collection
+from app.db import get_courses_collection, get_prereq_cache_collection
 from app.offered import get_offered_index
-from app.schemas import CourseDetail, CourseSummary, Meeting, Section
+from app.prereqs import build_prereq_tree
+from app.schemas import CourseDetail, CourseSummary, Meeting, PrereqGraphNode, Section
 
 router = APIRouter(prefix="/api/courses", tags=["courses"])
 
@@ -79,11 +80,10 @@ def _group_sections(raw_rows: list[dict]) -> list[Section]:
     return sections
 
 
-@router.get("/{module_id}", response_model=CourseDetail)
-def get_course_detail(module_id: str):
-    """GET /api/courses/{module_id} -- full detail: catalog fields
-    (joined via the offered-courses CSV, module_id's only link to a
-    catalog code) + live sections/meetings from Mongo."""
+def _resolve_catalog_course(module_id: str) -> dict:
+    """module_id's only link to a catalog code: look it up in the
+    offered-courses CSV (module_id -> code), then find that code's
+    catalog entry."""
     offered_entry = get_offered_index().get(module_id)
     if offered_entry is None:
         raise HTTPException(status_code=404, detail=f"No course offered this term with module_id={module_id}")
@@ -91,6 +91,16 @@ def get_course_detail(module_id: str):
     catalog_course = find_by_normalized_code(normalize_code(offered_entry["code"]))
     if catalog_course is None:
         raise HTTPException(status_code=404, detail=f"module_id={module_id} has no matching catalog entry")
+
+    return catalog_course
+
+
+@router.get("/{module_id}", response_model=CourseDetail)
+def get_course_detail(module_id: str):
+    """GET /api/courses/{module_id} -- full detail: catalog fields
+    (joined via the offered-courses CSV, module_id's only link to a
+    catalog code) + live sections/meetings from Mongo."""
+    catalog_course = _resolve_catalog_course(module_id)
 
     mongo_doc = get_courses_collection().find_one({"module_id": module_id})
     sections = _group_sections(mongo_doc["raw"]) if mongo_doc and mongo_doc.get("raw") else []
@@ -105,3 +115,21 @@ def get_course_detail(module_id: str):
         prerequisites=catalog_course.get("prerequisites", []),
         sections=sections,
     )
+
+
+@router.get("/{module_id}/prereqs", response_model=PrereqGraphNode)
+def get_course_prereqs(module_id: str):
+    """GET /api/courses/{module_id}/prereqs -- full transitive
+    prerequisite graph (see app/prereqs.py). Builds fresh on every
+    request and upserts a cached copy into Mongo, per designdoc.md's
+    Prereq generation/caching."""
+    catalog_course = _resolve_catalog_course(module_id)
+    tree = build_prereq_tree(catalog_course)
+
+    get_prereq_cache_collection().update_one(
+        {"code": tree.code},
+        {"$set": {"code": tree.code, "graph": tree.model_dump()}},
+        upsert=True,
+    )
+
+    return tree
