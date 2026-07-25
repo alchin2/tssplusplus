@@ -103,7 +103,9 @@ To get a local copy up and running follow these steps.
 - [x] Static catalog scraper
 - [x] Dynamic TSS Scraper
 - [x] MongoDB setup
-- [ ] Initial UI/UX Design
+- [x] Initial UI/UX Design
+- [x] Set up api Endpoints
+- [ ] Connect frontend + backend
 - [ ] Class Search Feature
 - [ ] Course Planner Feature
 - [ ] Prerequisite Viewer Feature
