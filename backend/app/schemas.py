@@ -1,0 +1,57 @@
+from __future__ import annotations
+
+from pydantic import BaseModel
+
+
+class PrereqNode(BaseModel):
+    """Mirrors catalog_scraper's 2-level prerequisite AST shape:
+    {type: "AND"|"OR"|"COURSE", items: [...], course_id: "..."}."""
+
+    type: str
+    items: list["PrereqNode"] | None = None
+    course_id: str | None = None
+
+
+class CourseSummary(BaseModel):
+    """GET /api/courses list item -- lightweight, per the design doc."""
+
+    code: str
+    name: str
+    dept: str
+    offered_this_qtr: bool
+
+
+class Meeting(BaseModel):
+    event_objid: str | None = None
+    teaching_method: str | None = None
+    teaching_method_text: str | None = None
+    instructor_name: str | None = None
+    instructor_email: str | None = None
+    location: str | None = None
+    sched: str | None = None
+    begin_date: str | None = None
+    end_date: str | None = None
+
+
+class Section(BaseModel):
+    event_pkg_objid: str | None = None
+    section_code: str | None = None
+    section_label: str | None = None
+    limit: int | None = None
+    seats_available: int | None = None
+    num_on_waitlist: int | None = None
+    meetings: list[Meeting] = []
+
+
+class CourseDetail(BaseModel):
+    """GET /api/courses/{module_id} -- catalog fields + live
+    sections/meetings, per the design doc."""
+
+    module_id: str
+    code: str
+    name: str
+    dept: str
+    offered_this_qtr: bool
+    raw_prereq: str | None = None
+    prerequisites: list[PrereqNode] = []
+    sections: list[Section] = []
