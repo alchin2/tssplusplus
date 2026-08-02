@@ -56,11 +56,11 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
                 </td>
                 <td className="border border-[#c0c0c0] px-1 py-1 text-center">
                   {conflict
-                    ? <span className="text-red-700 text-[10px] flex items-center gap-0.5"><AlertCircle className="w-3 h-3" />Conflict</span>
+                    ? <span className="text-red-700 text-[0.769rem] flex items-center gap-0.5"><AlertCircle className="w-3 h-3" />Conflict</span>
                     : alreadyPlanned
-                    ? <span className="text-green-700 text-[10px]">✓</span>
+                    ? <span className="text-green-700 text-[0.769rem]">✓</span>
                     : <button onClick={() => onAdd(course, sec)}
-                        className="px-1.5 py-0.5 text-[10px] font-bold cursor-pointer"
+                        className="px-1.5 py-0.5 text-[0.769rem] font-bold cursor-pointer"
                         style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
                         ADD
                       </button>
@@ -71,7 +71,7 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
           })}
         </tbody>
       </table>
-      <div className="mt-1.5 text-[10px] text-gray-500 flex gap-3">
+      <div className="mt-1.5 text-[0.769rem] text-gray-500 flex gap-3">
         <span>Total: <strong>{totalEnrolled}</strong>/{totalSeats}</span>
         <span style={{ color: "#006666" }}>Available: <strong>{totalSeats - totalEnrolled}</strong></span>
       </div>

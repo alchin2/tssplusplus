@@ -27,8 +27,8 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
               <div key={course.id} className="flex items-center gap-2 px-2 py-1.5 border border-[#c0c0c0] bg-white text-xs">
                 <div className="w-2 min-h-[28px] flex-shrink-0 rounded-sm self-stretch" style={{ backgroundColor: course.color }} />
                 <div className="flex-1 min-w-0">
-                  <p className="font-mono font-bold text-[11px]">{course.code} – {section.id}</p>
-                  <p className="text-[10px] text-gray-500 truncate">{section.instructor}</p>
+                  <p className="font-mono font-bold text-[0.846rem]">{course.code} – {section.id}</p>
+                  <p className="text-[0.769rem] text-gray-500 truncate">{section.instructor}</p>
                 </div>
                 <button onClick={() => onRemove(course.id)} className="text-gray-400 hover:text-red-600 transition-colors">
                   <X className="w-3.5 h-3.5" />
@@ -57,12 +57,12 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
           <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0] flex items-center justify-center">
             <div className="flex flex-col gap-px">
               <button onClick={() => setFinalsMode(false)}
-                className="text-[8px] font-bold px-1.5 py-0.5 transition-colors"
+                className="text-[0.615rem] font-bold px-1.5 py-0.5 transition-colors"
                 style={{ backgroundColor: !finalsMode ? "#0b4a67" : "#dde1ec", color: !finalsMode ? "#fff" : "#4a5875" }}>
                 REG
               </button>
               <button onClick={() => setFinalsMode(true)}
-                className="text-[8px] font-bold px-1.5 py-0.5 transition-colors"
+                className="text-[0.615rem] font-bold px-1.5 py-0.5 transition-colors"
                 style={{ backgroundColor: finalsMode ? "#6261c0" : "#dde1ec", color: finalsMode ? "#fff" : "#4a5875" }}>
                 FIN
               </button>
@@ -71,7 +71,7 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
           {finalsMode ? (
             <div className="flex-1 grid" style={{ gridTemplateColumns: `repeat(6, 1fr)` }}>
               {FINALS_COLS.map((d, i) => (
-                <div key={i} className="py-1.5 px-1 text-center text-[10px] font-bold border-r border-[#c0c0c0] last:border-r-0 leading-tight" style={{ color: "#6261c0" }}>
+                <div key={i} className="py-1.5 px-1 text-center text-[0.769rem] font-bold border-r border-[#c0c0c0] last:border-r-0 leading-tight" style={{ color: "#6261c0" }}>
                   {d.split(" ").map((p, j) => <div key={j}>{p}</div>)}
                 </div>
               ))}
@@ -90,7 +90,7 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
           <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0]">
             {hours.map(h => (
               <div key={h} style={{ height: HOUR_H }} className="relative border-b border-[#e0e0e0]">
-                <span className="absolute right-1.5 top-0 text-[9px] text-gray-400 font-mono">{fmt(h)}</span>
+                <span className="absolute right-1.5 top-0 text-[0.692rem] text-gray-400 font-mono">{fmt(h)}</span>
               </div>
             ))}
           </div>
@@ -108,12 +108,12 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
                       const top = (fi!.startH - START) * HOUR_H + 1;
                       const h   = (fi!.endH - fi!.startH) * HOUR_H - 2;
                       return (
-                        <div key={i} className="absolute inset-x-0.5 text-white text-[10px] overflow-hidden border border-white/30 px-1.5 py-1"
+                        <div key={i} className="absolute inset-x-0.5 text-white text-[0.769rem] overflow-hidden border border-white/30 px-1.5 py-1"
                           style={{ top, height: h, backgroundColor: course.color }}>
                           <div className="font-mono font-bold leading-tight">{course.code}</div>
-                          <div className="opacity-90 font-bold text-[9px] leading-tight">FINAL</div>
-                          <div className="opacity-75 leading-tight text-[9px]">{lec?.room ?? "TBD"}</div>
-                          <div className="opacity-75 leading-tight text-[9px]">{fmt(fi!.startH)}–{fmt(fi!.endH)}</div>
+                          <div className="opacity-90 font-bold text-[0.692rem] leading-tight">FINAL</div>
+                          <div className="opacity-75 leading-tight text-[0.692rem]">{lec?.room ?? "TBD"}</div>
+                          <div className="opacity-75 leading-tight text-[0.692rem]">{fmt(fi!.startH)}–{fmt(fi!.endH)}</div>
                         </div>
                       );
                     })}
@@ -132,7 +132,7 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
                       const h = (m.end - m.start) * HOUR_H - 2;
                       return (
                         <div key={`${course.id}-${section.id}-${m.type}`}
-                          className="absolute inset-x-0.5 text-white text-[10px] overflow-hidden border border-white/30 px-1 py-0.5"
+                          className="absolute inset-x-0.5 text-white text-[0.769rem] overflow-hidden border border-white/30 px-1 py-0.5"
                           style={{ top, height: h, backgroundColor: course.color }}>
                           <div className="font-mono font-bold leading-tight">{course.code}</div>
                           <div className="opacity-80 leading-tight">{m.type} · {m.room}</div>

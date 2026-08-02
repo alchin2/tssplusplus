@@ -1,7 +1,11 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --font-size: 13px;
+  /* Fluid root font: 13px (the design's dense baseline) up to ~1200px
+     viewports, then scales continuously so the whole rem-based UI reads
+     comfortably on big displays — ~15.8px at 1728, ~19px at 2378 (large
+     monitor at dpr 1), capped at 20px from ~2570px up. */
+  --font-size: clamp(13px, 0.51vw + 6.9px, 20px);
   --background: #dde1ec;
   --foreground: #000000;
   --card: #ffffff;

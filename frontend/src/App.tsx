@@ -73,7 +73,7 @@ export default function App() {
   const showPanel = selectedCourse !== null && mainView === "search";
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: 13, backgroundColor: "#dde1ec" }}>
+    <div className="min-h-screen flex flex-col" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
       <Toaster position="top-right" richColors />
 
       {/* Nav */}
@@ -109,7 +109,7 @@ export default function App() {
         <div className="ml-auto flex items-center gap-1 px-3">
           {plannedItems.length > 0 && (
             <button onClick={() => { setMainView("planner"); setSelected(null); }}
-              className="flex items-center gap-1.5 px-2.5 py-1 text-white text-[10px] font-bold mr-1"
+              className="flex items-center gap-1.5 px-2.5 py-1 text-white text-[0.769rem] font-bold mr-1"
               style={{ backgroundColor: "#d56a03", border: "1px solid #c86000" }}>
               <Calendar className="w-3 h-3" />
               {plannedItems.length} course{plannedItems.length !== 1 ? "s" : ""}
@@ -204,7 +204,7 @@ export default function App() {
         ].map(({ id, label, icon: Icon }) => (
           <button key={id}
             onClick={() => id === "search" ? goSearch() : (setMainView(id), setSelected(null))}
-            className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[10px] font-bold transition-colors"
+            className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold transition-colors"
             style={{ color: mainView === id ? "#f5c842" : "rgba(255,255,255,0.7)" }}>
             <Icon className="w-4 h-4" />
             {label}
