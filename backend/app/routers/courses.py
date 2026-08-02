@@ -1,10 +1,11 @@
 import re
 
 from fastapi import APIRouter, HTTPException, Query
+from pymongo.errors import PyMongoError
 
 from app.catalog import find_by_normalized_code, normalize_code, search_courses
 from app.db import get_courses_collection, get_prereq_cache_collection
-from app.offered import get_offered_index
+from app.offered import get_code_to_module_id_index, get_offered_index
 from app.prereqs import build_prereq_tree
 from app.schemas import CourseDetail, CourseSummary, Meeting, PrereqGraphNode, Section
 
@@ -25,8 +26,15 @@ def list_courses(
     """GET /api/courses?dept=CSE&offered=true&q=<query> -- search/filter
     over the catalog, returning a lightweight course list."""
     courses = search_courses(dept=dept, offered=offered, q=q)
+    code_to_module_id = get_code_to_module_id_index()
     return [
-        CourseSummary(code=c["code"], name=c["name"], dept=c["dept"], offered_this_qtr=c["offered_this_qtr"])
+        CourseSummary(
+            module_id=code_to_module_id.get(normalize_code(c["code"])),
+            code=c["code"],
+            name=c["name"],
+            dept=c["dept"],
+            offered_this_qtr=c["offered_this_qtr"],
+        )
         for c in courses
     ]
 
@@ -102,7 +110,15 @@ def get_course_detail(module_id: str):
     catalog code) + live sections/meetings from Mongo."""
     catalog_course = _resolve_catalog_course(module_id)
 
-    mongo_doc = get_courses_collection().find_one({"module_id": module_id})
+    try:
+        mongo_doc = get_courses_collection().find_one({"module_id": module_id})
+    except PyMongoError as exc:
+        # Mongo unreachable/misconfigured (e.g. Atlas TLS handshake or
+        # server-selection timeout) -- surface a clean 503 rather than a
+        # raw 500, since live sections can't be served without it.
+        raise HTTPException(
+            status_code=503, detail="Section data is temporarily unavailable (database unreachable)"
+        ) from exc
     sections = _group_sections(mongo_doc["raw"]) if mongo_doc and mongo_doc.get("raw") else []
 
     return CourseDetail(
