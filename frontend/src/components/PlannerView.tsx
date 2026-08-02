@@ -1,10 +1,17 @@
 import { Download, Trash2, X } from "lucide-react";
-import { DAY_CODES, DAY_LABELS, fmt } from "../lib/schedule";
+import { useMemo, useState } from "react";
+import { DAY_CODES, DAY_LABELS, FINALS_COLS, computeFinal, fmt } from "../lib/schedule";
 import type { PlannedItem } from "../types";
 
 export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemove: (id: string) => void }) {
   const HOUR_H = 52, START = 8, END = 21;
   const hours = Array.from({ length: END - START }, (_, i) => START + i);
+  const [finalsMode, setFinalsMode] = useState(false);
+
+  const finalsItems = useMemo(() =>
+    items.map(({ course, section }) => ({ course, section, fi: computeFinal(section) }))
+      .filter(x => x.fi),
+    [items]);
 
   return (
     <div className="flex h-[calc(100vh-88px)]">
@@ -45,14 +52,40 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
       </aside>
 
       <div className="flex-1 overflow-auto">
-        <div className="sticky top-0 z-10 border-b border-[#c0c0c0] bg-[#ececfa] flex">
-          <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0]" />
-          <div className="flex-1 grid grid-cols-5">
-            {DAY_LABELS.map(d => (
-              <div key={d} className="py-1.5 text-center text-xs font-bold border-r border-[#c0c0c0] last:border-r-0" style={{ color: "#0b4a67" }}>{d}</div>
-            ))}
+        {/* Week toggle */}
+        <div className="sticky top-0 z-10 border-b border-[#c0c0c0] bg-[#ececfa] flex items-stretch">
+          <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0] flex items-center justify-center">
+            <div className="flex flex-col gap-px">
+              <button onClick={() => setFinalsMode(false)}
+                className="text-[8px] font-bold px-1.5 py-0.5 transition-colors"
+                style={{ backgroundColor: !finalsMode ? "#0b4a67" : "#dde1ec", color: !finalsMode ? "#fff" : "#4a5875" }}>
+                REG
+              </button>
+              <button onClick={() => setFinalsMode(true)}
+                className="text-[8px] font-bold px-1.5 py-0.5 transition-colors"
+                style={{ backgroundColor: finalsMode ? "#6261c0" : "#dde1ec", color: finalsMode ? "#fff" : "#4a5875" }}>
+                FIN
+              </button>
+            </div>
           </div>
+          {finalsMode ? (
+            <div className="flex-1 grid" style={{ gridTemplateColumns: `repeat(6, 1fr)` }}>
+              {FINALS_COLS.map((d, i) => (
+                <div key={i} className="py-1.5 px-1 text-center text-[10px] font-bold border-r border-[#c0c0c0] last:border-r-0 leading-tight" style={{ color: "#6261c0" }}>
+                  {d.split(" ").map((p, j) => <div key={j}>{p}</div>)}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="flex-1 grid grid-cols-5">
+              {DAY_LABELS.map(d => (
+                <div key={d} className="py-1.5 text-center text-xs font-bold border-r border-[#c0c0c0] last:border-r-0" style={{ color: "#0b4a67" }}>{d}</div>
+              ))}
+            </div>
+          )}
         </div>
+
+        {/* Calendar body */}
         <div className="flex">
           <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0]">
             {hours.map(h => (
@@ -61,27 +94,56 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
               </div>
             ))}
           </div>
-          <div className="flex-1 grid grid-cols-5" style={{ height: hours.length * HOUR_H }}>
-            {DAY_CODES.map(dc => (
-              <div key={dc} className="relative border-r border-[#c0c0c0] last:border-r-0">
-                {hours.map((_, hi) => <div key={hi} className="absolute inset-x-0 border-b border-[#e8e8e8]" style={{ top: hi * HOUR_H }} />)}
-                {items.flatMap(({ course, section }) =>
-                  section.meetings.filter(m => m.days.includes(dc)).map(m => {
-                    const top = (m.start - START) * HOUR_H + 1;
-                    const h = (m.end - m.start) * HOUR_H - 2;
-                    return (
-                      <div key={`${course.id}-${section.id}-${m.type}`}
-                        className="absolute inset-x-0.5 text-white text-[10px] overflow-hidden border border-white/30 px-1 py-0.5"
-                        style={{ top, height: h, backgroundColor: course.color }}>
-                        <div className="font-mono font-bold leading-tight">{course.code}</div>
-                        <div className="opacity-80 leading-tight">{m.type} · {m.room}</div>
-                      </div>
-                    );
-                  })
-                )}
-              </div>
-            ))}
-          </div>
+
+          {finalsMode ? (
+            /* ── Finals week grid (6 cols) ── */
+            <div className="flex-1 grid" style={{ gridTemplateColumns: `repeat(6, 1fr)`, height: hours.length * HOUR_H }}>
+              {FINALS_COLS.map((_, colIdx) => (
+                <div key={colIdx} className="relative border-r border-[#c0c0c0] last:border-r-0">
+                  {hours.map((_, hi) => <div key={hi} className="absolute inset-x-0 border-b border-[#e8e8e8]" style={{ top: hi * HOUR_H }} />)}
+                  {finalsItems
+                    .filter(({ fi }) => fi!.colIdx === colIdx)
+                    .map(({ course, section, fi }, i) => {
+                      const lec = section.meetings.find(m => m.type === "LE");
+                      const top = (fi!.startH - START) * HOUR_H + 1;
+                      const h   = (fi!.endH - fi!.startH) * HOUR_H - 2;
+                      return (
+                        <div key={i} className="absolute inset-x-0.5 text-white text-[10px] overflow-hidden border border-white/30 px-1.5 py-1"
+                          style={{ top, height: h, backgroundColor: course.color }}>
+                          <div className="font-mono font-bold leading-tight">{course.code}</div>
+                          <div className="opacity-90 font-bold text-[9px] leading-tight">FINAL</div>
+                          <div className="opacity-75 leading-tight text-[9px]">{lec?.room ?? "TBD"}</div>
+                          <div className="opacity-75 leading-tight text-[9px]">{fmt(fi!.startH)}–{fmt(fi!.endH)}</div>
+                        </div>
+                      );
+                    })}
+                </div>
+              ))}
+            </div>
+          ) : (
+            /* ── Regular week grid (5 cols) ── */
+            <div className="flex-1 grid grid-cols-5" style={{ height: hours.length * HOUR_H }}>
+              {DAY_CODES.map(dc => (
+                <div key={dc} className="relative border-r border-[#c0c0c0] last:border-r-0">
+                  {hours.map((_, hi) => <div key={hi} className="absolute inset-x-0 border-b border-[#e8e8e8]" style={{ top: hi * HOUR_H }} />)}
+                  {items.flatMap(({ course, section }) =>
+                    section.meetings.filter(m => m.days.includes(dc)).map(m => {
+                      const top = (m.start - START) * HOUR_H + 1;
+                      const h = (m.end - m.start) * HOUR_H - 2;
+                      return (
+                        <div key={`${course.id}-${section.id}-${m.type}`}
+                          className="absolute inset-x-0.5 text-white text-[10px] overflow-hidden border border-white/30 px-1 py-0.5"
+                          style={{ top, height: h, backgroundColor: course.color }}>
+                          <div className="font-mono font-bold leading-tight">{course.code}</div>
+                          <div className="opacity-80 leading-tight">{m.type} · {m.room}</div>
+                        </div>
+                      );
+                    })
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
