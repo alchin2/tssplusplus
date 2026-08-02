@@ -10,7 +10,7 @@ import requests
 from tools.session import get
 
 PAGE_SIZE = 100
-REQUEST_DELAY_SEC = 0.3
+REQUEST_DELAY_SEC = 0.2
 
 
 def fetch_titles(session: requests.Session, peryr: str, perid: str, max_records: int | None = None):

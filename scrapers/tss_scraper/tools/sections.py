@@ -22,7 +22,7 @@ from tools.events_parser import parse_sched
 from tools.session import get
 
 PAGE_SIZE = 100
-REQUEST_DELAY_SEC = 0.3
+REQUEST_DELAY_SEC = 0.2
 
 # Section code is the parenthesized suffix of EventPkgText, e.g.
 # "MATH-010B (P-001-001)" -> "P-001-001".

@@ -16,6 +16,14 @@ BASE = (
 COOKIE_FILE = Path(__file__).resolve().parent.parent / "cookie.txt"
 
 
+class SessionExpiredError(RuntimeError):
+    """Raised when TSS answers 401/403, i.e. the login cookie has expired.
+
+    An exception (not sys.exit) so callers control the shutdown: raising
+    SystemExit inside a worker thread would only kill that thread and let
+    the rest of a scrape grind on against a dead session."""
+
+
 def load_cookie() -> str:
     if not COOKIE_FILE.exists():
         sys.exit(
@@ -49,7 +57,7 @@ def get(session: requests.Session, path: str, params: dict | None = None) -> req
     full_params = {**(params or {}), "sap-client": "500"}
     resp = session.get(f"{BASE}/{path}", params=full_params, timeout=30)
     if resp.status_code in (401, 403):
-        sys.exit(
+        raise SessionExpiredError(
             f"Got HTTP {resp.status_code} - your session cookie has likely "
             f"expired. Refresh {COOKIE_FILE.name} and try again."
         )

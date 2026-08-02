@@ -5,6 +5,7 @@ import pytest
 import requests
 
 import main as main_module
+from tools.session import SessionExpiredError
 from main import (
     filter_titles,
     is_excluded_code,
@@ -145,19 +146,24 @@ def test_split_subject_code_empty_string():
 
 
 # --- scrape_all_sections ------------------------------------------------------
+# Workers build their own thread-local sessions, so every test also patches
+# main.build_session. Tests exercising a specific per-course side_effect
+# ordering pass workers=1 for determinism.
 
 
 def make_row(code, module_id, name="Some Course"):
     return {"module_id": module_id, "code": code, "name": name}
 
 
+@patch("main.build_session")
 @patch("main.upsert_course_document")
 @patch("main.ensure_indexes")
 @patch("main.get_collection")
 @patch("main.scrape_course_sections")
 @patch("main.read_titles_csv")
 def test_scrape_all_sections_scrapes_and_upserts_every_course(
-    mock_read_titles_csv, mock_scrape_course, mock_get_collection, mock_ensure_indexes, mock_upsert, monkeypatch
+    mock_read_titles_csv, mock_scrape_course, mock_get_collection, mock_ensure_indexes,
+    mock_upsert, mock_build_session, monkeypatch,
 ):
     monkeypatch.setattr(main_module.time, "sleep", lambda s: None)
     mock_read_titles_csv.return_value = [
@@ -169,7 +175,7 @@ def test_scrape_all_sections_scrapes_and_upserts_every_course(
     fake_collection = MagicMock()
     mock_get_collection.return_value = fake_collection
 
-    scraped = scrape_all_sections(object(), "2026", "2")
+    scraped = scrape_all_sections("2026", "2", workers=2)
 
     assert scraped == 3
     assert mock_scrape_course.call_count == 3
@@ -177,20 +183,22 @@ def test_scrape_all_sections_scrapes_and_upserts_every_course(
     assert mock_upsert.call_count == 3
 
 
+@patch("main.build_session")
 @patch("main.upsert_course_document")
 @patch("main.ensure_indexes")
 @patch("main.get_collection")
 @patch("main.scrape_course_sections")
 @patch("main.read_titles_csv")
 def test_scrape_all_sections_skips_course_on_network_error_but_continues(
-    mock_read_titles_csv, mock_scrape_course, mock_get_collection, mock_ensure_indexes, mock_upsert, monkeypatch
+    mock_read_titles_csv, mock_scrape_course, mock_get_collection, mock_ensure_indexes,
+    mock_upsert, mock_build_session, monkeypatch,
 ):
     monkeypatch.setattr(main_module.time, "sleep", lambda s: None)
     mock_read_titles_csv.return_value = [make_row("CSE-100", "1"), make_row("CSE-101", "2")]
     mock_scrape_course.side_effect = [requests.RequestException("boom"), {"module_id": "2"}]
     mock_get_collection.return_value = MagicMock()
 
-    scraped = scrape_all_sections(object(), "2026", "2")
+    scraped = scrape_all_sections("2026", "2", workers=1)
 
     assert scraped == 1
     assert mock_upsert.call_count == 1
@@ -203,6 +211,32 @@ def test_scrape_all_sections_no_titles(mock_read_titles_csv, mock_get_collection
     mock_read_titles_csv.return_value = []
     mock_get_collection.return_value = MagicMock()
 
-    scraped = scrape_all_sections(object(), "2026", "2")
+    scraped = scrape_all_sections("2026", "2")
 
     assert scraped == 0
+
+
+@patch("main.build_session")
+@patch("main.upsert_course_document")
+@patch("main.ensure_indexes")
+@patch("main.get_collection")
+@patch("main.scrape_course_sections")
+@patch("main.read_titles_csv")
+def test_scrape_all_sections_aborts_run_when_session_expires(
+    mock_read_titles_csv, mock_scrape_course, mock_get_collection, mock_ensure_indexes,
+    mock_upsert, mock_build_session, monkeypatch,
+):
+    monkeypatch.setattr(main_module.time, "sleep", lambda s: None)
+    mock_read_titles_csv.return_value = [
+        make_row("CSE-100", "1"),
+        make_row("MATH-010B", "2"),
+        make_row("CSE-101", "3"),
+    ]
+    mock_scrape_course.side_effect = SessionExpiredError("cookie expired")
+    mock_get_collection.return_value = MagicMock()
+
+    with pytest.raises(SystemExit) as exc_info:
+        scrape_all_sections("2026", "2", workers=1)
+
+    assert "cookie expired" in str(exc_info.value)
+    mock_upsert.assert_not_called()
