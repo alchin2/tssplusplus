@@ -21,10 +21,10 @@ export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
         <span className="font-mono font-bold text-white text-xs">{course.code}</span>
         <span className="text-white/75 text-xs truncate">{course.title}</span>
         <div className="ml-auto flex items-center gap-2 flex-shrink-0">
-          <span className="text-white/60 text-[11px]">{course.units}u · {course.dept}</span>
+          <span className="text-white/60 text-[0.846rem]">{course.units}u · {course.dept}</span>
           {course.offeredThisQuarter
-            ? <span className="text-[10px] font-bold px-1.5 py-0.5" style={{ backgroundColor: "#d56a03", color: "#fff" }}>SP25</span>
-            : <span className="text-[10px] font-bold px-1.5 py-0.5 bg-gray-500 text-white">NOT OFFERED</span>}
+            ? <span className="text-[0.769rem] font-bold px-1.5 py-0.5" style={{ backgroundColor: "#d56a03", color: "#fff" }}>SP25</span>
+            : <span className="text-[0.769rem] font-bold px-1.5 py-0.5 bg-gray-500 text-white">NOT OFFERED</span>}
         </div>
       </div>
 
@@ -44,7 +44,7 @@ export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
           <PrereqGraph courseCode={course.code} />
 
           {PREREQS[course.code] && (
-            <div className="mt-2 text-[11px] text-gray-600">
+            <div className="mt-2 text-[0.846rem] text-gray-600">
               <span className="font-bold">Requires: </span>
               {PREREQS[course.code].map((req, i) => (
                 <span key={i}>

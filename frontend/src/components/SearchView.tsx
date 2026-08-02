@@ -111,7 +111,7 @@ export function SearchView({ query, onQuery, deptFilter, onDeptFilter, offeredFi
         </div>
       )}
 
-      <div className="mt-2 text-[10px] text-gray-500">
+      <div className="mt-2 text-[0.769rem] text-gray-500">
         Showing {courses.length} of {COURSES.length} courses · Spring 2025 · UC San Diego
       </div>
     </div>

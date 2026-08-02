@@ -40,17 +40,17 @@ export function PrereqGraph({ courseCode }: { courseCode: string }) {
     <div className="border border-[#c0c0c0] bg-[#f7f8fc] overflow-hidden">
       {/* Toolbar */}
       <div className="flex items-center justify-between px-3 py-1.5 border-b border-[#c0c0c0] bg-[#ececfa]">
-        <span className="text-[11px] font-bold" style={{ color: "#0b4a67" }}>
+        <span className="text-[0.846rem] font-bold" style={{ color: "#0b4a67" }}>
           {totalDepth + 1} level{totalDepth !== 0 ? "s" : ""} shown · depth limit {MAX_D}
         </span>
         <div className="flex items-center gap-2">
           {expanded.size > 0 && (
             <button onClick={() => setExpanded(new Set())}
-              className="text-[10px] px-2 py-0.5 border border-[#aaa] bg-white text-gray-600 hover:bg-gray-100">
+              className="text-[0.769rem] px-2 py-0.5 border border-[#aaa] bg-white text-gray-600 hover:bg-gray-100">
               Collapse all
             </button>
           )}
-          <span className="text-[10px] text-gray-500">
+          <span className="text-[0.769rem] text-gray-500">
             Click <span className="font-bold text-indigo-600">+</span> to expand
           </span>
         </div>
@@ -157,7 +157,7 @@ export function PrereqGraph({ courseCode }: { courseCode: string }) {
         </div>
       </div>
 
-      <div className="flex items-center gap-4 px-3 py-1.5 bg-white border-t border-[#c0c0c0] text-[10px] text-gray-600 flex-wrap">
+      <div className="flex items-center gap-4 px-3 py-1.5 bg-white border-t border-[#c0c0c0] text-[0.769rem] text-gray-600 flex-wrap">
         {[
           { fill: "#0b4a67", stroke: "#083858", label: "Selected" },
           { fill: "#dcfce7", stroke: "#16a34a", label: "Completed" },

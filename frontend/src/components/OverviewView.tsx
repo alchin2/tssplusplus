@@ -30,7 +30,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
       <div className="flex-shrink-0 px-6 py-3 border-b border-[#b0b0c8] flex items-center gap-0" style={{ backgroundColor: "#6261c0" }}>
         <div className="pr-6">
           <div className="text-white font-bold text-sm">My Schedule Overview</div>
-          <div className="text-white/60 text-[11px]">Spring 2025</div>
+          <div className="text-white/60 text-[0.846rem]">Spring 2025</div>
         </div>
         {[
           { v: items.length,              l: "Courses"      },
@@ -41,7 +41,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
         ].map(({ v, l }) => (
           <div key={l} className="border-l border-white/25 px-6">
             <div className="text-white font-bold text-xl leading-none">{v}</div>
-            <div className="text-white/55 text-[10px] mt-1">{l}</div>
+            <div className="text-white/55 text-[0.769rem] mt-1">{l}</div>
           </div>
         ))}
       </div>
@@ -65,13 +65,13 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-mono font-bold text-base" style={{ color: "#0b4a67" }}>{course.code}</span>
-                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm" style={{ backgroundColor: course.color + "22", color: course.color }}>{course.dept}</span>
-                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm bg-gray-100 text-gray-500">{course.units} units</span>
+                        <span className="text-[0.769rem] font-bold px-1.5 py-0.5 rounded-sm" style={{ backgroundColor: course.color + "22", color: course.color }}>{course.dept}</span>
+                        <span className="text-[0.769rem] font-bold px-1.5 py-0.5 rounded-sm bg-gray-100 text-gray-500">{course.units} units</span>
                       </div>
                       <p className="text-sm font-bold text-gray-700 mt-0.5 leading-snug">{course.title}</p>
                     </div>
                     {course.offeredThisQuarter && (
-                      <span className="text-[10px] font-bold px-2 py-0.5 flex-shrink-0" style={{ backgroundColor: "#d56a03", color: "#fff" }}>SP25</span>
+                      <span className="text-[0.769rem] font-bold px-2 py-0.5 flex-shrink-0" style={{ backgroundColor: "#d56a03", color: "#fff" }}>SP25</span>
                     )}
                   </div>
                 </div>
@@ -82,11 +82,11 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                 <div style={{ width: 5, backgroundColor: course.color, flexShrink: 0 }} />
                 <div className="flex-1 grid grid-cols-2 divide-x divide-[#e8e8f4] border-b border-[#e8e8f4]">
                   <div className="px-4 py-2.5">
-                    <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-0.5">Professor</div>
+                    <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-0.5">Professor</div>
                     <div className="text-xs font-bold text-gray-700">{section.instructor}</div>
                   </div>
                   <div className="px-4 py-2.5">
-                    <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-0.5">Section</div>
+                    <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-0.5">Section</div>
                     <div className="text-xs font-bold" style={{ color: "#6261c0" }}>§ {section.id}</div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
               <div className="flex items-stretch">
                 <div style={{ width: 5, backgroundColor: course.color, flexShrink: 0 }} />
                 <div className="flex-1 px-4 py-2.5 border-b border-[#e8e8f4]">
-                  <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-1.5">Enrollment</div>
+                  <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-1.5">Enrollment</div>
                   <div className="flex items-center gap-3">
                     <div className="flex-1 h-2.5 rounded-full overflow-hidden" style={{ backgroundColor: "#e8e8f0" }}>
                       <div className="h-full rounded-full transition-all" style={{
@@ -107,11 +107,11 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                     <span className="text-xs font-bold text-gray-700 whitespace-nowrap">
                       {section.enrolled} / {section.capacity}
                     </span>
-                    <span className="text-[10px] font-bold whitespace-nowrap" style={{ color: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a" }}>
+                    <span className="text-[0.769rem] font-bold whitespace-nowrap" style={{ color: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a" }}>
                       {Math.round(fill * 100)}%
                     </span>
                     {section.waitlist > 0 && (
-                      <span className="text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ backgroundColor: "#fef3c7", color: "#b45309" }}>
+                      <span className="text-[0.769rem] px-1.5 py-0.5 rounded font-bold" style={{ backgroundColor: "#fef3c7", color: "#b45309" }}>
                         WL: {section.waitlist}
                       </span>
                     )}
@@ -123,15 +123,15 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
               <div className="flex items-stretch">
                 <div style={{ width: 5, backgroundColor: course.color, flexShrink: 0 }} />
                 <div className="flex-1 px-4 py-2.5 border-b border-[#e8e8f4]">
-                  <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-1.5">Schedule</div>
-                  <table className="w-full text-[11px] border-collapse">
+                  <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-1.5">Schedule</div>
+                  <table className="w-full text-[0.846rem] border-collapse">
                     <tbody>
                       {section.meetings.map((m, i) => (
                         <tr key={i} className="border-b border-[#f0f0f8] last:border-0">
                           <td className="py-1 pr-3 font-bold" style={{ color: "#6261c0" }}>{m.type}</td>
                           <td className="py-1 pr-3 font-bold text-gray-600">{m.days.join(" ")}</td>
                           <td className="py-1 pr-3 text-gray-600">{fmt(m.start)} – {fmt(m.end)}</td>
-                          <td className="py-1 text-gray-500 font-mono text-[10px]">{m.room}</td>
+                          <td className="py-1 text-gray-500 font-mono text-[0.769rem]">{m.room}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -143,15 +143,15 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
               <div className="flex items-stretch">
                 <div style={{ width: 5, backgroundColor: course.color, flexShrink: 0 }} />
                 <div className="flex-1 px-4 py-2.5" style={{ backgroundColor: fi ? "#faf8ff" : "#fafafa" }}>
-                  <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-1">Final Exam</div>
+                  <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-1">Final Exam</div>
                   {fi ? (
                     <div className="flex items-center gap-3 flex-wrap">
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded" style={{ backgroundColor: "#6261c0", color: "#fff" }}>{fi.dateLabel}</span>
+                      <span className="text-[0.769rem] font-bold px-2 py-0.5 rounded" style={{ backgroundColor: "#6261c0", color: "#fff" }}>{fi.dateLabel}</span>
                       <span className="text-xs text-gray-700 font-bold">{fmt(fi.startH)} – {fmt(fi.endH)}</span>
-                      <span className="text-[11px] text-gray-500 font-mono">{lec?.room ?? "TBD"}</span>
+                      <span className="text-[0.846rem] text-gray-500 font-mono">{lec?.room ?? "TBD"}</span>
                     </div>
                   ) : (
-                    <span className="text-[11px] text-gray-400 italic">Schedule not determined</span>
+                    <span className="text-[0.846rem] text-gray-400 italic">Schedule not determined</span>
                   )}
                 </div>
               </div>
@@ -172,7 +172,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
               <thead>
                 <tr style={{ backgroundColor: "#f0effe" }}>
                   {["Course", "Section", "Professor", "Date", "Time", "Room"].map(h => (
-                    <th key={h} className="text-left px-4 py-2 text-[10px] font-bold border-b border-[#d4d4e4] uppercase tracking-wide" style={{ color: "#6261c0" }}>{h}</th>
+                    <th key={h} className="text-left px-4 py-2 text-[0.769rem] font-bold border-b border-[#d4d4e4] uppercase tracking-wide" style={{ color: "#6261c0" }}>{h}</th>
                   ))}
                 </tr>
               </thead>
@@ -191,7 +191,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                       <td className="px-4 py-2.5 text-gray-600">{section.instructor}</td>
                       <td className="px-4 py-2.5 font-bold text-gray-700">{fi!.dateLabel}</td>
                       <td className="px-4 py-2.5 text-gray-600">{fmt(fi!.startH)} – {fmt(fi!.endH)}</td>
-                      <td className="px-4 py-2.5 text-gray-500 font-mono text-[10px]">{lec?.room ?? "TBD"}</td>
+                      <td className="px-4 py-2.5 text-gray-500 font-mono text-[0.769rem]">{lec?.room ?? "TBD"}</td>
                     </tr>
                   );
                 })}

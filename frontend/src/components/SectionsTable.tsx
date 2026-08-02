@@ -34,29 +34,29 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
             const bg = si % 2 === 0 ? "#ffffff" : "#f5f5fb";
             return (
               <tr key={sec.id} style={{ backgroundColor: conflict ? "#fff0f0" : bg }}>
-                <td className="border border-[#c0c0c0] px-2 py-1 font-mono font-bold text-[11px]">{sec.id}</td>
-                <td className="border border-[#c0c0c0] px-2 py-1 whitespace-nowrap text-[11px]">{sec.instructor}</td>
+                <td className="border border-[#c0c0c0] px-2 py-1 font-mono font-bold text-[0.846rem]">{sec.id}</td>
+                <td className="border border-[#c0c0c0] px-2 py-1 whitespace-nowrap text-[0.846rem]">{sec.instructor}</td>
                 <td className="border border-[#c0c0c0] px-2 py-1">
                   {sec.meetings.map((m, mi) => (
-                    <div key={mi} className="whitespace-nowrap text-[11px]">
+                    <div key={mi} className="whitespace-nowrap text-[0.846rem]">
                       <span className={`font-mono font-bold mr-1 ${m.type === "LE" ? "text-blue-700" : m.type === "DI" ? "text-purple-700" : "text-orange-700"}`}>{m.type}</span>
                       {m.days.join("")} {fmt(m.start)}–{fmt(m.end)} <span className="text-gray-500">{m.room}</span>
                     </div>
                   ))}
                 </td>
-                <td className="border border-[#c0c0c0] px-2 py-1 text-center font-mono text-[11px]">
+                <td className="border border-[#c0c0c0] px-2 py-1 text-center font-mono text-[0.846rem]">
                   <span style={{ color: avail > 0 ? "#006666" : "#cc0000" }}>{avail}</span>/{sec.enrolled}/{sec.capacity}
                 </td>
-                <td className="border border-[#c0c0c0] px-1 py-1 text-center font-mono text-[11px]">
+                <td className="border border-[#c0c0c0] px-1 py-1 text-center font-mono text-[0.846rem]">
                   {sec.waitlist > 0 ? <span style={{ color: "#cc6600" }}>{sec.waitlist}</span> : "—"}
                 </td>
                 <td className="border border-[#c0c0c0] px-1 py-1 text-center">
                   {conflict
-                    ? <span className="text-red-700 text-[10px] flex items-center gap-0.5"><AlertCircle className="w-3 h-3" />Conflict</span>
+                    ? <span className="text-red-700 text-[0.769rem] flex items-center gap-0.5"><AlertCircle className="w-3 h-3" />Conflict</span>
                     : alreadyPlanned
-                    ? <span className="text-green-700 text-[10px]">✓</span>
+                    ? <span className="text-green-700 text-[0.769rem]">✓</span>
                     : <button onClick={() => onAdd(course, sec)}
-                        className="px-1.5 py-0.5 text-[10px] font-bold cursor-pointer"
+                        className="px-1.5 py-0.5 text-[0.769rem] font-bold cursor-pointer"
                         style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
                         ADD
                       </button>
@@ -67,7 +67,7 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
           })}
         </tbody>
       </table>
-      <div className="mt-1.5 text-[10px] text-gray-500 flex gap-3">
+      <div className="mt-1.5 text-[0.769rem] text-gray-500 flex gap-3">
         <span>Total: <strong>{totalEnrolled}</strong>/{totalSeats}</span>
         <span style={{ color: "#006666" }}>Available: <strong>{totalSeats - totalEnrolled}</strong></span>
       </div>
