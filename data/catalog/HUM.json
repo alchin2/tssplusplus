@@ -2,6 +2,7 @@
   {
     "name": "The Ancient Mediterranean World",
     "code": "HUM 1",
+    "description": "Through the study of selected core texts in literature, philosophy, drama, history, and art, this course introduces students to the humanities and the cultures of the ancient Mediterranean that were integral to the formation of the Western intellectual tradition and have helped shape our modern world. Revelle students must take the course for a letter grade.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Rome and the Medieval World",
     "code": "HUM 2",
+    "description": "Through the study of selected core texts, this course explores the history and culture of Rome and the transition from antiquity to the medieval world. It examines the emergence of new ideas and forms of cultural expression in philosophy, literature, religion, and art from several traditions, including the Greco-Roman, Judeo-Christian, Islamic, and Germanic. Revelle students must take the course for a letter grade.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Renaissance, Reformation, and Early Modern Europe",
     "code": "HUM 3",
+    "description": "Through the study of selected core texts, this course explores the revival of classical culture and values, the reaction against medieval ideas concerning the place of human beings in the world, the intellectual and political consequences of the Protestant Reformation, and the philosophical background to the scientific revolution. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 3, HUM 3R, or HUM 3GS.",
     "raw_prereq": "completion of HUM 1 or HUM 2; open to Revelle students only.",
     "prerequisites": [
       {
@@ -42,6 +45,7 @@
   {
     "name": "Renaissance, Reformation, and Early Modern Europe",
     "code": "HUM 3R",
+    "description": "This is a distance education course. Through the study of selected core texts, this course explores the revival of classical culture and values, the reaction against medieval ideas concerning the place of human beings in the world, the intellectual and political consequences of the Protestant Reformation, and the philosophical background to the scientific revolution. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 3, HUM 3R, or HUM 3GS.",
     "raw_prereq": "completion of HUM 1 or HUM 2; open to Revelle students only.",
     "prerequisites": [
       {
@@ -68,6 +72,7 @@
   {
     "name": "Renaissance, Reformation, and Early Modern Europe",
     "code": "HUM 3GS",
+    "description": "Through the study of selected core texts, this course explores the revival of classical culture and values, the reaction against medieval ideas concerning the place of human beings in the world, the intellectual and political consequences of the Protestant Reformation, and the philosophical background to the scientific revolution. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 3, HUM 3R, or HUM 3GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement and acceptance into Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -75,6 +80,7 @@
   {
     "name": "Enlightenment, Romanticism, Revolution",
     "code": "HUM 4",
+    "description": "The Enlightenment’s revisions of traditional thought; the rise of classical liberalism; the era of the first modern political revolutions; Romantic ideas of nature and human life. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 4, HUM 4R, or HUM 4GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -82,6 +88,7 @@
   {
     "name": "Enlightenment, Romanticism, Revolution",
     "code": "HUM 4R",
+    "description": "The Enlightenment’s revisions of traditional thought; the rise of classical liberalism; the era of the first modern political revolutions; Romantic ideas of nature and human life. This course is a distance education course. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 4, HUM 4R, or HUM 4GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -89,6 +96,7 @@
   {
     "name": "Enlightenment, Romanticism, Revolution",
     "code": "HUM 4GS",
+    "description": "This five-week global seminar in Edinburgh will examine the core philosophical, scientific, political, and cultural ideas that formed the basis of the Enlightenment, the romantic movement, and revolutions in Europe and America from the late seventeenth century through the first half of the nineteenth century. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 4, HUM 4R, or HUM 4GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement and acceptance into Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -96,6 +104,7 @@
   {
     "name": "Modern Culture",
     "code": "HUM 5",
+    "description": "Through the study of selected core texts, this course explores challenges to the Western tradition of cultural and political thought brought about by the significant social, political, and cultural changes since the late nineteenth century, such as the world wars, decolonization, technological innovations, and globalization. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 5, HUM 5R, or HUM 5GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -103,6 +112,7 @@
   {
     "name": "Modern Culture",
     "code": "HUM 5R",
+    "description": "This is a distance education course. Through the study of selected core texts, this course explores challenges to the Western tradition of cultural and political thought brought about by the significant social, political, and cultural changes since the late nineteenth century, such as the world wars, decolonization, technological innovations, and globalization. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 5, HUM 5R, or HUM 5GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement; open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -110,6 +120,7 @@
   {
     "name": "Modern Culture",
     "code": "HUM 5GS",
+    "description": "Through the study of selected core texts, this course explores challenges to the Western tradition of cultural and political thought brought about by the significant social, political, and cultural changes since the late nineteenth century, such as the world wars, decolonization, technological innovations, and globalization. Revelle students must take course for letter grade. Students may receive credit for one of the following: HUM 5, HUM 5R, or HUM 5GS.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing requirement and acceptance into Global Seminar Program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -117,6 +128,7 @@
   {
     "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Humanities Perspective",
     "code": "HUM 88",
+    "description": "This experiential course teaches the art of practicing psychological well-being, based on Eastern and Western approaches (e.g., mindfulness, positive psychology, cognitive therapy, neuroscience, theatre and art), from the perspective of the humanities. Each week there is a short lecture on a given topic, combined with workshop-style exercises.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -124,6 +136,7 @@
   {
     "name": "Advanced Topics in the Humanities",
     "code": "HUM 100",
+    "description": "An upper-division course designed to strengthen students’ critical reading and analytical writing skills through engagement with core texts in the humanities on a selected theme. Revelle students must take course for letter grade.",
     "raw_prereq": "open to Revelle students only.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -131,6 +144,7 @@
   {
     "name": "Special Topics in Humanities",
     "code": "HUM 119",
+    "description": "An in-depth study of topics in the humanities. Subject matter varies, focusing on one author, intellectual topic, or specific historical tradition. May be repeated up to three times for credit when topics vary.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -138,6 +152,7 @@
   {
     "name": "Methods of Teaching Humanities",
     "code": "HUM 195",
+    "description": "An introduction to teaching humanities. Students are required to attend weekly discussions on methods of teaching humanities and will teach discussion sections of one of the humanities courses. Attendance at lecture of the course in which the student is participating is required. (P/NP grades only.)",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -145,6 +160,7 @@
   {
     "name": "Special Studies",
     "code": "HUM 199",
+    "description": "Individually guided readings or projects in area of humanities not normally covered in standard curriculum.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -152,6 +168,7 @@
   {
     "name": "Seminar in the Humanities",
     "code": "HUM 200",
+    "description": "Selected topics in the history, literature, and thought of Mediterranean antiquity and its successor-cultures. Emphasis on identifying both common themes and cultural distinctiveness. Discussion of pedagogical approaches to this material. Required of all graduate instructional assistants in the humanities sequence.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false

@@ -2,6 +2,7 @@
   {
     "name": "Culture, Art, and Technology 1",
     "code": "CAT 1",
+    "description": "Lower-division composition course teaching critical reading and drafting by examining how culture, art, and technology have intersected in the past.",
     "raw_prereq": "Sixth College students only; completion of UC Entry Level Writing Requirement.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Culture, Art, and Technology 2",
     "code": "CAT 2",
+    "description": "Lower-division writing-intensive course foregrounding argumentation, revision, and writing as process by examining case studies of culture, art, and technology interacting in the present moment.",
     "raw_prereq": "Sixth College students only; CAT 1.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Writing and Community 1",
     "code": "CAT 2CE",
+    "description": "Lower-division writing-intensive course foregrounding argumentation, revision, and writing as process by examining case studies of culture, art, and technology interacting in the present moment. Incorporates community-engaged learning in a small seminar environment.",
     "raw_prereq": "Sixth College students only; CAT 1; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Culture, Art, and Technology 3",
     "code": "CAT 3",
+    "description": "Lower-division writing- and research-intensive course focusing on collaboration, research, and art-making by speculating on how the relationships between culture, art, and technology will be transformed in the future.",
     "raw_prereq": "Sixth College students only; CAT 2.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Writing and Community 2",
     "code": "CAT 3CE",
+    "description": "Lower-division writing- and research-intensive course focusing on collaboration, research, and art-making by speculating on how the relationships between culture, art, and technology will be transformed in the future. Incorporates community-engaged learning in a small seminar environment.",
     "raw_prereq": "Sixth College students only; CAT 2 or CAT 2CE; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -37,6 +42,7 @@
   {
     "name": "Introduction to Special Projects/Topics",
     "code": "CAT 24",
+    "description": "Lower-division students are introduced to projects/topics exploring the interplay of culture, art, and technology. Topics and projects will vary. May be taken for credit two times.",
     "raw_prereq": "department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Experience Art!—Sixth College Seminar Series",
     "code": "CAT 75",
+    "description": "Seminars are hands-on arts experiences (performances, exhibits, site visits, etc.). Students and faculty attend events together and have discussions before or after, often with guest speakers such as the artists, curators, and/or faculty/graduate students from UC San Diego arts departments. Successful completion of this seminar series satisfies one unit of art making for the Sixth College general education requirements. May be taken for credit two times.",
     "raw_prereq": "Sixth College students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -51,6 +58,7 @@
   {
     "name": "First-year Student Seminar",
     "code": "CAT 87",
+    "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students with preference given to entering first-year students. May be taken for credit four times.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -58,6 +66,7 @@
   {
     "name": "Introduction to Experiential Learning Seminar",
     "code": "CAT 90",
+    "description": "A lower-division seminar to introduce new Sixth College students to experiential learning in a small-group setting. It explores relevant practices in a variety of disciplines and avenues for immersive learning in areas such as community engagement, fieldwork, research, internship, and study abroad. Students will learn to access experiential learning resources and to identify and approach prospective mentors. Recommended preparation for Sixth College’s experiential learning requirement. May be taken for credit three times.",
     "raw_prereq": "Sixth College students only; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -65,6 +74,7 @@
   {
     "name": "Culture, Art, and Technology Lower-Division Group Study",
     "code": "CAT 98",
+    "description": "Course designated for lower-division Sixth College students to have the opportunity to work together as a group or team on a project supervised by a faculty member in a specific department, not included in a regular curriculum, where group emphasis would be more beneficial and constructive then individual special studies. May be taken for credit three times.",
     "raw_prereq": "lower-division standing; cumulative GPA of 3.0.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -72,6 +82,7 @@
   {
     "name": "Sixth College Practicum",
     "code": "CAT 124",
+    "description": "Students initiate, plan, and carry out community-based and/or research-based projects that connect classroom-based experiences and knowledge to the outlying community, and that explicitly explore the interplay of culture, art, and technology. May be taken for credit two times.",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -79,6 +90,7 @@
   {
     "name": "Sixth College Practicum Global Seminar",
     "code": "CAT 124GS",
+    "description": "This course will have students initiate, plan, and carry out research-based and/or community-based projects. These projects will connect classroom-based experiences and knowledge to the outlying community, and explicitly explore the interplay of culture, art, and technology. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -86,6 +98,7 @@
   {
     "name": "Sixth College Practicum Online Global Seminar",
     "code": "CAT 124RS",
+    "description": "Students initiate, plan, and carry out research-based and/or community-based projects that connect classroom-based experiences and knowledge to the outlying community, and that explicitly explore the interplay of culture, art, and technology. This course is a distance education course. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -93,6 +106,7 @@
   {
     "name": "Public Rhetoric and Practical Communication",
     "code": "CAT 125",
+    "description": "Upper-division composition course in public rhetoric and practical communication, including oral presentation, writing in print formats, and digital content creation. This course also focuses on how writing can support and extend experiential learning before, during, or after students complete their experiential learning requirement. Completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students. It is recommended that students pursuing graduate degrees select “Letter Grade” at the time of enrollment. Students will not receive credit for both CAT 125 and CAT 125R.",
     "raw_prereq": "Sixth College students only; upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -100,6 +114,7 @@
   {
     "name": "Public Rhetoric and Practical Communication Global Seminar",
     "code": "CAT 125GS",
+    "description": "Upper-division composition course in public rhetoric and practical communication, including oral presentation, writing in print formats, and digital content-creation. This course also focuses on how writing can support and extend experiential learning before, during, or after students complete their experiential learning requirement. Completion of lower-division writing requirement is preferred but not required. It is recommended that students pursuing graduate degrees select “Letter Grade” at the time of enrollment. This course is a distance education course. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -107,6 +122,7 @@
   {
     "name": "Public Rhetoric and Practical Communication Online",
     "code": "CAT 125R",
+    "description": "Online upper-division composition course in public rhetoric and practical communication, including oral presentation, writing in print formats, and digital content-creation. This course also focuses on how writing can support and extend experiential learning before, during, or after students complete their experiential learning requirement. Completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students. It is recommended that students pursuing graduate degrees select “Letter Grade” at the time of enrollment. Students will not receive credit for both CAT 125R and CAT 125. This course is a distance education course.",
     "raw_prereq": "Sixth College students only; upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -114,6 +130,7 @@
   {
     "name": "Public Rhetoric and Practical Communication Online Global Seminar",
     "code": "CAT 125RS",
+    "description": "Online upper-division composition course in public rhetoric and practical communication, including oral presentation, writing in print formats, and digital content-creation. This course also focuses on how writing can support and extend experiential learning before, during, or after students complete their experiential learning requirement. Completion of lower-division writing requirement is preferred but not required. It is recommended that students pursuing graduate degrees select “Letter Grade” at the time of enrollment. This course is a distance education course. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -121,6 +138,7 @@
   {
     "name": "Senior Seminar in Culture, Art, and Technology",
     "code": "CAT 192",
+    "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in culture, art, and technology (at the upper-division level). Topics will vary from quarter to quarter. Enrollment is limited to twenty students, with preference given to seniors. May be taken for credit four times.",
     "raw_prereq": "upper-division standing; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -128,6 +146,7 @@
   {
     "name": "Apprentice Teaching",
     "code": "CAT 195",
+    "description": "Undergraduate instructional assistance. Responsibilities in areas of learning and instruction. May collect course material and assist with course projects, digital workshops, and collection, organization, and analysis of formative assessment data.",
     "raw_prereq": "upper-division standing; 3.0 cumulative GPA; department authorization required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -135,6 +154,7 @@
   {
     "name": "Culture, Art, and Technology Field Studies",
     "code": "CAT 197",
+    "description": "Supervised community-based or industry-based fieldwork. Designated for Sixth College students to have the opportunity to work on a community-based or industry-based project supervised by a faculty member and community or industry mentor in which the subject or content of the project cannot be represented by a specific academic department. Students will submit written evaluations each week of their ongoing field study. May be taken for credit three times.",
     "raw_prereq": "upper-division standing; completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -142,6 +162,7 @@
   {
     "name": "Culture, Art, and Technology Directed Group Studies",
     "code": "CAT 198",
+    "description": "Directed group studies or, in group, field studies of a creative project. Designated for Sixth College students to have the opportunity to work together as a group or team on a project supervised by a faculty member in a specific department, not included in a regular curriculum, where group emphasis would be more beneficial and constructive than individual special studies. May be taken for credit three times.",
     "raw_prereq": "upper-division standing; completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -149,6 +170,7 @@
   {
     "name": "Culture, Art, and Technology Independent Studies",
     "code": "CAT 199",
+    "description": "Individual independent research or creative project. Designated for Sixth College students to have the opportunity to work on a project supervised by a faculty member in a specific department, where the subject or content of the project cannot be represented by the academic department of the faculty member. May be taken for credit three times.",
     "raw_prereq": "upper-division standing; completion of lower-division writing sequence through taking CAT 1, CAT 2, and CAT 3 by students who entered as first-years, or through equivalent course work by transfer students.",
     "prerequisites": [],
     "offered_this_qtr": false

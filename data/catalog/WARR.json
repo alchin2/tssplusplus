@@ -2,6 +2,7 @@
   {
     "name": "First Year Experience",
     "code": "WARR 1",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Warren NFRS students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Transfer Year Experience",
     "code": "WARR 2",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Warren College transfer students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "The Writing Course A",
     "code": "WCWP 10A",
+    "description": "A seminar-style course in reading and writing required of all Warren College students. The course emphasizes argumentation and critical writing based on sources. Letter grades only.",
     "raw_prereq": "satisfaction of the UC Entry Level Writing Requirement and must be a Warren College student.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -23,6 +26,7 @@
   {
     "name": "The Writing Course B",
     "code": "WCWP 10B",
+    "description": "A seminar-style course in reading and writing required of all Warren College students who have completed WCWP 10A. The course continues the emphasis on argumentation and critical writing based on sources. Letter grades only.",
     "raw_prereq": "satisfaction of WCWP 10A and must be a Warren College student.",
     "prerequisites": [
       {
@@ -40,6 +44,7 @@
   {
     "name": "Academic Writing",
     "code": "WCWP 100",
+    "description": "An upper-division workshop course in argumentation and research with particular attention to analyzing and constructing academic arguments. A course specially designed for and required of transfer students who enter Warren College through the TAG, IGETC, or another articulation agreement. The course must be taken for a letter grade to fulfill this requirement. Letter grades only.",
     "raw_prereq": "junior/senior standing and must be a Warren College student.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -47,6 +52,7 @@
   {
     "name": "Technical Writing for Scientists and Engineers",
     "code": "WCWP 160",
+    "description": "An upper-division workshop-style writing course focused on the principles and practices of scientific and technical writing and communication. Emphasis on the analysis, evaluation, design, and production of technical writing projects in science and engineering courses and context. Open to students from all colleges.",
     "raw_prereq": "junior/senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -54,6 +60,7 @@
   {
     "name": "Academic Mentoring and the Writing Process",
     "code": "WARR 189",
+    "description": "Students will gain a fundamental understanding of all stages of the writing process and will develop the necessary skills to serve as productive mentors for their peers. P/NP grades only. May be taken for credit three times.",
     "raw_prereq": "permission of instructor is required to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -61,6 +68,7 @@
   {
     "name": "Group Study",
     "code": "WCWP 198",
+    "description": "A directed group study involving research and analysis of activities and services in writing, public and civic writing, publishing, and other areas that are not covered by the present curriculum. The course involves reading, writing, and discussion by a small group of students under supervision of a faculty member.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -68,6 +76,7 @@
   {
     "name": "Apprentice Teaching in WCWP",
     "code": "WCWP 500",
+    "description": "Consideration of pedagogical methods appropriate to undergraduate teaching in Warren College Writing courses, under the supervision of the program director. (S/U grade only.)",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false

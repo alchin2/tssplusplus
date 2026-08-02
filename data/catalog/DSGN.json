@@ -2,6 +2,7 @@
   {
     "name": "Design of Everyday Things",
     "code": "DSGN 1",
+    "description": "A project-based course examining how principles from cognitive science apply to the design of things simple (doors) and complex (new technology). Learn about affordances, constraints, mappings, and conceptual models. Learn observational and design skills. Become a human-centered design thinker.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Designing Your Future Self",
     "code": "DSGN 2",
+    "description": "This class examines how principles from cognitive science and design can be applied to the “wicked problem” of designing your future self. The focus is on designing your undergraduate life and helping you think deeply about designing your future self.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Undergraduate Seminar",
     "code": "DSGN 90",
+    "description": "Special topics in design are discussed. P/NP grades only. May be taken for credit four times when topics vary.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Independent Study",
     "code": "DSGN 99",
+    "description": "Independent literature or laboratory research by arrangement with and under direction of a design faculty member. P/NP grades only. May be taken for credit three times.",
     "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Prototyping",
     "code": "DSGN 100",
+    "description": "Explores cognitive principles of thinking through making. Introduces methods and tools for prototyping user experiences. Students make various prototypes and participate in weekly critique sessions. Topics: experience design, rapid prototyping, sketching, bodystorming, cardboard modeling, UI hacking, and design theory.",
     "raw_prereq": "DSGN 1.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -37,6 +42,7 @@
   {
     "name": "Design for Future Creativity and Productivity",
     "code": "DSGN 118",
+    "description": "This course covers fundamentals of the design of creativity support tools for various types of digital content, including images, videos, animations, information visualization, augmented/mixed/virtual reality. We will also explore how novel interaction techniques such as gestural interaction, speech input, and artificial intelligence can be used to support people’s creativity and productivity.",
     "raw_prereq": "COGS 120 or COGS 187A or COGS 187B or CSE 170 or DSGN 100.",
     "prerequisites": [
       {
@@ -71,6 +77,7 @@
   {
     "name": "Design at Large",
     "code": "DSGN 119",
+    "description": "New societal challenges, cultural values, and technological opportunities are changing design—and vice versa. The seminar explores this increased scale, real-world engagement, and disruptive impact. Invited speakers from UC San Diego and beyond share cutting-edge research on interaction, design, and learning. P/NP grades only. May be taken for credit up to four times.",
     "raw_prereq": "COMM 124A or COGS 10 or DSGN 1.",
     "prerequisites": [
       {
@@ -97,6 +104,7 @@
   {
     "name": "Special Topics in Design",
     "code": "DSGN 160",
+    "description": "Special topics in design. May be taken for credit three times when topics vary.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -104,6 +112,7 @@
   {
     "name": "Design Project",
     "code": "DSGN 161",
+    "description": "Special topics in design. May be taken for credit three times when topics vary. Recommended preparation: may require shop skills.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -111,6 +120,7 @@
   {
     "name": "Instructional Apprenticeship in Design",
     "code": "DSGN 195",
+    "description": "Students, under the direction of the instructor, lead laboratory or discussion sections, attend lectures, and meet regularly with the instructor to help prepare course materials and grade papers and exams. P/NP grades only. May be taken for credit two times.",
     "raw_prereq": "upper-division standing, 3.0 GPA, consent of instructor, and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -118,6 +128,7 @@
   {
     "name": "Directed Group Study",
     "code": "DSGN 198",
+    "description": "This directed group study course is for small groups of advanced students who wish to complete a one-quarter reading or research project under the mentorship of a faculty member. Students should contact faculty whose research interests them to discuss possible projects. P/NP grades only. May be taken for credit up to three times.",
     "raw_prereq": "upper-division standing, 2.5 GPA, consent of instructor, and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -125,6 +136,7 @@
   {
     "name": "Independent Project",
     "code": "DSGN 199",
+    "description": "This independent project course is for individual, advanced students who wish to complete a design project under the mentorship of a faculty member. Students should contact faculty whose research interests them to discuss possible projects. P/NP grades only. May be taken for credit three times.",
     "raw_prereq": "upper-division standing, 2.5 GPA, consent of instructor, and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -132,6 +144,7 @@
   {
     "name": "Human-Centered Design and Complex Sociotechnical Systems",
     "code": "DSGN 201",
+    "description": "This course will teach fundamentals of design from an explicitly multi-epistemic and multidisciplinary lens. Foundations on both power and privilege and ethical responses within design will be emphasized. A range of design strategies, from a classic professional-led approach to co-design and community-driven variations of design will be reviewed.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -139,6 +152,7 @@
   {
     "name": "Design at Large",
     "code": "DSGN 219",
+    "description": "(Cross-listed with COGS 229 and CSE 219.) New societal challenges, cultural values, and technological opportunities are changing design—and vice versa. The seminar explores this increased scale, real-world engagement, and disruptive impact. Invited speakers from UC San Diego and beyond share cutting-edge research on interaction, design, and learning.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -146,6 +160,7 @@
   {
     "name": "Advanced Topics in Design",
     "code": "DSGN 260",
+    "description": "Special topics in design. May be taken for credit eighteen times.",
     "raw_prereq": "graduate standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -153,6 +168,7 @@
   {
     "name": "Advanced Design Project",
     "code": "DSGN 261",
+    "description": "Special topics in design. S/U grades only. May be taken for credit three times. Recommended preparation: may require maker-lab or shop skills.",
     "raw_prereq": "graduate standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -160,6 +176,7 @@
   {
     "name": "Independent Project",
     "code": "DSGN 299",
+    "description": "Students study, research, and implement project under the direction of a member of the faculty. S/U grades only. May be taken for credit three times. Recommended preparation: may require maker-lab or shop skills.",
     "raw_prereq": "graduate standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false

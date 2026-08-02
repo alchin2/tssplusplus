@@ -2,6 +2,7 @@
   {
     "name": "Internship",
     "code": "INTL 97",
+    "description": "Independent research connected to an internship with an organization relevant to the career interests of a student of international studies. Topic of the required research to be determined by the supervising faculty member. P/NP grades only. May be taken for credit eight times.",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Analysis, Argument, and Real-World Problems",
     "code": "INTL 100",
+    "description": "Focuses on developing skills in analytic reading and writing while using an interdisciplinary approach to asking and answering real-world questions. Lectures are topical and built around a series of readings that build in complexity and nuance; students work in an iterative process that builds toward a final policy memo project.",
     "raw_prereq": "sophomore standing or above and completion of at least one quarter of a university-level writing course.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -16,6 +18,7 @@
   {
     "name": "Culture and Society in International Perspective",
     "code": "INTL 101",
+    "description": "Analysis of the cultural and social development of the modern era from the perspective of interaction among societies. Particular attention is paid to the definition, representation, and negotiation of social and cultural boundaries over time.",
     "raw_prereq": "completion of INTL 100 with a grade of C– or better.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -23,6 +26,7 @@
   {
     "name": "Economics, Politics, and International Change",
     "code": "INTL 102",
+    "description": "Examination of the domestic and international sources of economic and political change. Topics include the rise of the nation-state, comparative economic development, authoritarian and democratic regimes, international and civil conflict, globalization and its domestic and international implications.",
     "raw_prereq": "completion of INTL 100 with a grade of C– or better.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -30,6 +34,7 @@
   {
     "name": "Seminar in International Studies",
     "code": "INTL 190",
+    "description": "Readings and discussion of topics in international and comparative studies from an interdisciplinary perspective. Emphasis on independent work and completion of a research paper.",
     "raw_prereq": "open to international studies majors only; successful completion with a C– or better of INTL 100, INTL 101, and 102.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -37,6 +42,7 @@
   {
     "name": "Honors Seminar in International Studies",
     "code": "INTL 190H",
+    "description": "Required of all honors students in International Studies. Reading and discussion of topics in international and comparative studies from an interdisciplinary perspective. Emphasis on research design and completion of research paper in preparation for INTL 196H.",
     "raw_prereq": "international studies major with 3.5 major GPA; department application process required; senior standing; INTL 100; INTL 101; INTL 102.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -44,6 +50,7 @@
   {
     "name": "International Studies Honors Program",
     "code": "INTL 196H",
+    "description": "Open only to seniors who have completed INTL 190H. Completion of an honors thesis under the supervision of a member of the International Studies faculty.",
     "raw_prereq": "international studies major with 3.5 major GPA; department approval; senior standing; INTL 190H.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -51,6 +58,7 @@
   {
     "name": "Internship",
     "code": "INTL 197",
+    "description": "Independent research connected to an internship with an organization relevant to the career interests of a student of international studies. Topic of the required research to be determined by the supervising faculty member. P/NP grades only. May be taken for credit eight times.",
     "raw_prereq": "department approval required; junior and senior standing.",
     "prerequisites": [],
     "offered_this_qtr": false

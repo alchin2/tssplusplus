@@ -2,6 +2,7 @@
   {
     "name": "Academic Internship",
     "code": "AIP 97",
+    "description": "Individual placements for field learning. Must be integrated with an academic discipline. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. May be taken for credit up to three times.",
     "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Learning Agreement for Special Studies.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Academic Internship Program",
     "code": "AIP 197",
+    "description": "Individual internship placements integrated with an academic discipline. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. Consent of faculty adviser and program chair required. May be taken for credit up to three times for a maximum of sixteen units.",
     "raw_prereq": "upper-division standing; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "UCDC: Washington, DC Internship",
     "code": "AIP 197DC",
+    "description": "This internship is attached to the University of California, Washington Center programs. Students participating in the campus UCDC program secure internships in the Washington, DC area requiring 18–30 hours per week. Students must be enrolled in the UCDC program.",
     "raw_prereq": "upper-division standing; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Public Service Internship",
     "code": "AIP 197P",
+    "description": "Individual placements for field learning performed in nonprofit organizations or government agencies dedicated to providing services in the areas of education, government, social issues, and health. May be taken for credit up to three times for a maximum of twelve units. Contract completed prior to start of internship will include intellectually unified expectations and means of supervision. Faculty member and student will meet regularly.",
     "raw_prereq": "ninety units completed; 2.5 minimum cumulative GPA; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Academic Internship Program—Special Programs",
     "code": "AIP 197T",
+    "description": "Individual placements for field learning associated with UC San Diego partnerships and special programs. A written contract involving all parties will include learning objectives, a paper/project outline, and means of supervision and progress evaluation. Consent of faculty adviser and program chair required.",
     "raw_prereq": "ninety units minimum completed; 2.5 minimum cumulative GPA; department approval.",
     "prerequisites": [],
     "offered_this_qtr": false

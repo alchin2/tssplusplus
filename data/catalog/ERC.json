@@ -2,6 +2,7 @@
   {
     "name": "First Year Experience",
     "code": "ERC 1",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking, organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to ERC NFRS students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Transfer Year Experience",
     "code": "ERC 2",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking, organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to ERC transfer students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "First-year Student Honors Seminar: International Themes",
     "code": "ERC 20",
+    "description": "This weekly seminar focuses on a chosen international theme with faculty speakers. The structure of the seminar is informal, giving students the opportunity to participate in interactive discussions. Pass/Not Pass only. May be taken for credit three times as topics vary.",
     "raw_prereq": "open to students in the Eleanor Roosevelt College First-year Student Honors Program only.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -23,6 +26,7 @@
   {
     "name": "Learning Sustainable Well-being",
     "code": "ERC 88",
+    "description": "This experiential course teaches the art of practicing psychological well-being, based on Eastern and Western approaches (e.g., mindfulness, positive psychology, cognitive therapy, neuroscience, theatre and art), from the perspective of global history. Each week there is a short lecture on a given topic, combined with workshop-style exercises.",
     "raw_prereq": "open to Eleanor Roosevelt College students only. Pass/Not Pass only.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -30,6 +34,7 @@
   {
     "name": "Practicum in Math Tutoring",
     "code": "ERC 89",
+    "description": "Undergraduate students will be provided with one hour of instruction on pedagogy of tutoring math in a public high school setting and placement in regional public high schools to provide five hours of one-on-one tutoring of math students under supervision of high school math teachers. P/NP grades only. May be taken for credit three times.",
     "raw_prereq": "Math 10A or 20A.",
     "prerequisites": [
       {
@@ -47,6 +52,7 @@
   {
     "name": "Honors Project",
     "code": "ERC 92",
+    "description": "Individual project on a topic chosen by the student, done under direction of a faculty member.",
     "raw_prereq": "by invitation only. Pass/Not Pass only. Repeatable for credit twice, up to a total of six units over three quarters.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -54,6 +60,7 @@
   {
     "name": "Transfer Seminar: The Research University",
     "code": "ERC 188",
+    "description": "This weekly seminar focuses on the skills required to write an upper-division research paper and prepare for a winter quarter internship through Academic Internship Program. The structure of the seminar is informal, giving students the opportunity to participate in interactive discussions based on required reading and faculty speakers.",
     "raw_prereq": "department stamp.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -61,6 +68,7 @@
   {
     "name": "Global Service Research Seminar",
     "code": "ERC 192A",
+    "description": "This is the first course of a two-course elective sequence (ERC 192A and ERC 192B) entitled ERC Global Service and Research. ERC 192A provides an academic introduction to the culture and history of the nation and region selected for this undergraduate academic, practicum, and research experience to prepare students for the subsequent service and research portion (ERC 192B). Note: The course is open to all students. Students must have completed course work in relevant topics, such as regional history, economics, culture.",
     "raw_prereq": "department stamp.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -68,6 +76,7 @@
   {
     "name": "Honors Project",
     "code": "ERC 196",
+    "description": "Senior thesis research project for students who have been accepted into the Eleanor Roosevelt College Individual Studies major. Project will be carried out under supervision of one or more faculty members. Depending on scope of the project, may be taken for four or eight units of credit in a single quarter, or eight units distributed over two quarters.",
     "raw_prereq": "admission to Eleanor Roosevelt College Individual Studies major.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -75,6 +84,7 @@
   {
     "name": "ERC Independent Studies",
     "code": "ERC 199",
+    "description": "The content of this independent study course, which may not duplicate any existing course on campus, will be determined by a supervising faculty member and tailored to fit specific content needs of students pursuing the Eleanor Roosevelt College Individual Studies major.",
     "raw_prereq": "admission to Eleanor Roosevelt College Individual Studies major.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -82,6 +92,7 @@
   {
     "name": "Undergraduate Seminar",
     "code": "ERC 90",
+    "description": "A seminar intended for exposing undergraduate students, especially first-year students and sophomores, to exciting research programs conducted by the faculty.",
     "raw_prereq": "none. Pass/Not Pass only.",
     "prerequisites": [],
     "offered_this_qtr": false

@@ -2,6 +2,7 @@
   {
     "name": "Prehistory and Ancient Foundations",
     "code": "MMW 11",
+    "description": "This course explores human origins, the development of early forms of social and political organization, the strategies that early societies used to negotiate their physical and social environments, and the appearance of influential cultural traditions across the ancient world (to circa 100 BCE). Topics include the emergence of agriculture, the relationship between nomad and settled, the birth of the city and the expanding human “footprint,” the development of writing, foundational religious and cosmological ideas and narratives, influential models of visual and material culture, and changing forms of social stratification and inequality. Students may not receive credit for both MMW 11 and MMW 11R. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Prehistory and Ancient Foundations",
     "code": "MMW 11R",
+    "description": "MMW 11R is a distance education course. This course explores human origins, the development of early forms of social and political organization, the strategies that early societies used to negotiate their physical and social environments, and the appearance of influential cultural traditions across the ancient world (to circa 100 BCE). Topics include the emergence of agriculture, the relationship between nomad and settled, the birth of the city and the expanding human “footprint,” the development of writing, foundational religious and cosmological ideas and narratives, influential models of visual and material culture, and changing forms of social stratification and inequality. Students may not receive credit for both MMW 11 and MMW 11R. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Transforming Traditions and Emerging World Communities, circa 100 BCE–1200 CE",
     "code": "MMW 12",
+    "description": "This course provides a global perspective on the past from circa 100 BCE to circa 1200 CE, examining the emergence of interregional networks and empires and their relationship with the advent and expansion of diverse religious movements, including Christianity, Islam, and Buddhism, as well as cross-cultural contacts and exchanges. The course also explores forms of identity (ethnic, religious, and other); models of inclusion and exclusion; systems of power, hierarchy, and slavery; and the human-environmental relationship. MMW 12 is the first of two writing-intensive courses in the MMW sequence. Students may not receive credit for both MMW 12 and MMW 12R. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "satisfaction of the Entry Level Writing Requirement.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Transforming Traditions and Emerging World Communities, circa 100 BCE–1200 CE",
     "code": "MMW 12R",
+    "description": "MMW 12R is a distance education course. This course provides a global perspective on the past from circa 100 BCE to circa 1200 CE, examining the emergence of interregional networks and empires and their relationship with the advent and expansion of diverse religious movements, including Christianity, Islam, and Buddhism, as well as cross-cultural contacts and exchanges. The course also explores forms of identity (ethnic, religious, and other); models of inclusion and exclusion; systems of power, hierarchy, and slavery; and the human-environmental relationship. MMW 12 is the first of two writing-intensive courses in the MMW sequence. Students may not receive credit for both MMW 12 and MMW 12R. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "satisfaction of the Entry Level Writing Requirement.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "A Globalizing World: Exchanges, Entanglements, and Exploitation, Thirteenth–Eighteenth Century",
     "code": "MMW 13",
+    "description": "This course presents a global perspective on the connections, exchanges, and transformations that linked Afro-Eurasia and the Americas during the period from 1200 to 1750 CE. The course examines the nature and consequences of this increasingly connected world. It focuses on spaces of cross-cultural contact and exchange, including the transfer of technologies, ideas, commodities, and customs and their environmental impact; encounters in the form of travel, trade, migration, and invasion; and exploitation through empire, colonization, and slavery, and their manifestation in state violence, intolerance, discrimination, and racism. MMW 13 is the second of two writing-intensive courses in the MMW sequence. Students may not receive credit for both MMW 13 and MMW 13R. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "MMW 12 or MMW 12R with a grade of D or better.",
     "prerequisites": [
       {
@@ -47,6 +52,7 @@
   {
     "name": "A Globalizing World: Exchanges, Entanglements, and Exploitation, Thirteenth–Eighteenth Century",
     "code": "MMW 13R",
+    "description": "MMW 13R is a distance education course. This course presents a global perspective on the connections, exchanges, and transformations that linked Afro-Eurasia and the Americas during the period from 1200 to 1750 CE. The course examines the nature and consequences of this increasingly connected world. It focuses on spaces of cross-cultural contact and exchange, including the transfer of technologies, ideas, commodities, and customs and their environmental impact; encounters in the form of travel, trade, migration, and invasion; and exploitation through empire, colonization, and slavery, and their manifestation in state violence, intolerance, discrimination, and racism. MMW 13 is the second of two writing-intensive courses in the MMW sequence. Students may not receive credit for both MMW 13 and MMW 13R. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "MMW 12 or MMW 12R with a grade of D or better.",
     "prerequisites": [
       {
@@ -64,6 +70,7 @@
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
     "code": "MMW 14",
+    "description": "This course explores divergent paths to modernity between the mid-eighteenth century and World War I. The course examines the influence of “the West” as a hegemonic force that disrupted global connections and forged new ones, changing the social, economic, political, and ecological norms of societies worldwide. The course investigates how groups and individuals around the world adopted, contested, and/or resisted this influence. Students may receive credit for MMW 14 with any one of the following: MMW 14, MMW 14R, or MMW 14GS. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
     "prerequisites": [
       {
@@ -94,6 +101,7 @@
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
     "code": "MMW 14R",
+    "description": "MMW 14R is a distance education course. This course explores divergent paths to modernity between the mid-eighteenth century and World War I. The course examines the influence of “the West” as a hegemonic force that disrupted global connections and forged new ones, changing the social, economic, political, and ecological norms of societies worldwide. The course investigates how groups and individuals around the world adopted, contested, and/or resisted this influence. Students may receive credit for MMW 14 with any one of the following: MMW 14, MMW 14R, or MMW 14GS. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
     "prerequisites": [
       {
@@ -124,6 +132,7 @@
   {
     "name": "Divergent Paths to the Modern World, Eighteenth–Twentieth Century",
     "code": "MMW 14GS",
+    "description": "This course explores divergent paths to modernity between the mid-eighteenth century and World War I. The course examines the influence of “the West” as a hegemonic force that disrupted global connections and forged new ones, changing the social, economic, political, and ecological norms of societies worldwide. The course investigates how groups and individuals around the world adopted, contested, and/or resisted this influence. Students may receive credit for MMW 14 with any one of the following: MMW 14, MMW 14R, or MMW 14GS. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement. Program or materials fees may apply.",
     "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better. Students must apply and be accepted to the Global Seminars program.",
     "prerequisites": [
       {
@@ -154,6 +163,7 @@
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
     "code": "MMW 15",
+    "description": "This course explores the sociocultural, economic, and political forces that shaped the twentieth and twenty-first century and contestations over them, with particular focus on the complex interaction between humans and the natural world. It examines the overlapping causes and impact of the global and local conflicts and inequalities that have defined the contemporary era. The course addresses efforts to defend and expand freedom, improve quality of life, and increase transnational cooperation and communication that challenge those hierarchies that perpetuate inequality. The course reflects on what this recent history may mean for our collective future. Students may receive credit for MMW 15 with any one of the following: MMW 15, MMW 15R, or MMW 15GS. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement. Satisfies the Jane Teranes Climate Change Education Requirement.",
     "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
     "prerequisites": [
       {
@@ -184,6 +194,7 @@
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
     "code": "MMW 15R",
+    "description": "MMW 15R is a distance education course. This course explores the sociocultural, economic, and political forces that shaped the twentieth and twenty-first century and contestations over them, with particular focus on the complex interaction between humans and the natural world. It examines the overlapping causes and impact of the global and local conflicts and inequalities that have defined the contemporary era. The course addresses efforts to defend and expand freedom, improve quality of life, and increase transnational cooperation and communication that challenge those hierarchies that perpetuate inequality. The course reflects on what this recent history may mean for our collective future. Students may receive credit for MMW 15 with any one of the following: MMW 15, MMW 15R, or MMW 15GS. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement. Satisfies the Jane Teranes Climate Change Education Requirement.",
     "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better.",
     "prerequisites": [
       {
@@ -214,6 +225,7 @@
   {
     "name": "The Contemporary Era: Conflict and Aspirations in a Globalized World, Twentieth–Twenty-First Century",
     "code": "MMW 15GS",
+    "description": "This course explores the sociocultural, economic, and political forces that shaped the twentieth and twenty-first century and contestations over them, with particular focus on the complex interaction between humans and the natural world. It examines the overlapping causes and impact of the global and local conflicts and inequalities that have defined the contemporary era. The course addresses efforts to defend and expand freedom, improve quality of life, and increase transnational cooperation and communication that challenge those hierarchies that perpetuate inequality. The course reflects on what this recent history may mean for our collective future. Students may receive credit for MMW 15 with any one of the following: MMW 15, MMW 15R, or MMW 15GS. Open to Eleanor Roosevelt College (ERC) students only. Must be taken for a letter grade to meet the ERC graduation requirement. Program or materials fees may apply.",
     "raw_prereq": "MMW 12 or MMW 12R and MMW 13 or MMW 13R with a grade of D or better. Students must apply and be accepted to the Global Seminars program.",
     "prerequisites": [
       {
@@ -244,6 +256,7 @@
   {
     "name": "Exploring the Premodern World",
     "code": "MMW 121",
+    "description": "This course addresses themes and topics from the premodern world (from antiquity to the eighteenth century) and strengthens students’ analytical, research, and writing skills. Students may not receive credit for both MMW 121 and MMW 121R. Open to Eleanor Roosevelt College (ERC) transfer students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -251,6 +264,7 @@
   {
     "name": "Exploring the Premodern World",
     "code": "MMW 121R",
+    "description": "MMW 121R is a distance education course. This course addresses themes and topics from the premodern world (from antiquity to the eighteenth century), and strengthens students’ analytical, research, and writing skills. Students may not receive credit for both MMW 121 and MMW 121R. Open to Eleanor Roosevelt College (ERC) transfer students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -258,6 +272,7 @@
   {
     "name": "Exploring the Modern World",
     "code": "MMW 122",
+    "description": "This course addresses specific themes and topics from the modern world (from the eighteenth century to the present) and strengthens transfer students’ analytical, research, and writing skills. Students may not receive credit for both MMW 122 and MMW 122R. Open to Eleanor Roosevelt College (ERC) transfer students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -265,6 +280,7 @@
   {
     "name": "Exploring the Modern World",
     "code": "MMW 122R",
+    "description": "MMW 122R is a distance education course. This course addresses specific themes and topics from the modern world (from the eighteenth century to the present), and strengthens transfer students’ analytical, research, and writing skills. Students may not receive credit for both MMW 122 and MMW 122R. Open to Eleanor Roosevelt College (ERC) transfer students only. Must be taken for a letter grade to meet the ERC graduation requirement.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false

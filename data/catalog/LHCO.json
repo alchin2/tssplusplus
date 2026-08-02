@@ -2,6 +2,7 @@
   {
     "name": "Strategic Management and Organizational Change",
     "code": "LHCO 202",
+    "description": "This course examines principles and applications of strategic management and the change management concepts necessary to effectively apply these principles in healthcare organizations. The course provides a structured, stepwise approach to the strategic management process and includes methods for assessing key features of organizational environments and competitive situations, approaches for developing strategic plans, and processes for insuring the successful implementation of strategy.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Using and Managing Information and Information Technologies",
     "code": "LHCO 203",
+    "description": "Designed to familiarize health administrators and professionals with the principles of information systems design and management for health care. Provides an understanding of current trends in information technologies for health care and management issues unique to it. Includes hands-on computer lab.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Conflict Resolution, Negotiation, and Team Building",
     "code": "LHCO 204",
+    "description": "This course studies key management concepts and roles of management and how they apply in successful, dynamic organizations. The course examines competencies of effective managers in developing customer focus, planning, selecting and developing individuals and teams, communicating, managing resources, using technology and being adaptable. Students will be exposed to the theory and process of effective negotiation as well as various teambuilding and conflict resolution strategies in a variety of contexts.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Topics in Financial Management and Decision Making",
     "code": "LHCO 206",
+    "description": "This course presents real-life applications in healthcare provider organizations of financial management and decision making. Topics include budgeting, uses of financial reports, development of long-range financial forecasts, benchmarking, business plan development, and actuarial analysis in projecting healthcare delivery costs.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Outcomes and Quality Improvement",
     "code": "LHCO 209",
+    "description": "A critical overview of the tools used to measure outcomes and quality of care, development and use of practical guidelines, advantages and disadvantages of various methods, and the use of such analysis in administrative decision making.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -37,6 +42,7 @@
   {
     "name": "Statistics and Applied Decision Making",
     "code": "LHCO 212",
+    "description": "Students will learn statistical methods and their most common applications in healthcare management. Topics covered include data presentation, sampling, the development and use of confidence intervals, hypothesis testing, analysis of variance and simple regression. We will also explore elementary probability theory and decision making under uncertainty. Students who have taken LHCO 208 may not receive credit for LHCO 212.",
     "raw_prereq": "admission to MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Financial Accounting and Analysis",
     "code": "LHCO 213",
+    "description": "Students will learn the use of financial information within a healthcare organization. Topics covered will include capital structure, working capital and cash management, the time value of money, and capital budgeting.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -51,6 +58,7 @@
   {
     "name": "Modern Health Care",
     "code": "LHCO 215",
+    "description": "Describes and analyzes the healthcare delivery system in the U.S. Participants gain understanding of the health policy process and how health care is financed. Organizational structures of institutions and professional groups are assessed. Actions taken by employers, insurers, consumers, and government, and the effects on physicians and provider organizations are analyzed.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -58,6 +66,7 @@
   {
     "name": "Healthcare Leadership",
     "code": "LHCO 216",
+    "description": "Describes the critical knowledge and skills needed to be effective leaders in today’s complex healthcare environment. Sessions cover conflict resolution, leadership and negotiation skills, strategic planning, and ethics. Guest speakers include business leaders and entrepreneurs from the local healthcare industry.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -65,6 +74,7 @@
   {
     "name": "Project Management for Healthcare Professionals",
     "code": "LHCO 217",
+    "description": "Covers core body of knowledge and skills of project management specific to the healthcare industry. Students learn how to define, plan, and execute a project on time, on budget and within performance specifications. Topics include project life cycle, definition, and charter creation; assembling high performance teams; risk analysis; and project closure.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -72,6 +82,7 @@
   {
     "name": "Professional Development Seminar: Mentorship and Assessment",
     "code": "LHCO 218",
+    "description": "Faculty member directs a student’s study in development of mentorship and leadership skills as related to student’s research interest. Readings, assignments, and formalized career assessment and mentoring sessions designed to integrate course work with the development of the student’s ISP proposal on an applied research topic. This course is taken in the last quarter prior to enrollment in LHCO 298 Independent Study Project course.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -79,6 +90,7 @@
   {
     "name": "Process Improvement in Health Care",
     "code": "LHCO 219",
+    "description": "Students learn and apply concepts and techniques of business process analysis and improvements as building blocks for operations improvement strategies in health care. Students will analyze and improve processes in various contexts using different process improvement tools from simple process-mapping to computer-based process-modeling. Use of fundamental and sophisticated analytical techniques to design and manage efficient and effective operations and processes will be covered. The importance of balancing technical/analytical and organizational/behavioral aspects of business process improvements will be highlighted.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -86,6 +98,7 @@
   {
     "name": "Topics in Health Law",
     "code": "LHCO 220",
+    "description": "The survey course introduces students to the relationship of law to health care, including liability, government regulation, financial and ethical issues, contracting, and negotiation and dispute resolution. The course will incorporate the most current trends related to health law and feature guest speakers on relevant topics.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -93,6 +106,7 @@
   {
     "name": "Current Topics in Healthcare",
     "code": "LHCO 221",
+    "description": "The course will address current topics in the healthcare industry, especially related to population health and current evolving trends. Special guest lecturers from the San Diego healthcare community will be invited to address the seminar. This will provide an opportunity for students to hear directly from healthcare leaders and will involve a question and answer session.",
     "raw_prereq": "admission to the MAS in the Leadership of Healthcare Organizations Program or consent of department.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -100,6 +114,7 @@
   {
     "name": "Independent Study Project in the Management of Health Care",
     "code": "LHCO 298",
+    "description": "The Independent Study Project (ISP) is the cornerstone of the MAS Program. Students will be involved in a high-level applied research project that integrates what they have learned in their formal course work. The ISP will be an independent and creative scholarly activity in an area related to one or more of the topics covered in the formal curriculum. Students’ work will be evaluated by a committee consisting of faculty and, when appropriate, industry advisers.",
     "raw_prereq": "LHCO 218, admission to the MAS in the Leadership of Healthcare Organizations Program, or consent of department.",
     "prerequisites": [
       {

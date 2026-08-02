@@ -35,6 +35,7 @@ interface SectionDto {
 }
 
 interface CourseDetailDto extends CourseSummaryDto {
+  description: string | null;
   module_id: string;
   raw_prereq: string | null;
   sections: SectionDto[];
@@ -85,6 +86,7 @@ export async function fetchCourseDetail(moduleId: string): Promise<CourseDetail>
   const dto = await getJson<CourseDetailDto>(`/courses/${encodeURIComponent(moduleId)}`);
   return {
     ...toCourse(dto),
+    description: dto.description,
     rawPrereq: dto.raw_prereq,
     sections: dto.sections.map(toSection),
   };

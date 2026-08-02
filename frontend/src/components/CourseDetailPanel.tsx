@@ -1,4 +1,4 @@
-import { CalendarOff, GitBranch, Layers, Loader2, TriangleAlert, X } from "lucide-react";
+import { BookOpen, CalendarOff, GitBranch, Layers, Loader2, TriangleAlert, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { ApiError, fetchCourseDetail } from "../lib/api";
@@ -70,6 +70,17 @@ export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
           </div>
         ) : detail && (
           <>
+            {/* Catalog description */}
+            {detail.description && (
+              <div className="px-4 py-3 border-b border-[#c0c0c0]">
+                <div className="flex items-center gap-1.5 mb-2">
+                  <BookOpen className="w-3.5 h-3.5" style={{ color: "#6261c0" }} />
+                  <span className="text-xs font-bold" style={{ color: "#0b4a67" }}>Description</span>
+                </div>
+                <p className="text-[11px] text-gray-700 leading-relaxed">{detail.description}</p>
+              </div>
+            )}
+
             {/* Prerequisites -- raw catalog text for now; the interactive
                 graph consumes /prereqs in a later change. */}
             <div className="px-4 py-3 border-b border-[#c0c0c0]">

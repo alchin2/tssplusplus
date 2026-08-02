@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Human Rights and Global Justice",
     "code": "HMNR 100: SOCI 174 or HITO 119",
+    "description": "Explores where human rights come from and what they mean by integrating them into a history of modern society, from the conquest of the Americas and the origins of the Enlightenment, to the Holocaust and the contemporary human rights regime.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Human Rights II: Contemporary Issues",
     "code": "HMNR 101: COMM 114A",
+    "description": "Interdisciplinary discussion that outlines the structure and functioning of the contemporary human rights regime, and then delves into the relationship between selected human rights protections—against genocide, torture, enslavement, political persecution, etc.—and their violation, from early Cold War to the present.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false

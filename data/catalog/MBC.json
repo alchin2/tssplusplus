@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Marine Biodiversity and Conservation—Seminar",
     "code": "SIO 295S",
+    "description": "Lectures on ecological, economic, social, and legal issues related to marine biodiversity and case studies on socioeconomic and legal issues. Students are expected to attend field trips at sea and to various sites around San Diego County as part of the corequisite course. Students who have taken SIO 295 may not receive credit for SIO 295S.",
     "raw_prereq": "consent of instructors. Corequisites: SIO 295LS and MAS students only.",
     "prerequisites": [
       {
@@ -19,6 +20,7 @@
   {
     "name": "Introduction to Marine Biodiversity and Conservation—Lab",
     "code": "SIO 295LS",
+    "description": "Laboratory work on major biological taxa, field trips on biodiversity in situ, computer labs for informatic tools. Students are expected to attend field trips at sea and to various sites around San Diego County as part of the course. Students who have taken SIO 295L may not receive credit for SIO 295LS.",
     "raw_prereq": "consent of instructor. Corequisites: SIO 295S and MAS students only.",
     "prerequisites": [
       {
@@ -36,6 +38,7 @@
   {
     "name": "Marine Conservation and Communication Practicum 1",
     "code": "MBC 258",
+    "description": "This is the first of two required courses in a sequence for MAS-MBC students, which focuses on generation and refinement of MAS-MBC Capstone Projects, professional networking, and development of critical technical and practical skills. Students broaden understanding of and discuss complex political, social, economic, and historical issues related to marine conservation, give peer feedback on Capstone ideas, and interact with MBC leadership and invited guests. May be taken for credit three times.",
     "raw_prereq": "SIO 295S and SIO 295LS summer courses. Limited to registered students in MAS Marine Biodiversity and Conservation program.",
     "prerequisites": [
       {
@@ -57,6 +60,7 @@
   {
     "name": "Marine Conservation and Communication Practicum 2",
     "code": "MBC 259",
+    "description": "This is the culmination of a required two-course sequence for MAS-MBC students, which focuses on continued refinement of MAS-MBC Capstone Projects, professional networking, and development of critical technical and practical skills. Students deepen understanding of and discuss complex political, social, economic, and historical issues related to marine conservation, give peer feedback on Capstone ideas, and interact with MBC leadership and invited guests. May be taken for credit three times.",
     "raw_prereq": "MBC 258. Limited to registered students in MAS Marine Biodiversity and Conservation program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -64,6 +68,7 @@
   {
     "name": "Capstone Independent Study Project",
     "code": "MBC 296",
+    "description": "Building on knowledge and experience gained in the MAS Program in Marine Biodiversity and Conservation, students will design and execute a complex, interdisciplinary marine or coastal conservation project with a theoretical grounding and real-world application. This self-directed project will consider varied worldviews and perspectives and add value to the current seascape of marine biodiversity and conservation. Students will present final deliverables in an annual Capstone Symposium in June.",
     "raw_prereq": "SIOB 258. MBC 296 is restricted to students in the Master of Advanced Studies—Marine Biodiversity and Conservation Program (SI83).",
     "prerequisites": [
       {
@@ -81,6 +86,7 @@
   {
     "name": "Varies",
     "code": "Electives",
+    "description": "Students enroll in twelve elective units of course work relating to marine biodiversity and conservation issues that are approved by the MAS-MBC program chair.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false

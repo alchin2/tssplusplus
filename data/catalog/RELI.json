@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Religion",
     "code": "RELI 1",
+    "description": "An introduction to key topics in the study of religion through the analysis of religious texts, artifacts, and/or practices. The intent is to develop basic strategies of interpretation for undertaking a critical, disciplined study of religion.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Comparative World Religions",
     "code": "RELI 2",
+    "description": "An introduction to the comparative study of religion, focusing on religious traditions of global significance. Although historical aspects of these traditions will be studied, emphasis will be placed on religious beliefs and practices as manifested in the contemporary world.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Technoscience and Religion",
     "code": "RELI 3",
+    "description": "The aim of this course is to introduce students to the complex relationship between “technoscience,” as a broad field of inquiry into the global human practices of technology combined with scientific methods, ranging from biology to computer sciences and robotics, with religion in its complex social manifestations.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "First-year Student Seminar in Religion",
     "code": "RELI 87",
+    "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic related to the study of religion with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -30,6 +34,7 @@
   {
     "name": "Tools and Methods in the Study of Religion",
     "code": "RELI 101",
+    "description": "This course provides an advanced introduction to assumptions and norms that shape the study of religion as an academic field; to significant debates within the field; and to tools and methods used for professional research within the field.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -37,6 +42,7 @@
   {
     "name": "Topics in Religion and Sexuality",
     "code": "RELI 131",
+    "description": "How does religiosity as a significant cultural component help mold gender and sexuality identities? The class offers topical investigations into this question.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Topics in Orthodoxy and Heterodoxy",
     "code": "RELI 132",
+    "description": "Religious dogmas often develop in dialogue with alternative viewpoints that ultimately are rejected by heterodox by the dominant group. This class presents case studies in the interpretation of such ideological and sociological pairings using scriptural, literary, and analytic sources.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -51,6 +58,7 @@
   {
     "name": "Topics in American Religion",
     "code": "RELI 134",
+    "description": "Topical studies in the history of religion in American society, ranging from the Puritans to the New Age.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -58,6 +66,7 @@
   {
     "name": "Literature and Religion",
     "code": "RELI 140",
+    "description": "This course provides an introduction to the history and themes in the relationship between literature and religion from antiquity to the present. The course examines key texts in world literature such as Rumi’s Masnavi, Milton’s Paradise Lost, and Tale of the Heike. It also considers sacred texts, such as the Bhagavad Gita, Bible, Quran, and Tao Te Ching, as works of literature, and studies the relationship between literary and religious practices in various traditions.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -65,6 +74,7 @@
   {
     "name": "Public Sphere and Religion",
     "code": "RELI 141",
+    "description": "This interdisciplinary course will explore the historical and theoretical relationship between public sphere and religion, particularly focusing on the manifestation of religious power, public ritual, and sacred theatricality in everyday spaces of life.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -72,6 +82,7 @@
   {
     "name": "Secularization and Religion",
     "code": "RELI 142",
+    "description": "Surveys the relationship between religion and modernity, in particular the problematic of the secularization theory; covers cases such as Catholic liberation theology and Islamic fundamentalism, with particular focus on the “deprivatization of modern religion.”",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -79,6 +90,7 @@
   {
     "name": "Topics in Performing Religion",
     "code": "RELI 143",
+    "description": "This course explores religion as a system of bodily practices, rather than one of tenets or beliefs. How do day-to-day activities as well as significant rituals express and inform people’s religious lives? Why is doctrine an insufficient basis for understanding religion? May be taken up to three times as topics vary.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -86,6 +98,7 @@
   {
     "name": "Devils and Demons in Christianity",
     "code": "RELI 144",
+    "description": "Christianity frequently finds definition in contradistinction to an “Other” characterized as immoral, irrational, and malevolent. This class investigates how devils and demons as constructions of the “Other” have contributed to Christianity’s growth and identity formation throughout history.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -93,6 +106,7 @@
   {
     "name": "Communication, Technology, and Religion",
     "code": "RELI 145",
+    "description": "This course will look at the relationship between information communication technologies (ICTs) and religion and how they have intersected or diverged in the course of history. We will look at both older and newer media, such as telegraph, radio, television, cassette tapes, internet, and satellite, and how they have been used by groups like Evangelical, Catholic, or Islamist movements in proliferation and transformation of ideas, rituals, ideologies, values, and diverse forms of sociability. Students may not receive credit for both RELI 145 and RELI 145GS.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -100,6 +114,7 @@
   {
     "name": "Communication, Technology, and Religion",
     "code": "RELI 145GS",
+    "description": "This course will look at the relationship between information communication technologies (ICTs) and religion and how they have intersected or diverged in the course of history. We will look at both older and newer media, such as telegraph, radio, television, cassette tapes, Internet and satellite, and how they have been used by groups like evangelical, Catholic, or Islamist movements in proliferation and transformation of ideas, rituals, ideologies, values, and diverse forms of sociability. Program or materials fees may apply. Students may not receive credit for both RELI 145GS and RELI 145.",
     "raw_prereq": "students must apply and be accepted to the Global Seminars program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -107,6 +122,7 @@
   {
     "name": "Topics in the Religions of Antiquity",
     "code": "RELI 146",
+    "description": "Topical studies in the religious beliefs, practices, and institutions of pre-Christian Europe and near East. May be repeated for credit up to three times when topics vary.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -114,6 +130,7 @@
   {
     "name": "Pagan Europe and Its Christian Aftermath",
     "code": "RELI 147",
+    "description": "(Cross-listed with HIEU 107.) This course explores the history of how western Europe was converted from its indigenous pagan religions to the imported religion we know as Christianity. We will discuss conversion by choice and by force, partial or blended conversions, and the relationships between belief and culture. Students may not receive credit for HIEU 107 and RELI 147.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -121,6 +138,7 @@
   {
     "name": "Religion and Women’s Activisms",
     "code": "RELI 148",
+    "description": "The course surveys women’s formal and informal roles and activities in a number of faiths, examining how women’s agency and activism may be constrained or fostered by religious ideologies and norms in various historical and political contexts. Examples are drawn from a range of male-centered religions (Islam, Judaism, Christianity, Buddhism), woman-centered religions (Sande, Afro-Brazilian, Z-ar Cult), and newly formed theologies (Womanist, Native American, and Mujerista; New Age feminist spiritualities).",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -128,6 +146,7 @@
   {
     "name": "Islam in America",
     "code": "RELI 149",
+    "description": "This course introduces the students to historical and social developments of Islam in the United States. Tracing Islam back to the African slaves, the course examines various Muslim communities in the United States, with a focus on African American Muslims, especially Malcolm X.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -135,6 +154,7 @@
   {
     "name": "Religion and Cinema",
     "code": "RELI 150",
+    "description": "The course is an introductory study of cinema and religion. It explores how cinema depicts religion and spiritual experience. A number of films will be studied to understand how cinematic and religious narratives and practices overlap and, at times, diverge in complex ways.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -142,6 +162,7 @@
   {
     "name": "Deep Ecology: Knowing Place",
     "code": "RELI 151",
+    "description": "This course explores intersections between religious discourse and ecological discourse by considering texts from both that treat the human world as irreducibly interconnected with more-than-human worlds of nature and “spirit.” Themes include the ambivalence of wildness; the critique of anthropocentrism (human-centeredness); and the question of how religious emphasis on “knowing (one’s) place” can create a sense of either human exceptionality, above nature, or embeddedness, within nature.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -149,6 +170,7 @@
   {
     "name": "Media and Islam in the U",
     "code": "RELI 152",
+    "description": "This course examines histories and theories of media and Islam. It especially offers an overview on intersections between media representation and religious experience with a focus on the United States.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -156,6 +178,7 @@
   {
     "name": "Hispanic American Religions",
     "code": "RELI 153",
+    "description": "This course introduces students to historical and social developments of religion among Hispanic Americans. The course examines changing religious traditions and ritual practices among Hispanic Americans with a focus on Catholicism and (evangelical) Protestantism.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -163,6 +186,7 @@
   {
     "name": "Asian American Religions",
     "code": "RELI 154",
+    "description": "This course introduces students to historical and social developments of religion among Asian Americans. Tracing back to the mid-nineteenth century, the course examines changing religious traditions and ritual practices among Asian American communities.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -170,6 +194,7 @@
   {
     "name": "African American Religions",
     "code": "RELI 155",
+    "description": "This course introduces students to historical and social developments of religion among African Americans. The course examines changing religious traditions and ritual practices among African Americans since slavery to the present era.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -177,6 +202,7 @@
   {
     "name": "Posthuman Spirituality",
     "code": "RELI 156",
+    "description": "This course will survey questions surrounding the “coevolution” of human and technics and ways such processes are making new worlds of which we often feel a sense of perpetual disruption. We investigate posthuman not only in terms of new technological practices but spiritual experiences that bring about new understandings of being human in the world.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -184,6 +210,7 @@
   {
     "name": "Religion in Japan",
     "code": "RELI 157GS",
+    "description": "This course examines Japanese religions by studying various traditions including Buddhism, Christianity, and Shintoism and their influence on Japanese culture such as anime and cinema. Students must apply and be accepted into the Global Seminar Program.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -191,6 +218,7 @@
   {
     "name": "Japanese Literature and Spirituality",
     "code": "RELI 158GS",
+    "description": "This course looks at the relationship between literature and spirituality in Japan. The course explores this relationship in the works of Shusaku Endo, Hiromi Ito, Yasunari Kawabata, Haruki Murakami, and others. Students must apply and be accepted into the Global Seminar Program.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -198,6 +226,7 @@
   {
     "name": "Native Religions",
     "code": "RELI 159GS",
+    "description": "This course explores Native American ways of life and religions; it also examines the impact of European invasion and colonization.",
     "raw_prereq": "Students must apply and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -205,6 +234,7 @@
   {
     "name": "Religion and Politics",
     "code": "RELI 160GS",
+    "description": "Explores the complex relationship between religion and politics in a variety of historical and social contexts. The course examines a range of texts and case studies with a focus on the intersection of religion with politics.",
     "raw_prereq": "Students must apply and be accepted into the Global Seminar Program. Program or materials fees may apply.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -212,6 +242,7 @@
   {
     "name": "Drama, Politics, and Religion in Ancient Greece",
     "code": "RELI 161GS",
+    "description": "This course examines the history of ancient Greek theatre and the importance of theatre in relation to myth, politics, and religion. Key plays by Aeschylus, Aristophanes, and Sophocles will be studied with a focus on fate, ritual, myth, and civic politics. Program or materials fees may apply.",
     "raw_prereq": "Students must apply and be accepted to the Global Seminars Program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -219,6 +250,7 @@
   {
     "name": "Special Topics in Religion",
     "code": "RELI 188",
+    "description": "Students in this lecture will investigate important problems in the study of religion or the history of particular religions. RELI 188 and RELI 188GS may be taken for credit for a combined total of three times.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -226,6 +258,7 @@
   {
     "name": "Special Topics in Religion",
     "code": "RELI 188GS",
+    "description": "Students in this course will investigate important problems in the study of religion or the history of particular religions. Department approval required. Students must apply for and be accepted into the Global Seminars Program. RELI 188GS and RELI 188 may be taken for credit for a combined total of three times. Program or materials fees may apply.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -233,6 +266,7 @@
   {
     "name": "Seminar in Religion",
     "code": "RELI 189",
+    "description": "This seminar requires the intensive analysis of critical problems in the study of religion or the history of particular religions. May be repeated for credit up to three times when topics vary.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -240,6 +274,7 @@
   {
     "name": "Senior Seminar in Religion",
     "code": "RELI 192",
+    "description": "The senior seminar is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in religion at the upper-division level. Topics will vary from quarter to quarter. Senior seminars may be taken for credit up to four times, with a change in topic and permission of the department. Enrollment is limited to twenty students, with preference given to seniors.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -247,6 +282,7 @@
   {
     "name": "Honors Thesis in Religion",
     "code": "RELI 196AH",
+    "description": "First quarter of a two-quarter sequence of individualized, directed-research courses for majors in which students learn firsthand the processes and practices of scholarly research in the study of religion, culminating in the completion of a thesis and an oral presentation. Students may not receive credit for both RELI 196H and RELI 196AH.",
     "raw_prereq": "RELI 101 (may be completed concurrently with the honors sequence). Department approval required for entry into the Honors Program.",
     "prerequisites": [
       {
@@ -264,6 +300,7 @@
   {
     "name": "Honors Thesis in Religion",
     "code": "RELI 196BH",
+    "description": "Second quarter of a two-quarter sequence of individualized, directed-research courses for majors in which students learn firsthand the processes and practices of scholarly research in the study of religion, culminating in the completion of a thesis and an oral presentation. Students may not receive credit for both RELI 196H and RELI 196BH.",
     "raw_prereq": "RELI 196A. Department approval required for continuing participation in the Honors Program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -271,6 +308,7 @@
   {
     "name": "Directed Advanced Readings",
     "code": "RELI 197",
+    "description": "A faculty member will direct a student in advanced readings on a topic not generally included in the Program for the Study of Religion’s curriculum. Students must make arrangements with the program and individual faculty. May be repeated for credit up to three times for credit.",
     "raw_prereq": "upper-division standing; RELI 110A or 110B; overall GPA of 2.5.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -278,6 +316,7 @@
   {
     "name": "Independent Research Study for Undergraduates",
     "code": "RELI 199",
+    "description": "Independent research in religion under the supervision of a faculty member affiliated with the Program for the Study of Religion. This course may be repeated three times with program approval. (P/NP grades only.)",
     "raw_prereq": "upper-division standing, with 2.5 GPA (overall); program stamp.",
     "prerequisites": [],
     "offered_this_qtr": false

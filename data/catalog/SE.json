@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Structures and Design",
     "code": "SE 1",
+    "description": "Introduction to fundamentals of structures and how structures work. Overview of structural behavior and structural design process through hands-on projects. Lessons learned from structural failures. Professional ethics. Role and responsibility of structural engineers. Introduction to four structural engineering focus sequences. Program or materials fees may apply.",
     "raw_prereq": "none. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
     "prerequisites": [
       {
@@ -40,6 +41,7 @@
   {
     "name": "Graphical Communication for Engineering Design",
     "code": "SE 3",
+    "description": "Use of computer graphics (CAD software) to communicate engineering designs. Includes visualization, sketching, 2D and 3D graphics standards, dimensioning, tolerance, assemblies, and prototyping/testing with light manufacturing methods. Project/system management software, i.e., building information modeling (BIM), will be introduced. Use of computer resources.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -47,6 +49,7 @@
   {
     "name": "Spatial Visualization",
     "code": "SE 7",
+    "description": "Spatial visualization is the ability to manipulate 2D and 3D shapes in one’s mind. In this course, students will perform exercises that increase their spatial visualization skills. P/NP grades only. Students may not receive credit for SE 7 and MAE 7.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -54,6 +57,7 @@
   {
     "name": "Algorithms and Programming for Structural Engineering",
     "code": "SE 9",
+    "description": "Introduction to the MATLAB environment. Variables and types, statements, functions, blocks, loops, and branches. Algorithm development. Functions, function handles, input and output arguments. Data encapsulation and object-oriented programming. Toolboxes and libraries. Models from physics (mechanics and thermodynamics) are used in exercises and projects.",
     "raw_prereq": "MATH 20A and MATH 20B.",
     "prerequisites": [
       {
@@ -71,6 +75,7 @@
   {
     "name": "First-year Student Seminar",
     "code": "SE 87",
+    "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter.",
     "raw_prereq": "open to first-year students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -78,6 +83,7 @@
   {
     "name": "Independent Study",
     "code": "SE 99H",
+    "description": "Independent study or research under direction of a faculty member.",
     "raw_prereq": "student must be of first year standing and a Regents Scholar. Consent of instructor or department stamp.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -85,6 +91,7 @@
   {
     "name": "Mechanics I: Statics",
     "code": "SE 101A",
+    "description": "Statics of particles and rigid bodies in two and three dimensions using vector representation; free body diagrams; analysis of trusses, frames, and machines; internal forces; shear force and bending moment diagrams; equilibrium problems with friction; introduction to moment of inertia.",
     "raw_prereq": "MATH 20C or MATH 31BH and PHYS 2A or PHYS 2AR.",
     "prerequisites": [
       {
@@ -115,6 +122,7 @@
   {
     "name": "Mechanics II: Dynamics",
     "code": "SE 101B",
+    "description": "Kinematics and kinetics of particles in two- and three-dimensional motion. Newton’s equations of motion. Energy and momentum methods. Impulsive motion and impact. Systems of particles. Kinetics and kinematics of rigid bodies in 2-D. Introduction to 3-D dynamics of rigid bodies.",
     "raw_prereq": "SE 101A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -122,6 +130,7 @@
   {
     "name": "Mechanics III: Vibrations",
     "code": "SE 101C",
+    "description": "Free and forced vibrations of damped 1-DOF systems; vibrations isolation, impact and packaging problems. Analysis of discrete MDOF systems using matrix representation; normal mode of frequencies and modal matrix formulation. Lagrange’s equations. Modal superposition for analysis of continuous vibrating systems.",
     "raw_prereq": "MATH 18 or MATH 31AH and SE 101B.",
     "prerequisites": [
       {
@@ -148,6 +157,7 @@
   {
     "name": "Introduction to Computing for Engineers",
     "code": "SE 102",
+    "description": "Introduction to engineering computing. Interpolation, integration, differentiation. Ordinary differential equations. Nonlinear algebraic equations. Systems of linear algebraic equations. Representation of data in the computer.",
     "raw_prereq": "SE 9 and SE 101A.",
     "prerequisites": [
       {
@@ -165,6 +175,7 @@
   {
     "name": "Conceptual Structural Design",
     "code": "SE 103",
+    "description": "Introduction to structural design approaches for civil structures. Structural materials. Loads and load paths. Gravity and lateral load elements and systems. Code design fundamentals. Construction methods. Structural idealization. Hand and computer methods of analysis. Experimental methods applied through team-based projects. Program or materials fees may apply.",
     "raw_prereq": "SE 3, SE 9, SE 101A, and SE 105.",
     "prerequisites": [
       {
@@ -195,6 +206,7 @@
   {
     "name": "Structural Materials",
     "code": "SE 105",
+    "description": "This course will provide lectures and labs on the structural properties of engineering materials. Topics covered will include stress and strain, strain measurement, stiffness, strength, toughness, fatigue resistance, and creep. The course will also cover different materials such as cement and concrete, woods, aluminum alloys, steel, engineering plastics, and composite materials. Corequisite: SE 110A.",
     "raw_prereq": "SE 1 and SE 101A.",
     "prerequisites": [
       {
@@ -212,6 +224,7 @@
   {
     "name": "Solid Mechanics I",
     "code": "SE 110A",
+    "description": "Concepts of stress and strain. Hooke’s law. Stress transformation. Axial loading of bars. Torsion of circular shafts. Torsion of thin-walled members. Pure bending of beams. Unsymmetric bending of beams. Shear stresses in beams. Shear stresses in thin-walled beams. Shear center. Differential equation of the deflection curve. Deflections and slopes of beams from integration methods. Statically determinate and indeterminate problems.",
     "raw_prereq": "MATH 20D and SE 101A.",
     "prerequisites": [
       {
@@ -229,6 +242,7 @@
   {
     "name": "Solid Mechanics II",
     "code": "SE 110B",
+    "description": "Advanced concepts in the mechanics of deformable bodies. Unsymmetrical bending of symmetrical and unsymmetrical sections. Bending of curved beams. Shear center and torsional analysis of open and closed sections. Stability analysis of columns, lateral buckling. Application of the theory of elasticity in rectangular coordinates.",
     "raw_prereq": "SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
     "prerequisites": [
       {
@@ -267,6 +281,7 @@
   {
     "name": "Fluid Mechanics for Structural Engineering",
     "code": "SE 115",
+    "description": "Fluid statics, hydrostatic forces; integral and differential forms of conservation equations for mass, momentum, and energy; Bernoulli equation; dimensional analysis; viscous pipe flow; external flow, boundary layers; open channel flow.",
     "raw_prereq": "PHYS 2A or PHYS 2AR and MATH 20D.",
     "prerequisites": [
       {
@@ -293,6 +308,7 @@
   {
     "name": "Engineering Graphics and Computer Aided Structural Design",
     "code": "SE 120",
+    "description": "Engineering graphics, solid modeling, CAD applications including 2-D and 3-D transformations, 3-D viewing, wire frame and solid models, Hidden surface elimination. Program or materials fees may apply.",
     "raw_prereq": "SE 102 and SE 103.",
     "prerequisites": [
       {
@@ -310,6 +326,7 @@
   {
     "name": "Statistics, Probability and Reliability",
     "code": "SE 125",
+    "description": "Probability theory. Statistics, data analysis and inferential statistics, distributions, confidence intervals. Introduction to structural reliability and random phenomena. Applications to components and systems. Students will not receive credit for both SE 125 and MAE 108.",
     "raw_prereq": "MATH 18 or MATH 31AH and MATH 20D. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
     "prerequisites": [
       {
@@ -361,6 +378,7 @@
   {
     "name": "Structural Analysis I",
     "code": "SE 130A",
+    "description": "Classical methods of analysis for statically indeterminate structures. Development of computer codes for the analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs.",
     "raw_prereq": "grade of C– or better in SE 110A.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -368,6 +386,7 @@
   {
     "name": "Structural Analysis II",
     "code": "SE 130B",
+    "description": "Classical methods of analysis for statically indeterminate structures. Analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs.",
     "raw_prereq": "MATH 18 or MATH 31AH and SE 130A.",
     "prerequisites": [
       {
@@ -394,6 +413,7 @@
   {
     "name": "Finite Element Analysis",
     "code": "SE 131A",
+    "description": "Development of finite element models based upon the Galerkin method. Application to static and dynamic heat conduction and stress analysis. Formulation of initial boundary value problem models, development of finite element formulas, solution methods, and error analysis and interpretation of results. Corequisite: SE 130B.",
     "raw_prereq": "MATH 20E, SE 3, and SE 110B.",
     "prerequisites": [
       {
@@ -420,6 +440,7 @@
   {
     "name": "Finite Element Analysis: Beam and Shell Models",
     "code": "SE 131B",
+    "description": "Project-based exploration of structural engineering computations. Topics include analysis of shell structures, design optimization, computational vibration analysis.",
     "raw_prereq": "SE 131A, SE 101C, and SE 130B.",
     "prerequisites": [
       {
@@ -446,6 +467,7 @@
   {
     "name": "Machine Learning for Structural Engineering",
     "code": "SE 132",
+    "description": "This course aims at introducing concepts of machine learning and its applications to structural engineering. Theory behind popular machine learning algorithms will be discussed, including supervised learning, unsupervised learning, and deep learning. Topics include regression, classification, support vector machines, clustering, tree-based methods, model selections and regularizations, cross-validation and bootstrapping, neural networks, and Python programming.",
     "raw_prereq": "SE 9, SE 110A, and SE 125.",
     "prerequisites": [
       {
@@ -472,6 +494,7 @@
   {
     "name": "Design of Civil Structures I",
     "code": "SE 140A",
+    "description": "Part I of multidisciplinary team experience to design, analyze, build, and test civil/geotechnical engineering components and systems considering codes, regulations, alternative design solutions, economics, sustainability, constructability, reliability, and aesthetics. Professionalism, technical communication, project management, teamwork, and ethics in engineering practice. Use of computer resources. Program or materials fees may apply.",
     "raw_prereq": "SE 130B and SE 150A.",
     "prerequisites": [
       {
@@ -489,6 +512,7 @@
   {
     "name": "Design of Civil Structures II",
     "code": "SE 140B",
+    "description": "Part II of multidisciplinary team experience to design, analyze, build, and test civil/geotechnical engineering components and systems considering codes, regulations, alternative design solutions, economics, sustainability, constructability, reliability, and aesthetics. Professionalism, technical communication, project management, teamwork, and ethics in engineering practice. Use of computer resources. Program or materials fees may apply.",
     "raw_prereq": "SE 140A, SE 151A, and SE 181.",
     "prerequisites": [
       {
@@ -515,6 +539,7 @@
   {
     "name": "Mechanics and Design of Composite Structures",
     "code": "SE 142",
+    "description": "Introduction to advanced composite materials and their applications. Fiber and matrix properties, micromechanics, stiffness, ply-by-ply stress, hygrothermal behavior, and failure prediction. Lab activity will involve design, analysis, fabrication, and testing of composite structure. Program or materials fees may apply.",
     "raw_prereq": "SE 110A or MAE 131A or MAE 131AR and SE 110B or MAE 131.",
     "prerequisites": [
       {
@@ -549,6 +574,7 @@
   {
     "name": "Aerospace Structural Design I",
     "code": "SE 143A",
+    "description": "Conceptual and preliminary structural design of aircraft and space vehicles. Minimum-weight design of primary structures based upon mission requirements and configuration constraints. Multicriteria decision making. Team projects include layout, material selection, component sizing, fabrication, and cost. Oral presentations. Written reports. Use of computer resources. Program or materials fees may apply.",
     "raw_prereq": "SE 3, SE 142, and SE 160B.",
     "prerequisites": [
       {
@@ -575,6 +601,7 @@
   {
     "name": "Aerospace Structural Design II",
     "code": "SE 143B",
+    "description": "Detailed structural design of aircraft and space vehicles. Composite material design considerations. Multidisciplinary design optimization. Introduction to aerospace computer-aided design and analysis tools. Team projects include the analysis, fabrication, and testing of a flight vehicle component. Oral presentations. Written reports. Use of computer resources. Program or materials fees may apply.",
     "raw_prereq": "SE 143A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -582,6 +609,7 @@
   {
     "name": "Design of Steel Structures I",
     "code": "SE 150A",
+    "description": "Load and resistance factor design concept and loadings for structural systems. Structural steel properties and selection. Design of tension members, compression members, beams, beam-columns, simple bolted, and welded connections.",
     "raw_prereq": "SE 130A, SE 110B, and SE 103.",
     "prerequisites": [
       {
@@ -608,6 +636,7 @@
   {
     "name": "Design of Steel Structures II",
     "code": "SE 150B",
+    "description": "Theory and behavior of steel structures leading to the development of design requirements in current specifications. Topics will include design of simple and rigid connections, composite construction, advanced topics in compression and flexural members including torsion, design of plate girders, the direct analysis method, and plastic analysis. Emphasis will be placed on fundamental concepts.",
     "raw_prereq": "SE 150A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -615,6 +644,7 @@
   {
     "name": "Design of Reinforced Concrete",
     "code": "SE 151A",
+    "description": "Concrete and reinforcement properties. Service and ultimate limit state analysis and design. Design and detailing of structural components. Corequisite: SE 103.",
     "raw_prereq": "SE 130A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -622,6 +652,7 @@
   {
     "name": "Design of Prestressed Concrete",
     "code": "SE 151B",
+    "description": "Time-dependent and independent properties of concrete and reinforcing material. Concept and application of prestressed concrete. Service and ultimate limit state analysis and design of prestressed concrete structures and components. Detailing of components. Calculation of deflection and prestress losses.",
     "raw_prereq": "SE 151A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -629,6 +660,7 @@
   {
     "name": "Seismic Design of Structures",
     "code": "SE 152",
+    "description": "Seismic design philosophy. Ductility concepts. Lateral force resisting systems. Mechanisms of nonlinear deformation. Methods of analysis. Detailing of structural steel and reinforced concrete elements. Lessons learned from past earthquakes. Multistory building design project.",
     "raw_prereq": "SE 130B, SE 150A, and SE 151A.",
     "prerequisites": [
       {
@@ -655,6 +687,7 @@
   {
     "name": "Design of Timber Structures",
     "code": "SE 154",
+    "description": "Properties of wood and lumber grades. Beam design. Design of axially loaded members. Design of beam-column. Properties of plywood and structural-use panels. Design of horizontal diaphragms. Design of shear walls. Design of nailed and bolted connections.",
     "raw_prereq": "grade of C– or better in both SE 103 and SE 130A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
@@ -697,6 +730,7 @@
   {
     "name": "Aerospace Structural Mechanics I",
     "code": "SE 160A",
+    "description": "Aircraft and spacecraft flight loads and operational envelopes, three-dimensional stress/strain relations, metallic and composite materials, failure theories, three-dimensional space trusses and stiffened shear panels, combined extension-bend-twist behavior of thin-walled multicell aircraft and space vehicle structures, modulus-weighted section properties, shear center.",
     "raw_prereq": "SE 105 or MAE 21 and SE 101B or MAE 30B and SE 110A or MAE 131A or MAE 131AR.",
     "prerequisites": [
       {
@@ -749,6 +783,7 @@
   {
     "name": "Aerospace Structural Mechanics II",
     "code": "SE 160B",
+    "description": "Analysis of aerospace structures via work-energy principles and finite element analysis. Bending of metallic and laminated composite plates and shells. Static vibration and buckling analysis of simple and built-up aircraft structures. Introduction to wing divergence and flutter, fastener analysis.",
     "raw_prereq": "SE 160A. Enrollment restricted to MC25, MC27, and SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
@@ -800,6 +835,7 @@
   {
     "name": "Nondestructive Evaluation",
     "code": "SE 163",
+    "description": "Fourier signal processing, liquid penetrant, elastic wave propagation, ultrasonic testing, impact-echo, acoustic emission testing, vibrational testing, infrared thermography. May be coscheduled with SE 263.",
     "raw_prereq": "SE 110A.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -807,6 +843,7 @@
   {
     "name": "Sensors and Data Acquisition for Structural Engineering",
     "code": "SE 164",
+    "description": "This course discusses theory, design, and applications of sensor technologies in the context of structural engineering and structural health monitoring. Topics include sensors and sensing mechanisms; measurement uncertainty; signal conditioning and interface circuits; data acquisition; analog/digital circuits; and emerging sensors. Students will not receive credit for both SE 164 and SE 164GS. May be coscheduled with SE 264.",
     "raw_prereq": "SE 110A.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -814,6 +851,7 @@
   {
     "name": "Structural Health Monitoring",
     "code": "SE 165",
+    "description": "A modern paradigm of structural health monitoring as it applies to structural and mechanical systems is presented. Concepts in data acquisition, feature extraction, data normalization, and statistical modeling will be introduced in an integrated context. MATLAB-based exercise. Term project. Use of computer resources. May be coscheduled with SE 265.",
     "raw_prereq": "SE 101C.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -821,6 +859,7 @@
   {
     "name": "Signal Processing and Spectral Analysis for Structural Engineering",
     "code": "SE 167",
+    "description": "Signal processing is widely used in engineering and physical sciences. This course discusses techniques to analyze signals (or data), particularly related to structural dynamic response focusing on time/frequency domain data analysis (Fourier transform, digital filtering, and feature extraction). Students will not receive credit for both SE 167 and SE 167GS. May be coscheduled with SE 267A.",
     "raw_prereq": "SE 101C. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
@@ -859,6 +898,7 @@
   {
     "name": "Structural System Testing and Model Correlation",
     "code": "SE 168",
+    "description": "Dynamic/model testing of structures: test planning/execution, actuation, sensing, and data acquisition, signal processing, data conditioning, test troubleshooting. Methods of updating finite element structural models to correlate with dynamic test results. Model/test correlation assessment in industrial practice. Knowledge of MATLAB strongly encouraged.",
     "raw_prereq": "SE 101C, SE 131A, and SE 167 or SE 167GS.",
     "prerequisites": [
       {
@@ -889,6 +929,7 @@
   {
     "name": "Aerospace Structures Repair",
     "code": "SE 171",
+    "description": "Review methods used to repair aerospace structures. Emphasis on primary load-bearing airframe structures and analysis/design of substantiate repairs. Identification of structural/corrosion distress, fatigue cracking, damage tolerance, integrity and durability of built-up members, patching, health monitoring. Use of computer resources.",
     "raw_prereq": "SE 110A or MAE 131A or MAE 131AR and SE 110B or MAE 131B. Enrollment restricted to SE27, SE28, SE29, SE30, SE31, MC25, and MC27 majors only.",
     "prerequisites": [
       {
@@ -956,6 +997,7 @@
   {
     "name": "Earthquake Engineering",
     "code": "SE 180",
+    "description": "Dynamic analysis of structures due to seismic ground motions. Seismic hazard, earthquake magnitude, and intensity scales. Elements of seismology. Elastic and inelastic response spectra. Modal analysis, linear and nonlinear time-history analysis. Earthquake resistant design. Seismic codes. Elements of geotechnical earthquake engineering.",
     "raw_prereq": "grade of C– or better in all SE 9, SE 101C, and SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
@@ -1007,6 +1049,7 @@
   {
     "name": "Geotechnical Engineering",
     "code": "SE 181",
+    "description": "General introduction to physical and engineering properties of soils. Soil classification and identification methods. Compaction and construction control. Total and effective stress. Permeability, seepage, and consolidation phenomena. Shear strength of sand and clay.",
     "raw_prereq": "grade of C– or better in SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
@@ -1045,6 +1088,7 @@
   {
     "name": "Foundation Engineering",
     "code": "SE 182",
+    "description": "Application of soil mechanics to the analysis, design, and construction of foundations for structures. Soil exploration, sampling, and in situ testing techniques. Stress distribution and settlement of structures. Bearing capacities of shallow foundations and effects on structural design. Analysis of axial and lateral capacity of deep foundations, including drilled piers and driven piles.",
     "raw_prereq": "SE 181.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1052,6 +1096,7 @@
   {
     "name": "Ground Improvement",
     "code": "SE 184",
+    "description": "Concepts underpinning mechanical, hydraulic, chemical and inclusion-based methods of ground improvement will be discussed. Students will be able to understand the advantages, disadvantages and limitations of the various methods; and develop a conceptual design for the most appropriate improvement strategy.",
     "raw_prereq": "SE 181.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1059,6 +1104,7 @@
   {
     "name": "Senior Seminar",
     "code": "SE 192",
+    "description": "The Senior Seminar is designed to allow senior undergraduates to meet with faculty members to explore an intellectual topic in structural engineering. Topics will vary from quarter to quarter. Enrollment is limited to twenty students with preference given to seniors.",
     "raw_prereq": "SE major. Department stamp and/or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1066,6 +1112,7 @@
   {
     "name": "Teaching",
     "code": "SE 195",
+    "description": "Teaching and tutorial assistance in a SE course under supervision of instructor. Not more than four units may be used to satisfy graduation requirements. (P/NP grades only.)",
     "raw_prereq": "B average in major, upper-division standing, and consent of department chair. Department stamp required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1073,6 +1120,7 @@
   {
     "name": "Engineering Internship",
     "code": "SE 197",
+    "description": "An enrichment program, available to a limited number of undergraduate students, which provides work experience with industry, government offices, etc., under the supervision of a faculty member and industrial supervisor. Coordination of the Engineering Internship is conducted through UC San Diego’s Academic Internship Program.",
     "raw_prereq": "completion of ninety units with a 2.5 GPA and consent of department chair. Department stamp required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1080,6 +1128,7 @@
   {
     "name": "Directed Study Group",
     "code": "SE 198",
+    "description": "Directed group study, on a topic or in a field not included in the regular department curriculum, by special arrangement with a faculty member. (P/NP grades only.)",
     "raw_prereq": "consent of instructor or department stamp.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1087,6 +1136,7 @@
   {
     "name": "Independent Study",
     "code": "SE 199",
+    "description": "Independent reading or research on a problem by special arrangement with a faculty member. (P/NP grades only.)",
     "raw_prereq": "consent of instructor or department stamp.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1094,6 +1144,7 @@
   {
     "name": "Applied Mathematics in Structural Engineering",
     "code": "SE 200",
+    "description": "This course is designed to give beginning students the basic preparation in mathematical methods required for graduate Structural Engineering courses. Topics include linear algebra; systems of ordinary differential equations; diffusion and wave propagation problems; integral transforms; and calculus of variations.",
     "raw_prereq": "graduate standing or approval of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1101,6 +1152,7 @@
   {
     "name": "Advanced Structural Analysis",
     "code": "SE 201A",
+    "description": "Application of advanced analytical concepts to structural engineering problems. Analysis of frame structures using matrix methods and introduction to the finite element method. Displacement-based and force-based beam element formulations. Development of computer programs for structural analysis. Use of computer resources.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1108,6 +1160,7 @@
   {
     "name": "Nonlinear Structural Analysis",
     "code": "SE 201B",
+    "description": "The course emphasizes the principles behind modern nonlinear structural analysis software. It deals with the theory, computer implementation, and applications of methods of material and geometric nonlinear analysis. Emphasis is on 2D and 3D frame structures modeled using 1D (beam-column) elements. Use of computer resources.",
     "raw_prereq": "SE 201A or equivalent, or consent of instructor.",
     "prerequisites": [
       {
@@ -1125,6 +1178,7 @@
   {
     "name": "Structural Stability",
     "code": "SE 202",
+    "description": "Static, dynamic, and energy-based techniques and predicting elastic stability. Linear and nonlinear analysis of classical and shear deformable beams and plates. Ritz, Galerkin, and finite element approaches for frames and reinforced shells. Nonconservative aerodynamic (divergence flutter) and follower forces. Recommended preparation: SE 101A-C and SE 110A or equivalent background in solid mechanics and structural dynamics.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1132,6 +1186,7 @@
   {
     "name": "Structural Dynamics I",
     "code": "SE 203A",
+    "description": "Response of discrete linear structural systems to harmonic, periodic and transient excitations. Lagrangian mechanics. Linearization of the equations of motion. Free and forced vibrations of multi degree-of-freedom structures. Normal mode, frequency response and numerical methods. Continuous systems.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1139,6 +1194,7 @@
   {
     "name": "Structural Dynamics II",
     "code": "SE 203B",
+    "description": "Structural dynamics of multidegree of freedom systems with emphasis on earthquake response of buildings. Damping in structures. Numerical methods for the computation of vibration properties. Dynamic analysis and response of linear elastic systems. Numerical evaluation of the dynamic response of linear and nonlinear systems. Earthquake analysis and response of buildings. Laboratory hands-on activities that reinforce the fundamental concepts of structural dynamics.",
     "raw_prereq": "SE 203A or SE 203 and graduate standing.",
     "prerequisites": [
       {
@@ -1165,6 +1221,7 @@
   {
     "name": "Advanced Structural Dynamics",
     "code": "SE 204",
+    "description": "Free- and forced-vibration of continuous systems such as axial and torsional vibrations of bars and transverse vibrations of various beams, membranes, and plates. Euler-Lagrange formulation using variational calculus. Rayleigh-Ritz method for approximation. Applications in vibration suppression/isolation.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1172,6 +1229,7 @@
   {
     "name": "Nonlinear Mechanical Vibrations",
     "code": "SE 205",
+    "description": "Advanced analytical techniques to understand nonlinearity in mechanical vibration. Phase plane analysis instability, and bifurcations. Application in nonlinear structural resonance. Introduction to chaotic dynamics, advanced time series analysis, and using chaotic dynamics in applications such as structural damage assessment.",
     "raw_prereq": "SE 203 or SE 203A or consent of instructor, graduate standing.",
     "prerequisites": [
       {
@@ -1198,6 +1256,7 @@
   {
     "name": "Random Vibrations",
     "code": "SE 206",
+    "description": "Introduction to probability theory and random processes. Dynamic analysis of linear structural systems subjected to stationary and nonstationary random excitations. Reliability studies related to first excursion and fatigue failures. Applications in earthquake engineering, offshore engineering, wind engineering, and aerospace engineering. Use of computer resources. Recommended preparation: basic knowledge of probability theory (SE 125 or equivalent).",
     "raw_prereq": "SE 203 or SE 203A, graduate standing.",
     "prerequisites": [
       {
@@ -1224,6 +1283,7 @@
   {
     "name": "Topics in Structural Engineering",
     "code": "SE 207",
+    "description": "A course to be given at the discretion of the faculty in which topics of current interest in structural engineering will be presented.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1231,6 +1291,7 @@
   {
     "name": "Advanced Structural Concrete",
     "code": "SE 211",
+    "description": "Properties of reinforcing steels; concrete technology; creep, shrinkage and relaxation; Mohr-Coulomb failure criteria for concrete; confinement, moment curvature and force-displacement responses; plastic design; code compliant seismic design philosophy; code compliant seismic design of structural walls. Use of computer resources. Recommended preparation: SE 151A and SE 151B or equivalent background in basic RC/PC design.",
     "raw_prereq": "department approval or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1238,6 +1299,7 @@
   {
     "name": "Advanced Structural Steel Design",
     "code": "SE 212",
+    "description": "Load and Resistance Factor Design (LRFD) philosophy. Behavior and design of steel elements for global and local buckling. Background of seismic codes. Ductility requirements and capability design concept. Seismic design of steel moment frames and braced frames. Recommended preparation: SE 130A and SE 150A, or equivalent course, or consent of instructor.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1245,6 +1307,7 @@
   {
     "name": "Bridge Design",
     "code": "SE 213",
+    "description": "Design and analysis of bridge structures, construction methods, load conditions. Load paths and distribution of dead and live loads. Service, strength, and extreme event limit states and other load and resistance factor design (LRFD) principles. Design of prestressed concrete bridges. Special problems in analysis—concrete box girders, curved and skewed bridges, environmental and seismic loads. Conceptual/preliminary bridge design project. Recommended preparation: SE 151A-B, SE 201A, SE 211, SE 223, or equivalent courses.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1252,6 +1315,7 @@
   {
     "name": "Masonry Structures",
     "code": "SE 214",
+    "description": "Analysis and design of unreinforced and reinforced masonry structure using advanced analytical techniques and design philosophies. Material properties, stability, and buckling of unreinforced masonry. Flexural strength, shear strength, stiffness, and ductility of reinforced masonry elements. Design for seismic loads.",
     "raw_prereq": "SE 151A, B, or equivalent basic reinforced concrete course, or consent of instructor, graduate standing.",
     "prerequisites": [
       {
@@ -1269,6 +1333,7 @@
   {
     "name": "Cable Structures",
     "code": "SE 215",
+    "description": "The course deals with cable structures from a structural mechanics point of view. The theoretical and practical aspects of the application of cables to moorings, guyed structures, suspension bridges, cable-stayed bridges, and suspended membranes are discussed.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1276,6 +1341,7 @@
   {
     "name": "Seismic Isolation and Energy Dissipation",
     "code": "SE 220",
+    "description": "Concepts, advantages, and limitations of seismic isolation techniques; fundamentals of dynamic response under seismic excitation; spectral analysis; damping; energy approach; application to buildings and structures.",
     "raw_prereq": "SE 221 or consent of instructor.",
     "prerequisites": [
       {
@@ -1293,6 +1359,7 @@
   {
     "name": "Earthquake Engineering",
     "code": "SE 221",
+    "description": "Introduction to plate tectonics and seismology. Rupture mechanism, measures of magnitude and intensity, earthquake occurrence and relation to geologic, tectonic processes. Probabilistic seismic hazard analysis. Strong earthquake ground motion; site effects on ground motion; structural response; soil-structure interaction; design criteria; code requirements. Use of computer resources.",
     "raw_prereq": "SE 201A or SE 203 or SE 203A, graduate standing.",
     "prerequisites": [
       {
@@ -1323,6 +1390,7 @@
   {
     "name": "Geotechnical Earthquake Engineering",
     "code": "SE 222",
+    "description": "Influence of soil conditions on ground motion characteristics; dynamic behavior of soils, computation of ground response using wave propagation analysis and finite element analysis; evaluation and mitigation of soil liquefaction; soil-structure interaction; lateral pressures on earth retaining structures; analysis of slope stability. Recommended preparation: SE 181 or equivalent.",
     "raw_prereq": "department approval and graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1330,6 +1398,7 @@
   {
     "name": "Advanced Seismic Design of Structures",
     "code": "SE 223",
+    "description": "Modal analysis. Nonlinear response spectra. Performance based seismic design. Nonlinear time history analyses. Capacity design. Structural walls. Coupled walls. Rocking walls. Base isolation. Recommended preparation: grade of B+ or higher in SE 211 and SE 201B.",
     "raw_prereq": "department approval and graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1337,6 +1406,7 @@
   {
     "name": "Structural Reliability and Risk Analysis",
     "code": "SE 224",
+    "description": "Review of probability theory and random processes. Fundamentals of structural reliability theory. First- and second-order, and simulation methods of reliability analysis. Structural component and system reliability. Reliability sensitivity measures. Bayesian reliability analysis methods. Bases for probabilistic design codes. Use of computer resources. Recommended preparation: basic knowledge of probability theory (e.g., SE 125).",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1344,6 +1414,7 @@
   {
     "name": "Geotechnical Groundwater Engineering",
     "code": "SE 226",
+    "description": "This course will treat quantitative aspects of the flow of uncontaminated groundwater as it influences the practice of geotechnical engineering. We will cover flow through porous media, generalized Darcy’s law, groundwater modeling, confined and unconfined systems, well hydraulics, land subsidence, and construction dewatering.",
     "raw_prereq": "SE 241 or consent of instructor, graduate standing.",
     "prerequisites": [
       {
@@ -1361,6 +1432,7 @@
   {
     "name": "Seismic Design and Performance of Nonstructural Components and Systems",
     "code": "SE 227",
+    "description": "This course provides students with an understanding of the design and performance of nonstructural components and systems (NCSs) when subjected to earthquake loads. Specifically, this course will cover 1) classification and sources of damage, 2) case histories, 3) experimental advancements, 4) methods in practice (force- and displacement-based), 5) methods of analysis, 6) anchorage design, and 7) protection of NCSs. Corequisite: SE 203A.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1368,6 +1440,7 @@
   {
     "name": "Machine Learning in Computational Mechanics",
     "code": "SE 232",
+    "description": "Provides background and tools to apply machine learning to solve problems in computational mechanics and engineering. An overview of the basic principles of machine learning will be provided, including supervised and unsupervised learning, regression, classification, and generative algorithms versus discriminative algorithms. Focus will be given to deep neural networks, convolutional neural networks, recurrent neural networks, physics-informed machine learning and implementation in Python. Recommended preparation: knowledge of computer programming, probability theory, linear algebra, and solid mechanics.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1375,6 +1448,7 @@
   {
     "name": "Computational Techniques in Finite Elements",
     "code": "SE 233",
+    "description": "Cross-listed with MAE 235. Practical application of the finite element method to problems in solid mechanics. Elements of theory are presented as needed. Covered are static and dynamic heat transfer and stress analysis. Basic processing, solution methods, and postprocessing are practiced with commercial finite element software. Students may not receive credit for SE 233 and MAE 235.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1382,6 +1456,7 @@
   {
     "name": "Plates and Shells",
     "code": "SE 234",
+    "description": "General mathematical formulation of the theory of thin elastic shells; linear membrane and bending theories; finite strain and rotation theories; shell of revolution; shallow shells; selected static and dynamic problems; survey of recent advances.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1389,6 +1464,7 @@
   {
     "name": "Wave Propagation in Elastic Media",
     "code": "SE 235",
+    "description": "Wave propagation in elastic media with emphasis on waves in unbound media and on uniform and layered half-spaces. Fundamental aspects of elastodynamics. Application to strong-motion seismology, earthquake engineering, dynamics of foundations, computational wave propagation, and nondestructive evaluations.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1396,6 +1472,7 @@
   {
     "name": "Wave Propagation in Continuous Structural Elements",
     "code": "SE 236",
+    "description": "Propagation of elastic waves in thin structural elements such as strings, rods, beams, membranes, plates, and shells. An approximate strength-of-materials approach is used to consider propagation of elastic waves in these elements and obtain the dynamic response to transient loads.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1403,6 +1480,7 @@
   {
     "name": "Advanced Soil Mechanics",
     "code": "SE 241",
+    "description": "Advanced treatment of topics in soil mechanics, including state of stress, pore pressure, consolidation and settlement analysis, shear strength of cohesionless and cohesive soils, mechanisms of ground improvement, and slope stability analysis. Concepts in course reinforced by laboratory experiments.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1410,6 +1488,7 @@
   {
     "name": "Advanced Foundation Engineering",
     "code": "SE 242",
+    "description": "Application of soil mechanics to the analysis, design, and construction of foundations for structures. Soil exploration, sampling, and in-situ testing techniques. Stress distribution and settlement of structures. Bearing capacities of shallow foundations and effects on structural design. Analysis of axial and lateral capacity of deep foundations, including drilled piers and driven piles.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1417,6 +1496,7 @@
   {
     "name": "Soil-Structure Interaction",
     "code": "SE 243",
+    "description": "Advanced treatment of the dynamic interaction between soils and structures. Dynamic response of shallow and embedded foundations. Kinematic and inertial interaction. General computational and approximate analytical methods of analysis.",
     "raw_prereq": "SE 203 or SE 203A, graduate standing.",
     "prerequisites": [
       {
@@ -1443,6 +1523,7 @@
   {
     "name": "Numerical Methods in Geomechanics",
     "code": "SE 244",
+    "description": "Application of finite element method to static and dynamic analysis of geotechnical structures. One-, 2-, and 3-D static and seismic response of earth structures/slopes/Foundation systems. Pore-pressure generation/effects during cycle loading. System identification using strong motion downhole-array data. Use of computer resources required.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1450,6 +1531,7 @@
   {
     "name": "Unsaturated Soil Mechanics",
     "code": "SE 246",
+    "description": "This course covers the hydraulic and mechanical behavior of unsaturated soils. Topics include soil-air-water interactions, measurement of hydraulic properties, water flow analysis, effective stress theory, and elasto-plastic constitutive modeling. Applications to foundation engineering, slope stability, earth dams, and geoenvironmental engineering are presented.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1457,6 +1539,7 @@
   {
     "name": "Ground Improvement",
     "code": "SE 247",
+    "description": "Concepts underpinning mechanical, hydraulic, chemical and inclusion-based methods of ground improvement will be discussed. Students will be able to understand the advantages, disadvantages and limitations of the various methods; and develop a conceptual design for the most appropriate improvement strategy. Recommended Preparation: SE 181 or equivalent background in the physics and engineering properties of soil.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1464,6 +1547,7 @@
   {
     "name": "Engineering Properties of Soils",
     "code": "SE 248",
+    "description": "Experimental/constitutive modeling perspectives on mechanical, hydraulic, thermal behavior of dry and saturated soils. Experimental techniques and methodologies presented; students will be able to perform key tests. Behavior of saturated sands and clays described based on key studies. Calibration of constitutive models for stress-strain behavior of soils, including hyperbolic, Mohr-Coulomb/Cam-Clay models. Modification of these models to consider thermal effects.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1471,6 +1555,7 @@
   {
     "name": "Rock Mechanics and Engineering",
     "code": "SE 249",
+    "description": "Origins of rock, intact rock stress-strain behavior and testing, theory of poroelasticity, fracture behavior and permeability, elastic description of orthotropic and transversely isotropic rock mass. Engineering topics include excavations, foundations, stresses around the circular hole in rock, principles of hydraulic fracturing.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1478,6 +1563,7 @@
   {
     "name": "Stability of Earth Slopes and Retaining Walls",
     "code": "SE 250",
+    "description": "Fundamental and advanced concepts of stability analysis for earth slopes and retaining walls with soil backfill. Topics: shear strength, effective/total stress analysis, infinite/finite slopes, reinforced soil slopes, lateral earth pressure, retaining wall design and reinforced soil retaining walls. Recommended preparation: SE 181 or equivalent background.",
     "raw_prereq": "department approval and graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1485,6 +1571,7 @@
   {
     "name": "Processing of Polymers and Composites",
     "code": "SE 251A",
+    "description": "Introduction to processing and fabrication methods of polymers and composite materials. Processing techniques; facilities and equipment; material-processing-microstructure interaction; materials selection; form and quality control. Extrusion; injection molding; blow molding; compression molding; thermoforming; casting; foaming. Wet layup; sprayup; autoclave cure, SMC; RTM; resin infusion; winding and fiber placement; pultrusion. Process induced defects and environmental considerations. Cross-listed with MATS 261A.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1492,6 +1579,7 @@
   {
     "name": "Mechanical Behaviors of Polymers and Composites",
     "code": "SE 251B",
+    "description": "Material science-oriented course on polymers and composites. Mechanical properties of polymers; micromechanisms of elastic and plastic deformations, fracture, and fatigue of polymers and composites. Cross-listed with MATS 261B.",
     "raw_prereq": "graduate standing required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1499,6 +1587,7 @@
   {
     "name": "Experimental Mechanics and NDE",
     "code": "SE 252",
+    "description": "Requirements for strain measurements, electrical resistance strain gages, fiberoptic strain gages, wave propagation, ultrasonic testing, impact-echo, acoustic emission, infrared thermography, vibrational testing. Applications to materials characterization, defect detection, and health monitoring of structural components. Recommended preparation: SE 101A, SE 110A or MAE 131A, and SE 110B or MAE 131B.",
     "raw_prereq": "department approval required, graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1506,6 +1595,7 @@
   {
     "name": "Mechanics and Design of Composite Structures",
     "code": "SE 253A",
+    "description": "Graduate-level introduction to advanced composite materials and their applications. Fiber and matrix properties, 3D properties, stress-strain relationships, micromechanics, stiffness, ply-by-ply stress, classical laminated plate theory, hygrothermal/CTE behavior, and failure prediction. Lab activity will involve composite fabrication methods and design, analysis, build, and testing of composite structure. May be coscheduled with SE 142. Program or materials fees may apply.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1513,6 +1603,7 @@
   {
     "name": "Mechanics and Design of Composite Structures II",
     "code": "SE 253B",
+    "description": "Advanced topics, with prerequisite being SE 253A, or equivalent. Macro- and micro-material modeling, classical and shear deformable laminate beam and plate theories developed via energy principles, Ritz, Galerkin, and Finite element based solutions, advanced failure theories, fracture, holes/notches and hole-size effect, interlaminar stresses, free-edge problems, impact, damage tolerance, fatigue, elastic tailoring, thermally stabile/zero CTE structures, etc.",
     "raw_prereq": "SE 253A or equivalent, graduate standing.",
     "prerequisites": [
       {
@@ -1530,6 +1621,7 @@
   {
     "name": "Mechanics of Laminated Anisotropy Plates and Shells",
     "code": "SE 253C",
+    "description": "Static/dynamic/elastic stability of laminated anisotropic plates and cylindrical shells. Theories: thin-plate (classical lamination theory), first-and third- order shear-deformable (Reissner-Mindlin and Reddy) thick plates, and refined layer-wise theories. Solution methods: exact, approximate (Ritz, Galerkin) and finite element method. Additional topics: sandwich construction, elastic couplings, thermal response, shear factor determination, fiber/interlaminar stress recovery, strength/safety.",
     "raw_prereq": "SE 253B; graduate standing or consent of instructor.",
     "prerequisites": [
       {
@@ -1547,6 +1639,7 @@
   {
     "name": "FRPs in Civil Structures",
     "code": "SE 254",
+    "description": "Strengthening of existing reinforced concrete structures with fiber reinforced composites. Mechanics of Fiber Reinforced Plastic lamina, bond strength of FRP-to-concrete joints, shear and flexural strengthening of beams and walls, increased strength and ductility of axially loaded columns, and seismic retrofit of columns. Use of computer resources.",
     "raw_prereq": "SE 253A, graduate standing.",
     "prerequisites": [
       {
@@ -1564,6 +1657,7 @@
   {
     "name": "Textile Composite Structures",
     "code": "SE 255",
+    "description": "Introduction to textile structure and behavior, mechanics of yarns and fabrics as relevant to structural composites and geotechnical applications. Mechanics of textiles and fabric-based composites. Applications in fiber reinforced composites, coated textile structures, geotextiles.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1571,6 +1665,7 @@
   {
     "name": "Aerospace Structural Mechanics I",
     "code": "SE 260A",
+    "description": "Aircraft and spacecraft flight loads and operational envelopes, three-dimensional stress/strain relations, metallic and composite materials, failure theories, three-dimensional space trusses and stiffened shear panels, combined extension-bend-twist behavior of thin-walled multicell aircraft and space vehicle structures, modulus-weighted section properties, shear center.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1578,6 +1673,7 @@
   {
     "name": "Aerospace Structural Mechanics II",
     "code": "SE 260B",
+    "description": "Analysis of aerospace structures via work-energy principles and finite element analysis. Bending of metallic and laminated composite plates and shells. Static vibration and buckling analysis of simple and built-up aircraft structures. Introduction to wing divergence and flutter, fastener analysis.",
     "raw_prereq": "SE 260A, graduate standing.",
     "prerequisites": [
       {
@@ -1595,6 +1691,7 @@
   {
     "name": "Aerospace Engineering Design",
     "code": "SE 261",
+    "description": "Advanced topics in the design of weight-critical aerospace structures. Topics include static, dynamic, and environmental load definitions; metallics and polymeric composite material selection; semimonocoque analysis techniques; and bolted/bonded connections. Design procedures for sizing the structural components of aircraft and spacecraft will be reviewed.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1602,6 +1699,7 @@
   {
     "name": "Aerospace Structures Repair",
     "code": "SE 262",
+    "description": "Review methods used to repair aerospace structures. Emphasis on primary load-bearing airframe structures and analysis/design of substantiate repairs. Identification of structural/corrosion distress, fatigue cracking, damage tolerance, integrity and durability of built-up members, patching, health monitoring. Use of computer resources.",
     "raw_prereq": "graduate standing. Restricted to SE and MAE graduate students (major codes SE75, SE76, SE77, SE78, SE79, SE80, SE81, SE82, MC75, MC76, MC78, MC80, MC81, MC82, MC83, MC84, MC85, MC86, MC87, MC88).",
     "prerequisites": [
       {
@@ -1696,6 +1794,7 @@
   {
     "name": "Nondestructive Evaluation",
     "code": "SE 263",
+    "description": "Fourier signal processing, liquid penetrant, elastic wave propagation, ultrasonic testing, impact-echo, acoustic emission testing, vibrational testing, infrared thermography. May be coscheduled with SE 163. Recommended Preparation: undergraduate degree in structural, civil, mechanical, or aerospace engineering.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1703,6 +1802,7 @@
   {
     "name": "Sensors and Data Acquisition for Structural Engineering",
     "code": "SE 264",
+    "description": "This course discusses theory, design, and applications of sensor technologies in the context of structural engineering and structural health monitoring. Topics include sensors and sensing mechanisms; measurement uncertainty; signal conditioning and interface circuits; data acquisition; analog/digital circuits; and emerging sensors. May be coscheduled with SE 164.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1710,6 +1810,7 @@
   {
     "name": "Structural Health Monitoring",
     "code": "SE 265",
+    "description": "A modern paradigm of structural health monitoring as it applies to structural and mechanical systems is presented. Concepts in data acquisition, feature extraction, data normalization, and statistical modeling will be introduced in an integrated context. MATLAB-based exercises. Term project.",
     "raw_prereq": "graduate student, undergraduate vibrations or structural dynamics course.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1717,6 +1818,7 @@
   {
     "name": "Smart and Multifunctional Materials",
     "code": "SE 266",
+    "description": "This course examines the properties, physics, mechanisms, and design of smart and multifunctional materials; data acquisition and operating principles of sensor technologies; smart materials (piezoresistive, piezoelectric, magnetorheological, and shape memory materials); nanotechnology-enabled multifunctional materials; and applications for structural health monitoring. Use of computer resources.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1724,6 +1826,7 @@
   {
     "name": "Signal Processing and Spectral Analysis for Structural Engineering",
     "code": "SE 267A",
+    "description": "Signal processing is widely used in engineering and physical sciences. This course discusses techniques to analyze signals (or data), particularly related to structural dynamic response focusing on time/frequency domain data analyses (Fourier transform, digital filtering, and feature extraction). May be coscheduled with SE 167.",
     "raw_prereq": "graduate standing. Restricted to major codes SE75, SE77, SE80, and SE81.",
     "prerequisites": [
       {
@@ -1754,6 +1857,7 @@
   {
     "name": "Structural System Testing and Model Correlation",
     "code": "SE 268",
+    "description": "Dynamic/model testing of structures: test planning/execution, actuation, sensing, and data acquisition, signal processing, data conditioning, test troubleshooting. Methods of updating finite element structural models to correlate with dynamic test results. Model/test correlation assessment in industrial practice. May be coscheduled with SE 168. Recommended preparation: vibrations, finite element analysis, and knowledge of MATLAB.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1761,6 +1865,7 @@
   {
     "name": "Verification and Validation of Computational Models",
     "code": "SE 269",
+    "description": "This course covers methods to verify and validate numerical simulations, including the analysis of verification tests, asymptotic convergence of solutions, validation metrics for test-analysis correlation, global sensitivity analysis, propagation of uncertainty through numerical models, and model calibration.",
     "raw_prereq": "department approval required, graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1768,6 +1873,7 @@
   {
     "name": "Fracture Mechanics of Materials and Structures",
     "code": "SE 270",
+    "description": "This course covers topics in fracture mechanics, including theoretical strength; stress concentration; strain energy release rate; linear and nonlinear fracture mechanics: stress singularity, fracture modes, crack tip plastic zone, Dugdale model, R-curve, elastic-plastic fracture mechanics, the J-integral; experimental techniques; and special topics.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1775,6 +1881,7 @@
   {
     "name": "Solid Mechanics for Structural and Aerospace Engineering",
     "code": "SE 271",
+    "description": "Application of principles of solid mechanics to structural components and systems, description of stresses, strains, and deformation. Use of conservation equations and principle of minimum potential energy. Development of constitutive equations for metallic cementitious and polymeric materials.",
     "raw_prereq": "SE 110A or consent of instructor.",
     "prerequisites": [
       {
@@ -1792,6 +1899,7 @@
   {
     "name": "Theory of Elasticity",
     "code": "SE 272",
+    "description": "Development, formulation, and application of field equations of elasticity and variational principles for structural applications in civil and aerospace area. Use of plane stress and plane strain formulation, solution of typical boundary value problems.",
     "raw_prereq": "SE 271 or consent of instructor.",
     "prerequisites": [
       {
@@ -1809,6 +1917,7 @@
   {
     "name": "Inelasticity",
     "code": "SE 273",
+    "description": "Overview of inelastic behavior of materials. Models of plasticity, viscoplasticity, viscoelasticity. Micromechanics and modeling of damage. Fatigue phenomena. Fracture mechanics. Processes and models of the failure of materials. Students may not receive credit for SE 273 and MAE 231C.",
     "raw_prereq": "graduate standing and SE 271/MAE 231A or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1816,6 +1925,7 @@
   {
     "name": "Nonlinear Finite Element Methods for Solid Mechanics",
     "code": "SE 274",
+    "description": "Modeling of mechanical deformation processes in solids and structures by the finite element method. PDE models of deformations in solids and structures. Weak form. Weighted residual method. Material models for 3-D solids and rods, beams, shells: elasticity, plasticity, viscoplasticity.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1823,6 +1933,7 @@
   {
     "name": "Finite Element Methods in Solid Mechanics I",
     "code": "SE 276A",
+    "description": "Finite element methods for linear problems in solid mechanics. Emphasis on the principle of virtual work, finite element stiffness matrices, various finite element formulations and their accuracy and the numerical implementation required to solve problems in small strain, isotropic elasticity in solid mechanics.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1830,6 +1941,7 @@
   {
     "name": "Finite Element Methods in Solid Mechanics II",
     "code": "SE 276B",
+    "description": "Finite element methods for linear problems in structural dynamics. Beam, plate, and doubly curved shell elements are derived. Strategies for eliminating shear locking problems are introduced. Formulation and numerical solution of the equations of motion for structural dynamics are introduced and the effect of different mass matrix formulations on the solution accuracy is explored.",
     "raw_prereq": "graduate standing and SE 276A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1837,6 +1949,7 @@
   {
     "name": "Finite Element Methods in Solid Mechanics III",
     "code": "SE 276C",
+    "description": "Finite element methods for problems with both material and geometrical (large deformations) nonlinearities. The total LaGrangian and the updated LaGrangian formulations are introduced. Basic solution methods for the nonlinear equations are developed and applied to problems in plasticity and hyperelasticity.",
     "raw_prereq": "graduate standing and SE 276A or MAE 232A and MAE 231A or SE 271.",
     "prerequisites": [
       {
@@ -1867,6 +1980,7 @@
   {
     "name": "Error Control in Finite Element Analysis",
     "code": "SE 277",
+    "description": "This course will provide an overview of the latest technology for evaluating and improving the accuracy and validity of linear and nonlinear finite element models, solution verification, finite element model validation, sensitivity analysis, uncertainty analysis, and test-analysis correlation.",
     "raw_prereq": "SE 232B or MAE 232B.",
     "prerequisites": [
       {
@@ -1884,6 +1998,7 @@
   {
     "name": "Finite Elements for Fluid Mechanics",
     "code": "SE 278A",
+    "description": "Development and application of advanced computational techniques for fluid flow. Stabilized and variational multiscale methods for finite element and related discretizations are stressed. Applications involve advection-diffusion equations and systems, and incompressible and compressible Navier-Stokes equations. Turbulence modeling will also be covered.",
     "raw_prereq": "MAE 232A or SE 276A or consent of instructor, graduate standing.",
     "prerequisites": [
       {
@@ -1910,6 +2025,7 @@
   {
     "name": "Computational Fluid-Structure Interaction",
     "code": "SE 278B",
+    "description": "Conservation laws on general moving domains. Arbitrary Lagrange-Eulerian (ALE) and space-time approaches to fluid-structure interaction are covered. Suitable discretizations, mesh motion, and discrete solution strategies are discussed.",
     "raw_prereq": "SE 278A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1917,6 +2033,7 @@
   {
     "name": "Meshfree Methods for Linear and Nonlinear Mechanics",
     "code": "SE 279",
+    "description": "Meshfree approximation theories (moving least-squares, reproducing kernel, partition of unity, radial basis), Galerkin meshfree methods, collocation meshfree methods, imposition of boundary conditions, domain integration, stability, nonlinear meshfree method for hyperelasticity and plasticity, meshfree methods for fracture and plate/shell problems.",
     "raw_prereq": "SE 276A or MAE 232A, graduate standing.",
     "prerequisites": [
       {
@@ -1943,6 +2060,7 @@
   {
     "name": "Finite Element Computations in Solid Mechanics",
     "code": "SE 280",
+    "description": "Techniques of computation with the finite element method. Preprocessing (geometry, mesh generation, boundary conditions), solution methods (statics including contact, dynamics, buckling), and postprocessing (visualization, error estimation, interpretation of results). Hands-on exercises with commercial and open-source software. Use of computer resources.",
     "raw_prereq": "graduate standing, SE 276A or MAE 232A, and SE 276B or MAE 232B.",
     "prerequisites": [
       {
@@ -1973,6 +2091,7 @@
   {
     "name": "3D Printable Robotics",
     "code": "SE 281",
+    "description": "This project-based, systems engineering course explores robotics in the context of next-generation layered manufacturing techniques (3D printing). Students will design, model, simulate, optimize, 3D print, test, and refine a remotely controllable robotic system as member of a multidisciplinary team. Recommended preparation: students should have experience with computer aided design (CAD).",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1980,6 +2099,7 @@
   {
     "name": "Diagnostic Imaging",
     "code": "SE 282",
+    "description": "This course provides an introduction to diagnostic imaging with a focus on forensic engineering. A broad range of imaging techniques are studied, enabling multidimensional analysis of engineered artifacts and detection of conditions that may lead to undesirable performance characteristics or failure, identify the onset of failure, failure progression, and failure mechanisms overall.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1987,6 +2107,7 @@
   {
     "name": "Engineering Frontiers",
     "code": "SE 283",
+    "description": "Explores strategies for the augmentation, advancement, and restoration of human abilities, covering the design and systems engineering cycle; from initial user study, ideation, and conceptual design to subject imaging, modeling, and simulation; all the way to layered manufacturing and testing. Recommended preparation: students should have experience with computer aided design (CAD).",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1994,6 +2115,7 @@
   {
     "name": "Structural Optimization",
     "code": "SE 285",
+    "description": "Construction of structural design as an optimization problem; mathematical programming for sizing, shape, and topology; linear and nonlinear programming; continuous and discrete optimization methods; Lagrangian function and KKT optimality condition; MATLAB. Use of computer resources.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2001,6 +2123,7 @@
   {
     "name": "Design Optimization for Additive Manufacturing",
     "code": "SE 286",
+    "description": "This course will cover the following topics: fundamental mathematical concepts of optimization, constrained optimization, sensitivity analysis, topology optimization methods (SIMP and Level Set Topology Optimization), state of the art topology optimization applications and additive manufacturing methods, and future perspectives.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2008,6 +2131,7 @@
   {
     "name": "Structural Engineering Seminar",
     "code": "SE 290",
+    "description": "Weekly seminar and discussion by faculty, visitors, postdoctoral research fellows and graduate students concerning research topics in earthquake engineering and related subjects. May be repeated for credit. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2015,6 +2139,7 @@
   {
     "name": "Independent Study",
     "code": "SE 296",
+    "description": "",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2022,6 +2147,7 @@
   {
     "name": "Directed Group Study",
     "code": "SE 298",
+    "description": "Directed group study on a topic or in a field not included in regular department curriculum, by special arrangement with a faculty member.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2029,6 +2155,7 @@
   {
     "name": "Graduate Research",
     "code": "SE 299",
+    "description": "(S/U grades permitted.)",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2036,6 +2163,7 @@
   {
     "name": "Teaching Experience",
     "code": "SE 501",
+    "description": "Teaching experience in an appropriate SE undergraduate course under direction of the faculty member in charge of the course. Lecturing one hour per week in either a problem-solving section or regular lecture.",
     "raw_prereq": "consent of instructor and the department. (S/U grades permitted.)",
     "prerequisites": [],
     "offered_this_qtr": true
