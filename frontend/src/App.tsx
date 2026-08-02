@@ -1,9 +1,12 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useMemo, useState } from "react";
-import { BookOpen, Calendar, Github, Search, Settings } from "lucide-react";
+import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search, Settings } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { CourseDetailPanel } from "./components/CourseDetailPanel";
+import { GeiselLogo } from "./components/GeiselLogo";
 import { HomeView } from "./components/HomeView";
+import { MapView } from "./components/MapView";
+import { OverviewView } from "./components/OverviewView";
 import { PlannerView } from "./components/PlannerView";
 import { SearchView } from "./components/SearchView";
 import { COURSES } from "./data/courses";
@@ -63,13 +66,17 @@ export default function App() {
         <button
           onClick={() => { setMainView("home"); setSelected(null); }}
           className="flex items-center gap-2 px-4 border-r border-white/20 hover:bg-white/10 transition-colors">
-          <BookOpen className="w-4 h-4 text-white" />
+          <span style={{ display: "flex", flexShrink: 0, transform: "rotate(-4deg)", filter: "drop-shadow(0 1px 3px rgba(0,0,0,0.3))" }}>
+            <GeiselLogo width={40} />
+          </span>
           <span className="font-bold text-white text-sm tracking-tight">TSS<span style={{ color: "#f5c842" }}>++</span></span>
         </button>
 
         {([
-          { id: "search" as const, label: "Course Search" },
-          { id: "planner" as const, label: "Schedule Planner" },
+          { id: "search"   as const, label: "Course Search"    },
+          { id: "planner"  as const, label: "Schedule Planner" },
+          { id: "overview" as const, label: "Overview"         },
+          { id: "map"      as const, label: "Map"              },
         ] as const).map(({ id, label }) => {
           const active = mainView === id;
           return (
@@ -125,6 +132,12 @@ export default function App() {
           {mainView === "planner" && (
             <PlannerView items={plannedItems} onRemove={handleRemove} />
           )}
+          {mainView === "overview" && (
+            <OverviewView items={plannedItems} />
+          )}
+          {mainView === "map" && (
+            <MapView items={plannedItems} />
+          )}
         </div>
 
         {/* Side detail panel */}
@@ -165,9 +178,11 @@ export default function App() {
       <nav className="md:hidden fixed bottom-0 inset-x-0 flex border-t border-[#c0c0c0] z-50"
         style={{ backgroundColor: "#0b4a67" }}>
         {[
-          { id: "home" as const, label: "Home", icon: BookOpen },
-          { id: "search" as const, label: "Search", icon: Search },
-          { id: "planner" as const, label: "Planner", icon: Calendar },
+          { id: "home"     as const, label: "Home",     icon: BookOpen   },
+          { id: "search"   as const, label: "Search",   icon: Search     },
+          { id: "planner"  as const, label: "Planner",  icon: Calendar   },
+          { id: "overview" as const, label: "Overview", icon: LayoutGrid },
+          { id: "map"      as const, label: "Map",      icon: MapIcon    },
         ].map(({ id, label, icon: Icon }) => (
           <button key={id}
             onClick={() => id === "search" ? goSearch() : (setMainView(id), setSelected(null))}
