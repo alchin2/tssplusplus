@@ -1,8 +1,10 @@
 import { BookOpen, LayoutGrid } from "lucide-react";
+import { termLabel, useMeta } from "../hooks/useMeta";
 import { computeFinal, fmt } from "../lib/schedule";
 import type { PlannedItem } from "../types";
 
 export function OverviewView({ items }: { items: PlannedItem[] }) {
+  const term = termLabel(useMeta());
   if (items.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-[60vh] gap-3 text-gray-400">
@@ -13,11 +15,11 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
     );
   }
 
-  const totalUnits = items.reduce((s, i) => s + i.course.units, 0);
   const totalHrs   = items.reduce((s, { section }) =>
     s + section.meetings.reduce((ms, m) => ms + (m.end - m.start) * m.days.length, 0), 0);
-  const avgFill    = Math.round(
-    items.reduce((s, { section: sec }) => s + sec.enrolled / sec.capacity, 0) / items.length * 100);
+  const withSeats  = items.filter(({ section: sec }) => sec.enrolled !== null && sec.capacity !== null && sec.capacity > 0);
+  const avgFill    = withSeats.length === 0 ? null : Math.round(
+    withSeats.reduce((s, { section: sec }) => s + sec.enrolled! / sec.capacity!, 0) / withSeats.length * 100);
   const buildings  = new Set(items.flatMap(({ section }) =>
     section.meetings.map(m => m.room.split(" ")[0]))).size;
   const finals     = items.map(({ course, section }) => ({ course, section, fi: computeFinal(section) }))
@@ -30,14 +32,13 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
       <div className="flex-shrink-0 px-6 py-3 border-b border-[#b0b0c8] flex items-center gap-0" style={{ backgroundColor: "#6261c0" }}>
         <div className="pr-6">
           <div className="text-white font-bold text-sm">My Schedule Overview</div>
-          <div className="text-white/60 text-[11px]">Spring 2025</div>
+          <div className="text-white/60 text-[11px]">{term || "…"}</div>
         </div>
         {[
-          { v: items.length,              l: "Courses"      },
-          { v: `${totalUnits}u`,          l: "Total Units"  },
-          { v: `${totalHrs.toFixed(1)}h`, l: "Class Hrs/Wk" },
-          { v: `${avgFill}%`,             l: "Avg Fill Rate" },
-          { v: buildings,                 l: "Buildings"    },
+          { v: items.length,                            l: "Courses"      },
+          { v: `${totalHrs.toFixed(1)}h`,               l: "Class Hrs/Wk" },
+          { v: avgFill === null ? "—" : `${avgFill}%`,  l: "Avg Fill Rate" },
+          { v: buildings,                               l: "Buildings"    },
         ].map(({ v, l }) => (
           <div key={l} className="border-l border-white/25 px-6">
             <div className="text-white font-bold text-xl leading-none">{v}</div>
@@ -49,7 +50,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
       {/* ── course cards ── */}
       <div className="p-5 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(440px, 1fr))" }}>
         {items.map(({ course, section }) => {
-          const fill = section.enrolled / section.capacity;
+          const fill = section.enrolled !== null && section.capacity ? section.enrolled / section.capacity : null;
           const fi   = computeFinal(section);
           const lec  = section.meetings.find(m => m.type === "LE");
 
@@ -66,12 +67,11 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-mono font-bold text-base" style={{ color: "#0b4a67" }}>{course.code}</span>
                         <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm" style={{ backgroundColor: course.color + "22", color: course.color }}>{course.dept}</span>
-                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm bg-gray-100 text-gray-500">{course.units} units</span>
                       </div>
                       <p className="text-sm font-bold text-gray-700 mt-0.5 leading-snug">{course.title}</p>
                     </div>
                     {course.offeredThisQuarter && (
-                      <span className="text-[10px] font-bold px-2 py-0.5 flex-shrink-0" style={{ backgroundColor: "#d56a03", color: "#fff" }}>SP25</span>
+                      <span className="text-[10px] font-bold px-2 py-0.5 flex-shrink-0" style={{ backgroundColor: "#d56a03", color: "#fff" }}>{term || "…"}</span>
                     )}
                   </div>
                 </div>
@@ -97,25 +97,29 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                 <div style={{ width: 5, backgroundColor: course.color, flexShrink: 0 }} />
                 <div className="flex-1 px-4 py-2.5 border-b border-[#e8e8f4]">
                   <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-1.5">Enrollment</div>
-                  <div className="flex items-center gap-3">
-                    <div className="flex-1 h-2.5 rounded-full overflow-hidden" style={{ backgroundColor: "#e8e8f0" }}>
-                      <div className="h-full rounded-full transition-all" style={{
-                        width: `${fill * 100}%`,
-                        backgroundColor: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a",
-                      }} />
-                    </div>
-                    <span className="text-xs font-bold text-gray-700 whitespace-nowrap">
-                      {section.enrolled} / {section.capacity}
-                    </span>
-                    <span className="text-[10px] font-bold whitespace-nowrap" style={{ color: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a" }}>
-                      {Math.round(fill * 100)}%
-                    </span>
-                    {section.waitlist > 0 && (
-                      <span className="text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ backgroundColor: "#fef3c7", color: "#b45309" }}>
-                        WL: {section.waitlist}
+                  {fill === null ? (
+                    <span className="text-[11px] text-gray-400 italic">No seat data</span>
+                  ) : (
+                    <div className="flex items-center gap-3">
+                      <div className="flex-1 h-2.5 rounded-full overflow-hidden" style={{ backgroundColor: "#e8e8f0" }}>
+                        <div className="h-full rounded-full transition-all" style={{
+                          width: `${fill * 100}%`,
+                          backgroundColor: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a",
+                        }} />
+                      </div>
+                      <span className="text-xs font-bold text-gray-700 whitespace-nowrap">
+                        {section.enrolled} / {section.capacity}
                       </span>
-                    )}
-                  </div>
+                      <span className="text-[10px] font-bold whitespace-nowrap" style={{ color: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a" }}>
+                        {Math.round(fill * 100)}%
+                      </span>
+                      {(section.waitlist ?? 0) > 0 && (
+                        <span className="text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ backgroundColor: "#fef3c7", color: "#b45309" }}>
+                          WL: {section.waitlist}
+                        </span>
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
 

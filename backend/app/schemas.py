@@ -25,6 +25,16 @@ class PrereqGraphNode(BaseModel):
     children: list["PrereqGraphNode"] = []
 
 
+class Meta(BaseModel):
+    """GET /api/meta -- term + catalog-wide facts the frontend needs
+    up front (department dropdown, home-page counts)."""
+
+    term: str
+    depts: list[str]
+    course_count: int
+    offered_count: int
+
+
 class CourseSummary(BaseModel):
     """GET /api/courses list item -- lightweight, per the design doc.
     module_id is present only for courses offered this term (it comes

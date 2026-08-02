@@ -1,16 +1,16 @@
 import { AnimatePresence, motion } from "motion/react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search, Settings } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { CourseDetailPanel } from "./components/CourseDetailPanel";
-import { GeiselLogo } from "./components/GeiselLogo";
+import { RaccoonLogo } from "./components/RaccoonLogo";
 import { HomeView } from "./components/HomeView";
 import { MapView } from "./components/MapView";
 import { OverviewView } from "./components/OverviewView";
 import { PlannerView } from "./components/PlannerView";
 import { SearchView } from "./components/SearchView";
-import { COURSES } from "./data/courses";
 import { usePlannedItems } from "./hooks/usePlannedItems";
+import { fetchCourses } from "./lib/api";
 import { conflictsWith } from "./lib/schedule";
 import type { Course, MainView, Section } from "./types";
 
@@ -23,16 +23,31 @@ export default function App() {
   const [selectedCourse, setSelected] = useState<Course | null>(null);
   const [plannedItems, updatePlanned] = usePlannedItems();
 
-  const filtered = useMemo(() => COURSES.filter(c => {
-    if (offeredFilter && !c.offeredThisQuarter) return false;
-    if (deptFilter !== "ALL" && c.dept !== deptFilter) return false;
+  const [courses, setCourses]         = useState<Course[]>([]);
+  const [searchLoading, setLoading]   = useState(true);
+  const [searchError, setError]       = useState<string | null>(null);
+
+  // Server-side search/filter per the design doc's /api/courses contract,
+  // debounced so typing doesn't fire a request per keystroke.
+  useEffect(() => {
+    let alive = true;
+    setLoading(true);
+    const timer = setTimeout(() => {
+      fetchCourses({ dept: deptFilter, offered: offeredFilter, q: query })
+        .then(result => { if (alive) { setCourses(result); setError(null); } })
+        .catch(err => { if (alive) { setCourses([]); setError(err instanceof Error ? err.message : "Request failed"); } })
+        .finally(() => { if (alive) setLoading(false); });
+    }, 250);
+    return () => { alive = false; clearTimeout(timer); };
+  }, [query, deptFilter, offeredFilter]);
+
+  // Lower/upper division stays client-side -- the backend doesn't model it.
+  const filtered = useMemo(() => courses.filter(c => {
+    if (divFilter === "all") return true;
     const num = parseInt(c.code.split(" ")[1]);
-    if (divFilter === "lower" && num >= 100) return false;
-    if (divFilter === "upper" && num < 100) return false;
-    if (!query) return true;
-    const q = query.toLowerCase();
-    return c.code.toLowerCase().includes(q) || c.title.toLowerCase().includes(q) || c.dept.toLowerCase().includes(q);
-  }), [query, deptFilter, offeredFilter, divFilter]);
+    if (Number.isNaN(num)) return true;
+    return divFilter === "lower" ? num < 100 : num >= 100;
+  }), [courses, divFilter]);
 
   function goSearch(q?: string) {
     if (q !== undefined) setQuery(q);
@@ -67,7 +82,7 @@ export default function App() {
           onClick={() => { setMainView("home"); setSelected(null); }}
           className="flex items-center gap-2 px-4 border-r border-white/20 hover:bg-white/10 transition-colors">
           <span style={{ display: "flex", flexShrink: 0, transform: "rotate(-4deg)", filter: "drop-shadow(0 1px 3px rgba(0,0,0,0.3))" }}>
-            <GeiselLogo width={40} />
+            <RaccoonLogo width={36} />
           </span>
           <span className="font-bold text-white text-sm tracking-tight">TSS<span style={{ color: "#f5c842" }}>++</span></span>
         </button>
@@ -82,7 +97,7 @@ export default function App() {
           return (
             <button key={id}
               onClick={() => { if (id === "search") goSearch(); else { setMainView(id); setSelected(null); } }}
-              className="px-4 text-xs font-bold border-r border-white/20 transition-colors"
+              className="hidden md:block px-4 text-xs font-bold border-r border-white/20 transition-colors"
               style={{ backgroundColor: active ? "#d56a03" : "transparent", color: "#fff" }}
               onMouseEnter={e => { if (!active) (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.12)"; }}
               onMouseLeave={e => { if (!active) (e.target as HTMLElement).style.backgroundColor = "transparent"; }}>
@@ -116,7 +131,8 @@ export default function App() {
       <main className="flex-1 flex overflow-hidden" style={{ backgroundColor: "#fff" }}>
 
         {/* Content area — shrinks when panel is open */}
-        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200">
+        {/* pb-16 keeps content clear of the fixed mobile bottom nav */}
+        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200 pb-16 md:pb-0">
           {mainView === "home" && <HomeView onSearch={goSearch} />}
           {mainView === "search" && (
             <SearchView
@@ -125,6 +141,8 @@ export default function App() {
               offeredFilter={offeredFilter} onOfferedFilter={setOff}
               divFilter={divFilter} onDivFilter={setDiv}
               courses={filtered}
+              loading={searchLoading}
+              error={searchError}
               selectedCourseId={selectedCourse?.id ?? null}
               onOpenCourse={openCourse}
             />
