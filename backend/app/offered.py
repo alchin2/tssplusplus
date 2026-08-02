@@ -19,3 +19,17 @@ def get_offered_index() -> dict[str, dict]:
 
     with path.open(newline="", encoding="utf-8") as f:
         return {row["module_id"]: {"code": row["code"], "name": row["name"]} for row in csv.DictReader(f)}
+
+
+@lru_cache(maxsize=1)
+def get_code_to_module_id_index() -> dict[str, str]:
+    """Reverse of get_offered_index: normalized catalog code -> module_id,
+    so list endpoints can attach module_id to catalog courses. Only
+    courses offered this term have a module_id. If two module_ids share a
+    normalized code, the first seen wins."""
+    from app.catalog import normalize_code
+
+    index: dict[str, str] = {}
+    for module_id, entry in get_offered_index().items():
+        index.setdefault(normalize_code(entry["code"]), module_id)
+    return index

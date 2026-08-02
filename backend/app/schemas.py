@@ -26,8 +26,11 @@ class PrereqGraphNode(BaseModel):
 
 
 class CourseSummary(BaseModel):
-    """GET /api/courses list item -- lightweight, per the design doc."""
+    """GET /api/courses list item -- lightweight, per the design doc.
+    module_id is present only for courses offered this term (it comes
+    from the offered-courses CSV); null otherwise."""
 
+    module_id: str | None = None
     code: str
     name: str
     dept: str

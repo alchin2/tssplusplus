@@ -2,10 +2,11 @@ import json
 from unittest.mock import MagicMock, patch
 
 from fastapi.testclient import TestClient
+from pymongo.errors import ServerSelectionTimeoutError
 
 from app.catalog import get_catalog, _get_normalized_index
 from app.main import app
-from app.offered import get_offered_index
+from app.offered import get_code_to_module_id_index, get_offered_index
 
 CSE_100 = {
     "name": "Advanced Data Structures",
@@ -37,6 +38,7 @@ def _clear_caches():
     get_catalog.cache_clear()
     _get_normalized_index.cache_clear()
     get_offered_index.cache_clear()
+    get_code_to_module_id_index.cache_clear()
 
 
 def test_list_courses_filters_by_dept_and_offered(tmp_path):
@@ -67,6 +69,29 @@ def test_list_courses_search_matches_name(tmp_path):
     assert resp.status_code == 200
     codes = [c["code"] for c in resp.json()]
     assert codes == ["MATH 20A"]
+
+
+def test_list_courses_includes_module_id_for_offered(tmp_path):
+    _write_catalog(tmp_path)
+    _write_offered(tmp_path)
+    _clear_caches()
+    with (
+        patch("app.catalog.settings") as mock_catalog_settings,
+        patch("app.offered.settings") as mock_offered_settings,
+    ):
+        mock_catalog_settings.catalog_dir = tmp_path
+        mock_offered_settings.offered_dir = tmp_path
+        mock_offered_settings.term = "fa26"
+        client = TestClient(app)
+        resp = client.get("/api/courses")
+    _clear_caches()
+
+    assert resp.status_code == 200
+    by_code = {c["code"]: c for c in resp.json()}
+    # CSE 100 is in the offered CSV (as CSE-100) -> gets its module_id.
+    assert by_code["CSE 100"]["module_id"] == "8401"
+    # MATH 20A isn't offered -> module_id stays null.
+    assert by_code["MATH 20A"]["module_id"] is None
 
 
 def test_course_detail_merges_catalog_and_mongo_sections(tmp_path):
@@ -114,6 +139,29 @@ def test_course_detail_merges_catalog_and_mongo_sections(tmp_path):
     assert section["seats_available"] == 18
     assert len(section["meetings"]) == 1
     assert section["meetings"][0]["instructor_name"] == "Moshiri, N."
+
+
+def test_course_detail_503_when_mongo_unreachable(tmp_path):
+    _write_catalog(tmp_path)
+    _write_offered(tmp_path)
+    _clear_caches()
+
+    mock_collection = MagicMock()
+    mock_collection.find_one.side_effect = ServerSelectionTimeoutError("SSL handshake failed")
+
+    with (
+        patch("app.catalog.settings") as mock_catalog_settings,
+        patch("app.offered.settings") as mock_offered_settings,
+        patch("app.routers.courses.get_courses_collection", return_value=mock_collection),
+    ):
+        mock_catalog_settings.catalog_dir = tmp_path
+        mock_offered_settings.offered_dir = tmp_path
+        mock_offered_settings.term = "fa26"
+        client = TestClient(app)
+        resp = client.get("/api/courses/8401")
+    _clear_caches()
+
+    assert resp.status_code == 503
 
 
 def test_course_detail_404_when_module_id_not_offered(tmp_path):
