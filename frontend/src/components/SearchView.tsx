@@ -57,6 +57,7 @@ export function SearchView({ query, onQuery, deptFilter, onDeptFilter, offeredFi
           No courses found.
         </div>
       ) : (
+        <div className="overflow-x-auto">
         <table className="w-full text-xs border-collapse bg-white">
           <thead>
             <tr style={{ backgroundColor: "#6261c0" }}>
@@ -107,6 +108,7 @@ export function SearchView({ query, onQuery, deptFilter, onDeptFilter, offeredFi
             })}
           </tbody>
         </table>
+        </div>
       )}
 
       <div className="mt-2 text-[10px] text-gray-500">

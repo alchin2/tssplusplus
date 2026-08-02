@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search, Settings } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { CourseDetailPanel } from "./components/CourseDetailPanel";
-import { GeiselLogo } from "./components/GeiselLogo";
+import { RaccoonLogo } from "./components/RaccoonLogo";
 import { HomeView } from "./components/HomeView";
 import { MapView } from "./components/MapView";
 import { OverviewView } from "./components/OverviewView";
@@ -67,7 +67,7 @@ export default function App() {
           onClick={() => { setMainView("home"); setSelected(null); }}
           className="flex items-center gap-2 px-4 border-r border-white/20 hover:bg-white/10 transition-colors">
           <span style={{ display: "flex", flexShrink: 0, transform: "rotate(-4deg)", filter: "drop-shadow(0 1px 3px rgba(0,0,0,0.3))" }}>
-            <GeiselLogo width={40} />
+            <RaccoonLogo width={36} />
           </span>
           <span className="font-bold text-white text-sm tracking-tight">TSS<span style={{ color: "#f5c842" }}>++</span></span>
         </button>
@@ -82,7 +82,7 @@ export default function App() {
           return (
             <button key={id}
               onClick={() => { if (id === "search") goSearch(); else { setMainView(id); setSelected(null); } }}
-              className="px-4 text-xs font-bold border-r border-white/20 transition-colors"
+              className="hidden md:block px-4 text-xs font-bold border-r border-white/20 transition-colors"
               style={{ backgroundColor: active ? "#d56a03" : "transparent", color: "#fff" }}
               onMouseEnter={e => { if (!active) (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.12)"; }}
               onMouseLeave={e => { if (!active) (e.target as HTMLElement).style.backgroundColor = "transparent"; }}>
@@ -116,7 +116,8 @@ export default function App() {
       <main className="flex-1 flex overflow-hidden" style={{ backgroundColor: "#fff" }}>
 
         {/* Content area — shrinks when panel is open */}
-        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200">
+        {/* pb-16 keeps content clear of the fixed mobile bottom nav */}
+        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200 pb-16 md:pb-0">
           {mainView === "home" && <HomeView onSearch={goSearch} />}
           {mainView === "search" && (
             <SearchView

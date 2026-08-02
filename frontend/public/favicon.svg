@@ -1,0 +1,53 @@
+<svg viewBox="0 0 220 190" xmlns="http://www.w3.org/2000/svg">
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- ears -->
+    <path d="M 58 54 Q 54 14 84 22 Q 98 27 100 44 Z" fill="#948c7e" stroke="#222638" stroke-width="3"/>
+    <path d="M 162 54 Q 166 14 136 22 Q 122 27 120 44 Z" fill="#948c7e" stroke="#222638" stroke-width="3"/>
+    <path d="M 64 47 Q 63 26 80 31 Q 89 35 90 44 Z" fill="#453e4c"/>
+    <path d="M 156 47 Q 157 26 140 31 Q 131 35 130 44 Z" fill="#453e4c"/>
+
+    <!-- head -->
+    <ellipse cx="110" cy="104" rx="78" ry="66" fill="#a69e8f" stroke="#222638" stroke-width="3"/>
+
+    <!-- cream brow patches -->
+    <ellipse cx="74" cy="70" rx="26" ry="15" fill="#eae4d6" transform="rotate(-10 74 70)"/>
+    <ellipse cx="146" cy="70" rx="26" ry="15" fill="#eae4d6" transform="rotate(10 146 70)"/>
+
+    <!-- dark eye mask (connected over the bridge) -->
+    <path d="M 36 94 Q 50 74 80 82 Q 96 87 110 87 Q 124 87 140 82 Q 170 74 184 94
+             Q 176 116 148 113 Q 128 111 110 118 Q 92 111 72 113 Q 44 116 36 94 Z"
+          fill="#312c37"/>
+
+    <!-- dark chin band, tucked under the muzzle -->
+    <path d="M 68 152 Q 110 142 152 152 Q 138 167 110 167 Q 82 167 68 152 Z" fill="#3a3440"/>
+
+    <!-- cream muzzle -->
+    <ellipse cx="110" cy="130" rx="36" ry="25" fill="#efe9dc"/>
+
+    <!-- eyes -->
+    <circle cx="74" cy="96" r="9.5" fill="#15121c"/>
+    <circle cx="146" cy="96" r="9.5" fill="#15121c"/>
+    <circle cx="71" cy="93" r="3" fill="#ffffff" opacity="0.9"/>
+    <circle cx="143" cy="93" r="3" fill="#ffffff" opacity="0.9"/>
+
+    <!-- nose -->
+    <path d="M 99 112 Q 110 106 121 112 Q 121 122 110 126 Q 99 122 99 112 Z" fill="#1a1622" stroke="#222638" stroke-width="2"/>
+    <circle cx="105" cy="113" r="2.2" fill="#ffffff" opacity="0.35"/>
+
+    <!-- mouth + blep tongue -->
+    <path d="M 110 126 L 110 132" stroke="#222638" stroke-width="2.5" fill="none"/>
+    <path d="M 100 133 Q 110 139 120 133" stroke="#222638" stroke-width="2.5" fill="none"/>
+    <rect x="100" y="134" width="20" height="19" rx="9.5" fill="#f09fae" stroke="#222638" stroke-width="2.5"/>
+    <path d="M 110 138 L 110 148" stroke="#d97a8d" stroke-width="2" fill="none"/>
+
+    <!-- whiskers -->
+    <g stroke="#efe9dc" stroke-width="2" fill="none" opacity="0.9">
+      <path d="M 76 124 Q 44 118 18 110"/>
+      <path d="M 78 132 Q 46 132 20 130"/>
+      <path d="M 80 140 Q 50 146 26 150"/>
+      <path d="M 144 124 Q 176 118 202 110"/>
+      <path d="M 142 132 Q 174 132 200 130"/>
+      <path d="M 140 140 Q 170 146 194 150"/>
+    </g>
+  </g>
+</svg>
