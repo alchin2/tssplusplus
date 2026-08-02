@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { COURSES } from "../data/courses";
+import { termLabel, useMeta } from "../hooks/useMeta";
 import { RaccoonLogo } from "./RaccoonLogo";
 
 export function HomeView({ onSearch }: { onSearch: (q: string) => void }) {
@@ -9,9 +9,8 @@ export function HomeView({ onSearch }: { onSearch: (q: string) => void }) {
   function submit() { onSearch(q.trim()); }
   useEffect(() => { inputRef.current?.focus(); }, []);
 
-  const offered  = COURSES.filter(c => c.offeredThisQuarter).length;
-  const depts    = [...new Set(COURSES.map(c => c.dept))].length;
-  const sections = COURSES.reduce((s, c) => s + c.sections.length, 0);
+  const meta = useMeta();
+  const term = termLabel(meta);
 
   return (
     <div className="relative flex-1 min-h-full overflow-hidden flex items-center"
@@ -59,10 +58,9 @@ export function HomeView({ onSearch }: { onSearch: (q: string) => void }) {
           {/* stats */}
           <div className="flex flex-wrap gap-x-8 gap-y-4">
             {[
-              { value: COURSES.length, label: "Courses" },
-              { value: offered,        label: "Offered SP25" },
-              { value: sections,       label: "Sections" },
-              { value: depts,          label: "Departments" },
+              { value: meta?.course_count ?? "—",  label: "Courses" },
+              { value: meta?.offered_count ?? "—", label: term ? `Offered ${term}` : "Offered" },
+              { value: meta?.depts.length ?? "—",  label: "Departments" },
             ].map(({ value, label }) => (
               <div key={label}>
                 <div style={{ fontSize: "clamp(22px, 1.8vw, 30px)", fontWeight: 800, color: "#0b4a67", lineHeight: 1 }}>{value}</div>

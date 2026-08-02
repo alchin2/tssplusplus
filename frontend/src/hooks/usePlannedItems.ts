@@ -1,23 +1,33 @@
 import { useCallback, useEffect, useState } from "react";
-import { COURSES } from "../data/courses";
 import type { PlannedItem } from "../types";
 
-function resolve(parsed: Array<{ courseId: string; sectionId: string }>): PlannedItem[] {
-  const result: PlannedItem[] = [];
-  for (const { courseId, sectionId } of parsed) {
-    const course = COURSES.find(c => c.id === courseId);
-    const section = course?.sections.find(s => s.id === sectionId);
-    if (course && section) result.push({ course, section });
+// Full course+section objects are persisted (v2): with courses coming
+// from the API there's no static COURSES list to re-resolve ids against.
+// The pre-API format ({courseId, sectionId} refs) fails the shape check
+// below and is silently dropped.
+const STORAGE_KEY = "tss-planned-v2";
+
+function parse(raw: string): PlannedItem[] {
+  try {
+    const items = JSON.parse(raw);
+    if (!Array.isArray(items)) return [];
+    return items.filter(
+      (i): i is PlannedItem =>
+        typeof i?.course?.id === "string" &&
+        typeof i?.course?.code === "string" &&
+        typeof i?.section?.id === "string" &&
+        Array.isArray(i?.section?.meetings)
+    );
+  } catch {
+    return [];
   }
-  return result;
 }
 
 export function usePlannedItems(): [PlannedItem[], (updater: (prev: PlannedItem[]) => PlannedItem[]) => void] {
   const [items, setItems] = useState<PlannedItem[]>(() => {
     try {
-      const raw = localStorage.getItem("tss-planned");
-      if (!raw) return [];
-      return resolve(JSON.parse(raw));
+      const raw = localStorage.getItem(STORAGE_KEY);
+      return raw ? parse(raw) : [];
     } catch { return []; }
   });
 
@@ -25,9 +35,7 @@ export function usePlannedItems(): [PlannedItem[], (updater: (prev: PlannedItem[
     setItems(prev => {
       const next = updater(prev);
       try {
-        localStorage.setItem("tss-planned", JSON.stringify(
-          next.map(i => ({ courseId: i.course.id, sectionId: i.section.id }))
-        ));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
       } catch {}
       return next;
     });
@@ -35,10 +43,8 @@ export function usePlannedItems(): [PlannedItem[], (updater: (prev: PlannedItem[
 
   useEffect(() => {
     function onStorage(e: StorageEvent) {
-      if (e.key !== "tss-planned") return;
-      try {
-        setItems(e.newValue ? resolve(JSON.parse(e.newValue)) : []);
-      } catch {}
+      if (e.key !== STORAGE_KEY) return;
+      setItems(e.newValue ? parse(e.newValue) : []);
     }
     window.addEventListener("storage", onStorage);
     return () => window.removeEventListener("storage", onStorage);

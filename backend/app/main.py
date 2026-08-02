@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routers import courses
+from app.routers import courses, meta
 
 app = FastAPI(title="TSS++ API")
 
@@ -13,6 +13,7 @@ app.add_middleware(
 )
 
 app.include_router(courses.router)
+app.include_router(meta.router)
 
 
 @app.get("/health")

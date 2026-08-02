@@ -1,13 +1,13 @@
 import { AlertCircle, CheckCircle2 } from "lucide-react";
 import { conflictsWith, fmt } from "../lib/schedule";
-import type { Course, PlannedItem, Section } from "../types";
+import type { CourseDetail, PlannedItem, Section } from "../types";
 
 export function SectionsTable({ course, plannedItems, onAdd }: {
-  course: Course; plannedItems: PlannedItem[]; onAdd: (c: Course, s: Section) => void;
+  course: CourseDetail; plannedItems: PlannedItem[]; onAdd: (c: CourseDetail, s: Section) => void;
 }) {
   const alreadyPlanned = plannedItems.some(i => i.course.id === course.id);
-  const totalSeats = course.sections.reduce((s, sec) => s + sec.capacity, 0);
-  const totalEnrolled = course.sections.reduce((s, sec) => s + sec.enrolled, 0);
+  const totalSeats = course.sections.reduce((s, sec) => s + (sec.capacity ?? 0), 0);
+  const totalEnrolled = course.sections.reduce((s, sec) => s + (sec.enrolled ?? 0), 0);
 
   return (
     <div>
@@ -29,26 +29,30 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
         </thead>
         <tbody>
           {course.sections.map((sec, si) => {
-            const avail = sec.capacity - sec.enrolled;
+            const avail = sec.capacity !== null && sec.enrolled !== null ? sec.capacity - sec.enrolled : null;
             const conflict = !alreadyPlanned && conflictsWith(sec, plannedItems);
             const bg = si % 2 === 0 ? "#ffffff" : "#f5f5fb";
             return (
               <tr key={sec.id} style={{ backgroundColor: conflict ? "#fff0f0" : bg }}>
-                <td className="border border-[#c0c0c0] px-2 py-1 font-mono font-bold text-[0.846rem]">{sec.id}</td>
-                <td className="border border-[#c0c0c0] px-2 py-1 whitespace-nowrap text-[0.846rem]">{sec.instructor}</td>
+                <td className="border border-[#c0c0c0] px-2 py-1 font-mono font-bold text-[11px] whitespace-nowrap">{sec.id}</td>
+                <td className="border border-[#c0c0c0] px-2 py-1 text-[11px]">{sec.instructor}</td>
                 <td className="border border-[#c0c0c0] px-2 py-1">
                   {sec.meetings.map((m, mi) => (
-                    <div key={mi} className="whitespace-nowrap text-[0.846rem]">
+                    <div key={mi} className="text-[11px]">
                       <span className={`font-mono font-bold mr-1 ${m.type === "LE" ? "text-blue-700" : m.type === "DI" ? "text-purple-700" : "text-orange-700"}`}>{m.type}</span>
-                      {m.days.join("")} {fmt(m.start)}–{fmt(m.end)} <span className="text-gray-500">{m.room}</span>
+                      {m.days.length > 0 || m.start !== m.end
+                        ? <>{m.days.join("")} {fmt(m.start)}–{fmt(m.end)} <span className="text-gray-500">{m.room}</span></>
+                        : <span className="text-gray-400">TBA</span>}
                     </div>
                   ))}
                 </td>
-                <td className="border border-[#c0c0c0] px-2 py-1 text-center font-mono text-[0.846rem]">
-                  <span style={{ color: avail > 0 ? "#006666" : "#cc0000" }}>{avail}</span>/{sec.enrolled}/{sec.capacity}
+                <td className="border border-[#c0c0c0] px-2 py-1 text-center font-mono text-[11px] whitespace-nowrap">
+                  {avail !== null
+                    ? <><span style={{ color: avail > 0 ? "#006666" : "#cc0000" }}>{avail}</span>/{sec.enrolled}/{sec.capacity}</>
+                    : <span className="text-gray-400">—</span>}
                 </td>
-                <td className="border border-[#c0c0c0] px-1 py-1 text-center font-mono text-[0.846rem]">
-                  {sec.waitlist > 0 ? <span style={{ color: "#cc6600" }}>{sec.waitlist}</span> : "—"}
+                <td className="border border-[#c0c0c0] px-1 py-1 text-center font-mono text-[11px]">
+                  {sec.waitlist ? <span style={{ color: "#cc6600" }}>{sec.waitlist}</span> : "—"}
                 </td>
                 <td className="border border-[#c0c0c0] px-1 py-1 text-center">
                   {conflict

@@ -13,7 +13,10 @@ from app.config import settings
 
 @lru_cache(maxsize=1)
 def get_client() -> MongoClient:
-    return MongoClient(settings.mongodb_uri)
+    # Default server selection is 30s; when Mongo is unreachable that
+    # stalls every /api/courses/{module_id} request for 30s before the
+    # 503 fallback kicks in. 5s keeps the failure mode snappy.
+    return MongoClient(settings.mongodb_uri, serverSelectionTimeoutMS=5000)
 
 
 def get_courses_collection() -> Collection:

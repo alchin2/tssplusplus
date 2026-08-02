@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "motion/react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search, Settings } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { CourseDetailPanel } from "./components/CourseDetailPanel";
@@ -9,8 +9,8 @@ import { MapView } from "./components/MapView";
 import { OverviewView } from "./components/OverviewView";
 import { PlannerView } from "./components/PlannerView";
 import { SearchView } from "./components/SearchView";
-import { COURSES } from "./data/courses";
 import { usePlannedItems } from "./hooks/usePlannedItems";
+import { fetchCourses } from "./lib/api";
 import { conflictsWith } from "./lib/schedule";
 import type { Course, MainView, Section } from "./types";
 
@@ -23,16 +23,31 @@ export default function App() {
   const [selectedCourse, setSelected] = useState<Course | null>(null);
   const [plannedItems, updatePlanned] = usePlannedItems();
 
-  const filtered = useMemo(() => COURSES.filter(c => {
-    if (offeredFilter && !c.offeredThisQuarter) return false;
-    if (deptFilter !== "ALL" && c.dept !== deptFilter) return false;
+  const [courses, setCourses]         = useState<Course[]>([]);
+  const [searchLoading, setLoading]   = useState(true);
+  const [searchError, setError]       = useState<string | null>(null);
+
+  // Server-side search/filter per the design doc's /api/courses contract,
+  // debounced so typing doesn't fire a request per keystroke.
+  useEffect(() => {
+    let alive = true;
+    setLoading(true);
+    const timer = setTimeout(() => {
+      fetchCourses({ dept: deptFilter, offered: offeredFilter, q: query })
+        .then(result => { if (alive) { setCourses(result); setError(null); } })
+        .catch(err => { if (alive) { setCourses([]); setError(err instanceof Error ? err.message : "Request failed"); } })
+        .finally(() => { if (alive) setLoading(false); });
+    }, 250);
+    return () => { alive = false; clearTimeout(timer); };
+  }, [query, deptFilter, offeredFilter]);
+
+  // Lower/upper division stays client-side -- the backend doesn't model it.
+  const filtered = useMemo(() => courses.filter(c => {
+    if (divFilter === "all") return true;
     const num = parseInt(c.code.split(" ")[1]);
-    if (divFilter === "lower" && num >= 100) return false;
-    if (divFilter === "upper" && num < 100) return false;
-    if (!query) return true;
-    const q = query.toLowerCase();
-    return c.code.toLowerCase().includes(q) || c.title.toLowerCase().includes(q) || c.dept.toLowerCase().includes(q);
-  }), [query, deptFilter, offeredFilter, divFilter]);
+    if (Number.isNaN(num)) return true;
+    return divFilter === "lower" ? num < 100 : num >= 100;
+  }), [courses, divFilter]);
 
   function goSearch(q?: string) {
     if (q !== undefined) setQuery(q);
@@ -126,6 +141,8 @@ export default function App() {
               offeredFilter={offeredFilter} onOfferedFilter={setOff}
               divFilter={divFilter} onDivFilter={setDiv}
               courses={filtered}
+              loading={searchLoading}
+              error={searchError}
               selectedCourseId={selectedCourse?.id ?? null}
               onOpenCourse={openCourse}
             />

@@ -17,8 +17,8 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
     <div className="flex h-[calc(100vh-88px)]">
       <aside className="w-60 flex-shrink-0 border-r border-[#c0c0c0] bg-[#f5f5fa] flex flex-col">
         <div className="px-3 py-2 border-b border-[#c0c0c0]" style={{ backgroundColor: "#6261c0" }}>
-          <h3 className="font-bold text-white text-xs">PLANNED COURSES — SP25</h3>
-          <p className="text-white opacity-70 text-[0.769rem]">{items.length} courses · {items.reduce((s, i) => s + i.course.units, 0)} units</p>
+          <h3 className="font-bold text-white text-xs">PLANNED COURSES</h3>
+          <p className="text-white opacity-70 text-[10px]">{items.length} course{items.length !== 1 ? "s" : ""}</p>
         </div>
         <div className="flex-1 overflow-y-auto p-2 space-y-1">
           {items.length === 0
