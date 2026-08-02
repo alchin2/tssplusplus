@@ -55,15 +55,16 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
                   {sec.waitlist ? <span style={{ color: "#cc6600" }}>{sec.waitlist}</span> : "—"}
                 </td>
                 <td className="border border-[#c0c0c0] px-1 py-1 text-center">
-                  {conflict
-                    ? <span className="text-red-700 text-[0.769rem] flex items-center gap-0.5"><AlertCircle className="w-3 h-3" />Conflict</span>
-                    : alreadyPlanned
+                  {alreadyPlanned
                     ? <span className="text-green-700 text-[0.769rem]">✓</span>
-                    : <button onClick={() => onAdd(course, sec)}
-                        className="px-1.5 py-0.5 text-[0.769rem] font-bold cursor-pointer"
-                        style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
-                        ADD
-                      </button>
+                    : <div className="flex flex-col items-center gap-0.5">
+                        <button onClick={() => onAdd(course, sec)}
+                          className="px-1.5 py-0.5 text-[0.769rem] font-bold cursor-pointer"
+                          style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
+                          ADD
+                        </button>
+                        {conflict && <span className="text-red-700 text-[0.615rem] flex items-center gap-0.5"><AlertCircle className="w-3 h-3" />Conflict</span>}
+                      </div>
                   }
                 </td>
               </tr>
