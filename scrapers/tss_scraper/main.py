@@ -28,13 +28,15 @@ import argparse
 import csv
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
 
 from tools.sections import REQUEST_DELAY_SEC, scrape_course_sections
-from tools.session import build_session
+from tools.session import SessionExpiredError, build_session
 from tools.storage import ensure_indexes, get_collection, upsert_course_document
 from tools.titles import fetch_titles
 
@@ -117,33 +119,65 @@ def split_subject_code(short: str | None) -> tuple[str | None, str | None]:
     return subject, (rest.strip() or None)
 
 
-def scrape_all_sections(session: requests.Session, peryr: str, perid: str) -> int:
+# One requests.Session per worker thread (a Session isn't safely shareable
+# across threads), created lazily on the thread's first course.
+_thread_local = threading.local()
+
+
+def _thread_session() -> requests.Session:
+    if not hasattr(_thread_local, "session"):
+        _thread_local.session = build_session()
+    return _thread_local.session
+
+
+def _scrape_one(row: dict, peryr: str, perid: str, collection) -> str | None:
+    """Worker: scrapes and upserts one course. Returns the course code on
+    success, None if skipped on a network error. SessionExpiredError
+    propagates so the main thread can abort the whole run."""
+    subject, code = split_subject_code(row["code"])
+    try:
+        doc = scrape_course_sections(
+            _thread_session(), peryr, perid, row["module_id"],
+            subject=subject, code=code, title=row["name"],
+        )
+    except requests.RequestException as e:
+        print(f"    skipping {row['code']}: network error ({e})")
+        return None
+
+    upsert_course_document(collection, doc)
+    time.sleep(REQUEST_DELAY_SEC)  # per-worker pacing between courses
+    return row["code"]
+
+
+def scrape_all_sections(peryr: str, perid: str, workers: int = 5) -> int:
     """Scrapes sections+meetings for every course listed in
     data/offered/<term>.csv and upserts one document per course into
-    MongoDB. Returns the number of courses successfully scraped."""
+    MongoDB, fanning courses out across `workers` threads. Returns the
+    number of courses successfully scraped."""
     rows = read_titles_csv(peryr, perid)
-    print(f"Found {len(rows)} course(s) to scrape sections for.")
+    print(f"Found {len(rows)} course(s) to scrape sections for ({workers} workers).")
 
-    collection = get_collection()
+    collection = get_collection()  # MongoClient is thread-safe, share one
     ensure_indexes(collection)
 
     scraped = 0
-    for i, row in enumerate(rows, start=1):
-        module_id = row["module_id"]
-        subject, code = split_subject_code(row["code"])
-
-        print(f"  [{i}/{len(rows)}] {row['code']} (ModuleID={module_id})...")
-        try:
-            doc = scrape_course_sections(
-                session, peryr, perid, module_id, subject=subject, code=code, title=row["name"]
-            )
-        except requests.RequestException as e:
-            print(f"    skipping {row['code']}: network error ({e})")
-            continue
-
-        upsert_course_document(collection, doc)
-        scraped += 1
-        time.sleep(REQUEST_DELAY_SEC)
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {
+            executor.submit(_scrape_one, row, peryr, perid, collection): row
+            for row in rows
+        }
+        for done, future in enumerate(as_completed(futures), start=1):
+            row = futures[future]
+            try:
+                result = future.result()
+            except SessionExpiredError as e:
+                # Dead cookie kills every remaining request too -- stop the
+                # whole run instead of burning through 401s.
+                executor.shutdown(cancel_futures=True)
+                sys.exit(str(e))
+            if result is not None:
+                scraped += 1
+                print(f"  [{done}/{len(rows)}] {row['code']} (ModuleID={row['module_id']}) done")
 
     print(f"Done. Upserted sections for {scraped}/{len(rows)} course(s).")
     return scraped
@@ -154,8 +188,12 @@ def main():
     parser.add_argument("--peryr", default="2026")
     parser.add_argument("--perid", default="2", help="'2' = Fall 2026, confirmed via keydate")
     parser.add_argument("--titles-only", action="store_true", help="just fetch titles to data/offered/<term>.csv")
+    parser.add_argument("--workers", type=int, default=5,
+                        help="concurrent scraper threads; keep modest to stay polite to TSS")
     args = parser.parse_args()
 
+    # Built here even though section workers make their own sessions: fails
+    # fast on a missing/empty cookie.txt before any threads spin up.
     session = build_session()
 
     if args.titles_only:
@@ -169,7 +207,7 @@ def main():
         print(f"Wrote {len(kept)} title records to {out_path.resolve()}")
         return
 
-    scrape_all_sections(session, args.peryr, args.perid)
+    scrape_all_sections(args.peryr, args.perid, workers=args.workers)
 
 
 if __name__ == "__main__":
