@@ -127,6 +127,7 @@ def get_course_detail(module_id: str):
         name=catalog_course["name"],
         dept=catalog_course["dept"],
         offered_this_qtr=catalog_course["offered_this_qtr"],
+        description=catalog_course.get("description"),
         raw_prereq=catalog_course.get("raw_prereq"),
         prerequisites=catalog_course.get("prerequisites", []),
         sections=sections,

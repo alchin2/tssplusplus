@@ -18,6 +18,7 @@ DEFAULT_HEADERS = {
 JSON_TEMPLATE = {
     "name": "",
     "code": "",
+    "description": "",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": False,
@@ -51,7 +52,9 @@ def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
 
         description_el = find_description(name_el)
         if description_el is not None:
-            course_data["raw_prereq"] = extract_prereq(description_el)
+            description, raw_prereq = split_description(description_el)
+            course_data["description"] = description
+            course_data["raw_prereq"] = raw_prereq
 
         data.append(course_data)
 
@@ -76,12 +79,20 @@ def find_description(name_el):
     return None
 
 
-def extract_prereq(description_el):
+def split_description(description_el):
+    """
+    Split a course's description paragraph at the "Prerequisites:" label
+    into (description, raw_prereq). The catalog puts both in the same
+    <p>: the prose description first, then the prerequisite sentence.
+    Descriptions get their whitespace collapsed since the HTML wraps them
+    across lines; raw_prereq keeps the original strip-only behavior that
+    json_parser's tokenizer was written against.
+    """
     text = description_el.get_text()
     match = PREREQ_LABEL_RE.search(text)
     if not match:
-        return ""
-    return text[match.end():].strip()
+        return " ".join(text.split()), ""
+    return " ".join(text[:match.start()].split()), text[match.end():].strip()
 
 def fetch_html(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
     url = blank_url.format(code)

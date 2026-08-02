@@ -2,6 +2,7 @@
   {
     "name": "Contemporary Legal Issues",
     "code": "LAWS 101",
+    "description": "This course will deal in depth each year with a different legal issue of contemporary significance, viewed from the perspectives of political science, history, sociology, and philosophy. Required for students completing the Law and Society minor. May be repeated for credit once, for a maximum total of eight units.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Crimes, Civil Wrongs, and Constitution",
     "code": "LAWS 102S",
+    "description": "Through lectures and discussions on several controversial topics, students are introduced to the subjects taught in the first year of law school. They learn briefing, case analysis, and the Socratic method of instruction, engage in role-playing exercises, and take law-school examinations.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false

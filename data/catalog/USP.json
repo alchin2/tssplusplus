@@ -2,6 +2,7 @@
   {
     "name": "History of US Urban Communities",
     "code": "USP 1",
+    "description": "This course charts the development of urban communities across the United States both temporally and geographically. It examines the patterns of cleavage, conflict, convergence of interest, and consensus that have structured urban life. Social, cultural, and economic forces will be analyzed for the roles they have played in shaping the diverse communities of America’s cities.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Urban World System",
     "code": "USP 2",
+    "description": "Examines cities and the environment in a global context. Emphasizes how the world’s economy and the earth’s ecology are increasingly interdependent. Focuses on biophysical and ethicosocial concerns rooted in the contemporary division of labor among cities, Third World industrialization, and the post-industrial transformation of US cities.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "The City and Social Theory",
     "code": "USP 3",
+    "description": "An introduction to the sociological study of cities, focusing on urban society in the United States. Students in the course will examine theoretical approaches to the study of urban life; social stratification in the city; urban social and cultural systems–ethnic communities, suburbia, family life in the city, religion, art, and leisure.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Introduction to Geographic Information Systems",
     "code": "USP 4",
+    "description": "This course provides an entry-level introduction to Geographic Information Systems (GIS) and using GIS to make decisions: acquiring data and organizing data in useful formats, demographic mapping, and geocoding.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -30,6 +34,7 @@
   {
     "name": "Introduction to the Real Estate and Development Process",
     "code": "USP 5",
+    "description": "This course introduces students to the terminology, concepts, and basic practices of real estate finance and development. It surveys real estate law, appraisal, marketing, brokerage, management, finance, investment analysis, and taxation.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -37,6 +42,7 @@
   {
     "name": "Introduction to Global Architecture",
     "code": "USP 6",
+    "description": "Architecture and design shape our interaction with the built environment. This course covers history of built forms, including iconic work of well-known architects, with emphasis on global movements and power. Why did some ideas and forms travel, while others didn’t?",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Introduction to Climate Change Planning and Policy",
     "code": "USP 7",
+    "description": "This course reviews the relationships between climate change and global urban systems and explores mitigation and adaptation actions in urban design, planning, and policy led by governments, markets, and communities across the globe. Assignments will focus on real-world examples.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -51,6 +58,7 @@
   {
     "name": "Applied Urban Economics for Planning and Development",
     "code": "USP 15",
+    "description": "This course explores how economics contributes to understanding and solving urban problems using a “learn by doing” approach. Economic analysis will be applied to important issues that planners and developers must deal with, such as land markets, housing, and zoning.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -58,6 +66,7 @@
   {
     "name": "Real Estate and Development Principles and Analysis",
     "code": "USP 25",
+    "description": "This course will analyze the concepts related to the planning, development, leasing, valuation, and financing of real estate. There will be special emphasis on critical thinking and analytical decision-making by solving real estate problems primarily using Excel and Argus.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -65,6 +74,7 @@
   {
     "name": "Urban Studies and Planning Colloquium",
     "code": "USP 30",
+    "description": "In this course, students will attend weekly seminars presented by leading researchers and practitioners in fields related to urban studies and planning. Students will learn about best practices and innovative case studies from the field. Enrollment restricted to USP (US26) and RED (US27) majors and minors only.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -72,6 +82,7 @@
   {
     "name": "Real Estate and Development Colloquium",
     "code": "USP 50",
+    "description": "In this course, students will attend weekly seminars presented by leading researchers and practitioners in the field of real estate and development. Students will learn about best practices and innovative case studies from the field. Recommended for students interested in the real estate and development minor or major. Enrollment restricted to RED (US27) and USP (US26) majors and minors only.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -79,6 +90,7 @@
   {
     "name": "The Practice of Planning Research",
     "code": "USP 60",
+    "description": "A hands-on introduction to observational research and data analysis in urban studies and planning, emphasizing tools and techniques used to solve real-world planning problems. Special emphasis on statistics and quantitative reasoning, including discussion of their limits.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -86,6 +98,7 @@
   {
     "name": "Introduction to Urban Planning",
     "code": "USP 100",
+    "description": "This course is designed to provide an introduction to the fundamentals of urban planning. It surveys important topics in urban planning, including economic development, urban design, transportation, environmental planning, housing, and the history of urban planning.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -93,6 +106,7 @@
   {
     "name": "Introduction to Policy Analysis",
     "code": "USP 101",
+    "description": "(Same as POLI 160AA.) This course will explore the process by which the preferences of individuals are converted into public policy. Also included will be an examination of the complexity of policy problems, methods for designing better policies, and a review of tools used by analysts and policy makers.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -100,6 +114,7 @@
   {
     "name": "Urban Economics",
     "code": "USP 102",
+    "description": "(Same as ECON 135.) Economic analysis of why and where cities develop, patterns of land use in cities, why cities sub-urbanize, and the pattern of urban commuting. The course also examines problems of urban congestion, air pollution, zoning, poverty, and crime, and discusses public policies to deal with them. Credit not allowed for both ECON 135 and USP 102.",
     "raw_prereq": "ECON 2 or 100A and MATH 10A or 20A and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -139,6 +154,7 @@
   {
     "name": "Ethnic Diversity and the City",
     "code": "USP 104",
+    "description": "(Same as ETHN 105.) This course will examine the city as a crucible of ethnic identity exploring both the racial and ethnic dimensions of urban life in the United States from the Civil War to the present.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -146,6 +162,7 @@
   {
     "name": "Urban Sociology",
     "code": "USP 105",
+    "description": "(Same as SOCI 153.) Introduces students to the major approaches in the sociological study of cities and to what a sociological analysis can add to our understanding of urban processes.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -153,6 +170,7 @@
   {
     "name": "The History of Race and Ethnicity in American Cities",
     "code": "USP 106",
+    "description": "(Same as HIUS 129.) This class examines the history of racial and ethnic groups in American cities. It looks at major forces of change such as immigration to cities, political empowerment, and social movements, as well as urban policies such as housing segregation.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -160,6 +178,7 @@
   {
     "name": "Urban Politics",
     "code": "USP 107",
+    "description": "(Same as POLI 102E.) This survey course focuses upon the following six topics: the evolution of urban politics since the mid-nineteenth century; the urban fiscal crisis; federal/urban relationships; the “new” politics; urban power structure and leadership; and selected contemporary policy issues such as downtown redevelopment, poverty, and race.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -167,6 +186,7 @@
   {
     "name": "Planning Theories",
     "code": "USP 108",
+    "description": "This course is designed to explore major theories of urban and spatial planning. Topics include the role of the planner in a diverse society, the relationship between knowledge and action, and the implications of planning practices for social and spatial justice.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -174,6 +194,7 @@
   {
     "name": "Advanced Topics in Urban Politics",
     "code": "USP 110",
+    "description": "(Same as POLI 102J.) Building upon the introductory urban politics course, the advanced topics course explores issues such as community power, minority empowerment, and the politics of growth. A research paper is required. Students may not receive credit for both POLI 102J and USP 110.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -181,6 +202,7 @@
   {
     "name": "Inclusive Urbanism",
     "code": "USP 118",
+    "description": "Investigation of the relationship between social and economic inclusion and the built environment of cities through a range of scales (building, neighborhood, district, city, region) from multiple design and policy disciplines. Racial equity, environmental justice, and access to opportunity and the critical perspectives through which these and similar topics are addressed will enable students to better understand, advocate for, and build communities that are more inclusive, healthy, and just.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -188,6 +210,7 @@
   {
     "name": "Planning for Natural Hazards",
     "code": "USP 119",
+    "description": "This course explores how institutions, policies, and politics affect planning for natural hazards and climate adaptation. Students will learn to assess the impact of current governance systems on hazard risk, evaluate existing mitigation and adaptation plans, and understand the barriers to equitable disaster readiness and recovery. The focus of this course is on what we can do to reduce the losses from floods, fires, and other extreme weather events, considering the progression of climate change.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -195,6 +218,7 @@
   {
     "name": "Urban Planning, Infrastructure, and Real Estate",
     "code": "USP 120",
+    "description": "This course will explore the interrelationships of urban planning, public infrastructure, and real estate development. These three issues are critical to an examination of the major challenges facing California’s and America’s major metropolitan centers.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -202,6 +226,7 @@
   {
     "name": "Real Estate Law and Regulation",
     "code": "USP 121",
+    "description": "Examination of regulation of real estate development, as it affects landowners, developers and others private sector actors. Includes underlying public policies, establishment and enforcement of laws and regulations, application of regulations to individual projects, and political considerations in implementing regulations.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -209,6 +234,7 @@
   {
     "name": "Redevelopment Planning, Policymaking, and Law",
     "code": "USP 122",
+    "description": "This course examines key elements of land use, planning, and law as related to urban redevelopment. It focuses on San Diego case studies, including the Petco Park/East Village redevelopment project and the Naval Training Center (NTC) Redevelopment Area (Liberty Station).",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -216,6 +242,7 @@
   {
     "name": "Law, Planning, and Public Policy",
     "code": "USP 123",
+    "description": "Examination of the intersection of law and policy, in the form of processes and institutions, as they affect decision-making and program implementation in urban planning and design. Opportunities and constraints in making law and policy. Application to specific case examples.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -223,6 +250,7 @@
   {
     "name": "Land Use Planning",
     "code": "USP 124",
+    "description": "Introduction to land use planning in the United States: zoning and subdivision, regulation, growth management, farmland preservation, environmental protection, and comprehensive planning. May be coscheduled with USP 224.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -230,6 +258,7 @@
   {
     "name": "The Design of Social Research",
     "code": "USP 125",
+    "description": "Research methods are tools for improving knowledge. Beginning with a research question, students will learn to select appropriate methods for sampling, collecting, and analyzing data to improve their research activities and research results.",
     "raw_prereq": "upper-division standing or consent of instructor. Enrollment restricted to USP (US26) majors and minors only.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -237,6 +266,7 @@
   {
     "name": "Comparative Land Use and Resource Management",
     "code": "USP 126",
+    "description": "This course evaluates alternative land use, regulatory, and land transfer approaches to the US regime. Considered are overseas reform models for comprehensive land use and resource management and their effects on environmental justice, resource sustainability, and management efficiency and innovation.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -244,6 +274,7 @@
   {
     "name": "Climate Action Scholars: Community Engagement and Research",
     "code": "USP 128A",
+    "description": "(Same as ANTH 128A.) This course series will examine the historical, structural, and cultural roots of the climate crisis, its effects across diverse communities and ecologies, and the creative ways local people respond and build collective resilience. In this first quarter, students will engage in hands-on research, mapping, and documentation of climate change and associated social, environmental, and health impacts. Students will not receive credit for both USP 128A and ANTH 128A.",
     "raw_prereq": "upper-division standing or consent of instructor and departmental approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -251,6 +282,7 @@
   {
     "name": "Climate Action Scholars: Capstone Project",
     "code": "USP 128B",
+    "description": "(Same as ANTH 128B.) In the second course of this series, students will deepen and apply their knowledge of the diverse ways the climate crisis manifests and interacts with local conditions and histories of inequity and injustice. Students will continue to participate in collaborative learning and community-based research. In addition, they will develop and implement a capstone “climate action project” in collaboration with local community partners. Students will not receive credit for both USP 128B and ANTH 128B.",
     "raw_prereq": "ANTH 128A or USP 128A.",
     "prerequisites": [
       {
@@ -268,6 +300,7 @@
   {
     "name": "Culture, Tourism, and the Urban Economy: Case Studies of Craft Breweries",
     "code": "USP 131",
+    "description": "Craft breweries are emerging as a significant part of the economy in US cities. This course examines the rise and impact of craft breweries in city life with a focus on tourism, urban culture, local job growth, and urban revitalization.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -275,6 +308,7 @@
   {
     "name": "African Americans, Religion, and the City",
     "code": "USP 132",
+    "description": "(Same as ETHN 188.) This course details the history of African American migration to urban areas after World War I and World War II and explores the role of religion in their lives as well as the impact that their religious experiences had upon the cities in which they lived.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -282,6 +316,7 @@
   {
     "name": "Social Inequality and Public Policy",
     "code": "USP 133",
+    "description": "(Same as SOCI 152.) Primary focus on understanding and analyzing poverty and public policy. Analysis of how current debates and public policy initiatives mesh with alternative social scientific explanations of poverty.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -289,6 +324,7 @@
   {
     "name": "Asian and Latina Immigrant Workers in the Global Economy",
     "code": "USP 135",
+    "description": "(Same as ETHN 129.) This course will explore the social, political, and economic implications of global economic restructuring, immigration policies, and welfare reform on Asian and Latina immigrant women in the United States. We will critically examine these larger social forces from the perspectives of Latina and Asian immigrant women workers, incorporating theories of race, class, and gender to provide a careful reading of the experiences of immigrant women on the global assembly line.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -296,6 +332,7 @@
   {
     "name": "Community Organizing",
     "code": "USP 136",
+    "description": "Provides an overview of community organizing and considers organizing as both a tactical and strategic approach to effective community building and leadership development. Examines how various communities have approached collaborative leadership, organizing, and community building.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -303,6 +340,7 @@
   {
     "name": "Housing and Community Development Policy and Practice",
     "code": "USP 137",
+    "description": "History, theory, and practice of US housing and community development. Public, private, and nonprofit sectors shape and implement planning and policy decisions at the federal, state, local and neighborhood levels.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -310,6 +348,7 @@
   {
     "name": "Urban Economic Development",
     "code": "USP 138",
+    "description": "This course focuses on strategies that policy makers and planners use in their efforts to foster healthy economies. Topics include theories of urban economic development, analytical techniques for describing urban economies, and the politics and planning of economic development.",
     "raw_prereq": "USP 15 and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -327,6 +366,7 @@
   {
     "name": "Healthy Placemaking",
     "code": "USP 140",
+    "description": "This course introduces students to the concept and practice of “placemaking”—a collaborative process for creating public spaces that are vibrant, equitable, inclusive, and salutogenic. Students will gain an understanding of healthy placemaking as a strategy for building a more just and sustainable society.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -334,6 +374,7 @@
   {
     "name": "Life Course Scholars Research and Core Fundamentals",
     "code": "USP 141A",
+    "description": "This course introduces students to major concepts, demographic trends, and the diversity of the aging experience. Through site visits, community-based research, and interactions with elders, students will understand the social and structural determinants of health and well-being across the life course.",
     "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -341,6 +382,7 @@
   {
     "name": "Life Course Scholars Capstone Project",
     "code": "USP 141B",
+    "description": "In this course, students deepen and apply their knowledge of policy, research, practice, and diverse perspectives on aging. Students participate in collaborative learning and research with local elders, and develop and implement a capstone “healthy aging project” in the community.",
     "raw_prereq": "successful completion of USP 141A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -348,6 +390,7 @@
   {
     "name": "Urban Challenges: Homelessness in San Diego Core Fundamentals",
     "code": "USP 142A",
+    "description": "This course introduces students to the complexity of homelessness from multiple perspectives including the homeless population itself, service providers, policymakers, community members, and researchers. In addition to classroom learning, students will have the unique opportunity for experiential, place-based learning off campus.",
     "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -355,6 +398,7 @@
   {
     "name": "Urban Challenges: Homelessness in San Diego Fieldwork",
     "code": "USP 142B",
+    "description": "In this course, students will deepen and apply their knowledge of policy, research, practice, and diverse perspectives on homelessness. Students will learn and apply different research methodologies as they conduct faculty-supervised fieldwork on different dimensions of the homelessness crisis.",
     "raw_prereq": "successful completion of USP 142A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -362,6 +406,7 @@
   {
     "name": "Urban Challenges: Sustainable Food Systems",
     "code": "USP 142C",
+    "description": "This course explores diverse elements of sustainable food systems planning for cities and their hinterlands. We will review the deep inequalities and impacts of food systems while uncovering a diversity of local solutions at different scales, including our own campus.",
     "raw_prereq": "upper-division standing or consent of instructor and departmental approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -369,6 +414,7 @@
   {
     "name": "The US Health-Care System",
     "code": "USP 143",
+    "description": "This course will provide an overview of the organization of health care within the context of the community with emphasis on the political, social, and cultural influences. It is concerned with the structure, objectives, and trends of major health and health-related programs in the United States to include sponsorship, financing, training and utilization of health personnel.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -376,6 +422,7 @@
   {
     "name": "Environmental and Preventive Health Issues",
     "code": "USP 144",
+    "description": "This course will analyze needs of populations, highlighting current major public health problems such as chronic and communicable diseases, environmental hazards of diseases, psychiatric problems and additional diseases, new social mores affecting health maintenance, consumer health awareness and health practices, special needs of economically and socially disadvantaged populations. The focus is on selected areas of public and environmental health, namely: epidemiology, preventive services in family health, communicable and chronic disease control, and occupational health.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -383,6 +430,7 @@
   {
     "name": "Aging—Social and Health Policy Issues",
     "code": "USP 145",
+    "description": "This course will provide a brief introduction to the nature and problems of aging, with emphasis on socioeconomic and health status; determinants of priorities of social and health policies will be examined through analysis of the structure and organization of selected programs for the elderly. Field visits will constitute part of the course.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -390,6 +438,7 @@
   {
     "name": "Case Studies in Health-Care Programs/Poor and Underserved Population",
     "code": "USP 147",
+    "description": "The purpose of this course is to identify the special health needs of low income and underserved populations and to review their status of care, factors influencing the incidence of disease and health problems, and political and legislative measures related to access and the provision of care. Selected current programs and policies that address the health-care needs of selected underserved populations such as working poor, inner city populations, recent immigrants, and persons with severe disabling mental illnesses will be studied. Offered in alternate years.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -397,6 +446,7 @@
   {
     "name": "Health and the Built Environment",
     "code": "USP 148",
+    "description": "This course focuses on the relationship between the design of home, work, and recreational environments and our health. Evidence shows that our environments impact our engagement in health promoting or adverse behavior and the exposure to both positive and negative stimuli. May be coscheduled with USP 248.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -404,6 +454,7 @@
   {
     "name": "Real Estate and Development Law and Regulation",
     "code": "USP 150",
+    "description": "This course reviews the legal issues, processes, and institutions involved in real estate. Topics include principles of real property law, legislative and judicial institutions, land use and environmental regulation, financial instruments, property transactions, and forms of investment and development entities.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -411,6 +462,7 @@
   {
     "name": "Real Estate Planning and Development",
     "code": "USP 151",
+    "description": "This course covers the methods and procedures utilized in development from inception to completion. Topics include initial planning, project feasibility and decision-making, partnerships, financing, design, entitlement and approvals, site acquisition, construction management, project completion, leasing, and asset management.",
     "raw_prereq": "USP 5 and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -428,6 +480,7 @@
   {
     "name": "Real Estate Development Finance and Investment",
     "code": "USP 152A",
+    "description": "This course investigates the institutions, instruments, and structures by which investment in real estate is financed. It reviews capital markets, the sources and uses of real estate funds, and the role of government in real estate finance. Renumbered from USP 152. Students may not receive credit for USP 152A and USP 152.",
     "raw_prereq": "USP 15, USP 25, and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -454,6 +507,7 @@
   {
     "name": "Advanced Real Estate Development Finance and Investment",
     "code": "USP 152B",
+    "description": "The course will examine various case studies of real-life development and investment projects, including apartments, acquisition of a distressed project, office development, land development, and student housing. The students will also incorporate zoning analysis and joint venture structures into the case studies where appropriate.",
     "raw_prereq": "USP 152 or USP 152A.",
     "prerequisites": [
       {
@@ -471,6 +525,7 @@
   {
     "name": "Real Estate and Development Market Analysis",
     "code": "USP 153",
+    "description": "This course examines the analysis of demand for real estate products and site-specific real estate development projects. Consideration is given to relevant factors such as economic change, social attitudes, and changing laws.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -478,6 +533,7 @@
   {
     "name": "Real Estate Development in Global and Comparative Perspective",
     "code": "USP 155",
+    "description": "This course compares real estate markets in Asia, Europe, the Middle East, and Latin America. It explores the factors that affect these regions’ real estate economies including finance in city systems, emerging markets, development trends, demographic shifts, and urban planning.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -485,6 +541,7 @@
   {
     "name": "Advanced Special Topics in Real Estate and Development",
     "code": "USP 158A",
+    "description": "Topics may include the analysis of particular projects; policy issues such as building codes, environmental regulation, and public-private partnerships; or the relationships among real estate, financial markets, and communities. Topics may vary. May be taken for credit up to three times.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -492,6 +549,7 @@
   {
     "name": "Real Estate University Challenge I",
     "code": "USP 159A",
+    "description": "In this course, students will work together in teams to complete a development proposal for a real world location. Students will meet with industry professionals to evaluate the most feasible, highest, and best use of space on the site provided. May be taken for credit up to two times.",
     "raw_prereq": "upper-division standing or consent of instructor and department approval. This is an application-based course.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -499,6 +557,7 @@
   {
     "name": "NAIOP Real Estate University Challenge II",
     "code": "USP 159B",
+    "description": "In this course, students will work together in teams to complete a development proposal for a real world location. Students will meet with industry professionals to evaluate the most feasible, highest, and best use of space on the site provided. May be taken for credit up to two times.",
     "raw_prereq": "USP 159A and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -516,6 +575,7 @@
   {
     "name": "Research Methods: Analyzing Crime",
     "code": "USP 160",
+    "description": "This course will cover the methods and context for analyzing crime at national, state, regional, and micro-place levels. Methods will be both qualitative and quantitative as well as include primary and secondary data analysis.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -523,6 +583,7 @@
   {
     "name": "Environmental Design and Crime Prevention",
     "code": "USP 161",
+    "description": "This course is an introduction to theories and concepts relating to the built and natural environment and crime prevention. Perspectives from planners and criminologists will be discussed, and a real-world project will be used to integrate theory into practice.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -530,6 +591,7 @@
   {
     "name": "Migration and the City",
     "code": "USP 162",
+    "description": "How do local and global power dynamics shape migration and immigrant inequality? In this course, students learn how capitalism, state and local policies, and climate change shape migration. They also discuss how urban politics, economic contexts, border enforcement, and policing drive (or mitigate) immigrant inequalities. Finally, students look at how immigrants organize and reshape the cities they are in, with a focus on Latinos in Southern California and at the US-Mexico border.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -537,6 +599,7 @@
   {
     "name": "Community-Based Research and Planning",
     "code": "USP 163",
+    "description": "This course prepares students to engage in community-based research and planning with a focus on social justice. Students consider the power dynamics between scholars, planners, and vulnerable groups of people. They discuss the ethics and effectiveness of participatory approaches, as well as their tensions. They train in trauma-informed data collection. Finally, they reflect on their own roles in society, campus, and various communities for self-awareness and self-care.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -544,6 +607,7 @@
   {
     "name": "Cities in Film",
     "code": "USP 164",
+    "description": "This course examines global cities through the lens of film, exploring how urban environments have been represented by filmmakers and imagined by communities. Students engage with urban theory and interrogate the meaning of places tied to history, culture, and architecture.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -551,6 +615,7 @@
   {
     "name": "Advanced Special Topics in Housing",
     "code": "USP 165A",
+    "description": "Special topics may include the analysis of particular housing developments; policy issues such as affordable housing, home finance, or fair housing law; or social issues such as displacement or housing inequality. Topics will vary. May be taken for credit up to three times.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -558,6 +623,7 @@
   {
     "name": "Advanced Special Topics in Sustainability",
     "code": "USP 165B",
+    "description": "Topics may include issues such as sea level rise, water conflicts, sustainable food systems; also public or private strategies for sustainable development such as green building or climate action planning. Topics will vary. May be taken for credit up to three times.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -565,6 +631,7 @@
   {
     "name": "Advanced Special Topics in Transportation",
     "code": "USP 165C",
+    "description": "Transportation topics may include policies such as congestion pricing, transit districts, street parking, or road safety regulation; social and legal implications of new transportation technologies; or methods for analyzing transit behavior. Topics may vary. May be taken for credit up to three times. May be coscheduled with USP 265C.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -572,6 +639,7 @@
   {
     "name": "Advanced Special Topics in Urban Design and Land Use",
     "code": "USP 165D",
+    "description": "Topics may include the analysis of particular landscapes or designs; policy tools such as inclusionary zoning, transit-oriented development, or community benefits agreements; or effects of the built environment, construed broadly. Topics may vary. May be taken for credit up to three times.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -579,6 +647,7 @@
   {
     "name": "History of New York City",
     "code": "USP 167",
+    "description": "(Same as HIUS 123.) New York City breathes history. Whether it is in the music, the literature, or the architecture, the city informs our most basic conceptions of American identity. This course examines the evolution of Gotham from the colonial era to today.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -586,6 +655,7 @@
   {
     "name": "History of Los Angeles",
     "code": "USP 168",
+    "description": "(Same as HIUS 117.) This course examines the history of Los Angeles from the early nineteenth century to the present. Particular issues to be addressed include urbanization, ethnicity, politics, technological change, and cultural diversification.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -593,6 +663,7 @@
   {
     "name": "Introduction to Green Building",
     "code": "USP 169",
+    "description": "Introduction to green building including the Leadership in Energy and Environmental Design (LEED) rating system which explores sustainable strategies in the built environment including site, energy, water, materials, waste, and health. Develops a general understanding of concepts and prepares students for the LEED GA exam.",
     "raw_prereq": "USP 124 and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -610,6 +681,7 @@
   {
     "name": "Planning for Sustainable Communities",
     "code": "USP 170",
+    "description": "This course will explore the different factors and processes that shape a sustainable city. Contemporary green planning techniques and values will be evaluated. The course will also discuss planning, designing, and implementation of sustainable facilities that will reduce sprawl.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -617,6 +689,7 @@
   {
     "name": "Sustainable Development",
     "code": "USP 171",
+    "description": "Sustainable development is invoked by a wide range of actors and sectors that seek to promote environmentally sound and socially just approaches to economic development. This course critically examines the diverse, and often contradictory, definitions and applications of sustainability throughout the world. May be coscheduled with USP 271.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -624,6 +697,7 @@
   {
     "name": "International Sustainable Development",
     "code": "USP 171GS",
+    "description": "Sustainable development is a broad concept that encompasses efforts to promote environmentally sound approaches to economic, social, and physical development. This course provides a critical, transdisciplinary overview of emergent theories and practices of sustainability in an international comparative context. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing or consent of instructor and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -631,6 +705,7 @@
   {
     "name": "Graphics, Visual Communication, and Urban Information",
     "code": "USP 172",
+    "description": "This course examines the use of graphic techniques and tools to explain research, data analysis, and convey ideas with a focus on the built environment. Visual communication for planners/designers using traditional graphic media, electronic media, and visualization are explored.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -638,6 +713,7 @@
   {
     "name": "History of Urban Planning and Design",
     "code": "USP 173",
+    "description": "The analysis of the evolution of city designs over time; study of the forces that influence the form and content of a city: why cities change; comparison of urban planning and architecture in Europe and the United States. Students may not receive credit for USP 173 and USP 173GS.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -645,6 +721,7 @@
   {
     "name": "History of Urban Planning and Design",
     "code": "USP 173GS",
+    "description": "The analysis of the evolution of city designs over time; study of the forces that influence the form and content of a city; why cities change; comparison of urban planning and architecture in Europe and the United States. Students may not receive credit for USP 173GS and USP 173.",
     "raw_prereq": "upper-division standing or consent of instructor and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -652,6 +729,7 @@
   {
     "name": "Site Analysis",
     "code": "USP 175",
+    "description": "Introduction to the theory and practice of context-sensitive site analysis, including regulatory framework, site inventory, site selection and programming, and conceptual design. Demonstrates use of planning and development tools to conduct suitability analysis and project visualization in real world settings. Enrollment restricted to USP (US26) and RED (US27) majors and minors only.",
     "raw_prereq": "USP 124, upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -669,6 +747,7 @@
   {
     "name": "International Planning and Development: U",
     "code": "USP 176",
+    "description": "This course explores globalization, cross-border design, and urban planning along international boundaries. The California-Baja California border serves as a laboratory to rethink transborder land use, transport, environmental justice, immigration, port of entry design, ecological management, security, and economic development.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -676,6 +755,7 @@
   {
     "name": "Urban Design Practicum",
     "code": "USP 177A",
+    "description": "This course is designed to introduce the student to the theory and practice of urban design, the form of the built environment, and how it is created. There is an emphasis on the development within a larger urban context. Renumbered from USP 177. Students may not receive credit for USP 177A and USP 177.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -683,6 +763,7 @@
   {
     "name": "Advanced Urban Design",
     "code": "USP 177B",
+    "description": "Settlement patterns, design of streets and open space, buildings, and civic space are the setting for public life. This course explores how we design and inhabit cities that are increasingly more populated and dense. Advanced design research, drawing skills required.",
     "raw_prereq": "USP 177, USP 177A, or USP 179.",
     "prerequisites": [
       {
@@ -709,6 +790,7 @@
   {
     "name": "Urban Design, Theory, and Practice",
     "code": "USP 179",
+    "description": "Roles of the urban designer, preparing schematic proposals and performance statements, identifying opportunities for and constraints on designers. Each student will prepare a practical exercise in urban design using various urban design methods.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -716,6 +798,7 @@
   {
     "name": "Transportation Planning",
     "code": "USP 180",
+    "description": "Introduction to the history and current state of urban transportation planning, including the relationship between transportation and urban form; role of automotive, mass transit, and alternative modes; methods for transportation systems analysis; decision-making, regulatory, and financing mechanisms; and public attitudes. May be coscheduled with USP 280.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -723,6 +806,7 @@
   {
     "name": "Public Transportation",
     "code": "USP 181",
+    "description": "Livable cities rely on balanced transportation systems that can mitigate the negative impacts of car-oriented environment and society. This course will explore the role of public transit in creating a balanced transportation system. A variety of public transportation systems will be analyzed.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -730,6 +814,7 @@
   {
     "name": "Gentrification",
     "code": "USP 182",
+    "description": "“Gentrification” refers to the migration of relatively affluent people into less affluent and working-class neighborhoods. We will discuss the differences between gentrification, reinvestment, and urban renewal; the causes of gentrification; and its effects on the businesses and residents. We will also examine the role of public policy in encouraging gentrification or mitigating its most harmful consequences.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -737,6 +822,7 @@
   {
     "name": "The Geography of American Opportunity",
     "code": "USP 183",
+    "description": "(Same as SOCI 183.) How does where you grow up affect where you end up? This course explores “who gets what where and why,” by examining spatial inequalities in life chances across regions, rural and urban communities, and divergent local economies in the U.S. We will “place” places within their economic, socio-cultural, and historical contexts. Readings and exercises will uncover spatial variation in inequalities by race/ethnicity, immigrant status, gender, class, and LGBTQIA status that national averages obscure. Students may not receive credit for SOCI 183 and USP 183.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -744,6 +830,7 @@
   {
     "name": "International Urban Design Practicum",
     "code": "USP 183GS",
+    "description": "This course will take place in Germany and will introduce the student to the theory and practice of urban design in a global setting. There is an emphasis on the built environment, and how it is created and shaped within an international context. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing and department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -751,6 +838,7 @@
   {
     "name": "Decolonizing Design: Histories and Theories",
     "code": "USP 184",
+    "description": "How can indigenous ecological knowledges and forms of sovereignty inform decolonial design? Case studies include the architectural, urban, and environmental histories of the “Indian New Deal” in the 1930s and its legacies, and contemporary proposals for a Green New Deal.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -758,6 +846,7 @@
   {
     "name": "Real Estate Finance and Development Studio I",
     "code": "USP 185A",
+    "description": "This course introduces students to the challenges of developing and financing real property. Students work in teams to prepare a proposal for a complete site-specific project that incorporates real estate finance, development, and design.",
     "raw_prereq": "USP 5, USP 15, USP 25, USP 50, USP 124, USP 151, USP 152A, and USP 153. Restricted to seniors within the Real Estate and Development major. (Only offered fall quarter.)",
     "prerequisites": [
       {
@@ -804,6 +893,7 @@
   {
     "name": "Real Estate Finance and Development Studio II",
     "code": "USP 185B",
+    "description": "An intensive studio-based experience that culminates in a completed group project that analyzes, evaluates, and presents a site-specific real estate finance and development proposal. The final project includes market analysis, pro forma financial analysis, site analysis, and site design.",
     "raw_prereq": "USP 185A and RED technical elective. (Only offered winter quarter.)",
     "prerequisites": [
       {
@@ -821,6 +911,7 @@
   {
     "name": "Senior Sequence Research Proposal",
     "code": "USP 186",
+    "description": "Introduces students to the theory and practice of social research including the challenges of writing a scholarly proposal. Students are required to complete one hundred hours of an internship experience while critically examining the relations between social science and society.",
     "raw_prereq": "USP 30, USP 60, USP 124, one USP technical elective, and one USP Research Methods course. Restricted to seniors within the Urban Studies and Planning major. (Only offered fall quarter.)",
     "prerequisites": [
       {
@@ -851,6 +942,7 @@
   {
     "name": "Senior Sequence Research Project",
     "code": "USP 187",
+    "description": "An intensive research, internship, and writing experience that culminates in an original senior research project. Students learn about the theoretical, ethical, and technical challenges of scholarly research and publication.",
     "raw_prereq": "USP 186. (Only offered winter quarter.)",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -858,6 +950,7 @@
   {
     "name": "Field Research in Migrant Communities—Practicum",
     "code": "USP 188",
+    "description": "(Same as SOCI 188) Mexican Migration Field Research Program: Students work closely with faculty to conduct direct on-the-ground field research in a migrant community. Students work as teams, conducting either surveys, interviews, or ethnographic observations. Students are expected to produce an outline of a research paper based on the results from fieldwork. Conversational fluency in Spanish is recommended. Students will not receive credit for both SOCI 188 and USP 188.",
     "raw_prereq": "department approval. In order to take this course, students must have applied and been admitted to participate in the Mexican Migration Field Research Program.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -865,6 +958,7 @@
   {
     "name": "Research Analysis and Reporting",
     "code": "USP 188B",
+    "description": "This course is a workshop in which students analyze original data and write a major public-facing research report. Students gain experience translating research for broader audiences. Covers the structure of reports, policy and advocacy audiences, and how to present findings.",
     "raw_prereq": "USP 188 or consent of instructor.",
     "prerequisites": [
       {
@@ -882,6 +976,7 @@
   {
     "name": "Special Topics in Urban Planning",
     "code": "USP 189",
+    "description": "An undergraduate course designed to cover various aspects of Urban Planning. May be taken for credit up to two times.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -889,6 +984,7 @@
   {
     "name": "Senior Honors Seminar",
     "code": "USP 190",
+    "description": "Each student enrolled will be required to write an honors essay, a substantial research paper on a current urban policy issue, under the supervision of a member of the faculty. Most often the essay will be based on their previous fieldwork courses and internship. This essay and other written exercises, as well as class participation, will be the basis of the final grade for the course. The seminar will rotate from year to year among the faculty in urban studies and planning.",
     "raw_prereq": "USP 187 or USP 185B, major GPA 3.5, and department approval. This is an application-based course.",
     "prerequisites": [
       {
@@ -915,6 +1011,7 @@
   {
     "name": "Intermediate GIS for Urban and Community Planning",
     "code": "USP 191A",
+    "description": "Intermediate geographic information systems (GIS) as applied to urban studies builds upon the introductory course and teaches students how to use the GIS software, collect and analyze data, and produce maps and products relating to demographics, transportation, health, public safety, and other current issues.",
     "raw_prereq": "USP 4 and upper-division standing or consent of instructor.",
     "prerequisites": [
       {
@@ -932,6 +1029,7 @@
   {
     "name": "Advanced GIS for Urban and Community Planning",
     "code": "USP 191B",
+    "description": "Advanced geographic information systems (GIS) as applied to urban studies. Learn to use the GIS software with a focus on data management, online GIS, elements of spatial statistics, technologies, and models for spatial data integration to support urban research and decision-making.",
     "raw_prereq": "USP 191A and upper-division standing.",
     "prerequisites": [
       {
@@ -949,6 +1047,7 @@
   {
     "name": "San Diego Community Research",
     "code": "USP 193",
+    "description": "Using the San Diego region as a case study, students will be introduced to the process of collecting, evaluating, and presenting urban and regional data using a variety of methods, including aggregate data analysis, historical research, and ethnography.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -956,6 +1055,7 @@
   {
     "name": "Research Seminar in Washington, DC",
     "code": "USP 194",
+    "description": "(Same as COGS 194, COMM 194, HITO 193, POLI 194, SOCI 194, SIO 194.) Course attached to six-unit internship taken by students participating in the UCDC Program. Involves weekly seminar meetings with faculty and teaching assistant and a substantial research paper.",
     "raw_prereq": "department approval and participating in UCDC Program.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -963,6 +1063,7 @@
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "USP 195P",
+    "description": "Under the supervision of an instructor, undergraduate students gain teaching experience through practical experiences in course management and effective teaching methods. May be taken for credit up to three times for a maximum of eight units.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -970,6 +1071,7 @@
   {
     "name": "Directed Group Study",
     "code": "USP 198",
+    "description": "Directed group study on a topic or in a field not included in the regular departmental curriculum by special arrangement with a faculty member.",
     "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -977,6 +1079,7 @@
   {
     "name": "Independent Study",
     "code": "USP 199",
+    "description": "Reading and research programs and field-study projects to be arranged between student and instructor, depending on the student’s needs and the instructor’s advice in terms of these needs.",
     "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -984,6 +1087,7 @@
   {
     "name": "Land Use Planning",
     "code": "USP 224",
+    "description": "Introduction to land use planning in the United States: zoning and subdivision, regulation, growth management, farmland preservation, environmental protection, and comprehensive planning. May be coscheduled with USP 124.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -991,6 +1095,7 @@
   {
     "name": "Advanced Special Topics in Transportation",
     "code": "USP 265C",
+    "description": "Transportation topics may include policies such as congestion pricing, transit districts, street parking, or road safety regulation; social and legal implications of new transportation technologies; or methods for analyzing transit behavior. Topics may vary. May be taken for credit up to three times. May be coscheduled with USP 165C.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -998,6 +1103,7 @@
   {
     "name": "Sustainable Development",
     "code": "USP 271",
+    "description": "Sustainable development is invoked by a wide range of actors and sectors that seek to promote environmentally sound and socially just approaches to economic development. This course critically examines the diverse, and often contradictory, definitions and applications of sustainability throughout the world. May be coscheduled with USP 171.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true

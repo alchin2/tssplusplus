@@ -2,6 +2,7 @@
   {
     "name": "First-Year Honors Seminar",
     "code": "SEV 20",
+    "description": "This course introduces students to UC San Diego’s vibrant intellectual community through weekly seminars and field trips led by faculty and invited speakers. Students learn about the innovative research and other artistic and scientific endeavors taking place across campus and in the surrounding community.",
     "raw_prereq": "department approval required. May be taken for credit up to three times.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Instructional Apprenticeship",
     "code": "SEV 195",
+    "description": "Students, under the direction of the instructor, lead discussion sections, attend lectures, and meet regularly with the instructor to help prepare course materials.",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Apprentice Teaching",
     "code": "SEV 500",
+    "description": "This course, designed for graduate students serving as teaching assistants in Seventh College courses, provides training in teaching methods, classroom management, and evaluation/grading.",
     "raw_prereq": "department approval required. Students will have an application process for this course.",
     "prerequisites": [],
     "offered_this_qtr": false

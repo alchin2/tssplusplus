@@ -2,6 +2,7 @@
   {
     "name": "Mind, Brain & Behavior",
     "code": "CLIN 227A",
+    "description": "This five-week course will cover neuroanatomy, neurophysiology, neuropharmacology, principles of neurological function, and human growth and development. S/U grades only.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Mind, Brain & Behavior II",
     "code": "CLIN 227B",
+    "description": "This five-week course during year two covers neurological, psychiatric, ophthalmological, otolaryngological, and general head and neck principles, syndromes, and disorders.",
     "raw_prereq": "CLIN 227A. S/U grades only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Mind, Brain & Behavior II—Psychiatry Emphasis",
     "code": "CLIN 228",
+    "description": "A five-week intense course with specific emphasis for clinical psychology graduate students. The psychiatry emphasis will examine aspects of psychopathology, including the following disorders: depressive, psychotic, alcohol and drug personality, suicide, anxiety, obsessive-compulsive, gender dysphoria, sexual dysfunctions, child psychiatry, and sleep-wake among others. S/U grades only.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Proseminar in Neuropsychology",
     "code": "CLIN 294",
+    "description": "Yearlong course (CLIN 294A, B, C), each for three credits, offered sequentially fall, winter, and spring. Provides a fundamental knowledge of brain-behavior relationships as well as strategies and methods of neuropsychological assessment and rehabilitation.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Independent Study",
     "code": "CLIN 296",
+    "description": "Independent survey of basic concepts in clinical psychology using various sources of material, including scientific papers in clinical psychology and behavioral science and other sources as seem indicated.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true

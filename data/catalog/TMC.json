@@ -2,6 +2,7 @@
   {
     "name": "First Year Experience",
     "code": "TMC 1",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Marshall College first-year students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Transfer Year Experience",
     "code": "TMC 2",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Marshall College transfer students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Introduction to Public Service in America",
     "code": "TMC 15",
+    "description": "This course is designed to study, discuss, and analyze the history and current role of public service in the United States. Students will be introduced to the different roles held by the three sectors of the American economic structure (government, business, and nonprofit/public service) with opportunity to provide a critical analysis of those roles within American society.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -23,6 +26,7 @@
   {
     "name": "Thurgood Marshall College Honors Seminar",
     "code": "TMC 20",
+    "description": "Weekly seminar conducted by UC San Diego faculty and distinguished guest lecturers on topics related to the core curriculum: diversity, justice, and imagination. P/NP grades only.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -30,6 +34,7 @@
   {
     "name": "Undergraduate Seminar",
     "code": "TMC 90",
+    "description": "These seminars are designed to expose undergraduate students, especially first-year students and sophomores, to exciting research conducted by UC San Diego faculty. P/NP grades only.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -37,6 +42,7 @@
   {
     "name": "Partnership Schools Program Service-Learning Experience",
     "code": "TMC 120",
+    "description": "This service-learning experience guides undergraduates in achieving a critical and reflective understanding of the impact of historical, systemic, and institutionalized inequities on educational opportunities for underrepresented students. Undergraduates contribute to educational equity efforts by volunteering as tutors or interns at a UC San Diego Partnership School. These schools prepare first-generation youth for higher education by providing a rigorous college preparatory culture and curriculum.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Thurgood Marshall College Directed Group Studies",
     "code": "TMC 198",
+    "description": "Directed group studies of a creative project. Designated for TMC students to work as a group on a project supervised by faculty; not included in regular curriculum, where group emphasis would be more beneficial and constructive than individual special studies.",
     "raw_prereq": "upper-division standing (ninety units) including lower-division writing requirement (DOC 2 and DOC 3), minimum overall GPA of 2.5 and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -51,6 +58,7 @@
   {
     "name": "Marshall College Special Project",
     "code": "TMC 199",
+    "description": "Individual, independent research, or creative work intended to satisfy Marshall College graduation requirement. Designated for Marshall College students, topics are supervised by Marshall faculty in association with the honors seminar and honors projects. A written application describing the project is required. See Office of the Provost. P/NP grades only.",
     "raw_prereq": "upper-division students with 2.5 GPA and ninety units and approval of the provost or faculty designee. Honors standing required for honors projects.",
     "prerequisites": [],
     "offered_this_qtr": false

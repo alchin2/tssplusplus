@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Aerospace Engineering",
     "code": "MAE 02",
+    "description": "An introduction to topics in aeronautical and astronautical engineering including aerodynamics, propulsion, flight mechanics, structures, materials, orbital mechanics, design, mission planning, and environments. General topics include historical background, career opportunities, engineering ethics, and professionalism.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Introduction to Mechanical Design",
     "code": "MAE 03",
+    "description": "Introduction to design process through hands-on individual and team projects. Topics include 2D/3D CAD (drawing projections/isometrics, dimensioning), design problem identification, prototype fabrication techniques (shop skills, rapid prototyping), design process (concept generation/selection, risk reduction strategies, scheduling), learning from hardware performance (problem solving/redesign), teamwork. Use of components: fasteners, couplings, DC motors, oral/written communication with graphics. Program or materials fees may apply.",
     "raw_prereq": "PHYS 2A or 4A. Enrollment restricted to BE 25, MC 25, MC 27, MC 29, and MC 30–37 majors only.",
     "prerequisites": [
       {
@@ -47,6 +49,7 @@
   {
     "name": "Quantitative Computer Skills",
     "code": "MAE 05",
+    "description": "Introductory course for nonengineering majors. Use of computers in solving problems; applications from life sciences, physical sciences, and engineering. Students run existing computer programs and complete some programming in BASIC.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -54,6 +57,7 @@
   {
     "name": "Spatial Visualization",
     "code": "MAE 07",
+    "description": "(Cross-listed with SE 7.) Spatial visualization is the ability to manipulate 2-D and 3-D shapes in one’s mind. In this course, students will perform exercises that increase their spatial visualization skills. P/NP grades only. Students may not receive credit for SE 7 and MAE 7.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -61,6 +65,7 @@
   {
     "name": "MATLAB Programming for Engineering Analysis",
     "code": "MAE 08",
+    "description": "Computer programming in MATLAB with elementary numerical analysis of engineering problems. Arithmetic and logical operations, arrays, graphical presentation of computations, symbolic mathematics, solutions of equations, and introduction to data structures.",
     "raw_prereq": "MATH 20A and 20B or consent of instructor.",
     "prerequisites": [
       {
@@ -82,6 +87,7 @@
   {
     "name": "Thermodynamics",
     "code": "MAE 11",
+    "description": "Fundamentals of engineering thermodynamics: energy, work, heat, properties of pure substances, first and second laws for closed systems and control volumes, gas mixtures. Application to engineering systems, power and refrigeration cycles, combustion. Renumbered from MAE 110A. Students may not receive credit for MAE 11 and MAE 110A.",
     "raw_prereq": "PHYS 2C and CHEM 6A. Enrollment restricted to engineering majors only.",
     "prerequisites": [
       {
@@ -99,6 +105,7 @@
   {
     "name": "Elements of Materials Science",
     "code": "MAE 20",
+    "description": "The structure of materials: metals, ceramics, glasses, semiconductors, superconductors, and polymers to produce desired, useful properties. Atomic structures. Defects in materials, phase diagrams, microstructural control. Mechanical and electrical properties are discussed. Time temperature transformation diagrams. Diffusion.",
     "raw_prereq": "PHYS 2A or 4A, CHEM 6A or CHEM 6AH, and MATH 20C.",
     "prerequisites": [
       {
@@ -133,6 +140,7 @@
   {
     "name": "Aerospace Materials Science",
     "code": "MAE 21",
+    "description": "Atomic structure and physical properties of engineering materials including metals, ceramics, glasses, polymers, and composite materials. Defects and phase diagram of materials. Material testing and processing. Program or materials fees may apply.",
     "raw_prereq": "PHYS 2A or 4A, CHEM 6A or CHEM 6AH, and MATH 20B. Enrollment restricted to MC 25 and MC 35–37 majors only.",
     "prerequisites": [
       {
@@ -171,6 +179,7 @@
   {
     "name": "Statics and Introduction to Dynamics(4)",
     "code": "MAE 30A",
+    "description": "Statics: statics of particles and rigid bodies in 3-D. Free body diagrams. Moment of a force, couples, equivalent systems of forces. Distributed forces, centroids, and centers of gravity. Introduction to dynamics: 3-D relative motion, kinematics, and kinetics of particles. Newton’s equations of motion. Equilibrium problems with friction. Enrollment restricted to engineering majors MC 25, MC 27, MC 29, MC 30–34, MC 35–37, and SE 27.",
     "raw_prereq": "PHYS 2A and MATH 31BH or MATH 20C.",
     "prerequisites": [
       {
@@ -192,6 +201,7 @@
   {
     "name": "Dynamics and Vibrations",
     "code": "MAE 30B",
+    "description": "Dynamics: energy methods for motion of particles and rigid bodies, including virtual work, power, and Lagrange’s equations. Impact and impulses. Systems of particles. Introduction to 3-D dynamics of rigid bodies. Introduction to vibrations: free and harmonically forced vibrations of undamped and damped single degree of freedom systems. Enrollment restricted to engineering majors only MC 25, MC 27, MC 29, MC 30–34, MC 35–37, and SE 27.",
     "raw_prereq": "MAE 30A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -199,6 +209,7 @@
   {
     "name": "Linear Circuits",
     "code": "MAE 40",
+    "description": "Steady-state and dynamic behavior of linear, lumped-parameter electrical circuits. Kirchhoff’s laws. RLC circuits. Node and mesh analysis. Operational amplifiers. Signal acquisition and conditioning. Electric motors. Design applications in engineering.",
     "raw_prereq": "MATH 20D and MATH 31AH or MATH 18 or MATH 20F, and PHYS 2B.",
     "prerequisites": [
       {
@@ -233,6 +244,7 @@
   {
     "name": "First-year Student Seminar",
     "code": "MAE 87",
+    "description": "The First-year Student Seminar program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges. Topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -240,6 +252,7 @@
   {
     "name": "Learn Sustainable Well-Being: Compassion for Self and Others, an Engineer’s Perspective",
     "code": "MAE 88",
+    "description": "This experiential course teaches the art of practicing psychological well-being, based on Eastern and Western approaches (e.g., mindfulness, positive psychology, cognitive therapy, neuroscience, theatre and art), from the perspective of an engineer. Each week there is a short lecture on a given topic, combined with workshop-style exercises.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -247,6 +260,7 @@
   {
     "name": "Introduction to Topics in Mechanical and Aerospace Engineering",
     "code": "MAE 91",
+    "description": "An introduction to special topics in mechanical and aerospace engineering.",
     "raw_prereq": "none.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -254,6 +268,7 @@
   {
     "name": "Design Competition—Design, Build, and Fly Aircraft",
     "code": "MAE 92A",
+    "description": "(Cross-listed with SE 10A.) Student teams design, build, and fly unmanned aircraft for a national student competition. Students concentrate on vehicle system design including aerodynamics, structures, propulsion, and performance. Teams engineering, fabricate the aircraft, submit a design report, and prep aircraft for competition.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -261,6 +276,7 @@
   {
     "name": "Design Competition—Design, Build, and Test Race Car",
     "code": "MAE 93",
+    "description": "Student teams design, build, and test a formula-style racing car for an international student competition. Students concentrate on vehicle system analysis and design, manufacturability and performance. Teams engineer, fabricate car, submit a design report and prep car for competition.",
     "raw_prereq": "department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -268,6 +284,7 @@
   {
     "name": "Rocketry Competitions—Design and Build Rockets and Space Systems",
     "code": "MAE 94",
+    "description": "Student teams design, build, and test different components of rockets and cubesats for national level competitions. Students will be involved in planning, designing, manufacturing, and testing various systems. Team engineers will focus on the feasibility of manufacturing and performance for the targeted competitions. Final design reports will be prepared by the teams.",
     "raw_prereq": "department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -275,6 +292,7 @@
   {
     "name": "Directed Group Study",
     "code": "MAE 98",
+    "description": "Directed group study on a topic or in a field not included in the regular departmental curriculum. P/NP grades only. May be taken for credit two times. Credit may not be received for a course numbered 97, 98, or 99 subsequent to receiving credit for a course numbered 197, 198, or 199.",
     "raw_prereq": "department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -282,6 +300,7 @@
   {
     "name": "Independent Study",
     "code": "MAE 99H",
+    "description": "Independent study or research under direction of a member of the faculty.",
     "raw_prereq": "student must be of first-year standing and a Regent’s Scholar; approved Special Studies form.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -289,6 +308,7 @@
   {
     "name": "Introductory Fluid Mechanics",
     "code": "MAE 101A",
+    "description": "Fluid statics; fluid kinematics; integral and differential forms of the conservation laws for mass, momentum, and energy; Bernoulli equation; potential flows; dimensional analysis and similitude.",
     "raw_prereq": "PHYS 2A or 4A and MATH 20D and MATH 20E or MATH 31CH, or consent of instructor. Enrollment restricted to MC 25, MC 27, MC 29, MC 30–34, and MC 35–37 majors only.",
     "prerequisites": [
       {
@@ -344,6 +364,7 @@
   {
     "name": "Advanced Fluid Mechanics",
     "code": "MAE 101B",
+    "description": "Laminar and turbulent flow. Pipe flow including friction factor. Boundary layers, separation, drag, and lift. Compressible flow including shock waves.",
     "raw_prereq": "MAE 101A or CENG 101A, and MAE 11 or MAE 110A or CENG 102, or consent of instructor.",
     "prerequisites": [
       {
@@ -387,6 +408,7 @@
   {
     "name": "Heat Transfer",
     "code": "MAE 101C",
+    "description": "Extension of fluid mechanics in MAE 101A–B to viscous, heat-conducting flows. Application of the energy conservation equation to heat transfer in ducts and external boundary layers. Heat conduction and radiation transfer. Heat transfer coefficients in forced and free convection. Design applications.",
     "raw_prereq": "MAE 101A or CENG 101A, MAE 101B, and MAE 105.",
     "prerequisites": [
       {
@@ -417,6 +439,7 @@
   {
     "name": "Intermediate Heat Transfer",
     "code": "MAE 101D",
+    "description": "Course builds on the MAE fluids sequence, offering more advanced concepts in conduction, convection, radiation, and heat exchanger design. This course covers numerical methods in conduction, boiling, condensation and evaporation analysis, natural and turbulent convection, spectral and directional radiative transfer, heatpipes, thermal design of spacecraft, heat exchanger analysis and design.",
     "raw_prereq": "senior standing and MAE 101C, or consent of instructor.",
     "prerequisites": [
       {
@@ -434,6 +457,7 @@
   {
     "name": "Aerodynamics",
     "code": "MAE 104",
+    "description": "Basic relations describing flow field around wings and bodies at subsonic and supersonic speed. Thin-wing theory. Slender-body theory. Formulation of theories for evaluating forces and moments on airplane geometries. Application to the design of high-speed aircraft.",
     "raw_prereq": "MAE 101A and 101B, or consent of instructor. Enrollment restricted to MC 25, MC 27, MC 29, MC 30–34, MC 35–37, and SE 27 majors only.",
     "prerequisites": [
       {
@@ -476,6 +500,7 @@
   {
     "name": "Introduction to Mathematical Physics",
     "code": "MAE 105",
+    "description": "Fourier series, Sturm Liouville theory, elementary partial differential equations, integral transforms with applications to problems in vibration, wave motion, and heat conduction.",
     "raw_prereq": "PHYS 2A and B, and MATH 20D or 21D. Enrollment restricted to engineering majors only.",
     "prerequisites": [
       {
@@ -497,6 +522,7 @@
   {
     "name": "Computational Methods in Engineering",
     "code": "MAE 107",
+    "description": "Introduction to scientific computing and algorithms; iterative methods, systems of linear equations with applications; nonlinear algebraic equations; function interpolation and differentiation and optimal procedures; data fitting and least-squares; numerical solution of ordinary differential equations.",
     "raw_prereq": "MAE 8 or 9, and MATH 18 or 20F or 31AH.",
     "prerequisites": [
       {
@@ -536,6 +562,7 @@
   {
     "name": "Probability and Statistical Methods for Engineering",
     "code": "MAE 108",
+    "description": "Probability theory, conditional probability, Bayes theorem, random variables, densities, expected values, characteristic functions, central limit theorem. Engineering reliability, elements of estimation, random sampling, sampling distributions, hypothesis testing, confidence intervals. Curve fitting and data analysis. Students cannot receive credit for MAE 108 and ECE 109, ECON 120A, MATH 180A, MATH 183, MATH 186, or SE 125.",
     "raw_prereq": "MATH 18 or 20F.",
     "prerequisites": [
       {
@@ -553,6 +580,7 @@
   {
     "name": "Thermodynamic Systems",
     "code": "MAE 110",
+    "description": "Thermodynamic analysis of power cycles with application to combustion driven engines: internal combustion, diesel, and gas turbines. Thermodynamics of mixtures and chemical and phase equilibrium. Computational methods for calculating chemical equilibrium. Renumbered from MAE 110B. Students may not receive credit for MAE 110 and MAE 110B.",
     "raw_prereq": "MAE 11 or 110A.",
     "prerequisites": [
       {
@@ -570,6 +598,7 @@
   {
     "name": "Fundamentals of Propulsion",
     "code": "MAE 113",
+    "description": "Compressible flow, thermodynamics, and combustion relevant to aircraft and space vehicle propulsion. Analysis and design of components for gas turbines, including turbines, inlets, combustion chambers and nozzles. Fundamentals of rocket propulsion.",
     "raw_prereq": "MAE 11 or MAE 110A or CENG 102, and MAE 101A or CENG 101A, and MAE 101B or CENG 101C. Enrollment restricted to MC 25, MC 27, MC 29, MC 30–34, and MC 35–37 majors only.",
     "prerequisites": [
       {
@@ -634,6 +663,7 @@
   {
     "name": "Space Propulsion",
     "code": "MAE 114",
+    "description": "This course covers the fundamentals of rocket propulsion and discusses advanced concepts in space propulsion. Topics include liquid and solid propellant rocket engines, electrical rocket propulsion, nuclear propulsion devices, solar-powered vehicles, and current challenges and opportunities in launch vehicle technologies.",
     "raw_prereq": "MAE 113.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -641,6 +671,7 @@
   {
     "name": "Elementary Plasma Physics",
     "code": "MAE 117A",
+    "description": "(Cross-listed with Physics 151.) Particle motions, plasmas as fluids, waves, diffusion, equilibrium and stability, nonlinear effects, controlled fusion. Recommended preparation: PHYS 100B–C or ECE 107.",
     "raw_prereq": "MATH 20D or 21D, or consent of instructor.",
     "prerequisites": [
       {
@@ -667,6 +698,7 @@
   {
     "name": "Introduction to Energy and Environment",
     "code": "MAE 118",
+    "description": "Overview of present-day primary energy sources and availability: fossil fuel, renewable, and nuclear; heat engines; energy conservation, transportation, air pollution, and climate change. Students may not receive credit for both MAE 118 and MAE 118A.",
     "raw_prereq": "MAE 101A or CENG 101A, or consent of instructor.",
     "prerequisites": [
       {
@@ -693,6 +725,7 @@
   {
     "name": "Introduction to Renewable Energy: Solar and Wind",
     "code": "MAE 119",
+    "description": "Basic principles of solar radiation—diffuse and direct radiation; elementary solar energy engineering—solar thermal and solar photovoltaic; basic principles of wind dynamics—hydrodynamic laws, wind intermittency, Betz’s law; elementary wind energy engineering; solar and wind energy perspectives; operating the California power grid with 33 percent renewable energy sources. Students may not receive credit for both MAE 118B and MAE 119.",
     "raw_prereq": "PHYS 2C or consent of instructor.",
     "prerequisites": [
       {
@@ -710,6 +743,7 @@
   {
     "name": "Introduction to Nuclear Energy",
     "code": "MAE 120",
+    "description": "Overview of basic fission and fusion processes. Elementary fission reactor physics and engineering; environmental and waste disposal issues. Survey of fusion technology issues and perspectives. May not receive credit for both MAE 118C and MAE 120.",
     "raw_prereq": "MAE 101A or CENG 101A, or consent of instructor.",
     "prerequisites": [
       {
@@ -736,6 +770,7 @@
   {
     "name": "Air Pollution Transport and Dispersion Modeling",
     "code": "MAE 121",
+    "description": "Overview of air pollution and wastes and their impact. Characteristics of air pollutants. Air pollution transport. Atmospheric stability. Plume rise and dispersion. Meteorological data. Selecting the appropriate air quality model and case studies. Modeling complex terrain situations. Current air quality modeling issues. Laws and regulations to control air pollution.",
     "raw_prereq": "MAE 122.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -743,6 +778,7 @@
   {
     "name": "Flow and Transport in the Environment",
     "code": "MAE 122",
+    "description": "Introduction to the air and aquatic environments. Buoyancy, stratification, and rotation. Earth surface energy balance. Introduction to the atmospheric boundary layer. Advection and diffusion. Turbulent diffusion and dispersion in rivers and in the atmospheric boundary layer. Surface waves and internal gravity waves.",
     "raw_prereq": "MAE 101A or CENG 101A, or consent of instructor.",
     "prerequisites": [
       {
@@ -769,6 +805,7 @@
   {
     "name": "Introduction to Transport in Porous Media",
     "code": "MAE 123",
+    "description": "Introduction to groundwater flow. Pollution transport through the water table. Fundamentals of flow. Single- and multi-phase flow. Darcy law. Well hydraulics. Diffusion and dispersion. Gravity currents and plumes in porous media. Chemistry of fluid-solid interactions. Fundamentals of adsorption and surface reactions.",
     "raw_prereq": "MAE 105, or consent of instructor.",
     "prerequisites": [
       {
@@ -786,6 +823,7 @@
   {
     "name": "Building Energy Efficiency",
     "code": "MAE 125",
+    "description": "Physical building performance including building thermodynamics, daylighting, and solar control. Heat transfer through building envelope, solar geometry, and shading. Heating, ventilation, and air conditioning system design, water heating, microclimates, passive system design, energy efficient design, applicant energy use, cost estimating. Building energy codes and standards. Building design project with whole building energy simulation software.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -793,6 +831,7 @@
   {
     "name": "Environmental Engineering Laboratory",
     "code": "MAE 126A",
+    "description": "Analysis of experiments in Environmental Engineering: Drag in a water tunnel, shading effects on solar photovoltaic, buoyant plume dispersion in a water tank, atmospheric turbulence, and others. Use of sensors and data acquisition. Laboratory report writing; error analysis; engineering ethics.",
     "raw_prereq": "MAE 101A or CENG 101A; MAE 170.",
     "prerequisites": [
       {
@@ -819,6 +858,7 @@
   {
     "name": "Environmental Engineering Design",
     "code": "MAE 126B",
+    "description": "Fundamental principles of environmental design. Building a working prototype or computer model for an environmental engineering application. Work in teams to propose and design experiments and components, obtain data, complete engineering analysis, and write a report. Engineering ethics and professionalism.",
     "raw_prereq": "MAE 126A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -826,6 +866,7 @@
   {
     "name": "Advanced Vibrations",
     "code": "MAE 130",
+    "description": "Harmonically excited vibrations. Vibration of multiple degree-of-freedom systems. Observations, including beat frequencies, static and dynamic coupling, traveling, and standing wave phenomena. Vibration of continuous systems. Hamilton’s equations. Distributed and point forces and moments in continuous systems and the generalized Dirac distribution. Response to impact and impulse excitation. Modeling continuous systems with approximate discrete models. Restricted to engineering majors only MC 25, MC 27, MC 29, MC 30–34, MC 35–37, MO 21, SE 27.",
     "raw_prereq": "MATH 18 or MATH 31AH and MAE 30B.",
     "prerequisites": [
       {
@@ -852,6 +893,7 @@
   {
     "name": "Solid Mechanics I",
     "code": "MAE 131A",
+    "description": "Concepts of stress and strain. Hooke’s Law. Axial loading of bars. Torsion of circular shafts. Shearing and normal stresses in beam bending. Deflections in beams. Statically determinate and indeterminate problems. Combined loading. Principal stresses and design criteria. Buckling of columns.",
     "raw_prereq": "MATH 20D and MAE 30A or MAE 130A or SE 101A.",
     "prerequisites": [
       {
@@ -882,6 +924,7 @@
   {
     "name": "Fundamentals of Solid Mechanics II",
     "code": "MAE 131B",
+    "description": "Analysis of 3-D states of stress and strain. Governing equations of linear elasticity. Solution of elasticity problems in rectangular and polar coordinates. Stress concentration. Failure criteria. Torsion of noncircular and thin walled members. Energy methods. Plastic collapse and limit analysis.",
     "raw_prereq": "MAE 131A or SE 110A and MAE 105. Enrollment restricted to engineering majors only.",
     "prerequisites": [
       {
@@ -908,6 +951,7 @@
   {
     "name": "Finite Element Methods in Mechanical and Aerospace Engineering",
     "code": "MAE 133",
+    "description": "Development of stiffness and mass matrices based upon variational principles and application to static, dynamic, and design problems in structural and solid mechanics. Architecture of computer codes for linear and nonlinear finite element analysis. The use of general-purpose finite element codes.",
     "raw_prereq": "MAE 131A or SE 110A.",
     "prerequisites": [
       {
@@ -925,6 +969,7 @@
   {
     "name": "Dynamics and Control of Aerospace Vehicles",
     "code": "MAE 142",
+    "description": "The dynamics of vehicles in space or air are derived for analysis of the stability properties of spacecraft and aircraft. The theory of flight, lift, drag, Dutch roll and phugoid modes of aircraft are discussed. Optimal state space control theory for the design of analog and digital controllers (autopilots).",
     "raw_prereq": "MAE 104 and MAE 143B or ECE 171A, or consent of instructor. Enrollment restricted to engineering majors only.",
     "prerequisites": [
       {
@@ -955,6 +1000,7 @@
   {
     "name": "Signals and Systems",
     "code": "MAE 143A",
+    "description": "Dynamic modeling and vector differential equations. Concepts of state, input, output. Linearization around equilibria. Laplace transform, solutions to ODEs. Transfer functions and convolution representation of dynamic systems. Discrete signals, difference equations, z-transform. Continuous and discrete Fourier transform.",
     "raw_prereq": "MATH 20D or 21D, MATH 20E, MATH 18 or 20F or 31AH, or consent of instructor.",
     "prerequisites": [
       {
@@ -997,6 +1043,7 @@
   {
     "name": "Linear Control",
     "code": "MAE 143B",
+    "description": "Analysis and design of feedback systems in the frequency domain. Transfer functions. Time response specifications. PID controllers and Ziegler-Nichols tuning. Stability via Routh-Hurwitz test. Root locus method. Frequence response: Bode and Nyquist diagrams. Dynamic compensators, phase-lead and phase-lag. Actuator saturation and integrator wind-up.",
     "raw_prereq": "MAE 143A or consent of instructor.",
     "prerequisites": [
       {
@@ -1014,6 +1061,7 @@
   {
     "name": "Embedded Control and Robotics",
     "code": "MAE 144",
+    "description": "Each student builds, models, programs, and controls an unstable robotic system built around a small Linux computer. Review/synthesis of: A) modern physical and electrical CAD. B) dynamics, signals and systems, linear circuits; PWMs, H-bridges, quadrature encoders. C) embedded Linux, C, graphical programming; multithreaded applications; bus communication to supporting ICs. D) classical control theory in both continuous-time (CT) and discrete-time (DT); interconnection of CT and DT elements. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing or graduate student, and MAE 143B or BENG 122A or ECE 171A, or consent of instructor.",
     "prerequisites": [
       {
@@ -1044,6 +1092,7 @@
   {
     "name": "Introduction to Robotic Planning and Estimation",
     "code": "MAE 145",
+    "description": "This course is an introduction to robotic planning algorithms and programming. Topics include sensor-based planning (bug algorithms), motion planning via decomposition and search (basic search algorithms on graphs, A*), the configuration-space concept, free configuration spaces via sampling, collision detection algorithms, (optimal) planning via sampling (probabilistic trees), environment roadmaps, and filtering for robot localization and environment mapping (SLAM).",
     "raw_prereq": "MAE 8, MAE 108, and senior standing or consent of instructor.",
     "prerequisites": [
       {
@@ -1070,6 +1119,7 @@
   {
     "name": "Introduction to Machine Learning Algorithms",
     "code": "MAE 146",
+    "description": "An introduction to the principles used to design and implement machine learning algorithms, as well as an understanding of their advantages and limitations. The topics covered are python review, supervised learning (linear, logistic/sigmoid regression, generalized linear models, nonlinear regression via Kernels), neural network types (convolutional, recurrent, deep NN), unsupervised learning (k-means clustering). Application of ML in different examples. Recommended preparation: ECE 143 and/or python programming knowledge.",
     "raw_prereq": "(MATH 31AH or MATH 18) and (MATH 20C or MATH 31BH) and MAE 8 and (MAE 108 or ECE 109 or SE 125 or MATH 186 or MATH 183 or MATH 180A or ECON 120A).",
     "prerequisites": [
       {
@@ -1116,6 +1166,7 @@
   {
     "name": "Introduction to Autonomous Vehicles",
     "code": "MAE 148",
+    "description": "(Cross-listed with ECE 148.) Fundamentals of autonomous vehicles. Working in small teams, students will develop 1/8-scale autonomous cars that must perform on a simulated city track. Topics include robotics system integration, computer vision, algorithms for navigation, on-vehicle vs. off-vehicle computation, computer learning systems such as neural networks, locomotion systems, vehicle steering, dead reckoning, odometry, sensor fusion, GPS autopilot limitations, wiring, and power distribution and management.",
     "raw_prereq": "ECE 15 or ECE 35 or MAE 2 or MAE 3 and department approval.",
     "prerequisites": [
       {
@@ -1150,6 +1201,7 @@
   {
     "name": "Sensor Networks",
     "code": "MAE 149",
+    "description": "(Cross-listed with ECE 156.) Characteristics of chemical, biological, seismic, and other physical sensors; signal processing techniques supporting distributed detection of salient events; wireless communication and networking protocols supporting formation of robust censor fabrics; current experience with low power, low-cost sensor deployments. Students may not receive credit for both MAE 149 and ECE 156. May be coscheduled with SIOC 238.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1157,6 +1209,7 @@
   {
     "name": "Computational Methods for Design",
     "code": "MAE 150",
+    "description": "Computer-aided analysis and design. Design methodology, tolerance analysis, Monte Carlo analysis, kinematics and computer-aided design of linkages, design of cams and cam dynamics, design optimization, finite element analysis fundamentals, design using commercially available CAD and analysis software.",
     "raw_prereq": "MAE 30A or MAE 130A or SE 101A or BENG 110, MAE 107 or SE 121, MAE 3 or MAE 2, and senior standing in engineering major, or consent of instructor.",
     "prerequisites": [
       {
@@ -1207,6 +1260,7 @@
   {
     "name": "Introductions to Manual and CNC Machining",
     "code": "MAE 152",
+    "description": "In this class, students are introduced to precision machining. Students will learn the proper safe operating procedures of a manual mill and lathe, band saws, and hand tools. Other topics include the basics of tolerancing, design (Fusion 360), and operation of CNC milling and turning. Program or materials fees may apply. Recommended preparation: It is recommended that students take introduction to design process through a hands-on design project course or some other introduction to shop course.",
     "raw_prereq": "MAE 3 or MAE 2 and consent of instructor.",
     "prerequisites": [
       {
@@ -1233,6 +1287,7 @@
   {
     "name": "Design of Machine Components",
     "code": "MAE 153",
+    "description": "An introduction to the fundamentals of machine design in mechanical and aerospace engineering. The course covers the principles of failure theories, design methodologies, and their application in essential machine elements and structures. Topics include analyzing components by applying the theories from statics, dynamics, and mechanics of materials; static and fatigue failure theories; and designing machine components, including shafts, gears, bearings, fasteners, and geometric dimensioning and tolerancing.",
     "raw_prereq": "MAE 131A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1240,6 +1295,7 @@
   {
     "name": "Product Design and Entrepreneurship",
     "code": "MAE 154",
+    "description": "This course will teach teams of students how to develop concepts and business plans in the design of new and innovative products. Emphasis will be placed on identifying user needs, concept generation, and prototype fabrication.",
     "raw_prereq": "upper-division standing and consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1247,6 +1303,7 @@
   {
     "name": "Aerospace Engineering Design I",
     "code": "MAE 155A",
+    "description": "Fundamental principles of aerospace vehicle design including the conceptual, preliminary, and detailed design phases. Aeronautical or astronautical design project that integrates all appropriate engineering disciplines as well as issues associated with optimization, teamwork, manufacturability, reporting, and professionalism.",
     "raw_prereq": "MAE 2, MAE 21, or SE 2 or SE 104, MAE 104, MAE 30B or MAE 130C, and SE 160A, or consent of instructor.",
     "prerequisites": [
       {
@@ -1297,6 +1354,7 @@
   {
     "name": "Aerospace Engineering Design II",
     "code": "MAE 155B",
+    "description": "The principles of aerospace vehicle design including the conceptual, preliminary, and detailed design phases. Aeronautical or astronautical design project that integrates all appropriate engineering disciplines as well as issues associated with optimization, teamwork, manufacturability, reporting, and professionalism. Program or materials fees may apply.",
     "raw_prereq": "MAE 113, MAE 142, MAE 155A, and MAE 170, or consent of instructor.",
     "prerequisites": [
       {
@@ -1331,6 +1389,7 @@
   {
     "name": "Fundamental Principles of Mechanical Design I",
     "code": "MAE 156A",
+    "description": "Fundamental principles of mechanical design and the design process. Application of engineering science to the design and analysis of mechanical components. Initiation of team design projects that culminate in MAE 156B with a working prototype designed for a real engineering application. Professional ethics discussed. Program or materials fees may apply.",
     "raw_prereq": "MAE 3, MAE 30B, MAE 131A, MAE 150, and MAE 170, or consent of instructor. Open to major codes MC 27 and MC 30–34 only.",
     "prerequisites": [
       {
@@ -1378,6 +1437,7 @@
   {
     "name": "Fundamental Principles of Mechanical Design II",
     "code": "MAE 156B",
+    "description": "Fundamental principles of mechanical design and the design process. Culmination of a team design project initiated in MAE 156A which results in a working prototype designed for a real engineering application.",
     "raw_prereq": "MAE 156A in the immediately preceding quarter, MAE 101C, MAE 143B, and MAE 160 or MAE 131B. Open to major codes MC 27 and MC 30–34 only.",
     "prerequisites": [
       {
@@ -1421,6 +1481,7 @@
   {
     "name": "Mechanical Behavior of Materials",
     "code": "MAE 160",
+    "description": "Elasticity and inelasticity, dislocations and plasticity of crystals, creep, and strengthening mechanisms. Mechanical behavior of ceramics, composites, and polymers. Fracture: mechanical and microstructural. Fatigue. Laboratory demonstrations of selected topics.",
     "raw_prereq": "MAE 20, MAE 30A or MAE 130A or SE 101A, and MAE 131A, or consent of instructor.",
     "prerequisites": [
       {
@@ -1459,6 +1520,7 @@
   {
     "name": "Fatigue and Failure Analysis of Engineering Components",
     "code": "MAE 165",
+    "description": "The engineering and scientific aspects of crack nucleation, slow crack growth, and unstable fracture in crystalline and amorphous solids. Microstructural effects on crack initiation, fatigue crack growth and fracture toughness. Methods of fatigue testing and fracture toughness testing. Fractography and microfractography. Design safe methodologies and failure prevention. Failure analysis of real engineering structures.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1466,6 +1528,7 @@
   {
     "name": "Modern Concepts in Nanotechnology",
     "code": "MAE 166",
+    "description": "(Cross-listed with NANO 156.) This course offers a worm’s eye perspective on recent developments on nanomaterials through case studies building on basic principles of synthesis techniques, processing, microstructural control, and unique physical properties of materials in nanoscale dimensions. Particular focus will be given to physical properties and technological applications of nanowires, quantum dots, and thin films. Students may not receive credit for both NANO 156 and MAE 166.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1473,6 +1536,7 @@
   {
     "name": "Wave Dynamics in Materials",
     "code": "MAE 167",
+    "description": "Pressure and shear waves in infinite solids. Reflection and diffraction. Rayleigh and Love waves in semi-infinite space. Impulse load on a half space. Waveguides and group velocity.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1480,6 +1544,7 @@
   {
     "name": "Experimental Techniques",
     "code": "MAE 170",
+    "description": "Principles and practice of measurement and control and the design and conduct of experiments. Technical report writing. Lectures relate to dimensional analysis, error analysis, signal-to-noise problems, filtering, data acquisition and data reduction, as well as background of experiments and statistical analysis. Experiments relate to the use of electronic devices and sensors.",
     "raw_prereq": "PHYS 2C or PHYS 4B and PHYS 2CL or MAE 140 or MAE 40. Enrollment restricted to MC 25, MC 27, MC 29, MC 30–34, MC 35–37, BE 25, BE 27.",
     "prerequisites": [
       {
@@ -1535,6 +1600,7 @@
   {
     "name": "Mechanical Engineering Laboratory I",
     "code": "MAE 171A",
+    "description": "Design and analysis of experiments in fluid mechanics, solid mechanics, and control engineering. Experiments in wind tunnel, water tunnel, vibration table and material testing machines, and refined electromechanical systems. Laboratory report writing; error analysis; engineering ethics.",
     "raw_prereq": "MAE 101A, MAE 143B, and MAE 170. Enrollment restricted to MC 27 and MC 30–34 majors only.",
     "prerequisites": [
       {
@@ -1565,6 +1631,7 @@
   {
     "name": "Mechanical Engineering Laboratory II",
     "code": "MAE 171B",
+    "description": "Design and analysis of original experiments in mechanical engineering. Students research projects using experimental facilities in undergraduate laboratories: wind tunnel, water channel, vibration table, and testing machine and control systems. Students propose and design experiments, obtain data, complete engineering analysis and write a major report.",
     "raw_prereq": "MAE 171A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1572,6 +1639,7 @@
   {
     "name": "Aerospace Engineering Laboratory I",
     "code": "MAE 175A",
+    "description": "Analysis of aerospace engineering systems using experimental facilities in undergraduate laboratories: wind tunnel, gyroscope control, vibration table, and 2-D helicopter flight dynamics. Students operate facilities, obtain data, complete engineering analysis and write major reports.",
     "raw_prereq": "senior standing; MAE 143B; and MAE 170, or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1579,6 +1647,7 @@
   {
     "name": "Orbital Mechanics",
     "code": "MAE 180",
+    "description": "Students perform analyses based on mission requirements. Selected topics include astrodynamics, orbital motion, perturbations, coordinate systems and frames of reference, ground tracks and classification of common orbits, orbit determination, orbital maneuvers, station keeping, orbit injection and launch geometry, and interplanetary and lunar trajectories.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1586,6 +1655,7 @@
   {
     "name": "Space Mission Analysis and Design",
     "code": "MAE 181",
+    "description": "Space mission concepts, architectures, and analysis. Mission geometry. Astrodynamics. Orbit and constellation design. Space environment. Payload and spacecraft design and sizing. Power sources and distribution. Thermal management. Structural design. Guidance and navigation. Space propulsion. Orbital debris and survivability. Cost modeling and risk analysis.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1593,6 +1663,7 @@
   {
     "name": "Spacecraft Guidance and Navigation",
     "code": "MAE 182",
+    "description": "Navigational and guidance requirements for orbital, planetary, and atmospheric entry missions. Guidance systems. Observation instrument point, tracking, control. Celestial, radio, and inertial navigation schemes. Link budgets, antennas, and telemetry systems.",
     "raw_prereq": "MAE 108 and MAE 180. Recommended enrollment in MAE 143B before or concurrently.",
     "prerequisites": [
       {
@@ -1614,6 +1685,7 @@
   {
     "name": "Flight Simulation Techniques",
     "code": "MAE 184",
+    "description": "Students will develop software and methods to simulate the motion characteristics of flight vehicles. Six degree-of-freedom equations of motion will be reviewed with emphasis on computer implementation. Algorithms for data modeling, numerical integration, equilibrium, and linearization will be introduced. Three-dimensional visualization techniques will be explored for representing operator and observer viewpoints. Applications include aircraft, launch vehicles, automobiles, and marine vessels.",
     "raw_prereq": "upper-division standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1621,6 +1693,7 @@
   {
     "name": "Computational Fluid Mechanics",
     "code": "MAE 185",
+    "description": "This course will cover numerical solutions of the compressible and incompressible Navier-Stokes equations using finite difference and finite volume discretization with a primary emphasis on programming and a secondary emphasis on application of commercial tools. Introduction to flow visualization will also be covered.",
     "raw_prereq": "MAE 101B and MAE 107.",
     "prerequisites": [
       {
@@ -1638,6 +1711,7 @@
   {
     "name": "Topics in Mechanical and Aerospace Engineering",
     "code": "MAE 190",
+    "description": "Topics of special interest in mechanical and aerospace engineering. May be repeated for credit as topics vary.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1645,6 +1719,7 @@
   {
     "name": "Topics in Mechanical and Aerospace Engineering with Laboratory",
     "code": "MAE 191",
+    "description": "Topics of special interest in mechanical and aerospace engineering with laboratory. May be repeated for credit as topics vary.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1652,6 +1727,7 @@
   {
     "name": "Engineering Internship",
     "code": "MAE 197",
+    "description": "Students work in local industry or hospitals under faculty supervision. Units may not be applied toward graduation requirements. Salaried or unsalaried. Number of units determined by enrollment frequency. First quarter up to four units. Subsequent quarters cannot exceed one unit.",
     "raw_prereq": "consent of instructor and department stamp, 2.50 overall GPA minimum, at least ninety units.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1659,6 +1735,7 @@
   {
     "name": "Directed Group Study",
     "code": "MAE 198",
+    "description": "Directed group study on a topic or in a field not included in the regular department curriculum, by special arrangement with a faculty member. May be taken P/NP only.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1666,6 +1743,7 @@
   {
     "name": "Independent Study for Undergraduates",
     "code": "MAE 199",
+    "description": "Independent reading or research on a problem by special arrangement with a faculty member. P/NP grades only.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1673,6 +1751,7 @@
   {
     "name": "Controls",
     "code": "MAE 200",
+    "description": "This course covers topics in probability and stochastic processes, linear control and estimation including optimal linear control, nonlinear stabilization, and optimal control and estimation for nonlinear systems.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1680,6 +1759,7 @@
   {
     "name": "Mechanics of Fluids",
     "code": "MAE 201",
+    "description": "This course covers topics in kinematics, equations of motion, dimensional analysis, laminar and irrotational flow, vorticity dynamics, and boundary layers.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1687,6 +1767,7 @@
   {
     "name": "Thermal Processes",
     "code": "MAE 202",
+    "description": "This course covers topics in energy conservation, heat conduction, convection, radiation, heat transfer in ducts, external boundary layer, and heat exchangers.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1694,6 +1775,7 @@
   {
     "name": "Solid Mechanics and Materials",
     "code": "MAE 203",
+    "description": "This course covers topics in kinematics, conservation laws, constitutive equation of linear elastic solids, plasticity, and viscoelasticity.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1701,6 +1783,7 @@
   {
     "name": "Robotics",
     "code": "MAE 204",
+    "description": "This course covers topics in robotics, dynamics, kinematics, mechatronics, control, locomotion, and manipulation.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1708,6 +1791,7 @@
   {
     "name": "Graduate Seminar",
     "code": "MAE 205",
+    "description": "Each graduate student in MAE is expected to attend one seminar per quarter, of his or her choice, dealing with current topics in fluid mechanics, solid mechanics, applied plasma physics and fusion, chemical engineering, applied ocean sciences, energy and combustion, environmental engineering, or materials science, and dynamics and controls. Topics will vary. (S/U grades only)",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1715,6 +1799,7 @@
   {
     "name": "Energy Systems",
     "code": "MAE 206",
+    "description": "This course covers topics in primary energy sources, availability and variability, fossil fuels, renewables and nuclear, energy dependent energy sources, heat engine, energy conservation, exergy, transportation, air pollution, and climate change.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1722,6 +1807,7 @@
   {
     "name": "Topics in Engineering Science",
     "code": "MAE 207",
+    "description": "A course to be given at the discretion of the faculty in which topics of current interest in engineering will be presented.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1729,6 +1815,7 @@
   {
     "name": "Mathematics for Engineers",
     "code": "MAE 208",
+    "description": "This course will reintroduce the mathematics fundamentals necessary for success in the engineering graduate program in MAE. Topics will include calculus, ODE’s, vector calculus, linear algebra, probability and PDE’s.",
     "raw_prereq": "nongraduate students can enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1736,6 +1823,7 @@
   {
     "name": "Continuum Mechanics Applied to Medicine/Biology",
     "code": "MAE 209",
+    "description": "(Cross-listed with BENG 209.) Introduction to the basic definitions of continuum mechanics and their mathematical formulation at the graduate level with applications to problems in medicine and biology. This course is intended for students with little or no background in mechanics; it is an introduction to the Biomechanics courses BENG 250 A–B in the Department of Bioengineering and to Solid and Fluid Mechanics courses MAE 210A and MAE 231A in the Department of Mechanical and Aerospace Engineering. This course should NOT be taken concurrently with MAE 210A or MAE 231A.",
     "raw_prereq": "BENG 226 or MAE 201 and BENG 227 or MAE 201 or MAE 210A and BENG 221 or MAE 208 or consent of instructor.",
     "prerequisites": [
       {
@@ -1792,6 +1880,7 @@
   {
     "name": "Fluid Mechanics I",
     "code": "MAE 210A",
+    "description": "Basic conservation laws. Flow kinematics. The Navier-Stokes equations and some of its exact solutions. Nondimensional parameters and different flow regimes, vorticity dynamics.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1799,6 +1888,7 @@
   {
     "name": "Fluid Mechanics II",
     "code": "MAE 210B",
+    "description": "Potential flows, boundary layers, low-Reynolds number flows.",
     "raw_prereq": "BENG 209 or MAE 209 or MAE 210A; or consent of instructor.",
     "prerequisites": [
       {
@@ -1829,6 +1919,7 @@
   {
     "name": "Fluid Mechanics III",
     "code": "MAE 210C",
+    "description": "Flow instabilities, linear stability theory; introduction to turbulent flows.",
     "raw_prereq": "MAE 210A–B or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1836,6 +1927,7 @@
   {
     "name": "Introduction to Combustion",
     "code": "MAE 211",
+    "description": "Fundamental aspects of flows of reactive gases, with emphasis on processes of combustion, including the relevant thermodynamics, chemical kinetics, fluid mechanics, and transport processes. Topics may include deflagrations, detonations, diffusion flames, ignition, extinction, and propellant combustion.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1843,6 +1935,7 @@
   {
     "name": "Introductory Compressible Flow",
     "code": "MAE 212",
+    "description": "Equations of motion for compressible fluids; one-dimensional gas dynamics and wave motion, waves in supersonic flow, including oblique shock waves; flow in ducts, nozzles, and wind tunnels; methods of characteristics.",
     "raw_prereq": "nongraduate students may enroll with consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1850,6 +1943,7 @@
   {
     "name": "Mechanics of Propulsion",
     "code": "MAE 213",
+    "description": "Fluid mechanics, thermodynamics and combustion processes involved in propulsion of aircraft and rockets by air breathing engines, and solid and liquid propellant rocket engines characteristics and matching of engine components; diffusers, compressors, combustors, turbines, pumps, nozzles.",
     "raw_prereq": "MAE 212 or graduate standing.",
     "prerequisites": [
       {
@@ -1867,6 +1961,7 @@
   {
     "name": "Introduction to Turbulence and Turbulent Mixing",
     "code": "MAE 214A",
+    "description": "Basic features of turbulent flows. Analytical description of turbulence: random variables, correlations, spectra, Reynolds-averaging, coherent structures. Length and time scales. Kolmogorov similarity theory. Turbulence transport equations. Free shear flows. Homogeneous turbulence. Wall-bounded flows. Mixing of velocity and scalar fields.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1874,6 +1969,7 @@
   {
     "name": "Multiphase Flow and Heat Transfer",
     "code": "MAE 215",
+    "description": "This course is designed to teach the fundamentals and some applications of multiphase systems. The first part of the course introduces the basics of thermodynamics and transport processes in generalized multiphase systems, along with the description of interfacial transport mechanisms. In the second part, the course focuses on the analyses of transport processes and interfacial instabilities in specific systems, including droplets, bubbles, and sprays.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1881,6 +1977,7 @@
   {
     "name": "Introduction to Gas Discharge Plasma Physics",
     "code": "MAE 217A",
+    "description": "Charged particle motion in electromagnetic field, atomic processes in plasmas, electric breakdown of the gases, plasma quasi-neutrality, sheath, probes. Electron kinetics in low-temperature plasma, particle and energy fluxes, DC and RF driven discharges, instabilities of gas discharge plasmas.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1888,6 +1985,7 @@
   {
     "name": "Introduction to Nonmagnetized Hot Plasma Physics",
     "code": "MAE 217B",
+    "description": "Coulomb collisions, collisionless approximation for hot plasma dynamics, Vlasov equation, waves in nonmagnetized plasma, dispersion equation, WKB approximation, Landau dumping, plasma instabilities, quasi-linear theory.",
     "raw_prereq": "MAE 217A or consent of instructor.",
     "prerequisites": [
       {
@@ -1905,6 +2003,7 @@
   {
     "name": "Introduction to Magnetized Hot Plasma Physics",
     "code": "MAE 217C",
+    "description": "Drifts of magnetized charged particles, charged particle motion in different magnetic configurations, toroidal plasma equilibrium, Grad-Shafranov equation, neoclassical plasma transport in tokamak, waves in homogeneous magnetized plasma, waves in inhomogeneous magnetized plasma, instabilities of magnetized plasma.",
     "raw_prereq": "MAE 217A and B, or consent of instructor.",
     "prerequisites": [
       {
@@ -1922,6 +2021,7 @@
   {
     "name": "Introduction to High Energy Density Physics",
     "code": "MAE 218A",
+    "description": "Equation of state, Saha equilibrium. Shock rarefaction, and blast waves, self-similar motion. Rayleigh-Taylor, Kelvin-Helmholtz, and Richtmyer-Meshkov instabilities. Z-pinch, Bennett equilibrium, radiation collapse, and radiation sources.",
     "raw_prereq": "MAE 217A, B, and C, or consent of instructor.",
     "prerequisites": [
       {
@@ -1939,6 +2039,7 @@
   {
     "name": "Introduction to High Energy Density Physics",
     "code": "MAE 218B",
+    "description": "Propagation and absorption of laser beam in plasma, ablation pressure. Laser scattering and laser-plasma instabilities (stimulated Raman and Brillouin scattering, filamentation and decay instabilities). Electron heat transport, mechanisms of magnetic field generation.",
     "raw_prereq": "MAE 217A, B, and C, or consent of instructor.",
     "prerequisites": [
       {
@@ -1956,6 +2057,7 @@
   {
     "name": "Design and Control of Haptic Systems",
     "code": "MAE 219",
+    "description": "Course provides an introduction to the design and control of haptic systems, which provide touch feedback to human users interacting with virtual environments and teleoperated robots. Topics include haptic-focused mechatronic design, system modeling and analysis (kinematics and dynamics), human-in-the-loop feedback control, and haptic feedback evaluation. Course topics including mechatronic system design, as well as system modeling, analysis, and control reinforce many fundamental MAE topics.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1963,6 +2065,7 @@
   {
     "name": "Physics of Gases",
     "code": "MAE 220A",
+    "description": "Thermodynamics of gases for use in gas dynamics. Derivation of thermodynamic functions from statistical mechanics. Applications of classical and quantum statistical mechanics to chemical, thermal, and radiative properties of gases. Equilibrium and nonequilibrium radiation, chemical equilibrium, and elements of chemical kinetics. Laser and reacting-flow applications.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -1970,6 +2073,7 @@
   {
     "name": "Physical Gas Dynamics",
     "code": "MAE 220B",
+    "description": "Velocity distribution functions, the Boltzmann equation, moment equations and the Navier-Stokes equations. The dynamics of molecular collisions. The Chapman-Enskog expansion and transport coefficients: shear and bulk viscosity, heat conduction, molecular and thermal diffusion. Linearizations about equilibrium: applications to acoustics and supersonic flows with relaxation.",
     "raw_prereq": "MAE 220A and graduate standing.",
     "prerequisites": [
       {
@@ -1987,6 +2091,7 @@
   {
     "name": "Conduction Heat Transfer(4)",
     "code": "MAE 221A",
+    "description": "Fourier’s Law, the heat conduction equation, multidimensional conduction, unsteady conduction, moving boundary problems, conduction on slabs, cylindrical and spherical shells, multidimensional fins, numerical solution methods.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -1994,6 +2099,7 @@
   {
     "name": "Mass Transfer",
     "code": "MAE 221B",
+    "description": "Fundamentals of diffusive and convective mass transfer and mass transfer with chemical reaction. Development of mass conservation equations. Analytical and numerical solutions to mass transport problems. Specific topics and applications will vary. Students may not receive credit for MAE 221B and CENG 221B.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2001,6 +2107,7 @@
   {
     "name": "Convection Heat Transfer",
     "code": "MAE 221C",
+    "description": "Classical introduction to convection analysis and fundamentals, including detailed treatment of nested boundary layers, turbulent mixing, similarity ad modeling, scale analysis, and the use of general conservation equations. Special topics covered in this course may include high-speed flows, natural convection, viscous dissipation, micro-scale convection, convection on rotating surfaces, and/or convection applications to mechanical and aerospace engineering.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2008,6 +2115,7 @@
   {
     "name": "Radiation Heat Transfer",
     "code": "MAE 221D",
+    "description": "Physics of radiation, electromagnetic spectrum, spectral properties of gases, liquids, and solids, radiation exchange between surfaces, view factor algebra, transfer factors, radiation transfer through gases. Special topics covered may include near-field radiation, atmospheric radiation, solar radiation, etc.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2015,6 +2123,7 @@
   {
     "name": "Ocean Technology Design and Development",
     "code": "MAE 223",
+    "description": "Advances in open-source technology are catalyzing advances in environmental fluid mechanics and oceanography. In this course, we will combine lectures and hands-on experience to transition off-the-shelf technology into undersea sensors. Lectures include ocean sensing techniques, sensor characterization and calibration, pressure tolerance design, sensor deployment approaches. Students working in small groups will design and test using MAE and Scripps Institution of Oceanography facilities.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2022,6 +2131,7 @@
   {
     "name": "Environmental Fluid Dynamics I",
     "code": "MAE 224A",
+    "description": "Basics of stratified flows. Linear waves: surface waves, internal gravity waves, dispersion, reflection, mountain waves. Ray tracing. Gravity currents and intrusions. Hydraulic control. Stability of and mixing in stratified shear flows. Recommended preparation: MAE 210A.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2029,6 +2139,7 @@
   {
     "name": "Environmental Fluid Dynamics II",
     "code": "MAE 224B",
+    "description": "Plumes and thermals. Application to building ventilation. Basics of rotating flows. Geostrophic flow. Thermal wind balance. Ekman boundary layer. Shallow water equations. Normal modes of a stratified fluid. Potential vorticity. Waves in a rotating fluid. Recommended preparation: MAE 210A.",
     "raw_prereq": "MAE 224A or consent of instructor.",
     "prerequisites": [
       {
@@ -2046,6 +2157,7 @@
   {
     "name": "Nanoscale and Microscale Heat Transfer for Energy Conversion Applications I",
     "code": "MAE 225A",
+    "description": "An advanced introduction to the principles underlying conduction, convection, and radiation phenomena at the atomic/molecular scale; overview of macroscopic thermal sciences, kinetic theory and fluidics, statistical thermodynamics and quantum theory, thermal properties as a function of dimensionality; experimental methods.",
     "raw_prereq": "MAE 221A, graduate standing.",
     "prerequisites": [
       {
@@ -2063,6 +2175,7 @@
   {
     "name": "Nanoscale and Microscale Heat Transfer for Energy Conversion Applications II",
     "code": "MAE 225B",
+    "description": "Energy conversion and coupled transport processes; electron and phonons, equilibrium and nonequilibrium energy transfer in nanostructures. Ballistic-diffusive treatment, thermal radiation issues in nanomaterials, near-field energy transfer, molecular dynamics, and experimental methods.",
     "raw_prereq": "MAE 221A, MAE 225A, and graduate standing.",
     "prerequisites": [
       {
@@ -2089,6 +2202,7 @@
   {
     "name": "Advanced Dynamics",
     "code": "MAE 226",
+    "description": "This course covers advanced topics in Lagrange’s equations, rigid and flexible body dynamics, virtual power, non-holonomic dynamics, functional analysis, and integrals of motion. After taking this class, the student should be able to determine the equations of motion for even very complex dynamical systems; determine special invariants of the system helping to avoid detailed solution by computer and providing insight; and understand the basics of minimization and variational calculus.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2096,6 +2210,7 @@
   {
     "name": "Convex Optimization for Engineers",
     "code": "MAE 227",
+    "description": "This course focuses on convex optimization theory, convexification of non-convex problems, engineering applications, modeling and implementation in a programming language. This course covers convex sets and functions, convex optimization problems (LP, QP, SOCP, SDP), weak and strong duality, optimality conditions, and solution and shadow price interpretation. Some applications include design in mechanical engineering, optimal control problems, machine learning, energy, transportation, etc.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2103,6 +2218,7 @@
   {
     "name": "Selected Topics in Plasma Physics",
     "code": "MAE 228",
+    "description": "Collisionless magnetic reconnection, interactions of relativistic laser field with plasma, plasma in astrophysics, computational plasma physics.",
     "raw_prereq": "MAE 217A-B-C or consent of instructor.",
     "prerequisites": [
       {
@@ -2133,6 +2249,7 @@
   {
     "name": "Introduction to Photonics",
     "code": "MAE 230",
+    "description": "The objectives of this course are twofold—to provide students with an understanding of the fundamental concepts of photonics and to provide students with insights into state-of-the-art research and technology in the area of photonics. After successful completion of the class, students will be able to mathematically describe basic phenomena in photonics.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2140,6 +2257,7 @@
   {
     "name": "Foundations of Solid Mechanics",
     "code": "MAE 231A",
+    "description": "Specification of stress and strain; infinitesimal and finite deformation; conservation equations; typical constitutive equations; minimum potential energy principle.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2147,6 +2265,7 @@
   {
     "name": "Elasticity",
     "code": "MAE 231B",
+    "description": "Basic field equations. Typical boundary value problems of classical linear elasticity. Problems of plane stress and plane strain. Variational principles.",
     "raw_prereq": "MAE 209/BENG 209, or MAE 231A, or consent of instructor.",
     "prerequisites": [
       {
@@ -2164,6 +2283,7 @@
   {
     "name": "Inelasticity",
     "code": "MAE 231C",
+    "description": "(Cross-listed with SE 273.) Overview of inelastic behavior of materials. Models of plasticity, viscoplasticity, viscoelasticity. Micromechanics and modeling of damage. Fatigue phenomena. Fracture mechanics. Processes and models of the failure of materials. Students may not receive credit for both SE 273 and MAE 231C.",
     "raw_prereq": "graduate standing and MAE 231A or SE 271, or consent of instructor.",
     "prerequisites": [
       {
@@ -2190,6 +2310,7 @@
   {
     "name": "Finite Element Methods in Solid Mechanics I",
     "code": "MAE 232A",
+    "description": "(Cross-listed with SE 276A.) Finite element methods for linear problems in solid mechanics. Emphasis on the principle of virtual work, finite element stiffness matrices, various finite element formulations and their accuracy, and the numerical implementation required to solve problems in small strain, isotropic elasticity in solid mechanics.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2197,6 +2318,7 @@
   {
     "name": "Finite Element Methods in Solid Mechanics II",
     "code": "MAE 232B",
+    "description": "(Cross-listed with SE 276B.) Finite element methods for linear problems in structural dynamics. Beam, plate, and doubly curved shell elements are derived. Strategies for eliminating shear locking problems are introduced. Formulation and numerical solution of the equations of motion for structural dynamics are introduced and the effect of different mass matrix formulations on the solution accuracy is explored.",
     "raw_prereq": "graduate standing and MAE 232A or SE 276A.",
     "prerequisites": [
       {
@@ -2214,6 +2336,7 @@
   {
     "name": "Finite Element Methods in Solid Mechanics III",
     "code": "MAE 232C",
+    "description": "(Cross-listed with SE 276C.) Finite element methods for problems with both material and geometrical (large deformations) nonlinearities. The total LaGrangian and the updated LaGrangian formulations are introduced. Basic solution methods for the nonlinear equations are developed and applied to problems in plasticity and hyperelasticity.",
     "raw_prereq": "graduate standing and MAE 232A or SE 276A and MAE 231A or SE 271.",
     "prerequisites": [
       {
@@ -2244,6 +2367,7 @@
   {
     "name": "Fracture Mechanics",
     "code": "MAE 233A",
+    "description": "Theoretical strength; stress concentration. Linear and nonlinear fracture mechanics: stress singularity, fracture modes, crack tip plastic zone, dugdale model, the R-curve; power-law materials, the J-integral; fatigue; special topics.",
     "raw_prereq": "MAE 231A, MAE 231B, or consent of instructor.",
     "prerequisites": [
       {
@@ -2270,6 +2394,7 @@
   {
     "name": "Micromechanics",
     "code": "MAE 233B",
+    "description": "General theory of transformation strains and corresponding elastic fields; Green’s functions and other solution methods; dislocations; inclusions and inhomogeneities; micromechanics of plastic flow, microcracking, cavitation, and damage in crystalline and other solids.",
     "raw_prereq": "MAE 231A-B-C or consent of instructor.",
     "prerequisites": [
       {
@@ -2300,6 +2425,7 @@
   {
     "name": "Computational Techniques in Finite Elements",
     "code": "MAE 235",
+    "description": "(Cross-listed with SE 233.) Practical application of the finite element method to problems in solid mechanics. Elements of theory are presented as needed. Covered are static and dynamic heat transfer and stress analysis. Basic processing, solution methods, and postprocessing are practiced with commercial finite element software. Students may not receive credit for SE 233 and MAE 235.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2307,6 +2433,7 @@
   {
     "name": "Stress Waves in Solids",
     "code": "MAE 238",
+    "description": "Linear wave propagation; plane waves; reflection and refraction; dispersion induced by geometry and by material properties. Application of integral transform methods. Selected topics in nonlinear elastic, anelastic, and anisotropic wave propagation.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2314,6 +2441,7 @@
   {
     "name": "Space Flight Mechanics",
     "code": "MAE 240",
+    "description": "Astrodynamics modeling within Newtonian, Lagrangian, and Hamiltonian frameworks with application to spacecraft motion in non-Keplerian and strongly perturbed environments. Topics include the gravitational n-body problem and reduced-order models, perturbation formulations and dynamical systems theory, and numerical methods.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2321,6 +2449,7 @@
   {
     "name": "Robot Motion Planning",
     "code": "MAE 242",
+    "description": "Modeling, solving, and analyzing planning problems for single robots or agents. Configuration space for motion planning, sampling-based motion planning, combinatorial motion planning, feedback motion planning, differential models, and nonholonomic constraints. Basic decision-theory and dynamic programming, sensor, and information spaces.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2328,6 +2457,7 @@
   {
     "name": "Electric Power Systems Modeling",
     "code": "MAE 243",
+    "description": "Formulate and solve canonical constrained optimization problems in electric power systems planning and operation, with applications to current and future low-carbon grids. Techno-economic assessment, implementations in a modern algebraic modeling language, and techniques to enhance computational tractability will be covered.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2335,6 +2465,7 @@
   {
     "name": "Renewable Energy Integration",
     "code": "MAE 244",
+    "description": "The objective of this course is to introduce students to the research field of integration of renewable energy (RE) in power systems. This course covers some relevant literature and the state of the art in the following subareas related to RE integration: capacity expansion models, optimal power flow, power dynamics, electricity markets, RE variability and forecasting, machine learning and AI for power systems, microgrids and islanded grids, electrical vehicles and demand response, among others.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2342,6 +2473,7 @@
   {
     "name": "Cooperative Control of Multi-agent Systems",
     "code": "MAE 247",
+    "description": "Tools for the design of cooperative control strategies for multi-agent systems are presented. Topics include continuous and discrete-time evolution models, proximity graphs, performance measures, invariance principles, and coordination algorithms for rendezvous, deployment, flocking, formation of autonomous vehicles and consensus.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2349,6 +2481,7 @@
   {
     "name": "Safety for Autonomous Systems",
     "code": "MAE 248",
+    "description": "This project-based course covers the mathematical foundations of dynamical system safety analysis and modern algorithmic approaches to decision-making in safety critical contexts. The focus is on safety analysis and safe learning for robots and other systems, paying special attention to uncertainty and the reality gap between mathematical models and the physical world. Class meetings combine whiteboard-style lecture, seminar-style discussion, and guest lectures from experts in the field.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2356,6 +2489,7 @@
   {
     "name": "Soft Robotics",
     "code": "MAE 249",
+    "description": "Roboticists have begun to explore the design of automated systems using soft materials (e.g., elastomers, gels, fluids) with the goal of achieving the versatility and robustness of biological organisms. This course provides a survey of topics important for the design, analysis, and control of soft robotics, including modeling (e.g., nonlinear elasticity), actuation (e.g., fluidic elastomer actuators), sensing (e.g., liquid metal sensors), and design optimization (e.g., using artificial evolution).",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2363,6 +2497,7 @@
   {
     "name": "Structure and Analysis of Solids",
     "code": "MAE 251",
+    "description": "Cross-listed with NANO 227, MATS 227, and CHEM 222.) Key concepts in the atomic structure and bonding of solids such as metals, ceramics, and semiconductors. Symmetry operations, point groups, lattice types, space groups, simple and complex inorganic compounds, structure/property comparisons, structure determination with X-ray diffraction. Ionic, covalent, metallic bonding compared with physical properties. Atomic and molecular orbitals, bands vs. bonds, free electron theory. Students may only receive credit for one of the following: CHEM 222, MAE 251, MATS 227, or NANO 227.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2370,6 +2505,7 @@
   {
     "name": "Advanced Ceramics",
     "code": "MAE 253",
+    "description": "(Cross-listed with MATS 236.) Topics include phase equilibria and crystallography, defects and thermodynamics (Kröger-Vink notation), glass science, electrical and ionic transport behavior, Brouwer diagrams, powder synthesis and compaction, sintering theory and grain growth, mechanical, optical, magnetic, electrical properties, fuel cells. Students may not receive credit for MATS 236 and MAE 253.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2377,6 +2513,7 @@
   {
     "name": "Energy Materials and Applications",
     "code": "MAE 254",
+    "description": "(Cross-listed with MATS 256.) This class will cover the fundamentals/engineering aspects of various energy materials based on metallic, ceramic, semiconductor, and chemical structures, and their applications related to solar cells, fuel cells, batteries, fusion energy, and hydrogen storage will be discussed. Students may not receive credit for MATS 256 and MAE 254.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2384,6 +2521,7 @@
   {
     "name": "Boundary Layer and Renewable Energy Meteorology",
     "code": "MAE 255",
+    "description": "Radiative and convective heat transfer in the atmosphere. Surface energy balance and the urban heat island. Turbulence and dispersion in the atmospheric boundary layer. Solar and wind energy systems, resource assessment, and intermittency.",
     "raw_prereq": "MAE 210A or consent of instructor.",
     "prerequisites": [
       {
@@ -2401,6 +2539,7 @@
   {
     "name": "Radiative Transfer for Energy Applications",
     "code": "MAE 256",
+    "description": "Global insolation heat engine; solar-wind coupling; regional/seasonal insolation patterns; atmospheric radiation balance; RTE models; scattering; optical depth and transmittance of cloud layers; Schwarzschild’s equation; absorption/emission lines; rotational, vibrational and electronic transitions; Doppler/pressure broadening; Elsasser/Malkmus/Edwards models; solution methods.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2408,6 +2547,7 @@
   {
     "name": "Polymer Science and Engineering",
     "code": "MAE 257",
+    "description": "(Cross-listed with MATS 257.) Quantitative basic understanding of different branches of polymer science varying from polymer chemistry, characterization, thermodynamics, rheological properties, smart materials, self-assembly in biopolymers (natural) and synthetic polymers, and applications of polymers ranging from medicine to structure. Students may receive credit for one of the following: MATS 257, MAE 257, BENG 242, or NANO 257.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2415,6 +2555,7 @@
   {
     "name": "ODE Simulation Methods",
     "code": "MAE 259",
+    "description": "Orthogonality and norms. Reflection and rotation matrices. Solving systems of linear equations via LU and QR decompositions; least squares. Conditioning, sparsity, and parallelism. Iterative methods. Matrix subspaces. Eigen, Schur, and singular value decompositions. Pseudoinverses. Spectral representations, Fourier transforms, and the Dirac delta.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2422,6 +2563,7 @@
   {
     "name": "Fundamentals and Applications of Computational Materials Science",
     "code": "MAE 260",
+    "description": "(Cross-listed with MATS 260.) Computational methods for MatSci will be discussed, dealing with atomic scale empirical or semiempirical potentials. How and why to develop such potentials for metallic materials will be a focus of the course. Molecular dynamics and Monte Carlo methods will be covered in detail. Applications of these techniques to some example problems in materials science, mechanical deformation, dislocation interactions, nucleation/growth of phases, melting solidification structures, and point defects are presented.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2429,6 +2571,7 @@
   {
     "name": "Cardiovascular Fluid Mechanics",
     "code": "MAE 261",
+    "description": "Topics in the mechanics of blood flow including analytical solutions for flow in deformable vessels, one-dimensional equations, cardiovascular anatomy, lumped parameter models, vascular trees, scaling laws, and an introduction to the biomechanics and treatment of adult and congenital cardiovascular diseases.",
     "raw_prereq": "MAE 210A and 290A, or consent of instructor.",
     "prerequisites": [
       {
@@ -2450,6 +2593,7 @@
   {
     "name": "Biological Fluid Mechanics",
     "code": "MAE 262",
+    "description": "Fluids phenomena relevant to the function, environment, and dynamics of biological cells. Topics include low-Reynolds number flows, cell motility, internal cellular flows, development and morphogenesis, hydrodynamics of suspensions and polymers, rheology, diffusion, hydrodynamics of deformable bodies (vesicles, membranes, filaments), cells under shear flow.",
     "raw_prereq": "MAE 209 or 210A and graduate standing, or consent of instructor.",
     "prerequisites": [
       {
@@ -2476,6 +2620,7 @@
   {
     "name": "Experimental Methods in Cell Mechanics",
     "code": "MAE 263",
+    "description": "Methods to measure mechanical aspects of cellular nature and behavior such as intracellular rheology, intracellular force distribution and propagation, cell adhesion strength, generation of propulsive forces during locomotion, interaction with the extracellular matrix, and response to external mechanical stimuli.",
     "raw_prereq": "MAE 209 or MAE 210A, and graduate standing.",
     "prerequisites": [
       {
@@ -2502,6 +2647,7 @@
   {
     "name": "Mechanics and Thermodynamics of Biological Membranes",
     "code": "MAE 264",
+    "description": "This course will introduce the advanced graduate student to the topics of mechanical and thermodynamic analyses of cellular membranes, lipid bilayers, and the study of synthetic vesicles.",
     "raw_prereq": "MAE 209 and graduate standing, or consent of instructor.",
     "prerequisites": [
       {
@@ -2519,6 +2665,7 @@
   {
     "name": "Electronic and Photonic Properties of Materials",
     "code": "MAE 265A",
+    "description": "(Cross-listed with MATS 251A.) The electronic and optical properties of metals, semiconductors, and insulators. The concept of the band structure. Electronic and lattice conductivity. Type I and Type II superconductivity. Optical engineering using photonic band gap crystals in one-, two-, and three-dimensions. Current research frontiers. Students may not receive credit for MATS 251A and MAE 265A.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2526,6 +2673,7 @@
   {
     "name": "Magnetic Materials: Principles and Applications",
     "code": "MAE 265B",
+    "description": "(Cross-listed with MATS 251B and NANO 251A and ECE 221.) The basis of magnetism: Classical and quantum mechanical points of view. Different kinds of magnetic materials. Magnetic phenomena including anisotropy, magnetostriction, domains, and magnetization dynamics. Current frontiers of nanomagnetics research including thin films and particles. Optical, data storage, and biomedical engineering applications of soft and hard magnetic materials. Letter grades only. Students may not receive credit for ECE 221 and MAE 265B and MATS 251B and NANO 251A.",
     "raw_prereq": "graduate standing; consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2533,6 +2681,7 @@
   {
     "name": "Biomaterials",
     "code": "MAE 266",
+    "description": "(Cross-listed with MATS 252.) This class will cover biomaterials and biomimetic materials. Metal, ceramic, and polymer biomaterials will be discussed. Emphasis will be on the structure-property relationships, biocompatibility/degradation issues and tissue/material interactions. Synthesis and mechanical testing of biomimetic materials will also be discussed.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2540,6 +2689,7 @@
   {
     "name": "Nanomaterials and Properties",
     "code": "MAE 267",
+    "description": "(Cross-listed with MATS 253.) This course discusses synthesis techniques, processing, microstructural control and unique physical properties of materials in nanodimensions. Topics include nanowires, quantum dots, thin films, electrical transport, electron emission properties, optical behavior, mechanical behavior, and technical applications of nanomaterials.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2547,6 +2697,7 @@
   {
     "name": "Bioinspired Mobile Robotics",
     "code": "MAE 269",
+    "description": "This course presents the field of bioinspired robotics and locomotion. Concepts include modes of bioinspired locomotion (walking, running, undulatory locomotion for example); limb kinematics; development of dynamic models from Euler-Lagrange, Newton’s laws, manipulator equations; stability analysis of oscillatory gaits; force and compliance control of robot legs; generation of rhythmic movement and coupled oscillators.",
     "raw_prereq": "MAE 204.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2554,6 +2705,7 @@
   {
     "name": "Multidisciplinary Design Optimization",
     "code": "MAE 270",
+    "description": "Introduction to engineering design optimization involving multidisciplinary models. Topics covered include local sensitivity analysis, gradient-based optimization, gradient-free optimization, surrogate models, discrete optimization, and multidisciplinary design optimization architectures. Students will apply these methods to a practical design problem of their choosing through a course project.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2561,6 +2713,7 @@
   {
     "name": "Thermodynamics of Solids",
     "code": "MAE 271A",
+    "description": "(Cross-listed with NANO 265, MATS 201A, and ECE 238A.) The thermodynamics and statistical mechanics of solids. Basic concepts, equilibrium properties of alloy systems, thermodynamic information from phase diagrams, surfaces and interfaces, crystalline defects.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2568,6 +2721,7 @@
   {
     "name": "Solid State Diffusion and Reaction Kinetics",
     "code": "MAE 271B",
+    "description": "(Cross-listed with MATS 201B and ECE 238B.) Thermally activated processes, Boltzmann factor, homogenous and heterogeneous reactions, solid state diffusion, Fick’s laws, diffusion mechanisms, Kirkendall effect, Boltzmann-Matano analysis, high diffusivity paths.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2575,6 +2729,7 @@
   {
     "name": "Phase Transformations",
     "code": "MAE 271C",
+    "description": "(Cross-listed with MATS 201C.) Classification of phase transformations; displacive and reconstructive transformations; classical and nonclassical theories of nucleation; Becker-Doering, Volmer-Weber, lattice instabilities, spinodal decomposition. Growth theories; interface migration, stress effects, terrace-ledge mechanisms, epitaxial growth, kinetics and mechanics. Precipitation. Order-disorder transformations. Solidification. Amorphization.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2582,6 +2737,7 @@
   {
     "name": "Imperfections in Solids",
     "code": "MAE 272",
+    "description": "(Cross-listed with MATS 205A.) Point, line, and planar defects in crystalline solids, including vacancies, self-interstitials, solute atoms, dislocations, stacking faults, and grain boundaries; effects of imperfections on mechanical properties; interactions of dislocations with point defects; strain hardening by micro-obstacles, precipitation, and alloying elements.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2589,6 +2745,7 @@
   {
     "name": "Dynamic Behavior of Materials",
     "code": "MAE 273A",
+    "description": "(Cross-listed with MATS 213A.) Elastic waves in continuum; longitudinal and shear waves. Surface waves. Plastic waves; shock waves, Rankine-Hugoniot relations. Method of characteristics, differential and difference form of conservation equations; dynamic plasticity and dynamic fracture. Shock wave reflection and interaction.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2596,6 +2753,7 @@
   {
     "name": "Model Reduction",
     "code": "MAE 274",
+    "description": "Students will learn the mathematical tools, theory, and algorithms of model reduction so as to reproduce and predict behaviors in complex systems with low-dimensional models. Covers a wide range of methods and theory: system-theoretic (balanced truncation, transfer-function interpolation), data-driven and projection-based (proper orthogonal decomposition), and model learning approaches (dynamic mode decomposition, operator inference, Loewner-based system identification, eigensystem realization).",
     "raw_prereq": "MAE 280A and MAE 290A.",
     "prerequisites": [
       {
@@ -2613,6 +2771,7 @@
   {
     "name": "Mechanics of Soft Materials",
     "code": "MAE 276",
+    "description": "(Cross-listed with MATS 231.) Main focus is the large deformations and instabilities in soft materials, such as elastomers, gels, and biomaterials. Some contents in thermodynamics and finite deformation theory are reviewed and summarized. Fundamental theories are applied to study the mechanics of gels, electroactive polymers, and biomaterials. This course intends to use soft material as an example to illustrate how to study the interaction between mechanics and other fields in materials (e.g., electric field, chemical field). Students may not receive credit for both MAE 276 and MATS 231.",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2620,6 +2779,7 @@
   {
     "name": "Uncertainty Quantification",
     "code": "MAE 279",
+    "description": "This course is an introduction to uncertainty quantification and will cover basic and advanced computational methods to quantify uncertainties in parameters, systems, and simulation. Covers basics in statistical and stochastic modeling, Monte Carlo sampling techniques including variance reduction and importance sampling, sensitivity analysis, Bayes’ theorem and related Bayesian inference methods (variants of Markov chain Monte Carlo).",
     "raw_prereq": "graduate standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2627,6 +2787,7 @@
   {
     "name": "Linear Systems Theory",
     "code": "MAE 280A",
+    "description": "Linear algebra: inner products, outer products, vector norms, matrix norms, least squares problems, Jordan forms, coordinate transformations, positive definite matrices, etc. Properties of linear dynamic systems described by ODEs: observability, controllability, detectability, stabilizability, trackability, optimality. Control systems design: state estimation, pole assignment, linear quadratic control.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2634,6 +2795,7 @@
   {
     "name": "Linear Control Design",
     "code": "MAE 280B",
+    "description": "Parameterization of all stabilizing output feedback controllers, covariance controllers, H-infinity controllers, and L-2 to L-infinity controllers. Continuous and discrete-time treatment. Alternating projection algorithms for solving output feedback problems. Model reduction. All control design problems reduced to one critical theorem in linear algebra.",
     "raw_prereq": "MAE 280A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2641,6 +2803,7 @@
   {
     "name": "Nonlinear Systems",
     "code": "MAE 281A",
+    "description": "Existence and uniqueness of solutions of EDE’s, sensitivity equations. Stability, direct and converse Lyapunov theorems, LaSalle’s theorem, linearization, invariance theorems. Center manifold theorem. Stability of perturbed systems with vanishing and nonvanishing perturbations, input-to-state ability, comparison method. Input-output stability. Perturbation theory and averaging. Singular perturbations. Circle and Popov criteria.",
     "raw_prereq": "MAE 280A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2648,6 +2811,7 @@
   {
     "name": "Nonlinear Control",
     "code": "MAE 281B",
+    "description": "Small gain theorem, passivity. Describing functions. Nonlinear controllability, feedback linearization, input-state and input-output linearization, zero dynamics. Stabilization, Brockett’s necessary conditions (local), control Lyapunov functions, Sontag’s formula (global). Integrator back stepping, forwarding. Inverse optimality, stability margins. Disturbance attenuation, deterministic and stochastic, nonlinear H-infinity. Nonlinear observers.",
     "raw_prereq": "MAE 281A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2655,6 +2819,7 @@
   {
     "name": "Parametric Identification: Theory and Methods",
     "code": "MAE 283A",
+    "description": "Constructing dynamical models from experimental data. Deterministic and stochastic discrete time signals. Discrete time systems. Nonparametric identification: correlation and spectral analysis. Parametric identification: realization and prediction error methods, least squares estimation, approximate modeling. Experiment design. Frequency domain identification. Recommended preparation: MAE 143C.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2662,6 +2827,7 @@
   {
     "name": "Approximate Identification and Control",
     "code": "MAE 283B",
+    "description": "Identification for control: approximate identification, estimation of models via closed-loop experiments. Closed-loop identification techniques. Estimation of model uncertainty. Model invalidation techniques. Iterative techniques for model estimation and control design.",
     "raw_prereq": "MAE 283A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2669,6 +2835,7 @@
   {
     "name": "Robust and Multivariable Control",
     "code": "MAE 284",
+    "description": "Multivariable feedback systems: transfer function matrices, Smith-McMillan form, poles, zeros, principal gains, operator norms, limits on performance. Model uncertainties, stability and performance robustness. Design of robust controllers, H_inf and mu synthesis. Controller reduction.",
     "raw_prereq": "MAE 141B or MAE 280A.",
     "prerequisites": [
       {
@@ -2686,6 +2853,7 @@
   {
     "name": "Design of Micro/Nanoacoustofluidic Devices",
     "code": "MAE 285",
+    "description": "Acoustofluidics is a burgeoning field reliant on high frequency acoustics and underpinning many new developments and devices at micro to nano scales. First the basics, piezoelectricity, microfluidics, acoustics, and device metrology. Then, new physics arising from the unusually large accelerations (10^7 to 10^9 m/s^2) induced by acoustic waves. Finally, how various phenomena of acoustofluidics at small scales can be used in designing practical devices.",
     "raw_prereq": "MAE 210A or CENG 210A, and MAE 210B, graduate standing, or consent of instructor.",
     "prerequisites": [
       {
@@ -2716,6 +2884,7 @@
   {
     "name": "Hybrid Systems",
     "code": "MAE 286",
+    "description": "Definition of hybrid system. Examples in mechanics, vision, and multi-agent systems. Trajectories of hybrid systems. Chattering, Zeno phenomena. Stability analysis. Arbitrary switching: common Lyapunov functions. Slow switching: dwell time. State-dependent switching: multiple Lyapunov functions, Invariance Principle. Hybrid control design. Applications.",
     "raw_prereq": "MAE 281A or consent of instructor.",
     "prerequisites": [
       {
@@ -2733,6 +2902,7 @@
   {
     "name": "Control of Distributed Parameter Systems",
     "code": "MAE 287",
+    "description": "Lyapunov stability; exact solutions to PDEs; boundary control of parabolic PDEs (reaction-advection-diffusion and other equations); boundary observer design; control of complex-valued PDEs (Schrodinger and Gunzburg-Landau equations); boundary control of hyperbolic PDEs (wave equations) and beam equations; control of first-order hyperbolic PDEs and delay equations; control of Navier-Stokes equations; motion planning for PDEs; elements of adaptive control for PDEs and control of nonlinear PDEs.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2740,6 +2910,7 @@
   {
     "name": "Optimal Control",
     "code": "MAE 288A",
+    "description": "Deterministic methods: Pontryagin’s Maximum Principle, dynamic programming, calculus of variations. Stochastic methods: Gauss-Markov processes, Linear Quadratic control, Markov chains. Linear Quadratic Gaussian Control and the Separation Principle.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2747,6 +2918,7 @@
   {
     "name": "Optimal Estimation",
     "code": "MAE 288B",
+    "description": "Least Squares and Maximum Likelihood Estimation methods, Gauss-Markov models, State Estimation and Kalman Filtering, prediction and smoothing. The extended Kalman filter.",
     "raw_prereq": "MAE 280A completed or concurrent, or consent of instructor.",
     "prerequisites": [
       {
@@ -2764,6 +2936,7 @@
   {
     "name": "Mathematical Analysis for Applications",
     "code": "MAE 289A",
+    "description": "Topics in mathematical analysis, with the emphasis on those of use in applications. The topics may include metric spaces, open and closed sets, compact sets, continuity, differentiation, series of functions and uniform convergence, convex sets and functions, transforms, and Stokes theorem.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2771,6 +2944,7 @@
   {
     "name": "Real Analysis for Applications",
     "code": "MAE 289B",
+    "description": "Topics in real analysis, with the emphasis on those of use in applications. May include countable/uncountable, open and closed sets, topology, Borel sets, sigma algebras, measurable functions, integration (Lebesgue), absolute continuity, function spaces, and fixed-point theorems.",
     "raw_prereq": "MAE 289A, graduate standing, or consent of instructor.",
     "prerequisites": [
       {
@@ -2788,6 +2962,7 @@
   {
     "name": "Functional Analysis and Applications",
     "code": "MAE 289C",
+    "description": "Topics in functional analysis, with the emphasis on those of use in applications. May include function spaces, linear functionals, dual spaces, reflexivity, linear operators, strong and weak convergence, Hahn-Banach Theorem, nonlinear functionals, differential calculus of variations, Pontryagin Maximum Principle. Students cannot obtain credit for MAE 289C if they have taken MAE 289.",
     "raw_prereq": "MAE 289B, graduate standing, or consent of instructor.",
     "prerequisites": [
       {
@@ -2805,6 +2980,7 @@
   {
     "name": "Numerical Linear Algebra",
     "code": "MAE 290A",
+    "description": "Fundamental concepts in numerical linear algebra. Fundamental matrix decompositions: LU, Cholesky, QR, Eigen, Schur, Jordan, SVD; how to compute them. Solution of large linear systems via iterative methods (Lanczos, Arnoldi, CG, GMRES). Stability of algorithms and conditioning of mathematical problems. Finite precision arithmetic and roundoff issues. Additional topics may include randomized methods for computing SVD/QR and solution of Lyapunov/Riccati equations for high-dimensional systems.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2812,6 +2988,7 @@
   {
     "name": "Numerical Differential Equations",
     "code": "MAE 290B",
+    "description": "Finite difference approximation. Initial value ODEs: explicit, implicit, accuracy, stability, convergence, Runge-Kutta and multipoint methods, stiff systems. Boundary value ODEs: shooting and equilibrium method. PDEs: stability and accuracy. Hyperbolic PDEs: central and upwinding methods, linear advection, Burgers equation. Parabolic PDEs: convection-diffusion equation, multidimensional problems. Elliptic PDEs: direct solution, iterative solution, multigrid method. Fourier spectral method.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2819,6 +2996,7 @@
   {
     "name": "Computational Fluid Dynamics",
     "code": "MAE 290C",
+    "description": "Numerical methods in fluid dynamics and convective transport processes. Numerical solution of the Euler and Navier-Stokes equation. Additional topics will vary according to instructor. Examples include eigenvalue problems in hydrodynamic stability, vortex methods, spectral and panel methods.",
     "raw_prereq": "MAE 210A-B, 290A-B, and consent of instructor.",
     "prerequisites": [
       {
@@ -2853,6 +3031,7 @@
   {
     "name": "Design and Mechanics in Computer Technology",
     "code": "MAE 291",
+    "description": "Design and mechanics problems inherent in computer peripherals such as disk files, tape drives, and printers. Formulation and solution of problems involving mechanics, fluid mechanics, and materials; Reynolds equation, slider bearings; friction and wear; actuator design, impact printing; silicon fluid jets.",
     "raw_prereq": "consent of instructor. (Not offered every year.)",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2860,6 +3039,7 @@
   {
     "name": "Computer-Aided Design and Analysis",
     "code": "MAE 292",
+    "description": "Introduction to 2-D and 3-D computer-aided design. Design problems may include ball bearing kinematics, Weibull statistics, nonrepeatable spindle run-out, four bar linkages, beam deflection and vibration, design of magnetic head suspension, hydrodynamic theory of lubrication, air bearings, heat transfer, optical servo, design of ink jet print head.",
     "raw_prereq": "consent of instructor. (Not offered every year.)",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2867,6 +3047,7 @@
   {
     "name": "Flow Control",
     "code": "MAE 293",
+    "description": "Intersection of control theory and fluid mechanics. Applications: transition delay, turbulence mitigation, noise reduction, weather forecasting, shape optimization, and UAV’s (perching). Tractable feedback (Riccati-based) formulations via parallel and parabolic flow assumptions. Regularization of variational (adjoint-based) formulations for MPC and MHE. EnKF and EnVE approaches for forecasting.",
     "raw_prereq": "MAE 290A or consent of instructor.",
     "prerequisites": [
       {
@@ -2884,6 +3065,7 @@
   {
     "name": "Introduction to Applied Mathematics",
     "code": "MAE 294A",
+    "description": "(Cross-listed with SIO 203A.) Review of exact methods for ordinary differential equations. Expansions about regular and irregular singular points, eigenfunction methods for ordinary differential equations, special functions, Fourier series and integral transforms, linear algebra.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -2891,6 +3073,7 @@
   {
     "name": "Introduction to Applied Mathematics II",
     "code": "MAE 294B",
+    "description": "(Cross-listed with SIO 203B.) Partial differential equations: characteristics, similarity solutions, Green’s functions, images, wave equation, diffusion equation, Laplace’s equation. Applications to continuum mechanics, potential fields, and transport phenomena such as diffusion, linear and nonlinear waves, Burger’s equation, shocks, and other topics. Other topics according to the interests of the instructor.",
     "raw_prereq": "MAE 294A or SIO 203A or consent of instructor.",
     "prerequisites": [
       {
@@ -2917,6 +3100,7 @@
   {
     "name": "Introduction to Applied Mathematics III",
     "code": "MAE 294C",
+    "description": "(Cross-listed with SIO 203C.) Perturbation theory, asymptotic methods and asymptotic expansions. Approximate methods for linear and nonlinear differential equations, such as WKB, the method of multiple scales and boundary layer theory.",
     "raw_prereq": "MAE 294B or SIO 203B or SIO 215B or consent of instructor.",
     "prerequisites": [
       {
@@ -2947,6 +3131,7 @@
   {
     "name": "Field Study",
     "code": "MAE 295",
+    "description": "Provides field study in industry with faculty supervision. Analysis and problem solving using real world applications.",
     "raw_prereq": "consent of adviser and department; 3.0 GPA.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2954,6 +3139,7 @@
   {
     "name": "Independent Study",
     "code": "MAE 296",
+    "description": "Independent reading or research on a problem as arranged by a designated faculty member. Must be taken for a letter grade only.",
     "raw_prereq": "consent of instructor.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2961,6 +3147,7 @@
   {
     "name": "Directed Group Study",
     "code": "MAE 298",
+    "description": "Directed group study on a topic or in a field not included in regular department curriculum, by special arrangement with a faculty member.",
     "raw_prereq": "consent of instructor. (S/U grades permitted.)",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -2968,6 +3155,7 @@
   {
     "name": "Graduate Research",
     "code": "MAE 299",
+    "description": "Independent work by graduate students engaged in research and writing theses. (S/U grades only.)",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true

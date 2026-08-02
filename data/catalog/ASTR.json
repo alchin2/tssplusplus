@@ -2,6 +2,7 @@
   {
     "name": "Stars and Black Holes",
     "code": "ASTR 1",
+    "description": "An introduction to the evolution of stars, including their birth and death. Topics include the movements of objects in the night sky, gravity and motion, how light and matter interact, stellar birth, stellar evolution, white dwarfs, neutron stars, black holes, and general relativity.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Galaxies and the Universe",
     "code": "ASTR 2",
+    "description": "An introduction to galaxies and cosmology. Topics include gravity and motion, atomic structure and light, the Milky Way, galaxy types and distances, dark matter, large scale structure, the expansion of the universe, dark energy, and the early universe.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Planetary Systems Near and Far",
     "code": "ASTR 3",
+    "description": "An exploration of planetary systems in the nearby universe. Topics include planet formation, gas giants, ice giants, terrestrial worlds, including super earths and dwarf planets, asteroids and comets, moons, and planet habitability. The solar system will be discussed in the context of our knowledge of other planetary systems.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Life in the Universe",
     "code": "ASTR 4",
+    "description": "An exploration of life inside and outside of the solar system. Topics include the definition of life, the origination and development of life on earth, evolution and genetics, life in extreme environments, how to identify life on other worlds, the basics of deep space exploration, planet habitability, searching for extraterrestrial intelligence, and the latest research in astrobiology.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Astronomy and Civilization",
     "code": "ASTR 10",
+    "description": "Throughout history the mysteries of the night sky have driven humans to pursue a deeper understanding of how the universe works. This course will examine various ways in which astronomical ideas influenced the development of science and civilization from pre-history to the present day. Topics will include archeoastronomy, the development of timekeeping, celestial navigation, the role of astronomy in cultures throughout the world, including indigenous cultures, and the development of scientific theories of the universe.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -37,6 +42,7 @@
   {
     "name": "Astronomy in Science Fiction",
     "code": "ASTR 15",
+    "description": "Survey of current topics in astrophysics from the perspective of astronomy in science fiction. The course will consist of readings in selected science fiction novels, watching relevant films, companion readings in an introductory astronomy text, and critical analysis and discussion.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Additional Topics in Classical Physics",
     "code": "ASTR 18",
+    "description": "This course explores topics in classical physics with the intent of preparing students from the Physics 2 sequence for upper-division astronomy and astrophysics major courses. Topics include energy methods, rotational motion, coupled oscillators, waves in continua, basic fluids, hydrostatics, Maxwell’s equations, electromagnetic waves and radiation, optics, thermodynamics, and acoustics.",
     "raw_prereq": "PHYS 2A or PHYS 2AR and PHYS 2B and PHYS 2C and PHYS 2D.",
     "prerequisites": [
       {
@@ -78,6 +85,7 @@
   {
     "name": "Introduction to Astrophysics I",
     "code": "ASTR 20A",
+    "description": "First course in a two-quarter sequence of an introduction to astrophysics. This course covers the formation and evolution of stars and their planetary systems. Topics include telescopes, measuring distances to and masses of stars, thermal radiation and stellar spectra, energy generation in stars, stellar evolution, variable stars, orbital dynamics, the solar system, planetary atmospheres, and exoplanets.",
     "raw_prereq": "MATH 20A-B-C or 31BH and PHYS 2A/2AR-B or 4A and 4C.",
     "prerequisites": [
       {
@@ -116,6 +124,7 @@
   {
     "name": "Introduction to Astrophysics II",
     "code": "ASTR 20B",
+    "description": "Second course in a two-quarter sequence of an introduction to astrophysics. This course covers galaxies and cosmology. Topics include the Milky Way galaxy, star formation and the interstellar medium, galaxies, galaxy evolution, black holes, quasars, dark matter, the expansion of the universe, large-scale structure, cosmology, the early universe, and the big bang.",
     "raw_prereq": "ASTR 20A.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -123,6 +132,7 @@
   {
     "name": "Antiracism in Physics and Astronomy",
     "code": "ASTR 60",
+    "description": "How racism manifests and is sustained by the ideas, practices, and structures of modern physics and astronomy, and how to create antiracist interventions. Topics include the history of scientific racism, how racism and science remain entwined through language, community, visibility, and practices, how racial barriers to participation are sustained, and examining effective practices to address barriers and build inclusive communities in the physical sciences.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -130,6 +140,7 @@
   {
     "name": "The Astronomy of Climate Change",
     "code": "ASTR 65",
+    "description": "Exploration of the onset and impact of climate change from the lens of astronomy. Topics include the origin and forms of energy in the universe, laws of thermodynamics as applied to climate, modeling the evolution of stars and planetary climates, the greenhouse effect, energy requirements of life, geoengineering, and space colonization.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -137,6 +148,7 @@
   {
     "name": "First-Year Seminar",
     "code": "ASTR 87",
+    "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Students may complete up to four first-year seminars with the stipulation that none of the seminars are repeated.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -144,6 +156,7 @@
   {
     "name": "Directed Group Study",
     "code": "ASTR 98",
+    "description": "Directed group study on a topic or in a field not included in the regular departmental curriculum. Department approval required. May be taken for credit up to three times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -151,6 +164,7 @@
   {
     "name": "Independent Study",
     "code": "ASTR 99",
+    "description": "Independent reading or research on a topic by special arrangement with a faculty member. Department approval required. May be taken for credit up to three times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -158,6 +172,7 @@
   {
     "name": "Astrophysical Dynamics",
     "code": "ASTR 101",
+    "description": "Classical dynamics with an emphasis on astrophysical applications. Topics include: extremization, Lagrangian mechanics, symmetry and conservation, two-body problem, Kepler’s laws, stellar dynamics: epicycles, Lindblad resonance, virial theorem and applications, coupled oscillators, modes, waves in continua, acoustic waves, and Jeans instability. Recommended preparation: ASTR 18.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E, and MATH 18 or 31AH and 20E. Recommended preparation: ASTR 18.",
     "prerequisites": [
       {
@@ -184,6 +199,7 @@
   {
     "name": "Electrodynamics and Optics for Astrophysicists",
     "code": "ASTR 102",
+    "description": "Electrodynamics and optics with an emphasis on astrophysical applications. Topics include Maxwell’s equations in vacuum and media, applications; electromagnetic waves, Poynting theorem, waves in media; waveguides, resonators, solution of PDEs by separation; Fermat’s principle, geometrical optics, lenses with introduction to gravitational lensing; physical optics, diffraction (Fresnel and Fraunhofer), and interference.",
     "raw_prereq": "ASTR 101, and PHYS 2A/2AR-B-C-D or 4A-B-C-D-E, and ASTR 18.",
     "prerequisites": [
       {
@@ -226,6 +242,7 @@
   {
     "name": "Dynamics of Radiation and Fluids",
     "code": "ASTR 103",
+    "description": "Electromagnetic radiation and topics in fluid dynamics with an emphasis on astrophysical applications. Topics include special relativity, radiation: multipole expansion, Lienard-Wiechert formulation, radiation from relativistic charges; electromagnetic scattering, topics in radiation processes, introductory fluids, Euler and Navier-Stokes equations, potential flow and induced mass, vorticity, convection and Schwarzchild criterion, and turbulence.",
     "raw_prereq": "ASTR 102.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -233,6 +250,7 @@
   {
     "name": "Thermal Astrophysics",
     "code": "ASTR 104",
+    "description": "Thermal physics developed from kinetics with an emphasis on astrophysical applications. Topics include kinetics, phase space and distribution, moment quantities, entropy, collisions and Boltzmann equation; H-theorem, fluid equations, and applications to radiation; canonical, microcanonical and grand canonical ensembles; distributions and relations to thermodynamic quantities, Bose-Einstein and Fermi-Dirac statistics, statistical mechanics with gravity, and applications to compact objects.",
     "raw_prereq": "ASTR 103.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -240,6 +258,7 @@
   {
     "name": "Fundamentals of Quantum Mechanics",
     "code": "ASTR 105",
+    "description": "This course presents the fundamentals of quantum mechanics. Topics include a review of linear operators and Hamiltonian mechanics, wave mechanics, the Schrodinger equation, and states; observables and Heisenberg representation; simple potentials, including harmonic oscillator and the hydrogen atom, symmetry, angular momentum, and spin; stationary state perturbation theory and basic scattering theory.",
     "raw_prereq": "ASTR 101, and PHYS 2A/2AR-B-C-D or 4A-B-C-D-E, and ASTR 18.",
     "prerequisites": [
       {
@@ -282,6 +301,7 @@
   {
     "name": "Quantum Mechanics of Radiation, Atoms and Molecules",
     "code": "ASTR 106",
+    "description": "This course discusses quantum mechanical applications of astrophysical interest, with an emphasis on radiation processes. Topics include electromagnetic field and time-dependent perturbation theory, transitions, and Fermi’s golden rule; absorption cross sections, selection rules, single and multi-electron atoms, and diatomic molecules, including the Born-Oppenheimer approximation; physics of the chemical bond and an introduction to the Dirac equation.",
     "raw_prereq": "ASTR 105.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -289,6 +309,7 @@
   {
     "name": "Stellar Astrophysics",
     "code": "ASTR 120",
+    "description": "In-depth exploration of stellar astrophysics. Radiation and energy transport in interiors and atmospheres of stars. Equations of stellar structure. Basics of stellar modeling. Star formation, stellar evolution as a function of stellar mass, initial mass functions, stellar clusters. Properties of variable stars, late-stage stellar evolutionary processes. Nucleosynthesis, demographics of stellar remnants.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -296,6 +317,7 @@
   {
     "name": "The Explosive Universe",
     "code": "ASTR 121",
+    "description": "Exploration of astronomical transient phenomena: short-lived explosive events associated with the deaths of stars or destruction of stellar remnants. Observational signatures of transients in photons, gravitational waves, and neutrinos; stars, neutron stars, and black holes in their progenitor systems; and physics involved in the explosions. Transients covered may include supernovae, kilonovae, gamma-ray bursts, tidal disruption events, fast radio bursts, fast blue optical transients, or AGN.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -303,6 +325,7 @@
   {
     "name": "Physical Cosmology",
     "code": "ASTR 122",
+    "description": "An exploration of topics in modern cosmology. Topics covered include measuring cosmological distances, age, density, and size of the universe; the Big Bang and inflation; primordial nucleosynthesis, the origin and fluctuations of the cosmic microwave background; dark matter, dark energy, and the formation of galaxies and large-scale structure in an expanding universe.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -310,6 +333,7 @@
   {
     "name": "Galaxies",
     "code": "ASTR 123",
+    "description": "An in-depth exploration of the structure and properties of galaxies in the universe. Topics covered include the Milky Way, the interstellar medium, properties of spiral and elliptical galaxies, rotation curves, starburst galaxies, galaxy formation and evolution, large-scale structure, and active galaxies and quasars.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -317,6 +341,7 @@
   {
     "name": "Exoplanets",
     "code": "ASTR 124",
+    "description": "Broad exploration of topics related to (exo)planetary systems. Topics will include planet detection techniques, planet demographics, planet formation, dynamical interactions and evolution of planet-disk and planet-planet systems, terrestrial planet geology, atmospheres and atmospheric processes, and planetary spectroscopy.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -324,6 +349,7 @@
   {
     "name": "Astrobiology",
     "code": "ASTR 130",
+    "description": "This course serves as a broad introduction to astrobiology, an emerging area of research that incorporates information from a variety of fields. Topics will include the origin of life on Earth, climate on prebiotic Earth, habitability considerations in the solar system, habitability requirements in exoplanetary systems, signatures of inhabited worlds including from intelligent life, and philosophical and ethical considerations in the search for life beyond Earth.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -331,6 +357,7 @@
   {
     "name": "From the Stars to Earth: Using Nuclear Energy",
     "code": "ASTR 131",
+    "description": "Exploration of how to obtain energy from the nucleus by fission and fusion and explores the science and technology of nuclear energy and its various applications. Students will learn how stars and nuclear reactors work and be introduced to the development of controlled fusion. Topics include fundamentals of nuclei and nuclear physics, energetics of fission and fusion, basics of nuclear reactor design and technology, and elements of the physics of controlled fusion.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -338,6 +365,7 @@
   {
     "name": "Observational Optical Research Lab",
     "code": "ASTR 150",
+    "description": "Laboratory course to provide students with hands-on experience working with astronomical data taken at optical wavelengths of light. Topics include detection of optical light, photon counting statistics, detectors and noise, probability distributions, spectroscopy, optical telescopes, photometry, astrometry, display of scientific data, and scientific writing. A significant portion of the class includes computer programming for data analysis.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E and BILD 62 or COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 10 or PHYS 41.",
     "prerequisites": [
       {
@@ -384,6 +412,7 @@
   {
     "name": "Advanced Observational Optical Research Lab",
     "code": "ASTR 151",
+    "description": "Advanced laboratory that develops research for imaging and spectroscopy applications. Students will learn to integrate core astronomy curriculum with state-of-the-art technical methods. The lab provides instruction in modern astronomical techniques in acquiring and measuring data to derive fundamental properties of cosmic sources.",
     "raw_prereq": "ASTR 150.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -391,6 +420,7 @@
   {
     "name": "Observational Radio Research Lab",
     "code": "ASTR 152",
+    "description": "Laboratory course designed to provide hands-on experience in radio astronomy through learning the fundamentals of working with common radio astronomy equipment, astronomical observations, and data analysis techniques. Students learn fundamental concepts about radio signal receivers, how they are built, and how to gather their own data. Students will learn data analysis techniques that are utilized by radio astronomers in interpreting observations.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -398,6 +428,7 @@
   {
     "name": "Data Science in Astronomy",
     "code": "ASTR 154",
+    "description": "Introduction to statistical and machine learning methods and algorithms frequently used in modern astronomy research. The Python programming language will be used almost exclusively due to its widespread usage in astronomy. The course will use a variety of cutting-edge data science tools, techniques, and numerical methods widely used in the astronomy community, with an emphasis on utilizing publicly available codes. May be coscheduled with ASTR 254.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E and BILD 62 or COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 10 or PHYS 41.",
     "prerequisites": [
       {
@@ -444,6 +475,7 @@
   {
     "name": "Computational Astrophysics",
     "code": "ASTR 155",
+    "description": "Introduction to computational methods in astrophysics. Topics include numerical differentiation and integration, ordinary and partial differential equations, Monte Carlo methods, Fourier transforms, N-body algorithms, the basics of fluid dynamics, and its implementation in grid-based and smoothed-particle hydrodynamic methods. The course will include modern practical applications ranging from planet formation to cosmological structure formation.",
     "raw_prereq": "PHYS 2A/2AR-B-C-D or 4A-B-C-D-E and BILD 62 or COGS 18 or CSE 11 or CSE 6R or CSE 8A or CSE 8B or DSC 10 or PHYS 41.",
     "prerequisites": [
       {
@@ -490,6 +522,7 @@
   {
     "name": "Undergraduate Seminar in Astronomy and Astrophysics",
     "code": "ASTR 191",
+    "description": "Undergraduate seminars organized around the research interests of various faculty members. Upper division standing required. May be taken for credit up to four times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -497,6 +530,7 @@
   {
     "name": "Directed Group Study: Astrophysics",
     "code": "ASTR 198",
+    "description": "Directed group study on a topic or in a field not included in the regular departmental curriculum. Upper division standing required. May be taken for credit up to three times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -504,6 +538,7 @@
   {
     "name": "Research for Undergraduates",
     "code": "ASTR 199",
+    "description": "Independent reading or research on a problem by special arrangement with a faculty member. Department approval required. Upper division standing required. May be taken for credit up to three times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -511,6 +546,7 @@
   {
     "name": "Honors Thesis Research for Undergraduates",
     "code": "ASTR 199H",
+    "description": "Honors thesis research for seniors participating in the Honors Program. Research is conducted under the supervision of an astronomy and astrophysics faculty member. May be taken for credit up to three times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -518,6 +554,7 @@
   {
     "name": "Survey of Astronomy",
     "code": "ASTR 200",
+    "description": "Introduction to astronomical concepts and phenomenology at the graduate level. Astrophysical measurement, major structures in the universe, properties of stars and galaxies, star formation and stellar processes, HR diagram, the Milky Way, galaxy formation and evolution, stellar and galactic clusters, cosmological distance scales, dark matter and energy, and cosmology. Includes order of magnitude problem-solving covering all fields of astrophysics.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -525,6 +562,7 @@
   {
     "name": "Radiative Processes in Astrophysics",
     "code": "ASTR 201",
+    "description": "Fundamentals of radiation field and Maxwell equations. Covariant formulation of fields and particles. Fundamentals of radiative transfer. Radiation from accelerated charges and mechanisms of continuous radiation. Line radiation. Thermal, statistical, and ionization equilibrium. Renumbered from PHYA 201. Students may not receive credit for both ASTR 201 and PHYA 201. Recommended preparation: completion of upper-division electricity and magnetism and thermodynamics.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -532,6 +570,7 @@
   {
     "name": "Astrophysical Fluid Dynamics",
     "code": "ASTR 202",
+    "description": "This is a foundational course in fluid dynamics at a graduate level which is aimed at students primarily interested in astrophysical applications. Topics include the dynamics of ideal fluids, vorticity, stability, boundary layers, turbulence, compressible flows, shocks, and self-gravitating flows. Case studies will be drawn from astrophysical phenomena, including stellar accretion, solar wind, turbulence in molecular clouds, supernovae shocks, self-gravitating disks, and others. Renumbered from PHYA 202. Students may not receive credit for both ASTR 202 and PHYA 202.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -539,6 +578,7 @@
   {
     "name": "Planets and Exoplanets",
     "code": "ASTR 210",
+    "description": "Graduate-level course on planetary science, with a focus on exoplanetary systems. Topics include detection and statistics of extrasolar planets, theories of planet formation, structural and dynamical evolution of planets, signatures and consequences of evolution, interior and atmospheric structure, relationship between planets and smaller bodies, habitable zones. Renumbered from PHYA 222. Students may not receive credit for both ASTR 210 and PHYA 222.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -546,6 +586,7 @@
   {
     "name": "Stellar Structure and Evolution",
     "code": "ASTR 211",
+    "description": "Energy generation, flow, hydrostatic equilibrium, equation of state. Dependence of stellar parameters (central surface temperature, radius, luminosity, etc.) on stellar mass and relation to physical constants. Relationship of these parameters to the HR diagram and stellar evolution. Stellar interiors, opacity sources, radiative and convective energy flow. Nuclear reactions, neutrino processes. Polytropic models. White dwarfs and neutron stars. Renumbered from PHYA 223. Students may not receive credit for both ASTR 211 and PHYA 223.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -553,6 +594,7 @@
   {
     "name": "Physics of the Interstellar Medium",
     "code": "ASTR 212",
+    "description": "Gaseous nebulae, molecular clouds, ionized regions, and dust. Low-energy processes in neutral and ionized gases. Interaction of matter with radiation, emission and absorption processes, formation of atomic lines. Energy balance, steady state temperatures, and the physics and properties of dust. Masers and molecular line emission. Dynamics and shocks in the interstellar medium. Renumbered from PHYA 224. Students may not receive credit for both ASTR 212 and PHYA 224.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -560,6 +602,7 @@
   {
     "name": "Galaxies and Galactic Dynamics",
     "code": "ASTR 213",
+    "description": "The structure and dynamics of galaxies. Topics include potential theory, the theory of stellar orbits, self-consistent equilibria of stellar systems, stability and dynamics of stellar systems including relaxation and approach to equilibrium. Collisions between galaxies, galactic evolution, dark matter, and galaxy formation. Renumbered from PHYA 226. Students may not receive credit for both ASTR 213 and PHYA 226.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -567,6 +610,7 @@
   {
     "name": "Physical Cosmology",
     "code": "ASTR 214",
+    "description": "Survey of physical cosmology theory and experiments. Topics include the Big Bang theory, expanding universe, inflation, dark matter, dark energy, equation of state, cosmic microwave background, large scale structure, and topological structure and defects including the latest experimental studies of cosmic microwave background dark matter, and Hubble constant.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -574,6 +618,7 @@
   {
     "name": "Stellar Remnants",
     "code": "ASTR 215",
+    "description": "Stellar remnants and compact objects equation of state, parameters, and environments; white dwarfs, neutron stars, black holes, novae, supernovae, and accretion disks. Topics include compact objects and transient phenomena, X-ray and gamma-ray bursts, high-energy astrophysics, radiative processes, particle models, and experiments.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -581,6 +626,7 @@
   {
     "name": "Astronomical Instrumentation and Observational Techniques",
     "code": "ASTR 220",
+    "description": "The course will explore a variety of astrophysical instruments and techniques from detection of the shortest to the longest wavelengths of light. Topics include coordinates/time; statistics of light, basic optics; telescopes, instrument design, spectrographs, interferometry, detectors, sub-mm/radio techniques, adaptive optics, astroparticle and gravitational wave facilities. Renumbered from PHYA 229. Students may not receive credit for both ASTR 220 and PHYA 229.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -588,6 +634,7 @@
   {
     "name": "Computational Astrophysics",
     "code": "ASTR 221",
+    "description": "Graduate-level course covering both computational methods and applications to astrophysical systems. Topics include numerical analysis, numerical differentiation and integration, ordinary and partial differential equations, linear systems, Fourier transforms, data fitting, grid-based and smoothed-particle hydrodynamics, and N-body algorithms. Special topics such as Monte Carlo methods, ray tracing, visualization and parallel computing, and management of numerical experiments may be presented. Renumbered from PHYA 230. Students may not receive credit for both ASTR 221 and PHYA 230.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -595,6 +642,7 @@
   {
     "name": "Astrophysical Kinetics",
     "code": "ASTR 222",
+    "description": "This course presents a self-contained treatment of kinetics and non-equilibrium statistical mechanics, with an emphasis on astrophysical applications. Topics include the Boltzmann and Vlasov equations, transport, hydrodynamic equations, radiation transport, stochastic dynamics, Fokker-Planck theory, and phase transition dynamics. Emphasis throughout is on physical motivation and relevant applications. Renumbered from PHYA 231. Students may not receive credit for both ASTR 222 and PHYA 231.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -602,6 +650,7 @@
   {
     "name": "Astrostatistics",
     "code": "ASTR 223",
+    "description": "This course reviews the fundamentals of large dataset analysis and machine learning methods relevant to modern astronomical survey datasets. Topics include statistical distributions, classical and Bayesian inference, Monte Carlo methods, data clustering and classification, principal component analysis, model fitting, decision trees, and time series analysis. Renumbered from PHYA 232. Students may not receive credit for both ASTR 223 and PHYA 232.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -609,6 +658,7 @@
   {
     "name": "Astrophysical Dynamics",
     "code": "ASTR 224",
+    "description": "Surveys dynamical processes in astrophysical systems on scales ranging from planets to cosmology, including stability and evolution of planetary orbits, scattering processes and the few-body problem, processes in stellar clusters with smooth and cusped potentials, axisymmetric and non-axisymmetric potentials, angle-action formalism, bar and spiral structure formation, tidal streams, galactic collisions, interactions between matter and dark matter, and evolution of large-scale structure. Renumbered from PHYA 233. Students may not receive credit for both ASTR 224 and PHYA 233.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -616,6 +666,7 @@
   {
     "name": "Astrophysical Plasmas",
     "code": "ASTR 225",
+    "description": "This course introduces the fundamentals of plasma physics at a graduate level, with special focus on astrophysical applications. Core topics include fluid, kinetic, and MHD plasma models. Astrophysical focus topics include magnetic reconnection, dynamos, cosmic ray acceleration and accretion, and MRI. Renumbered from PHYA 234. Students may not receive credit for both ASTR 225 and PHYA 234.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -623,6 +674,7 @@
   {
     "name": "Observational Astrophysics Research Lab",
     "code": "ASTR 226",
+    "description": "Project-based course developing tools and techniques of observational astrophysical research: photon counting, imaging, spectroscopy, astrometry; collecting data at the telescope; data reduction and analysis; probability functions; error analysis techniques; and scientific writing. Students will complete a final paper of publishable quality in the format of a peer-reviewed journal, as well as an oral presentation. Renumbered from PHYA 238. Students may not receive credit for both ASTR 226 and PHYA 238. Recommended preparation: undergraduate or graduate background in astrophysics.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -630,6 +682,7 @@
   {
     "name": "Parallel Computing Techniques",
     "code": "ASTR 227",
+    "description": "Basic techniques and application of parallel computing and algorithms. Topics will include parallel computer platforms, models, packaging, visualization, and the latest applications in research and industry.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -637,6 +690,7 @@
   {
     "name": "Special Topics",
     "code": "ASTR 230",
+    "description": "A faculty or a resident visitor may develop and give a unique course on an advanced topic in their special area of research. This course is not offered on a regular basis, but it is estimated that it will be given once each academic year. May be taken up to six times for credit.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -644,6 +698,7 @@
   {
     "name": "Astronomy and Astrophysics Colloquium",
     "code": "ASTR 250",
+    "description": "Discussions of recent research in astronomy and astrophysics relevant to the entire field. May be taken for credit up to twenty-one times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -651,6 +706,7 @@
   {
     "name": "Astronomy and Astrophysics Journal Club",
     "code": "ASTR 251",
+    "description": "Student and researcher led discussion on current research in astronomy and astrophysics. May be taken for credit up to twenty-four times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -658,6 +714,7 @@
   {
     "name": "Data Science in Astronomy",
     "code": "ASTR 254",
+    "description": "Introduction to statistical and machine learning methods and algorithms frequently used in modern astronomy research. The course will use a variety of cutting-edge data science tools and methods widely used in the astronomy community, with an emphasis on utilizing publicly available codes in Python. May be coscheduled with ASTR 154.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -665,6 +722,7 @@
   {
     "name": "Professional Development in Astronomy and Astrophysics",
     "code": "ASTR 291",
+    "description": "A special topic course on professional development activities and workshops developed by a faculty or resident visitor. This course is not offered on a regular basis, but it is estimated that it will be given once every two academic years. May be taken for credit up to five times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -672,6 +730,7 @@
   {
     "name": "Directed Studies in Astronomy and Astrophysics",
     "code": "ASTR 298",
+    "description": "Research studies under the direction of a faculty member. May be taken for credit up to twenty-four times. Department approval required.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -679,6 +738,7 @@
   {
     "name": "Thesis Research in Astronomy and Astrophysics",
     "code": "ASTR 299",
+    "description": "Directed research on dissertation topic once a PhD candidate is approved. May be taken for credit up to twenty-four times. Department approval required.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -686,6 +746,7 @@
   {
     "name": "Astronomical Teaching Training",
     "code": "ASTR 500",
+    "description": "Designed for graduate student teaching assistant training. Includes discussion of pedagogical research, teaching techniques and materials necessary for astronomy and astrophysics instruction.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true

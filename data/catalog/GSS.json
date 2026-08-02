@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Global South Studies",
     "code": "GSS 20",
+    "description": "This introductory course examines historical and theoretical debates on the Global South. Especially important are socioeconomic, political, as well as cultural processes, as they are key factors to understanding the Global South across the globe.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "History, Culture, and Politics of the Global South",
     "code": "GSS 21-22-23-25-26-27",
+    "description": "An introduction to the history, culture, and politics of various regions of the Global South through multidisciplinary approaches and readings. Topics will vary each quarter. (F,W,S)",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "Literature and Global South Societies",
     "code": "GSS 132",
+    "description": "This course will investigate novelistic and dramatic treatments of European society in the era of nineteenth-century imperialism, Global South societies under the impact of colonialism, and the position of national minorities inside the United States to the present day. Attention will center on the interplay between the aesthetic merits and social-historical-philosophical content of the works read.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Undergraduate Seminars",
     "code": "GSS 190",
+    "description": "Seminars will be organized on the basis of topics with readings, discussions, and papers. Specific subjects to be covered will change each quarter depending on particular interest of instructors or students. May be repeated for credit.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -30,6 +34,7 @@
   {
     "name": "Fieldwork",
     "code": "GSS 197",
+    "description": "In an attempt to explore and study some unique processes and aspects of community life, students will engage in research in field settings. Topics to be researched may vary, but in each case the course will provide skills for carrying out these studies.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -37,6 +42,7 @@
   {
     "name": "Directed Group Studies",
     "code": "GSS 198",
+    "description": "Directed group study on a topic or in a field not included in the regular department curriculum, by special arrangement with a faculty member.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -44,6 +50,7 @@
   {
     "name": "Independent Study",
     "code": "GSS 199",
+    "description": "Tutorial, individual guided reading and research projects (to be arranged between student and instructor) in an area not normally covered in courses currently being offered in the department. (P/NP grades only.)",
     "raw_prereq": "upper-division standing and consent of instructor. (F,W,S)",
     "prerequisites": [],
     "offered_this_qtr": false

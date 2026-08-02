@@ -11,6 +11,7 @@ from app.offered import get_code_to_module_id_index, get_offered_index
 CSE_100 = {
     "name": "Advanced Data Structures",
     "code": "CSE 100",
+    "description": "High-performance data structures and supporting algorithms.",
     "raw_prereq": "CSE 12 and CSE 15L and MATH 20C",
     "prerequisites": [{"type": "AND", "items": [{"type": "COURSE", "course_id": "CSE12"}]}],
     "offered_this_qtr": True,
@@ -133,6 +134,7 @@ def test_course_detail_merges_catalog_and_mongo_sections(tmp_path):
     body = resp.json()
     assert body["code"] == "CSE 100"
     assert body["offered_this_qtr"] is True
+    assert body["description"] == "High-performance data structures and supporting algorithms."
     assert len(body["sections"]) == 1
     section = body["sections"][0]
     assert section["section_code"] == "P-001-001"

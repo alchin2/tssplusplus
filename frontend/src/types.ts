@@ -32,6 +32,7 @@ export interface Course {
 }
 
 export interface CourseDetail extends Course {
+  description: string | null;
   rawPrereq: string | null;
   sections: Section[];
 }

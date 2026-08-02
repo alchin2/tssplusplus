@@ -78,6 +78,7 @@ class CourseDetail(BaseModel):
     name: str
     dept: str
     offered_this_qtr: bool
+    description: str | None = None
     raw_prereq: str | None = None
     prerequisites: list[PrereqNode] = []
     sections: list[Section] = []

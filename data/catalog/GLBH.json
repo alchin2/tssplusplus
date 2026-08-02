@@ -2,6 +2,7 @@
   {
     "name": "Introduction to Global Health",
     "code": "GLBH 20",
+    "description": "Provides a foundational interdisciplinary understanding of complex global health issues and introduces major concepts and principles in global health. The course surveys the range of problems contributing to the global burden of disease and disability including infectious disease, mental illness, refugee and immigrant health, natural disasters, climate change, and food insecurity.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Special Topics in Global Health",
     "code": "GLBH 100",
+    "description": "Selected topics in global health. Content will vary from quarter to quarter. May be taken for credit up to four times.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -16,6 +18,7 @@
   {
     "name": "Aging: Culture and Health in Late Life Human Development",
     "code": "GLBH 101",
+    "description": "(Cross-listed with ANSC 101.) Examines aging as a process of human development from local and global perspectives. Focuses on the interrelationships of social, cultural, psychological, and health factors that shape the experience and well-being of aging populations. Students explore the challenges and wisdom of aging. Students may not receive credit for GLBH 101 and ANSC 101.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -23,6 +26,7 @@
   {
     "name": "Global Health Epidemiology",
     "code": "GLBH 102",
+    "description": "This course will address basic epidemiology principles, concepts, and procedures that are used in investigation of health-related states or events from a global perspective. Explores study designs and methods appropriate for studies of incidence and prevalence, causality and prevention, with emphasis on research in resource-poor settings.",
     "raw_prereq": "COGS 14B or MATH 11 or PSYC 60 and GLBH 20 or FMPH 40 and GLBH 181.",
     "prerequisites": [
       {
@@ -66,6 +70,7 @@
   {
     "name": "Global Health Disparities and the Quest for Global Health Equity",
     "code": "GLBH 103",
+    "description": "This course examines health and health care for racial and ethnic minorities in the United States. Students will explore explanations for why racial and ethnic minorities have poorer health outcomes and receive lower quality health care than other societal groups. Students will examine discrimination in health care settings, psychosocial stress and mental and physical health, and how the health care system generates disparate outcomes through interpersonal and institutional processes.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -73,6 +78,7 @@
   {
     "name": "Humanities, Ethics, and Professionalism: Engaging Moral Imaginaries for Exploring Health and the Human Condition",
     "code": "GLBH 104",
+    "description": "Questions of morality are implicit in all aspects of health. Drawing insights from the medical humanities, this course engages students in thinking about the human condition (what it means to be human or dehumanized) from multiple perspectives: individual, social, civic. How do humans ascribe meaning to their lives? What does it take to flourish? What is empathy; for whom do we have it? What is ethical and just about the organization of society and its impact on health?",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -80,6 +86,7 @@
   {
     "name": "Global Health and Inequality",
     "code": "GLBH 105",
+    "description": "(Cross-listed with ANSC 105.) Why is there variation of health outcomes across the world? We will discuss health and illness in context of culture and address concerns in cross-national health variations by comparing health care systems in developed, underdeveloped, and developing countries. In addition, we’ll study the role of socioeconomic and political change in determining health outcomes, and examine social health determinants in contemporary global health problems—multidrug resistance to antibiotics, gender violence, human trafficking, etc. Students may receive credit for one of the following: GLBH 105, ANSC 105, ANSC 105S, or ANSC 105GS.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -87,6 +94,7 @@
   {
     "name": "Water, Sanitation, and Hygiene in Global Health",
     "code": "GLBH 106",
+    "description": "This course provides an overview of water, sanitation, and hygiene (WaSH) in global health. We discuss the global burden of disease from inadequate access to WaSH services, survey the state of WaSH across the globe, learn about a range of WaSH technologies, examine the social, economic, and policy considerations important in WaSH planning and sustainability, and learn how to conduct a water safety test. Case studies from the Americas, South Asia, and sub-Saharan Africa will be discussed. It is recommended that students take GLBH 20, Introduction to Global Health, prior to enrolling in this course.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -94,6 +102,7 @@
   {
     "name": "Health of Refugees and Displaced Populations in Local and Global Contexts",
     "code": "GLBH 107",
+    "description": "This course provides an overview of the health worlds of forcibly displaced populations, focusing on the intersections of violence, migration, and globalization. Topics include infectious disease, mental health, health policy, and access to care. Specific case studies explored include Latin American migrant experiences in the U.S., Haitian migrant experiences in the Dominican Republic, African migrant experiences in France, and Afghan migrant experiences in Greece.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -101,6 +110,7 @@
   {
     "name": "Hispanic and Latinx Issues in Global Health",
     "code": "GLBH 108",
+    "description": "This course aims to provide an educational setting for Latinx/Hispanic students to discuss critical perspectives in global health. The purpose is to think critically and creatively about global health development from an interdisciplinary approach. Themes to explore include research methodologies from decolonial perspectives, the role of morals and values in policy development, and the challenges of tackling global health problems in neoliberal societies.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -108,6 +118,7 @@
   {
     "name": "The Indigenous Futures Lab",
     "code": "GLBH 108S",
+    "description": "Currently 90 percent of genome studies and 95 percent of clinical trials exclusively feature individuals of European ancestry. This bias and systematic lack of engagement of Indigenous people in both clinical trials and genome studies is partially the result of a history of distrust. Through our field school, we will train the next generation of global health professionals to imagine, promote, and sustain a future where Indigenous people are partners in and not subjects of genetic research. Program or materials fees may apply.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -115,6 +126,7 @@
   {
     "name": "Decolonizing Global Health",
     "code": "GLBH 109",
+    "description": "This course aims to provide epistemological, theoretical, and methodological perspectives to approach global health from a decolonial stance. We will analyze the colonial legacies in global health to discuss the challenges of pursuing a change in the field. Themes to explore include the westernization of knowledge in health, decolonizing global health education, colonialism as a social determinant of health, decolonial research methodologies, and dismantling colonialism in health care systems.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -122,6 +134,7 @@
   {
     "name": "Demography and Social Networks in Global Health",
     "code": "GLBH 110",
+    "description": "This course will provide an overview of demographic principles, and their associations with maternal and child health outcomes. We will focus on demographic trends in developing countries, using research from the DHS to discuss inequalities in fertility, mortality, and morbidity. The remainder of the class will question why we see such spatial variation in many maternal and child health outcomes, with a focus on theories of social norms, and social network methods for uncovering those trends.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -129,6 +142,7 @@
   {
     "name": "Clinic on the Border: Health Frontiers in Tijuana",
     "code": "GLBH 111",
+    "description": "Introduces students to the physical and mental health needs of vulnerable migrants and socially marginalized communities, including substance users, LGBTQ, deportees, and the homeless and medically indigent. Students will become integrated into a free clinic in Tijuana where they will obtain community-based field experiences in interacting with these populations; learn about delivering evidence-based health care in underserved settings and be introduced to issues regarding cultural appropriation. Program or materials fees may apply. May be taken for credit up to three times. Students are required to cross the US-Mexico border to attend clinic in Tijuana as part of the requirements for the course. Recommended preparation: upper-division global health course work prior to participation is recommended.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -136,6 +150,7 @@
   {
     "name": "Medicine, Global Health, and Bioethics",
     "code": "GLBH 112",
+    "description": "This course explores the global medical commons via current topics in medical anthropology and sociology, including learning medicine, the work of doctoring, the culture of biomedicine and the clinic, the political economy of health care, the ethics of care at the end of life, and medical rationing. We will examine how medical knowledge, ethical practice, research, and technology are culturally shaped and institutionally organized in different societies.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -143,6 +158,7 @@
   {
     "name": "Women’s Health in Global Perspective",
     "code": "GLBH 113",
+    "description": "The course examines women’s and girls’ health throughout the world, focusing on the main health problems experienced primarily in low resource settings. This course presents issues in the context of a woman’s life from childhood, through adolescence, reproductive years, and aging. The course will have a strong emphasis on social, economic, environmental, behavioral, and political factors that affect health behaviors, reproductive health, maternal morbidity/mortality, and STIs/HIV.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -150,6 +166,7 @@
   {
     "name": "Latin American Health and Healing",
     "code": "GLBH 114",
+    "description": "This course aims to analyze the health and healing processes in Latin America. Students will understand the social, cultural, political, and economic aspects traversing those processes. We will analyze biomedical health care systems and intercultural health practices at structural, community, and individual levels based on specific cases. Finally, alternative health care services and self-care practices will be discussed to understand health and healing experiences in specific contexts.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -157,6 +174,7 @@
   {
     "name": "Communication and Social Institutions: Global Health Communication",
     "code": "GLBH 114W",
+    "description": "Public health campaigns attempt to change behavior, slow the spread of disease, and improve the health of a population. This course takes a critical social science perspective on the production, dissemination, and impacts (intended and otherwise) of public health communication, including questions of coercion, autonomy, and perceptions of collective health and well-being.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -164,6 +182,7 @@
   {
     "name": "Social Justice and Health Equity: The Intellectual Legacy of Paul Farmer",
     "code": "GLBH 115",
+    "description": "This course examines the legacy of Dr. Paul Farmer. Dr. Farmer used a strong moral focus on equity and social justice and an anthropologically informed analysis of health to deliver life-saving HIV medications around the world and strengthen national health systems. Through a mix of readings and case study reviews, this course will help students understand how theory, social science research, and medicine can be combined to directly help improve the health of the most vulnerable among us.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -171,6 +190,7 @@
   {
     "name": "Global Health and Infectious Disease",
     "code": "GLBH 116",
+    "description": "This course will analyze outbreaks of infectious diseases to understand how the interests of one country are inevitably linked to the health of people in all other countries around the world, with an emphasis on understanding the critical intersection of policy, social expectations in determining how health systems function and adapt to address new challenges, and examining why some health systems are so fragile in the face of new disease challenges such as the COVID-19 pandemic.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -178,6 +198,7 @@
   {
     "name": "Global Health and Non-Communicable Diseases",
     "code": "GLBH 117",
+    "description": "Non-communicable diseases (NCDs) such as cardiovascular diseases, diabetes, obesity, cancer, lung diseases, and depression are a growing problem in low- and middle-income countries. NCDs present great challenges to global health, even considering the impact of the COVID-19 pandemic. The course explores the consequences of multimorbidity, aging and low access to health care on NCDs and social inequalities, and how to guide prevention efforts for NCD risk factors.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -185,6 +206,7 @@
   {
     "name": "Placing People First: Introduction to the Global Health Humanities",
     "code": "GLBH 118",
+    "description": "This course explores global health issues through the lens of the arts and humanities disciplines—a multidisciplinary area that investigates the human and social aspects of health and medicine. Using humanities exploratory tools, students will gain humanistic insights into global health issues for the purpose of generating a historical and holistic consciousness of health and health disparities.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -192,6 +214,7 @@
   {
     "name": "The Intersection of Global Health and Non-Governmental Organizations",
     "code": "GLBH 119",
+    "description": "This course provides an overview of non-governmental organizations (NGOs); how they are created, managed, grown, funded, and publicized. The course will give an overview of local community-specific and country-specific NGO activities as well as international NGOs that work at the country level, regionally, and internationally. The course will provide a broad understanding of how NGOs work in concert with governments and ministries of health to address the needs of populations throughout the world.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -199,6 +222,7 @@
   {
     "name": "From Global Health to Planetary Health",
     "code": "GLBH 120",
+    "description": "Planetary health is an emerging discipline that seeks to integrate global health, public health, ecology, earth systems science (including climate science), wildlife/veterinary medicine, and indigenous knowledge among other fields to better understand the interconnected nature of health on a planetary scale. This course serves as an introduction to planetary health concepts and an opportunity to explore the processes of community building needed to make this essential transition.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -206,6 +230,7 @@
   {
     "name": "Learning to Care for Underserved Populations",
     "code": "GLBH 121",
+    "description": "This course presents a biosocial perspective for developing and implementing practical global health policies and treatment and diagnostic practices. The course consists of lectures from UC San Diego’s global health consortium and public health experts in the U.S. and the world to discuss standing systematic inequalities that create disparities in health care. This course prepares students to be committed to practicing collaborative and equitable health interventions.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -213,6 +238,7 @@
   {
     "name": "Meaning and Healing",
     "code": "GLBH 129",
+    "description": "(Cross-listed with ANSC 129.) This course examines the nature of healing across cultures, with special emphasis on religious and ritual healing. Students may not receive credit for GLBH 129 and ANSC 129.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -220,6 +246,7 @@
   {
     "name": "Global Health and Climate Change",
     "code": "GLBH 130",
+    "description": "Climate change poses a significant threat to the health of all human and non-human beings. This course explores the intersections of climate change and global health through the lens of colonialism, highlighting the disproportionate impact on marginalized communities domestically and internationally. Students will analyze the impact of climate change on global health outcomes and interventions, and explore strategies for addressing these challenges at local, national, and international levels.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -227,6 +254,7 @@
   {
     "name": "Native American Health and Healing",
     "code": "GLBH 139",
+    "description": "(Cross-listed with ANSC 139.) This course examines fact and fiction with respect to epidemics of contagious diseases including smallpox and tuberculosis, alcohol and drug dependency, diabetes and obesity, depression and suicide. We analyze health care with respect to the history and development of the Indian Health Service, health care efforts by Christian missionaries, tribal-led health initiatives, indigenous spiritual healing, and collaborations between indigenous healers and biomedical professionals. Students may not receive credit for ANSC 139 and GLBH 139. ANSC 139/GLBH 139 may be coscheduled with ANTH 237/GLBH 245.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -234,6 +262,7 @@
   {
     "name": "Clinical Perspectives in Global Health",
     "code": "GLBH 141",
+    "description": "This course aims to understand the salient aspects of global health from the point of view of the clinician who translates epidemiological knowledge into treatment approaches for their patients. The perspective of the clinician illuminates that of the patient and allows us to understand public health on the front line. The course will examine many aspects of global health from the point of view of the clinicians involved, whose perspectives will help illuminate those of their patients. May be coscheduled with GLBH 241.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -241,6 +270,7 @@
   {
     "name": "“When the field is a ward”: Ethnographies of the Clinic",
     "code": "GLBH 142",
+    "description": "The purpose of this course is to introduce ethnography as a strategy to conduct research on clinical contexts. During the first part of the course, students will learn about the ethnographic method, and how both qualitative research and ethnography may be utilized in healthcare and medical education. The course will also examine some key limitations to these methods.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -248,6 +278,7 @@
   {
     "name": "Mental Health as Global Health Priority",
     "code": "GLBH 143",
+    "description": "(Cross-listed with ANSC 143.) Why is mental health a global concern? This anthropological course reviews globalization, culture, and mental health. We examine issues of social suffering, stigma, and economic burden associated with mental illness, gender inequality, political violence, “global security,” and pharmaceutical and illegal drugs. May be coscheduled with ANTH 243. Students may not receive credit for both ANSC 143 and GLBH 143.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -255,6 +286,7 @@
   {
     "name": "A Global Health Perspective on HIV",
     "code": "GLBH 146",
+    "description": "(Cross-listed with ANSC 146.) An introductory course to HIV taught through a medical student format, with emphasis on research and experiential learning, including observation of physicians providing care for patients from diverse socioeconomic and cultural backgrounds, and who may be underinsured or uninsured, homeless, and/or immigrants. Students may not receive credit for ANSC 146 and GLBH 146.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -262,6 +294,7 @@
   {
     "name": "Global Health and the Environment",
     "code": "GLBH 147",
+    "description": "(Cross-listed with ANSC 147.) Examines interactions of culture, health, and environment. Rural and urban human ecologies, their energy foundations, sociocultural systems, and characteristic health and environmental problems are explored. The role of culture and human values in designing solutions will be investigated. Students may not receive credit for GLBH 147 and ANSC 147.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -269,6 +302,7 @@
   {
     "name": "Global Health and Cultural Diversity",
     "code": "GLBH 148",
+    "description": "(Cross-listed with ANSC 148.) Introduction to global health from the perspective of medical anthropology on disease and illness, cultural conceptions of health, doctor-patient interaction, illness experience, medical science and technology, mental health, infectious disease, and health care inequalities by ethnicity, gender, and socioeconomic status. Students may not receive credit for GLBH 148 and ANSC 148.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -276,6 +310,7 @@
   {
     "name": "Culture and Mental Health",
     "code": "GLBH 150",
+    "description": "(Cross-listed with ANSC 150.) This course reviews mental health cross-culturally and transnationally. Issues examined are cultural shaping of the interpretation, experience, symptoms, treatment, course, and recovery of mental illness. World Health Organization findings of better outcomes in non-European and North American countries are explored. Students may not receive credit for GLBH 150 and ANSC 150.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -283,6 +318,7 @@
   {
     "name": "Global Health Horizons Honors Thesis Seminar I",
     "code": "GLBH 150A",
+    "description": "This course will consist of intensive reading and discussion in fields related to each student’s primary interest and building on their Global Health Field Experience that will culminate into an honors thesis.",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -290,6 +326,7 @@
   {
     "name": "Global Health Horizons Honors Thesis Seminar II",
     "code": "GLBH 150B",
+    "description": "This course will be a workshop with critical input from all participants focusing on preparing a final thesis paper.",
     "raw_prereq": "GLBH 150A; department approval required.",
     "prerequisites": [
       {
@@ -307,6 +344,7 @@
   {
     "name": "Global Health Policy",
     "code": "GLBH 160",
+    "description": "Students will learn fundamental principles and concepts of global health policy, law, and governance. The course will focus on identifying critical global health policy challenges and solving them using a multidisciplinary approach that takes into account the perspectives of various stakeholders.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -314,6 +352,7 @@
   {
     "name": "Global Mental Health",
     "code": "GLBH 171R",
+    "description": "Global Mental Health (GMH) is a field of research, practice, and advocacy prioritizing mental health for all persons and communities worldwide. GMH recognizes mental, neurological, or substance use disorders as the leading causes of disability worldwide and works to counteract social stigma and discrimination commonly associated with such conditions. The course introduces this interdisciplinary field based on analysis of and writing about critical sources from the relevant scholarly literature.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -321,6 +360,7 @@
   {
     "name": "Substance Use and Global Mental Health: Case Studies for Research and Praxis",
     "code": "GLBH 173",
+    "description": "Psychoactive substance use, or drug use, is a rapidly growing global health concern. This course examines local and global case studies of substance use and its treatment through global health frameworks for social justice and health equity. Topics include the comorbidity of drug use with other mental health problems, the relationship between drug use and poverty/social inequity, the “War on Drugs,” available treatment options, and emerging technologies to aid recovery.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -328,6 +368,7 @@
   {
     "name": "Essentials of Global Health",
     "code": "GLBH 181",
+    "description": "Illustrates and explores ecologic settings and frameworks for study and understanding of global health and international health policy. Students acquire understanding of diverse determinants and trends of disease in various settings and interrelationships between socio-cultural-economic development and health.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -335,6 +376,7 @@
   {
     "name": "Global Health Careers",
     "code": "GLBH 190",
+    "description": "This course provides students a tool kit for career and job readiness in the field of global health and relevant interdisciplinary settings and industries. It is designed to provide foundational training for career planning and development. Students will learn skills to identify their personal and professional leadership styles through self-evaluation, create an inquiry of career pathway exploration, and develop a tool kit for preliminary employment strategies including other professional pathways.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -342,6 +384,7 @@
   {
     "name": "Instructional Apprenticeship in Global Health",
     "code": "GLBH 195",
+    "description": "Course gives students experience in teaching global health courses. Students, under direction of instructor, lead discussion sections, attend lectures, review course readings, and meet regularly to prepare course materials and to evaluate examinations and papers. Students will need to apply for the undergraduate instructional apprentice position through ASES, fulfill the Academic Senate regulations, and receive the approval of the department, instructor, department chair, and Academic Senate. May be taken for credit up to two times. Course cannot be used to fulfill requirements for the global health major or minor.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -349,6 +392,7 @@
   {
     "name": "Global Health and Social Justice Seminar",
     "code": "GLBH 196",
+    "description": "Through Alternative Breaks: Public Health Program in the Center for Student Involvement, students explore aspects of the historical, political, economic, and social context of the issues surrounding access to healthcare and develop hard and soft skills needed to perform a successful public health outreach in Indonesia. May be taken for credit up to three times. Students must be accepted into the Alternative Breaks Program to enroll in the course.",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -356,6 +400,7 @@
   {
     "name": "Global Health Academic Internship Program",
     "code": "GLBH 197",
+    "description": "Offers global health students the opportunity to intern and gain credit for their global health field experience requirement. Students will intern and work with a faculty adviser to elaborate on the intellectual analysis and critique of the field experience. Students must complete the AIP application process and have the consent of a faculty adviser. May be taken for credit up to two times. Must be taken for a letter grade to fulfill requirements for the global health major or minor.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -363,6 +408,7 @@
   {
     "name": "Directed Group Study",
     "code": "GLBH 198",
+    "description": "Directed group study for students to delve deeper into global health topics or elaborate the intellectual analysis and critique of their field experience. For students enrolled in the global health major or minor. May be taken for credit two times.",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -370,6 +416,7 @@
   {
     "name": "Independent Study in Global Health Field Experience",
     "code": "GLBH 199",
+    "description": "Independent study opportunity for students to work with global health affiliated faculty on relevant research or to elaborate the intellectual analysis and critique of their global health field experience. For students enrolled in the global health major or minor. May be taken for credit two times.",
     "raw_prereq": "department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -377,6 +424,7 @@
   {
     "name": "Global Health Master’s Core Seminar",
     "code": "GLBH 200",
+    "description": "This seminar course consists of workshops to expand on a student’s thesis project and readings synthesizing key concepts and problems in the field of global health. Students will explore career options in global health and begin work on their final portfolio, due at the end of spring quarter.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -384,6 +432,7 @@
   {
     "name": "Special Topics in Global Health",
     "code": "GLBH 201",
+    "description": "Selected topics in global health. Content will vary from quarter to quarter. May be taken for credit up to two times. May be coscheduled with GLBH 100.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -391,6 +440,7 @@
   {
     "name": "Global Health Epidemiology",
     "code": "GLBH 202",
+    "description": "This course will address basic epidemiology principles, concepts, and procedures that are used in the investigation of health-related states or events from a global perspective. Explores study designs and methods appropriate for studies of incidence and prevalence, causality and prevention, with emphasis on research in resource-poor settings. May be coscheduled with GLBH 102.",
     "raw_prereq": "graduate-level standing or department approval required.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -398,6 +448,7 @@
   {
     "name": "Clinic on the Border: Health Frontiers in Tijuana",
     "code": "GLBH 211",
+    "description": "Introduces students to the physical and mental health needs of vulnerable migrants and socially marginalized communities, including substance users, LGBTQ, deportees, and the homeless and medically indigent. Students will become integrated into a free clinic in Tijuana where they will obtain community-based field experiences in interacting with these populations; learn about delivering evidence-based health care in underserved settings; and be introduced to issues regarding cultural appropriation. Program or materials fees may apply. May be taken for credit up to three times. Students are required to cross US-Mexico border to attend clinic in Tijuana as part of the requirements for the course. May be coscheduled with GLBH 111.",
     "raw_prereq": "Students must apply to participate in the program quarterly.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -405,6 +456,7 @@
   {
     "name": "“Experiencing Epidemics”: Anthropologies of Infectious Diseases",
     "code": "GLBH 212",
+    "description": "This course aims to discuss infectious diseases as a dynamic field of study, fruitful for global health research because it allows us to observe the interplay between power, social structures, and cultural practices that orient people’s discourses and behaviors. Students will study how this imbricate set of relations configure social categories that both “socialize” epidemics and “naturalize” social relations played out through categories such as race, ethnicity, and class.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -412,6 +464,7 @@
   {
     "name": "Global Health Program Design and Evaluation",
     "code": "GLBH 213",
+    "description": "This seminar examines program development focused on designing logic models and monitoring and evaluation (M&E) plans from problem identification to proposal review. Students work on a common case through in-class presentations and develop a project based on their own interests.",
     "raw_prereq": "department approval required, graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -419,6 +472,7 @@
   {
     "name": "Program Management in Global Health",
     "code": "GLBH 214",
+    "description": "This seminar examines program development, capacity strengthening, and strategic analysis in global health through reading, discussion, project work, and presentation. Students will adapt global health theory and demonstrate the use of practical project management tools and techniques as they design a culturally sensitive global health program. Restricted to students in the MA in global health program.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -426,6 +480,7 @@
   {
     "name": "Community Health Workers",
     "code": "GLBH 215",
+    "description": "Community health workers (CHWs)—people from the community in which they are working, who receive training on the job—are a cornerstone of health programs around the world, including in the U.S. Topics that will be explored include the history and range of work done by CHWs, task shifting, professionalization, hierarchy and knowledge, and cultural and structural competency. The course will draw on a variety of case studies, including CHW programs in San Diego and Southern California.",
     "raw_prereq": "graduate level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -433,6 +488,7 @@
   {
     "name": "Clinical Perspectives in Global Health",
     "code": "GLBH 241",
+    "description": "This course aims to understand the salient aspects of global health from the point of view of the clinician who translates epidemiological knowledge into treatment approaches for their patients. The perspective of the clinician illuminates that of the patient and allows us to understand public health on the front line. We will examine many aspects of global health from the point of view of the clinicians involved, whose perspectives will help illuminate those of their patients. May be coscheduled with GLBH 141. Restricted to students in the MA in global health program.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -440,6 +496,7 @@
   {
     "name": "Native American Health and Healing",
     "code": "GLBH 245",
+    "description": "This course examines fact and fiction with respect to epidemics of contagious diseases including smallpox and tuberculosis, alcohol and drug dependency, diabetes and obesity, and depression and suicide. We analyze health care with respect to the history and development of the Indian Health Service, health care efforts by Christian missionaries, tribal-led health initiatives, indigenous spiritual healing, and collaborations between indigenous healers and biomedical professionals.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -447,6 +504,7 @@
   {
     "name": "Introduction to Global Health Research",
     "code": "GLBH 248",
+    "description": "Students will gain competency in common research methods and be introduced to implementation challenges in global health. Students will critically evaluate the impact of sociocultural factors on health disparities. This knowledge can be applied toward future research experiences and career development. Restricted to students in the MA in global health program.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -454,6 +512,7 @@
   {
     "name": "Social Epidemiology",
     "code": "GLBH 249",
+    "description": "This course provides an overview of social epidemiology, a branch of epidemiology that focuses on the study of how health-related states or events are impacted by social, political, cultural, and economic factors. Students will learn about the history and current state of the science of social epidemiology, its leading theories/paradigms and methods, and distinct core areas of research.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -461,6 +520,7 @@
   {
     "name": "Global Health Policy",
     "code": "GLBH 260",
+    "description": "Students will learn fundamental principles and concepts of global health policy, law, and governance. The course will focus on identifying critical global health policy challenges and solving them using a multidisciplinary approach that takes into account the perspectives of various stakeholders. May be coscheduled with GLBH 160.",
     "raw_prereq": "graduate-level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -468,6 +528,7 @@
   {
     "name": "Global Health Policy, Diplomacy, and Advocacy",
     "code": "GLBH 261",
+    "description": "Students will explore the application of global health policy, governance, and law principles to the practice of global health through case studies and interactive debate simulations. The course will include a series of special and advanced topics in global health, including health migration, funding and innovation for infectious and chronic diseases, disease surveillance, fake medicines, and global health governance reform.",
     "raw_prereq": "GLBH 260.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -475,6 +536,7 @@
   {
     "name": "Global Mental Health",
     "code": "GLBH 274",
+    "description": "(Cross-listed with ANTH 276.) This course will examine core topics in global mental health research and practice, including cross-cultural classification of mental illness, stigma, and intervention. It combines anthropological perspectives alongside cross-cultural psychiatry, epidemiology, humanities, and global public health. The course highlights mixed-method approaches to research, intervention design, and evaluation. The seminar includes a combination of interactive lectures, discussion, and hands-on activities.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -482,6 +544,7 @@
   {
     "name": "Essentials of Global Health",
     "code": "GLBH 281",
+    "description": "This course provides an overview of global health as a field of research and practice, with an emphasis on use of surveillance and research methods to understand health and determinants of health, evidence-based program development and evaluation of programs in the field, and engagement with governments and advocacy groups to elicit evidence-based policy change. Topics of focus will prioritize infectious diseases, maternal child health, substance use, and gender-based violence. May be coscheduled with GLBH 181.",
     "raw_prereq": "graduate level standing.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -489,6 +552,7 @@
   {
     "name": "Global Health Internship",
     "code": "GLBH 297",
+    "description": "Offers global health master’s students the opportunity to intern and gain credit for their global health field work. Students will intern and work with a faculty adviser to elaborate on the intellectual analysis and critique of the field experience. May be taken for credit up to three times.",
     "raw_prereq": "students must complete Special Studies paperwork, have a faculty adviser, and receive department approval.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -496,6 +560,7 @@
   {
     "name": "Directed Study",
     "code": "GLBH 298",
+    "description": "Supervised study and readings of topics in global health literature. May be taken for credit up to four times for a maximum of sixteen units.",
     "raw_prereq": "graduate-level standing. Students must receive approval from the program to enroll with a faculty member in a directed study course.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -503,6 +568,7 @@
   {
     "name": "Independent Research",
     "code": "GLBH 299",
+    "description": "Mentored course in which students will work closely with a faculty adviser to prepare a publishable masters project based on their undergraduate senior thesis or project agreed upon with faculty adviser. May be taken for credit up to twelve times for a maximum of forty-eight units.",
     "raw_prereq": "graduate-level standing. Students must receive approval from the program to enroll with a faculty member in an independent research course.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -510,6 +576,7 @@
   {
     "name": "Teaching Apprenticeship",
     "code": "GLBH 500",
+    "description": "The course is designed for students to participate in the undergraduate teaching program as a teaching assistant. Student will assist in preparing materials, grading, discussions, and office hours. May be taken for credit six times.",
     "raw_prereq": "graduate-level standing. Department approval required; students must be a TA for the global health program to enroll.",
     "prerequisites": [],
     "offered_this_qtr": false

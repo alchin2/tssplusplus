@@ -2,6 +2,7 @@
   {
     "name": "First Year Experience",
     "code": "SXTH 1",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Sixth College NFRS only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -9,6 +10,7 @@
   {
     "name": "Transfer Year Experience",
     "code": "SXTH 2",
+    "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking and organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Sixth College transfer students only.",
     "prerequisites": [],
     "offered_this_qtr": false
@@ -16,6 +18,7 @@
   {
     "name": "First-year Student Honors Seminar",
     "code": "SXTH 20",
+    "description": "Weekly seminars with faculty members from a variety of disciplines (chosen by the provost to match the interests of participating students). This seminar provides students with opportunities to learn more about research and scholarly activities being conducted by faculty and instill in students a sense of participation in the scholarly life at UC San Diego. P/NP grades only.",
     "raw_prereq": "by invitation only.",
     "prerequisites": [],
     "offered_this_qtr": false

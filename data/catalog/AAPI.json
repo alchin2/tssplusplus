@@ -2,6 +2,7 @@
   {
     "name": "First-year Seminar",
     "code": "AAPI 87",
+    "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": true
@@ -9,6 +10,7 @@
   {
     "name": "Directed Group Study",
     "code": "AAPI 198",
+    "description": "Directed group study by special arrangement with a faculty member on a topic or in a field not included in the regular AAPI studies program curriculum.",
     "raw_prereq": "",
     "prerequisites": [],
     "offered_this_qtr": false
