@@ -149,7 +149,7 @@ export default function App() {
             />
           )}
           {mainView === "planner" && (
-            <PlannerView items={plannedItems} onRemove={handleRemove} />
+            <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => goSearch()} />
           )}
           {mainView === "overview" && (
             <OverviewView items={plannedItems} />
