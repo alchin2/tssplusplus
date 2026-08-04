@@ -58,7 +58,7 @@ export function MapView({ items }: { items: PlannedItem[] }) {
   }, [dayMeetings]);
 
   return (
-    <div className="flex h-[calc(100vh-88px)]">
+    <div className="flex h-full">
 
       {/* ── left sidebar ── */}
       <aside className="w-56 flex-shrink-0 border-r border-[#c0c0c0] bg-white flex flex-col z-10">

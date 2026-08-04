@@ -14,7 +14,7 @@ export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemov
     [items]);
 
   return (
-    <div className="flex h-[calc(100vh-88px)]">
+    <div className="flex h-full">
       <aside className="w-60 flex-shrink-0 border-r border-[#c0c0c0] bg-[#f5f5fa] flex flex-col">
         <div className="px-3 py-2 border-b border-[#c0c0c0]" style={{ backgroundColor: "#6261c0" }}>
           <h3 className="font-bold text-white text-xs">PLANNED COURSES</h3>
