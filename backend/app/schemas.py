@@ -82,3 +82,24 @@ class CourseDetail(BaseModel):
     raw_prereq: str | None = None
     prerequisites: list[PrereqNode] = []
     sections: list[Section] = []
+
+
+class Building(BaseModel):
+    """GET /api/buildings entry -- one per building name found in scraped
+    meeting locations (see scrapers/build_buildings.py). abbr/name/lat/lng
+    come from UCSD's public GIS Building Points layer."""
+
+    abbr: str | None = None
+    name: str | None = None
+    lat: float | None = None
+    lng: float | None = None
+
+
+class RouteResult(BaseModel):
+    """GET /api/route -- a walking route through an ordered list of stops.
+    geometry is (lat, lng) pairs in Leaflet's order (already flipped from
+    ORS's GeoJSON lng/lat)."""
+
+    geometry: list[list[float]]
+    distance_m: float | None = None
+    duration_s: float | None = None

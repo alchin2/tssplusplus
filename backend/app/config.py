@@ -25,6 +25,11 @@ class Settings(BaseSettings):
     # the generic $TERM env var most shells already set.
     term: str = Field(default="fa26", validation_alias="TSS_TERM")
 
+    # OpenRouteService API key for GET /api/route (walking directions
+    # between campus buildings). Free tier, sign up at openrouteservice.org.
+    # Kept server-side only -- never sent to the frontend.
+    ors_api_key: str | None = Field(default=None, validation_alias="ORS_API_KEY")
+
     @property
     def catalog_dir(self) -> Path:
         return DATA_DIR / "catalog"
@@ -32,6 +37,10 @@ class Settings(BaseSettings):
     @property
     def offered_dir(self) -> Path:
         return DATA_DIR / "offered"
+
+    @property
+    def buildings_path(self) -> Path:
+        return DATA_DIR / "buildings.json"
 
 
 settings = Settings()

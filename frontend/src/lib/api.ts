@@ -48,6 +48,25 @@ export interface Meta {
   offered_count: number;
 }
 
+interface RouteResultDto {
+  geometry: [number, number][];
+  distance_m: number | null;
+  duration_s: number | null;
+}
+
+export interface BuildingInfo {
+  abbr: string | null;
+  name: string | null;
+  lat: number | null;
+  lng: number | null;
+}
+
+export interface RouteResult {
+  geometry: [number, number][];
+  distanceM: number | null;
+  durationS: number | null;
+}
+
 // ─── Fetch helpers ───────────────────────────────────────────────────────────
 
 export class ApiError extends Error {
@@ -90,6 +109,24 @@ export async function fetchCourseDetail(moduleId: string): Promise<CourseDetail>
     rawPrereq: dto.raw_prereq,
     sections: dto.sections.map(toSection),
   };
+}
+
+export function fetchBuildings(): Promise<Record<string, BuildingInfo>> {
+  return getJson<Record<string, BuildingInfo>>("/buildings");
+}
+
+// Never throws -- a routing hiccup (no key configured, ORS unreachable,
+// too few stops) should fall back to a straight line on the map, not
+// break the page. Returns null in every failure case.
+export async function fetchRoute(stops: [number, number][]): Promise<RouteResult | null> {
+  if (stops.length < 2) return null;
+  const q = stops.map(([lat, lng]) => `${lat},${lng}`).join(";");
+  try {
+    const dto = await getJson<RouteResultDto>(`/route?stops=${encodeURIComponent(q)}`);
+    return { geometry: dto.geometry, distanceM: dto.distance_m, durationS: dto.duration_s };
+  } catch {
+    return null;
+  }
 }
 
 // ─── Mappers ─────────────────────────────────────────────────────────────────

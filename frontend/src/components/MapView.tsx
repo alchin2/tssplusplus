@@ -1,11 +1,27 @@
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { Map as MapIcon, MapPin, Navigation } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { MapContainer, Marker, Polyline, Popup, TileLayer } from "react-leaflet";
-import { BLDG_LATLNG, BLDG_NAMES, UCSD_CENTER, buildingFromRoom } from "../data/buildings";
+import { useBuildings } from "../hooks/useBuildings";
+import { fetchRoute } from "../lib/api";
+import { getCachedRoute, routeCacheKey, setCachedRoute } from "../lib/routeCache";
 import { DAY_CODES, DAY_LABELS, fmt } from "../lib/schedule";
 import type { Course, DayCode, Meeting, PlannedItem, Section } from "../types";
+
+const UCSD_CENTER: [number, number] = [32.8801, -117.2340];
+// Geisel Library never hosts a class meeting, so it can't come from the
+// scraped-meeting-locations dataset -- it's a purely cosmetic landmark pin.
+const GEISEL_LATLNG: [number, number] = [32.8810, -117.2378];
+
+// Real meeting.room values are full building names + room number, e.g.
+// "Peterson Hall Room 110" (see lib/api.ts's parseSched). Stripping the
+// "Room ..." suffix gives the same building-name key
+// scrapers/build_buildings.py used to build data/buildings.json, so this
+// is a direct dict lookup -- no fuzzy matching needed.
+function buildingKeyFromRoom(room: string): string {
+  return room.replace(/\s+Room\s+.*$/, "").trim();
+}
 
 function makePinIcon(color: string, label: string) {
   return L.divIcon({
@@ -30,15 +46,18 @@ function makeGeiselIcon() {
   });
 }
 
+type RouteStatus = "idle" | "loading" | "ok" | "error";
+
 export function MapView({ items }: { items: PlannedItem[] }) {
   const [selDay, setSelDay] = useState<DayCode>("M");
+  const buildings = useBuildings();
 
   const dayMeetings = useMemo(() => {
     const out: { course: Course; section: Section; meeting: Meeting; bldg: string }[] = [];
     for (const { course, section } of items) {
       for (const meeting of section.meetings) {
         if (meeting.days.includes(selDay)) {
-          out.push({ course, section, meeting, bldg: buildingFromRoom(meeting.room) });
+          out.push({ course, section, meeting, bldg: buildingKeyFromRoom(meeting.room) });
         }
       }
     }
@@ -46,16 +65,57 @@ export function MapView({ items }: { items: PlannedItem[] }) {
   }, [items, selDay]);
 
   // Unique stop locations in time order for the route
-  const routeLatLngs = useMemo<[number, number][]>(() => {
+  const stopLatLngs = useMemo<[number, number][]>(() => {
     const pts: [number, number][] = [];
     for (const { bldg } of dayMeetings) {
-      const ll = BLDG_LATLNG[bldg];
-      if (ll && (pts.length === 0 || pts[pts.length-1][0] !== ll[0] || pts[pts.length-1][1] !== ll[1])) {
+      const info = buildings[bldg];
+      if (info?.lat == null || info?.lng == null) continue;
+      const ll: [number, number] = [info.lat, info.lng];
+      if (pts.length === 0 || pts[pts.length - 1][0] !== ll[0] || pts[pts.length - 1][1] !== ll[1]) {
         pts.push(ll);
       }
     }
     return pts;
-  }, [dayMeetings]);
+  }, [dayMeetings, buildings]);
+
+  const [routeGeometry, setRouteGeometry] = useState<[number, number][] | null>(null);
+  const [routeInfo, setRouteInfo] = useState<{ distanceM: number | null; durationS: number | null } | null>(null);
+  const [routeStatus, setRouteStatus] = useState<RouteStatus>("idle");
+
+  useEffect(() => {
+    if (stopLatLngs.length < 2) {
+      setRouteGeometry(null);
+      setRouteInfo(null);
+      setRouteStatus("idle");
+      return;
+    }
+
+    const key = routeCacheKey(stopLatLngs);
+    const cached = getCachedRoute(key);
+    if (cached) {
+      setRouteGeometry(cached.geometry);
+      setRouteInfo({ distanceM: cached.distanceM, durationS: cached.durationS });
+      setRouteStatus("ok");
+      return;
+    }
+
+    let alive = true;
+    setRouteStatus("loading");
+    fetchRoute(stopLatLngs).then(route => {
+      if (!alive) return;
+      if (route) {
+        setCachedRoute(key, route);
+        setRouteGeometry(route.geometry);
+        setRouteInfo({ distanceM: route.distanceM, durationS: route.durationS });
+        setRouteStatus("ok");
+      } else {
+        setRouteGeometry(null);
+        setRouteInfo(null);
+        setRouteStatus("error");
+      }
+    });
+    return () => { alive = false; };
+  }, [stopLatLngs]);
 
   return (
     <div className="flex h-[calc(100vh-88px)]">
@@ -102,10 +162,17 @@ export function MapView({ items }: { items: PlannedItem[] }) {
           }
         </div>
 
-        {routeLatLngs.length > 1 && (
+        {stopLatLngs.length > 1 && (
           <div className="p-2 border-t border-[#c0c0c0] text-[0.769rem] text-gray-500 flex items-center gap-1.5">
             <Navigation className="w-3 h-3 text-[#6261c0]" />
-            Route: {routeLatLngs.length} stops
+            <span>
+              Route: {stopLatLngs.length} stops
+              {routeStatus === "loading" && " · Calculating route…"}
+              {routeStatus === "ok" && routeInfo?.distanceM != null && routeInfo?.durationS != null && (
+                <> · {(routeInfo.distanceM / 1609.34).toFixed(1)} mi · {Math.round(routeInfo.durationS / 60)} min walk</>
+              )}
+              {routeStatus === "error" && " · Routing unavailable — showing straight-line estimate"}
+            </span>
           </div>
         )}
       </aside>
@@ -124,20 +191,21 @@ export function MapView({ items }: { items: PlannedItem[] }) {
           />
 
           {/* Geisel landmark */}
-          <Marker position={BLDG_LATLNG["GEISEL"]} icon={makeGeiselIcon()}>
+          <Marker position={GEISEL_LATLNG} icon={makeGeiselIcon()}>
             <Popup><strong>Geisel Library</strong><br />UCSD Landmark</Popup>
           </Marker>
 
           {/* All course buildings for this day */}
           {dayMeetings.map(({ course, section, meeting, bldg }, i) => {
-            const ll = BLDG_LATLNG[bldg];
-            if (!ll) return null;
+            const info = buildings[bldg];
+            if (info?.lat == null || info?.lng == null) return null;
+            const ll: [number, number] = [info.lat, info.lng];
             return (
               <Marker key={`${bldg}-${i}`} position={ll} icon={makePinIcon(course.color, String(i + 1))}>
                 <Popup>
                   <div style={{ fontFamily: "Arial", fontSize: 12, minWidth: 160 }}>
                     <div style={{ fontWeight: "bold", color: course.color, marginBottom: 4 }}>{course.code} — {meeting.type}</div>
-                    <div style={{ color: "#374151", marginBottom: 2 }}>{BLDG_NAMES[bldg] ?? bldg}</div>
+                    <div style={{ color: "#374151", marginBottom: 2 }}>{info.name ?? bldg}</div>
                     <div style={{ color: "#6b7280", fontSize: 11 }}>{meeting.room}</div>
                     <div style={{ color: "#6b7280", fontSize: 11 }}>{fmt(meeting.start)} – {fmt(meeting.end)}</div>
                     <div style={{ color: "#9ca3af", fontSize: 11, marginTop: 2 }}>{section.instructor}</div>
@@ -147,11 +215,17 @@ export function MapView({ items }: { items: PlannedItem[] }) {
             );
           })}
 
-          {/* Route polyline */}
-          {routeLatLngs.length > 1 && (
+          {/* Route polyline: real walking directions when available, a
+              straight-line estimate while loading or if routing failed */}
+          {stopLatLngs.length > 1 && (
             <Polyline
-              positions={routeLatLngs}
-              pathOptions={{ color: "#6261c0", weight: 3, opacity: 0.8, dashArray: "8 6" }}
+              positions={routeGeometry ?? stopLatLngs}
+              pathOptions={{
+                color: "#6261c0",
+                weight: 3,
+                opacity: 0.8,
+                ...(routeGeometry ? {} : { dashArray: "8 6" }),
+              }}
             />
           )}
         </MapContainer>
