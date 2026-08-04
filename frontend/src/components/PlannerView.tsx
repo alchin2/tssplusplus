@@ -11,6 +11,7 @@ import {
   buildFinalsEvents, buildRegularEvents, conflictingCourseIds,
   type PlannerEventProps,
 } from "../lib/plannerEvents";
+import { useMeta } from "../hooks/useMeta";
 import type { PlannedItem } from "../types";
 
 function renderEvent(arg: EventContentArg) {
@@ -38,6 +39,7 @@ export function PlannerView({ items, onRemove, onBrowse }: {
 }) {
   const [finalsMode, setFinalsMode] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
+  const term = useMeta()?.term;
 
   // FullCalendar only re-measures on window resize, but this container also
   // changes width when the course-detail panel animates open/closed. Observe
@@ -141,7 +143,7 @@ export function PlannerView({ items, onRemove, onBrowse }: {
         </div>
         <div className="p-2 border-t border-[#c0c0c0] space-y-1.5">
           <button
-            onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
+            onClick={() => { downloadICS(items, term); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
             className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold"
             style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
             <Download className="w-3.5 h-3.5 text-[#333]" /><span className="text-[#333]">Export ICS</span>
