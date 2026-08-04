@@ -1,0 +1,58 @@
+/* App shell layout: ultrawide capping, safe-area insets, scrollbars.
+   Arc's sidebar is browser chrome outside the CSS viewport — it can never
+   overlay page content. The safe-area vars are 0 on desktop and only take
+   real values on notched mobile devices (requires viewport-fit=cover). */
+
+:root {
+  --app-max-width: 1760px;
+  --safe-area-left:   env(safe-area-inset-left, 0px);
+  --safe-area-right:  env(safe-area-inset-right, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --page-gutter: clamp(1rem, 2vw, 3rem); /* defensive gutter token for per-view use */
+}
+
+@layer components {
+  .app-shell {
+    width: 100%;
+    padding-left: var(--safe-area-left);
+    padding-right: var(--safe-area-right);
+  }
+
+  /* Above 1920px, letterbox: cap and center the shell over the page
+     background, with a hairline frame so margins read as intentional. */
+  @media (min-width: 1920px) {
+    .app-shell {
+      max-width: var(--app-max-width);
+      margin-inline: auto;
+      border-inline: 1px solid #c3c8da;
+      box-shadow: 0 0 24px rgba(31, 41, 78, 0.08);
+    }
+  }
+
+  /* Reserve the scrollbar gutter so content width doesn't jump when a
+     scrollbar appears (Chromium classic scrollbars). */
+  .app-scroll {
+    scrollbar-gutter: stable;
+  }
+}
+
+/* Blink/WebKit only — feature query instead of UA sniffing.
+   Matches Chromium (incl. Arc) and Safari; Firefox skips it. */
+@supports selector(::-webkit-scrollbar) {
+  .app-scroll::-webkit-scrollbar { width: 10px; height: 10px; }
+  .app-scroll::-webkit-scrollbar-track { background: transparent; }
+  .app-scroll::-webkit-scrollbar-thumb {
+    background-color: #b7bccf;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    border-radius: 5px;
+  }
+  .app-scroll::-webkit-scrollbar-thumb:hover { background-color: #9aa0b8; }
+}
+
+/* Firefox / engines without ::-webkit-scrollbar. The negative guard matters:
+   Chromium 121+ also supports scrollbar-width, and setting it there would
+   disable the ::-webkit-scrollbar styling above. */
+@supports (scrollbar-width: thin) and (not selector(::-webkit-scrollbar)) {
+  .app-scroll { scrollbar-width: thin; scrollbar-color: #b7bccf transparent; }
+}

@@ -74,7 +74,7 @@ export default function App() {
   const showPanel = selectedCourse !== null && mainView === "search";
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
+    <div className="h-dvh flex flex-col app-shell" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
       <Toaster position="top-right" richColors />
 
       {/* Nav */}
@@ -133,7 +133,7 @@ export default function App() {
 
         {/* Content area — shrinks when panel is open */}
         {/* pb-16 keeps content clear of the fixed mobile bottom nav */}
-        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200 pb-16 md:pb-0">
+        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200 pb-16 md:pb-0 app-scroll">
           {mainView === "home" && <HomeView onSearch={goSearch} />}
           {mainView === "search" && (
             <SearchView
@@ -195,7 +195,7 @@ export default function App() {
 
       {/* Mobile bottom nav */}
       <nav className="md:hidden fixed bottom-0 inset-x-0 flex border-t border-[#c0c0c0] z-50"
-        style={{ backgroundColor: "#0b4a67" }}>
+        style={{ backgroundColor: "#0b4a67", paddingBottom: "var(--safe-area-bottom)" }}>
         {[
           { id: "home"     as const, label: "Home",     icon: BookOpen   },
           { id: "search"   as const, label: "Search",   icon: Search     },

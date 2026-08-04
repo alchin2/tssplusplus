@@ -71,7 +71,7 @@ export function PlannerView({ items, onRemove, onBrowse }: {
 
   if (items.length === 0) {
     return (
-      <div className="h-[calc(100vh-88px)] flex items-center justify-center px-4">
+      <div className="h-full flex items-center justify-center px-4">
         <div className="text-center max-w-xs border border-[#c0c0c0] bg-white px-8 py-10"
           style={{ boxShadow: "4px 4px 0 #c9cede" }}>
           <CalendarX2 className="w-10 h-10 mx-auto" style={{ color: "#6261c0" }} />
@@ -92,7 +92,7 @@ export function PlannerView({ items, onRemove, onBrowse }: {
   }
 
   return (
-    <div className="flex h-[calc(100vh-88px)]">
+    <div className="flex h-full">
       {/* ── Sidebar: planned courses ── */}
       <aside className="w-64 flex-shrink-0 border-r border-[#c0c0c0] bg-[#f5f5fa] flex flex-col">
         <div className="px-3 py-2 border-b border-[#c0c0c0]" style={{ backgroundColor: "#6261c0" }}>
