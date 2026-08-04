@@ -1,149 +1,227 @@
-import { Download, Trash2, X } from "lucide-react";
-import { useMemo, useState } from "react";
-import { DAY_CODES, DAY_LABELS, FINALS_COLS, computeFinal, fmt } from "../lib/schedule";
+import { AlertTriangle, CalendarX2, Download, Search, Trash2, X } from "lucide-react";
+import { useCallback, useMemo, useRef, useState } from "react";
+import FullCalendar from "@fullcalendar/react";
+import timeGridPlugin from "@fullcalendar/timegrid";
+import type { EventClickArg, EventContentArg } from "@fullcalendar/core";
+import { toast } from "sonner";
+import { fmt } from "../lib/schedule";
+import { downloadICS } from "../lib/ics";
+import {
+  FIN_INITIAL_DATE, REG_INITIAL_DATE,
+  buildFinalsEvents, buildRegularEvents, conflictingCourseIds,
+  type PlannerEventProps,
+} from "../lib/plannerEvents";
 import type { PlannedItem } from "../types";
 
-export function PlannerView({ items, onRemove }: { items: PlannedItem[]; onRemove: (id: string) => void }) {
-  const HOUR_H = 52, START = 8, END = 21;
-  const hours = Array.from({ length: END - START }, (_, i) => START + i);
-  const [finalsMode, setFinalsMode] = useState(false);
+function renderEvent(arg: EventContentArg) {
+  const p = arg.event.extendedProps as PlannerEventProps;
+  return (
+    <div className="relative h-full overflow-hidden px-1.5 py-1 leading-tight text-white">
+      {p.conflict && (
+        <div className="absolute inset-0 pointer-events-none"
+          style={{ background: "repeating-linear-gradient(135deg, transparent 0 6px, rgba(120,0,0,0.30) 6px 9px)" }} />
+      )}
+      <div className="flex items-center gap-1">
+        <span className="font-mono font-bold text-[0.769rem]">{p.code}</span>
+        {p.conflict && <AlertTriangle className="w-3 h-3 flex-shrink-0" style={{ color: "#ffd7d7" }} />}
+      </div>
+      <div className="text-[0.692rem] opacity-90 leading-tight truncate">{p.type} · {p.room}</div>
+      <div className="text-[0.692rem] opacity-75 leading-tight">{fmt(p.startH)}–{fmt(p.endH)}</div>
+    </div>
+  );
+}
 
-  const finalsItems = useMemo(() =>
-    items.map(({ course, section }) => ({ course, section, fi: computeFinal(section) }))
-      .filter(x => x.fi),
-    [items]);
+export function PlannerView({ items, onRemove, onBrowse }: {
+  items: PlannedItem[];
+  onRemove: (id: string) => void;
+  onBrowse?: () => void;
+}) {
+  const [finalsMode, setFinalsMode] = useState(false);
+  const [highlightId, setHighlightId] = useState<string | null>(null);
+
+  // FullCalendar only re-measures on window resize, but this container also
+  // changes width when the course-detail panel animates open/closed. Observe
+  // the wrapper and nudge the calendar to re-measure.
+  const calRef = useRef<FullCalendar | null>(null);
+  const roRef = useRef<ResizeObserver | null>(null);
+  const observeWrap = useCallback((el: HTMLDivElement | null) => {
+    roRef.current?.disconnect();
+    roRef.current = null;
+    if (el) {
+      roRef.current = new ResizeObserver(() =>
+        requestAnimationFrame(() => calRef.current?.getApi().updateSize()),
+      );
+      roRef.current.observe(el);
+    }
+  }, []);
+
+  const conflictIds = useMemo(() => conflictingCourseIds(items), [items]);
+  const events = useMemo(
+    () => (finalsMode ? buildFinalsEvents(items) : buildRegularEvents(items)),
+    [items, finalsMode],
+  );
+
+  function toggleHighlight(courseId: string) {
+    setHighlightId(prev => (prev === courseId ? null : courseId));
+  }
+
+  function handleEventClick(arg: EventClickArg) {
+    toggleHighlight((arg.event.extendedProps as PlannerEventProps).courseId);
+  }
+
+  if (items.length === 0) {
+    return (
+      <div className="h-[calc(100vh-88px)] flex items-center justify-center px-4">
+        <div className="text-center max-w-xs border border-[#c0c0c0] bg-white px-8 py-10"
+          style={{ boxShadow: "4px 4px 0 #c9cede" }}>
+          <CalendarX2 className="w-10 h-10 mx-auto" style={{ color: "#6261c0" }} />
+          <h3 className="mt-4 font-bold" style={{ color: "#0b4a67" }}>Nothing scheduled yet</h3>
+          <p className="mt-1.5 text-xs text-gray-500 leading-relaxed">
+            Find a course and click ADD — every section you pick lands on this calendar.
+          </p>
+          {onBrowse && (
+            <button onClick={onBrowse}
+              className="mt-5 inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-bold text-white transition-colors hover:brightness-110"
+              style={{ backgroundColor: "#0b4a67", border: "1px solid #083a52" }}>
+              <Search className="w-3.5 h-3.5" /> Browse courses
+            </button>
+          )}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex h-[calc(100vh-88px)]">
-      <aside className="w-60 flex-shrink-0 border-r border-[#c0c0c0] bg-[#f5f5fa] flex flex-col">
+      {/* ── Sidebar: planned courses ── */}
+      <aside className="w-64 flex-shrink-0 border-r border-[#c0c0c0] bg-[#f5f5fa] flex flex-col">
         <div className="px-3 py-2 border-b border-[#c0c0c0]" style={{ backgroundColor: "#6261c0" }}>
-          <h3 className="font-bold text-white text-xs">PLANNED COURSES</h3>
+          <h3 className="font-bold text-white text-xs tracking-wide">PLANNED COURSES</h3>
           <p className="text-white opacity-70 text-[10px]">{items.length} course{items.length !== 1 ? "s" : ""}</p>
         </div>
-        <div className="flex-1 overflow-y-auto p-2 space-y-1">
-          {items.length === 0
-            ? <p className="text-xs text-gray-500 text-center py-6">No courses added yet.<br />Search and click ADD.</p>
-            : items.map(({ course, section }) => (
-              <div key={course.id} className="flex items-center gap-2 px-2 py-1.5 border border-[#c0c0c0] bg-white text-xs">
-                <div className="w-2 min-h-[28px] flex-shrink-0 rounded-sm self-stretch" style={{ backgroundColor: course.color }} />
-                <div className="flex-1 min-w-0">
-                  <p className="font-mono font-bold text-[0.846rem]">{course.code} – {section.id}</p>
+        <div className="flex-1 overflow-y-auto p-2 space-y-1.5">
+          {items.map(({ course, section }) => {
+            const highlighted = highlightId === course.id;
+            const conflict = conflictIds.has(course.id);
+            return (
+              <div key={course.id} onClick={() => toggleHighlight(course.id)}
+                className="w-full text-left flex items-stretch gap-2 px-2 py-1.5 border bg-white text-xs cursor-pointer transition-shadow"
+                style={{
+                  borderColor: highlighted ? "#0b4a67" : "#c0c0c0",
+                  boxShadow: highlighted ? "0 0 0 2px #f5c842" : "none",
+                }}>
+                <div className="w-2 flex-shrink-0 rounded-sm" style={{ backgroundColor: course.color }} />
+                <div className="flex-1 min-w-0 py-0.5">
+                  <div className="flex items-center gap-1.5">
+                    <p className="font-mono font-bold text-[0.846rem]">{course.code} – {section.id}</p>
+                    {conflict && (
+                      <span className="text-[0.577rem] font-bold px-1 py-px leading-tight flex-shrink-0"
+                        style={{ backgroundColor: "#cc0000", color: "#fff" }}>
+                        CONFLICT
+                      </span>
+                    )}
+                  </div>
                   <p className="text-[0.769rem] text-gray-500 truncate">{section.instructor}</p>
+                  <div className="mt-0.5 space-y-px">
+                    {section.meetings.map((m, i) => (
+                      <p key={i} className="text-[0.692rem] text-gray-400 font-mono truncate">
+                        {m.type} · {m.days.join("")} · {fmt(m.start)}–{fmt(m.end)}
+                      </p>
+                    ))}
+                  </div>
                 </div>
-                <button onClick={() => onRemove(course.id)} className="text-gray-400 hover:text-red-600 transition-colors">
+                <button aria-label={`Remove ${course.code}`}
+                  onClick={e => { e.stopPropagation(); onRemove(course.id); }}
+                  className="self-center p-0.5 text-gray-400 hover:text-red-600 transition-colors">
                   <X className="w-3.5 h-3.5" />
                 </button>
               </div>
-            ))
-          }
+            );
+          })}
         </div>
-        {items.length > 0 && (
-          <div className="p-2 border-t border-[#c0c0c0] space-y-1.5">
-            <button className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold"
-              style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
-              <Download className="w-3.5 h-3.5 text-[#333]" /><span className="text-[#333]">Export ICS</span>
-            </button>
-            <button onClick={() => items.forEach(i => onRemove(i.course.id))}
-              className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold border border-[#c0c0c0] bg-white text-gray-700 hover:bg-gray-50">
-              <Trash2 className="w-3.5 h-3.5" /> Clear All
-            </button>
-          </div>
-        )}
+        <div className="p-2 border-t border-[#c0c0c0] space-y-1.5">
+          <button
+            onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
+            className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold"
+            style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
+            <Download className="w-3.5 h-3.5 text-[#333]" /><span className="text-[#333]">Export ICS</span>
+          </button>
+          <button onClick={() => items.forEach(i => onRemove(i.course.id))}
+            className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold border border-[#c0c0c0] bg-white text-gray-700 hover:bg-gray-50">
+            <Trash2 className="w-3.5 h-3.5" /> Clear All
+          </button>
+        </div>
       </aside>
 
-      <div className="flex-1 overflow-auto">
-        {/* Week toggle */}
-        <div className="sticky top-0 z-10 border-b border-[#c0c0c0] bg-[#ececfa] flex items-stretch">
-          <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0] flex items-center justify-center">
-            <div className="flex flex-col gap-px">
-              <button onClick={() => setFinalsMode(false)}
-                className="text-[0.615rem] font-bold px-1.5 py-0.5 transition-colors"
-                style={{ backgroundColor: !finalsMode ? "#0b4a67" : "#dde1ec", color: !finalsMode ? "#fff" : "#4a5875" }}>
-                REG
-              </button>
-              <button onClick={() => setFinalsMode(true)}
-                className="text-[0.615rem] font-bold px-1.5 py-0.5 transition-colors"
-                style={{ backgroundColor: finalsMode ? "#6261c0" : "#dde1ec", color: finalsMode ? "#fff" : "#4a5875" }}>
-                FIN
-              </button>
-            </div>
+      {/* ── Calendar column ── */}
+      <div className="flex-1 flex flex-col min-w-0">
+        {/* Toolbar */}
+        <div className="flex-shrink-0 flex items-center gap-3 px-3 py-2 border-b border-[#c0c0c0] bg-[#ececfa]">
+          <div className="flex" style={{ border: "1px solid #0b4a67" }}>
+            <button onClick={() => setFinalsMode(false)}
+              className="px-3 py-1 text-[0.692rem] font-bold transition-colors"
+              style={{ backgroundColor: !finalsMode ? "#0b4a67" : "#fff", color: !finalsMode ? "#fff" : "#0b4a67" }}>
+              WEEKLY
+            </button>
+            <button onClick={() => setFinalsMode(true)}
+              className="px-3 py-1 text-[0.692rem] font-bold transition-colors border-l"
+              style={{
+                backgroundColor: finalsMode ? "#6261c0" : "#fff",
+                color: finalsMode ? "#fff" : "#0b4a67",
+                borderColor: "#0b4a67",
+              }}>
+              FINALS
+            </button>
           </div>
-          {finalsMode ? (
-            <div className="flex-1 grid" style={{ gridTemplateColumns: `repeat(6, 1fr)` }}>
-              {FINALS_COLS.map((d, i) => (
-                <div key={i} className="py-1.5 px-1 text-center text-[0.769rem] font-bold border-r border-[#c0c0c0] last:border-r-0 leading-tight" style={{ color: "#6261c0" }}>
-                  {d.split(" ").map((p, j) => <div key={j}>{p}</div>)}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="flex-1 grid grid-cols-5">
-              {DAY_LABELS.map(d => (
-                <div key={d} className="py-1.5 text-center text-xs font-bold border-r border-[#c0c0c0] last:border-r-0" style={{ color: "#0b4a67" }}>{d}</div>
-              ))}
-            </div>
+          {finalsMode && (
+            <span className="text-[0.692rem] font-bold tracking-wide" style={{ color: "#6261c0" }}>
+              FINALS WEEK · JUN 9 – JUN 14
+            </span>
           )}
+          <div className="ml-auto flex items-center gap-3 text-[0.692rem] text-gray-600">
+            <span><b>{items.length}</b> course{items.length !== 1 ? "s" : ""} planned</span>
+            {conflictIds.size > 0 && (
+              <span className="flex items-center gap-1 font-bold" style={{ color: "#cc0000" }}>
+                <AlertTriangle className="w-3 h-3" />
+                {conflictIds.size} time conflict{conflictIds.size !== 1 ? "s" : ""}
+              </span>
+            )}
+          </div>
         </div>
 
-        {/* Calendar body */}
-        <div className="flex">
-          <div className="w-14 flex-shrink-0 border-r border-[#c0c0c0]">
-            {hours.map(h => (
-              <div key={h} style={{ height: HOUR_H }} className="relative border-b border-[#e0e0e0]">
-                <span className="absolute right-1.5 top-0 text-[0.692rem] text-gray-400 font-mono">{fmt(h)}</span>
-              </div>
-            ))}
-          </div>
-
-          {finalsMode ? (
-            /* ── Finals week grid (6 cols) ── */
-            <div className="flex-1 grid" style={{ gridTemplateColumns: `repeat(6, 1fr)`, height: hours.length * HOUR_H }}>
-              {FINALS_COLS.map((_, colIdx) => (
-                <div key={colIdx} className="relative border-r border-[#c0c0c0] last:border-r-0">
-                  {hours.map((_, hi) => <div key={hi} className="absolute inset-x-0 border-b border-[#e8e8e8]" style={{ top: hi * HOUR_H }} />)}
-                  {finalsItems
-                    .filter(({ fi }) => fi!.colIdx === colIdx)
-                    .map(({ course, section, fi }, i) => {
-                      const lec = section.meetings.find(m => m.type === "LE");
-                      const top = (fi!.startH - START) * HOUR_H + 1;
-                      const h   = (fi!.endH - fi!.startH) * HOUR_H - 2;
-                      return (
-                        <div key={i} className="absolute inset-x-0.5 text-white text-[0.769rem] overflow-hidden border border-white/30 px-1.5 py-1"
-                          style={{ top, height: h, backgroundColor: course.color }}>
-                          <div className="font-mono font-bold leading-tight">{course.code}</div>
-                          <div className="opacity-90 font-bold text-[0.692rem] leading-tight">FINAL</div>
-                          <div className="opacity-75 leading-tight text-[0.692rem]">{lec?.room ?? "TBD"}</div>
-                          <div className="opacity-75 leading-tight text-[0.692rem]">{fmt(fi!.startH)}–{fmt(fi!.endH)}</div>
-                        </div>
-                      );
-                    })}
-                </div>
-              ))}
-            </div>
-          ) : (
-            /* ── Regular week grid (5 cols) ── */
-            <div className="flex-1 grid grid-cols-5" style={{ height: hours.length * HOUR_H }}>
-              {DAY_CODES.map(dc => (
-                <div key={dc} className="relative border-r border-[#c0c0c0] last:border-r-0">
-                  {hours.map((_, hi) => <div key={hi} className="absolute inset-x-0 border-b border-[#e8e8e8]" style={{ top: hi * HOUR_H }} />)}
-                  {items.flatMap(({ course, section }) =>
-                    section.meetings.filter(m => m.days.includes(dc)).map(m => {
-                      const top = (m.start - START) * HOUR_H + 1;
-                      const h = (m.end - m.start) * HOUR_H - 2;
-                      return (
-                        <div key={`${course.id}-${section.id}-${m.type}`}
-                          className="absolute inset-x-0.5 text-white text-[0.769rem] overflow-hidden border border-white/30 px-1 py-0.5"
-                          style={{ top, height: h, backgroundColor: course.color }}>
-                          <div className="font-mono font-bold leading-tight">{course.code}</div>
-                          <div className="opacity-80 leading-tight">{m.type} · {m.room}</div>
-                        </div>
-                      );
-                    })
-                  )}
-                </div>
-              ))}
-            </div>
-          )}
+        {/* FullCalendar */}
+        <div ref={observeWrap} className={`flex-1 min-h-0 bg-white ${finalsMode ? "planner-finals" : ""}`}>
+          <FullCalendar
+            ref={calRef}
+            key={finalsMode ? "fin" : "reg"}
+            plugins={[timeGridPlugin]}
+            initialView="timeGridWeek"
+            initialDate={finalsMode ? FIN_INITIAL_DATE : REG_INITIAL_DATE}
+            headerToolbar={false}
+            firstDay={1}
+            hiddenDays={finalsMode ? [0] : [0, 6]}
+            allDaySlot={false}
+            slotMinTime="08:00:00"
+            slotMaxTime="21:00:00"
+            slotDuration="01:00:00"
+            slotLabelContent={arg => fmt(arg.date.getHours())}
+            dayHeaderFormat={finalsMode
+              ? { weekday: "short", month: "short", day: "numeric", omitCommas: true }
+              : { weekday: "short" }}
+            expandRows
+            height="100%"
+            nowIndicator={false}
+            displayEventTime={false}
+            slotEventOverlap={false}
+            events={events}
+            eventContent={renderEvent}
+            eventClassNames={arg =>
+              highlightId && (arg.event.extendedProps as PlannerEventProps).courseId !== highlightId
+                ? ["planner-ev-dim"]
+                : []
+            }
+            eventClick={handleEventClick}
+          />
         </div>
       </div>
     </div>
