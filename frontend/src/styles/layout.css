@@ -4,7 +4,7 @@
    real values on notched mobile devices (requires viewport-fit=cover). */
 
 :root {
-  --app-max-width: 1760px;
+  --app-max-width: 2560px;
   --safe-area-left:   env(safe-area-inset-left, 0px);
   --safe-area-right:  env(safe-area-inset-right, 0px);
   --safe-area-bottom: env(safe-area-inset-bottom, 0px);
