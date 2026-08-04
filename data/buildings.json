@@ -1,0 +1,994 @@
+{
+  "_meta": {
+    "generated": "2026-08-04T04:23:05+00:00",
+    "collection": "fa26",
+    "tss_buildings": 71,
+    "matched": 71,
+    "sources": {
+      "locations": "MongoDB meeting locations scraped by tss_scraper",
+      "gis": "https://admin-enterprise-gis.ucsd.edu/server/rest/services/AdministrationServices/Buildings_Public/MapServer/0/query",
+      "codes": "https://registrar.ucsd.edu/StudentLink/bldg_codes.html"
+    }
+  },
+  "buildings": {
+    "64 Degrees (Revelle Commons)": {
+      "abbr": "RVCOM",
+      "name": "64 Degrees",
+      "lat": 32.87468291,
+      "lng": -117.24228591,
+      "address": "9249 Scholars Drive South",
+      "aliases": [
+        "64 Degrees",
+        "Plaza Cafe",
+        "Revelle College Commons",
+        "Revelle Commons",
+        "Revelle Plaza Cafe"
+      ],
+      "match": "exact"
+    },
+    "Applied Physics and Mathematics": {
+      "abbr": "APM",
+      "name": "Applied Physics and Mathematics",
+      "lat": 32.87900841,
+      "lng": -117.24134634,
+      "address": "2985 Muir Lane",
+      "aliases": [
+        "Applied Physics and Mathematics",
+        "APM",
+        "AP&M"
+      ],
+      "match": "exact"
+    },
+    "Asante House": {
+      "abbr": "ASANT",
+      "name": "Asante House Meeting Rooms",
+      "lat": 32.88408158,
+      "lng": -117.24210406,
+      "address": "9820 International Lane",
+      "aliases": [
+        "Asante House Meeting Rooms",
+        "Asante Meeting",
+        "ASANT",
+        "ERC Asante House Meeting Rooms"
+      ],
+      "match": "override"
+    },
+    "Biology Building": {
+      "abbr": "BIO",
+      "name": "Biology Building",
+      "lat": 32.87845281,
+      "lng": -117.24103429,
+      "address": "2990 Scholars Lane",
+      "aliases": [
+        "Biology Building",
+        "M2B",
+        "Muir Biology Building"
+      ],
+      "match": "exact"
+    },
+    "Biomedical Research Facility II": {
+      "abbr": "BRF II",
+      "name": "Israni Biomedical Research Facility",
+      "lat": 32.87427525,
+      "lng": -117.23503785,
+      "address": "3147 Biomedical Sciences Way",
+      "aliases": [
+        "Israni Biomedical Research Facility",
+        "Israni Biomedical Research Facility",
+        "Lata and Ashok Israni Biomedical Research Facility",
+        "Israni BRF",
+        "BRF II"
+      ],
+      "match": "override"
+    },
+    "Biomedical Sciences Building": {
+      "abbr": "BSB",
+      "name": "Biomedical Sciences Building",
+      "lat": 32.87551529,
+      "lng": -117.23694969,
+      "address": "3120 Biomedical Sciences Way",
+      "aliases": [
+        "Biomedical Sciences Building",
+        "BSB",
+        "Basic Sciences Building",
+        "Biomedical Library Building, Biomedical Sciences and",
+        "Biomedical Sciences and Library Building",
+        "Library Building, Biomedical Sciences and"
+      ],
+      "match": "exact"
+    },
+    "Bonner Hall": {
+      "abbr": "BONN",
+      "name": "Bonner Hall",
+      "lat": 32.87612374,
+      "lng": -117.24037583,
+      "address": "9300 Eucalyptus Grove Lane",
+      "aliases": [
+        "Bonner Hall"
+      ],
+      "match": "exact"
+    },
+    "Brian C. Malk Hall": {
+      "abbr": null,
+      "name": "Brian C. Malk Hall",
+      "lat": 32.88310731,
+      "lng": -117.24033157,
+      "address": "3005 Voigt Drive",
+      "aliases": [
+        "Brian C. Malk Hall",
+        "Malk Hall"
+      ],
+      "match": "exact"
+    },
+    "Catalyst": {
+      "abbr": "CTL",
+      "name": "Catalyst",
+      "lat": 32.88071341,
+      "lng": -117.24162136,
+      "address": "9685 Scholars Drive North",
+      "aliases": [
+        "Catalyst",
+        "NTPLL - Catalyst"
+      ],
+      "match": "exact"
+    },
+    "Center Hall": {
+      "abbr": "CENTR",
+      "name": "Center Hall",
+      "lat": 32.87804446,
+      "lng": -117.23685611,
+      "address": "9448 Gilman Drive",
+      "aliases": [
+        "Center Hall",
+        "CENTR"
+      ],
+      "match": "exact"
+    },
+    "Center for Neural Circuits and Behavior": {
+      "abbr": "CNCB",
+      "name": "Center for Neural Circuits and Behavior",
+      "lat": 32.87553145,
+      "lng": -117.23836769,
+      "address": "9375 Gilman Drive",
+      "aliases": [
+        "Center for Neural Circuits and Behavior",
+        "CNCB",
+        "Center for Molecular Genetics",
+        "Center for Molecular Genetics Building",
+        "CMG Building",
+        "MBRF I",
+        "Molecular Biology Research Facility",
+        "Neural Circuits and Behavior,"
+      ],
+      "match": "exact"
+    },
+    "Coalition Building": {
+      "abbr": null,
+      "name": "Coalition",
+      "lat": 32.88188612,
+      "lng": -117.23977972,
+      "address": "3015 Voigt Drive",
+      "aliases": [
+        "Coalition"
+      ],
+      "match": "override"
+    },
+    "Cognitive Science Building": {
+      "abbr": "CSB",
+      "name": "Cognitive Science Building",
+      "lat": 32.88047849,
+      "lng": -117.23959748,
+      "address": "3047 Exploration Drive",
+      "aliases": [
+        "Cognitive Science Building",
+        "Cognitive Science",
+        "CSB"
+      ],
+      "match": "exact"
+    },
+    "Communication Building": {
+      "abbr": "MCC",
+      "name": "Communication Building",
+      "lat": 32.88148147,
+      "lng": -117.24024496,
+      "address": "3010 Exploration Drive",
+      "aliases": [
+        "Communication Building",
+        "Communication",
+        "MCC (Media Center and Communication)",
+        "Media Center and Communication"
+      ],
+      "match": "exact"
+    },
+    "Computer Science and Engineering Buildin": {
+      "abbr": "CSE",
+      "name": "Computer Science and Engineering Building",
+      "lat": 32.88187245,
+      "lng": -117.23347656,
+      "address": "3235 Voigt Drive",
+      "aliases": [
+        "Computer Science and Engineering Building",
+        "CSE",
+        "CSE Building",
+        "EBU-3B",
+        "EBU3B",
+        "Engineering Building Unit III-B"
+      ],
+      "match": "prefix"
+    },
+    "Conrad Prebys Music Center": {
+      "abbr": "CPMC",
+      "name": "Conrad Prebys Music Center",
+      "lat": 32.87803262,
+      "lng": -117.23465882,
+      "address": "9410 Russell Lane",
+      "aliases": [
+        "Conrad Prebys Music Center",
+        "Prebys Music Center",
+        "CPMC",
+        "Music Center, Conrad Prebys"
+      ],
+      "match": "exact"
+    },
+    "Design and Innovation Building": {
+      "abbr": "DIB",
+      "name": "Design and Innovation Building",
+      "lat": 32.87938291,
+      "lng": -117.23229289,
+      "address": "9510 Innovation Lane",
+      "aliases": [
+        "Design and Innovation Building",
+        "Engineering 2, Structural Materials and",
+        "Materials and Engineering 2, Structural",
+        "SME2",
+        "Structural Materials and Engineering 2"
+      ],
+      "match": "exact"
+    },
+    "ERC Administration South": {
+      "abbr": "ERCA",
+      "name": "ERC Administration South",
+      "lat": 32.88611108,
+      "lng": -117.24201178,
+      "address": "10007 Scholars Drive North",
+      "aliases": [
+        "ERC Administration South",
+        "Administration South",
+        "ERC Admin S",
+        "Administration South, ERC"
+      ],
+      "match": "exact"
+    },
+    "Eckart Building": {
+      "abbr": "ECKRT",
+      "name": "Eckart Building",
+      "lat": 32.86721854,
+      "lng": -117.2525245,
+      "address": "8755 Biological Grade",
+      "aliases": [
+        "Eckart Building",
+        "Carl H. Eckart Building",
+        "Library - SIO",
+        "SIO Library"
+      ],
+      "match": "exact"
+    },
+    "Engineering Building Unit II": {
+      "abbr": "EBU2",
+      "name": "Engineering Building Unit II",
+      "lat": 32.8811607,
+      "lng": -117.23302272,
+      "address": "3245 Voigt Drive",
+      "aliases": [
+        "Engineering Building Unit II",
+        "EBU2",
+        "EBU-2"
+      ],
+      "match": "exact"
+    },
+    "Extended Studies and Public Programs - G": {
+      "abbr": "UNEX",
+      "name": "Extended Studies and Public Programs - Building G",
+      "lat": 32.88227893,
+      "lng": -117.24352821,
+      "address": "9750 Scholars Drive North",
+      "aliases": [
+        "Extended Studies and Public Programs - Building G",
+        "Building G",
+        "Extended Studies and Public Programs - Building G Replacement",
+        "ESPP - Building G",
+        "Building G - Extended Studies and Public Programs",
+        "UCSD Extension Complex - Building G",
+        "University E ..."
+      ],
+      "match": "exact"
+    },
+    "Extended Studies and Public Programs - N": {
+      "abbr": "UNEX",
+      "name": "Extended Studies and Public Programs - Building N",
+      "lat": 32.88255053,
+      "lng": -117.2435264,
+      "address": "9760 Scholars Drive North",
+      "aliases": [
+        "Extended Studies and Public Programs - Building N",
+        "Building N",
+        "ESPP - Building N",
+        "Building N - Extended Studies and Public Programs",
+        "UCSD Extension Complex - Building N",
+        "University Extension - Building N"
+      ],
+      "match": "exact"
+    },
+    "Franklin Antonio Hall": {
+      "abbr": "FAH",
+      "name": "Franklin Antonio Hall",
+      "lat": 32.88350079,
+      "lng": -117.23482442,
+      "address": "3180 Voigt Drive",
+      "aliases": [
+        "Franklin Antonio Hall",
+        "Engineering Building, Interdisciplinary",
+        "Interdisciplinary Engineering Building"
+      ],
+      "match": "exact"
+    },
+    "Fred N. Spiess Hall": {
+      "abbr": "SPIES",
+      "name": "Fred N. Spiess Hall",
+      "lat": 32.86907392,
+      "lng": -117.25098297,
+      "address": "8820 Shellback Way",
+      "aliases": [
+        "Fred N. Spiess Hall",
+        "Spiess Hall",
+        "Nierenberg Annex (now Spiess Hall)",
+        "NTV (now Spiess Hall)",
+        "Spiess Hall, Fred N."
+      ],
+      "match": "exact"
+    },
+    "Galbraith Hall": {
+      "abbr": "GH",
+      "name": "Galbraith Hall",
+      "lat": 32.87382905,
+      "lng": -117.24092246,
+      "address": "2980 Theatre District Drive",
+      "aliases": [
+        "Galbraith Hall",
+        "GH",
+        "Library - Galbraith"
+      ],
+      "match": "exact"
+    },
+    "Gildred Latin American Studies Building": {
+      "abbr": "LASB",
+      "name": "Gildred Latin American Studies Building",
+      "lat": 32.88556556,
+      "lng": -117.24134022,
+      "address": "9955 International Lane",
+      "aliases": [
+        "Gildred Latin American Studies Building",
+        "Gildred Lat Amer Studies",
+        "Institute of the Americas, Latin American Studies Building",
+        "Latin American Studies Building, Gildred"
+      ],
+      "match": "exact"
+    },
+    "Halicioglu Data Science Institute": {
+      "abbr": "HDSI",
+      "name": "Halicioglu Data Science Institute",
+      "lat": 32.88055553,
+      "lng": -117.23380963,
+      "address": "3234 Matthews Lane",
+      "aliases": [
+        "Halicioglu Data Science Institute",
+        "HDSI",
+        "Instruction and Research Facility 3000"
+      ],
+      "match": "exact"
+    },
+    "Hubbs Hall": {
+      "abbr": "HUBBS",
+      "name": "Hubbs Hall",
+      "lat": 32.86742937,
+      "lng": -117.25339921,
+      "address": "8750 Biological Grade",
+      "aliases": [
+        "Hubbs Hall",
+        "Marine Biology Building"
+      ],
+      "match": "exact"
+    },
+    "Humanities and Social Sciences": {
+      "abbr": "HSS",
+      "name": "Humanities and Social Sciences",
+      "lat": 32.87850947,
+      "lng": -117.24166652,
+      "address": "2970 Scholars Lane",
+      "aliases": [
+        "Humanities and Social Sciences",
+        "HSS"
+      ],
+      "match": "exact"
+    },
+    "IGPP - Munk Laboratory": {
+      "abbr": "IGPP",
+      "name": "IGPP - Munk Laboratory",
+      "lat": 32.86831279,
+      "lng": -117.25302224,
+      "address": "8800 Biological Grade",
+      "aliases": [
+        "IGPP - Munk Laboratory",
+        "Munk Laboratory",
+        "IGPP - Munk",
+        "IGPP - Munk Lab"
+      ],
+      "match": "exact"
+    },
+    "Jacobs Hall (EBU1)": {
+      "abbr": "EBU1",
+      "name": "Jacobs Hall",
+      "lat": 32.88165733,
+      "lng": -117.23527575,
+      "address": "9736 Engineers Lane",
+      "aliases": [
+        "Jacobs Hall",
+        "Irwin Mark and Joan Klein Jacobs Engineering Hall",
+        "EBU-1",
+        "EBU1",
+        "Engineering Building Unit I"
+      ],
+      "match": "exact"
+    },
+    "Ledden Auditorium": {
+      "abbr": "LEDDN AUD",
+      "name": "Humanities and Social Sciences",
+      "lat": 32.87850947,
+      "lng": -117.24166652,
+      "address": "2970 Scholars Lane",
+      "aliases": [
+        "Humanities and Social Sciences",
+        "HSS"
+      ],
+      "match": "override"
+    },
+    "Leichtag Biomedical Research Building": {
+      "abbr": "LFFB",
+      "name": "Leichtag Family Foundation Biomedical Research Building",
+      "lat": 32.87665306,
+      "lng": -117.2368605,
+      "address": "9461 Gilman Drive",
+      "aliases": [
+        "Leichtag Family Foundation Biomedical Research Building",
+        "Leichtag",
+        "Biomedical Research Building, Leichtag Family Foundation",
+        "Research Facility, School of Medicine",
+        "School of Medicine Research Building",
+        "SMuRF",
+        "SOM Research Facility",
+        "SoMRF"
+      ],
+      "match": "override"
+    },
+    "MCTF - Marine Conservation and Technolog": {
+      "abbr": "MCTF",
+      "name": "Marine Conservation and Technology Facility",
+      "lat": 32.87099592,
+      "lng": -117.25212536,
+      "address": "8890 Biological Grade",
+      "aliases": [
+        "Marine Conservation and Technology Facility",
+        "Marine Conservation and Technology",
+        "Building D, Scripps",
+        "Conservation Facility, Marine",
+        "MCTF",
+        "Scripps Building D",
+        "Scripps Marine Conservation Facility",
+        "SIO Building D",
+        "SWFC Building D"
+      ],
+      "match": "override"
+    },
+    "Mandell Weiss": {
+      "abbr": "MWEIS",
+      "name": "Mandell Weiss Theatre",
+      "lat": 32.8710228,
+      "lng": -117.24128419,
+      "address": "2955 Theatre District Drive",
+      "aliases": [
+        "Mandell Weiss Theatre",
+        "Weiss Theatre, Mandell"
+      ],
+      "match": "override"
+    },
+    "Mandeville Center": {
+      "abbr": "MANDE",
+      "name": "Mandeville Center",
+      "lat": 32.87778757,
+      "lng": -117.23996688,
+      "address": "9390 Mandeville Lane",
+      "aliases": [
+        "Mandeville Center",
+        "MANDE",
+        "University Art Gallery"
+      ],
+      "match": "exact"
+    },
+    "Mandler Hall": {
+      "abbr": "MNDLR",
+      "name": "Mandler Hall",
+      "lat": 32.87929702,
+      "lng": -117.24212879,
+      "address": "2941 Muir Lane",
+      "aliases": [
+        "Mandler Hall",
+        "McGill Annex",
+        "MNDLR"
+      ],
+      "match": "exact"
+    },
+    "Mayer Hall": {
+      "abbr": "MAYER",
+      "name": "Mayer Hall",
+      "lat": 32.87533514,
+      "lng": -117.24023617,
+      "address": "9280 Eucalyptus Grove Lane",
+      "aliases": [
+        "Mayer Hall"
+      ],
+      "match": "exact"
+    },
+    "Mayer Hall Addition": {
+      "abbr": "MYR-A",
+      "name": "Mayer Hall Addition",
+      "lat": 32.87539679,
+      "lng": -117.239745,
+      "address": "9280 Eucalyptus Grove Lane",
+      "aliases": [
+        "Mayer Hall Addition",
+        "Mayer Annex",
+        "MYR-A"
+      ],
+      "match": "exact"
+    },
+    "McGill Hall": {
+      "abbr": "MCGIL",
+      "name": "McGill Hall",
+      "lat": 32.87901248,
+      "lng": -117.24204655,
+      "address": "2947 Muir Lane",
+      "aliases": [
+        "McGill Hall",
+        "MCGIL"
+      ],
+      "match": "exact"
+    },
+    "Medical Education and Telemedicine Cente": {
+      "abbr": "MET",
+      "name": "T. Denny Sanford Medical Education and Telemedicine Center",
+      "lat": 32.87519365,
+      "lng": -117.23455901,
+      "address": "3160 Biomedical Sciences Way",
+      "aliases": [
+        "T. Denny Sanford Medical Education and Telemedicine Center",
+        "Medical Education and Telemedicine",
+        "Education Facility, Telemedicine and PRIME-HEq",
+        "Med Ed",
+        "Medical Education and Telemedicine, T. Denny Sanford",
+        "MET",
+        "PRIME-HEq and Telemedicine Educati ..."
+      ],
+      "match": "override"
+    },
+    "Medical Teaching Facility": {
+      "abbr": "MTF",
+      "name": "Medical Teaching Facility",
+      "lat": 32.87558622,
+      "lng": -117.23549967,
+      "address": "9515 Gilman Drive",
+      "aliases": [
+        "Medical Teaching Facility",
+        "MTF",
+        "Teaching Facility, Medical"
+      ],
+      "match": "exact"
+    },
+    "Molli and Arthur Wagner Dance Building": {
+      "abbr": "DANCE",
+      "name": "Molli and Arthur Wagner Dance Building",
+      "lat": 32.87180577,
+      "lng": -117.24005072,
+      "address": "9155 Mandell Weiss Lane",
+      "aliases": [
+        "Molli and Arthur Wagner Dance Building",
+        "Wagner Dance Building",
+        "DANCE",
+        "Dance Studio Facility",
+        "Wagner Dance Building, Molli and Arthur"
+      ],
+      "match": "exact"
+    },
+    "Mosaic": {
+      "abbr": "MOS",
+      "name": "Mosaic",
+      "lat": 32.87993535,
+      "lng": -117.24187474,
+      "address": "9605 Scholars Drive North",
+      "aliases": [
+        "Mosaic",
+        "NTPLL - Mosaic"
+      ],
+      "match": "exact"
+    },
+    "Natural Sciences Building": {
+      "abbr": "NSB",
+      "name": "Natural Sciences Building",
+      "lat": 32.87517305,
+      "lng": -117.24274918,
+      "address": "9271 Scholars Drive South",
+      "aliases": [
+        "Natural Sciences Building",
+        "Natural Sciences",
+        "NSB"
+      ],
+      "match": "exact"
+    },
+    "Nierenberg Hall": {
+      "abbr": "NIERN",
+      "name": "Nierenberg Hall",
+      "lat": 32.86848415,
+      "lng": -117.25119683,
+      "address": "8810 Shellback Way",
+      "aliases": [
+        "Nierenberg Hall"
+      ],
+      "match": "exact"
+    },
+    "Otterson Hall": {
+      "abbr": "OTRSN",
+      "name": "Otterson Hall",
+      "lat": 32.8865712,
+      "lng": -117.24123511,
+      "address": "10057 Scholars Drive North",
+      "aliases": [
+        "Otterson Hall",
+        "Management 1, Rady School of",
+        "Rady School of Management Building One",
+        "School of Management 1, Rady"
+      ],
+      "match": "exact"
+    },
+    "Pacific Hall": {
+      "abbr": "PACIF",
+      "name": "Pacific Hall",
+      "lat": 32.875945,
+      "lng": -117.2421166,
+      "address": "9301 Scholars Drive South",
+      "aliases": [
+        "Pacific Hall"
+      ],
+      "match": "exact"
+    },
+    "Pepper Canyon Hall": {
+      "abbr": "PCYNH",
+      "name": "Pepper Canyon Hall",
+      "lat": 32.87834905,
+      "lng": -117.23373781,
+      "address": "9435 Russell Lane",
+      "aliases": [
+        "Pepper Canyon Hall",
+        "Multipurpose Building, Main Campus",
+        "PCH"
+      ],
+      "match": "exact"
+    },
+    "Peterson Hall": {
+      "abbr": "PETER",
+      "name": "Peterson Hall",
+      "lat": 32.87996903,
+      "lng": -117.24022413,
+      "address": "3000 Muir Lane",
+      "aliases": [
+        "Peterson Hall",
+        "Robert O. Peterson Hall"
+      ],
+      "match": "exact"
+    },
+    "Podemos": {
+      "abbr": null,
+      "name": "Podemos",
+      "lat": 32.87323102,
+      "lng": -117.24172904,
+      "address": "9185 Scholars Drive South",
+      "aliases": [
+        "Podemos",
+        "TDLL Building 5"
+      ],
+      "match": "exact"
+    },
+    "Powell-Focht Bioengineering Hall (EBU3A)": {
+      "abbr": "PFBH",
+      "name": "Powell-Focht Bioengineering Hall",
+      "lat": 32.88161991,
+      "lng": -117.2343561,
+      "address": "3223 Voigt Drive",
+      "aliases": [
+        "Powell-Focht Bioengineering Hall",
+        "Powell-Focht Bioengineering",
+        "Bioengineering Hall, Powell-Focht",
+        "EBU-3A",
+        "EBU3A",
+        "Engineering Building Unit III-A",
+        "PFBH"
+      ],
+      "match": "exact"
+    },
+    "Price Center East": {
+      "abbr": "PRICE",
+      "name": "Price Center East Expansion",
+      "lat": 32.87978182,
+      "lng": -117.23596562,
+      "address": "3151 Matthews Lane",
+      "aliases": [
+        "Price Center East Expansion",
+        "Price East",
+        "East Expansion, Price Center",
+        "University Center Expansion and Renovation - Price Center East"
+      ],
+      "match": "prefix"
+    },
+    "Ridgewalk Academic Complex": {
+      "abbr": "RWAC",
+      "name": "Ridge Walk Academic Building",
+      "lat": 32.88041682,
+      "lng": -117.24094578,
+      "address": "9625 Scholars Drive North",
+      "aliases": [
+        "Ridge Walk Academic Building",
+        "NTPLL - Ridge Walk",
+        "Arts and Humanities",
+        "Ridgewalk",
+        "RWAC",
+        "Social Sciences Public Engagement"
+      ],
+      "match": "override"
+    },
+    "Robinson Building 1": {
+      "abbr": "RBC",
+      "name": "Robinson Building 1 - Administration",
+      "lat": 32.88460497,
+      "lng": -117.24109642,
+      "address": "9835 International Lane",
+      "aliases": [
+        "Robinson Building 1 - Administration",
+        "Administration",
+        "Robinson 1",
+        "Int'l Relations and Pacific Studies - Administration",
+        "Robinson Building 4"
+      ],
+      "match": "prefix"
+    },
+    "Science and Engineering Research Facilit": {
+      "abbr": "SERF",
+      "name": "Science and Engineering Research Facility",
+      "lat": 32.87961189,
+      "lng": -117.23502842,
+      "address": "3183 Matthews Lane",
+      "aliases": [
+        "Science and Engineering Research Facility",
+        "SERF",
+        "Engineering Research Facility, Science and",
+        "Research Facility, Science and Engineering"
+      ],
+      "match": "prefix"
+    },
+    "Skaggs Pharmaceutical Sciences Building": {
+      "abbr": "PSB",
+      "name": "Skaggs Pharmaceutical Sciences Building",
+      "lat": 32.87421703,
+      "lng": -117.23570724,
+      "address": "9255 Pharmacy Lane",
+      "aliases": [
+        "Skaggs Pharmaceutical Sciences Building",
+        "Pharmaceutical",
+        "Pharmaceutical Sciences Building",
+        "PSB",
+        "Sciences Building - Pharmaceutical"
+      ],
+      "match": "exact"
+    },
+    "Social Sciences Building": {
+      "abbr": "SSB",
+      "name": "Social Sciences Building",
+      "lat": 32.8840375,
+      "lng": -117.24045607,
+      "address": "3000 Voigt Drive",
+      "aliases": [
+        "Social Sciences Building",
+        "SSB"
+      ],
+      "match": "exact"
+    },
+    "Social Sciences Research Building": {
+      "abbr": "CRB",
+      "name": "Social Sciences Research Building",
+      "lat": 32.88062048,
+      "lng": -117.24009795,
+      "address": "3019 Exploration Drive",
+      "aliases": [
+        "Social Sciences Research Building",
+        "SSRB",
+        "Chemistry Research Building (Social Sciences Research Building)",
+        "CRB (SSRB)",
+        "Research Building, Social Sciences"
+      ],
+      "match": "exact"
+    },
+    "Solis Hall": {
+      "abbr": "SOLIS",
+      "name": "Solis Hall",
+      "lat": 32.8809416,
+      "lng": -117.23963599,
+      "address": "3031 Exploration Drive",
+      "aliases": [
+        "Solis Hall",
+        "SOLIS"
+      ],
+      "match": "exact"
+    },
+    "Structural and Materials Engineering Bui": {
+      "abbr": "SME",
+      "name": "Structural and Materials Engineering Building",
+      "lat": 32.87982385,
+      "lng": -117.23302724,
+      "address": "3291 Voigt Drive",
+      "aliases": [
+        "Structural and Materials Engineering Building",
+        "SME",
+        "Structural and Materials Science Engineering Building"
+      ],
+      "match": "prefix"
+    },
+    "Sumner Auditorium": {
+      "abbr": null,
+      "name": "Sumner Auditorium",
+      "lat": 32.86487841,
+      "lng": -117.25292242,
+      "address": "8625 Kennel Way",
+      "aliases": [
+        "Sumner Auditorium",
+        "Sumner",
+        "8625 Discovery Way",
+        "Discovery Way, 8625"
+      ],
+      "match": "exact"
+    },
+    "Tata Hall": {
+      "abbr": "TATA",
+      "name": "Tata Hall",
+      "lat": 32.8764015,
+      "lng": -117.24154719,
+      "address": "9325 Scholars Drive South",
+      "aliases": [
+        "Tata Hall",
+        "Biological and Physical Sciences"
+      ],
+      "match": "exact"
+    },
+    "The Jeannie": {
+      "abbr": "JEANN",
+      "name": "The Jeannie",
+      "lat": 32.87991137,
+      "lng": -117.24122337,
+      "address": "9615 Scholars Drive North",
+      "aliases": [
+        "The Jeannie",
+        "Jeannie P. Rivkin Auditorium",
+        "General Academic Auditorium",
+        "NTPLL - General Academic Auditorium",
+        "NTPLL 6",
+        "Rivkin Auditorium"
+      ],
+      "match": "exact"
+    },
+    "Thomas Wayland Vaughan Hall": {
+      "abbr": "VAUGN",
+      "name": "Thomas Wayland Vaughan Hall",
+      "lat": 32.86527354,
+      "lng": -117.25297037,
+      "address": "8650 Naga Lane",
+      "aliases": [
+        "Thomas Wayland Vaughan Hall",
+        "Vaughan",
+        "8675 Discovery Way",
+        "Discovery Way, 8675",
+        "Endurance Hall",
+        "New Ritter",
+        "Ritter Replacement Facility",
+        "Vaughan Hall, T. Wayland"
+      ],
+      "match": "exact"
+    },
+    "Urey Hall": {
+      "abbr": "UREY",
+      "name": "Urey Hall",
+      "lat": 32.87555038,
+      "lng": -117.2412792,
+      "address": "9289 Scholars Drive South",
+      "aliases": [
+        "Urey Hall"
+      ],
+      "match": "exact"
+    },
+    "Visual Arts Facility Building 2": {
+      "abbr": "VAF",
+      "name": "Visual Arts Facility - Building 2",
+      "lat": 32.87910424,
+      "lng": -117.23408639,
+      "address": "9475 Russell Lane",
+      "aliases": [
+        "Visual Arts Facility - Building 2",
+        "Building 2",
+        "Vis 2",
+        "Building 2, Visual Arts Facility"
+      ],
+      "match": "exact"
+    },
+    "Warren Lecture Hall": {
+      "abbr": "WLH",
+      "name": "Warren Lecture Hall",
+      "lat": 32.88057161,
+      "lng": -117.23434527,
+      "address": "3224 Matthews Lane",
+      "aliases": [
+        "Warren Lecture Hall",
+        "Instruction and Research Facility 2000 (WLH)",
+        "WLH"
+      ],
+      "match": "exact"
+    },
+    "Warren Student Activity Center": {
+      "abbr": null,
+      "name": "Warren Student Activity Center",
+      "lat": 32.88241698,
+      "lng": -117.23328301,
+      "address": "3240 Voigt Drive",
+      "aliases": [
+        "Warren Student Activity Center",
+        "Courtroom, The",
+        "SAC, Warren",
+        "Shuttle Stop, Warren College",
+        "Student Activity Center, Warren",
+        "Warren College Activity Center"
+      ],
+      "match": "exact"
+    },
+    "Wells Fargo Hall": {
+      "abbr": "WFH",
+      "name": "Wells Fargo Hall",
+      "lat": 32.88695466,
+      "lng": -117.24174274,
+      "address": "10065 Scholars Drive North",
+      "aliases": [
+        "Wells Fargo Hall",
+        "School of Management 2, Rady",
+        "Management 2, Rady School of",
+        "Rady School of Management Building Two",
+        "WFH"
+      ],
+      "match": "exact"
+    },
+    "York Hall": {
+      "abbr": "YORK",
+      "name": "York Hall",
+      "lat": 32.87451452,
+      "lng": -117.23999987,
+      "address": "9240 Herbert York Lane",
+      "aliases": [
+        "York Hall",
+        "Undergraduate Sciences Building"
+      ],
+      "match": "exact"
+    }
+  }
+}
