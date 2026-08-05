@@ -18,7 +18,7 @@ writes to MongoDB instead of JSON files.
    `main.py`. Don't share or commit this file -- it's your login,
    and it's already gitignored.
 4. Add `MONGODB_URI` (and optionally `MONGODB_DB`) to a `.env` file at
-   the repo root. See `.env.example` at the root level
+   the repo root. See `.env.template` at the root level
 5. `pip install -r requirements.txt` (from the repo root).
 
 Sessions expire -- if a request comes back 401/403 you'll get a clear
@@ -41,6 +41,11 @@ time, so run `--titles-only` again whenever you want to refresh it.
 Both default to `--peryr 2026 --perid 2` (Fall 2026, the only
 confirmed `Perid`). Pass `--peryr`/`--perid` for other terms.
 
+The default (non-`--titles-only`) run fans courses out across
+`--workers` threads (default 5) -- keep it modest to stay polite to
+TSS. A dead/expired cookie aborts the whole run instead of burning
+through 401s on every remaining course.
+
 Re-running the default scrape is idempotent -- it upserts one document
 per course per term, keyed on `(module_id, peryr, perid)`, so it won't
 duplicate data.
@@ -59,3 +64,14 @@ duplicate data.
 Each MongoDB document also keeps the untouched raw API rows in a `raw`
 field, so a grouping/parsing bug can be fixed by reprocessing instead of
 re-scraping (re-scraping costs a live session and is rate-limited).
+
+## Tests
+
+```
+cd scrapers/tss_scraper
+pytest
+```
+
+Covers `tools/events_parser.py`, `tools/sections.py`, `tools/session.py`,
+`tools/storage.py`, `tools/titles.py`, and `main.py`'s helpers -- no live
+TSS session needed.

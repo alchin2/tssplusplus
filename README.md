@@ -16,28 +16,31 @@ Course search · live section data · prerequisite graphs · schedule planner ·
 
 On ~~7/10~~ ~~7/20~~ **7/21 8:00am PST** UCSD replaced the beloved WebReg with the new
 Triton Student System (TSS). TSS++ is a friendlier way to browse the schedule of
-classes and build your schedule — no TritonGPT required. It pairs the public course
+classes and build your schedule, no TritonGPT required. It pairs the public course
 catalog with live section/seat data, renders full transitive prerequisite trees, and
 lets you plan a conflict-free quarter you can export to any calendar app.
 
 > [!NOTE]
-> This is a work in progress. The scraper pipeline and backend API are live; the
-> frontend is fully designed and interactive but still runs on mock data — wiring it to
-> the backend is the current focus. See the [Roadmap](#roadmap).
+> This project is WIP. The prerequisite graph is built and cached server-side
+> (`GET /api/courses/{module_id}/prereqs`) but the frontend doesn't render it as an
+> interactive tree yet. See the [Roadmap](#roadmap) for more.
 
 ## Features
 
-- **Course search** — filter by department and "offered this quarter", full-text query.
+- **Course search** — filter by department and "offered this quarter", full-text query,
+  served from the backend.
 - **Course detail** — sections, meeting times, instructors, and live seat/waitlist counts.
-- **Prerequisite viewer** — full transitive prerequisite graph per course (ported from
-  [ClassGraph](https://github.com/nehalc200/classgraph)), cached in MongoDB.
-- **Schedule planner** — weekly calendar with automatic conflict detection; state lives
-  in your browser (`localStorage`), no account needed.
-- **Overview** — at-a-glance stats for your planned quarter: units, weekly hours, average
+- **Prerequisites** — raw catalog prerequisite text per course; the full transitive
+  graph (ported from [ClassGraph](https://github.com/nehalc200/classgraph)) is built and
+  cached in MongoDB by the backend, not yet rendered in the UI.
+- **Schedule planner** — a FullCalendar based weekly view with automatic conflict
+  detection; state lives in your browser (`localStorage`).
+- **Overview** — Stats for your planned quarter: units, weekly hours, average
   section fill, and a computed finals schedule.
-- **Campus map** — a Leaflet map pinning every planned course's building, with walking
-  routes between back-to-back meetings.
-- **ICS export** — export your planned schedule to a standard `.ics` file.
+- **Campus map** — a Leaflet map pinning every planned course's building, with real
+  walking routes between back-to-back meetings (proxied through OpenRouteService).
+- **ICS export** — export your planned schedule to a standard `.ics` file, anchored to
+  the real quarter dates.
 
 ## Built with
 
@@ -45,7 +48,7 @@ lets you plan a conflict-free quarter you can export to any calendar app.
 | ------------ | ----- |
 | **Scrapers** | Python 3.11+ · httpx / requests · BeautifulSoup · MongoDB |
 | **Backend**  | FastAPI · Pydantic · PyMongo · MongoDB |
-| **Frontend** | React 18 · TypeScript · Vite · Tailwind CSS v4 · Leaflet · motion |
+| **Frontend** | React 18 · TypeScript · Vite · Tailwind CSS v4 · FullCalendar · Leaflet · motion |
 
 ## Architecture
 
@@ -56,29 +59,32 @@ API, and the frontend consumes that API.
   scrapers/                 data/ + MongoDB              backend/                    frontend/
  ┌───────────────┐        ┌──────────────────┐        ┌─────────────────────┐     ┌──────────────────┐
  │ catalog_scraper│ write │ catalog/*.json    │  read  │ FastAPI service      │ API │ Vite + React app │
- │ tss_scraper    │ ────▶ │  (courses,prereqs,│ ─────▶ │  /api/courses        │────▶│  search · detail │
- │ mark_offered…  │       │   offered flag)   │        │  /api/courses/{id}   │HTTP │  prereq graph    │
- └───────────────┘        │ MongoDB (sections,│        │  /…/{id}/prereqs     │JSON │  planner · map   │
-                          │  seats, waitlist) │        └─────────────────────┘     └──────────────────┘
-                          └──────────────────┘
+ │ tss_scraper    │ ────▶ │  (courses,prereqs,│ ─────▶ │  /api/courses(/{id}) │────▶│  search · detail │
+ │ mark_offered…  │       │   offered flag)   │        │  /…/{id}/prereqs     │HTTP │  planner · map   │
+ │ build_buildings│       │  buildings.json)  │        │  /api/meta           │JSON │  overview        │
+ └───────────────┘        │ MongoDB (sections,│        │  /api/buildings      │     │  ICS export      │
+                          │  seats, waitlist) │        │  /api/route          │     └──────────────────┘
+                          └──────────────────┘        └─────────────────────┘
 ```
 
 ## Repo structure
 
 ```
 tssplusplus/
-├── scrapers/                      the scraping pipeline
-│   ├── catalog_scraper/           public catalog scraper → data/catalog/<CODE>.json
-│   ├── tss_scraper/               live TSS section/meeting scraper → data/offered/<term>.csv + MongoDB
-│   ├── mark_offered_courses.py    cross-references the two, sets offered_this_qtr in data/catalog/
-│   └── build_buildings.py         maps scraped meeting locations to UCSD GIS records → data/buildings.json
-├── data/                          scraper output — checked in, regenerated by the scrapers
-│   ├── catalog/<CODE>.json        per-department course/prereq data
+├── scrapers/                         the scraping pipeline
+│   ├── catalog_scraper/              public catalog scraper
+│   ├── tss_scraper/                  live TSS section/meeting scraper 
+│   ├── helpers/
+│       ├── mark_offered_courses.py   cross-references the two, sets offered_this_qtr in data/catalog/
+│       └── build_buildings.py        maps scraped meeting locations to UCSD GIS records → data/buildings.json
+├── data/                             
+│   ├── catalog/<CODE>.json        per-department course data
 │   ├── offered/<term>.csv         per-term list of offered courses
-│   └── buildings.json             campus buildings: abbreviation + GPS per scraped meeting location
+│   └── buildings.json             campus buildings: abbreviation + Lat/Long
 ├── backend/                       FastAPI service reading data/ + MongoDB — see backend/README.md
 ├── frontend/                      React + TypeScript web app — see frontend/README.md
-├── designdoc.md                   design notes, data model, and API contract
+├── .gitignore                   
+├── .env.template         
 └── requirements.txt               shared Python deps (scrapers + backend)
 ```
 
@@ -101,7 +107,7 @@ tssplusplus/
    ```sh
    pip install -r requirements.txt
    ```
-3. Copy `.env.template` to `.env` and add your `MONGODB_URI` (and optionally `MONGODB_DB`):
+3. Copy `.env.template` to `.env` and fill it out
    ```sh
    cp .env.template .env
    ```
@@ -116,11 +122,11 @@ tssplusplus/
 Run the pieces in order. Each has its own README with the details.
 
 ```sh
-# 1. Populate the data — see scrapers/*/README.md
-(cd scrapers/catalog_scraper && python3 main.py)   # → data/catalog/*.json
-(cd scrapers/tss_scraper && python3 main.py)       # → MongoDB sections; --workers N (default 5)
-(cd scrapers && python3 mark_offered_courses.py)   # sets offered_this_qtr
-(cd scrapers && python3 build_buildings.py)        # → data/buildings.json (needs MongoDB populated)
+# 1. Populate the data - see scrapers/README.md
+(cd scrapers/catalog_scraper && python3 main.py)   # Catalog Scraper
+(cd scrapers/tss_scraper && python3 main.py)       # TSS Scraper
+(cd scrapers && python3 mark_offered_courses.py)   
+(cd scrapers && python3 build_buildings.py)         
 
 # 2. Backend — see backend/README.md
 cd backend && uvicorn app.main:app --reload   # docs at http://localhost:8000/docs
@@ -129,20 +135,20 @@ cd backend && uvicorn app.main:app --reload   # docs at http://localhost:8000/do
 cd frontend && npm install && npm run dev      # http://localhost:5173
 ```
 
-> [!NOTE]
-> The frontend currently renders mock data (`frontend/src/data/`) and does not yet call
-> the backend, so you can run it on its own without the scrapers or MongoDB.
 
 ## API
 
-The backend exposes three course endpoints (plus `/health`). Full contract in
-[`backend/README.md`](backend/README.md).
+The backend exposes course, meta, buildings, and routing endpoints (plus `/health`).
+Full contract in [`backend/README.md`](backend/README.md).
 
 | Endpoint | Description |
 | -------- | ----------- |
 | `GET /api/courses?dept=CSE&offered=true&q=<query>` | Search/filter, returns a lightweight course list |
 | `GET /api/courses/{module_id}` | Full detail: catalog fields + live sections/meetings from MongoDB |
 | `GET /api/courses/{module_id}/prereqs` | Full transitive prerequisite graph, cached in MongoDB |
+| `GET /api/meta` | Term + catalog-wide facts: department list, course/offered counts |
+| `GET /api/buildings` | Every scraped meeting location mapped to its UCSD GIS coordinates |
+| `GET /api/route?stops=lat,lng;...` | Walking route through the given stops, via OpenRouteService |
 
 ## Roadmap
 
@@ -151,11 +157,12 @@ The backend exposes three course endpoints (plus `/health`). Full contract in
 - [x] MongoDB setup
 - [x] Initial UI/UX design
 - [x] API endpoints
-- [ ] Connect frontend to backend
-- [ ] Class search feature
-- [ ] Course planner feature
-- [ ] Prerequisite viewer feature
-- [ ] ICS export feature
+- [x] Connect frontend to backend
+- [x] Class search feature
+- [x] Course planner feature
+- [x] Campus map + walking routes
+- [x] ICS export feature
+- [ ] Interactive prerequisite viewer
 
 ## Acknowledgments
 
@@ -163,6 +170,8 @@ The backend exposes three course endpoints (plus `/health`). Full contract in
   browser that inspired this project.
 - [ClassGraph](https://github.com/nehalc200/classgraph) — the prerequisite viewer whose
   AST approach this project reuses (built with a team for DS3's WI26 Projects cohort).
+- [WebRegToICS] (https://github.com/alchin2/webreg-to-ics) - A webreg to ics converter i previously built,
+  used export code for .ics export feature
 - Shoutout Claude Code.
 
 <p align="right"><a href="#readme-top">back to top ↑</a></p>

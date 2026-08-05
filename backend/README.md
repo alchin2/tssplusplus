@@ -17,7 +17,12 @@ the scraped catalog (`data/catalog/*.json`) and per-course detail
   referenced course's own prereqs; a `visited` set (per path from the
   root, not global) stops on real cycles instead of recursing forever.
   Regenerates on every request and upserts a cached copy into the
-  `prereq_graphs` Mongo collection, keyed by course code.
+  `prereq_graphs` Mongo collection, keyed by course code. Not yet
+  consumed by the frontend -- `CourseDetailPanel` still renders the
+  raw catalog prereq text.
+- `GET /api/meta` -- term + catalog-wide facts the frontend needs
+  before any search: the department dropdown options and the home
+  page's headline counts (course count, offered-this-quarter count).
 - `GET /api/buildings` -- every building name found in scraped meeting
   locations, mapped to its UCSD GIS coordinates + display abbreviation
   (`data/buildings.json`, built by `scrapers/build_buildings.py`).
