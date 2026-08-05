@@ -1,23 +1,12 @@
 """
 Builds data/buildings.json: every building name appearing in tss_scraper's
-scraped meeting locations (MongoDB), mapped to its official UCSD record --
+scraped meeting locations (MongoDB), mapped to its official UCSD record 
 GPS coordinates, aliases, street address, and a short display abbreviation.
 
 Sources:
-- TSS meeting locations from MongoDB (tss_scraper's collection): "location"
-  fields like "Center Hall Room 105". TSS names buildings in full (no
-  abbreviations) and truncates long names at ~40 characters.
-- UCSD's public GIS "Building Points" layer (no auth required):
-  https://admin-enterprise-gis.ucsd.edu/server/rest/services/AdministrationServices/Buildings_Public/MapServer/0
-  FacilityLongName + pipe-separated BuildingAliases (which often include the
-  official short code, e.g. "Center Hall | CENTR") + Latitude/Longitude.
-- The registrar's building-code table as an abbreviation fallback for
-  buildings whose GIS aliases carry no code:
-  https://registrar.ucsd.edu/StudentLink/bldg_codes.html
-
-Matching order: manual override -> exact (normalized) -> trailing
-parenthetical stripped ("Jacobs Hall (EBU1)") -> "- G" expanded to
-"- Building G" (Extended Studies) -> truncation-aware prefix match.
+- TSS meeting locations from MongoD
+- https://admin-enterprise-gis.ucsd.edu/server/rest/services/AdministrationServices/Buildings_Public/MapServer/0
+- https://registrar.ucsd.edu/StudentLink/bldg_codes.html
 
 Requires a populated MongoDB (run tss_scraper first).
 
@@ -34,8 +23,8 @@ from pathlib import Path
 
 import requests
 
-sys.path.insert(0, str(Path(__file__).resolve().parent / "tss_scraper"))
-from tools.storage import get_collection  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tss_scraper"))
+from tss_scraper.tools.storage import get_collection  # noqa: E402
 
 GIS_QUERY_URL = (
     "https://admin-enterprise-gis.ucsd.edu/server/rest/services"

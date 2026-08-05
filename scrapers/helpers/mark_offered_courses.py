@@ -4,11 +4,9 @@ against tss_scraper's offered-this-term list (data/offered/<term>.csv),
 marking each catalog course's "offered_this_qtr" field true if it's
 actually being taught this term.
 
-The two scrapers format course codes differently -- catalog_scraper
-writes "CSE 8A" (space-separated, no zero-padding), tss_scraper writes
-"CSE-008A" (dash-separated, zero-padded) -- so codes are compared via
+The two scrapers format course codes differently. Codes are compared via
 normalize_code(), which strips the separator and any leading zeros from
-both sides down to a common "CSE8A" shape.
+both sides down to a common shape.
 
 Running it:
   python3 mark_offered_courses.py [--term fa26]
@@ -20,7 +18,7 @@ import json
 import re
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 OFFERED_DIR = PROJECT_ROOT / "data" / "offered"
 CATALOG_DIR = PROJECT_ROOT / "data" / "catalog"
 
