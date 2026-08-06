@@ -14,10 +14,12 @@ import type { PrereqNode } from "../types";
 export const GNW = 148, GNH = 44, HGAP = 18, VGAP = 82, GPAD = 32;
 export const COL_W = GNW + HGAP;
 export const MAX_D = 2, OR_PREV = 3;
-// OR-group alternatives render as an overlapping card stack (see place()) --
-// each successive alt/​"+N more" card nudges by this much so the pile reads
-// as "more underneath" without hiding the ones behind it.
-const STACK_DX = 6, STACK_DY = 8;
+// OR-group alternatives stack vertically -- one card per row -- and lean
+// toward whichever screen edge the group sits nearest, so the pile fans out
+// away from the graph's center instead of piling up in place. STACK_VY is the
+// vertical step between rows (kept below GNH so each card's labels still clear
+// the card in front); STACK_HX is the horizontal lean per row toward the edge.
+const STACK_VY = 34, STACK_HX = 40;
 type FanBias = "left" | "right" | "center";
 
 export interface GNode {
@@ -48,12 +50,15 @@ function subW(node: PrereqNode, depth: number, path: string, exp: Set<string>, o
       const alts = child.children;
       const expanded = orExp.has(groupPath) || alts.length <= OR_PREV + 1;
       const visible = expanded ? alts : alts.slice(0, OR_PREV);
-      // Alternatives stack on top of each other (see place()) rather than
-      // sitting side by side, so the group only needs as many columns as
-      // whichever single alt currently has its own prereqs fanned out --
-      // not the sum of every alt's width. The "+N more" card joins the
-      // stack too, so it costs no extra columns of its own.
-      w += Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
+      // Alternatives stack vertically (see place()) rather than sitting side
+      // by side, so the span is driven by whichever single alt has its own
+      // prereqs fanned out -- plus a few extra columns of room for the lean the
+      // stack fans across toward the edge. The "+N more" card joins the stack.
+      const hidden = alts.length - visible.length;
+      const numCards = visible.length + (hidden > 0 ? 1 : 0);
+      const altW = Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
+      const fanCols = Math.ceil(Math.max(0, numCards - 1) * STACK_HX / COL_W);
+      w += altW + fanCols;
     } else {
       w += subW(child, depth + 1, `${path}.${i}`, exp, orExp);
     }
@@ -61,31 +66,24 @@ function subW(node: PrereqNode, depth: number, path: string, exp: Set<string>, o
   return Math.max(1, w);
 }
 
-// Decides which way an OR alt's own fanned-out prereqs should grow: toward
-// whichever screen edge the group sits nearest, or centered ("downwards")
-// if the group is roughly in the middle third of the graph.
-function fanBiasFor(leftCol: number, w: number, totalW: number): FanBias {
-  if (w <= 1 || totalW <= 0) return "center";
-  const centerFrac = (leftCol + w / 2) / totalW;
-  if (centerFrac < 1 / 3) return "left";
-  if (centerFrac > 2 / 3) return "right";
-  return "center";
-}
-
 function place(
   node: PrereqNode, depth: number, leftCol: number, path: string,
   parentId: string | null, orGroupPath: string | null,
   exp: Set<string>, orExp: Set<string>, plannedCodes: Set<string>,
   nodes: GNode[], edges: GEdge[], orBoxMap: Record<string, string[]>, seq: { n: number },
-  totalW: number, fanBias: FanBias = "center", stackIndex = 0,
+  // xShift/yShift translate this node -- and, inherited unchanged, its whole
+  // subtree -- by a fixed pixel offset. OR-group cards use it to stack down and
+  // lean toward the edge; a card's prereqs hang straight down from it because
+  // they carry the same shift.
+  totalW: number, fanBias: FanBias = "center", xShift = 0, yShift = 0,
 ): void {
   const id = `n${seq.n++}`;
   const hasKids = node.children.length > 0;
   const show = hasKids && (depth < MAX_D - 1 || exp.has(node.code));
   const w = subW(node, depth, path, exp, orExp);
   const colOffset = fanBias === "left" ? w - 1 : fanBias === "right" ? 0 : (w - 1) / 2;
-  const x = GPAD + GNW / 2 + (leftCol + colOffset) * COL_W + stackIndex * STACK_DX;
-  const y = GPAD + GNH / 2 + depth * (GNH + VGAP) + stackIndex * STACK_DY;
+  const x = GPAD + GNW / 2 + (leftCol + colOffset) * COL_W + xShift;
+  const y = GPAD + GNH / 2 + depth * (GNH + VGAP) + yShift;
 
   const status: GNode["status"] = depth === 0 ? "root"
     : plannedCodes.has(node.code) ? "planned"
@@ -113,28 +111,44 @@ function place(
       const expanded = orExp.has(groupPath) || alts.length <= OR_PREV + 1;
       const visible = expanded ? alts : alts.slice(0, OR_PREV);
       const hidden = alts.length - visible.length;
+      const numCards = visible.length + (hidden > 0 ? 1 : 0);
 
-      // Every alt shares this one reserved column span and stacks in place
-      // -- only the alt an individual click has expanded needs more than a
-      // single column, for its own prereqs to fan out into.
+      // The alternatives share one reserved span: `altW` columns for whichever
+      // single alt a click has expanded (its prereqs extend straight down, like
+      // any non-grouped course), plus `fanCols` columns of room for the stack's
+      // horizontal lean toward the edge.
       const groupCol = col;
-      const groupW = Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
-      const bias = fanBiasFor(groupCol, groupW, totalW);
+      const altW = Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
+      const fanCols = Math.ceil(Math.max(0, numCards - 1) * STACK_HX / COL_W);
+      const groupW = altW + fanCols;
+
+      // Stack the cards vertically and lean the whole stack toward whichever
+      // screen edge the group sits nearest. Every card shares one base column
+      // (`stackBaseCol`) and differs only by its per-row shift, so the stack
+      // reads as one leaning column; the expanded alt's subtree hangs straight
+      // down from its card (fanBias stays "center", and it inherits the shift).
+      const centerFrac = totalW > 0 ? (groupCol + groupW / 2) / totalW : 0.5;
+      const stackDir = centerFrac < 0.5 ? -1 : 1;
+      const stackBaseCol = stackDir === 1
+        ? groupCol + (altW - 1) / 2
+        : groupCol + groupW - 1 - (altW - 1) / 2;
 
       // Placed back-to-front so the first/primary alt paints last (frontmost,
-      // smallest cascade offset) with its siblings peeking out behind it.
+      // top of the stack) with its siblings fanned out below and behind it.
       visible.slice().reverse().forEach((alt, ri) => {
         const j = visible.length - 1 - ri;
-        const altBias = exp.has(alt.code) ? bias : "center";
-        place(alt, depth + 1, groupCol, `${groupPath}.${j}`, id, groupPath, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, totalW, altBias, j);
+        const aw = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp);
+        place(alt, depth + 1, stackBaseCol - (aw - 1) / 2, `${groupPath}.${j}`, id, groupPath,
+          exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, totalW,
+          "center", xShift + stackDir * j * STACK_HX, yShift + j * STACK_VY);
       });
 
       if (hidden > 0) {
         const pid = `n${seq.n++}`;
         const par = nodes.find(n => n.id === id)!;
         const stackIdx = visible.length;
-        const px = GPAD + GNW / 2 + groupCol * COL_W + stackIdx * STACK_DX;
-        const py = GPAD + GNH / 2 + (depth + 1) * (GNH + VGAP) + stackIdx * STACK_DY;
+        const px = GPAD + GNW / 2 + stackBaseCol * COL_W + xShift + stackDir * stackIdx * STACK_HX;
+        const py = GPAD + GNH / 2 + (depth + 1) * (GNH + VGAP) + yShift + stackIdx * STACK_VY;
         nodes.push({
           id: pid, code: `+${hidden} more`, title: `${hidden} more alternative${hidden !== 1 ? "s" : ""}`,
           depth: depth + 1, x: px, y: py, isExpandable: true, isOrMore: true,
@@ -147,7 +161,7 @@ function place(
       col = groupCol + groupW;
     } else {
       const cw = subW(child, depth + 1, `${path}.${i}`, exp, orExp);
-      place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, totalW);
+      place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, totalW, "center", xShift, yShift);
       col += cw;
     }
   });
