@@ -23,13 +23,3 @@ def get_courses_collection() -> Collection:
     """The scraper writes one collection per term (e.g. "fa26"),
     keyed on module_id -- see tools/storage.py."""
     return get_client()[settings.mongodb_db][settings.term]
-
-
-def get_prereq_cache_collection() -> Collection:
-    """Cache of generated prereq graphs, keyed by course code (not
-    module_id -- prereqs are a catalog-level fact, not a per-term one).
-    Per designdoc.md's Prereq generation/caching: every /prereqs
-    request regenerates the graph and overwrites this cache, so it
-    always reflects the current catalog with no time-based expiry
-    needed -- a stale entry only exists between catalog_scraper runs."""
-    return get_client()[settings.mongodb_db]["prereq_graphs"]

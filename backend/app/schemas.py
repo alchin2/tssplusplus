@@ -18,10 +18,14 @@ class PrereqGraphNode(BaseModel):
     app/prereqs.py). `type` is "ROOT" for the single root node and
     "CHILD" for everything else, including OR-group containers (an OR
     group is a CHILD node with code=="OR" and its alternatives as
-    children) -- matching ClassGraph's to_dict() shape exactly."""
+    children) -- matching ClassGraph's to_dict() shape exactly. `name`
+    is the catalog title, joined in server-side so the frontend graph
+    doesn't need a lookup per node; null for an OR node and for a code
+    that doesn't resolve to a catalog course."""
 
     code: str
     type: str
+    name: str | None = None
     children: list["PrereqGraphNode"] = []
 
 

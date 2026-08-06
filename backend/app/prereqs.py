@@ -39,16 +39,22 @@ def _resolve_course_node(course_id: str, visited: set[str]) -> PrereqGraphNode:
     a cycle, so it's emitted as a leaf instead of being expanded again
     (mirrors ClassGraph's find_children: `if course_id in visited:
     clist.append(ChildNode(course_id, [])); continue`)."""
-    if course_id in visited:
-        return PrereqGraphNode(code=course_id, type="CHILD", children=[])
-
     course = find_by_normalized_code(course_id)
+    # Display the catalog's pretty code ("CSE 12") when resolved, not
+    # the space-less normalized lookup key -- only unresolved codes
+    # (no catalog match) fall back to the raw normalized form.
+    code = course["code"] if course else course_id
+    name = course["name"] if course else None
+
+    if course_id in visited:
+        return PrereqGraphNode(code=code, type="CHILD", name=name, children=[])
+
     items = _prereq_items(course["prerequisites"]) if course else []
     if not items:
-        return PrereqGraphNode(code=course_id, type="CHILD", children=[])
+        return PrereqGraphNode(code=code, type="CHILD", name=name, children=[])
 
     children = _build_children(items, visited | {course_id})
-    return PrereqGraphNode(code=course_id, type="CHILD", children=children)
+    return PrereqGraphNode(code=code, type="CHILD", name=name, children=children)
 
 
 def _build_children(items: list[dict], visited: set[str]) -> list[PrereqGraphNode]:
@@ -80,4 +86,4 @@ def build_prereq_tree(course: dict) -> PrereqGraphNode:
     root_code = normalize_code(course["code"])
     items = _prereq_items(course.get("prerequisites", []))
     children = _build_children(items, visited={root_code})
-    return PrereqGraphNode(code=course["code"], type="ROOT", children=children)
+    return PrereqGraphNode(code=course["code"], type="ROOT", name=course["name"], children=children)

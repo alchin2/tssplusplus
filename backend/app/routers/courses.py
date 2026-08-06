@@ -4,7 +4,7 @@ from fastapi import APIRouter, HTTPException, Query
 from pymongo.errors import PyMongoError
 
 from app.catalog import find_by_normalized_code, normalize_code, search_courses
-from app.db import get_courses_collection, get_prereq_cache_collection
+from app.db import get_courses_collection
 from app.offered import get_code_to_module_id_index, get_offered_index
 from app.prereqs import build_prereq_tree
 from app.schemas import CourseDetail, CourseSummary, Meeting, PrereqGraphNode, Section
@@ -137,16 +137,9 @@ def get_course_detail(module_id: str):
 @router.get("/{module_id}/prereqs", response_model=PrereqGraphNode)
 def get_course_prereqs(module_id: str):
     """GET /api/courses/{module_id}/prereqs -- full transitive
-    prerequisite graph (see app/prereqs.py). Builds fresh on every
-    request and upserts a cached copy into Mongo, per designdoc.md's
-    Prereq generation/caching."""
+    prerequisite graph (see app/prereqs.py). Built fresh from the local
+    catalog on every request -- cheap enough (no Mongo round trip) that
+    caching isn't worth the staleness risk."""
     catalog_course = _resolve_catalog_course(module_id)
-    tree = build_prereq_tree(catalog_course)
+    return build_prereq_tree(catalog_course)
 
-    get_prereq_cache_collection().update_one(
-        {"code": tree.code},
-        {"$set": {"code": tree.code, "graph": tree.model_dump()}},
-        upsert=True,
-    )
-
-    return tree
