@@ -1,8 +1,10 @@
-import { Loader2, TriangleAlert } from "lucide-react";
+import { Loader2, TriangleAlert, ZoomIn, ZoomOut } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ApiError, fetchCoursePrereqs } from "../lib/api";
 import { GNH, GNW, MAX_D, NODE_CFG, buildGraph } from "../lib/prereqGraph";
 import type { PrereqNode } from "../types";
+
+const ZOOM_MIN = 0.5, ZOOM_MAX = 2, ZOOM_STEP = 0.25;
 
 export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plannedCodes: Set<string> }) {
   const [tree, setTree] = useState<PrereqNode | null>(null);
@@ -11,12 +13,14 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
   const scrollRef = useRef<HTMLDivElement>(null);
   const [expandedOr, setExpandedOr] = useState<Set<string>>(new Set());
   const [hovered, setHovered] = useState<string | null>(null);
+  const [zoom, setZoom] = useState(1);
 
   useEffect(() => {
     setTree(null);
     setError(null);
     setExpanded(new Set());
     setExpandedOr(new Set());
+    setZoom(1);
     let alive = true;
     fetchCoursePrereqs(moduleId)
       .then(t => { if (alive) setTree(t); })
@@ -32,16 +36,20 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
     [tree, expanded, expandedOr, plannedCodes]
   );
 
-  // Center the root horizontally once, on initial load -- a wide subtree
-  // otherwise leaves the root scrolled out of view (its x is the midpoint
-  // of the whole tree, not the left edge). Keyed on `tree` only so
-  // expanding/collapsing a node afterward doesn't yank the scroll position.
+  // Center the root horizontally on initial load and whenever zoom changes
+  // -- a wide subtree otherwise leaves the root scrolled out of view (its x
+  // is the midpoint of the whole tree, not the left edge). Not keyed on
+  // expanded/expandedOr so expanding/collapsing a node elsewhere in the
+  // tree doesn't yank the scroll position.
   useEffect(() => {
     if (!graph || !scrollRef.current) return;
     const root = graph.nodes.find(n => n.depth === 0);
     if (!root) return;
-    scrollRef.current.scrollLeft = Math.max(0, root.x - scrollRef.current.clientWidth / 2);
-  }, [tree]);
+    scrollRef.current.scrollLeft = Math.max(0, root.x * zoom - scrollRef.current.clientWidth / 2);
+  }, [tree, zoom]);
+
+  function zoomIn() { setZoom(z => Math.min(ZOOM_MAX, +(z + ZOOM_STEP).toFixed(2))); }
+  function zoomOut() { setZoom(z => Math.max(ZOOM_MIN, +(z - ZOOM_STEP).toFixed(2))); }
 
   const pathNodeIds = useMemo(() => {
     if (!hovered || !graph) return new Set<string>();
@@ -109,12 +117,26 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
           <span className="text-[0.769rem] text-gray-500">
             Click <span className="font-bold text-indigo-600">+</span> to expand
           </span>
+          <div className="flex items-center border border-[#aaa] bg-white">
+            <button onClick={zoomOut} disabled={zoom <= ZOOM_MIN} title="Zoom out"
+              className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:hover:bg-white">
+              <ZoomOut className="w-3 h-3" />
+            </button>
+            <span className="text-[0.769rem] text-gray-600 w-9 text-center border-x border-[#aaa]">
+              {Math.round(zoom * 100)}%
+            </span>
+            <button onClick={zoomIn} disabled={zoom >= ZOOM_MAX} title="Zoom in"
+              className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:hover:bg-white">
+              <ZoomIn className="w-3 h-3" />
+            </button>
+          </div>
         </div>
       </div>
 
       <div ref={scrollRef} className="overflow-auto" style={{ maxHeight: 320 }}>
-        <div style={{ width: graph.svgW, height: graph.svgH, flexShrink: 0 }}>
-          <svg width={graph.svgW} height={graph.svgH} style={{ display: "block" }}>
+        <div style={{ width: graph.svgW * zoom, height: graph.svgH * zoom, flexShrink: 0 }}>
+          <svg width={graph.svgW} height={graph.svgH}
+            style={{ display: "block", transform: `scale(${zoom})`, transformOrigin: "0 0" }}>
             <defs>
               <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
                 <polygon points="0 0, 8 3, 0 6" fill="#b0b8cc" />

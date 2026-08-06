@@ -13,7 +13,7 @@ import type { PrereqNode } from "../types";
 
 export const GNW = 148, GNH = 44, HGAP = 18, VGAP = 82, GPAD = 32;
 export const COL_W = GNW + HGAP;
-export const MAX_D = 3, OR_PREV = 3;
+export const MAX_D = 2, OR_PREV = 3;
 
 export interface GNode {
   id: string; code: string; title: string;
