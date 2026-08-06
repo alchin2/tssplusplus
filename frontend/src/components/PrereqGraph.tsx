@@ -2,6 +2,7 @@ import { Loader2, TriangleAlert, ZoomIn, ZoomOut } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ApiError, fetchCoursePrereqs } from "../lib/api";
 import { GNH, GNW, MAX_D, NODE_CFG, buildGraph } from "../lib/prereqGraph";
+import type { GNode } from "../lib/prereqGraph";
 import type { PrereqNode } from "../types";
 
 const ZOOM_MIN = 0.5, ZOOM_MAX = 2, ZOOM_STEP = 0.25;
@@ -64,8 +65,32 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
     return set;
   }, [hovered, graph]);
 
-  function toggleExpand(code: string) {
-    setExpanded(prev => { const s = new Set(prev); s.has(code) ? s.delete(code) : s.add(code); return s; });
+  // Expanding a course within an OR stack fans out only that course's own
+  // prereqs. Clicking it first closes every other alternative in the same
+  // group ("its class") -- and anything those alternatives had themselves
+  // expanded underneath -- so at most one fanned-out subtree shows per group.
+  function toggleExpand(node: GNode) {
+    setExpanded(prev => {
+      const s = new Set(prev);
+      if (s.has(node.code)) {
+        s.delete(node.code);
+      } else {
+        if (node.orGroupPath && graph) {
+          const closing = new Set<string>();
+          const collect = (id: string) => {
+            const n = graph!.nodes.find(x => x.id === id);
+            if (n) closing.add(n.code);
+            graph!.nodes.filter(x => x.parentId === id).forEach(k => collect(k.id));
+          };
+          graph.nodes
+            .filter(n => n.orGroupPath === node.orGroupPath && n.code !== node.code)
+            .forEach(sib => collect(sib.id));
+          closing.forEach(c => s.delete(c));
+        }
+        s.add(node.code);
+      }
+      return s;
+    });
   }
 
   function toggleOrExpand(groupPath: string) {
@@ -189,9 +214,9 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
                   onClick={() => {
                     if (!canToggle) return;
                     if (node.isOrMore && node.orGroupPath) toggleOrExpand(node.orGroupPath);
-                    else toggleExpand(node.code);
+                    else toggleExpand(node);
                   }}
-                  filter={isHov ? "url(#gshadow)" : undefined}
+                  filter={isHov || node.orGroupPath ? "url(#gshadow)" : undefined}
                 >
                   <title>{node.isOrMore ? node.title : `${node.code}${node.title !== node.code ? ` — ${node.title}` : ""}`}</title>
 
