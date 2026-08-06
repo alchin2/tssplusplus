@@ -116,13 +116,10 @@ export default function App() {
               {plannedItems.length} course{plannedItems.length !== 1 ? "s" : ""}
             </button>
           )}
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/alchin2/tssplusplus" target="_blank" rel="noopener noreferrer"
             className="p-1.5 text-white/70 hover:text-white transition-colors">
             <Github className="w-3.5 h-3.5" />
           </a>
-          <button className="p-1.5 text-white/70 hover:text-white transition-colors">
-            <Settings className="w-3.5 h-3.5" />
-          </button>
         </div>
       </nav>
 
