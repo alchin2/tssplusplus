@@ -3,7 +3,7 @@
 // Course/Section/Meeting types so the planner's conflict/finals logic
 // keeps working unchanged.
 
-import type { Course, CourseDetail, DayCode, Meeting, Section } from "../types";
+import type { Course, CourseDetail, DayCode, Meeting, PrereqNode, Section } from "../types";
 
 const API_BASE = "/api";
 
@@ -39,6 +39,13 @@ interface CourseDetailDto extends CourseSummaryDto {
   module_id: string;
   raw_prereq: string | null;
   sections: SectionDto[];
+}
+
+interface PrereqGraphNodeDto {
+  code: string;
+  type: string;
+  name: string | null;
+  children: PrereqGraphNodeDto[];
 }
 
 export interface Meta {
@@ -105,10 +112,16 @@ export async function fetchCourseDetail(moduleId: string): Promise<CourseDetail>
   const dto = await getJson<CourseDetailDto>(`/courses/${encodeURIComponent(moduleId)}`);
   return {
     ...toCourse(dto),
+    moduleId: dto.module_id,
     description: dto.description,
     rawPrereq: dto.raw_prereq,
     sections: dto.sections.map(toSection),
   };
+}
+
+export async function fetchCoursePrereqs(moduleId: string): Promise<PrereqNode> {
+  const dto = await getJson<PrereqGraphNodeDto>(`/courses/${encodeURIComponent(moduleId)}/prereqs`);
+  return toPrereqNode(dto);
 }
 
 export function fetchBuildings(): Promise<Record<string, BuildingInfo>> {
@@ -165,6 +178,15 @@ function toSection(dto: SectionDto): Section {
     enrolled,
     capacity: dto.limit,
     waitlist: dto.num_on_waitlist,
+  };
+}
+
+function toPrereqNode(dto: PrereqGraphNodeDto): PrereqNode {
+  return {
+    code: dto.code,
+    type: dto.type === "ROOT" ? "ROOT" : "CHILD",
+    title: dto.name,
+    children: dto.children.map(toPrereqNode),
   };
 }
 

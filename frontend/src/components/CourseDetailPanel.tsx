@@ -1,8 +1,9 @@
 import { BookOpen, CalendarOff, GitBranch, Layers, Loader2, TriangleAlert, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { ApiError, fetchCourseDetail } from "../lib/api";
 import type { Course, CourseDetail, PlannedItem, Section } from "../types";
+import { PrereqGraph } from "./PrereqGraph";
 import { SectionsTable } from "./SectionsTable";
 
 export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
@@ -13,6 +14,7 @@ export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
   const [detail, setDetail] = useState<CourseDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
   const loading = course.moduleId !== null && detail === null && error === null;
+  const plannedCodes = useMemo(() => new Set(plannedItems.map(i => i.course.code)), [plannedItems]);
 
   useEffect(() => {
     setDetail(null);
@@ -81,16 +83,16 @@ export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
               </div>
             )}
 
-            {/* Prerequisites -- raw catalog text for now; the interactive
-                graph consumes /prereqs in a later change. */}
+            {/* Prerequisites */}
             <div className="px-4 py-3 border-b border-[#c0c0c0]">
               <div className="flex items-center gap-1.5 mb-2">
                 <GitBranch className="w-3.5 h-3.5" style={{ color: "#6261c0" }} />
                 <span className="text-xs font-bold" style={{ color: "#0b4a67" }}>Prerequisites</span>
               </div>
-              {detail.rawPrereq
-                ? <p className="text-[11px] text-gray-700 leading-relaxed">{detail.rawPrereq}</p>
-                : <p className="text-[11px] text-gray-400">None.</p>}
+              {detail.rawPrereq && (
+                <p className="text-[11px] text-gray-700 leading-relaxed mb-2">{detail.rawPrereq}</p>
+              )}
+              <PrereqGraph moduleId={detail.moduleId} plannedCodes={plannedCodes} />
             </div>
 
             {/* Sections */}

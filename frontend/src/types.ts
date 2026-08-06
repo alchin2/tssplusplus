@@ -32,6 +32,9 @@ export interface Course {
 }
 
 export interface CourseDetail extends Course {
+  // Narrower than Course.moduleId -- a CourseDetail can only be
+  // fetched for a course that's offered this term (see fetchCourseDetail).
+  moduleId: string;
   description: string | null;
   rawPrereq: string | null;
   sections: Section[];
@@ -40,4 +43,14 @@ export interface CourseDetail extends Course {
 export interface PlannedItem {
   course: Course;
   section: Section;
+}
+
+// GET /api/courses/{module_id}/prereqs -- resolved, fully transitive
+// prerequisite tree. An OR group is a node with code "OR" whose
+// children are the alternatives; every other node is a real course.
+export interface PrereqNode {
+  code: string;
+  type: "ROOT" | "CHILD";
+  title: string | null;
+  children: PrereqNode[];
 }
