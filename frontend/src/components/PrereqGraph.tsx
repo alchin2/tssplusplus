@@ -133,7 +133,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
         </div>
       </div>
 
-      <div ref={scrollRef} className="overflow-auto" style={{ maxHeight: 320 }}>
+      <div ref={scrollRef} className="overflow-auto" style={{ height: Math.min(320, graph.svgH) }}>
         <div style={{ width: graph.svgW * zoom, height: graph.svgH * zoom, flexShrink: 0 }}>
           <svg width={graph.svgW} height={graph.svgH}
             style={{ display: "block", transform: `scale(${zoom})`, transformOrigin: "0 0" }}>
