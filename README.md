@@ -162,8 +162,18 @@ Full contract in [`backend/README.md`](backend/README.md).
 - [x] Course planner feature
 - [x] Campus map + walking routes
 - [x] ICS export feature
-- [ ] Interactive prerequisite viewer
+- [x] Interactive prerequisite viewer
 - [ ] Cron job to check for updates and scrape data automatically
+
+## Contributing
+
+Contributions and Ideas are always welcome! Here is how to help:
+
+1. **Fork** the repo and create your feature branch.
+2. **Commit** changes with clear messages.
+3. **Push** to your branch and open a Pull Request.
+
+You can also reach me directly on discord `@alowo`
 
 ## Acknowledgments
 
@@ -171,7 +181,7 @@ Full contract in [`backend/README.md`](backend/README.md).
   browser that inspired this project.
 - [ClassGraph](https://github.com/nehalc200/classgraph) — the prerequisite viewer whose
   AST approach this project reuses (built with a team for DS3's WI26 Projects cohort).
-- [WebRegToICS] (https://github.com/alchin2/webreg-to-ics) - A webreg to ics converter i previously built,
+- [WebRegToICS](https://github.com/alchin2/webreg-to-ics) - A webreg to ics converter i previously built,
   used export code for .ics export feature
 - Shoutout Claude Code.
 
