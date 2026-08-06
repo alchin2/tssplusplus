@@ -163,6 +163,7 @@ Full contract in [`backend/README.md`](backend/README.md).
 - [x] Campus map + walking routes
 - [x] ICS export feature
 - [ ] Interactive prerequisite viewer
+- [ ] Cron job to check for updates and scrape data automatically
 
 ## Acknowledgments
 
