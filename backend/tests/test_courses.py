@@ -166,6 +166,32 @@ def test_course_detail_503_when_mongo_unreachable(tmp_path):
     assert resp.status_code == 503
 
 
+def test_course_prereqs_resolves_tree(tmp_path):
+    _write_catalog(tmp_path)
+    _write_offered(tmp_path)
+    _clear_caches()
+
+    with (
+        patch("app.catalog.settings") as mock_catalog_settings,
+        patch("app.offered.settings") as mock_offered_settings,
+    ):
+        mock_catalog_settings.catalog_dir = tmp_path
+        mock_offered_settings.offered_dir = tmp_path
+        mock_offered_settings.term = "fa26"
+        client = TestClient(app)
+        resp = client.get("/api/courses/8401/prereqs")
+    _clear_caches()
+
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["type"] == "ROOT"
+    assert body["code"] == "CSE 100"
+    assert body["name"] == "Advanced Data Structures"
+    # CSE 12 isn't in the fixture catalog, so it resolves as an
+    # unnamed, childless leaf rather than 404ing the whole request.
+    assert body["children"] == [{"code": "CSE12", "type": "CHILD", "name": None, "children": []}]
+
+
 def test_course_detail_404_when_module_id_not_offered(tmp_path):
     _write_catalog(tmp_path)
     _write_offered(tmp_path)

@@ -13,13 +13,14 @@ the scraped catalog (`data/catalog/*.json`) and per-course detail
   live sections/meetings grouped from the `<term>` MongoDB collection.
 - `GET /api/courses/{module_id}/prereqs` -- full transitive prerequisite
   tree, ported from [ClassGraph](https://github.com/nehalc200/classgraph/tree/main/data/helpers)'s
-  RootNode/ChildNode AST (see `app/prereqs.py`). Recurses into every
-  referenced course's own prereqs; a `visited` set (per path from the
-  root, not global) stops on real cycles instead of recursing forever.
-  Regenerates on every request and upserts a cached copy into the
-  `prereq_graphs` Mongo collection, keyed by course code. Not yet
-  consumed by the frontend -- `CourseDetailPanel` still renders the
-  raw catalog prereq text.
+  RootNode/ChildNode AST (see `app/prereqs.py`). Each node carries the
+  catalog title (`name`) alongside `code`, joined server-side so the
+  frontend's interactive graph (`PrereqGraph`/`lib/prereqGraph.ts`)
+  doesn't need a lookup per node. Recurses into every referenced
+  course's own prereqs; a `visited` set (per path from the root, not
+  global) stops on real cycles instead of recursing forever. Built
+  fresh from the local catalog on every request -- no Mongo involved,
+  no caching.
 - `GET /api/meta` -- term + catalog-wide facts the frontend needs
   before any search: the department dropdown options and the home
   page's headline counts (course count, offered-this-quarter count).
