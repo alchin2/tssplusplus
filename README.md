@@ -2,8 +2,6 @@
 
 <div align="center">
 
-<img src="assets/logo.png" alt="TSS++ logo" width="400" style="border: none !important; box-shadow: none !important; outline: none !important; background: transparent !important;" />
- 
 # TSS++
 
 **An alternative way to browse UCSD's schedule of classes and plan your quarter.**
