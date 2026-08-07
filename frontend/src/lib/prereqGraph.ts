@@ -14,12 +14,11 @@ import type { PrereqNode } from "../types";
 export const GNW = 148, GNH = 44, HGAP = 18, VGAP = 82, GPAD = 32;
 export const COL_W = GNW + HGAP;
 export const MAX_D = 2, OR_PREV = 3;
-// OR-group alternatives stack vertically -- one card per row -- and lean
-// toward whichever screen edge the group sits nearest, so the pile fans out
-// away from the graph's center instead of piling up in place. STACK_VY is the
-// vertical step between rows (kept below GNH so each card's labels still clear
-// the card in front); STACK_HX is the horizontal lean per row toward the edge.
-const STACK_VY = 34, STACK_HX = 40;
+// OR-group alternatives stack strictly vertically -- one card per row, all
+// sharing the same x, no horizontal lean/pile. STACK_VY is the vertical step
+// between rows (kept below GNH so each card's labels still clear the card above
+// it while the group stays compact).
+const STACK_VY = 34;
 type FanBias = "left" | "right" | "center";
 
 export interface GNode {
@@ -50,15 +49,10 @@ function subW(node: PrereqNode, depth: number, path: string, exp: Set<string>, o
       const alts = child.children;
       const expanded = orExp.has(groupPath) || alts.length <= OR_PREV + 1;
       const visible = expanded ? alts : alts.slice(0, OR_PREV);
-      // Alternatives stack vertically (see place()) rather than sitting side
-      // by side, so the span is driven by whichever single alt has its own
-      // prereqs fanned out -- plus a few extra columns of room for the lean the
-      // stack fans across toward the edge. The "+N more" card joins the stack.
-      const hidden = alts.length - visible.length;
-      const numCards = visible.length + (hidden > 0 ? 1 : 0);
-      const altW = Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
-      const fanCols = Math.ceil(Math.max(0, numCards - 1) * STACK_HX / COL_W);
-      w += altW + fanCols;
+      // Alternatives stack vertically (see place()) rather than sitting side by
+      // side, so the span is just as wide as whichever single alt has its own
+      // prereqs fanned out; the "+N more" card stacks in the same column.
+      w += Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
     } else {
       w += subW(child, depth + 1, `${path}.${i}`, exp, orExp);
     }
@@ -71,18 +65,18 @@ function place(
   parentId: string | null, orGroupPath: string | null,
   exp: Set<string>, orExp: Set<string>, plannedCodes: Set<string>,
   nodes: GNode[], edges: GEdge[], orBoxMap: Record<string, string[]>, seq: { n: number },
-  // xShift/yShift translate this node -- and, inherited unchanged, its whole
-  // subtree -- by a fixed pixel offset. OR-group cards use it to stack down and
-  // lean toward the edge; a card's prereqs hang straight down from it because
-  // they carry the same shift.
-  totalW: number, fanBias: FanBias = "center", xShift = 0, yShift = 0,
+  // yShift translates this node -- and, inherited unchanged, its whole subtree
+  // -- straight down by a fixed pixel offset. OR-group cards use it to stack
+  // down the column; a card's prereqs hang straight beneath it because they
+  // carry the same shift.
+  fanBias: FanBias = "center", yShift = 0,
 ): void {
   const id = `n${seq.n++}`;
   const hasKids = node.children.length > 0;
   const show = hasKids && (depth < MAX_D - 1 || exp.has(node.code));
   const w = subW(node, depth, path, exp, orExp);
   const colOffset = fanBias === "left" ? w - 1 : fanBias === "right" ? 0 : (w - 1) / 2;
-  const x = GPAD + GNW / 2 + (leftCol + colOffset) * COL_W + xShift;
+  const x = GPAD + GNW / 2 + (leftCol + colOffset) * COL_W;
   const y = GPAD + GNH / 2 + depth * (GNH + VGAP) + yShift;
 
   const status: GNode["status"] = depth === 0 ? "root"
@@ -111,43 +105,31 @@ function place(
       const expanded = orExp.has(groupPath) || alts.length <= OR_PREV + 1;
       const visible = expanded ? alts : alts.slice(0, OR_PREV);
       const hidden = alts.length - visible.length;
-      const numCards = visible.length + (hidden > 0 ? 1 : 0);
 
-      // The alternatives share one reserved span: `altW` columns for whichever
-      // single alt a click has expanded (its prereqs extend straight down, like
-      // any non-grouped course), plus `fanCols` columns of room for the stack's
-      // horizontal lean toward the edge.
+      // The alternatives share one reserved span, `altW` columns wide, for
+      // whichever single alt a click has expanded (its prereqs extend straight
+      // down, like any non-grouped course). Every card sits in one column
+      // (`stackBaseCol`) and differs only by its downward per-row shift, so the
+      // group reads as a strict vertical column; the expanded alt's subtree
+      // hangs straight beneath its card (it inherits that card's shift).
       const groupCol = col;
       const altW = Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
-      const fanCols = Math.ceil(Math.max(0, numCards - 1) * STACK_HX / COL_W);
-      const groupW = altW + fanCols;
-
-      // Stack the cards vertically and lean the whole stack toward whichever
-      // screen edge the group sits nearest. Every card shares one base column
-      // (`stackBaseCol`) and differs only by its per-row shift, so the stack
-      // reads as one leaning column; the expanded alt's subtree hangs straight
-      // down from its card (fanBias stays "center", and it inherits the shift).
-      const centerFrac = totalW > 0 ? (groupCol + groupW / 2) / totalW : 0.5;
-      const stackDir = centerFrac < 0.5 ? -1 : 1;
-      const stackBaseCol = stackDir === 1
-        ? groupCol + (altW - 1) / 2
-        : groupCol + groupW - 1 - (altW - 1) / 2;
+      const stackBaseCol = groupCol + (altW - 1) / 2;
 
       // Placed back-to-front so the first/primary alt paints last (frontmost,
-      // top of the stack) with its siblings fanned out below and behind it.
+      // top of the stack) with its siblings stacked below and behind it.
       visible.slice().reverse().forEach((alt, ri) => {
         const j = visible.length - 1 - ri;
         const aw = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp);
         place(alt, depth + 1, stackBaseCol - (aw - 1) / 2, `${groupPath}.${j}`, id, groupPath,
-          exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, totalW,
-          "center", xShift + stackDir * j * STACK_HX, yShift + j * STACK_VY);
+          exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift + j * STACK_VY);
       });
 
       if (hidden > 0) {
         const pid = `n${seq.n++}`;
         const par = nodes.find(n => n.id === id)!;
         const stackIdx = visible.length;
-        const px = GPAD + GNW / 2 + stackBaseCol * COL_W + xShift + stackDir * stackIdx * STACK_HX;
+        const px = GPAD + GNW / 2 + stackBaseCol * COL_W;
         const py = GPAD + GNH / 2 + (depth + 1) * (GNH + VGAP) + yShift + stackIdx * STACK_VY;
         nodes.push({
           id: pid, code: `+${hidden} more`, title: `${hidden} more alternative${hidden !== 1 ? "s" : ""}`,
@@ -158,10 +140,10 @@ function place(
         edges.push({ id: `${id}→${pid}`, fromId: id, toId: pid, x1: par.x, y1: par.y + GNH / 2, x2: px, y2: py - GNH / 2 });
       }
 
-      col = groupCol + groupW;
+      col = groupCol + altW;
     } else {
       const cw = subW(child, depth + 1, `${path}.${i}`, exp, orExp);
-      place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, totalW, "center", xShift, yShift);
+      place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift);
       col += cw;
     }
   });
@@ -172,8 +154,7 @@ export function buildGraph(
 ): GraphLayout {
   const nodes: GNode[] = [], edges: GEdge[] = [];
   const orBoxMap: Record<string, string[]> = {};
-  const totalW = subW(root, 0, "0", exp, orExp);
-  place(root, 0, 0, "0", null, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, { n: 0 }, totalW);
+  place(root, 0, 0, "0", null, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, { n: 0 });
 
   const orBoxes: GOrBox[] = [];
   for (const [id, memberIds] of Object.entries(orBoxMap)) {
