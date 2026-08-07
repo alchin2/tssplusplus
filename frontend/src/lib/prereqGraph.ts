@@ -18,7 +18,7 @@ export const MAX_D = 2, OR_PREV = 3;
 // sharing the same x, no horizontal lean/pile. STACK_VY is the vertical step
 // between rows (kept below GNH so each card's labels still clear the card above
 // it while the group stays compact).
-const STACK_VY = 34;
+const STACK_VY = 60;
 type FanBias = "left" | "right" | "center";
 
 export interface GNode {
@@ -69,7 +69,10 @@ function place(
   // -- straight down by a fixed pixel offset. OR-group cards use it to stack
   // down the column; a card's prereqs hang straight beneath it because they
   // carry the same shift.
-  fanBias: FanBias = "center", yShift = 0,
+  // drawParentEdge=false suppresses this node's incoming arrow: OR-group cards
+  // skip it so the group gets one shared parent->group arrow (see buildGraph)
+  // instead of one arrow per alternative.
+  fanBias: FanBias = "center", yShift = 0, drawParentEdge = true,
 ): void {
   const id = `n${seq.n++}`;
   const hasKids = node.children.length > 0;
@@ -91,7 +94,7 @@ function place(
   });
   if (orGroupPath) (orBoxMap[orGroupPath] ??= []).push(id);
 
-  if (parentId !== null) {
+  if (parentId !== null && drawParentEdge) {
     const par = nodes.find(n => n.id === parentId)!;
     edges.push({ id: `${parentId}→${id}`, fromId: parentId, toId: id, x1: par.x, y1: par.y + GNH / 2, x2: x, y2: y - GNH / 2 });
   }
@@ -122,12 +125,13 @@ function place(
         const j = visible.length - 1 - ri;
         const aw = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp);
         place(alt, depth + 1, stackBaseCol - (aw - 1) / 2, `${groupPath}.${j}`, id, groupPath,
-          exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift + j * STACK_VY);
+          exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift + j * STACK_VY, false);
       });
 
       if (hidden > 0) {
+        // The "+N more" card is part of the group too, so it also skips its own
+        // arrow -- the single parent->group arrow covers it.
         const pid = `n${seq.n++}`;
-        const par = nodes.find(n => n.id === id)!;
         const stackIdx = visible.length;
         const px = GPAD + GNW / 2 + stackBaseCol * COL_W;
         const py = GPAD + GNH / 2 + (depth + 1) * (GNH + VGAP) + yShift + stackIdx * STACK_VY;
@@ -137,7 +141,6 @@ function place(
           orGroupPath: groupPath, parentId: id, status: "default",
         });
         (orBoxMap[groupPath] ??= []).push(pid);
-        edges.push({ id: `${id}→${pid}`, fromId: id, toId: pid, x1: par.x, y1: par.y + GNH / 2, x2: px, y2: py - GNH / 2 });
       }
 
       col = groupCol + altW;
@@ -157,17 +160,33 @@ export function buildGraph(
   place(root, 0, 0, "0", null, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, { n: 0 });
 
   const orBoxes: GOrBox[] = [];
-  for (const [id, memberIds] of Object.entries(orBoxMap)) {
+  for (const [groupPath, memberIds] of Object.entries(orBoxMap)) {
     const ns = nodes.filter(n => memberIds.includes(n.id));
     if (ns.length < 2) continue;
     const pad = 10;
-    orBoxes.push({
-      id,
-      x: Math.min(...ns.map(n => n.x)) - GNW / 2 - pad,
-      y: Math.min(...ns.map(n => n.y)) - GNH / 2 - pad,
-      w: Math.max(...ns.map(n => n.x)) - Math.min(...ns.map(n => n.x)) + GNW + pad * 2,
-      h: Math.max(...ns.map(n => n.y)) - Math.min(...ns.map(n => n.y)) + GNH + pad * 2,
-    });
+    const minX = Math.min(...ns.map(n => n.x)), maxX = Math.max(...ns.map(n => n.x));
+    const minY = Math.min(...ns.map(n => n.y)), maxY = Math.max(...ns.map(n => n.y));
+    const box: GOrBox = {
+      id: groupPath,
+      x: minX - GNW / 2 - pad,
+      y: minY - GNH / 2 - pad,
+      w: maxX - minX + GNW + pad * 2,
+      h: maxY - minY + GNH + pad * 2,
+    };
+    orBoxes.push(box);
+
+    // One arrow from the group's parent to the top-center of the box, in place
+    // of the per-alternative arrows suppressed in place(). All members share
+    // the same parent; toId is the groupPath so hover highlighting can light
+    // this arrow whenever any card in the group is on the path.
+    const parentId = ns[0].parentId;
+    const par = parentId ? nodes.find(n => n.id === parentId) : undefined;
+    if (par) {
+      edges.push({
+        id: `${par.id}→or${groupPath}`, fromId: par.id, toId: groupPath,
+        x1: par.x, y1: par.y + GNH / 2, x2: box.x + box.w / 2, y2: box.y,
+      });
+    }
   }
 
   const svgW = nodes.length ? Math.max(...nodes.map(n => n.x + GNW / 2)) + GPAD : 300;

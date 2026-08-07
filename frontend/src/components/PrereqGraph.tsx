@@ -62,6 +62,9 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
       graph!.nodes.filter(n => n.parentId === id).forEach(k => { set.add(k.id); addDesc(k.id); });
     }
     addDesc(hovered);
+    // A group's single parent->group arrow carries the orGroupPath as its toId,
+    // so mark that path whenever any card in the group is on the hover path.
+    graph.nodes.forEach(n => { if (n.orGroupPath && set.has(n.id)) set.add(n.orGroupPath); });
     return set;
   }, [hovered, graph]);
 
