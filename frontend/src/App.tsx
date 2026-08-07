@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useState } from "react";
-import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search, Settings } from "lucide-react";
+import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { CourseDetailPanel } from "./components/CourseDetailPanel";
 import { RaccoonLogo } from "./components/RaccoonLogo";

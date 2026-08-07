@@ -1,10 +1,9 @@
-import { Search } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { RaccoonLogo } from "./RaccoonLogo";
 
 export function HomeView({ onSearch }: { onSearch: (q: string) => void }) {
-  const [q, setQ] = useState("");
+  const q = "";
   const inputRef = useRef<HTMLInputElement>(null);
   function submit() { onSearch(q.trim()); }
   useEffect(() => { inputRef.current?.focus(); }, []);

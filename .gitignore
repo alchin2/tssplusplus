@@ -6,3 +6,4 @@ cookie.txt
 .pytest_cache/
 .claude
 skills-lock.json
+node_modules
