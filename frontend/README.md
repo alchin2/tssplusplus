@@ -50,6 +50,18 @@ npm run dev
 
 Dev server at `http://localhost:5173`.
 
+## Vercel deployment
+
+Import the `frontend/` directory as a Vercel project. Set `VITE_API_URL` to the
+Render backend origin, without a trailing slash or `/api` suffix, for example
+`https://tssplusplus-api.onrender.com`. The Vercel SPA fallback is defined in
+`vercel.json`.
+
+Vercel Web Analytics is supported through Vercel's first-party
+`/_vercel/insights/script.js` endpoint. Set `VITE_ANALYTICS_ENABLED=true` in
+Vercel when Web Analytics is enabled for the project; it is opt-in so local
+development and unconfigured previews do not send analytics.
+
 ## Data
 
 The app is wired to the backend via `lib/api.ts`, a typed client whose

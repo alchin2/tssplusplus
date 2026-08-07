@@ -57,6 +57,16 @@ Reads the repo-root `.env`, same file the scrapers use:
   from (matches tss_scraper's term-per-collection layout)
 - `ORS_API_KEY` -- free key from [openrouteservice.org](https://openrouteservice.org);
   powers `GET /api/route`. Unset means that endpoint always 502s.
+- `CORS_ORIGINS` -- comma-separated browser origins allowed to call the API.
+  Set this to the exact Vercel deployment URL (and any custom domain), for
+  example `https://tssplusplus.vercel.app,http://localhost:5173`.
+
+## Render deployment
+
+The repository includes a root `render.yaml` blueprint. Create a Render web
+service from that blueprint and set `MONGODB_URI`, `ORS_API_KEY`, and
+`CORS_ORIGINS` in the service environment. Render runs the API with its
+provided `$PORT` and checks `/health`.
 
 ## Tests
 

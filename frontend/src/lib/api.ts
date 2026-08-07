@@ -5,7 +5,11 @@
 
 import type { Course, CourseDetail, DayCode, Meeting, PrereqNode, Section } from "../types";
 
-const API_BASE = "/api";
+// Set VITE_API_URL to the deployed backend origin in Vercel, without a
+// trailing slash or /api suffix. Local development keeps the Vite-relative
+// default, which is proxied by the dev server when configured.
+const configuredApiUrl = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
+const API_BASE = `${configuredApiUrl}/api`;
 
 // ─── DTOs (backend/app/schemas.py) ──────────────────────────────────────────
 
