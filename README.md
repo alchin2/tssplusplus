@@ -18,11 +18,6 @@ classes and build your schedule, no TritonGPT required. It pairs the public cour
 catalog with live section/seat data, renders full transitive prerequisite trees, and
 lets you plan a conflict-free quarter you can export to any calendar app.
 
-> [!NOTE]
-> This project is WIP. The prerequisite graph is built and cached server-side
-> (`GET /api/courses/{module_id}/prereqs`) but the frontend doesn't render it as an
-> interactive tree yet. See the [Roadmap](#roadmap) for more.
-
 ## Features
 
 - **Course search** — filter by department and "offered this quarter", full-text query,

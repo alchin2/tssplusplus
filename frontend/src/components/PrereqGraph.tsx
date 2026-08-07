@@ -1,27 +1,31 @@
-import { Loader2, TriangleAlert, ZoomIn, ZoomOut } from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Loader2, Maximize2, TriangleAlert, ZoomIn, ZoomOut } from "lucide-react";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { ApiError, fetchCoursePrereqs } from "../lib/api";
-import { GNH, GNW, MAX_D, NODE_CFG, buildGraph } from "../lib/prereqGraph";
-import type { GNode } from "../lib/prereqGraph";
+import { GNH, GNW, GPAD, MAX_D, NODE_CFG, buildGraph } from "../lib/prereqGraph";
+import type { GNode, GraphLayout } from "../lib/prereqGraph";
 import type { PrereqNode } from "../types";
 
 const ZOOM_MIN = 0.5, ZOOM_MAX = 2, ZOOM_STEP = 0.25;
+type View = { x: number; y: number; scale: number };
 
 export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plannedCodes: Set<string> }) {
   const [tree, setTree] = useState<PrereqNode | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
-  const scrollRef = useRef<HTMLDivElement>(null);
   const [expandedOr, setExpandedOr] = useState<Set<string>>(new Set());
   const [hovered, setHovered] = useState<string | null>(null);
-  const [zoom, setZoom] = useState(1);
+  const [view, setView] = useState<View>({ x: 0, y: 0, scale: 1 });
+  const [panning, setPanning] = useState(false);
+  const viewportRef = useRef<HTMLDivElement>(null);
+  const graphRef = useRef<GraphLayout | null>(null);
+  const didDragRef = useRef(false);
 
   useEffect(() => {
     setTree(null);
     setError(null);
     setExpanded(new Set());
     setExpandedOr(new Set());
-    setZoom(1);
+    setView({ x: 0, y: 0, scale: 1 });
     let alive = true;
     fetchCoursePrereqs(moduleId)
       .then(t => { if (alive) setTree(t); })
@@ -36,21 +40,102 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
     () => (tree ? buildGraph(tree, expanded, expandedOr, plannedCodes) : null),
     [tree, expanded, expandedOr, plannedCodes]
   );
+  graphRef.current = graph;
 
-  // Center the root horizontally on initial load and whenever zoom changes
-  // -- a wide subtree otherwise leaves the root scrolled out of view (its x
-  // is the midpoint of the whole tree, not the left edge). Not keyed on
-  // expanded/expandedOr so expanding/collapsing a node elsewhere in the
-  // tree doesn't yank the scroll position.
+  // Keep the panned/zoomed content from being dragged fully out of the
+  // viewport: clamp so at least a small margin of the graph stays visible on
+  // every side.
+  const clampView = useCallback((v: View): View => {
+    const vp = viewportRef.current, g = graphRef.current;
+    if (!vp || !g) return v;
+    const mx = 80, my = 60;
+    const cw = g.svgW * v.scale, ch = g.svgH * v.scale;
+    return {
+      scale: v.scale,
+      x: Math.min(vp.clientWidth - mx, Math.max(mx - cw, v.x)),
+      y: Math.min(vp.clientHeight - my, Math.max(my - ch, v.y)),
+    };
+  }, []);
+
+  // Center the root and reset the zoom -- runs on initial load / new module
+  // (effect below) and from the "reset view" button. Not keyed on
+  // expanded/expandedOr so expanding a node elsewhere doesn't yank the view.
+  const resetView = useCallback(() => {
+    const vp = viewportRef.current, g = graphRef.current;
+    if (!vp || !g) return;
+    const root = g.nodes.find(n => n.depth === 0);
+    const rx = root ? root.x : g.svgW / 2;
+    setView(clampView({ x: vp.clientWidth / 2 - rx, y: GPAD, scale: 1 }));
+  }, [clampView]);
+  useLayoutEffect(() => { resetView(); }, [tree, resetView]);
+
+  // Zoom toward a viewport point (screen coords), keeping the graph point
+  // under it fixed.
+  const zoomTo = useCallback((sx: number, sy: number, nextScale: (s: number) => number) => {
+    setView(v => {
+      const scale = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, nextScale(v.scale)));
+      const cx = (sx - v.x) / v.scale, cy = (sy - v.y) / v.scale;
+      return clampView({ scale, x: sx - cx * scale, y: sy - cy * scale });
+    });
+  }, [clampView]);
+
+  // Scroll wheel / trackpad zooms toward the cursor; pinch (ctrl/⌘ + wheel)
+  // does too. Attached natively (not React's onWheel) so we can preventDefault
+  // and stop the browser's own page zoom/scroll.
   useEffect(() => {
-    if (!graph || !scrollRef.current) return;
-    const root = graph.nodes.find(n => n.depth === 0);
-    if (!root) return;
-    scrollRef.current.scrollLeft = Math.max(0, root.x * zoom - scrollRef.current.clientWidth / 2);
-  }, [tree, zoom]);
+    const vp = viewportRef.current;
+    if (!vp) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      const rect = vp.getBoundingClientRect();
+      // Normalize delta across px/line/page modes and cap per event so a mouse
+      // notch and a fine trackpad step both zoom smoothly.
+      let dy = e.deltaY;
+      if (e.deltaMode === 1) dy *= 16;
+      else if (e.deltaMode === 2) dy *= vp.clientHeight;
+      const factor = Math.exp(-Math.max(-1, Math.min(1, dy / 100)) * 0.3);
+      zoomTo(e.clientX - rect.left, e.clientY - rect.top, s => s * factor);
+    };
+    vp.addEventListener("wheel", onWheel, { passive: false });
+    return () => vp.removeEventListener("wheel", onWheel);
+  }, [zoomTo, tree]);
 
-  function zoomIn() { setZoom(z => Math.min(ZOOM_MAX, +(z + ZOOM_STEP).toFixed(2))); }
-  function zoomOut() { setZoom(z => Math.max(ZOOM_MIN, +(z - ZOOM_STEP).toFixed(2))); }
+  function zoomButton(delta: number) {
+    const vp = viewportRef.current;
+    if (!vp) return;
+    zoomTo(vp.clientWidth / 2, vp.clientHeight / 2, s => +(s + delta).toFixed(2));
+  }
+  function zoomIn() { zoomButton(ZOOM_STEP); }
+  function zoomOut() { zoomButton(-ZOOM_STEP); }
+
+  // Click-and-drag to pan. Listeners live on window so the drag keeps tracking
+  // outside the viewport; didDragRef gates the node click that fires on release
+  // so a pan doesn't also expand a card.
+  function onPointerDown(e: React.PointerEvent) {
+    if (e.button !== 0) return;
+    didDragRef.current = false;
+    const start = { x: e.clientX, y: e.clientY };
+    let last = start;
+    const move = (ev: PointerEvent) => {
+      const dx = ev.clientX - last.x, dy = ev.clientY - last.y;
+      last = { x: ev.clientX, y: ev.clientY };
+      if (!didDragRef.current && Math.hypot(ev.clientX - start.x, ev.clientY - start.y) > 4) {
+        didDragRef.current = true;
+        setPanning(true);
+      }
+      if (didDragRef.current) setView(v => clampView({ ...v, x: v.x + dx, y: v.y + dy }));
+    };
+    const up = () => {
+      window.removeEventListener("pointermove", move);
+      window.removeEventListener("pointerup", up);
+      setPanning(false);
+      // Keep didDrag set through the click that fires right after pointerup,
+      // then clear it before the next interaction.
+      requestAnimationFrame(() => { didDragRef.current = false; });
+    };
+    window.addEventListener("pointermove", move);
+    window.addEventListener("pointerup", up);
+  }
 
   const pathNodeIds = useMemo(() => {
     if (!hovered || !graph) return new Set<string>();
@@ -143,28 +228,35 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
             </button>
           )}
           <span className="text-[0.769rem] text-gray-500">
-            Click <span className="font-bold text-indigo-600">+</span> to expand
+            Scroll to zoom · drag to pan · click <span className="font-bold text-indigo-600">+</span> to expand
           </span>
           <div className="flex items-center border border-[#aaa] bg-white">
-            <button onClick={zoomOut} disabled={zoom <= ZOOM_MIN} title="Zoom out"
+            <button onClick={zoomOut} disabled={view.scale <= ZOOM_MIN} title="Zoom out"
               className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:hover:bg-white">
               <ZoomOut className="w-3 h-3" />
             </button>
             <span className="text-[0.769rem] text-gray-600 w-9 text-center border-x border-[#aaa]">
-              {Math.round(zoom * 100)}%
+              {Math.round(view.scale * 100)}%
             </span>
-            <button onClick={zoomIn} disabled={zoom >= ZOOM_MAX} title="Zoom in"
+            <button onClick={zoomIn} disabled={view.scale >= ZOOM_MAX} title="Zoom in"
               className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:hover:bg-white">
               <ZoomIn className="w-3 h-3" />
+            </button>
+            <button onClick={resetView} title="Reset view"
+              className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 border-l border-[#aaa]">
+              <Maximize2 className="w-3 h-3" />
             </button>
           </div>
         </div>
       </div>
 
-      <div ref={scrollRef} className="overflow-auto" style={{ height: Math.min(320, graph.svgH) }}>
-        <div style={{ width: graph.svgW * zoom, height: graph.svgH * zoom, flexShrink: 0 }}>
-          <svg width={graph.svgW} height={graph.svgH}
-            style={{ display: "block", transform: `scale(${zoom})`, transformOrigin: "0 0" }}>
+      <div ref={viewportRef}
+        className="relative overflow-hidden select-none touch-none"
+        style={{ height: Math.min(320, graph.svgH), cursor: panning ? "grabbing" : "grab" }}
+        onPointerDown={onPointerDown}>
+        <svg width={graph.svgW} height={graph.svgH}
+          style={{ display: "block", transformOrigin: "0 0", pointerEvents: panning ? "none" : undefined,
+            transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}>
             <defs>
               <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
                 <polygon points="0 0, 8 3, 0 6" fill="#b0b8cc" />
@@ -215,7 +307,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
                   onMouseEnter={() => setHovered(node.id)}
                   onMouseLeave={() => setHovered(null)}
                   onClick={() => {
-                    if (!canToggle) return;
+                    if (didDragRef.current || !canToggle) return;
                     if (node.isOrMore && node.orGroupPath) toggleOrExpand(node.orGroupPath);
                     else toggleExpand(node);
                   }}
@@ -254,8 +346,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
                 </g>
               );
             })}
-          </svg>
-        </div>
+        </svg>
       </div>
 
       <div className="flex items-center gap-4 px-3 py-1.5 bg-white border-t border-[#c0c0c0] text-[0.769rem] text-gray-600 flex-wrap">
