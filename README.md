@@ -161,7 +161,8 @@ Full contract in [`backend/README.md`](backend/README.md).
 - [x] Campus map + walking routes
 - [x] ICS export feature
 - [x] Interactive prerequisite viewer
-- [ ] Cron job to check for updates and scrape data automatically
+- [ ] Cron job to check for schedule updates and scrape data automatically
+- [ ] Archive enrollment data (seats + waitlist) from FA26 2nd pass onward and publish it as a public CSV dataset
 
 ## Contributing
 
