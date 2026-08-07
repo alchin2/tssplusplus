@@ -14,10 +14,12 @@ import type { PrereqNode } from "../types";
 export const GNW = 148, GNH = 44, HGAP = 18, VGAP = 82, GPAD = 32;
 export const COL_W = GNW + HGAP;
 export const MAX_D = 2, OR_PREV = 3;
-// OR-group alternatives stack strictly vertically -- one card per row, all
-// sharing the same x, no horizontal lean/pile. STACK_VY is the vertical step
-// between rows (kept below GNH so each card's labels still clear the card above
-// it while the group stays compact).
+// OR-group alternatives stack vertically -- one card per row, all sharing the
+// same column. STACK_VY (> GNH) is the vertical step between rows, so the cards
+// clear each other. At most one alt is expanded at a time; its prereqs hang
+// straight down only when its card is the bottom of the stack. Any higher card
+// branches its prereqs out to the side instead -- straight down would overlay
+// the cards stacked beneath it (see orGroupExpansion / place).
 const STACK_VY = 60;
 type FanBias = "left" | "right" | "center";
 
@@ -49,15 +51,43 @@ function subW(node: PrereqNode, depth: number, path: string, exp: Set<string>, o
       const alts = child.children;
       const expanded = orExp.has(groupPath) || alts.length <= OR_PREV + 1;
       const visible = expanded ? alts : alts.slice(0, OR_PREV);
-      // Alternatives stack vertically (see place()) rather than sitting side by
-      // side, so the span is just as wide as whichever single alt has its own
-      // prereqs fanned out; the "+N more" card stacks in the same column.
-      w += Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
+      const hidden = alts.length - visible.length;
+      // Alternatives stack vertically in one column (see place()); the span is
+      // driven by whichever single alt has its prereqs fanned out. A bottom-of-
+      // stack alt fans straight down within its own subtree width; any higher
+      // alt branches to the side, costing one extra column beside the stack.
+      w += orGroupExpansion(visible, hidden, groupPath, depth, exp, orExp).width;
     } else {
       w += subW(child, depth + 1, `${path}.${i}`, exp, orExp);
     }
   });
   return Math.max(1, w);
+}
+
+// Resolve how one OR group lays out, given its currently-visible alternatives.
+// At most one alt can have its prereqs expanded (toggleExpand closes the rest),
+// so there is a single `expandedJ`. The bottom card of the stack -- the last
+// visible alt when the group is fully expanded (no "+N more" below it) -- fans
+// its prereqs straight down, reserving just its own subtree width. Any higher
+// card would overlay the cards stacked beneath it, so it branches its prereqs
+// out to the side instead, reserving one column for the stack plus its subtree.
+// subW() and place() both call this so they agree on the reserved column span.
+function orGroupExpansion(
+  visible: PrereqNode[], hidden: number, groupPath: string,
+  depth: number, exp: Set<string>, orExp: Set<string>,
+): { bottomIdx: number; expandedJ: number; expandedW: number; sideBranch: boolean; width: number } {
+  const bottomIdx = hidden > 0 ? -1 : visible.length - 1;
+  // The one alt whose prereqs are revealed. Detect it by the same rule place()
+  // uses to show a subtree -- not by subW width, since an alt expanded to a
+  // single prereq still fans a card below it yet only measures one column wide.
+  let expandedJ = -1, expandedW = 1;
+  visible.forEach((alt, j) => {
+    const showsSubtree = alt.children.length > 0 && (depth + 1 < MAX_D - 1 || exp.has(alt.code));
+    if (showsSubtree) { expandedJ = j; expandedW = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp); }
+  });
+  const sideBranch = expandedJ >= 0 && expandedJ !== bottomIdx;
+  const width = expandedJ < 0 ? 1 : sideBranch ? 1 + expandedW : expandedW;
+  return { bottomIdx, expandedJ, expandedW, sideBranch, width };
 }
 
 function place(
@@ -72,7 +102,10 @@ function place(
   // drawParentEdge=false suppresses this node's incoming arrow: OR-group cards
   // skip it so the group gets one shared parent->group arrow (see buildGraph)
   // instead of one arrow per alternative.
-  fanBias: FanBias = "center", yShift = 0, drawParentEdge = true,
+  // childColShift offsets this node's children (and their subtrees) sideways by
+  // a whole column while the node itself stays put. A side-branching OR alt uses
+  // it to push its prereqs one column clear of the stack column beneath it.
+  fanBias: FanBias = "center", yShift = 0, drawParentEdge = true, childColShift = 0,
 ): void {
   const id = `n${seq.n++}`;
   const hasKids = node.children.length > 0;
@@ -100,7 +133,7 @@ function place(
   }
   if (!show) return;
 
-  let col = leftCol;
+  let col = leftCol + childColShift;
   node.children.forEach((child, i) => {
     if (child.code === "OR") {
       const groupPath = `${path}.${i}`;
@@ -109,23 +142,35 @@ function place(
       const visible = expanded ? alts : alts.slice(0, OR_PREV);
       const hidden = alts.length - visible.length;
 
-      // The alternatives share one reserved span, `altW` columns wide, for
-      // whichever single alt a click has expanded (its prereqs extend straight
-      // down, like any non-grouped course). Every card sits in one column
-      // (`stackBaseCol`) and differs only by its downward per-row shift, so the
-      // group reads as a strict vertical column; the expanded alt's subtree
-      // hangs straight beneath its card (it inherits that card's shift).
+      // The cards stack vertically in one shared column (`stackCol`). At most
+      // one alt is expanded; `width` reserves room for its prereq subtree. When
+      // the expanded card is the bottom of the stack the subtree fans straight
+      // down and the stack centers over it; otherwise the subtree branches to
+      // the side (one column clear of the stack, via childColShift) so it never
+      // overlays the cards below, and the stack sits at the group's left column.
       const groupCol = col;
-      const altW = Math.max(1, ...visible.map((alt, j) => subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp)));
-      const stackBaseCol = groupCol + (altW - 1) / 2;
+      const { bottomIdx, expandedJ, sideBranch, expandedW, width } =
+        orGroupExpansion(visible, hidden, groupPath, depth, exp, orExp);
+      const stackCol = sideBranch ? groupCol : groupCol + (expandedW - 1) / 2;
 
       // Placed back-to-front so the first/primary alt paints last (frontmost,
       // top of the stack) with its siblings stacked below and behind it.
       visible.slice().reverse().forEach((alt, ri) => {
         const j = visible.length - 1 - ri;
-        const aw = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp);
-        place(alt, depth + 1, stackBaseCol - (aw - 1) / 2, `${groupPath}.${j}`, id, groupPath,
-          exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift + j * STACK_VY, false);
+        const yS = yShift + j * STACK_VY;
+        if (j === bottomIdx) {
+          // Bottom of the stack -- nothing sits beneath it, so its prereqs hang
+          // straight down, centered under the card like any non-grouped course.
+          const aw = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp);
+          place(alt, depth + 1, stackCol - (aw - 1) / 2, `${groupPath}.${j}`, id, groupPath,
+            exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yS, false);
+        } else {
+          // A card above the bottom stays in the stack column but branches its
+          // prereqs out to the side so they don't overlay the cards beneath it.
+          // Only the one expanded alt has a subtree to push aside (childColShift).
+          place(alt, depth + 1, stackCol, `${groupPath}.${j}`, id, groupPath,
+            exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "right", yS, false, j === expandedJ ? 1 : 0);
+        }
       });
 
       if (hidden > 0) {
@@ -133,7 +178,7 @@ function place(
         // arrow -- the single parent->group arrow covers it.
         const pid = `n${seq.n++}`;
         const stackIdx = visible.length;
-        const px = GPAD + GNW / 2 + stackBaseCol * COL_W;
+        const px = GPAD + GNW / 2 + stackCol * COL_W;
         const py = GPAD + GNH / 2 + (depth + 1) * (GNH + VGAP) + yShift + stackIdx * STACK_VY;
         nodes.push({
           id: pid, code: `+${hidden} more`, title: `${hidden} more alternative${hidden !== 1 ? "s" : ""}`,
@@ -143,7 +188,7 @@ function place(
         (orBoxMap[groupPath] ??= []).push(pid);
       }
 
-      col = groupCol + altW;
+      col = groupCol + width;
     } else {
       const cw = subW(child, depth + 1, `${path}.${i}`, exp, orExp);
       place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift);
