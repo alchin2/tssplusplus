@@ -13,10 +13,13 @@ Course search · live section data · prerequisite graphs · schedule planner ·
 ---
 
 On ~~7/10~~ ~~7/20~~ **7/21 8:00am PST** UCSD replaced the beloved WebReg with the new
-Triton Student System (TSS). TSS++ is a friendlier way to browse the schedule of
-classes and build your schedule, no TritonGPT required. It pairs the public course
+Triton Student System (TSS). The later which came with many errors, slow response times, 
+missing crucial features, and constant down time. 
+
+TSS++ offers a friendlier way to browse the schedule of
+classes and build your schedule without TritonGPT. It pairs the public course
 catalog with live section/seat data, renders full transitive prerequisite trees, and
-lets you plan a conflict-free quarter you can export to any calendar app.
+lets you plan a schedules you can export to any calendar app.
 
 ## Features
 
