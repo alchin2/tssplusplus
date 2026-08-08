@@ -1,0 +1,88 @@
+name: Nightly enrollment-pass section scrape
+
+# Scrape live section/seat data at midnight Pacific during any active
+# enrollment pass (First, Second, or any future pass). Two crons cover
+# both DST offsets -- one of them is midnight Pacific year-round, and the
+# guard step below no-ops the other one for the current season.
+on:
+  schedule:
+    - cron: '0 7 * * *'   # midnight Pacific while PDT (UTC-7)
+    - cron: '0 8 * * *'   # midnight Pacific while PST (UTC-8)
+  workflow_dispatch:
+
+jobs:
+  nightly-scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Only the trigger that lands on midnight Pacific for the current
+      # season should proceed; a manual dispatch bypasses this so it can
+      # be used to kick off a scrape on demand.
+      - name: Guard - only continue at midnight Pacific
+        id: guard
+        run: |
+          python3 - <<'PY'
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo("America/Los_Angeles"))
+          proceed = now.hour == 0 or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+          print(f"Pacific time now: {now:%Y-%m-%d %H:%M %Z} (hour={now.hour})")
+          print(f"Proceed? {proceed}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"proceed={'true' if proceed else 'false'}\n")
+          PY
+
+      - name: Check enrollment pass window
+        id: check
+        if: steps.guard.outputs.proceed == 'true'
+        run: python3 scrapers/helpers/check_pass_window.py
+
+      - name: Restore TSS cookie
+        if: steps.guard.outputs.proceed == 'true' && steps.check.outputs.run == 'true'
+        env:
+          TSS_COOKIE: ${{ secrets.TSS_COOKIE }}
+        run: printf '%s' "$TSS_COOKIE" > scrapers/tss_scraper/cookie.txt
+
+      - name: Scrape live sections into MongoDB
+        id: scrape
+        if: steps.guard.outputs.proceed == 'true' && steps.check.outputs.run == 'true'
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+        run: python3 scrapers/tss_scraper/main.py
+
+      # A dead cookie aborts the scrape (tss_scraper exits on 401/403).
+      # Ping Discord so the cookie can be refreshed -- optional: skips
+      # itself when the webhook secret isn't configured.
+      - name: Alert Discord that the TSS cookie needs refreshing
+        if: always() && steps.scrape.outcome == 'failure'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping notification."
+            exit 0
+          fi
+          read -r -d '' CONTENT <<EOF || true
+          :warning: **TSS++ nightly scrape failed** -- the TSS cookie has likely expired.
+
+          Refresh it:
+          1. Log into <https://tss.ucsd.edu/fiori> in Chrome.
+          2. DevTools (F12) -> Network -> Fetch/XHR -> reload once.
+          3. Click any \`tss.ucsd.edu\` request and copy the full \`cookie\` request header.
+          4. Update the \`TSS_COOKIE\` repo secret with that value.
+
+          Run log: $RUN_URL
+          EOF
+          jq -n --arg content "$CONTENT" '{content: $content}' \
+            | curl -sS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"
