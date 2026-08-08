@@ -42,6 +42,9 @@ def find_prereq_boundary(raw_str: str) -> str:
 def tokenize(text: str) -> List[str]:
     # Normalize the text
     text = re.sub(r'\s+', ' ', text).strip()
+    
+    # Remove Any periods
+    text = re.sub(r'\.', ' ', text)
 
     # Remove Math Placement Exam references (including "qualifying score")
     text = re.sub(r'Math\s+Placement\s+Exam(\s+qualifying)?(\s+score)?(\s+of\s+\d+)?', '', text, flags=re.IGNORECASE)
