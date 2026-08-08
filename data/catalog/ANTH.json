@@ -265,8 +265,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ANTH128A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANTH128A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP128A"
+              }
+            ]
           }
         ]
       }
@@ -346,7 +355,26 @@
     "code": "ANTH 196C",
     "description": "A weekly research seminar where students share, read, and discuss in-depth research findings resulting from ANTH 196A and 196B along with selected background literature used in each individual thesis. Students are also taught how to turn their theses into brief presentations for both specialized and broader audiences. Students will be offered opportunities to present their findings at campus events and outreach events during the quarter.",
     "raw_prereq": "ANTH 196A-B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANTH196A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH196B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -626,7 +654,26 @@
     "code": "ANAR 160",
     "description": "This course considers in detail a particular region or archaeological site within the Maya area. Content will cover primary literature on Maya archaeology, epigraphy, and art history. Course content will vary based on the specific region/site. May be taken for credit three times.",
     "raw_prereq": "upper-division standing and ANAR 153. Graduate students wishing to enroll should have already taken ANTH 202.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANAR153"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ANTH202"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

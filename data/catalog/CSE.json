@@ -48,11 +48,11 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "CSE5"
+                "course_id": "CSE5R"
               },
               {
                 "type": "COURSE",
-                "course_id": "CSE5R"
+                "course_id": "CSE25"
               }
             ]
           }
@@ -79,7 +79,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CSE5R"
+                "course_id": "CSE25"
               }
             ]
           }
@@ -228,6 +228,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
               }
             ]
           }
@@ -301,15 +305,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CS29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CSE5"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CSE5R"
+                "course_id": "DSC20"
               }
             ]
           }
@@ -634,9 +630,13 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CSE100R"
+                "course_id": "ECE15"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CSE100"
           }
         ]
       }
@@ -867,6 +867,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH188"
               }
             ]
           }
@@ -1041,6 +1045,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE191"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE192"
               }
             ]
           }
@@ -1102,7 +1110,17 @@
     "code": "CSE 121",
     "description": "Case study of architecture and implementation of a modern operating system or parts of multiple operating systems. In-depth analysis through detailed study of deployed source code. Topics vary based on OS understudy each term. Emphasis on emerging concerns and the new techniques and technologies used to address them. Recommended preparation: Knowledge of programming languages and paradigms, the components that comprise them, and the principles of language design are strongly recommended but not required.",
     "raw_prereq": "CSE 120.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE120"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1141,8 +1159,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "CSE110"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE141B"
+              }
+            ]
           }
         ]
       }
@@ -1496,7 +1523,17 @@
     "code": "CSE 136",
     "description": "Design and implementation of very large-scale, web-based applications. Topics covered typically include modeling organizational needs, design and revision management, J2EE or similar software platforms, web server and application server functionality, reuse of object-oriented components, model-view-controller and other design patterns, clustering, load-balancing, fault-tolerance, authentication, and usage accounting.",
     "raw_prereq": "CSE 135.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE135"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1637,25 +1674,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CS25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS29"
+                "course_id": "CSE100R"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "EC26"
           }
         ]
       }
@@ -1693,25 +1714,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CS25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS29"
+                "course_id": "CSE100R"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "EC26"
           }
         ]
       }
@@ -1728,29 +1733,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS29"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "EC26"
+            "course_id": "CSE140"
           }
         ]
       }
@@ -1770,7 +1754,17 @@
     "code": "CSE 147",
     "description": "This course introduces the breadth of embedded systems, including hardware, software and modeling techniques. Embedded hardware topics include various types of processors and accelerators, memory, system and communication interfaces, sensors, and actuators. Embedded software includes timing, real-time and distributed scheduling, operating systems. The class will have design projects using off the shelf hardware and software components. Recommended preparation: Basic understanding of operating systems and computer architecture is strongly recommended.",
     "raw_prereq": "CSE 30.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE30"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2926,6 +2920,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE100R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC80"
               }
             ]
           }
@@ -3117,6 +3115,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSGN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ENG100D"
               }
             ]
           }
@@ -3135,17 +3137,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CSE175"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ECE150"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "ECE150"
           }
         ]
       }
@@ -3171,6 +3164,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE170"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
               }
             ]
           }
@@ -3218,6 +3215,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
               }
             ]
           }
@@ -3257,6 +3258,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8B"
               }
             ]
           }
@@ -3415,6 +3420,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE182"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM182"
               }
             ]
           }
@@ -3480,6 +3489,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM109"
               }
             ]
           }
@@ -3620,6 +3633,10 @@
               {
                 "type": "COURSE",
                 "course_id": "WCWP100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WCWP10B"
               }
             ]
           }
@@ -3638,29 +3655,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CSE197"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS27"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "CS29"
+            "course_id": "CSE197C"
           }
         ]
       }
@@ -3672,43 +3668,7 @@
     "code": "CSE 197C",
     "description": "Directed study accompanying full-time on-site computer science cooperative education practicum.",
     "raw_prereq": "department approval. Restricted to CS25, CS26, CS27, and CS29 majors only. Students may receive credit for one of the following: CSE 197C or CSE 197.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS27"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CSE197C"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -3774,7 +3734,17 @@
     "code": "CSE 203A",
     "description": "Modern advances in design and analysis of algorithms. Exact syllabus varies. Topics include approximation, randomized algorithms, probabilistic analysis, heuristics, online algorithms, competitive analysis, models of memory hierarchy, parallel algorithms, number-theoretic algorithms, cryptanalysis, computational geometry, computational biology, network algorithms, VLSI CAD algorithms.",
     "raw_prereq": "CSE 202.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE202"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3932,54 +3902,7 @@
     "code": "CSE 218",
     "description": "This course will cover a current topic in software engineering in depth. Topics in the past have included software tools, impacts of programming language design, and software system structure. (S/U grades permitted.)",
     "raw_prereq": "none. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits. May be taken for credit up to twenty-five times.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -4012,49 +3935,8 @@
             "course_id": "CSE120"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CSE121"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "CS76"
+            "course_id": "CSE121"
           }
         ]
       }
@@ -4196,38 +4078,7 @@
     "code": "CSE 231",
     "description": "(Formerly CSE 264C.) Advanced material in programming languages and translator systems. Topics include compilers and code optimization. May be coscheduled with CSE 131.",
     "raw_prereq": "restricted to students within the CS75, CS76, CS78, CS88, and CS89 majors. All other students will be allowed as space permits.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS89"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -4243,7 +4094,17 @@
     "code": "CSE 232B",
     "description": "A hands-on approach to the principles of databases implementation. Algebraic rewriters/optimizers, query processors, triggers. Beyond centralized relational databases.",
     "raw_prereq": "CSE 232.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE232"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -4251,7 +4112,17 @@
     "code": "CSE 233",
     "description": "Theory of databases. Theory of query languages, dependency theory, deductive databases, incomplete information, complex objects, object-oriented databases, and more. Connections to logic and complexity theory including finite model theory and descriptive complexity.",
     "raw_prereq": "CSE 200.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSE200"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -4364,45 +4235,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "CS76"
+            "course_id": "CSE240A"
           }
         ]
       }
@@ -4438,54 +4272,7 @@
     "code": "CSE 244A",
     "description": "Design for test, testing economics, defects, failures and faults, fault models, fault simulation, automatic test pattern generation, functional testing, memory, PLA, FPGA, microprocessor test, and fault diagnosis.",
     "raw_prereq": "none. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -4562,54 +4349,7 @@
     "code": "CSE 250A",
     "description": "Methods based on probability theory for reasoning and learning under uncertainty. Content may include directed and undirected probabilistic graphical models, exact and approximate inference, latent variables, expectation-maximization, hidden Markov models, Markov decision processes, applications to vision, robotics, speech, and/or text. Recommended preparation: CSE 103 or similar course.",
     "raw_prereq": "graduate standing. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits. Recommended preparation: understanding of probability and statistics.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -4617,30 +4357,7 @@
     "code": "CSE 251A",
     "description": "(Formerly CSE 250B.) Algorithms for supervised and unsupervised learning from data. Content may include maximum likelihood; log-linear models, including logistic regression and conditional random fields; nearest neighbor methods; kernel methods; decision trees; ensemble methods; optimization algorithms; topic models; neural networks; and backpropagation. Renumbered from CSE 250B. Students may not receive credit for CSE 251A and CSE 250B. Course may be coscheduled with CSE 151A.",
     "raw_prereq": "graduate standing or consent of instructor. Restricted to students in CS75, CS76, CS78, and CS89. Other graduate students will be allowed as space permits. Recommended preparation: some experience with probability and statistics recommended.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -4653,29 +4370,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "CS89"
+            "course_id": "CSE251A"
           }
         ]
       }
@@ -4895,26 +4591,7 @@
     "code": "CSE 273",
     "description": "Computational photography overcomes the limitations of traditional photography using computational techniques from image processing, computer vision, and computer graphics. This course provides a comprehensive introduction to computational photography and the practical techniques used to overcome traditional photography limitations (e.g., image resolution, dynamic range, and defocus and motion blur) and those used to produce images (and more) that are not possible with traditional photography. Linear algebra, calculus, and optimization, MATLAB, Python, or other programming experience recommended.",
     "raw_prereq": "course is restricted to students in the following major codes: CS75, CS76, and CS78. Graduate students in other major codes will be allowed if space permits.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS76"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -4930,38 +4607,7 @@
     "code": "CSE 275",
     "description": "This course teaches state-of-the-art concepts and algorithms of geometry that are being used in computer graphics, computer vision, and machine learning. It covers topics such as geometry foundations (differentiable geometry), 3-D reconstruction, structured 3-D learning, geometry processing, and geometry collection analysis. Recommended preparation: previous course work on deep learning and machine learning courses is highly recommended.",
     "raw_prereq": "graduate standing. Restricted to students within the CS75, CS76, CS78, CS88, and CS89 majors. All other students will be allowed as space permits.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS89"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -4969,54 +4615,7 @@
     "code": "CSE 276A",
     "description": "This course provides an introduction to the fundamentals of robotics across kinematics, sensor systems, estimation, control, and planning. The contents include introduction to robotics in general, kinematics of robot systems, robot arm systems, sensors for robots, basic vision for robots, estimation methods, perception, robot localization and navigation, control of robot systems, robot motion planning, robot task planning, robot architectures, and evaluation of robot systems. It is expected that students have a solid understanding of linear algebra, can program in Python or C++, and have a basic understanding of methods for reasoning under uncertainty.",
     "raw_prereq": "graduate standing. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -5127,54 +4726,7 @@
     "code": "CSE 284",
     "description": "This course provides an introduction to bioinformatics techniques for analyzing and interpreting human genomes. Topics covered include an introduction to medical and population genetics, ancestry, finding and interpreting disease-causing variants, genome-wide association studies, genetic risk prediction, analyzing next-generation sequencing data, how to scale current genomics techniques to analyze hundreds of thousands of genomes, and the social impact of the personal genomics revolution. Programming experience, familiarity with the UNIX command line, and a basic course in probability and statistics are strongly recommended.",
     "raw_prereq": "graduate standing. Restricted to students within the CS75, CS78, CS89, CS88, CS77, CS80, CS81, CS83, and CS76 majors. All other students will be allowed as space permits.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "CS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CS83"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {

@@ -116,8 +116,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PSYC70"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
           }
         ]
       }
@@ -151,8 +160,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PSYC70"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
           }
         ]
       }
@@ -362,6 +380,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC106"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC108"
               }
             ]
           }
@@ -397,8 +419,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PSYC70"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
           }
         ]
       }
@@ -428,7 +459,17 @@
     "code": "PSYC 115B",
     "description": "This course is designed to extend the training of PSYC 115A in the design, execution, and analysis of cognitive psychology experiments. Students may not receive credit for both PSYC 115 and PSYC 115B. Open to the following Department of Psychology majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32.",
     "raw_prereq": "upper-division standing and PSYC 115A. Instructor and department approval.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC115A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -463,7 +504,17 @@
     "code": "PSYC 116B",
     "description": "This course, the second in a sequence of three courses, provides an advanced applied examination of theory, research design, and methods for clinical research to support an independent study in research at a clinical research lab.",
     "raw_prereq": "PSYC 116A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC116A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -471,7 +522,17 @@
     "code": "PSYC 116C",
     "description": "This course, the third in a sequence of three courses, provides the culmination of an applied examination of theory, research design, and methods for clinical research to support an independent study in research at a clinical research lab.",
     "raw_prereq": "PSYC 116B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC116B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -497,8 +558,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PSYC70"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
           }
         ]
       }
@@ -614,6 +684,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC172"
               }
             ]
           }
@@ -913,94 +987,7 @@
     "code": "PSYC 167",
     "description": "This seminar explores how psychologists think about and study the imagination—the capacity to mentally transcend time, place, and circumstance to think about what might have been, plan and anticipate the future, create and become absorbed in fictional worlds, and consider alternatives to actual experiences. You will learn how to evaluate psychological evidence, and how to read, interpret, discuss, present, and write about scientific literature.",
     "raw_prereq": "upper-division standing. PC25, PC26, PS28, PC29, PC30, PC31, PC32, PC33, PC34, PC35, HS25, HS26, HS27, HS28, HD01, HD02, HD25, HD26, or CG32 major only.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PS28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC31"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC34"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC35"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HS25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HS26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HS27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HS28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HD01"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HD02"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HD25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HD26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CG32"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1054,6 +1041,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC181GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC2"
               }
             ]
           }
@@ -1105,8 +1096,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "COGS14A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              }
+            ]
           }
         ]
       }
@@ -1236,6 +1236,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
               }
             ]
           }
@@ -1303,8 +1307,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PSYC70"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC70"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              }
+            ]
           }
         ]
       }
@@ -1449,7 +1462,17 @@
     "code": "PSYC 201B",
     "description": "The second part of a series of intensive courses in statistical methods and the mathematical treatment of data, with special reference to research in psychology.",
     "raw_prereq": "PSYC 201A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC201A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1457,7 +1480,17 @@
     "code": "PSYC 201C",
     "description": "The third part of a series of intensive courses in statistical methods and the mathematical treatment of data, with special reference to research in psychology.",
     "raw_prereq": "PSYC 201B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PSYC201B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1465,26 +1498,7 @@
     "code": "PSYC 202",
     "description": "Instruction on organizing, writing, and presenting empirical research papers. Students will learn fundamentals of writing style, data presentation, and time management. This course is intended for psychology graduate students in service of preparation of their first-year papers and talks.",
     "raw_prereq": "psychology graduate students (major code: PC76 or PC78 or PC79), or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PC76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC78"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1572,30 +1586,7 @@
     "code": "PSYC 219",
     "description": "Students will study the cognitive faculties that govern our ability to read for comprehension, along with the opportunities and challenges they create for writers. By reading and discussing primary research, and through feedback on their own writing, students will learn to apply psychological science to the writing activities of psychological scientists (scientific reports, literature reviews, grant proposals, communication with colleagues and students, and writing for the general public).",
     "raw_prereq": "restricted to students with the major codes PC76 or PC78 or PC79, or consent of instructor and graduate standing.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PC76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC79"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1947,34 +1938,7 @@
     "code": "PSYC 269",
     "description": "An in-depth analysis of selected empirical and theoretical topics in cognitive development. The course will focus on areas where notable progress appears to be taking place in contemporary research.",
     "raw_prereq": "graduate standing. Restricted to students with major codes PC81, PC82, PC83, PC84, or consent of the instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PC81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC82"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC83"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PC84"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {

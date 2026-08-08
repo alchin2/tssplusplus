@@ -233,6 +233,10 @@
                 "course_id": "SYN1R"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SYN2R"
           }
         ]
       }
@@ -249,8 +253,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PHIL27"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHIL27"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI27"
+              }
+            ]
           }
         ]
       }
@@ -977,7 +990,17 @@
     "code": "PHIL 179",
     "description": "Continuation of PHIL 178 in the careful, line-by-line translation of passages of advanced difficulty from German philosophical texts, both classic (Kant, Fichte, Hegel, Schopenhauer) and contemporary (Heidegger, Wittgenstein, Habermas). May be repeated for credit three times with change of content.",
     "raw_prereq": "consent of instructor or completion of PHIL 178.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHIL178"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

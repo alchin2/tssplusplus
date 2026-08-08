@@ -128,7 +128,17 @@
     "code": "JAPN 135C",
     "description": "Continuation of training in oral and written communication skills for professional settings in Japanese. Broad aspects of cultural issues in Japanese organizations are introduced and comparison of American and Japanese cultural business patterns will be conducted.",
     "raw_prereq": "JAPN 135B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "JAPN135B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

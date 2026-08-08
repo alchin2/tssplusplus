@@ -718,8 +718,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "SIO10"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIO10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO50"
+              }
+            ]
           }
         ]
       }
@@ -1160,7 +1169,17 @@
     "code": "SIO 138GS",
     "description": "This course introduces core concepts in marine ecology, including biodiversity, species interactions, and food webs. Students will study major groups of marine animals and explore coral reef and mangrove ecosystems around Cairns. Field trips to an aquarium, the Great Barrier Reef, and mangrove rainforests provide hands-on learning about ecosystem structure, function, and responses to environmental change.",
     "raw_prereq": "BILD 3. Students must apply for and be accepted to the Global Seminars Program.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1279,8 +1298,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "SIO134"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIO134"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB134"
+              }
+            ]
           }
         ]
       }
@@ -1408,8 +1436,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "CHEM6C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
           }
         ]
       }
@@ -1457,6 +1494,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO50"
               }
             ]
           }
@@ -2364,6 +2405,10 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "ECE251AN"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "ECE251A"
               }
             ]
@@ -2773,8 +2818,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "SIOC217B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOC217B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO217B"
+              }
+            ]
           }
         ]
       }
@@ -3578,8 +3632,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "SIOG252A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOG252A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO252A"
+              }
+            ]
           }
         ]
       }
@@ -3609,8 +3672,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "SIOG252B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SIOG252B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO252B"
+              }
+            ]
           }
         ]
       }

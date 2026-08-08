@@ -92,7 +92,17 @@
     "code": "COMM 100A",
     "description": "This course is a critical introduction to processes of interaction within lived and built environments. It includes historical survey of theories and methods including actor network-theory, conversation analysis, ethnography, ethnomethodology, cultural linguistics, performance, and social cognition. Course work may integrate scholarly study with production (e.g., in-context observation and research or audio/video production).",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -132,7 +142,17 @@
     "code": "COMM 101",
     "description": "This upper-division course is required as the gateway to all future communication media production courses. Students will learn about contemporary media practices such as film, video, digital/online, and social media production, and how these practices are formed by technical and social constraints. In the studio portion of this course, students will work hands-on with video and new media equipment to apply what they have learned.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -168,6 +188,10 @@
                 "course_id": "COMM40"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
           }
         ]
       }
@@ -184,8 +208,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COMM101"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
           }
         ]
       }
@@ -204,6 +237,10 @@
           {
             "type": "COURSE",
             "course_id": "COMM10"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
           }
         ]
       }
@@ -222,6 +259,10 @@
           {
             "type": "COURSE",
             "course_id": "COMM10"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
           }
         ]
       }
@@ -233,7 +274,17 @@
     "code": "COMM 101M",
     "description": "This course introduces students to computers as media of communication. Each quarter, students participate in a variety of networking activities designed to show the interactive potential of the medium. Fieldwork designed to teach basic methods is combined with readings designed to build a deeper theoretical understanding of computer-based communication.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -246,8 +297,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COMM101"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
           }
         ]
       }
@@ -297,6 +357,10 @@
           {
             "type": "COURSE",
             "course_id": "COMM10"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM101"
           }
         ]
       }
@@ -333,8 +397,17 @@
             "course_id": "COMM10"
           },
           {
-            "type": "COURSE",
-            "course_id": "COMM101"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
           }
         ]
       }
@@ -355,8 +428,17 @@
             "course_id": "COMM10"
           },
           {
-            "type": "COURSE",
-            "course_id": "COMM101"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
           }
         ]
       }
@@ -377,8 +459,17 @@
             "course_id": "COMM10"
           },
           {
-            "type": "COURSE",
-            "course_id": "COMM101"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              }
+            ]
           }
         ]
       }
@@ -390,7 +481,17 @@
     "code": "COMM 103D",
     "description": "History of nonfiction film and video. Through film and written texts, we survey the nonfiction film genre, considering technological innovations, ethical issues, and formal movements related to these representations of the “real.”",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -398,7 +499,17 @@
     "code": "COMM 103E",
     "description": "This course considers the social, cultural, economic, and technological contexts that have shaped electronic media, from the emergence of radio and television to their convergence through the internet, and how these pervasive forms of audiovisual culture have impacted American society.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -406,7 +517,17 @@
     "code": "COMM 104D",
     "description": "The development of media systems in Asia, focusing on India and China. Debates over nationalism, regionalism, globalization, new technologies, identity politics, censorship, privatization, and media piracy. Alignments and differences with North American and European media systems will also be considered.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -414,7 +535,17 @@
     "code": "COMM 104E",
     "description": "The development of media systems and policies in Europe. Differences between European and American journalism. Debates over the commercialization of television. The role of media in postcommunist societies in Eastern Europe.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -422,7 +553,17 @@
     "code": "COMM 104F",
     "description": "This course will critically examine the role of the mass media in sub-Saharan Africa in the areas of colonial rule, nationalist struggles, authoritarianism, and popular movements. It will examine general trends regionally and internationally, as well as individual national cases, from the early twentieth century to the internet news services of the information age.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -430,7 +571,17 @@
     "code": "COMM 104G",
     "description": "The development of media systems and policies in Latin America and the Caribbean. Debates over dependency and cultural imperialism. The news media and the process of democratization. Development of the regional television industry.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -446,7 +597,17 @@
     "code": "COMM 105G",
     "description": "An introduction to video game studies, an interdisciplinary field that explores the cultural, artistic, educational, and social function of gaming. Examine this medium from historical, industrial, technological, theoretical, and aesthetic perspectives. Read from a wide variety of sources and engage in gameplay and narrative and visual analysis.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -454,7 +615,17 @@
     "code": "COMM 105M",
     "description": "Movement is central to our lives. This course draws on the latest research into how we travel, trade, and move. Diverse topics will be covered, including kids in cars, the New York subway, and theories of mobility.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -462,7 +633,17 @@
     "code": "COMM 105P",
     "description": "This course examines photographic technologies as a set of instruments and practices that modern societies have developed and used to tell stories about themselves and make particular claims about truth and reality, focusing on the domains of science, policing, journalism, advertising, and self-expression.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -492,6 +673,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -527,6 +712,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -562,6 +751,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -575,7 +768,17 @@
     "code": "COMM 106F",
     "description": "A study of the social organization of the film industry throughout its history. Who makes films, by what criteria, and for what audience? The changing relationships between studios, producers, directors, writers, actors, editors, censors, distributors, audience, and subject matter of the films will be explored.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -583,7 +786,17 @@
     "code": "COMM 106G",
     "description": "The largest industry in the world has far-reaching cultural ramifications. We will explore tourism’s history and its contemporary cultural effects, taking the perspective of the “toured” as well as that of the tourist.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -591,7 +804,17 @@
     "code": "COMM 106I",
     "description": "The political economy of the emergent internet industry, charted through analysis of its hardware, software, and services components. The course specifies leading trends and changing institutional outcomes by relating the internet industry to the adjoining media, telecommunications, and computer industries.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -621,6 +844,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -658,7 +885,17 @@
     "code": "COMM 107",
     "description": "How visual images contribute to our understanding of the world and ourselves. Theoretical approaches from media studies, art history, gender studies, and social theory will be used to analyze cultures of science, art, mass media, and everyday life.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -666,7 +903,17 @@
     "code": "COMM 108A",
     "description": "How do political contests and debates come to be organized on and around bodies? In what sense is the natural body a sign system and how does its organization represent and reproduce cultural values, moral assumptions, social relations, and economic rationales? This course examines these and other questions through political, historical, and media analysis.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -674,7 +921,17 @@
     "code": "COMM 108D",
     "description": "Cultural and historical ways of defining and understanding disability relative to communication and assistive technologies, including the impact of digital technologies and the Americans with Disabilities Act. Course use of audiovisual texts and writings from fields including science and technology studies, and cultural studies.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -682,7 +939,17 @@
     "code": "COMM 108G",
     "description": "This course explores the construction of gender by biomedicine, and the influence of conceptions of gender on the development of biomedicine. From challenges to binary conceptions of sex to the intersection of race and pharmaceutical development around the world, the course will examine the ways in which embodied experiences of gender, sexuality, and race have interacted with social processes of biomedicalization and pharmaceuticalization.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -690,7 +957,17 @@
     "code": "COMM 109I",
     "description": "Even though we consider ours to be the Information Age, information has a rich history that goes back to the invention of the printing press. This history focuses on the rise of mechanical and social technologies that fostered the spread of information. Topics will include media and networks (books, telegraphy, internet), collecting and storage (archives, libraries, digital repositories), elemental units (facts, bits, noise), and application and use (reading, messaging, algorithms).",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -698,7 +975,17 @@
     "code": "COMM 109P",
     "description": "Propaganda, in political-economic, national settings; Soviet Union; Nazi Germany; US World War I and II. Propaganda films, contribution of filmmakers to propaganda campaign. Explore issues in propaganda; persuasive communication; political propaganda; persuasive advertising; public relations; practical, ethical perspectives.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -706,7 +993,17 @@
     "code": "COMM 110G",
     "description": "Organizations are analyzed as historically evolving discursive systems of activity mediated by talk, text, and artifacts. The class covers sense making, coordinating, symbolizing, talking, negotiating, reading and writing, storytelling, joking, and visualizing in organizations. Exemplary case studies employing several complementary frameworks are used to analyze these communicative processes.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -714,7 +1011,17 @@
     "code": "COMM 110M",
     "description": "This course examines forms of communication that affect people’s everyday lives. Focusing on ways that ethnic communities transmit and acquire information and interact with mainstream institutions, we examine a variety of alternative local media, including murals, graffiti, newsletters, and community radio.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -722,7 +1029,17 @@
     "code": "COMM 110P",
     "description": "This course examines the interaction of language and culture in human communication. Beginning with language evolution, the course then discusses a broad range of human languages, including indigenous languages, sign languages, and hybrid languages spoken in urban centers.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -730,7 +1047,17 @@
     "code": "COMM 110T",
     "description": "This course examines the ways in which various communicative channels mediate human action and thought. A basic premise of the course is that human thought is shaped in important ways by the communicative devices used to communicate. There is a particular emphasis on how thought develops, both historically and in the individual.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -760,6 +1087,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -773,7 +1104,17 @@
     "code": "COMM 111A",
     "description": "This course examines the products of culture industries (e.g., music, television, fashion, food, landscape, architectural design) to analyze, specifically, how culture is consumed and by whom. How are spectators hailed and audiences fostered and shaped? And what is the role of audiences in fostering and shaping cultural forms and products?",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -789,46 +1130,6 @@
     "code": "COMM 111C",
     "description": "This course offers an introduction to the production of urban space. Cities are produced by sociocultural shifts wrought by migration, technological changes, new forms of production, globalization, and climate change. How is the landscape or built environment of the city shaped by the combined and often contradictory forces of capital, expert knowledge, social movements, and urban dwellers?",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CCP: Folklore and Communication",
-    "code": "COMM 111F",
-    "description": "Folklore is characterized by particular styles, forms, and settings. Course introduces a range of folklore genres from different cultures, historical periods, oral narrative, material folk arts, dramas, rituals. Study of the relationship between expressive form and social context.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CCP: Popular Culture",
-    "code": "COMM 111G",
-    "description": "This course provides an overview of developments in popular culture from the early twentieth century through present day, with analysis of historical pop culture texts. It also offers a review of theoretical work from cultural studies on the significance of pop culture.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": true
-  },
-  {
-    "name": "CCP: Performance and Cultural Studies",
-    "code": "COMM 111P",
-    "description": "Explores performance as a range of aesthetic conventions (theatre, film, performance art) and as a mode of experiencing and conveying cultural identity. Texts include critical writing from anthropology, psychology, linguistics, media studies, as well as film/video, play scripts, live performance.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CCP: Cultural Politics of Sport",
-    "code": "COMM 111T",
-    "description": "Examine sports as play, performance, competition, an arena where there are politics, culture, power, identity struggles. Establishing the social meanings of sport, we address ethics, race, class, nation, gender, body, science, technology, entertainment industries, commerce, spectatorship, consumption, amateurism, professionalism.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "IM: The Idea of Childhood",
-    "code": "COMM 112C",
-    "description": "Our understanding of childhood as a stage of innocence is a modern idea. The idea of childhood has not been constant; different cultures, communities, and classes have shaped the integration of children according to their own standards. We examine the different ways that attitudes toward children have changed, how these attitudes have been connected to an understanding of the human being, and how the desires of society and parents are manifested in what they think the child should be.",
-    "raw_prereq": "COMM 10 or HDP 1.",
     "prerequisites": [
       {
         "type": "AND",
@@ -843,11 +1144,120 @@
     "offered_this_qtr": false
   },
   {
+    "name": "CCP: Folklore and Communication",
+    "code": "COMM 111F",
+    "description": "Folklore is characterized by particular styles, forms, and settings. Course introduces a range of folklore genres from different cultures, historical periods, oral narrative, material folk arts, dramas, rituals. Study of the relationship between expressive form and social context.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Popular Culture",
+    "code": "COMM 111G",
+    "description": "This course provides an overview of developments in popular culture from the early twentieth century through present day, with analysis of historical pop culture texts. It also offers a review of theoretical work from cultural studies on the significance of pop culture.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": true
+  },
+  {
+    "name": "CCP: Performance and Cultural Studies",
+    "code": "COMM 111P",
+    "description": "Explores performance as a range of aesthetic conventions (theatre, film, performance art) and as a mode of experiencing and conveying cultural identity. Texts include critical writing from anthropology, psychology, linguistics, media studies, as well as film/video, play scripts, live performance.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CCP: Cultural Politics of Sport",
+    "code": "COMM 111T",
+    "description": "Examine sports as play, performance, competition, an arena where there are politics, culture, power, identity struggles. Establishing the social meanings of sport, we address ethics, race, class, nation, gender, body, science, technology, entertainment industries, commerce, spectatorship, consumption, amateurism, professionalism.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "IM: The Idea of Childhood",
+    "code": "COMM 112C",
+    "description": "Our understanding of childhood as a stage of innocence is a modern idea. The idea of childhood has not been constant; different cultures, communities, and classes have shaped the integration of children according to their own standards. We examine the different ways that attitudes toward children have changed, how these attitudes have been connected to an understanding of the human being, and how the desires of society and parents are manifested in what they think the child should be.",
+    "raw_prereq": "COMM 10 or HDP 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
     "name": "IM: Language and Globalization",
     "code": "COMM 112G",
     "description": "The interaction of language and culture in human communication. New and old languages, standard and dialect, dominant and endangered are the special focus. Selected languages as examples of how languages exist in contemporary contexts.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -855,7 +1265,17 @@
     "code": "COMM 113T",
     "description": "Specialized study of communication topics, to be determined by the instructor, for any given quarter. May be taken for credit three times.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -879,7 +1299,17 @@
     "code": "COMM 114C",
     "description": "Consider “constitutions” as meaning-making, world-building mechanisms and practices. Explore how constitutions work: as interpretive instruments designed to frame, organize, guide human thought, action, and systems (according to certain rules or principles often represented as divine in origin and universal in effect) and; as ongoing, dynamic interpretative processes that nevertheless congeal in objects, bodies, and social arrangements and are thus considered binding or unalterable.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -887,7 +1317,17 @@
     "code": "COMM 114D",
     "description": "Does “new media” deliver on its promise to expand access to public participation? We will analyze, produce, and counter narratives about media, youth, and democracy. The course should interest students who care about politics, human development, community engagement, or human computer interaction.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -895,7 +1335,17 @@
     "code": "COMM 114E",
     "description": "This course introduces students to different theories of globalization and of gender. Against this theoretical background, students critically examine the gendered (and racialized) nature of labor in the production of material, social, and cultural goods in the global economy.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -917,6 +1367,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DOC2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI40"
               }
             ]
           }
@@ -930,7 +1384,17 @@
     "code": "COMM 114G",
     "description": "This course will focus on arguments about cognitive differences between men and women in science. We will review current arguments about essential differences, historical beliefs about gender attributes and cognitive ability, and gender socialization into patterns of learning in school.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -938,7 +1402,17 @@
     "code": "COMM 114I",
     "description": "Course explores the roles of media technologies in activist campaigns, social movements. Blending theory, historical case studies, and project-based group work, students will investigate possibilities and limitations of attempts to enroll new and old media technologies in collective efforts to make social change.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -946,7 +1420,17 @@
     "code": "COMM 114J",
     "description": "Examine food justice from multiple analytical and theoretical perspectives: race, class, diversity, equity, legal-institutional, business, ethical, ecological, scientific, cultural, and socio-technical. Compare political strategies of food justice organizations/movements aimed at creating healthy and sustainable food systems locally and globally.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -962,38 +1446,6 @@
     "code": "COMM 114M CSI: Communication and the Law (4)",
     "description": "Using classic and modern texts, the course explores fundamental questions of law and political theory: What are rights and where do they come from? What is the balance between freedom and equality, between individual and common goods? These theoretical explorations are then oriented to specifically communication concerns: What is the relationship between privacy and personhood? Between free speech and democracy? Between intellectual property and efficient markets?",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CSI: Communication and the Law: The Body in Law",
-    "code": "COMM 114N",
-    "description": "This course concentrates on one area of law specific to the concerns of communication: the relationship between privacy, personhood, and bodily autonomy. Using a combination of legal texts, court cases, and theoretical literature, we will consider the changing nature of each dimension of this relationship as the courts have been called upon to adjudicate conflicting claims and visions in matters of reproduction, sexual identity, genetic engineering, and the commodification of body parts.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CSI: Public History and Museum Studies",
-    "code": "COMM 114P",
-    "description": "This course will explore the role that “public history”—history as created for general audiences—plays in communicating cultural and national identities by examining museum exhibitions, their controversies, and how material objects mediate interpretations of the past.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CSI: Science Communication",
-    "code": "COMM 114T",
-    "description": "This course examines science communication as a unique form of storytelling, identifying who does science communication, how, why, and with what impacts. Through an exploration of the social construction of scientific knowledge, the course highlights science communication’s role in democracy, power, justice, public reason, technological trajectories, university-community relations, and health activism.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "CSI: Global Health Communication",
-    "code": "COMM 114W",
-    "description": "Public health campaigns attempt to change behavior, slow the spread of disease, and improve the health of a population. This course takes a critical social science perspective on the production, dissemination, and impacts (intended and otherwise) of public health communication, including questions of coercion, autonomy, and perceptions of collective health and well-being.",
-    "raw_prereq": "COMM 10 or GLBH 20.",
     "prerequisites": [
       {
         "type": "AND",
@@ -1008,11 +1460,102 @@
     "offered_this_qtr": false
   },
   {
+    "name": "CSI: Communication and the Law: The Body in Law",
+    "code": "COMM 114N",
+    "description": "This course concentrates on one area of law specific to the concerns of communication: the relationship between privacy, personhood, and bodily autonomy. Using a combination of legal texts, court cases, and theoretical literature, we will consider the changing nature of each dimension of this relationship as the courts have been called upon to adjudicate conflicting claims and visions in matters of reproduction, sexual identity, genetic engineering, and the commodification of body parts.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Public History and Museum Studies",
+    "code": "COMM 114P",
+    "description": "This course will explore the role that “public history”—history as created for general audiences—plays in communicating cultural and national identities by examining museum exhibitions, their controversies, and how material objects mediate interpretations of the past.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Science Communication",
+    "code": "COMM 114T",
+    "description": "This course examines science communication as a unique form of storytelling, identifying who does science communication, how, why, and with what impacts. Through an exploration of the social construction of scientific knowledge, the course highlights science communication’s role in democracy, power, justice, public reason, technological trajectories, university-community relations, and health activism.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "CSI: Global Health Communication",
+    "code": "COMM 114W",
+    "description": "Public health campaigns attempt to change behavior, slow the spread of disease, and improve the health of a population. This course takes a critical social science perspective on the production, dissemination, and impacts (intended and otherwise) of public health communication, including questions of coercion, autonomy, and perceptions of collective health and well-being.",
+    "raw_prereq": "COMM 10 or GLBH 20.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "GLBH20"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
     "name": "Communication and the Senses",
     "code": "COMM 115",
     "description": "While we often assume that communication is something that happens only with our eyes and/or ears, every act of communication is multisensory, often involving sight and sound but also smell, touch, and taste. In this course, students will learn how to pay attention to and engage with the “other” senses beyond the visual and auditory. Interdisciplinary scholarship and empirical activities help students build a vocabulary for understanding the complexities of multisensory communication.",
     "raw_prereq": "COMM 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1042,6 +1585,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -1077,6 +1624,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -1112,6 +1663,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -1147,6 +1702,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -1182,6 +1741,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -1195,7 +1758,17 @@
     "code": "COMM 119",
     "description": "This course instructs advanced strategies, tactics, and presentation skills necessary for superior performance in intercollegiate speech and debate competitions. May be taken for credit three times.",
     "raw_prereq": "COMM 80.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM80"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1221,6 +1794,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1252,6 +1829,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1283,6 +1864,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1314,6 +1899,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1345,6 +1934,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1388,6 +1981,10 @@
               {
                 "type": "COURSE",
                 "course_id": "POLI10D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP1"
               }
             ]
           }
@@ -1401,7 +1998,17 @@
     "code": "COMM 124B",
     "description": "Course builds on understanding design as political activity. Group work to design quarter-long projects that explore political role of design, include design in built environments, organizations, media technologies. Deepened capacities to design in public, for publics, with publics. May be taken for credit three times.",
     "raw_prereq": "COMM 124A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM124A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1435,6 +2042,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1466,6 +2077,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1497,6 +2112,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1532,6 +2151,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -1563,6 +2186,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1594,6 +2221,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1625,6 +2256,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1656,6 +2291,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1687,6 +2326,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1718,6 +2361,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1749,6 +2396,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1780,6 +2431,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1811,6 +2466,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1842,6 +2501,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1873,6 +2536,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1920,6 +2587,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1951,6 +2622,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -1982,6 +2657,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2017,6 +2696,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -2056,6 +2739,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM50"
               }
             ]
           }
@@ -2083,6 +2770,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2114,6 +2805,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2149,6 +2844,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM30GS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM40"
               }
             ]
           }
@@ -2180,6 +2879,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2219,6 +2922,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2250,6 +2957,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2281,6 +2992,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2312,6 +3027,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2343,6 +3062,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2374,6 +3097,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2405,6 +3132,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2436,6 +3167,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2467,6 +3202,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2498,6 +3237,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2537,6 +3280,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2568,6 +3315,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2599,6 +3350,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2630,6 +3385,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2661,6 +3420,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2692,6 +3455,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2723,6 +3490,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2754,6 +3525,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2785,6 +3560,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2818,6 +3597,10 @@
                 "course_id": "COMM100B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COMM100C"
           }
         ]
       }
@@ -2847,6 +3630,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2878,6 +3665,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2909,6 +3700,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2940,6 +3735,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -2971,6 +3770,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
               }
             ]
           }
@@ -3008,7 +3811,17 @@
     "code": "COMM 196B",
     "description": "Preparation of an honors thesis, which can be either a research paper or a media production project. Open to students who have been admitted to the honors program. Grades will be awarded upon completion of the two-quarter sequence.",
     "raw_prereq": "minimum grade of B+ in COMM 196A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM196A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

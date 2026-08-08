@@ -22,7 +22,17 @@
     "code": "DOC 2",
     "description": "This course considers the nature of justice in philosophical, historical, and legal terms. Topics include racial justice, political representation, economic justice, gender and justice, the rights of cultural minorities, and crime and punishment. The course offers intensive instruction in writing university-level expository prose, specifically thesis-based argumentative essays. Restrictions: Marshall College students only, must be taken for a letter grade.",
     "raw_prereq": "satisfaction of UC Entry Level Writing Requirement and completion of DOC 1. Enrollment by department approval only. (W)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DOC1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -30,7 +40,17 @@
     "code": "DOC 3",
     "description": "This course examines the relevance of sociocultural diversity and the nature of justice in explicitly local and contemporary contexts. Students are asked to imagine and propose rigorously researched and interdisciplinary solutions to issues relevant to their own lived experiences. The course offers intensive instruction in writing university-level expository prose, with special emphasis on developing a research process. Restrictions: Marshall College students only, must be taken for a letter grade.",
     "raw_prereq": "DOC 2. (S)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "DOC2"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

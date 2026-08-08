@@ -92,7 +92,17 @@
     "code": "COGS 14B",
     "description": "Introduction to descriptive and inferential statistics. Tables, graphs, measures of central tendency and variability. Distributions, Z-scores, correlation, regression. Probability, sampling, logic of inferential statistics, hypothesis testing, decision theory. T-test, one and two-way Anova, nonparametric tests (Chi-square).",
     "raw_prereq": "COGS 14A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS14A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -185,8 +195,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COGS1"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS10"
+              }
+            ]
           }
         ]
       }
@@ -198,7 +217,17 @@
     "code": "COGS 101A",
     "description": "An introduction to the experimental study of cognition with a focus on sensation and perception.",
     "raw_prereq": "COGS 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -206,7 +235,26 @@
     "code": "COGS 101B",
     "description": "A survey of the experimental study of learning, memory, and attention. Topics include conditioning, automaticity, divided attention, memory systems, and the nature of mental representation.",
     "raw_prereq": "COGS 1. Recommended: COGS 101A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS101A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -221,6 +269,10 @@
           {
             "type": "COURSE",
             "course_id": "COGS1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS14A"
           }
         ]
       }
@@ -239,6 +291,10 @@
           {
             "type": "COURSE",
             "course_id": "COGS1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS10"
           }
         ]
       }
@@ -250,7 +306,17 @@
     "code": "COGS 102B",
     "description": "Examines memory, reasoning, language, culture, planning, and interaction directly in everyday, real-world settings. Focuses on ethnographic methods, their history, and their application. The course work includes projects in which students make observations of real-world activity and analyze their cognitive significance.",
     "raw_prereq": "COGS 102A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS102A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -258,7 +324,17 @@
     "code": "COGS 102C",
     "description": "This project-based course focuses on learning and applying the process of human-centered cognitive design. Students work in teams to design and evaluate a prototype application or redesign an existing system. Emphasizes contextual inquiry, user research, ideation, iterative design, and evaluation.",
     "raw_prereq": "COGS 102B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS102B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -271,8 +347,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BILD12"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              }
+            ]
           }
         ]
       }
@@ -284,7 +369,17 @@
     "code": "COGS 107B",
     "description": "This course focuses on the electrical dynamics of neurons and how their patterns relate to perception, thought, and action. Neural activity patterns underlying vision, touch, audition, proprioception, and head orientation are examined in detail. Also examined are motor control, sleep/wake state production, action planning, learning, memory, attention, spatial cognition and function of the cerebellum, basal ganglia, and hippocampus.",
     "raw_prereq": "COGS 107A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS107A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -332,6 +427,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSC10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE8"
               }
             ]
           }
@@ -380,6 +479,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE8A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE11"
               }
             ]
           }
@@ -407,6 +510,10 @@
               {
                 "type": "COURSE",
                 "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
               }
             ]
           }
@@ -462,6 +569,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS17"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDP110"
               }
             ]
           }
@@ -484,8 +595,17 @@
             "course_id": "COGS107A"
           },
           {
-            "type": "COURSE",
-            "course_id": "COGS107B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
+              }
+            ]
           }
         ]
       }
@@ -497,7 +617,17 @@
     "code": "COGS 117",
     "description": "What would it take to build a robot that could learn like a human infant? This course explores the science of learning in natural and artificial minds. What comes easily to babies but is hard for machines, and vice versa? The course will explore connections between infant development, cognitive neuroscience, and advances in AI to understand how natural and artificial minds grow across topics such as perception, motor development, language, curiosity, and social cognition.",
     "raw_prereq": "COGS 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -577,6 +707,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE175A"
               }
             ]
           }
@@ -707,6 +841,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE175A"
               }
             ]
           }
@@ -746,8 +884,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "COGS108"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              }
+            ]
           }
         ]
       }
@@ -851,6 +998,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE175A"
               }
             ]
           }
@@ -878,6 +1029,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
               }
             ]
           }
@@ -926,6 +1081,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSGN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ENG100D"
               }
             ]
           }
@@ -970,6 +1129,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSC30"
               }
             ]
           }
@@ -1005,6 +1168,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE170"
               }
             ]
           }
@@ -1040,6 +1207,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS187B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
               }
             ]
           }
@@ -1058,8 +1229,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COGS127"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS127"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS121"
+              }
+            ]
           }
         ]
       }
@@ -1089,8 +1269,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "COGS120"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE170"
+              }
+            ]
           }
         ]
       }
@@ -1116,6 +1305,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS121"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE170"
               }
             ]
           }
@@ -1147,6 +1340,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSGN1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
               }
             ]
           }
@@ -1176,6 +1373,10 @@
                 "course_id": "DSGN1"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS108"
           }
         ]
       }
@@ -1201,6 +1402,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
               }
             ]
           }
@@ -1257,6 +1462,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH144"
               }
             ]
           }
@@ -1270,7 +1479,17 @@
     "code": "COGS 142",
     "description": "This course introduces the study of animal communication, the key terminology, the remarkable communicative systems that several animal species possess, and the key similarities and differences between human and non-human animals’ communications.",
     "raw_prereq": "COGS 14A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS14A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1286,7 +1505,26 @@
     "code": "COGS 144",
     "description": "This course presents the building blocks of social cognition from a developmental and evolutionary perspective and focuses on how and when children develop these abilities and how humans compare to other species such as great apes, birds, and dogs.",
     "raw_prereq": "COGS 14A-B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS14A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1312,6 +1550,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
               }
             ]
           }
@@ -1422,6 +1664,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS101B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS101C"
               }
             ]
           }
@@ -1485,6 +1731,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC106"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC108"
               }
             ]
           }
@@ -1525,8 +1775,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COGS17"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS17"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
+              }
+            ]
           }
         ]
       }
@@ -1546,7 +1805,17 @@
     "code": "COGS 172",
     "description": "A review of the patterns of impaired and intact cognitive abilities present in brain-damaged patients in terms of damage to one or more components of a model of normal cognitive functioning.",
     "raw_prereq": "COGS 107A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS107A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1567,8 +1836,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COGS101A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS107A"
+              }
+            ]
           }
         ]
       }
@@ -1580,7 +1858,17 @@
     "code": "COGS 176",
     "description": "This course will combine an examination of the neural character of quiet and active sleep states and their potential functions with an examination of the different mechanisms by which the brain mediates attention to specific features of the world.",
     "raw_prereq": "COGS 107A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS107A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1637,6 +1925,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS17"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
               }
             ]
           }
@@ -1687,6 +1979,10 @@
                 "course_id": "CSE8A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS14A"
           }
         ]
       }
@@ -1766,6 +2062,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE175A"
               }
             ]
           }
@@ -1855,6 +2155,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE174"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE175A"
               }
             ]
           }
@@ -1882,6 +2186,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS118B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
               }
             ]
           }
@@ -1917,6 +2225,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS107C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD12"
               }
             ]
           }
@@ -1930,7 +2242,17 @@
     "code": "COGS 185",
     "description": "This course is an advanced seminar and project course that follows the introduction to machine learning courses. Advanced and new machine learning methods will be discussed and used.",
     "raw_prereq": "COGS 118A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COGS118A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1943,8 +2265,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "COGS108"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS109"
+              }
+            ]
           }
         ]
       }
@@ -1978,8 +2309,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "COGS10"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COGS10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "DSGN1"
+              }
+            ]
           }
         ]
       }
@@ -2023,6 +2363,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
               }
             ]
           }
@@ -2054,6 +2398,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS118A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS118B"
               }
             ]
           }
@@ -2127,6 +2475,10 @@
                 "course_id": "COGS190B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "COGS198"
           }
         ]
       }

@@ -12,7 +12,17 @@
     "code": "BILD 2",
     "description": "An introduction to the development and the physiological processes of plants and animals. Included are treatments of reproduction, nutrition, respiration, transport systems, regulation of the internal environment, the nervous system, and behavior.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -181,8 +191,17 @@
             "course_id": "BILD1"
           },
           {
-            "type": "COURSE",
-            "course_id": "BILD2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD3"
+              }
+            ]
           }
         ]
       }
@@ -203,8 +222,17 @@
             "course_id": "BILD1"
           },
           {
-            "type": "COURSE",
-            "course_id": "BILD2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD3"
+              }
+            ]
           }
         ]
       }
@@ -391,6 +419,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
               }
             ]
           }
@@ -446,9 +478,13 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "BIBC102"
+                "course_id": "CHEM41B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114B"
           }
         ]
       }
@@ -465,8 +501,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIBC103"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM108"
+              }
+            ]
           }
         ]
       }
@@ -483,8 +528,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BICD100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
           }
         ]
       }
@@ -505,8 +559,17 @@
             "course_id": "BILD1"
           },
           {
-            "type": "COURSE",
-            "course_id": "CHEM6B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
+              }
+            ]
           }
         ]
       }
@@ -523,8 +586,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIBC102"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
           }
         ]
       }
@@ -554,6 +626,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -585,6 +661,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -605,6 +685,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -623,6 +707,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -666,6 +754,10 @@
                 "course_id": "BICD100R"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH11"
           }
         ]
       }
@@ -686,8 +778,17 @@
             "course_id": "BILD2"
           },
           {
-            "type": "COURSE",
-            "course_id": "BICD100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
           }
         ]
       }
@@ -717,6 +818,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -748,6 +853,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -761,7 +870,17 @@
     "code": "BICD 112",
     "description": "Stem cells maintain homeostasis of nearly all organ systems and the regenerative capacity of certain organisms. Course explores the paradigm of the tissue-specific stem cell, the cellular mechanisms of tissue regeneration, the evolution of stem cells and regenerative capacity over time, the basis of induced pluripotency, and how these basic processes can inform new approaches to human health.",
     "raw_prereq": "BIMM 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -769,7 +888,17 @@
     "code": "BICD 120",
     "description": "Introduction to the biology of plants with a particular focus on the underlying genetic and molecular mechanisms controlling plant development. Topics include the role of plant hormones and stem cells in the formation of embryos, roots, flowers, and fruit.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -790,8 +919,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BICD100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
           }
         ]
       }
@@ -856,8 +994,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "BIBC100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              }
+            ]
           }
         ]
       }
@@ -880,6 +1027,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS1A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS1B"
           }
         ]
       }
@@ -898,6 +1049,10 @@
           {
             "type": "COURSE",
             "course_id": "BIMM100"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD4"
           }
         ]
       }
@@ -927,8 +1082,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
           }
         ]
       }
@@ -945,8 +1109,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BICD100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD100R"
+              }
+            ]
           }
         ]
       }
@@ -963,8 +1136,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BICD110"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BICD110"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BICD110R"
+              }
+            ]
           }
         ]
       }
@@ -1018,6 +1200,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD3"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD4"
           }
         ]
       }
@@ -1040,6 +1226,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD3"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD4"
           }
         ]
       }
@@ -1051,7 +1241,17 @@
     "code": "BIEB 126",
     "description": "This course begins with an introduction to plant population biology including whole-plant growth and physiology. We then focus on three classes of ecological interactions: plant-plant competition, plant-herbivore coevolution, and plant reproductive ecology including animal pollination and seed dispersal.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1059,7 +1259,17 @@
     "code": "BIEB 128",
     "description": "Course begins with a survey of insect diversity and phylogenetic relationships. Course then addresses issues such as population dynamics (including outbreaks), movement and migration, competition, predation, herbivory, parasitism, insect defense, mimicry complexes, and sociality. Course also includes discussions of pest management, evolution of insecticide resistance, insect-borne diseases, and how insects are responding to global change.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1067,7 +1277,17 @@
     "code": "BIEB 130",
     "description": "Course integrates principles of ecology and marine biology to examine marine biodiversity loss from overexploitation, habitat loss, invasion, climate change, and pollution. We examine consequences of biodiversity loss to marine ecosystems, discuss management regimes, and address global and local ocean conservation problems. Course includes basic overviews of climate, marine biology, and oceanography that may be similar to topics covered in introductory courses at Scripps Institution of Oceanography.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1081,7 +1301,11 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "BIEB134"
+            "course_id": "BILD3"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SIO134"
           }
         ]
       }
@@ -1101,7 +1325,17 @@
     "code": "BIEB 136GS",
     "description": "An introduction to the ecosystems of Costa Rica and the methods used to study them. Students will work in teams to collect data and make systematic natural history observations on plants, insects, birds, and other organisms in tropical rain forests, mangroves, and other tropical environments. Hypothesis formulation and testing, data analysis, and oral and written presentation of research will be emphasized. Note: Students must apply and be accepted to the Global Seminar Program in order to enroll. Program or materials fees may apply.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1109,7 +1343,17 @@
     "code": "BIEB 137GS",
     "description": "Course will introduce the biology of sea turtles (evolution, physiology, anatomy, behavior, life history, and population dynamics), conservation status, and ecological roles in coastal and marine ecosystems. Course reviews socioecological systems to incorporate human connections to sea turtles, the ocean, and governance. Emerging research and technology will be integrated with national and international law and policy to learn about management of endangered and migratory species. Note: Students must apply and be accepted to the Global Seminar Program in order to enroll. Program or materials fees may apply.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1117,7 +1361,17 @@
     "code": "BIEB 138GS",
     "description": "As part of the Global Seminars Program, the course will be taught in Ecuador, where students will experience the biodiversity of the Galapagos Islands and mainland Ecuador, including how species compare, how they interact and evolve, human impact, the role of conservation, and genetic and molecular tools used for species monitoring. Note: Students must apply and be accepted to the Global Seminars Program in order to enroll. Program or materials fees may apply.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1125,7 +1379,17 @@
     "code": "BIEB 140",
     "description": "An introduction to the patterns of geographic distribution and natural history of plants and animals living in terrestrial and marine ecosystems. We will explore ecological and evolutionary processes responsible for generating and maintaining biological diversity; and the nature of extinction both in past and present ecosystem.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1133,7 +1397,17 @@
     "code": "BIEB 141",
     "description": "This lab course will be a hands-on introduction to quantitative modeling as a tool for understanding biological systems. Working closely with the instructor, students will learn new biology by practicing how to construct, analyze, and interpret simple mathematical models. The emphasis is not on the math itself but on the practical use of quantitative reasoning for gaining new biological insights. Students will need to provide and use their own laptop/technology.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1146,8 +1420,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIEB100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB150"
+              }
+            ]
           }
         ]
       }
@@ -1166,6 +1449,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -1177,7 +1464,17 @@
     "code": "BIEB 148",
     "description": "Infectious diseases have devastating consequences, but vary in attributes. Using an ecological approach, the course will explore why some diseases explode in numbers, when and why new diseases emerge, how infectious disease affects plants and animals, and how can this inform conservation efforts. Students will develop a conceptual framework and quantitative tool set for answering such questions, as well as strategies for managing the emergence and spread of disease on a changing planet. Students will use their own laptops.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1194,8 +1491,17 @@
             "course_id": "BILD3"
           },
           {
-            "type": "COURSE",
-            "course_id": "BILD1"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB143"
+              }
+            ]
           }
         ]
       }
@@ -1207,7 +1513,17 @@
     "code": "BIEB 152",
     "description": "Treating infectious diseases is a uniquely difficult problem since pathogens often evolve, rendering today’s therapies useless tomorrow. This course will provide a review of concepts and methods in evolutionary medicine, with an emphasis on microbial genomics and molecular evolution.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1222,6 +1538,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -1240,6 +1560,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -1258,6 +1582,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -1276,6 +1604,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
           }
         ]
       }
@@ -1287,7 +1619,17 @@
     "code": "BIEB 164",
     "description": "Principles of behavioral ecology from individuals to societies from evolutionary and applied perspectives. Considers how behavior evolves in its environmental context, including human impacts and human-wildlife interactions. Encourages critical engagement with the scientific process and practice, examining inclusion and representation.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1304,8 +1646,17 @@
             "course_id": "BILD3"
           },
           {
-            "type": "COURSE",
-            "course_id": "BILD1A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD1A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD2A"
+              }
+            ]
           }
         ]
       }
@@ -1317,7 +1668,17 @@
     "code": "BIEB 174",
     "description": "This course will teach the principles of ecosystem ecology in terrestrial and marine systems and will use examples from recent research to help students understand how global environmental changes are altering processes from leaf-level ecophysiology to global cycling of carbon, water, and nutrients. Fieldwork may be required.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1325,7 +1686,17 @@
     "code": "BIEB 176",
     "description": "Discussion of the human predicament, biodiversity crisis, and importance of biological conservation. Examines issues from biological perspectives emphasizing new approaches and new techniques for safeguarding the future of humans and other biosphere inhabitants.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1333,7 +1704,17 @@
     "code": "BIEB 182",
     "description": "This class will focus on ecological and evolutionary responses to three major anthropogenic stressors—climate change, resource exploitation, and urbanization. Students will learn about the eco-evolutionary changes that are currently happening due to anthropogenic impacts and also predictions about future changes due to such impacts. They will also learn about the economic and societal impacts of such changes and some of the strategies for conservation and sustainability in a changing world.",
     "raw_prereq": "BILD 3.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD3"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1341,7 +1722,17 @@
     "code": "BIEB 194",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Students may receive credit in 194 courses a total of four times as topics vary. Students may not receive credit for the same topic.",
     "raw_prereq": "BIEB 102.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIEB102"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1413,6 +1804,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
               }
             ]
           }
@@ -1490,6 +1885,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
               }
             ]
           }
@@ -1510,6 +1909,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD4"
           }
         ]
       }
@@ -1573,7 +1976,17 @@
     "code": "BIMM 112",
     "description": "This course explores the mechanisms by which gene activity is regulated in eukaryotes, with an emphasis on transcriptional regulation and chromatin. Topics will include chromatin structure, histone modifications, chromatin dynamics, transcription factors, transcriptional elongation, enhancers, CpG methylation, heterochromatin, and epigenetics.",
     "raw_prereq": "BIMM 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1581,7 +1994,17 @@
     "code": "BIMM 114",
     "description": "An introduction to eukaryotic virology, with emphasis on animal virus systems. Topics discussed include the molecular structure of viruses; the multiplication strategies of the major virus families; and viral latency, persistence, and oncology.",
     "raw_prereq": "BIMM 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1606,7 +2029,11 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "BIMM116"
+                "course_id": "PSYC106"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM116R"
               }
             ]
           }
@@ -1642,6 +2069,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS107B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
               },
               {
                 "type": "COURSE",
@@ -1690,6 +2121,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -1731,6 +2166,10 @@
                 "course_id": "CHEM114B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
           }
         ]
       }
@@ -1742,7 +2181,17 @@
     "code": "BIMM 121",
     "description": "Techniques in microbial physiology, microbial genomics, microbial evolution, and microbial ecology will be used to explore the role of microbes in industry, health, and the environment. Inquiry-based experiments will cover the fundamentals of both working with live microscopic organisms at the bench and bioinformatically analyzing their genomes at the computer. Attendance at the first lecture/lab is required. Nonattendance may result in the student being dropped from the course roster. Material lab fees will apply.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1750,7 +2199,17 @@
     "code": "BIMM 122",
     "description": "Course will consider the organization and function of prokaryotic genomes including content, DNA supercoiling, histone-like proteins, chromosomal dynamics (short-term and long-term), extrachromosomal elements, bacterial sex, transduction, transformation, mobile elements (transposon), epigenetic change, adaptive and directed mutation, transcription and its regulation, sensory transduction, bacterial differentiation, symbiosis, and pathogenesis.",
     "raw_prereq": "BIMM 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1776,6 +2235,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -1789,7 +2252,17 @@
     "code": "BIMM 128",
     "description": "This class will provide an overview of current understanding of the biology of aging and potential interventional strategies to promote longevity. Designed for biology majors who want to better understand the exciting research of aging in recent years, the course will cover basic but important questions about aging: what is known about how and why people age, how to study the biology of aging, why are older people more likely to experience some diseases, and slowing or reversing the aging process.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1815,6 +2288,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
               }
             ]
           }
@@ -1828,7 +2305,17 @@
     "code": "BIMM 132GS",
     "description": "An introduction to the structural and physiological characteristics, molecular genetics, genomics, and ecology of microorganisms of the Galapagos Islands, the Highlands, and the Amazon rainforest in Ecuador, with emphasis on the genetic and metabolic diversity of bacteria, Archaea, and fungi and their interactions with hosts and the environment. Note: Students must apply and be accepted to the Global Seminars Program in order to enroll. Program or materials fees may apply.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1854,7 +2341,17 @@
     "code": "BIMM 140",
     "description": "Course considers problems in biology that were solved using quantitative biology approaches. Problems will range from the molecular to the population level. Students will learn about the scientific method and process, and how to apply it.",
     "raw_prereq": "BILD 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1880,6 +2377,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIEB123"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM101"
               }
             ]
           }
@@ -1911,6 +2412,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIEB123"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM101"
               }
             ]
           }
@@ -1931,6 +2436,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
           }
         ]
       }
@@ -1942,7 +2451,17 @@
     "code": "BIMM 170",
     "description": "Students will characterize the genomic sequence of the organisms isolated in BILD 70 and use molecular and computational tools to resolve ambiguities and close gaps. They will then annotate the DNA sequence to identify protein and RNA coding regions. Renumbered from BIMM 171B. Students may not receive credit for BIMM 170 and BIMM 171B. Material lab fees will apply.",
     "raw_prereq": "BILD 70.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD70"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1966,6 +2485,10 @@
                 "course_id": "BICD100R"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
           }
         ]
       }
@@ -1986,8 +2509,17 @@
             "course_id": "BILD1"
           },
           {
-            "type": "COURSE",
-            "course_id": "BILD4"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BILD4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIMM101"
+              }
+            ]
           }
         ]
       }
@@ -2029,11 +2561,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "CHEM114C"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "CSE181"
               },
               {
                 "type": "COURSE",
-                "course_id": "BIMM181"
+                "course_id": "BENG181"
               }
             ]
           }
@@ -2057,6 +2593,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE100R"
               },
               {
                 "type": "COURSE",
@@ -2120,6 +2660,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BENG184"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE184"
               }
             ]
           }
@@ -2133,7 +2677,17 @@
     "code": "BIMM 194",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Students may receive credit in 194 courses a total of four times as topics vary. Students may not receive credit for the same topic.",
     "raw_prereq": "BIMM 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIMM100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2148,6 +2702,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
           }
         ]
       }
@@ -2166,6 +2724,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
           }
         ]
       }
@@ -2182,8 +2744,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIPN100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
           }
         ]
       }
@@ -2195,7 +2766,17 @@
     "code": "BIPN 102GS",
     "description": "In an applied Global Seminars setting, this course completes a survey of organ systems begun in BIPN 100 by considering the respiratory and gastrointestinal systems. Consideration is given to interactions of these systems in weight and temperature regulation, exercise physiology, stress, and pregnancy and reproduction. Note: Students must apply and be accepted to the Global Seminars Program in order to enroll. Program or materials fees may apply.",
     "raw_prereq": "BIPN 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2212,8 +2793,17 @@
             "course_id": "BILD4"
           },
           {
-            "type": "COURSE",
-            "course_id": "BIPN100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
           }
         ]
       }
@@ -2225,7 +2815,17 @@
     "code": "BIPN 104GS",
     "description": "In an applied Global Seminars setting, students will interact with primary literature in physiology through reading, writing, and in-class discussions. Focus on analyzing research data and developing critical thinking skills, while applying concepts in physiology to understand scientific discoveries. Topics may vary from quarter to quarter; examples include but are not limited to sports physiology, functional medicine, diet and nutrition, and the intersection of physiology and global health. Note: Students must apply and be accepted to the Global Seminars Program in order to enroll. Program or materials fees may apply.",
     "raw_prereq": "BIPN 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2238,8 +2838,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIPN100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
           }
         ]
       }
@@ -2264,11 +2873,15 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "BILD6A"
+                "course_id": "CHEM6A"
               },
               {
                 "type": "COURSE",
-                "course_id": "BILD6B"
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
               },
               {
                 "type": "COURSE",
@@ -2304,8 +2917,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "BIBC102"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
           }
         ]
       }
@@ -2317,7 +2939,17 @@
     "code": "BIPN 118",
     "description": "Course will cover fundamental concepts in pharmacology, major drug classes that act in the brain and their mechanisms of action, and advanced concepts at the frontier of drug discovery in neuroscience. Advanced topics will include allosteric modulators, biased signaling at GPCRs, therapeutic uses of ketamine and psychedelic drugs, and precision pharmacology for research and medicine.",
     "raw_prereq": "BIPN 140.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN140"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2330,8 +2962,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIPN100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
           }
         ]
       }
@@ -2348,8 +2989,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "BIPN100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN100R"
+              }
+            ]
           }
         ]
       }
@@ -2368,6 +3018,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
           }
         ]
       }
@@ -2393,6 +3047,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIPN100R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN140"
               }
             ]
           }
@@ -2425,6 +3083,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD4"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH11"
           }
         ]
       }
@@ -2469,6 +3131,10 @@
                 "course_id": "MATH20B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH11"
           }
         ]
       }
@@ -2513,6 +3179,10 @@
                 "course_id": "MATH20B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH11"
           }
         ]
       }
@@ -2524,7 +3194,17 @@
     "code": "BIPN 148",
     "description": "Course will explore cellular and molecular mechanisms that underlie learning and memory. Topics will include synapse formation and synaptic plasticity, neurotransmitter systems and their receptors, mechanisms of synaptic modification, and effect of experience on neuronal connectivity, and gene expression.",
     "raw_prereq": "BIPN 140.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN140"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2550,8 +3230,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "BIBC102"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIBC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114B"
+              }
+            ]
           }
         ]
       }
@@ -2563,7 +3252,17 @@
     "code": "BIPN 152",
     "description": "Covers the clinical symptoms, treatment, and molecular mechanisms of neurological, neurodevelopmental, and neuropsychiatric disorders. Emphasis on understanding methods and developing the ability to read and evaluate the scientific literature.",
     "raw_prereq": "BIPN 140.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN140"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2571,7 +3270,17 @@
     "code": "BIPN 154",
     "description": "This course will focus on the neurobiological mechanisms that mediate stress-induced behavioral change in animal models and in humans. Topics will range from the effects of stress hormones on brain function, to modern techniques for examining and treating stress-induced, long-lasting mental disorders such as depression and anxiety.",
     "raw_prereq": "BIPN 140.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN140"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2597,6 +3306,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIPN100R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIPN140"
               }
             ]
           }
@@ -2617,6 +3330,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
           }
         ]
       }
@@ -2646,6 +3363,10 @@
               {
                 "type": "COURSE",
                 "course_id": "COGS18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
               }
             ]
           }
@@ -2711,6 +3432,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE6R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE8A"
               }
             ]
           }
@@ -2738,6 +3463,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC106"
               }
             ]
           }
@@ -2751,7 +3480,17 @@
     "code": "BIPN 194",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Students may receive credit in 194 courses a total of four times as topics vary. Students may not receive credit for the same topic.",
     "raw_prereq": "BIPN 140.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIPN140"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2766,6 +3505,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD2"
           }
         ]
       }
@@ -2785,7 +3528,17 @@
     "code": "BISP 182",
     "description": "Students participating in the Biological Sciences Co-Op Program will meet with course instructors and fellow students to discuss their learning outcomes and progress of projects they are assigned at their co-op position with a life sciences company. May be taken for credit up to three times. Students give a presentation outlining their co-op project and complete a written assignment designed to evaluate their co-op experience.",
     "raw_prereq": "BILD 82.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BILD82"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2809,17 +3562,7 @@
     "code": "BISP 193",
     "description": "Individual research on a problem in biology education by special arrangement with and under the direction of a faculty member. Projects are expected to involve novel research that examines issues in biology education such as the science of learning, evidence of effective teaching, and equity and inclusion in the classroom. P/PN grades only. May be taken for credit five times.",
     "raw_prereq": "department approval required. Enrollment is via department approval only. Students must complete a Special Studies form as well as a research plan. Paperwork for a BISP 193 must be submitted to SIS by all published deadlines as listed on the biology web page.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "BISP193"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2878,26 +3621,7 @@
     "code": "BISP 198",
     "description": "Investigation of a topic in biological sciences through directed reading and discussion by a small group of students under the supervision of a faculty member. P/NP grades only. May be taken for credit two times.",
     "raw_prereq": "department approval required. Enrollment is via department approval only. Students must complete a Special Studies form. Paperwork for a BISP 198 must be submitted to SIS by Friday of the eighth week of the quarter preceding the quarter in which the 198 will be completed.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BISP198"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "THE198"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2953,17 +3677,7 @@
     "code": "BGGN 205",
     "description": "Learn effective ways of communicating science in both written and verbal form. Develop an understanding of how to effectively present science for different audiences, including writing for grants and papers, figure generation, and oral presentations. S/U grades only.",
     "raw_prereq": "graduate standing. Enrollment restricted to the following major codes: BI77 and BI78.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "BI77"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2985,7 +3699,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "BI77"
+            "course_id": "BGGN206A"
           }
         ]
       }
@@ -3182,25 +3896,8 @@
             "course_id": "BIOM252"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BIOM272"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BS75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI78"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "BIOM272"
           }
         ]
       }
@@ -3233,45 +3930,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BI77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI82"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI83"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI85"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI86"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BS75"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "BGGN213"
           }
         ]
       }
@@ -3626,7 +4286,17 @@
     "code": "BGJC 204",
     "description": "Weekly presentations and discussions pertaining to research results reported in recently published literature. S/U grades only. May be taken for credit sixteen times.",
     "raw_prereq": "none for graduate students. Undergraduates must be seniors or enrolled in BISP 199.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BISP199"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -3642,7 +4312,17 @@
     "code": "BGJC 208",
     "description": "Weekly presentations and discussions pertaining to research results reported in recently published literature. S/U grades only. May be taken for credit sixteen times.",
     "raw_prereq": "none for graduate students. Undergraduates must be seniors or enrolled in BISP 199.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BISP199"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3650,7 +4330,17 @@
     "code": "BGJC 213",
     "description": "Weekly presentations and discussions pertaining to research results reported in recently published literature. S/U grades only. May be taken for credit sixteen times.",
     "raw_prereq": "none for graduate students. Undergraduates must be seniors or enrolled in BISP 199.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BISP199"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

@@ -45,9 +45,13 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CENG100"
+                "course_id": "CHEM6BH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG110"
           }
         ]
       }
@@ -90,7 +94,17 @@
     "code": "CENG 101B",
     "description": "Conduction, convection, radiation heat transfer; design of heat exchangers. Students may not receive credit for both MAE 101C and CENG 101B.",
     "raw_prereq": "admission to the major and a grade of C– or better in CENG 101A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG101A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -98,7 +112,17 @@
     "code": "CENG 101C",
     "description": "Diffusive and convective mass transfer in solids, liquids, and gases; steady and unsteady state; mass transfer coefficients; applications to chemical engineering and bioengineering.",
     "raw_prereq": "admission to the major and grade of C– or better in CENG 101A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG101A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -122,6 +146,10 @@
                 "course_id": "CHEM6C"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -147,6 +175,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
               },
               {
                 "type": "COURSE",
@@ -180,6 +212,10 @@
                 "course_id": "CENG100"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
           }
         ]
       }
@@ -218,6 +254,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE8"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO15"
               }
             ]
           }
@@ -255,6 +295,10 @@
                 "course_id": "CENG102"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG101C"
           }
         ]
       }
@@ -288,7 +332,17 @@
     "code": "CENG 124B",
     "description": "Engineering and economic analysis of integrated chemical processes, equipment, and systems. Cost estimation, heat and mass transfer equipment design and costs. Comprehensive integrated plant design. Optimal design. Profitability.",
     "raw_prereq": "admission to chemical engineering major and grade of C– or better in CENG 124A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG124A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -303,6 +357,10 @@
           {
             "type": "COURSE",
             "course_id": "CHEM6C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
           }
         ]
       }
@@ -330,6 +388,10 @@
                 "course_id": "CENG101B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG101C"
           }
         ]
       }
@@ -347,7 +409,11 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "CENG160"
+            "course_id": "CENG100"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG260"
           }
         ]
       }
@@ -366,6 +432,10 @@
           {
             "type": "COURSE",
             "course_id": "CENG100"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CENG102"
           }
         ]
       }
@@ -416,7 +486,17 @@
     "code": "CENG 176B",
     "description": "Training in planning research projects, execution of experimental work, and articulation (both oral and written) of the research plan and results in the areas of applied chemical technology and engineering operations related to mass, momentum, and heat transfer.",
     "raw_prereq": "CENG 176A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CENG176A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -706,7 +786,17 @@
     "code": "NANO 100L",
     "description": "Experimental investigation of physical properties of materials such as: thermal expansion coefficient, thermal conductivity, glass transitions in polymers, resonant vibrational response, longitudinal and shear acoustic wave speeds, Curie temperatures, UV-VIS absorption and reflection.",
     "raw_prereq": "NANO 108.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO108"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -714,7 +804,17 @@
     "code": "NANO 102",
     "description": "Chemical and biochemical principles tailored to nanotechnologies. Chemical interactions, classical and statistical thermodynamics of small systems, diffusion, carbon-based nanomaterials, supramolecular chemistry, colloid and polymer chemistry, lipid vesicles, surface functionalization, catalysis, biomolecular interactions, and signal pathways. Priority enrollment given to NanoEngineering majors.",
     "raw_prereq": "CHEM 6C. Restricted to NanoEngineering majors or by department approval.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -749,7 +849,7 @@
           },
           {
             "type": "COURSE",
-            "course_id": "NA25"
+            "course_id": "NANO102"
           }
         ]
       }
@@ -771,7 +871,7 @@
           },
           {
             "type": "COURSE",
-            "course_id": "NA25"
+            "course_id": "NANO11"
           }
         ]
       }
@@ -788,8 +888,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH20F"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              }
+            ]
           }
         ]
       }
@@ -825,6 +934,10 @@
                 "course_id": "MATH20D"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2B"
           }
         ]
       }
@@ -879,6 +992,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CENG15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE8"
               }
             ]
           }
@@ -892,7 +1009,17 @@
     "code": "NANO 111",
     "description": "Fundamentals and hands-on practice of methods to image, measure, and analyze materials and devices that are structured on the nanometer scale. Optical and electron microscopy; scanning probe methods; photon, ion, and electron probe methods; spectroscopic, magnetic, electrochemical, and thermal methods.",
     "raw_prereq": "NANO 102.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO102"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -907,6 +1034,10 @@
           {
             "type": "COURSE",
             "course_id": "NANO102"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NANO104"
           }
         ]
       }
@@ -945,6 +1076,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CENG15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE8"
               }
             ]
           }
@@ -958,7 +1093,17 @@
     "code": "NANO 115L",
     "description": "Laboratory experiments in the design, production, and integration of nanoscale components. Emphasis will be on solution phase synthesis, microfabrication tools, analytical characterization, and nanodevice fabrication. Program or materials fees may apply.",
     "raw_prereq": "NANO 111.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO111"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -974,7 +1119,17 @@
     "code": "NANO 119",
     "description": "Seminar series focused on strategies in system design and solving engineering problems.",
     "raw_prereq": "NANO 115L.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO115L"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -982,7 +1137,17 @@
     "code": "NANO 120A",
     "description": "Principles of product design and the design process. Application and integration of technologies in the design and production of nanoscale components. Engineering economics. Initiation of team design projects to be completed in NANO 120B.",
     "raw_prereq": "NANO 110.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO110"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -990,7 +1155,17 @@
     "code": "NANO 120B",
     "description": "Principles of product quality assurance in design and production. Professional ethics. Safety and design for the environment. Culmination of team design projects initiated in NANO 120A with a working prototype designed for a real engineering application.",
     "raw_prereq": "NANO 120A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO120A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1005,6 +1180,10 @@
           {
             "type": "COURSE",
             "course_id": "CHEM6C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
           }
         ]
       }
@@ -1023,6 +1202,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH20C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
           }
         ]
       }
@@ -1041,6 +1224,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NANO141A"
           }
         ]
       }
@@ -1052,7 +1239,17 @@
     "code": "NANO 146",
     "description": "Fundamentals in optical imaging and spectroscopy at the nanometer scale. Diffraction-limited techniques, near-field methods, multi-photon imaging and spectroscopy, Raman techniques, Plasmon-enhanced methods, scan-probe techniques, novel sub-diffraction-limit imaging techniques, and energy transfer methods.",
     "raw_prereq": "NANO 104.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO104"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1068,7 +1265,17 @@
     "code": "NANO 150",
     "description": "Introduction to mechanics of rigid and deformable bodies. Continuum and atomistic models, interatomic forces and intermolecular interactions. Nanomechanics, material defects, elasticity, plasticity, creep, and fracture. Composite materials, nanomaterials, biological materials.",
     "raw_prereq": "NANO 108.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO108"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1091,6 +1298,10 @@
           {
             "type": "COURSE",
             "course_id": "NANO108"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NANO148"
           }
         ]
       }
@@ -1102,7 +1313,17 @@
     "code": "NANO 158L",
     "description": "Metal casting processes, solidification, deformation processing, thermal processing: solutionizing, aging, and tempering, joining processes such as welding and brazing. The effect of processing route on microstructure and its effect on mechanical and physical properties will be explored. NanoEngineering majors have priority enrollment.",
     "raw_prereq": "NANO 158.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO158"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1144,6 +1365,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM7L"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM7LM"
               }
             ]
           }
@@ -1163,7 +1388,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "NA25"
+            "course_id": "NANO108"
           }
         ]
       }
@@ -1209,6 +1434,10 @@
           {
             "type": "COURSE",
             "course_id": "NANO102"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NANO104"
           }
         ]
       }
@@ -1220,7 +1449,17 @@
     "code": "NANO 174",
     "description": "Microscopic and macroscopic aspects of the mechanical behavior of engineering materials, with emphasis on recent development in materials characterization by mechanical methods. The fundamental aspects of plasticity in engineering materials, strengthening mechanisms, and mechanical failure modes of materials systems.",
     "raw_prereq": "NANO 108.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO108"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1228,7 +1467,17 @@
     "code": "NANO 174L",
     "description": "Experimental investigation of mechanical behavior of engineering materials. Laboratory exercises emphasize the fundamental relationship between microstructure and mechanical properties, and the evolution of the microstructure as a consequence of rate process.",
     "raw_prereq": "NANO 174.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1257,9 +1506,13 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "NANO181"
+                "course_id": "CENG114"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "NANO181R"
           }
         ]
       }
@@ -1441,7 +1694,17 @@
     "code": "NANO 245",
     "description": "An introduction to the nano electronics and nanospintronics; fundamentals of semiconductors; electronic band structure theory, electron transport in semiconductors and nano structures, nano devices.",
     "raw_prereq": "NANO 201.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "NANO201"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1679,7 +1942,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "NANO281"
+            "course_id": "NANO281R"
           }
         ]
       }

@@ -20,30 +20,7 @@
     "code": "NEU 210",
     "description": "For incoming doctoral students in neurobiology, computational neurosciences, and neurosciences. During the first two weeks in September, students commit to ten to fifteen hours per day in lectures and laboratories in electrophysiology, cellular anatomy, molecular biology, optical imaging, and computational neurobiology. Students also attend weekly seminars during fall quarter.",
     "raw_prereq": "graduate standing only. For students in the following major codes: BI77, BI79, NE75, NE78.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BI77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI79"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "NE75"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -86,34 +63,7 @@
     "code": "NEU 266",
     "description": "Course focuses on developmental processes during formation of neural circuits. Molecular, genetic, cellular mechanisms controlling neurogenesis, neuronal differentiation, positioning (migration), axon/dendrite patterning, and synapse formation will be discussed. Role of neural activity shaping circuit formation will be explored.",
     "raw_prereq": "graduate standing only. For students in the following major codes: NE75, NE78, BI77, BI79, or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "NE75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "NE78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BI79"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -233,17 +183,7 @@
     "code": "NEUG 257",
     "description": "Neuroanatomy with functional correlates, concentrating on mammals but also including other chordates and other phyla. Includes laboratory sessions with whole brains, gross sections, and histology. Labs are often simultaneous with lectures to permit interactive identification and contextualization of anatomical structures.",
     "raw_prereq": "for neurosciences graduate students in major codes NE75 and NE78. Other disciplines may enroll with consent of instructor of record. (W)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "NE75"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {

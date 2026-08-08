@@ -116,6 +116,10 @@
                 "course_id": "CCE1"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CCE2"
           }
         ]
       }
@@ -332,8 +336,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "POLI30"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              }
+            ]
           }
         ]
       }
@@ -345,7 +358,17 @@
     "code": "POLI 100X",
     "description": "This course examines U.S. politics from a computational point of view. Through in-class work and hands-on assignments, we will use data analysis tools to collect, analyze, and visualize data related to various facets of federal level politics in the US. Students will develop statistical and computational skills that will assist them in advanced analyses of elections, legislative outcomes, lobbying, and other dynamics of the lawmaking process in Congress.",
     "raw_prereq": "POLI 5D/POLI 5D/ECON 5 or POLI 30D.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI30D"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -513,7 +536,26 @@
     "code": "POLI 104F",
     "description": "This course provides an intensive examination of a major issue in constitutional law. Students will be required to do legal research on a topic, write a legal brief, and argue a case to the class.",
     "raw_prereq": "POLI 104A-B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI104A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI104B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -564,7 +606,17 @@
     "code": "POLI 104K",
     "description": "This course examines the role that legal arguments have in the U.S. court system. Students will utilize legal reasoning and research skills to craft arguments in both written and oral formats, and then participate in a moot court final.",
     "raw_prereq": "POLI 104J.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI104J"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -604,7 +656,17 @@
     "code": "POLI 104T",
     "description": "This course offers a survey of criminal law, civil procedure, and evidence law. The course will use a text with both a civil case file and a criminal case file, where students will be assigned to be the state/plaintiff in one matter and the defendant in the other. Each class will have students arguing as if they were in the courtroom setting to teach the rules of civil procedure, rules of evidence, and criminal law.",
     "raw_prereq": "upper-division standing and POLI 104J.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI104J"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -817,8 +879,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "POLI112B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI112B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI118"
+              }
+            ]
           }
         ]
       }
@@ -846,7 +917,17 @@
     "code": "POLI 113C",
     "description": "A continuation of 113B, which follows political philosophical themes in China and Japan through the twentieth century. Important topics include Buddhism and Confucianism as they changed in each context in response to internal and external stimuli.",
     "raw_prereq": "POLI 113B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI113B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -899,8 +980,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "POLI13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI13D"
+              }
+            ]
           }
         ]
       }
@@ -1000,17 +1090,7 @@
     "code": "POLI 120J",
     "description": "(Coscheduled with POLI 220J.) A comparative historical study of the origins, dynamics, and outcomes of the French Revolution. After overview of social-scientific theories and approaches to understanding revolution, the course will evaluate these in light of the concrete experience of the events that gave birth to the term revolution itself. Only undergraduates will have a final examination; graduate students will be required to do additional reading for the course as well as complete a seminar-length research paper.",
     "raw_prereq": "for POLI 120J, one lower-division political science course; for POLI 220J, graduate standing.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "POLI120J"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1576,7 +1656,17 @@
     "code": "POLI 144AB",
     "description": "This course will consider major theories purporting to explain and predict the workings of the international order from the point of view of political economy. An extended discussion of one aspect of the economic order (e.g., the multinational corporation) will serve as the test case. One quarter of economics recommended.",
     "raw_prereq": "POLI 12.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI12"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1703,8 +1793,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "POLI10"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI11"
+              }
+            ]
           }
         ]
       }
@@ -1716,7 +1815,17 @@
     "code": "POLI 160AB",
     "description": "In this course, students will use their knowledge of the political and economic foundations of public policy making to conduct research in a wide variety of public policy problems.",
     "raw_prereq": "POLI 160AA.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI160AA"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1786,6 +1895,10 @@
               {
                 "type": "COURSE",
                 "course_id": "POLI5D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON5"
               }
             ]
           }
@@ -1848,8 +1961,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "POLI30"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              }
+            ]
           }
         ]
       }
@@ -1883,8 +2005,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "POLI30"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI30D"
+              }
+            ]
           }
         ]
       }
@@ -1909,8 +2040,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "POLI112A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI112A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI118"
+              }
+            ]
           }
         ]
       }
@@ -1958,6 +2098,10 @@
               {
                 "type": "COURSE",
                 "course_id": "POLI171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI172"
               }
             ]
           }
@@ -2003,7 +2147,17 @@
     "code": "POLI 194RA",
     "description": "Preparation of a major paper from research conducted while participating in the Research Apprenticeship (POLI 198RA). Presentations to and participation in weekly seminar meetings also required. Students can enroll in POLI 194RA only if they have previously taken or are simultaneously enrolled in 198RA.",
     "raw_prereq": "department approval. Students must apply for the Research Apprenticeship program and be approved to enroll. Participants must be majors in political science with junior or senior standing and a GPA of 3.5 or higher in all political science courses taken at UC San Diego. Individual projects may require other prerequisite training, such as POLI 30.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI30"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2011,7 +2165,17 @@
     "code": "POLI 194SD",
     "description": "The Local Internship Research Seminar will be paired with a Local Internship in Political Science (POLI 197SD) in the same quarter. The linkage to this research seminar will provide advanced academic training in analytic skills appropriate to the internship experience and requires a substantial paper based on original research.",
     "raw_prereq": "department approval and consent of instructor. Corequisites: POLI 197SD.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI197SD"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2059,7 +2223,17 @@
     "code": "POLI 198RA",
     "description": "Students conduct directed research as part of a principal investigator’s project and under the supervision of a department mentor. Students may conduct research with a department mentor for up to two quarters. This course is part of the Research Apprenticeship program in political science. P/NP grades only. May be taken for credit two times.",
     "raw_prereq": "department approval. Students must apply for the Research Apprenticeship program and be approved to enroll. Participants must be majors in political science with junior or senior standing and a GPA of 3.5 or higher in all political science courses taken at UC San Diego. Individual projects may require other prerequisite training, such as POLI 30.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI30"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

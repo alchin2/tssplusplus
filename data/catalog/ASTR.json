@@ -76,6 +76,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS2C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2D"
           }
         ]
       }
@@ -115,6 +119,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH4A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH4C"
           }
         ]
       }
@@ -126,7 +134,17 @@
     "code": "ASTR 20B",
     "description": "Second course in a two-quarter sequence of an introduction to astrophysics. This course covers galaxies and cosmology. Topics include the Milky Way galaxy, star formation and the interstellar medium, galaxies, galaxy evolution, black holes, quasars, dark matter, the expansion of the universe, large-scale structure, cosmology, the early universe, and the big bang.",
     "raw_prereq": "ASTR 20A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR20A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -190,6 +208,19 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ASTR18"
+              }
+            ]
           }
         ]
       }
@@ -233,6 +264,10 @@
                 "course_id": "ASTR4E"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ASTR18"
           }
         ]
       }
@@ -244,7 +279,17 @@
     "code": "ASTR 103",
     "description": "Electromagnetic radiation and topics in fluid dynamics with an emphasis on astrophysical applications. Topics include special relativity, radiation: multipole expansion, Lienard-Wiechert formulation, radiation from relativistic charges; electromagnetic scattering, topics in radiation processes, introductory fluids, Euler and Navier-Stokes equations, potential flow and induced mass, vorticity, convection and Schwarzchild criterion, and turbulence.",
     "raw_prereq": "ASTR 102.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR102"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -252,7 +297,17 @@
     "code": "ASTR 104",
     "description": "Thermal physics developed from kinetics with an emphasis on astrophysical applications. Topics include kinetics, phase space and distribution, moment quantities, entropy, collisions and Boltzmann equation; H-theorem, fluid equations, and applications to radiation; canonical, microcanonical and grand canonical ensembles; distributions and relations to thermodynamic quantities, Bose-Einstein and Fermi-Dirac statistics, statistical mechanics with gravity, and applications to compact objects.",
     "raw_prereq": "ASTR 103.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR103"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -292,6 +347,10 @@
                 "course_id": "ASTR4E"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ASTR18"
           }
         ]
       }
@@ -303,7 +362,17 @@
     "code": "ASTR 106",
     "description": "This course discusses quantum mechanical applications of astrophysical interest, with an emphasis on radiation processes. Topics include electromagnetic field and time-dependent perturbation theory, transitions, and Fermi’s golden rule; absorption cross sections, selection rules, single and multi-electron atoms, and diatomic molecules, including the Born-Oppenheimer approximation; physics of the chemical bond and an introduction to the Dirac equation.",
     "raw_prereq": "ASTR 105.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR105"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -401,6 +470,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSC10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS41"
               }
             ]
           }
@@ -414,7 +487,17 @@
     "code": "ASTR 151",
     "description": "Advanced laboratory that develops research for imaging and spectroscopy applications. Students will learn to integrate core astronomy curriculum with state-of-the-art technical methods. The lab provides instruction in modern astronomical techniques in acquiring and measuring data to derive fundamental properties of cosmic sources.",
     "raw_prereq": "ASTR 150.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ASTR150"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -464,6 +547,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSC10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS41"
               }
             ]
           }
@@ -511,6 +598,10 @@
               {
                 "type": "COURSE",
                 "course_id": "DSC10"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS41"
               }
             ]
           }

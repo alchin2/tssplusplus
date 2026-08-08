@@ -62,7 +62,17 @@
     "code": "MBC 259",
     "description": "This is the culmination of a required two-course sequence for MAS-MBC students, which focuses on continued refinement of MAS-MBC Capstone Projects, professional networking, and development of critical technical and practical skills. Students deepen understanding of and discuss complex political, social, economic, and historical issues related to marine conservation, give peer feedback on Capstone ideas, and interact with MBC leadership and invited guests. May be taken for credit three times.",
     "raw_prereq": "MBC 258. Limited to registered students in MAS Marine Biodiversity and Conservation program.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MBC258"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -76,7 +86,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "MBC296"
+            "course_id": "SIOB258"
           }
         ]
       }

@@ -44,7 +44,17 @@
     "code": "VIS 8",
     "description": "This seminar introduces students, with an academic background in critical theories of race and ethnicity, to artistic production in the visual arts. It combines practice-based research with theoretical and historical readings of works by scholars, artists, and filmmakers of the African diaspora.",
     "raw_prereq": "AAS 10.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "AAS10"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -292,7 +302,17 @@
     "code": "VIS 100A",
     "description": "This course will explore and develop designs and strategies that engage today’s shifting public domain structures and their various spatial and systematic manifestations. The problematic of “the public” and the politics of public sphere are situated as sites of investigation through which we imagine new interfaces between individuals, collectives, and institutions with the aim of coproducing more critical and inclusive forms of public space and culture.",
     "raw_prereq": "VIS 100.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -308,7 +328,17 @@
     "code": "VIS 101A",
     "description": "This course will explore and develop designs and strategies that use multi-scalar urban and ecological systems as materials for artistic intervention and design speculation on structures including shifting geopolitical boundaries, sociocultural territories, and urban infrastructures and landscapes. Through hands-on research and design projects, we explore the city and its multiple sites of investigation to develop new ecologies of social and cultural productions.",
     "raw_prereq": "VIS 101.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS101"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -364,7 +394,17 @@
     "code": "VIS 104A",
     "description": "This studio course offers an introduction to performance art through exercises, workshops, and critiques. Students will be introduced to a range of performance practices in the context of visual art. In this collaborative environment, we will explore performance concepts such as gesture, movement, participation, and presence. Students develop skills needed to present performance art for exhibition in gallery spaces and other venues.",
     "raw_prereq": "VIS 80.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS80"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -372,7 +412,17 @@
     "code": "VIS 104B",
     "description": "This studio course offers interdisciplinary instruction in performance art and object making. Performance activates sculpture, drawing, and other material practices, producing installations, scores, costumes, even the development of alter egos. Students will research artists whose practices bridge the space between the body and the object, while making their own artworks in an interdisciplinary studio environment.",
     "raw_prereq": "VIS 104A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS104A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -380,7 +430,17 @@
     "code": "VIS 104C",
     "description": "This interdisciplinary studio course instructs students in the ways artists use performance to engage the public. Through workshops and in-class assignments, students will create performances responding to a range of public cultural practices from social activism to popular entertainment. Research projects into artists who critically intervene in these spheres will inform students’ original performance art projects that engage and explore the embodied and linguistic modalities of the public.",
     "raw_prereq": "VIS 104A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS104A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -388,7 +448,17 @@
     "code": "VIS 105A",
     "description": "A studio course in beginning drawing covering basic drawing and composition. These concepts will be introduced by the use of models, still life, landscapes, and conceptual projects.",
     "raw_prereq": "VIS 80.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS80"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -396,7 +466,17 @@
     "code": "VIS 105B",
     "description": "A continuation of VIS 105A. A studio course in which the student will investigate a wider variety of technical and conceptual issues involved in contemporary art practice related to drawing.",
     "raw_prereq": "VIS 105A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS105A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -404,7 +484,17 @@
     "code": "VIS 105C",
     "description": "A studio course in drawing, emphasizing individual creative problems. Class projects, discussions, and critiques will focus on issues related to intention, subject matter, and context.",
     "raw_prereq": "VIS 105B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS105B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -412,7 +502,17 @@
     "code": "VIS 106A",
     "description": "A studio course focusing on problems inherent in painting—transferring information and ideas onto a two-dimensional surface, color, composition, as well as manual and technical procedures. These concepts will be explored through the use of models, still life, and landscapes.",
     "raw_prereq": "VIS 80.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS80"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -420,7 +520,17 @@
     "code": "VIS 106B",
     "description": "A continuation of VIS 106A. A studio course in which the student will investigate a wider variety of technical and conceptual issues involved in contemporary art practice related to painting.",
     "raw_prereq": "VIS 106A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS106A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -428,7 +538,17 @@
     "code": "VIS 106C",
     "description": "A studio course in painting emphasizing individual creative problems. Class projects, discussions, and critiques will focus on issues related to intention, subject matter, and context.",
     "raw_prereq": "VIS 106B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS106B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -436,7 +556,17 @@
     "code": "VIS 107A",
     "description": "A studio course focusing on the problems involved in transferring ideas and information into three-dimensions. Course will explore materials and construction as dictated by the intended object. Specific problems to be investigated will be determined by the individual professor.",
     "raw_prereq": "VIS 80.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS80"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -444,7 +574,17 @@
     "code": "VIS 107B",
     "description": "A studio course in which the student will investigate a wider variety of technical and conceptual issues as well as materials involved in contemporary art practice related to sculpture.",
     "raw_prereq": "VIS 107A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS107A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -452,7 +592,17 @@
     "code": "VIS 107C",
     "description": "A studio course in sculpture emphasizing individual creative problems. Class projects, discussions, and critiques will focus on issues related to intention, subject matter, and context. Students may not receive credit for both VIS 107C and VIS 107CN.",
     "raw_prereq": "VIS 107B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS107B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -556,7 +706,17 @@
     "code": "VIS 110N",
     "description": "The second advanced studio course in the Honors Program in Studio, the successful completion of which will lead toward an honors degree in the studio major. The course builds on the critical and technical issues raised in Studio Honors I.",
     "raw_prereq": "VIS 110M.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS110M"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -564,7 +724,17 @@
     "code": "VIS 112",
     "description": "Introduction for art history majors to a wide range of critical and theoretical approaches to the image and to key methodologies of art history, including iconography, formalism, psychological theories of art, social art history, feminism, and de/postcolonialism. Emphasis will be on developments in the nineteenth–twenty-first centuries; students with research interests in early or premodern periods are encouraged to use the methodological resources we develop to address these areas and issues. Required for all art history and criticism majors.",
     "raw_prereq": "VIS 23.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS23"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -572,7 +742,17 @@
     "code": "VIS 113AN",
     "description": "Using a wide range of nineteenth-century texts, this course will offer close discussions of romantic criticism and aesthetic philosophy (ideas of originality, genius, and nature); the conditions of “modern life”; realism and naturalism; science and photography; and questions of form, expression, symbolism, and history. This is a seminar course. Recommended preparation: two upper-division art history courses.",
     "raw_prereq": "VIS 112.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS112"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1141,8 +1321,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS30"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS41"
+              }
+            ]
           }
         ]
       }
@@ -1169,6 +1358,10 @@
           {
             "type": "COURSE",
             "course_id": "VIS30"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "VIS41"
           }
         ]
       }
@@ -1180,7 +1373,17 @@
     "code": "VIS 136A",
     "description": "This course approaches writing as a research-based design of a text. We research, design, and write futuristic and historical texts that draw on fiction but also take other forms. To inform the writing, we read, view, and analyze works of speculative fiction and fantasy, graphic novels, supernatural fiction, alternative history, science fiction, counterfactual history, and systems novels, a form dedicated to interpreting a world increasingly structured through information systems and technology.",
     "raw_prereq": "VIS 30. Open to media, studio, ICAM, and speculative design majors and speculative design minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS30"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1188,7 +1391,17 @@
     "code": "VIS 141A",
     "description": "Introduces external APIs currently of interest in the arts, extending a common programming language such as C, C++, Python, or Java, and the basics of TCP/IP networking. Students gain API fluency through planning and coding software or software mediated art projects. Program or materials fees may apply. Two production-course limitation.",
     "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS142"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1196,7 +1409,17 @@
     "code": "VIS 141B",
     "description": "Students extend their programming capabilities to include the creation of reusable software libraries, packages, database APIs, tools, utilities, and applications intended to be publishable and useful to other practicing artists, or as preparatory work for the student’s senior thesis sequence. Two production-course limitation. Program or materials fees may apply.",
     "raw_prereq": "VIS 141A. Open to ICAM and speculative design majors and minors only.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS141A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1269,7 +1492,17 @@
     "code": "VIS 143B",
     "description": "This more advanced course in virtual environments continues in a studio setting, expanding on the topics covered in VIS 143A. Students develop artworks and performances in virtual environments. Projects may be done individually or in groups in multiplayer games, immersive life platforms, or mixed reality projects and performances. Exploration of theoretical issues involved will underlie acquisition of techniques utilized in the construction of virtual environments.",
     "raw_prereq": "VIS 143A. Open to visual arts majors and ICAM minors only.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS143A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1277,7 +1510,17 @@
     "code": "VIS 145A",
     "description": "Introduces time- and process-based digital media art making. Contemporary and historical works across time- and process-based media will be studied, and projects produced. Topics may include software art, software and hardware interfacing, interaction, and installation in an art context. Recommended preparation: CSE 5A or equivalent programming experience. Materials fees required. May not receive credit for both VIS 145A and ICAM 102. Two production-course limitation.",
     "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS142"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1290,8 +1533,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS145A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS145A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ICAM102"
+              }
+            ]
           }
         ]
       }
@@ -1303,7 +1555,17 @@
     "code": "VIS 146A",
     "description": "2-D and 3-D digital fabrication with an overview of related contemporary art practices. Topics may include 3-D CAD software, laser etching and cutting, paint application (spray booth, powder baking), fabric technologies, additive 3-D printing, and other resources relevant to maker spaces.",
     "raw_prereq": "VIS 142. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS142"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1311,7 +1573,17 @@
     "code": "VIS 146B",
     "description": "Critique-based, studio continuation of VIS 146A. Advanced topics in computer-controlled manufacturing and subtractive multi-axis CNC technologies. Includes survey of emerging or esoteric fabrication technologies and advanced 3-D CAD design for outsourcing to commercial and specialist fabricators.",
     "raw_prereq": "VIS 146A. Open to ICAM and speculative design majors and computing and the arts and speculative design minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS146A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1333,6 +1605,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS70N"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS80"
               }
             ]
           }
@@ -1346,7 +1622,17 @@
     "code": "VIS 147B",
     "description": "Continuation of the electronics curriculum. Design of programmable microcontroller systems for creating artworks that are able to respond to complex sets of input conditions, perform algorithmic and procedural processing, and generate real time output. Program or materials fees may apply. Purchase of components kit required. Two production-course limitation.",
     "raw_prereq": "VIS 147A. Open to media, studio, ICAM, and speculative design majors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS147A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1392,6 +1678,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS84"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS85A"
               }
             ]
           }
@@ -1427,6 +1717,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS85A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS159"
               }
             ]
           }
@@ -1462,6 +1756,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS85A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS159"
               }
             ]
           }
@@ -1480,8 +1778,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS83"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS84"
+              }
+            ]
           }
         ]
       }
@@ -1515,6 +1822,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS84"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS85A"
               }
             ]
           }
@@ -1528,7 +1839,17 @@
     "code": "VIS 156",
     "description": "This course introduces students to the developing history of cinema in the Latin American region. It explores the multiple authors and film movements that engage cinema as an art form in relation to issues of modernization, development, and political and social crisis. It will regard the history of cinema in the subcontinent as a force generating important cultural transformations within the complex, conflictual processes of modernization. Students may not receive credit for both VIS 156 and VIS 125F.",
     "raw_prereq": "VIS 84.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS84"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1557,8 +1878,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS60"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              }
+            ]
           }
         ]
       }
@@ -1575,8 +1905,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS22"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS22"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              }
+            ]
           }
         ]
       }
@@ -1593,8 +1932,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS22"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS22"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              }
+            ]
           }
         ]
       }
@@ -1611,8 +1959,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS60"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS83"
+              }
+            ]
           }
         ]
       }
@@ -1654,6 +2011,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS147B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS172"
               }
             ]
           }
@@ -1672,8 +2033,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS160A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS160A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS160A"
+              }
+            ]
           }
         ]
       }
@@ -1685,7 +2055,17 @@
     "code": "VIS 161",
     "description": "This course introduces students to the study and design of complex systems and networks at diverse scales, from the nanometric to the planetary (and perhaps beyond). Systems and networks are understood as both physical and conceptual organizations of tangible and intangible actors. These include architectural and urban systems, information and interactive systems, diagrammatic and performative systems, and political and geopolitical systems.",
     "raw_prereq": "VIS 135.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS135"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1693,7 +2073,17 @@
     "code": "VIS 162",
     "description": "The course seeks to introduce ways of thinking about and working across the scientific laboratory and the artist’s and designer’s studio. It explores intersections of research in art/design and science/technology. The course may focus on a specific laboratory method, innovation, or a longer-term enduring challenge. At the discretion of the professor, course may be conducted in direct collaborations with other campus laboratories and research units.",
     "raw_prereq": "VIS 135.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS135"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1706,8 +2096,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS30"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS41"
+              }
+            ]
           }
         ]
       }
@@ -1719,7 +2118,17 @@
     "code": "VIS 164",
     "description": "Course guides students in the discovery of the possibilities for making new work within specific photographic restrictions. Photography is approached through experimentation, failure, breakthroughs, and inspiration. We will explore ways of thinking and producing, cultivating a rigorous process for students to develop a meaningful way of making their work. The construction of sequences, series, and the art of editing will be an important part of this critique-based course. Program or materials fees may apply. Two production-course limitation.",
     "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS60"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1727,7 +2136,17 @@
     "code": "VIS 165",
     "description": "This course will introduce the students to the history of chemical and ocular processes since the late nineteenth century and their impact on image making. Students will learn basic black-and-white darkroom techniques, processing film, proofing, and printing. Course will conclude with a primer in the new photographic hybridity, bringing analog into the digital terrain. Students will be required to create a portfolio of work. Program or materials fees may apply. Two production-course limitation.",
     "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS60"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1735,7 +2154,17 @@
     "code": "VIS 165A",
     "description": "This course continues the student’s work of photographic printing with digital technology, with regard to the potentials of various print media and the way in which printing, editing, and sequence contribute to making meaning. Through demonstrations and workshops, lessons will include inkjet printing, alternative materials, scanning, and digital output of film. Students will be required to create a portfolio of prints. Program or materials fees may apply. Two production-course limitation.",
     "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS60"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1743,7 +2172,17 @@
     "code": "VIS 165B",
     "description": "This course introduces students to the techniques and equipment for studio and/or composed photography utilizing natural lighting on location and strobe and hot lighting in the studio. Genres within studio photography like portraiture and still life will be covered through lectures, demonstrations, workshops, and assignment prompts. Program or materials fees may apply. Two production-course limitation.",
     "raw_prereq": "VIS 60. Open to art history and criticism, media, studio, and ICAM majors and photography minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS60"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1756,8 +2195,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS164"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              }
+            ]
           }
         ]
       }
@@ -1774,8 +2222,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS164"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165"
+              }
+            ]
           }
         ]
       }
@@ -1801,6 +2258,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
               }
             ]
           }
@@ -1828,6 +2289,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS165A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS165B"
               }
             ]
           }
@@ -1841,7 +2306,17 @@
     "code": "VIS 171",
     "description": "A digital image is not a film image, and this reality and its technological and conceptual implications are what this course will attempt to map out, exploring its possibilities and the massive overhaul of media aesthetics it implies. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors only.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1849,7 +2324,17 @@
     "code": "VIS 172",
     "description": "Artists and filmmakers have been visualizing the impossible since the inception of motion pictures and photography. Motion design and visual effects allow artists to interrupt reality, instead presenting ingenious illusions that propel and inspire our imaginations. Students will learn foundational motion graphics and visual effects strategies and theories, including image compositing, matte design, and fundamentals of 3-D modeling and animation. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors only.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1875,8 +2360,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "VIS70N"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS72"
+              }
+            ]
           }
         ]
       }
@@ -1888,7 +2382,17 @@
     "code": "VIS 174",
     "description": "Video medium used both as production technology and as device to explore the fundamental character of filmmaking and time-based computer art practices. Students perform all aspects of production with attention to developing ideas and building analytical/critical skills. Two production-course limitation.",
     "raw_prereq": "VIS 70N. Open to media, studio, ICAM, speculative design, and cinematic arts majors; and film production and speculative design minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS70N"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1896,7 +2400,17 @@
     "code": "VIS 175",
     "description": "The evolving aims and grammars of editing practice in film and digital media will be examined. These histories will create a context for exploring contemporary editing strategies. The production projects will be centered on digital editing practice. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1904,7 +2418,17 @@
     "code": "VIS 176",
     "description": "A technical foundation and creative theoretical context for film production will be provided. Students will produce a short film with post-synchronized sounds and final mixed-track. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1912,7 +2436,17 @@
     "code": "VIS 177",
     "description": "Script writing, reading, and analysis of traditional and experimental media productions. The emphasis will be on the structural character of the scripting process and its language. Students will write several short scripts along with analytical papers. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media and cinematic arts majors and film production minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1920,7 +2454,17 @@
     "code": "VIS 178",
     "description": "Sound design is an essential component of media production and has opened up new structural possibilities for creative strategies in media arts. Students will encounter a critical and historical review of sound art, design, and production methodology. Critical papers and sound work for short projects will be required. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media, speculative design, and cinematic arts majors and film production minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1928,7 +2472,17 @@
     "code": "VIS 179",
     "description": "Topic based production course for media students with topics relevant to photography, video, film, and sound. Specific content will vary each quarter. May be taken for credit two times. Two production-course limitation.",
     "raw_prereq": "VIS 174. Open to media and speculative design majors and film production minors.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS174"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1941,8 +2495,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "VIS172"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS173"
+              }
+            ]
           }
         ]
       }
@@ -2004,6 +2567,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2067,6 +2634,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2130,6 +2701,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2193,6 +2768,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2256,6 +2835,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2287,8 +2870,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "VIS70N"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "VIS70N"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS72"
+              }
+            ]
           }
         ]
       }
@@ -2350,6 +2942,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2413,6 +3009,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2476,6 +3076,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2539,6 +3143,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS178"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS179"
               }
             ]
           }
@@ -2582,6 +3190,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS161"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS162"
               }
             ]
           }
@@ -2595,7 +3207,17 @@
     "code": "VIS 194S",
     "description": "This course will explore the path of the deliberately “unreal” in movies. Fantasy in film will be considered in terms of its cultural and creative appearance in motion pictures, looking at imaginary worlds and stories in such genres as science fiction, horror, and musical films. Offered in Summer Session only. Program or materials fees may apply. May be taken for credit three times.",
     "raw_prereq": "VIS 84.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS84"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2611,7 +3233,17 @@
     "code": "VIS 196B",
     "description": "This is the final of a two-quarter advanced-level sequence. This sequence coordinates two consecutive independent research courses to culminate in a completed thesis of study in art history. After the thesis completion, the faculty involved in the project will determine whether the student will graduate with departmental honors.",
     "raw_prereq": "VIS 196A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "VIS196A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

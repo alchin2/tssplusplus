@@ -20,7 +20,17 @@
     "code": "INTL 101",
     "description": "Analysis of the cultural and social development of the modern era from the perspective of interaction among societies. Particular attention is paid to the definition, representation, and negotiation of social and cultural boundaries over time.",
     "raw_prereq": "completion of INTL 100 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "INTL100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -28,7 +38,17 @@
     "code": "INTL 102",
     "description": "Examination of the domestic and international sources of economic and political change. Topics include the rise of the nation-state, comparative economic development, authoritarian and democratic regimes, international and civil conflict, globalization and its domestic and international implications.",
     "raw_prereq": "completion of INTL 100 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "INTL100"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {

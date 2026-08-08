@@ -302,7 +302,17 @@
     "code": "RELI 196BH",
     "description": "Second quarter of a two-quarter sequence of individualized, directed-research courses for majors in which students learn firsthand the processes and practices of scholarly research in the study of religion, culminating in the completion of a thesis and an oral presentation. Students may not receive credit for both RELI 196H and RELI 196BH.",
     "raw_prereq": "RELI 196A. Department approval required for continuing participation in the Honors Program.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "RELI196A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

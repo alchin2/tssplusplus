@@ -42,6 +42,10 @@
               {
                 "type": "COURSE",
                 "course_id": "POLI30D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
               }
             ]
           }
@@ -55,7 +59,17 @@
     "code": "CSS 100",
     "description": "This course develops advanced computational problem-solving skills including common algorithms, data structures, and advanced tool and library options. The class provides further development in Python.",
     "raw_prereq": "CSS 2.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CSS2"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -113,6 +127,10 @@
               {
                 "type": "COURSE",
                 "course_id": "POLI270"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC201A"
               }
             ]
           }

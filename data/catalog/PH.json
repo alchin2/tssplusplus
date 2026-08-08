@@ -17,8 +17,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PH40"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
           }
         ]
       }
@@ -195,8 +204,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PH40"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
           }
         ]
       }
@@ -292,11 +310,15 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "PH151"
+                "course_id": "FMPH151"
               },
               {
                 "type": "COURSE",
                 "course_id": "PH151R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH151"
               }
             ]
           }
@@ -336,7 +358,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PH151R"
+                "course_id": "FMPH151"
               }
             ]
           }
@@ -355,12 +377,30 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PH40"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
           },
           {
-            "type": "COURSE",
-            "course_id": "FMPH155"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH155"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH155"
+              }
+            ]
           }
         ]
       }
@@ -421,7 +461,7 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "PH157"
+                "course_id": "FMPH191"
               },
               {
                 "type": "COURSE",
@@ -444,12 +484,30 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PH40"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
           },
           {
-            "type": "COURSE",
-            "course_id": "FMPH161"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH161"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH161"
+              }
+            ]
           }
         ]
       }
@@ -481,6 +539,10 @@
           {
             "type": "OR",
             "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH191"
+              },
               {
                 "type": "COURSE",
                 "course_id": "FMPH162"
@@ -519,12 +581,30 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PH101"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH101"
+              }
+            ]
           },
           {
-            "type": "COURSE",
-            "course_id": "FMPH171"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH171"
+              }
+            ]
           }
         ]
       }
@@ -558,6 +638,10 @@
             "items": [
               {
                 "type": "COURSE",
+                "course_id": "FMPH191"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "FMPH172"
               },
               {
@@ -581,8 +665,21 @@
         "type": "AND",
         "items": [
           {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PH40"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH40"
+              }
+            ]
+          },
+          {
             "type": "COURSE",
-            "course_id": "PH40"
+            "course_id": "FMPH191"
           }
         ]
       }
@@ -648,11 +745,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PH193"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH193R"
+                "course_id": "FMPH120"
               }
             ]
           }
@@ -720,11 +813,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PH193"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH193R"
+                "course_id": "FMPH120"
               }
             ]
           }
@@ -800,11 +889,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PH194"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH194R"
+                "course_id": "FMPH193"
               }
             ]
           }
@@ -880,11 +965,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PH194"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH194R"
+                "course_id": "FMPH193"
               }
             ]
           }
@@ -952,6 +1033,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PH120"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH120"
               }
             ]
           }
@@ -965,7 +1050,17 @@
     "code": "PH 196BH",
     "description": "This is the second of an accelerated two-part honors series that serves as the culminating experience for the BS in public health majors. Students will analyze, interpret, and contextualize findings from their projects completed in the series. Oral and written communication will focus on disseminating public health information in diverse formats, and will include a presentation and an honors thesis. Must be taken for a letter grade to be applied to the public health major.",
     "raw_prereq": "PH 196AH. Department approval required. Restricted to upper-division public health majors only.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PH196AH"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1129,26 +1224,6 @@
               {
                 "type": "COURSE",
                 "course_id": "PHB223"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB79"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB81"
               }
             ]
           }
@@ -1343,6 +1418,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH281A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
               }
             ]
           }
@@ -1454,8 +1533,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "FMPH223"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              }
+            ]
           }
         ]
       }
@@ -1525,8 +1613,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "FMPH244B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
+              }
+            ]
           }
         ]
       }
@@ -1538,17 +1635,7 @@
     "code": "PH 277",
     "description": "This course provides an overview of the US health policy landscape. It addresses the development of explicit health policies to promote certain health behaviors, policies aimed at public health safety, and policy issues related to emerging health and biomedical technologies. Renumbered from FPM 290. Students may not receive credit for PH 277 and FPM 290.",
     "raw_prereq": "must be enrolled in the UC San Diego/SDSU Joint Doctoral Program in public health (PU75, PU76, and PU77), biostatistics major (FM77), or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PU76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1577,13 +1664,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PB76"
+                "course_id": "PHB280"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PB77"
           }
         ]
       }
@@ -1819,38 +1902,7 @@
     "code": "PH 400",
     "description": "Students will understand principles of measurement of clinical data, recognize data types, and determine statistical methods for analysis of a given dataset. They will gain experience in preparing a clinical dataset for analysis. Students will learn basic data visualization, statistical testing and inference, and statistical modeling with R.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 400. Students may not receive credit for both FMPH 400 and PH 400.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH400"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -1858,38 +1910,7 @@
     "code": "PH 401",
     "description": "This course provides a foundational understanding of principles and methods used to study the distribution and determinants of health and disease in populations. Topics include study design, data collection, measures of disease frequency, and risk assessment. Through lectures and small group discussions, students learn to critically evaluate epidemiological research, understand the ethical considerations in conducting epidemiological studies, and recognize common sources of bias and confounding.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 401. Students may not receive credit for both FMPH 401 and PH 401.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH401"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -1897,38 +1918,7 @@
     "code": "PH 402",
     "description": "This course provides an opportunity to explore the theoretical issues and current methodologies related to understanding and influencing health behavior change in diverse populations. The course will focus on the social, behavioral, and biologic determinants of health on the individual, interpersonal, community, institutional, and policy levels. The examples of application of theories to determinants and intervention research and disparities in health behavior and outcomes are covered.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 402. Students may not receive credit for both FMPH 402 and PH 402.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH402"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1936,38 +1926,7 @@
     "code": "PH 403",
     "description": "This course will focus on fundamental concepts in research design and measurement to understand methodological considerations in quantitative and qualitative scientific studies in public health and be able to critically evaluate public health research. Emphasis will be on creating testable hypotheses, designing a hypothetical study to test the hypothesis, and assessing methods of measurement.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 403. Students may not receive credit for both FMPH 403 and PH 403.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH403"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1975,38 +1934,7 @@
     "code": "PH 404",
     "description": "This course examines the relationship between human activities, the environment, and health. It explores how environments affect well-being, focusing on hazards from workplaces and contamination. It also addresses personal and societal behaviors impacting environmental health and reviews strategies to mitigate negative human effects at individual and community levels.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 404. Students may not receive credit for both FMPH 404 and PH 404.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH404"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2014,38 +1942,7 @@
     "code": "PH 405",
     "description": "This course will introduce students to health policy making and the organization and financing of health services in the United States, enhance their understanding of the historical and political context of health policy, and enable them to develop strategies for analysis of health policy issues. The course aims to convey not just specific facts, but to help students develop the ability and confidence to assess current health policy issues in a thoughtful, comprehensive, and rigorous manner.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 405. Students may not receive credit for both FMPH 405 and PH 405.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH405"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2053,38 +1950,7 @@
     "code": "PH 406",
     "description": "This course will prepare students for scientific writing in a variety of contexts. These may include scientific abstracts and research summaries, plain language summaries, op-eds, community engagement, and using LLMs. The course will incorporate group projects as well as individual assignments.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 406. Students may not receive credit for both FMPH 406 and PH 406.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH406"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2092,17 +1958,7 @@
     "code": "PH 410",
     "description": "This course focuses on critical analyses of health behavior theories and their applications to interventions in multiple fields, such as (but not limited to) nutrition, cancer, and physical activity. The course will prepare students to design, plan, implement, and evaluate health behavior interventions covering individual and population approaches to behavior change.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB87) or program approval and successfully completed PH 402. Renumbered from FMPH 410. Students may not receive credit for both FMPH 410 and PH 410.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "FMPH410"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2110,43 +1966,7 @@
     "code": "PH 411",
     "description": "This course covers study designs to iteratively optimize and evaluate public health programs such as a proof-of-concept trial, randomized controlled trial, sequential multiple assignment randomized trial, factorial screening trial, microrandomized trial, stepped wedge trial, single case experiments, and nonrandomized study designs. The course includes a philosophical grounding on why evidence is important and what underlying assumptions undergird “evidence-based practice.”",
     "raw_prereq": "must be enrolled in MPH program (PB87, PB90, and PB75) or program approval and successfully completed FMPH 402 or PH 402, and FMPH 403 or PH 403. Renumbered from FMPH 411. Students may not receive credit for both FMPH 411 and PH 411.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB90"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH402"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH402"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH403"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH411"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2154,30 +1974,7 @@
     "code": "PH 412",
     "description": "This course is focused on the principles of health promotion and health communication, examining the societal impact and needs, behavioral change theory, and study designs to develop and evaluate interventions. Effective communication techniques used to promote behavior change, disseminate evidence, and communicate risk in today’s multimedia world are highlighted, including cultural tailoring. Students serially develop and apply these strategies in the design of a public health campaign of their choice.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB90) or program approval and successfully completed FMPH 402 or PH 402. Renumbered from FMPH 412. Students may not receive credit for both FMPH 412 and PH 412.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB87"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH402"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH412"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2185,34 +1982,7 @@
     "code": "PH 413",
     "description": "The first section of this course provides an introduction to key frameworks and concepts relevant to public health ethics. The remaining part of the course considers ethical dilemmas across resource allocation and distributive justice, individual rights versus the common good, health promotion and disease prevention, free markets versus social justice, research ethics, emerging public health technologies and interventions, and public health and the environment.",
     "raw_prereq": "must be enrolled in the MPH program (PB91, PB87, PB88, PB90, and PB75) or program approval. Renumbered from FMPH 413. Students may not receive credit for both FMPH 413 and PH 413.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH413"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2220,26 +1990,7 @@
     "code": "PH 415",
     "description": "This course will provide an in-depth overview of modern epidemiologic concepts, including fundamentals of causal inference; quantitative measures of occurrence, association, and effect; epidemiologic study design; epidemiologic data analysis; sources of bias in epidemiologic studies; and design and analytic strategies for the evaluation and mitigation of bias in epidemiologic studies.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 415. Students may not receive credit for both FMPH 415 and PH 415.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH401"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH415"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2247,30 +1998,7 @@
     "code": "PH 417",
     "description": "This is an MPH-level course designed to introduce topics in cardiovascular disease epidemiology using the following definition of epidemiology as a guide: Epidemiology is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems. As such, the course provides an overview of the prevalence, incidence, and key risk factors for major cardiovascular diseases.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 417. Students may only receive credit for one of these courses: PH 417, PH 417R, or FMPH 417.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH401"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH417"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH417R"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2278,30 +2006,7 @@
     "code": "PH 417R",
     "description": "This is an MPH-level course designed to introduce topics in cardiovascular disease epidemiology using the following definition of epidemiology as a guide: Epidemiology is the study of the distribution and determinants of health-related states or events in specified populations, and the application of this study to the control of health problems. As such, the course provides an overview of the prevalence, incidence, and key risk factors for major cardiovascular diseases.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Students may only receive credit for one of these courses: PH 417, PH 417R, or FMPH 417.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH401"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH417"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH417R"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2309,26 +2014,7 @@
     "code": "PH 418",
     "description": "Designed to increase understanding of the history, classification, surveillance, prevention, and control of major and emerging infectious diseases. Lectures, assignments, and discussions will also introduce students to methods of particular relevance to infectious disease epidemiology.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 418. Students may not receive credit for both FMPH 418 and PH 418.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH401"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH418"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2336,30 +2022,7 @@
     "code": "PH 419",
     "description": "Students will understand and conduct advanced bio-statistical analyses including: multiple linear and logistic regression, survival analysis, Cox and extended Cox regression, and longitudinal data analysis. Students will analyze data using these techniques and learn to program using a statistical software package (e.g., R). Issues such as confounding, missing data, and causal inference will be discussed.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB91) or program approval and successfully completed FMPH 400 or PH 400. Renumbered from FMPH 419. Students may not receive credit for both FMPH 419 and PH 419.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB87"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH400"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH419"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2367,34 +2030,7 @@
     "code": "PH 420",
     "description": "This course provides an introduction to infectious disease epidemic and cost-effectiveness modeling, with focus on applications to inform health policymaking. This didactic and computer lab-based course will cover basic models for human infectious disease transmission, model parameterization, calibration to surveillance data, projecting the epidemic impact of interventions, and cost-effectiveness modeling of health interventions. Students will learn how to code and analyze models in MATLAB.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB90, and PB91) or program approval and successfully completed FMPH 401 or PH 401. Students can’t receive credit for PH 420 if they have already completed FMPH 491 subtitled “Introduction to Infectious Disease Epidemic and Economic Modeling for Health Policymaking.”",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB90"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH401"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PH420"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH491"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2402,30 +2038,7 @@
     "code": "PH 425",
     "description": "This course focuses on public health approaches to studying mental illnesses nationally and globally. Course content will include an overview of global mental health epidemiology; research methods; vulnerable populations, such as refugees and immigrants; and the challenges and future opportunities to address the mental illness epidemic, taking into consideration the social and cultural diversity within study populations.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB89, and PB91) or program approval and successfully completed FMPH 401 or PH 401. Renumbered from FMPH 425. Students may not receive credit for both FMPH 425 and PH 425.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB89"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH401"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH425"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2433,30 +2046,7 @@
     "code": "PH 426",
     "description": "This course introduces key aspects of mental and behavioral health as well as the etiology, risk factors, and impact of mental disorders in public health. The focus will be given to the link between mental and physical health and the impact of mental health on health behavior and outcomes. Mental and behavioral health in relation to substance use and addiction will be covered. Intervention strategies to improve mental and behavioral health will be introduced.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB89) or program approval and successfully completed FMPH 402 or PH 402. Renumbered from FMPH 402. Students may not receive credit for both FMPH 402 and PH 402.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB87"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH402"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH402"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2464,17 +2054,7 @@
     "code": "PH 427",
     "description": "This course examines mental health from infancy through childhood into adulthood and aging. Students will learn how perturbations in mental health manifest differently at different developmental stages over the life course. The course will also cover how early life exposures to stressful circumstances can lead to symptoms, disorder, or disease and how these manifest themselves across development. Students will explore potential strategies for identification of risk, prevention, and intervention.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB89) or program approval. Renumbered from FMPH 427. Students may not receive credit for both FMPH 427 and PH 427.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "FMPH427"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2482,21 +2062,7 @@
     "code": "PH 428",
     "description": "This course will use a dissemination and implementation science methodology and lens to address the gap between promising research results for mental health and their successful translation into improved individual, community, and population health. Real-world case examples and a multidisciplinary approach will be used to discuss and address factors that impact the adoption, implementation, and sustained use of specific health-related interventions.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB88, and PB89) or program approval. Renumbered from FMPH 428. Students may not receive credit for both FMPH 428 and PH 428.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB88"
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH428"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2504,30 +2070,7 @@
     "code": "PH 429",
     "description": "This course offers a window into the patterns, drivers, and consequences of substance use from a public health perspective. It also introduces various prevention, treatment, and harm reduction approaches. Through assessment of current epidemiologic data, application of conceptual frameworks, engagement with researchers and practitioners, and reflection on prevention, treatment, and harm reduction policies and strategies, we will explore the complexity of substance use and population health.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, and PB89). Students cannot receive credit for PH 429 if they have already completed FMPH 491 subtitled “Substance Use and Population Health.”",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PB87"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PH429"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH491"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2535,17 +2078,7 @@
     "code": "PH 430",
     "description": "This course will introduce students to the field of precision health and will provide a broad overview of a variety of emerging technologies (artificial intelligence, informatics, big data and data science, genomics, spatial data, digital health, predictive analytics). Students will be prompted to consider the applications to public health policy and practice.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB90) or program approval. Renumbered from FMPH 430. Students may not receive credit for both FMPH 430 and PH 430.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "FMPH430"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2553,17 +2086,7 @@
     "code": "PH 431",
     "description": "The course introduces students to informatics concepts, techniques, and systems used in public health practice. The course covers systems and data standards used in vital statistics, immunization tracking, disease surveillance, disease outbreak management, electronic laboratory reporting, and disease registries. The course provides students experience with real world clinical data sets, relational and NoSQL database systems, and geographic information systems for public health data analysis.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB90) or program approval. Renumbered from FMPH 431. Students may not receive credit for both FMPH 431 and PH 431.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "FMPH431"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2571,26 +2094,7 @@
     "code": "PH 440",
     "description": "This course will introduce key concepts in health economics and apply these concepts to better understand and evaluate health policy issues in the U.S. health-care system. It will also introduce basic microeconomic analysis tools from the perspective of public health. Module 1 gives an overview of the U.S. health-care system and introduces microeconomic tools. Module 2 examines key players in the U.S. health-care system. Module 3 introduces economic evaluation tools and health policy issues.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB88) and successfully completed FMPH 405 or PH 405. Renumbered from FMPH 440. Students may not receive credit for both FMPH 440 and PH 440.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH405"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH440"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2598,26 +2102,7 @@
     "code": "PH 441",
     "description": "Students will learn about the organization and financing of health services in the United States and the implications of system characteristics for quality, equity, and health-care costs; develop an understanding of how health policy decisions are made in the United States; and learn how health-care financing in the US compares with other countries around the world. Students will develop the background and skills to solve a range of problems in the fields of health policy and public health.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB88) and successfully completed FMPH 405 or PH 405. Renumbered from FMPH 441. Students may not receive credit for both FMPH 441 and PH 441.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FMPH405"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH441"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2625,26 +2110,7 @@
     "code": "PH 442",
     "description": "This course introduces master’s students to qualitative research methods, emphasizing the strategies and applications of this methodology in public health, health justice, and community-engaged research. Through lectures, group work, interactive sessions, and practical exercises, students will gain foundational knowledge and skills in qualitative research. Topics also include theoretical foundations of research, biocultural ethics, and the advantages of numerous qualitative inquiry techniques.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB88). Students cannot receive credit for PH 442 if they have already completed FMPH 491 subtitled “Qualitative Research Methods.”",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PH442"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH491"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2652,17 +2118,7 @@
     "code": "PH 460",
     "description": "The focus of this project-based class is on teaching students fundamentals in design, with a particular focus on human-centered design and community-centered design. By the end of the course, students will have developed personal skills in using their chosen design approach (human- or community-centered design) and worked to advance and provide support to real-world partners of the professor. Students will also engage in a self-study project.",
     "raw_prereq": "must be enrolled in MPH program (PB75 and PB90) or program approval. Renumbered from FMPH 460. Students may not receive credit for both FMPH 460 and PH 460.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "FMPH460"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2670,38 +2126,7 @@
     "code": "PH 461",
     "description": "Students will be introduced to and discuss important issues in public health in an interactive format with the MPH director, other FMPH faculty, and public health professionals from the San Diego public health community. Each week the class will focus on a different topic and the career path of one or more public health researchers or practitioners.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 461. Students may not receive credit for both FMPH 461 and PH 461.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH461"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2709,38 +2134,7 @@
     "code": "PH 462",
     "description": "This course will focus on the health and economic burden of non-communicable diseases (NCD) globally, understanding global patterns of major diseases and disease categories (cancer, CVD, diabetes, obesity) and health behaviors (smoking, diet, physical activity), global health policy and advocacy, and intervention strategies and evaluation of health programs related to global NCD. We will cover select global health issues in a format allowing for in-depth discussion.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 462. Students may not receive credit for both FMPH 462 and PH 462.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH462"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2748,47 +2142,7 @@
     "code": "PH 463",
     "description": "Students will develop an understanding of field epidemiology, surveillance, survey development, data collection, analysis, and presentation. They may also be exposed to planning, implementing, and evaluating age- and culturally-appropriate health promotion interventions. They will learn about cultural awareness, international travel safety, gain collaborative group experience with other institutions to carry out duties that will be put into practice during the class field trip.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91). Students cannot receive credit for PH 463 if they have already completed FMPH 491 subtitled “VIIDAI: Public Health Field Practice in Baja.”",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PH463"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FMPH491"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2796,34 +2150,7 @@
     "code": "PH 480",
     "description": "Students learn the skill of grant writing as used by academics, practitioners, and leaders of the public health community to support program development and implementation, technical assistance and capacity building, resource development, research projects, training programs, and other areas. Students will learn strategies for successful teamwork and be introduced to strategies to identify and respond to grant opportunities using a data-driven and theoretically sound approach.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91).",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2831,34 +2158,7 @@
     "code": "PH 491",
     "description": "Course will cover various topics in the field of public health. May be taken for credit up to twelve times for a maximum of forty-eight units.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval. Renumbered from FMPH 491.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2866,38 +2166,7 @@
     "code": "PH 496A",
     "description": "This course is required prior to starting an MPH practicum. This course seeks to expose students to leadership principles and reinforce effective skills necessary at their field site and in their future careers by utilizing a blend of reflective individual and module-based activities to improve written and oral communication skills prior to their practicum. Students will also learn about the various fields and organizations in public health as they explore potential practicum opportunities.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91). Renumbered from FMPH 496A. Students may not receive credit for both FMPH 496A and PH 496A.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH496A"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2905,38 +2174,7 @@
     "code": "PH 496B",
     "description": "This course provides MPH students the opportunity to participate in a short-term, field-based public health or population-based experience. Students will engage in a field experience in collaboration with a sponsoring organization and qualified site mentor. Students are expected to apply theory, skills, and training acquired through the public health course work within a real-life setting. Students will develop written and oral communication skills that employ public health concepts and methods.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91). Renumbered from FMPH 496B. Students may not receive credit for both FMPH 496B and PH 496B.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "FMPH496B"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2952,34 +2190,7 @@
     "code": "PH 499",
     "description": "Students complete their capstone/thesis, and potentially submit their capstone/thesis for publication and/or present their capstone/thesis to stakeholders. May be taken for credit up to six times.",
     "raw_prereq": "must be enrolled in MPH program (PB75, PB87, PB88, PB89, PB90, and PB91) or program approval.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PB87"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB88"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB89"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB90"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -3027,7 +2238,17 @@
     "code": "FPM 246",
     "description": "An introduction to the history and epidemiology of work-related disease. A review of occupational-related health problems, i.e., heart disease, pneumoconiosis, peripheral neuropathy, sterility, birth defects, psychiatric problems. Emphasis on the occupational history in the diagnosis of job-related disease and disability. Major modalities of prevention and control will be presented and the role of health practitioners, government, management and labor will be reviewed. The course will include guest lecturers, films, videotapes and field visits to local industries and/or clinicians treating occupational diseases.",
     "raw_prereq": "SM 208.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SM208"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3059,7 +2280,17 @@
     "code": "FPM 258B",
     "description": "This second quarter of a three-quarter sequence combines didactic instruction, interactive sessions and student presentations. Topics cover study design, ethics, data analysis and management techniques, and qualitative research will be presented. Focus: lectures (different from I or III).",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student, FPM 258A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM258A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3067,7 +2298,17 @@
     "code": "FPM 258C",
     "description": "This third quarter of a three-quarter sequence combines didactic instruction, interactive sessions and student presentations. Topics cover study design, ethics, data analysis and management techniques, and qualitative research will be presented. Focus: lectures (different from I or II).",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student, FPM 258B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM258B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3083,7 +2324,17 @@
     "code": "FPM 259B",
     "description": "Students will learn the principles of scientific writing, review examples of scientific literature, and then complete a manuscript suitable for publication based on their project from FPM 259A. May be taken for credit two times.",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, FPM 259A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM259A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3091,7 +2342,17 @@
     "code": "FPM 259C",
     "description": "Students will learn the principles of scientific presentations, for the classroom, and for scientific meetings (both oral and poster presentations). Students will then prepare and deliver presentations based on their project from FPM 259A. May be taken for credit two times.",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, FPM 259B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM259B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3163,7 +2424,17 @@
     "code": "FPM 286",
     "description": "The Free Clinic Project operates at three community-based sites. In this class, students, under faculty supervision, provide clinical services and learn administrative, health education and leadership. S/U grades only. May be taken for credit as many times as desired.",
     "raw_prereq": "FPM 272.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM272"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

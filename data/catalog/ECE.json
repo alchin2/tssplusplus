@@ -38,6 +38,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE15"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE8"
               }
             ]
           }
@@ -65,6 +69,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
               }
             ]
           }
@@ -92,6 +100,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
               }
             ]
           }
@@ -142,6 +154,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH18"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2A"
           }
         ]
       }
@@ -153,7 +169,17 @@
     "code": "ECE 45",
     "description": "Steady-state circuit analysis, first and second order systems, Fourier Series and Transforms, time domain analysis, convolution, transient response, Laplace Transform, and filter design.",
     "raw_prereq": "ECE 35.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE35"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -168,6 +194,10 @@
           {
             "type": "COURSE",
             "course_id": "ECE5"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE35"
           }
         ]
       }
@@ -229,25 +259,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "EC26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC37"
+                "course_id": "ECE65"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS25"
           }
         ]
       }
@@ -264,29 +278,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EC26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC37"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "CS25"
+            "course_id": "ECE45"
           }
         ]
       }
@@ -307,8 +300,17 @@
             "course_id": "ECE65"
           },
           {
-            "type": "COURSE",
-            "course_id": "ECE100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE100"
+              }
+            ]
           }
         ]
       }
@@ -340,6 +342,10 @@
                 "course_id": "PHYS4D"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS4E"
           }
         ]
       }
@@ -369,25 +375,8 @@
             ]
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EC26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC28"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "EC37"
+            "course_id": "ECE45"
           }
         ]
       }
@@ -429,13 +418,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "EC26"
+                "course_id": "CSE30"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "CS25"
           }
         ]
       }
@@ -465,8 +450,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH20C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
           }
         ]
       }
@@ -483,8 +477,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECE25"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE25"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CSE140"
+              }
+            ]
           }
         ]
       }
@@ -496,7 +499,17 @@
     "code": "ECE 115",
     "description": "Lab-based course. Students will learn how to prototype a mechatronic solution. Topics include cheap/accessible materials and parts; suppliers; fast prototyping techniques; useful electronic sketches and system integration shortcuts. Students will learn to materialize their electromechanical ideas and make design decisions to minimize cost, improve functionality/robustness. Labs will culminate toward a fully functional robot prototype for demonstration. Program or materials fees may apply.",
     "raw_prereq": "ECE 65.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE65"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -530,8 +543,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "ECE5"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE5"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE18"
+              }
+            ]
           }
         ]
       }
@@ -570,6 +592,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE45"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE65"
               }
             ]
           }
@@ -583,7 +609,17 @@
     "code": "ECE 121A",
     "description": "This course introduces concepts of large-scale power system analysis: electric power generation, distribution, steady-state analysis and economic operation. It provides the fundamentals for advanced courses and engineering practice on electric power systems, smart grid, and electricity economics. The course requires implementing some of the computational techniques in simulation software.",
     "raw_prereq": "ECE 35.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE35"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -591,7 +627,17 @@
     "code": "ECE 121B",
     "description": "Principles of electro-mechanical energy conversion, balanced three-phase systems, fundamental concepts of magnetic circuits, single-phase transformers, and the steady-state performance of DC and induction machines. Students may not receive credit for both ECE 121B and ECE 121.",
     "raw_prereq": "ECE 121A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE121A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -599,7 +645,17 @@
     "code": "ECE 123",
     "description": "The electromagnetic and systems engineering of radio antennas for terrestrial wireless and satellite communications. Antenna impedance, beam pattern, gain, and polarization. Dipoles, monopoles, paraboloids, phased arrays. Power and noise budgets for communication links. Atmospheric propagation and multipath.",
     "raw_prereq": "ECE 107 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE107"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -614,6 +670,10 @@
           {
             "type": "COURSE",
             "course_id": "ECE121B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE125A"
           }
         ]
       }
@@ -625,7 +685,17 @@
     "code": "ECE 125A",
     "description": "Power generation, system, and electronics. Topics include power semiconductor devices and characteristics, single-phase and three-phase half and full controlled AC-to-DC rectifiers, nonisolated/isolated DC-DC converters, power loss calculation, and thermal considerations, Snubber circuits.",
     "raw_prereq": "ECE 121A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE121A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -633,7 +703,17 @@
     "code": "ECE 125B",
     "description": "Design and control of DC-DC converters, PWM rectifiers, single-phase and three-phase inverters, power management, and power electronics applications in renewable energy systems, motion control, and lighting.",
     "raw_prereq": "ECE 125A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE125A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -641,34 +721,7 @@
     "code": "ECE 128A",
     "description": "Provides practical insights into the operation of the power grid. Covers the same subjects that actual power system operators’ certification course covers. It systematically describes the vital grid operators’ functions and the processes required to operate the system. Uses actual case histories, and real examples of best in-class approaches from across the nation and the globe. Presents the problems encountered by operators and the enabling solutions to remedy them.",
     "raw_prereq": "upper-division standing. Open to EC26, EC27, EC28, and EC37 major codes only.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EC26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC28"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "EC37"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -708,7 +761,17 @@
     "code": "ECE 135A",
     "description": "Crystal structure and quantum theory of solids; electronic band structure; review of carrier statistics, drift and diffusion, p-n junctions; nonequilibrium carriers, imrefs, traps, recombination, etc.; metal-semiconductor junctions and heterojunctions.",
     "raw_prereq": "ECE 103 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE103"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -716,7 +779,17 @@
     "code": "ECE 135B",
     "description": "Structure and operation of bipolar junction transistors, junction field-effect transistors, metal-oxide-semiconductor diodes and transistors. Analysis of dc and ac characteristics. Charge control model of dynamic behavior.",
     "raw_prereq": "ECE 135A with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE135A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -724,7 +797,17 @@
     "code": "ECE 136L",
     "description": "Laboratory fabrication of diodes and field-effect transistors covering photolithography, oxidation, diffusion, thin film deposition, etching and evaluation of devices. (Course materials and/or program fees may apply.)",
     "raw_prereq": "ECE 135B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE135B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -762,6 +845,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
               }
             ]
           }
@@ -775,7 +862,17 @@
     "code": "ECE 140B",
     "description": "Building on a solid foundation of electrical and computer engineer skills, this course strives to broaden student skills in software, full-stack engineering, and concrete understanding of methods related to the realistic development of a commercial product. Students will research, design, and develop an IOT device to serve an emerging market.",
     "raw_prereq": "ECE 140A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE140A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -792,8 +889,17 @@
             "course_id": "ECE17"
           },
           {
-            "type": "COURSE",
-            "course_id": "CSE30"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CSE30"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE30"
+              }
+            ]
           }
         ]
       }
@@ -805,7 +911,17 @@
     "code": "ECE 141B",
     "description": "ECE 141B builds upon the solid C++ foundation of ECE 141A. Students will model and build a working database management solution in C++. Topics include STL, design patterns, parsing, searching and sorting, algorithmic thinking, and design partitioning. The course will continue to explore best practices in software development, debugging, and testing.",
     "raw_prereq": "ECE 141A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE141A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -813,7 +929,17 @@
     "code": "ECE 143",
     "description": "This course covers the fundamentals of using the Python language effectively for data analysis. Students learn the underlying mechanics and implementation specifics of Python and how to effectively utilize the many built-in data structures and algorithms. The course introduces key modules for data analysis such as Numpy, Pandas, and Matplotlib. Participants learn to leverage and navigate the vast Python ecosystem to find codes and communities of individual interest.",
     "raw_prereq": "ECE 16.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE16"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -835,6 +961,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CSE8B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE15"
               }
             ]
           }
@@ -909,7 +1039,17 @@
     "code": "ECE 153",
     "description": "Random processes. Stationary processes: correlation, power spectral density. Gaussian processes and linear transformation of Gaussian processes. Point processes. Random noise in linear systems.",
     "raw_prereq": "ECE 109 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE109"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -961,6 +1101,10 @@
                 "course_id": "MATH186"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE153"
           }
         ]
       }
@@ -1016,6 +1160,10 @@
                 "course_id": "MATH186"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE161A"
           }
         ]
       }
@@ -1032,8 +1180,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECE157A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE157A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE161A"
+              }
+            ]
           }
         ]
       }
@@ -1045,7 +1202,17 @@
     "code": "ECE 158A",
     "description": "Layered network architectures, data link control protocols and multiple-access systems, performance analysis. Flow control; prevention of deadlock and throughput degradation. Routing, centralized and decentralized schemes, static dynamic algorithms. Shortest path and minimum average delay algorithms. Comparisons.",
     "raw_prereq": "ECE 109 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE109"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1053,7 +1220,17 @@
     "code": "ECE 158B",
     "description": "Layered network architectures, data link control protocols and multiple-access systems, performance analysis. Flow control; prevention of deadlock and throughput degradation. Routing, centralized and decentralized schemes, static dynamic algorithms. Shortest path and minimum average delay algorithms. Comparisons.",
     "raw_prereq": "ECE 158A with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE158A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1061,7 +1238,17 @@
     "code": "ECE 159",
     "description": "Introduction to information theory and coding, including entropy, average mutual information, channel capacity, block codes, and convolutional codes. Renumbered from ECE 154C. Students may not receive credit for ECE 159 and ECE 154C.",
     "raw_prereq": "ECE 153.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE153"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1069,7 +1256,17 @@
     "code": "ECE 161A",
     "description": "Review of discrete-time systems and signals, Discrete-Time Fourier Transform and its properties, the Fast Fourier Transform, design of Finite Impulse Response (FIR) and Infinite Impulse Response (IIR) filters, implementation of digital filters. May be coscheduled with SIOC 207A.",
     "raw_prereq": "ECE 101.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE101"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1077,7 +1274,17 @@
     "code": "ECE 161B",
     "description": "Sampling and quantization of baseband signals; A/D and D/A conversion, quantization noise, oversampling and noise shaping. Sampling of bandpass signals, undersampling downconversion, and Hilbert transforms. Coefficient quantization, roundoff noise, limit cycles, and overflow oscillations. Insensitive filter structures, lattice and wave digital filters, multirate signal processing. Systems will be designed and tested with MATLAB and C.",
     "raw_prereq": "ECE 161A with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE161A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1085,7 +1292,17 @@
     "code": "ECE 161C",
     "description": "This course discusses several applications of DSP. Topics covered will include speech analysis and coding; image and video compression and processing. A class project is required, algorithms simulated by MATLAB.",
     "raw_prereq": "ECE 161A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE161A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1120,8 +1337,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECE163"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE163"
+              }
+            ]
           }
         ]
       }
@@ -1138,21 +1364,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC28"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "EC37"
+            "course_id": "ECE102"
           }
         ]
       }
@@ -1191,25 +1404,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EC26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EC28"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "EC37"
+            "course_id": "ECE45"
           }
         ]
       }
@@ -1221,7 +1417,17 @@
     "code": "ECE 171B",
     "description": "Time-domain, state-variable formulation of the control problem for both discrete-time and continuous-time linear systems. State-space realizations from transfer function system description. Internal and input-output stability, controllability/observability, minimal realizations, and pole-placement by full-state feedback.",
     "raw_prereq": "ECE 171A with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE171A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1234,8 +1440,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECE109"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE101"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              }
+            ]
           }
         ]
       }
@@ -1263,6 +1478,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE15"
           }
         ]
       }
@@ -1281,6 +1500,10 @@
           {
             "type": "COURSE",
             "course_id": "ECE109"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECE174"
           }
         ]
       }
@@ -1292,7 +1515,17 @@
     "code": "ECE 175B",
     "description": "Bayes’ rule as a probabilistic reasoning engine; graphical models as knowledge encoders; conditional independence and D-Separation; Markov random fields; inference in graphical models; sampling methods and Markov Chain Monte Carlo (MCMC); sequential data and the Viterbi and BCJR algorithms; The Baum-Welsh algorithm for Markov Chain parameter estimation.",
     "raw_prereq": "ECE 175A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE175A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1397,7 +1630,17 @@
     "code": "ECE 184",
     "description": "(Conjoined with ECE 241AL) Labs: optical holography, photorefractive effect, spatial filtering, computer generated holography. Students enrolled in ECE 184 will receive four units of credit; students enrolled in ECE 241AL will receive two units of credit. (Course materials and/or program fees may apply.)",
     "raw_prereq": "ECE 182 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE182"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1405,7 +1648,17 @@
     "code": "ECE 185",
     "description": "(Conjoined with ECE 241BL) Labs: CO2 laser, HeNe laser, electro-optic modulation, acousto-optic modulation, spatial light modulators. Students enrolled in ECE 185 will receive four units of credit; students enrolled in ECE 241BL will receive two units of credit. (Course materials and/or program fees may apply.)",
     "raw_prereq": "ECE 183 with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECE183"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1554,6 +1807,10 @@
               {
                 "type": "COURSE",
                 "course_id": "NANO4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE1"
               }
             ]
           }

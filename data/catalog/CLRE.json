@@ -256,7 +256,17 @@
     "code": "CLRE 256",
     "description": "This course will review the ethics and basic regulatory issues for research involving human subjects, including access and confidentiality. Scholars will prepare a mock submission to an IRB for peer review and practice and will also review their peers’ proposals. Class sessions may also be offered live via distance learning with established remote site.",
     "raw_prereq": "CLRE 250.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLRE250"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -264,7 +274,17 @@
     "code": "CLRE 257",
     "description": "Scholars will select the appropriate sampling method and determine the sample size necessary for specific projects and adjust for confounding. Participants will be familiar with several specialized analytic techniques, including matched, cluster, and meta-analyses. They will also be familiar with methodological issues, unique to ecological, behavioral, and genetic studies. Class sessions may also be offered live via distance learning with established remote site.",
     "raw_prereq": "CLRE 251.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLRE251"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {

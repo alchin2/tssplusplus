@@ -142,6 +142,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187"
               }
             ]
           }
@@ -203,8 +207,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MGT100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103"
+              }
+            ]
           }
         ]
       }
@@ -221,8 +234,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MGT100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103"
+              }
+            ]
           }
         ]
       }
@@ -239,8 +261,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MGT100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103"
+              }
+            ]
           }
         ]
       }
@@ -294,6 +325,10 @@
           {
             "type": "COURSE",
             "course_id": "MGT100"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MGT103"
           }
         ]
       }
@@ -478,6 +513,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT45"
               }
             ]
           }
@@ -491,7 +530,17 @@
     "code": "MGT 131B",
     "description": "Preparation and interpretation of accounting information under both FASB and IASB guidelines pertaining to property plant and equipment, leases, intangible assets, investments, long-term debt, and stockholders’ equity.",
     "raw_prereq": "MGT 131A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -499,7 +548,17 @@
     "code": "MGT 132",
     "description": "Theory and practice of the attest process; planning and implementing the audit of the financial statements and internal control over financial reporting to ensure compliance with applicable requirements.",
     "raw_prereq": "MGT 131B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -507,7 +566,17 @@
     "code": "MGT 133",
     "description": "Covers cost accumulation and analysis, for both manufacturing cost components and service activities, budgeting and cost projections, cost variance analysis, relevant costs, and capital investment analysis.",
     "raw_prereq": "MGT 131B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -515,7 +584,17 @@
     "code": "MGT 134",
     "description": "Covers theory and practical application of federal income tax regulations for individuals pertaining to gross income, adjusted gross income, itemized deductions, business operations, passive activities, property transactions, deferred income recognition, and reporting standards.",
     "raw_prereq": "MGT 131B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -523,7 +602,17 @@
     "code": "MGT 135",
     "description": "Covers the theory and practical application of federal income tax regulations for corporations and other enterprises pertaining to formulations, annual operations, distributions, liquidations, reorganizations, affiliations, and reporting standards.",
     "raw_prereq": "MGT 131B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -531,7 +620,17 @@
     "code": "MGT 136",
     "description": "Covers accounting topics related to consolidated financial statements, variable interest entities, foreign currency translation, segment reporting, and business combinations.",
     "raw_prereq": "upper-division standing and MGT 131B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT131B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -566,6 +665,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT45"
               }
             ]
           }
@@ -678,6 +781,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT4"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT45"
               }
             ]
           }
@@ -792,6 +899,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187"
               }
             ]
           }
@@ -924,8 +1035,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MGT151R"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT151R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT153"
+              }
+            ]
           }
         ]
       }
@@ -1122,7 +1242,17 @@
     "code": "MGT 170",
     "description": "With dramatic progress of IT (e.g., computers, software, networks, mobile), information systems now represent the central nervous system of most enterprises and have become a crucial resource to ensure the competitive viability of almost any business. This course introduces students to the foundations of the management, business value, and strategic importance of information resources and information technology and provides the first steps toward becoming competent and IS-savvy managers.",
     "raw_prereq": "MGT 153.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT153"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1136,7 +1266,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "MGT171"
+            "course_id": "MGT171R"
           }
         ]
       }
@@ -1232,6 +1362,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT171"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT171R"
               }
             ]
           }
@@ -1275,6 +1409,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
               }
             ]
           }
@@ -1318,6 +1456,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
               }
             ]
           }
@@ -1388,6 +1530,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT187"
               }
             ]
           }
@@ -1423,6 +1569,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT187"
               }
             ]
           }
@@ -1493,6 +1643,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MGT180R"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT181"
               }
             ]
           }
@@ -2066,8 +2220,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MGT412"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT412"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT412R"
+              }
+            ]
           }
         ]
       }
@@ -3320,6 +3483,10 @@
                 "course_id": "MGTA452"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MGTA453"
           }
         ]
       }
@@ -3707,7 +3874,17 @@
     "code": "MGT 208B",
     "description": "Sequence introduces students to various management research and methodological paradigms, and discusses theory development, building, and validation approaches. Students with additional need for mathematical/analytical training may be asked to take additional courses that prepare for the rigors of the program.",
     "raw_prereq": "MGT 208A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT208A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3715,7 +3892,17 @@
     "code": "MGT 208C",
     "description": "Sequence introduces students to various management research and methodological paradigms, and discusses theory development, building, and validation approaches. Students with additional need for mathematical/analytical training may be asked to take additional courses that prepare for the rigors of the program.",
     "raw_prereq": "MGT 208B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT208B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3744,11 +3931,15 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "MGT200A"
+                "course_id": "ECON200A"
               },
               {
                 "type": "COURSE",
-                "course_id": "MGT200B"
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
               }
             ]
           }
@@ -3762,7 +3953,30 @@
     "code": "MGT 226",
     "description": "This course provides the theoretical underpinnings of business strategy drawing from the body of literature in industrial organization. It will complement Department of Economics courses on industrial organization to provide depth in business strategy.",
     "raw_prereq": "ECON 200A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3807,11 +4021,15 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "MGT200A"
+                "course_id": "ECON200A"
               },
               {
                 "type": "COURSE",
-                "course_id": "MGT200B"
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
               }
             ]
           }
@@ -3855,6 +4073,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON200C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT245"
               }
             ]
           }
@@ -4049,7 +4271,17 @@
     "code": "MGT 293B",
     "description": "In this course, the student will continue work on the literature review and prepare a presentation of the gaps and opportunities identified in the literature.",
     "raw_prereq": "MGT 293A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MGT293A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

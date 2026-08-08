@@ -514,12 +514,12 @@
               {
                 "type": "COURSE",
                 "course_id": "ETHN3"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CGS137"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ETHN137"
           }
         ]
       }
