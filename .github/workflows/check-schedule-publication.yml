@@ -1,10 +1,7 @@
 name: Check Schedule of Classes publication
 
 # Once a day at 9pm Pacific, ask Blink whether a new quarter's Schedule
-# of Classes went online yesterday. If so, rebuild the public catalog +
-# offered-course data and push it to main (which auto-redeploys the
-# Render backend). Two crons cover both DST offsets -- one is always 9pm
-# Pacific, and the guard step no-ops the other for the season.
+# of Classes went online yesterday.
 on:
   schedule:
     - cron: '0 4 * * *'   # 9pm Pacific while PDT (UTC-7)
@@ -29,9 +26,6 @@ jobs:
         run: pip install -r requirements.txt
 
       # Only the trigger that lands on 9pm Pacific for the current season
-      # should proceed -- check_publication.py's day-after test depends on
-      # today() being the intended calendar day. A manual dispatch
-      # bypasses this.
       - name: Guard - only continue at 9pm Pacific
         id: guard
         run: |
@@ -52,10 +46,7 @@ jobs:
         if: steps.guard.outputs.proceed == 'true'
         run: python3 scrapers/helpers/check_publication.py
 
-      # Heads-up 15 minutes before the cookie-dependent scraping starts, so
-      # the TSS_COOKIE secret can be refreshed in time. Only fires when a
-      # scrape is actually due; skips the notice and the wait when no
-      # webhook is configured (no one to notify, no point stalling).
+      # Heads-up 15 minutes before the cookie-dependent scraping starts.
       - name: Notify Discord 15 minutes before scraping
         if: steps.check.outputs.run == 'true'
         env:
@@ -98,11 +89,7 @@ jobs:
         if: steps.check.outputs.run == 'true'
         run: python3 scrapers/helpers/mark_offered_courses.py
 
-      # Commit the catalog/offered data (all under data/) before the Mongo
-      # section scrape, so a dead cookie failing the scrape below can't
-      # skip this once-per-quarter commit. buildings.json isn't rebuilt
-      # here -- building coordinates barely change, so it's left to a
-      # manual `python3 -m helpers.build_buildings` run.
+      # Commit the catalog/offered data before the Mongo section scrape
       - name: Commit refreshed data
         if: steps.check.outputs.run == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -120,9 +107,7 @@ jobs:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
         run: python3 scrapers/tss_scraper/main.py
 
-      # A dead cookie aborts the scrape (tss_scraper exits on 401/403).
-      # Ping Discord so the cookie can be refreshed -- optional: skips
-      # itself when the webhook secret isn't configured.
+      # A dead cookie aborts the scrape, pings discord
       - name: Alert Discord that the TSS cookie needs refreshing
         if: always() && steps.scrape.outcome == 'failure'
         env:
