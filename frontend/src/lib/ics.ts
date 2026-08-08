@@ -1,6 +1,6 @@
 import { computeFinal } from "./schedule";
 import { FINALS_WEEK, REG_WEEK } from "./plannerEvents";
-import { TERM_DATES } from "./academicCalendar";
+import { currentTermDates } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
 
 const TZID = "America/Los_Angeles";
@@ -59,9 +59,10 @@ function firstOnOrAfter(start: Date, weekday: number): Date {
   return d;
 }
 
-export function buildICS(items: PlannedItem[], term?: string): string {
+export function buildICS(items: PlannedItem[]): string {
   const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-  const cal = term ? TERM_DATES[term] : undefined;
+  // Anchor on the term matching today's date, not the backend's served term.
+  const cal = currentTermDates();
 
   const lines: string[] = [];
   const push = (line: string) => lines.push(...foldLine(line));
@@ -138,8 +139,8 @@ export function buildICS(items: PlannedItem[], term?: string): string {
   return lines.join("\r\n") + "\r\n";
 }
 
-export function downloadICS(items: PlannedItem[], term?: string): void {
-  const blob = new Blob([buildICS(items, term)], { type: "text/calendar;charset=utf-8" });
+export function downloadICS(items: PlannedItem[]): void {
+  const blob = new Blob([buildICS(items)], { type: "text/calendar;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
