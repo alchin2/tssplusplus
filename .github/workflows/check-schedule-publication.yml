@@ -1,14 +1,14 @@
 name: Check Schedule of Classes publication
 
-# Once a day at midnight Pacific, ask Blink whether a new quarter's
-# Schedule of Classes went online yesterday. If so, rebuild the public
-# catalog + offered-course data and push it to main (which auto-redeploys
-# the Render backend). Two crons cover both DST offsets -- one is always
-# midnight Pacific, and the guard step no-ops the other for the season.
+# Once a day at 9pm Pacific, ask Blink whether a new quarter's Schedule
+# of Classes went online yesterday. If so, rebuild the public catalog +
+# offered-course data and push it to main (which auto-redeploys the
+# Render backend). Two crons cover both DST offsets -- one is always 9pm
+# Pacific, and the guard step no-ops the other for the season.
 on:
   schedule:
-    - cron: '0 7 * * *'   # midnight Pacific while PDT (UTC-7)
-    - cron: '0 8 * * *'   # midnight Pacific while PST (UTC-8)
+    - cron: '0 4 * * *'   # 9pm Pacific while PDT (UTC-7)
+    - cron: '0 5 * * *'   # 9pm Pacific while PST (UTC-8)
   workflow_dispatch:
 
 permissions:
@@ -28,11 +28,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Only the trigger that lands on midnight Pacific for the current
-      # season should proceed -- check_publication.py's day-after test
-      # depends on today() being the intended calendar day. A manual
-      # dispatch bypasses this.
-      - name: Guard - only continue at midnight Pacific
+      # Only the trigger that lands on 9pm Pacific for the current season
+      # should proceed -- check_publication.py's day-after test depends on
+      # today() being the intended calendar day. A manual dispatch
+      # bypasses this.
+      - name: Guard - only continue at 9pm Pacific
         id: guard
         run: |
           python3 - <<'PY'
@@ -40,7 +40,7 @@ jobs:
           from datetime import datetime
           from zoneinfo import ZoneInfo
           now = datetime.now(ZoneInfo("America/Los_Angeles"))
-          proceed = now.hour == 0 or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+          proceed = now.hour == 21 or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
           print(f"Pacific time now: {now:%Y-%m-%d %H:%M %Z} (hour={now.hour})")
           print(f"Proceed? {proceed}")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
@@ -51,6 +51,33 @@ jobs:
         id: check
         if: steps.guard.outputs.proceed == 'true'
         run: python3 scrapers/helpers/check_publication.py
+
+      # Heads-up 15 minutes before the cookie-dependent scraping starts, so
+      # the TSS_COOKIE secret can be refreshed in time. Only fires when a
+      # scrape is actually due; skips the notice and the wait when no
+      # webhook is configured (no one to notify, no point stalling).
+      - name: Notify Discord 15 minutes before scraping
+        if: steps.check.outputs.run == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          QUARTER: ${{ steps.check.outputs.quarter }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping heads-up and the 15-min wait."
+            exit 0
+          fi
+          read -r -d '' CONTENT <<EOF || true
+          :hourglass_flowing_sand: **TSS++ will scrape $QUARTER in 15 minutes.**
+          Make sure the \`TSS_COOKIE\` secret is fresh or the scrape will fail:
+          log into <https://tss.ucsd.edu/fiori> -> DevTools (F12) -> Network -> Fetch/XHR -> reload -> copy any \`tss.ucsd.edu\` request's full \`cookie\` header -> update the \`TSS_COOKIE\` secret.
+
+          Run: $RUN_URL
+          EOF
+          jq -n --arg content "$CONTENT" '{content: $content}' \
+            | curl -sS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"
+          echo "Waiting 15 minutes so the cookie can be refreshed before scraping..."
+          sleep 900
 
       # Everything below runs only the day after a quarter goes online.
       - name: Scrape course catalog

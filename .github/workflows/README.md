@@ -1,15 +1,8 @@
 # Scraper automation
 
-Two scheduled workflows run the project's scrapers off UCSD's live Blink
-dates instead of hardcoded ones. Both run at midnight Pacific and can be
-triggered manually (`workflow_dispatch`).
-
-| Workflow | Does |
-| --- | --- |
-| `check-schedule-publication.yml` | The day after a new quarter's Schedule of Classes goes online, rebuilds the catalog and commits `data/` to `main`. |
-| `nightly-pass-scrape.yml` | While any enrollment pass is active, re-scrapes live sections/seats into MongoDB. |
-
-
+`check-schedule-publication.yml` runs the project's scrapers off UCSD's
+live Blink dates instead of a hardcoded schedule. It runs daily at
+9pm Pacific and can be triggered manually (`workflow_dispatch`).
 
 ## check-schedule-publication.yml
 
@@ -22,24 +15,23 @@ catalog scrape → restore `cookie.txt` from `TSS_COOKIE` →
 `tss_scraper --titles-only` → `mark_offered_courses.py` → commit `data/`
 (auto-redeploys Render) → full section scrape into MongoDB.
 
+Two crons (`0 4` + `0 5` UTC) cover both DST offsets so one always lands
+on 9pm Pacific; a guard step no-ops the other. Scheduled runs only fire
+on `main`.
 
-
-## nightly-pass-scrape.yml
-
-[`check_pass_window.py`](../../scrapers/helpers/check_pass_window.py) reads
-each `<Ordinal> Pass (continuing students)` window from Blink's
-[enrollment start page][enr]. If today (Pacific) is inside any window, it
-restores `cookie.txt` and runs `tss_scraper` (full scrape into MongoDB).
-Windows are per-pass, so the gap between passes stays inactive.
+> [!NOTE]
+> The section scrape needs a valid `TSS_COOKIE`. Because this workflow only
+> fires the day after a quarter publishes (a rare, predictable event),
+> refreshing the cookie manually around those dates is enough — there's no
+> nightly job, so the cookie's 2FA/MFA login never needs automating.
 
 [pub]: https://blink.ucsd.edu/instructors/courses/schedule-of-classes/publication.html
-[enr]: https://blink.ucsd.edu/instructors/courses/enrollment/start.html
 
 ## Alerts
 
-If a scrape fails on an expired cookie (`tss_scraper` exits on 401/403),
-both workflows post cookie-refresh steps to `DISCORD_WEBHOOK_URL`. The step
-skips itself if that secret is unset.
+If the section scrape fails on an expired cookie (`tss_scraper` exits on
+401/403), the workflow posts cookie-refresh steps to `DISCORD_WEBHOOK_URL`.
+The step skips itself if that secret is unset.
 
 ## Secrets
 
@@ -51,7 +43,7 @@ Add under **Settings → Secrets and variables → Actions**:
 | `MONGODB_URI` | Yes | Section scrape's MongoDB target |
 | `DISCORD_WEBHOOK_URL` | Optional | Dead-cookie alert |
 
-`GITHUB_TOKEN` is built in; workflow 1 grants it `contents: write` to push.
+`GITHUB_TOKEN` is built in; the workflow grants it `contents: write` to push.
 
 ### Refreshing TSS_COOKIE
 
