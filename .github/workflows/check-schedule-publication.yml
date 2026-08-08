@@ -1,0 +1,148 @@
+name: Check Schedule of Classes publication
+
+# Once a day at 9pm Pacific, ask Blink whether a new quarter's Schedule
+# of Classes went online yesterday. If so, rebuild the public catalog +
+# offered-course data and push it to main (which auto-redeploys the
+# Render backend). Two crons cover both DST offsets -- one is always 9pm
+# Pacific, and the guard step no-ops the other for the season.
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 9pm Pacific while PDT (UTC-7)
+    - cron: '0 5 * * *'   # 9pm Pacific while PST (UTC-8)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-publication:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Only the trigger that lands on 9pm Pacific for the current season
+      # should proceed -- check_publication.py's day-after test depends on
+      # today() being the intended calendar day. A manual dispatch
+      # bypasses this.
+      - name: Guard - only continue at 9pm Pacific
+        id: guard
+        run: |
+          python3 - <<'PY'
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo("America/Los_Angeles"))
+          proceed = now.hour == 21 or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
+          print(f"Pacific time now: {now:%Y-%m-%d %H:%M %Z} (hour={now.hour})")
+          print(f"Proceed? {proceed}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"proceed={'true' if proceed else 'false'}\n")
+          PY
+
+      - name: Check whether a quarter published yesterday
+        id: check
+        if: steps.guard.outputs.proceed == 'true'
+        run: python3 scrapers/helpers/check_publication.py
+
+      # Heads-up 15 minutes before the cookie-dependent scraping starts, so
+      # the TSS_COOKIE secret can be refreshed in time. Only fires when a
+      # scrape is actually due; skips the notice and the wait when no
+      # webhook is configured (no one to notify, no point stalling).
+      - name: Notify Discord 15 minutes before scraping
+        if: steps.check.outputs.run == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          QUARTER: ${{ steps.check.outputs.quarter }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping heads-up and the 15-min wait."
+            exit 0
+          fi
+          read -r -d '' CONTENT <<EOF || true
+          :hourglass_flowing_sand: **TSS++ will scrape $QUARTER in 15 minutes.**
+          Make sure the \`TSS_COOKIE\` secret is fresh or the scrape will fail:
+          log into <https://tss.ucsd.edu/fiori> -> DevTools (F12) -> Network -> Fetch/XHR -> reload -> copy any \`tss.ucsd.edu\` request's full \`cookie\` header -> update the \`TSS_COOKIE\` secret.
+
+          Run: $RUN_URL
+          EOF
+          jq -n --arg content "$CONTENT" '{content: $content}' \
+            | curl -sS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"
+          echo "Waiting 15 minutes so the cookie can be refreshed before scraping..."
+          sleep 900
+
+      # Everything below runs only the day after a quarter goes online.
+      - name: Scrape course catalog
+        if: steps.check.outputs.run == 'true'
+        run: python3 scrapers/catalog_scraper/main.py
+
+      - name: Restore TSS cookie
+        if: steps.check.outputs.run == 'true'
+        env:
+          TSS_COOKIE: ${{ secrets.TSS_COOKIE }}
+        run: printf '%s' "$TSS_COOKIE" > scrapers/tss_scraper/cookie.txt
+
+      - name: Refresh offered-course list
+        if: steps.check.outputs.run == 'true'
+        run: python3 scrapers/tss_scraper/main.py --titles-only
+
+      - name: Mark offered courses in the catalog
+        if: steps.check.outputs.run == 'true'
+        run: python3 scrapers/helpers/mark_offered_courses.py
+
+      # Commit the catalog/offered data (all under data/) before the Mongo
+      # section scrape, so a dead cookie failing the scrape below can't
+      # skip this once-per-quarter commit. buildings.json isn't rebuilt
+      # here -- building coordinates barely change, so it's left to a
+      # manual `python3 -m helpers.build_buildings` run.
+      - name: Commit refreshed data
+        if: steps.check.outputs.run == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: refresh catalog for ${{ steps.check.outputs.quarter }} publication"
+          file_pattern: data/
+
+      # Full section+meeting scrape into MongoDB, reading the CSV the
+      # titles step wrote. Writes to Mongo, not data/, so it runs after the
+      # commit above.
+      - name: Scrape live sections into MongoDB
+        id: scrape
+        if: steps.check.outputs.run == 'true'
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+        run: python3 scrapers/tss_scraper/main.py
+
+      # A dead cookie aborts the scrape (tss_scraper exits on 401/403).
+      # Ping Discord so the cookie can be refreshed -- optional: skips
+      # itself when the webhook secret isn't configured.
+      - name: Alert Discord that the TSS cookie needs refreshing
+        if: always() && steps.scrape.outcome == 'failure'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping notification."
+            exit 0
+          fi
+          read -r -d '' CONTENT <<EOF || true
+          :warning: **TSS++ catalog-refresh scrape failed** -- the TSS cookie has likely expired.
+
+          Refresh it:
+          1. Log into <https://tss.ucsd.edu/fiori> in Chrome.
+          2. DevTools (F12) -> Network -> Fetch/XHR -> reload once.
+          3. Click any \`tss.ucsd.edu\` request and copy the full \`cookie\` request header.
+          4. Update the \`TSS_COOKIE\` repo secret with that value.
+
+          Run log: $RUN_URL
+          EOF
+          jq -n --arg content "$CONTENT" '{content: $content}' \
+            | curl -sS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"
