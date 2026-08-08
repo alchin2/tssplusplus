@@ -1,14 +1,15 @@
 import type { EventInput } from "@fullcalendar/core";
 import { computeFinal, conflictsWith } from "./schedule";
+import { finalsWeekISO } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
 
-// FullCalendar renders concrete dates, so meetings are pinned onto a fixed
-// reference week. The finals week matches the campus finals matrix used by
-// computeFinal/FINALS_COLS (Mon Jun 9 – Sat Jun 14); the regular week is the
-// Mon–Fri immediately before it. Both are in the past, so FullCalendar never
-// shows a "today" highlight or now-indicator.
+// FullCalendar renders concrete dates, so meetings are pinned onto reference
+// weeks. The regular week is a fixed week in the past (Mon Jun 2 – Sun Jun 8):
+// only the weekday matters for weekly-recurring meetings, and a past week keeps
+// FullCalendar from drawing a "today" highlight. The finals week, in contrast,
+// is derived from the current term (see finalsWeekISO) so its column headers
+// show the term's real finals dates.
 export const REG_INITIAL_DATE = "2025-06-02";
-export const FIN_INITIAL_DATE = "2025-06-09";
 
 export const REG_WEEK: Record<DayCode, string> = {
   M: "2025-06-02",
@@ -16,13 +17,13 @@ export const REG_WEEK: Record<DayCode, string> = {
   W: "2025-06-04",
   Th: "2025-06-05",
   F: "2025-06-06",
+  Sa: "2025-06-07",
+  Su: "2025-06-08",
 };
 
-// Index = FinalInfo.colIdx (0 = Mon Jun 9 … 5 = Sat Jun 14).
-export const FINALS_WEEK = [
-  "2025-06-09", "2025-06-10", "2025-06-11",
-  "2025-06-12", "2025-06-13", "2025-06-14",
-];
+// Index = FinalInfo.colIdx (0 = Monday of finals week … 5 = Saturday).
+export const FINALS_WEEK = finalsWeekISO();
+export const FIN_INITIAL_DATE = FINALS_WEEK[0];
 
 // Decimal hours → "HH:MM:00". Minutes are rounded, not truncated: 8.833 → 08:50.
 export function toHMS(h: number): string {
