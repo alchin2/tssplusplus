@@ -6,11 +6,7 @@ from typing import List, Union
 # Course pattern
 COURSE_RE = re.compile(r"^([A-Z]{2,6})\s*-?\s*(\d{1,3}[A-Z]{0,2})$")
 
-# Real course departments (the set actually scraped). Used to tell genuine
-# 2-letter-department courses (e.g. "PH 40", "SE 87") apart from major codes
-# (e.g. "BE75", "ED78", "MA75"): both share the "2 letters + 2 digits" shape,
-# but major codes use department abbreviations that are not real course
-# subjects, so their prefix is absent from this set.
+
 _VALID_CODES_PATH = Path(__file__).resolve().parent.parent / "valid_codes.txt"
 try:
     VALID_DEPTS = {
@@ -69,11 +65,7 @@ def extract_dept(text: str) -> str | None:
     return None
 
 
-# Enrollment-restriction / eligibility clauses list major codes (e.g. "BE75",
-# "CS29", "PY26") and audiences, not prerequisites. These clauses always come
-# after the real prerequisites (or are the whole string), so everything from
-# the marker onward is dropped. Major codes look exactly like course codes, so
-# they must be cut before tokenizing or they parse as bogus prereq courses.
+# Enrollment-restriction / eligibility clauses list major codes 
 RESTRICTION_RE = re.compile(
     r'\b(?:enrollment\s+)?restricted\s+to'
     r'|\bmajor\s+codes?\b'
@@ -101,8 +93,7 @@ def tokenize(text: str) -> List[str]:
     text = re.sub(r'\s+', ' ', text).strip()
 
     # Remove leading major-code eligibility phrases like "ED25 major",
-    # "SE31 majors only". Major codes (2 letters + 2 digits) are not courses,
-    # and a real course is never followed by the word "major(s)".
+
     text = re.sub(r'\b[A-Z]{2}\d{2,3}\s+majors?\b', ' ', text)
 
     # Remove "(Formerly known as XXX ###)" cross-reference notes - the old code
