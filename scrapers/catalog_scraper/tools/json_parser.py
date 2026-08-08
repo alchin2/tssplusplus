@@ -42,9 +42,6 @@ def find_prereq_boundary(raw_str: str) -> str:
 def tokenize(text: str) -> List[str]:
     # Normalize the text
     text = re.sub(r'\s+', ' ', text).strip()
-    
-    # Remove Any periods
-    text = re.sub(r'\.', ' ', text)
 
     # Remove Math Placement Exam references (including "qualifying score")
     text = re.sub(r'Math\s+Placement\s+Exam(\s+qualifying)?(\s+score)?(\s+of\s+\d+)?', '', text, flags=re.IGNORECASE)
@@ -58,6 +55,12 @@ def tokenize(text: str) -> List[str]:
 
     # Remove GPA requirements (e.g., "GPA of 2", "GPA of 2.5 or higher")
     text = re.sub(r'\bGPA\s+of\s+\d+(\.\d+)?(\s+or\s+(higher|above|better))?', '', text, flags=re.IGNORECASE)
+
+    # Remove any remaining decimal numbers (e.g "2.5 GPA" or "3.5 GPA")
+    text = re.sub(r'\b\d+\.\d+\b', ' ', text)
+
+    # Remove periods AFTER the numeric clause removals above
+    text = re.sub(r'\.', ' ', text)
 
     tokens = []
     prev_dept = None
