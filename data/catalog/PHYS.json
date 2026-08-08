@@ -17,7 +17,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
               }
             ]
           }
@@ -44,13 +52,26 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "PHYS1A"
               }
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -80,8 +101,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -119,8 +149,21 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1B"
+              }
+            ]
           }
         ]
       }
@@ -150,8 +193,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -189,8 +241,21 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS1C"
+              }
+            ]
           }
         ]
       }
@@ -228,6 +293,14 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
               }
             ]
           }
@@ -271,7 +344,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -298,7 +379,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "PHYS2B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
               }
             ]
           }
@@ -335,6 +424,14 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
               },
               {
                 "type": "COURSE",
@@ -378,7 +475,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
               }
             ]
           }
@@ -412,6 +517,19 @@
                 "course_id": "PHYS2B"
               }
             ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              }
+            ]
           }
         ]
       }
@@ -436,7 +554,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "PHYS2CL"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "PHYS2D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4E"
               }
             ]
           }
@@ -455,8 +581,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH20B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -481,11 +616,19 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "PHYS20A"
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
               },
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -557,7 +700,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "MATH31AH"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
               }
             ]
           }
@@ -647,6 +798,14 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
               }
             ]
           }
@@ -752,6 +911,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
               }
             ]
           }
@@ -794,7 +957,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
               }
             ]
           }
@@ -879,6 +1050,10 @@
               {
                 "type": "COURSE",
                 "course_id": "WARR11B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "WCWP10B"
               }
             ]
           }
@@ -908,7 +1083,17 @@
     "code": "PHYS 41",
     "description": "This course is designed for students concurrently enrolled in the PHYS 4 series and is an introduction to computer programming and scientific computing with Python. The course covers basic data structures and operations in Python and how to write and debug functions. These tools are then applied to scientific computing, including data analysis and visualization, numerical computations, and simulations. Recommended preparation: prior or concurrent enrollment in PHYS 4A.",
     "raw_prereq": "MATH 20A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1029,33 +1214,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
+                "course_id": "MATH31AH"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PY35"
           }
         ]
       }
@@ -1072,37 +1233,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "PY35"
+            "course_id": "PHYS100B"
           }
         ]
       }
@@ -1180,33 +1312,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
+                "course_id": "MATH31AH"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PY35"
           }
         ]
       }
@@ -1272,33 +1380,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
+                "course_id": "MATH31AH"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PY35"
           }
         ]
       }
@@ -1376,33 +1460,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
+                "course_id": "MATH31AH"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PY35"
           }
         ]
       }
@@ -1468,33 +1528,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
+                "course_id": "MATH31AH"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PY35"
           }
         ]
       }
@@ -1506,7 +1542,26 @@
     "code": "PHYS 113",
     "description": "The subject of the course is physical aspects of quantum information. Following a primer on Shannon’s theory on the compression and transmission of information, emphasizing its physical nature, the theory is extended to quantum systems. This includes measures of entanglement and their operational meanings, purification, and strong subadditivity of the von Neumann entropy. Further topics may include applications to quantum many-body physics, quantum algorithms, and quantum complexity theory. May be coscheduled with PHYS 213.",
     "raw_prereq": "PHYS 130A-B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS130A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS130B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1521,6 +1576,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS100B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS110B"
           }
         ]
       }
@@ -1554,37 +1613,8 @@
             ]
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "PY35"
+            "course_id": "PHYS2CL"
           }
         ]
       }
@@ -1596,7 +1626,17 @@
     "code": "PHYS 122",
     "description": "Laboratory-lecture course covering practical techniques used in research laboratories. Possible topics include computer interfacing of instruments, sensors, and actuators; programming for data acquisition/analysis; electronics; measurement techniques; mechanical design/machining; mechanics of materials; thermal design/control; vacuum/cryogenic techniques; optics; particle detection. PHYS 122 was formerly numbered PHYS 121. Program or materials fees may apply.",
     "raw_prereq": "PHYS 120.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS120"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1604,7 +1644,17 @@
     "code": "PHYS 124",
     "description": "A laboratory-lecture-project course featuring creation of an experimental apparatus in teams of about two. Emphasis is on electronic sensing of the physical environment and actuating physical responses. The course will use a computer interface such as the Arduino. PHYS 124 was formerly numbered PHYS 120B. Program or materials fees may apply.",
     "raw_prereq": "PHYS 120.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS120"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1645,33 +1695,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
+                "course_id": "PHYS110A"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PY35"
           }
         ]
       }
@@ -1692,37 +1718,8 @@
             "course_id": "PHYS100B"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "PY35"
+            "course_id": "PHYS130A"
           }
         ]
       }
@@ -1734,7 +1731,17 @@
     "code": "PHYS 130C",
     "description": "Quantized electromagnetic fields and introductory quantum optics. Symmetry and conservation laws. Introductory many-body physics. Density matrix, quantum coherence and dissipation. The relativistic electron. Three-hour lecture, one-hour discussion session.",
     "raw_prereq": "PHYS 130B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS130B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1751,37 +1758,8 @@
             "course_id": "PHYS2CL"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "PY35"
+            "course_id": "PHYS2DL"
           }
         ]
       }
@@ -1807,6 +1785,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PHYS100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS130A"
               }
             ]
           }
@@ -1836,6 +1818,10 @@
                 "course_id": "PHYS110A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS130A"
           }
         ]
       }
@@ -1918,6 +1904,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
               }
             ]
           }
@@ -1936,37 +1926,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "PY35"
+            "course_id": "PHYS130A"
           }
         ]
       }
@@ -1987,37 +1948,8 @@
             "course_id": "PHYS130B"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PY26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY32"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY33"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PY34"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "PY35"
+            "course_id": "PHYS140A"
           }
         ]
       }
@@ -2045,7 +1977,17 @@
     "code": "PHYS 151",
     "description": "Particle motions, plasmas as fluids, waves, diffusion, equilibrium and stability, nonlinear effects, controlled fusion. Cross-listed with MAE 117A. Students will not receive credit for both MAE 117A and PHYS 151.",
     "raw_prereq": "MATH 20D.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2058,8 +2000,21 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PHYS130A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS130A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS140A"
+              }
+            ]
           }
         ]
       }
@@ -2071,7 +2026,17 @@
     "code": "PHYS 152B",
     "description": "Physics of electronic materials. Semiconductors: bands, donors and acceptors, devices. Metals: Fermi surface, screening, optical properties. Insulators: dia-/ferro-electrics, displacive transitions. Magnets: dia-/para-/ferro-/antiferro-magnetism, phase transitions, low temperature properties. Superconductors: pairing, Meissner effect, flux quantization, BCS theory.",
     "raw_prereq": "PHYS 152A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS152A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2079,7 +2044,17 @@
     "code": "PHYS 154",
     "description": "The constituents of matter (quarks and leptons) and their interactions (strong, electromagnetic, and weak). Symmetries and conservation laws. Fundamental processes involving quarks and leptons. Unification of weak and electromagnetic interactions. Particle-astrophysics and the Big Bang.",
     "raw_prereq": "PHYS 130B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS130B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2095,7 +2070,38 @@
     "code": "PHYS 161",
     "description": "An introduction to Einstein’s theory of general relativity with emphasis on the physics of black holes. Topics will include metrics and curved space-time, the Schwarzschild metric, motion around and inside black holes, rotating black holes, gravitational lensing, gravity waves, Hawking radiation, and observations of black holes.",
     "raw_prereq": "PHYS 4A-B-C-D-E.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4E"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2103,7 +2109,38 @@
     "code": "PHYS 162",
     "description": "An introduction to our current understanding of the universe, its history and content. The course introduces the geometry of the universe, the origin of structure, maps of the universe, and inference of cosmic parameters. Topics include big bang nucleosynthesis, the cosmic microwave background, the quantum origin of density fluctuations, dark matter, and the cosmological constant.",
     "raw_prereq": "PHYS 4A-B-C-D-E.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4E"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2142,6 +2179,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
               }
             ]
           }
@@ -2166,6 +2207,10 @@
           {
             "type": "COURSE",
             "course_id": "BILD1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM7L"
           }
         ]
       }
@@ -2201,6 +2246,19 @@
                 "course_id": "PHYS100A"
               }
             ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS110A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS140A"
+              }
+            ]
           }
         ]
       }
@@ -2212,7 +2270,17 @@
     "code": "PHYS 176",
     "description": "A quantitative description of bacteria from molecular interactions through cellular and population level behaviors. Topics will vary yearly, covering process including gene regulation, molecular signaling, genetic circuits, stochastic dynamics, metabolic control, cell division, cell growth control, stress response, chemotaxis, biofilm formation. May be coscheduled with PHYS 276.",
     "raw_prereq": "PHYS 140A. Recommended preparation: an introductory course in statistical mechanics or equivalent; ordinary differential equations.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS140A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2225,8 +2293,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PHYS140A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM132"
+              }
+            ]
           }
         ]
       }
@@ -2251,8 +2328,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PHYS2A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4A"
+              }
+            ]
           }
         ]
       }
@@ -2304,7 +2390,17 @@
     "code": "PHYS 200B",
     "description": "Deterministic dynamics: nonlinear oscillators, reductive perturbation theory, canonical perturbation theory, small denominator problem, secularity removal. Stochastic dynamics: island overlap, Chirikov criterion, KAM theorem, Hamiltonian chaos, K-S entropy, calculating in chaotic regime, Hamiltonian Fokker-Planck theory. Statistical dynamics: from Liouville to Boltzmann via BBGKY, H-theorem, chaos and entropy, fluid equations, Chapman-Enskog expansion and transport, selected topics in kinetics.",
     "raw_prereq": "PHYS 200A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS200A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2336,7 +2432,17 @@
     "code": "PHYS 203B",
     "description": "Radiation from current distributions and accelerated charges, multipole radiation fields, waveguides and resonant cavities, electrodynamics of media.",
     "raw_prereq": "PHYS 203A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS203A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2358,6 +2464,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PHYS212A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212B"
               }
             ]
           }
@@ -2371,7 +2481,17 @@
     "code": "PHYS 210B",
     "description": "Transport phenomena; kinetic theory and the Chapman-Enskog method; hydrodynamic theory; nonlinear effects and the mode coupling method. Stochastic processes; Langevin and Fokker-Planck equation; fluctuation-dissipation relation; multiplicative processes; dynamic field theory; Martin-Siggia-Rose formalism; dynamical scaling theory.",
     "raw_prereq": "PHYS 210A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS210A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2394,6 +2514,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS210A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS211A"
           }
         ]
       }
@@ -2413,7 +2537,17 @@
     "code": "PHYS 212B",
     "description": "Symmetry theory and conservation laws: time reversal, discrete, translation and rotational groups. Potential scattering. Time-dependent perturbation theory. Quantization of Electromagnetic fields and transition rates. Identical particles. Open systems: mixed states, dissipation, decoherence.",
     "raw_prereq": "PHYS 212A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS212A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2421,7 +2555,26 @@
     "code": "PHYS 212C",
     "description": "Topics may include basics of many-body quantum mechanics, second quantization; basics of quantum information theory; path integrals, topological phases, and Aharonov-Bohm effect; stability of matter; atomic and molecular structure.",
     "raw_prereq": "PHYS 212A-B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2437,7 +2590,17 @@
     "code": "PHYS 214",
     "description": "Classification of particles using symmetries and invariance principles, quarks and leptons, quantum electrodynamics, weak interactions, e+p- interactions, deep-inelastic lepton-nucleon scattering, pp collisions, introduction to QCD.",
     "raw_prereq": "PHYS 215A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS215A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2445,7 +2608,17 @@
     "code": "PHYS 215A",
     "description": "Introduction to field quantization for relativistic scalar, Fermion, and gauge fields. Symmetries and conservation laws. Calculation of cross sections and reaction rates via perturbation theory and Feynman diagram methods, including for tree-level processes in quantum electrodynamics.",
     "raw_prereq": "PHYS 212C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS212C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2453,7 +2626,17 @@
     "code": "PHYS 215B",
     "description": "Continued introduction to quantum fields including quantum loop contributions, renormalization, and the renormalization group. Additional topics including e.g., effective field theory, consequences of unitarity, operator product expansion, Anderson Higgs mechanism (abelian case).",
     "raw_prereq": "PHYS 215A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS215A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2461,7 +2644,26 @@
     "code": "PHYS 215C",
     "description": "Aspects of gauge theories. Introduction to non-Abelian global and approximate symmetries. Introduction to non-Abelian gauge theories, including canonical and path integral quantization, perturbative calculations, asymptotic freedom. Spontaneous symmetry breaking. Selected additional topics including e.g., effective field theory, anomalies, instantons, monopoles, large N methods, lattice gauge theory.",
     "raw_prereq": "PHYS 215A-B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS215A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS215B"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2469,7 +2671,17 @@
     "code": "PHYS 215D",
     "description": "Selected additional topics in quantum field theory, varying year by year depending on the instructor. Topics may include effective field theory, anomalies, instantons, monopoles, large N methods, topological terms, coherent state path integrals, field theories of condensed matter, QFT in other space-time dimensions, conformal field theories, lattice gauge theory, strong coupling methods, RG flows and constraints, phases of QFT, supersymmetry, dualities, AdS/CFT. May be taken for credit up to three times.",
     "raw_prereq": "PHYS 215B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS215B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2485,7 +2697,17 @@
     "code": "PHYS 217",
     "description": "Application of field theoretic and renormalization group methods to problems in condensed matter, or particle physics. Topics will vary and may include phase transition and critical phenomena; many body quantum systems; quantum chromodynamics and the electroweak model.",
     "raw_prereq": "PHYS 210A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS210A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2501,7 +2723,17 @@
     "code": "PHYS 218B",
     "description": "This course deals with magnetized plasma. Topics include Appleton-Hartree theory of waves in cold plasma, waves in warm plasma (Bernstein waves, cyclotron damping). MHD equations, MHD waves, low frequency modes, and the adiabatic theory of particle orbits.",
     "raw_prereq": "PHYS 218A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS218A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2509,7 +2741,17 @@
     "code": "PHYS 218C",
     "description": "This course deals with the physics of confined plasmas with particular relevance to controlled fusion. Topics include topology of magnetic fields, confined plasma equilibria, energy principles, ballooning and kink instabilities, resistive MHD modes (tearing, rippling and pressure-driven), gyrokinetic theory, microinstabilities and anomalous transport, and laser-plasma interactions relevant to inertial fusion.",
     "raw_prereq": "PHYS 218B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS218B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2517,7 +2759,17 @@
     "code": "PHYS 219",
     "description": "A project-oriented laboratory course utilizing state-of-the-art experimental techniques in materials science. The course prepares students for research in a modern condensed matter-materials science laboratory. Under supervision, the students develop their own experimental ideas after investigating current research literature. With the use of sophisticated state-of-the-art instrumentation students conduct research, write a research paper, and make verbal presentations.",
     "raw_prereq": "PHYS 211A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS211A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2525,7 +2777,17 @@
     "code": "PHYS 220",
     "description": "Study of group theoretical methods with applications to problems in high energy, atomic, and condensed matter physics. Representation theory, tensor methods, Clebsh-Gordan series. Young tableaux. The course will cover discrete groups, Lie groups and Lie algebras, with emphasis on permutation, orthogonal, and unitary groups.",
     "raw_prereq": "PHYS 212C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS212C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2533,7 +2795,17 @@
     "code": "PHYS 221A",
     "description": "An introduction to the modern theory of dynamical systems and applications thereof. Topics include maps and flows, bifurcation theory and normal form analysis, chaotic attractors in dissipative systems, Hamiltonian dynamics and the KAM theorem, and time series analysis. Examples from real physical systems will be stressed throughout.",
     "raw_prereq": "PHYS 200B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS200B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2548,6 +2820,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS215A"
           }
         ]
       }
@@ -2567,7 +2843,38 @@
     "code": "PHYS 225C",
     "description": "Advanced topics in general relativity based on the interests of the instructor. Possible topics include black hole formation, perturbations of the Schwarzschild solution, black hole quasinormal modes and ringdown, Hawking radiation, black hole thermodynamics and entropy, Hawking-Penrose singularity theorems.",
     "raw_prereq": "PHYS 225A-B. Recommended preparation: PHYS 212A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS225A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS225B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS212C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2591,7 +2898,17 @@
     "code": "PHYS 230",
     "description": "Selection of advanced topics in solid-state physics; material covered may vary from year to year. Examples of topics covered: disordered systems, surface physics, strong-coupling superconductivity, quantum Hall effect, low-dimensional solids, heavy fermion systems, high-temperature superconductivity, solid and liquid helium.",
     "raw_prereq": "PHYS 211B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS211B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2599,7 +2916,17 @@
     "code": "PHYS 232",
     "description": "Physics of electronic materials. Semiconductors: bands, donors and acceptors, devices. Metals: Fermi surface, screening, optical properties. Insulators: dia-/ferro-electrics, displacive transitions. Magnets: dia-/para-/ferro-/antiferro-magnetism, phase transitions, low temperature properties. Superconductors: pairing, Meissner effect, flux quantization, BCS theory.",
     "raw_prereq": "PHYS 211A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS211A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2614,6 +2941,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS215A"
           }
         ]
       }
@@ -2625,7 +2956,17 @@
     "code": "PHYS 235",
     "description": "This course deals with nonlinear phenomena in plasmas. Topics include orbit perturbation theory, stochasticity, Arnold diffusion, nonlinear wave-particle and wave-wave interaction, resonance broadening, basics of fluid and plasma turbulence, closure methods, models of coherent structures.",
     "raw_prereq": "PHYS 218C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS218C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2633,7 +2974,17 @@
     "code": "PHYS 237",
     "description": "Classification of particles using symmetries, quarks and leptons, the gauge interactions of the standard model, the flavor structure and Yukawa interactions, the Higgs mechanism and particle. Beyond the standard model topics (as time permits) to vary, depending on the instructor.",
     "raw_prereq": "PHYS 215B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS215B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2758,8 +3109,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PHYS259A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS259A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS256"
+              }
+            ]
           }
         ]
       }
@@ -2803,7 +3163,17 @@
     "code": "PHYS 270B",
     "description": "A project-oriented laboratory course in which students are guided to develop their own ideas and tools, along with using state-of-art instruments to investigate a biological problem of current interest, under the direction of a faculty member. A range of current topics in quantitative biology is available, including microbiology, molecular and cell biology, developmental biology, synthetic biology, and evolution. This course may be repeated up to ten times for credit as long as the student works on a different project.",
     "raw_prereq": "PHYS 270A. Department approval required.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PHYS270A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

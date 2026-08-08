@@ -289,8 +289,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ANTH128A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ANTH128A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP128A"
+              }
+            ]
           }
         ]
       }
@@ -384,7 +393,17 @@
     "code": "USP 141B",
     "description": "In this course, students deepen and apply their knowledge of policy, research, practice, and diverse perspectives on aging. Students participate in collaborative learning and research with local elders, and develop and implement a capstone “healthy aging project” in the community.",
     "raw_prereq": "successful completion of USP 141A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP141A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -400,7 +419,17 @@
     "code": "USP 142B",
     "description": "In this course, students will deepen and apply their knowledge of policy, research, practice, and diverse perspectives on homelessness. Students will learn and apply different research methodologies as they conduct faculty-supervised fieldwork on different dimensions of the homelessness crisis.",
     "raw_prereq": "successful completion of USP 142A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP142A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -514,8 +543,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "USP152"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "USP152"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP152A"
+              }
+            ]
           }
         ]
       }
@@ -779,6 +817,10 @@
               {
                 "type": "COURSE",
                 "course_id": "USP177A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "USP179"
               }
             ]
           }
@@ -884,6 +926,10 @@
                 "course_id": "USP152A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "USP153"
           }
         ]
       }
@@ -944,7 +990,17 @@
     "code": "USP 187",
     "description": "An intensive research, internship, and writing experience that culminates in an original senior research project. Students learn about the theoretical, ethical, and technical challenges of scholarly research and publication.",
     "raw_prereq": "USP 186. (Only offered winter quarter.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "USP186"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

@@ -76,7 +76,17 @@
     "code": "BIOM 229",
     "description": "Advanced discussions following on “Introduction to Anthropogeny.” Online “Museum of Comparative Anthropogeny (MOCA)” will serve as major scaffold for this in-depth course. MOCA (http://carta.anthropogeny.org/content/about-moca) has over 500 topics addressing uniquely human traits across twenty-four domains of knowledge and scientific disciplines.",
     "raw_prereq": "BIOM 225.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIOM225"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -122,6 +132,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIOM200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM201"
               }
             ]
           }
@@ -149,6 +163,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIOM200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM201"
               }
             ]
           }
@@ -176,6 +194,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIOM200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM201"
               }
             ]
           }
@@ -203,6 +225,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BIOM200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIOM201"
               }
             ]
           }

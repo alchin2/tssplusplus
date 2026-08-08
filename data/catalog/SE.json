@@ -4,38 +4,7 @@
     "code": "SE 1",
     "description": "Introduction to fundamentals of structures and how structures work. Overview of structural behavior and structural design process through hands-on projects. Lessons learned from structural failures. Professional ethics. Role and responsibility of structural engineers. Introduction to four structural engineering focus sequences. Program or materials fees may apply.",
     "raw_prereq": "none. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              }
-            ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "SE31"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -66,6 +35,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH20A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
           }
         ]
       }
@@ -111,8 +84,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PHYS2A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2AR"
+              }
+            ]
           }
         ]
       }
@@ -124,7 +106,17 @@
     "code": "SE 101B",
     "description": "Kinematics and kinetics of particles in two- and three-dimensional motion. Newton’s equations of motion. Energy and momentum methods. Impulsive motion and impact. Systems of particles. Kinetics and kinematics of rigid bodies in 2-D. Introduction to 3-D dynamics of rigid bodies.",
     "raw_prereq": "SE 101A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE101A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -148,6 +140,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE101B"
           }
         ]
       }
@@ -166,6 +162,10 @@
           {
             "type": "COURSE",
             "course_id": "SE9"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE101A"
           }
         ]
       }
@@ -197,6 +197,10 @@
                 "course_id": "SE101A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE105"
           }
         ]
       }
@@ -215,6 +219,10 @@
           {
             "type": "COURSE",
             "course_id": "SE1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE101A"
           }
         ]
       }
@@ -233,6 +241,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE101A"
           }
         ]
       }
@@ -249,29 +261,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "SE31"
+            "course_id": "SE110A"
           }
         ]
       }
@@ -299,6 +290,10 @@
                 "course_id": "PHYS2AR"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
           }
         ]
       }
@@ -317,6 +312,10 @@
           {
             "type": "COURSE",
             "course_id": "SE102"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE103"
           }
         ]
       }
@@ -346,29 +345,8 @@
             ]
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "SE31"
+            "course_id": "MATH20D"
           }
         ]
       }
@@ -380,7 +358,17 @@
     "code": "SE 130A",
     "description": "Classical methods of analysis for statically indeterminate structures. Development of computer codes for the analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs.",
     "raw_prereq": "grade of C– or better in SE 110A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE110A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -404,6 +392,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE130A"
           }
         ]
       }
@@ -431,6 +423,10 @@
                 "course_id": "SE3"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE110B"
           }
         ]
       }
@@ -458,6 +454,10 @@
                 "course_id": "SE101C"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE130B"
           }
         ]
       }
@@ -485,6 +485,10 @@
                 "course_id": "SE110A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE125"
           }
         ]
       }
@@ -503,6 +507,10 @@
           {
             "type": "COURSE",
             "course_id": "SE130B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE150A"
           }
         ]
       }
@@ -530,6 +538,10 @@
                 "course_id": "SE151A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE181"
           }
         ]
       }
@@ -563,8 +575,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "SE110B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE110B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131"
+              }
+            ]
           }
         ]
       }
@@ -592,6 +613,10 @@
                 "course_id": "SE142"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE160B"
           }
         ]
       }
@@ -603,7 +628,17 @@
     "code": "SE 143B",
     "description": "Detailed structural design of aircraft and space vehicles. Composite material design considerations. Multidisciplinary design optimization. Introduction to aerospace computer-aided design and analysis tools. Team projects include the analysis, fabrication, and testing of a flight vehicle component. Oral presentations. Written reports. Use of computer resources. Program or materials fees may apply.",
     "raw_prereq": "SE 143A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE143A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -627,6 +662,10 @@
                 "course_id": "SE110B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE103"
           }
         ]
       }
@@ -638,7 +677,17 @@
     "code": "SE 150B",
     "description": "Theory and behavior of steel structures leading to the development of design requirements in current specifications. Topics will include design of simple and rigid connections, composite construction, advanced topics in compression and flexural members including torsion, design of plate girders, the direct analysis method, and plastic analysis. Emphasis will be placed on fundamental concepts.",
     "raw_prereq": "SE 150A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE150A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -646,7 +695,17 @@
     "code": "SE 151A",
     "description": "Concrete and reinforcement properties. Service and ultimate limit state analysis and design. Design and detailing of structural components. Corequisite: SE 103.",
     "raw_prereq": "SE 130A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE130A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -654,7 +713,17 @@
     "code": "SE 151B",
     "description": "Time-dependent and independent properties of concrete and reinforcing material. Concept and application of prestressed concrete. Service and ultimate limit state analysis and design of prestressed concrete structures and components. Detailing of components. Calculation of deflection and prestress losses.",
     "raw_prereq": "SE 151A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE151A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -678,6 +747,10 @@
                 "course_id": "SE150A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "SE151A"
           }
         ]
       }
@@ -698,29 +771,8 @@
             "course_id": "SE103"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE31"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "SE130A"
           }
         ]
       }
@@ -772,6 +824,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE131A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE131AR"
               }
             ]
           }
@@ -790,42 +846,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "MC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE31"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "SE160A"
           }
         ]
       }
@@ -837,7 +859,17 @@
     "code": "SE 163",
     "description": "Fourier signal processing, liquid penetrant, elastic wave propagation, ultrasonic testing, impact-echo, acoustic emission testing, vibrational testing, infrared thermography. May be coscheduled with SE 263.",
     "raw_prereq": "SE 110A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE110A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -845,7 +877,17 @@
     "code": "SE 164",
     "description": "This course discusses theory, design, and applications of sensor technologies in the context of structural engineering and structural health monitoring. Topics include sensors and sensing mechanisms; measurement uncertainty; signal conditioning and interface circuits; data acquisition; analog/digital circuits; and emerging sensors. Students will not receive credit for both SE 164 and SE 164GS. May be coscheduled with SE 264.",
     "raw_prereq": "SE 110A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE110A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -853,7 +895,17 @@
     "code": "SE 165",
     "description": "A modern paradigm of structural health monitoring as it applies to structural and mechanical systems is presented. Concepts in data acquisition, feature extraction, data normalization, and statistical modeling will be introduced in an integrated context. MATLAB-based exercise. Term project. Use of computer resources. May be coscheduled with SE 265.",
     "raw_prereq": "SE 101C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE101C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -866,29 +918,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE31"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "SE101C"
           }
         ]
       }
@@ -918,8 +949,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "SE167"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE167"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE167GS"
+              }
+            ]
           }
         ]
       }
@@ -961,33 +1001,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE31"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC25"
+                "course_id": "MAE131B"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "MC27"
           }
         ]
       }
@@ -1017,29 +1033,8 @@
             ]
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE31"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "SE110A"
           }
         ]
       }
@@ -1056,29 +1051,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE28"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE31"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "SE110A"
           }
         ]
       }
@@ -1090,7 +1064,17 @@
     "code": "SE 182",
     "description": "Application of soil mechanics to the analysis, design, and construction of foundations for structures. Soil exploration, sampling, and in situ testing techniques. Stress distribution and settlement of structures. Bearing capacities of shallow foundations and effects on structural design. Analysis of axial and lateral capacity of deep foundations, including drilled piers and driven piles.",
     "raw_prereq": "SE 181.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE181"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1098,7 +1082,17 @@
     "code": "SE 184",
     "description": "Concepts underpinning mechanical, hydraulic, chemical and inclusion-based methods of ground improvement will be discussed. Students will be able to understand the advantages, disadvantages and limitations of the various methods; and develop a conceptual design for the most appropriate improvement strategy.",
     "raw_prereq": "SE 181.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE181"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1701,94 +1695,7 @@
     "code": "SE 262",
     "description": "Review methods used to repair aerospace structures. Emphasis on primary load-bearing airframe structures and analysis/design of substantiate repairs. Identification of structural/corrosion distress, fatigue cracking, damage tolerance, integrity and durability of built-up members, patching, health monitoring. Use of computer resources.",
     "raw_prereq": "graduate standing. Restricted to SE and MAE graduate students (major codes SE75, SE76, SE77, SE78, SE79, SE80, SE81, SE82, MC75, MC76, MC78, MC80, MC81, MC82, MC83, MC84, MC85, MC86, MC87, MC88).",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE79"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE82"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC81"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC82"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC83"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC84"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC85"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC86"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC87"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1828,30 +1735,7 @@
     "code": "SE 267A",
     "description": "Signal processing is widely used in engineering and physical sciences. This course discusses techniques to analyze signals (or data), particularly related to structural dynamic response focusing on time/frequency domain data analyses (Fourier transform, digital filtering, and feature extraction). May be coscheduled with SE 167.",
     "raw_prereq": "graduate standing. Restricted to major codes SE75, SE77, SE80, and SE81.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "SE75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "SE80"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1943,7 +1827,17 @@
     "code": "SE 276B",
     "description": "Finite element methods for linear problems in structural dynamics. Beam, plate, and doubly curved shell elements are derived. Strategies for eliminating shear locking problems are introduced. Formulation and numerical solution of the equations of motion for structural dynamics are introduced and the effect of different mass matrix formulations on the solution accuracy is explored.",
     "raw_prereq": "graduate standing and SE 276A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE276A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1969,8 +1863,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MAE231A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE231A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE271"
+              }
+            ]
           }
         ]
       }
@@ -1987,8 +1890,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "SE232B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE232B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE232B"
+              }
+            ]
           }
         ]
       }
@@ -2027,7 +1939,17 @@
     "code": "SE 278B",
     "description": "Conservation laws on general moving domains. Arbitrary Lagrange-Eulerian (ALE) and space-time approaches to fluid-structure interaction are covered. Suitable discretizations, mesh motion, and discrete solution strategies are discussed.",
     "raw_prereq": "SE 278A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE278A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2080,8 +2002,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "SE276B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE276B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE232B"
+              }
+            ]
           }
         ]
       }

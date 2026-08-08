@@ -106,7 +106,17 @@
     "code": "ESYS 187A",
     "description": "The first quarter of the three-quarter senior project sequence. In this course, the student works in a self-selected internship (off-campus, research project or on-campus project), focused on an interdisciplinary environmental problem or research topic.",
     "raw_prereq": "ESYS 103.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ESYS103"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -114,7 +124,17 @@
     "code": "ESYS 187B",
     "description": "This is the second quarter of the three-quarter senior project sequence. In this course, the student continues work on their self-selected internship (off-campus, research project or on-campus project), focused around an interdisciplinary environmental problem or research topic. A final evaluation of their internship signed by the student, an internship supervisor, and a faculty mentor is required at the end of the course.",
     "raw_prereq": "ESYS 187A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ESYS187A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -122,7 +142,17 @@
     "code": "ESYS 187C",
     "description": "This is the third quarter of the three-quarter senior project sequence. This seminar provides a venue for students to develop a written report and a poster on their internship results. Students present their posters in the ESYS symposium at the end of the quarter.",
     "raw_prereq": "ESYS 187B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ESYS187B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

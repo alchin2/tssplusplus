@@ -25,19 +25,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "BE25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC29"
+                "course_id": "PHYS4A"
               }
             ]
           }
@@ -96,6 +84,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS2C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM6A"
           }
         ]
       }
@@ -131,6 +123,10 @@
                 "course_id": "CHEM6AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -169,7 +165,7 @@
           },
           {
             "type": "COURSE",
-            "course_id": "MC25"
+            "course_id": "MATH20B"
           }
         ]
       }
@@ -190,8 +186,17 @@
             "course_id": "PHYS2A"
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH31BH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
           }
         ]
       }
@@ -203,7 +208,17 @@
     "code": "MAE 30B",
     "description": "Dynamics: energy methods for motion of particles and rigid bodies, including virtual work, power, and Lagrange’s equations. Impact and impulses. Systems of particles. Introduction to 3-D dynamics of rigid bodies. Introduction to vibrations: free and harmonically forced vibrations of undamped and damped single degree of freedom systems. Enrollment restricted to engineering majors only MC 25, MC 27, MC 29, MC 30–34, MC 35–37, and SE 27.",
     "raw_prereq": "MAE 30A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE30A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -235,6 +250,10 @@
                 "course_id": "MATH20F"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2B"
           }
         ]
       }
@@ -341,18 +360,6 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH31CH"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC29"
               }
             ]
           }
@@ -430,6 +437,10 @@
                 "course_id": "MAE101B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE105"
           }
         ]
       }
@@ -468,29 +479,8 @@
             "course_id": "MAE101A"
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "MAE101B"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC29"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "SE27"
+            "course_id": "MAE101B"
           }
         ]
       }
@@ -511,8 +501,17 @@
             "course_id": "PHYS2A"
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH20D"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH21D"
+              }
+            ]
           }
         ]
       }
@@ -551,6 +550,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
               }
             ]
           }
@@ -569,8 +572,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20F"
+              }
+            ]
           }
         ]
       }
@@ -587,8 +599,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MAE11"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE110A"
+              }
+            ]
           }
         ]
       }
@@ -643,15 +664,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "MC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC29"
+                "course_id": "CENG101C"
               }
             ]
           }
@@ -665,7 +678,17 @@
     "code": "MAE 114",
     "description": "This course covers the fundamentals of rocket propulsion and discusses advanced concepts in space propulsion. Topics include liquid and solid propellant rocket engines, electrical rocket propulsion, nuclear propulsion devices, solar-powered vehicles, and current challenges and opportunities in launch vehicle technologies.",
     "raw_prereq": "MAE 113.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE113"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -772,7 +795,17 @@
     "code": "MAE 121",
     "description": "Overview of air pollution and wastes and their impact. Characteristics of air pollutants. Air pollution transport. Atmospheric stability. Plume rise and dispersion. Meteorological data. Selecting the appropriate air quality model and case studies. Modeling complex terrain situations. Current air quality modeling issues. Laws and regulations to control air pollution.",
     "raw_prereq": "MAE 122.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE122"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -860,7 +893,17 @@
     "code": "MAE 126B",
     "description": "Fundamental principles of environmental design. Building a working prototype or computer model for an environmental engineering application. Work in teams to propose and design experiments and components, obtain data, complete engineering analysis, and write a report. Engineering ethics and professionalism.",
     "raw_prereq": "MAE 126A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE126A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -884,6 +927,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE30B"
           }
         ]
       }
@@ -913,6 +960,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE130A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE101A"
               }
             ]
           }
@@ -942,6 +993,10 @@
                 "course_id": "SE110A"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE105"
           }
         ]
       }
@@ -958,8 +1013,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MAE131A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE131A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE110A"
+              }
+            ]
           }
         ]
       }
@@ -1289,7 +1353,17 @@
     "code": "MAE 153",
     "description": "An introduction to the fundamentals of machine design in mechanical and aerospace engineering. The course covers the principles of failure theories, design methodologies, and their application in essential machine elements and structures. Topics include analyzing components by applying the theories from statics, dynamics, and mechanics of materials; static and fatigue failure theories; and designing machine components, including shafts, gears, bearings, fasteners, and geometric dimensioning and tolerancing.",
     "raw_prereq": "MAE 131A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE131A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1417,17 +1491,8 @@
             ]
           },
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "MAE170"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "MAE170"
           }
         ]
       }
@@ -1469,7 +1534,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "MC27"
+                "course_id": "MAE131B"
               }
             ]
           }
@@ -1576,19 +1641,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "MC25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MC29"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BE25"
+                "course_id": "MAE40"
               }
             ]
           }
@@ -1621,7 +1674,7 @@
           },
           {
             "type": "COURSE",
-            "course_id": "MC27"
+            "course_id": "MAE170"
           }
         ]
       }
@@ -1633,7 +1686,17 @@
     "code": "MAE 171B",
     "description": "Design and analysis of original experiments in mechanical engineering. Students research projects using experimental facilities in undergraduate laboratories: wind tunnel, water channel, vibration table, and testing machine and control systems. Students propose and design experiments, obtain data, complete engineering analysis and write a major report.",
     "raw_prereq": "MAE 171A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE171A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1674,8 +1737,17 @@
             "course_id": "MAE108"
           },
           {
-            "type": "COURSE",
-            "course_id": "MAE143B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE180"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE143B"
+              }
+            ]
           }
         ]
       }
@@ -1702,6 +1774,10 @@
           {
             "type": "COURSE",
             "course_id": "MAE101B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE107"
           }
         ]
       }
@@ -2325,8 +2401,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MAE232A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE232A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE276A"
+              }
+            ]
           }
         ]
       }
@@ -2356,8 +2441,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MAE231A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE231A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE271"
+              }
+            ]
           }
         ]
       }
@@ -2699,7 +2793,17 @@
     "code": "MAE 269",
     "description": "This course presents the field of bioinspired robotics and locomotion. Concepts include modes of bioinspired locomotion (walking, running, undulatory locomotion for example); limb kinematics; development of dynamic models from Euler-Lagrange, Newton’s laws, manipulator equations; stability analysis of oscillatory gaits; force and compliance control of robot legs; generation of rhythmic movement and coupled oscillators.",
     "raw_prereq": "MAE 204.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE204"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2762,6 +2866,10 @@
           {
             "type": "COURSE",
             "course_id": "MAE280A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MAE290A"
           }
         ]
       }
@@ -2797,7 +2905,17 @@
     "code": "MAE 280B",
     "description": "Parameterization of all stabilizing output feedback controllers, covariance controllers, H-infinity controllers, and L-2 to L-infinity controllers. Continuous and discrete-time treatment. Alternating projection algorithms for solving output feedback problems. Model reduction. All control design problems reduced to one critical theorem in linear algebra.",
     "raw_prereq": "MAE 280A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE280A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2805,7 +2923,17 @@
     "code": "MAE 281A",
     "description": "Existence and uniqueness of solutions of EDE’s, sensitivity equations. Stability, direct and converse Lyapunov theorems, LaSalle’s theorem, linearization, invariance theorems. Center manifold theorem. Stability of perturbed systems with vanishing and nonvanishing perturbations, input-to-state ability, comparison method. Input-output stability. Perturbation theory and averaging. Singular perturbations. Circle and Popov criteria.",
     "raw_prereq": "MAE 280A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE280A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2813,7 +2941,17 @@
     "code": "MAE 281B",
     "description": "Small gain theorem, passivity. Describing functions. Nonlinear controllability, feedback linearization, input-state and input-output linearization, zero dynamics. Stabilization, Brockett’s necessary conditions (local), control Lyapunov functions, Sontag’s formula (global). Integrator back stepping, forwarding. Inverse optimality, stability margins. Disturbance attenuation, deterministic and stochastic, nonlinear H-infinity. Nonlinear observers.",
     "raw_prereq": "MAE 281A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE281A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2829,7 +2967,17 @@
     "code": "MAE 283B",
     "description": "Identification for control: approximate identification, estimation of models via closed-loop experiments. Closed-loop identification techniques. Estimation of model uncertainty. Model invalidation techniques. Iterative techniques for model estimation and control design.",
     "raw_prereq": "MAE 283A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE283A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2842,8 +2990,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MAE141B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MAE141B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE280A"
+              }
+            ]
           }
         ]
       }

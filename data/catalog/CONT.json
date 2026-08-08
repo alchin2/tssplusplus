@@ -28,7 +28,17 @@
     "code": "CONT 150B",
     "description": "CAMP students continue service learning in underserved local communities by working as paraprofessionals mentoring high school students to prepare for college application and attendance under the guidance of school counselors and the instructor. May be taken for credit two times.",
     "raw_prereq": "CONT 150A. (P/NP grades only.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CONT150A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

@@ -12,7 +12,17 @@
     "code": "MUS 1B",
     "description": "This course, second in a three-quarter sequence, focuses on understanding music theory and in developing musical ability through rhythm, ear training, and sight singing exercises. Topics include major and minor scales, seventh-chords, transposition, compound meter and rudiments of musical form.",
     "raw_prereq": "MUS 1A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS1A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -20,7 +30,17 @@
     "code": "MUS 1C",
     "description": "This course, third in a three-quarter sequence, offers solid foundation in musical literacy through exercises such as harmonic and melodic dictation, sight singing exercises and rhythm in various meters. Topics include complex rhythm, harmony, and basic keyboard skills.",
     "raw_prereq": "MUS 1B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS1B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -86,8 +106,17 @@
             "course_id": "MUS2AK"
           },
           {
-            "type": "COURSE",
-            "course_id": "MUS2BK"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS2BK"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS2C"
+              }
+            ]
           }
         ]
       }
@@ -265,6 +294,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MUS132V"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS132C"
               }
             ]
           }
@@ -296,7 +329,17 @@
     "code": "MUS 33B",
     "description": "Second part of course sequence for students pursuing a composition emphasis. Course continues the building of skills with the organization of basic compositional elements: pitch, rhythm, and timbre. It explores issues of musical texture, expression, and structure in traditional and contemporary repertoire. Writing for two instruments in more extended forms.",
     "raw_prereq": "MUS 33A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS33A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -304,7 +347,17 @@
     "code": "MUS 33C",
     "description": "Third part of course sequence for students pursuing a composition emphasis. Course continues the development of skills in instrumentation and analysis. It includes a survey of advanced techniques in contemporary composition, with additional focus on notation, part-preparation, and the art of writing for small groups of instruments.",
     "raw_prereq": "MUS 33B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS33B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -359,6 +412,10 @@
           {
             "type": "COURSE",
             "course_id": "MUS2C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MUS2CK"
           }
         ]
       }
@@ -370,7 +427,17 @@
     "code": "MUS 101B",
     "description": "Study of tonal harmony and counterpoint. Analysis of Bach chorales and other music from the Baroque period. Musicianship studies: sight-singing, dictation, and keyboard skills.",
     "raw_prereq": "MUS 2C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS2C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -378,7 +445,17 @@
     "code": "MUS 101C",
     "description": "Tonal harmony and counterpoint. Analysis of larger classical forms: Sonata, Variation, Minuet and Trio, Rondo. Musicianship studies: sight-singing, dictation, and keyboard skills.",
     "raw_prereq": "MUS 101B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS101B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -386,7 +463,17 @@
     "code": "MUS 102",
     "description": "Selected topics in music theory. Covers Western classical repertoire from 1850 to the present. Includes chromatic and post-tonal harmony, formal analysis. May be taken for credit twice.",
     "raw_prereq": "MUS 101B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS101B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -394,7 +481,17 @@
     "code": "MUS 103A",
     "description": "First part in composition course sequence. Individual projects will be reviewed in seminar. Techniques of instrumentation will be developed through examination of scores and creative application. Assignments will include short exercises and analysis, and final project for standard ensemble.",
     "raw_prereq": "MUS 33C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS33C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -402,7 +499,17 @@
     "code": "MUS 103B",
     "description": "Second part in composition course sequence. Intensive work in free composition by drafting a composition for presentation at the end of MUS 103C. Written analysis of contemporary repertoire is introduced. Instruction about calligraphic conventions including computer engraving programs.",
     "raw_prereq": "MUS 103A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS103A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -410,7 +517,17 @@
     "code": "MUS 103C",
     "description": "Third part in composition course sequence. A mixture of individual lessons as well as group meetings, with discussion of topics germane to the development of composers, including musical aesthetics and contemporary orchestration techniques. Final performance of students’ work will take place at the end of the quarter.",
     "raw_prereq": "MUS 103B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS103B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -471,7 +588,17 @@
     "code": "MUS 106",
     "description": "Topics in musical analysis. Covers full range of musical repertoire 1900 to present, including music that does not depend on notation. May be taken for credit twice.",
     "raw_prereq": "MUS 2C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS2C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -598,8 +725,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MUS101B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS101B"
+              }
+            ]
           }
         ]
       }
@@ -616,8 +752,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MUS101C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS101C"
+              }
+            ]
           }
         ]
       }
@@ -676,6 +821,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MUS101B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS101C"
               }
             ]
           }
@@ -955,6 +1104,10 @@
               {
                 "type": "COURSE",
                 "course_id": "VIS147B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS172"
               }
             ]
           }
@@ -973,8 +1126,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MUS160A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS160A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS160A"
+              }
+            ]
           }
         ]
       }
@@ -1033,7 +1195,17 @@
     "code": "MUS 172",
     "description": "Computer synthesis techniques including wavetable and additive synthesis, waveshaping, and sampling. Transformation of musical sounds using filters, modulation, and delay effects. Fourier analysis of sounds.",
     "raw_prereq": "MUS 171. Depending on the instructor, this course may include the following tools: Max/MSP, pd.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MUS171"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1567,7 +1739,30 @@
     "code": "MUS 270D",
     "description": "Meetings on group basis with computer music faculty in support of individual student research projects.",
     "raw_prereq": "consent of instructor and completion of MUS 270A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MUS270A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS270B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MUS270C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {

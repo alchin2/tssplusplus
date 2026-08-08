@@ -12,7 +12,17 @@
     "code": "ECON 2",
     "description": "Analysis of monopoly and imperfectly competitive markets, market imperfections and the role of government.",
     "raw_prereq": "ECON 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -20,7 +30,17 @@
     "code": "ECON 3",
     "description": "Introductory macroeconomics: unemployment, inflation, business cycles, monetary and fiscal policy.",
     "raw_prereq": "ECON 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -86,6 +106,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -99,7 +123,17 @@
     "code": "ECON 100B",
     "description": "Game theory and analysis of the effects of imperfect market structure, strategy and information economics, public goods, and externalities.",
     "raw_prereq": "ECON 100A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -107,7 +141,17 @@
     "code": "ECON 100C",
     "description": "Advanced analysis of production, costs, the supply of output, and demand for factors of production. Advanced analysis of the demand for goods and services. Applications to consumption and saving decisions, strategic behavior, and the supply of labor. General equilibrium and welfare.",
     "raw_prereq": "ECON 100B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -144,8 +188,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON100B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON102"
+              }
+            ]
           }
         ]
       }
@@ -184,6 +237,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
               }
             ]
           }
@@ -202,8 +259,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON102"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON102"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON102"
+              }
+            ]
           }
         ]
       }
@@ -229,6 +295,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON110B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON173A"
               }
             ]
           }
@@ -242,7 +312,17 @@
     "code": "ECON 104",
     "description": "The prevailing paradigm in economics is self-interest, but what if acting unselfishly is what is in your self-interest? We will explore economic questions from the viewpoint that individuals have moral values that guide how they live. This allows us to address issues like fairness, love, marriage, giving, identity, conformity, discrimination, crime, punishment, and reparations.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -250,7 +330,17 @@
     "code": "ECON 105",
     "description": "Theory of monopoly and oligopoly pricing, price discrimination, durable goods pricing, cartel behavior, price wars, strategic entry barriers, mergers, pro- and anticompetitive restraints on business.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -265,6 +355,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON100B"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON102"
           }
         ]
       }
@@ -347,8 +441,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON109"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON109"
+              }
+            ]
           }
         ]
       }
@@ -382,6 +485,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -417,6 +524,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -446,7 +557,17 @@
     "code": "ECON 111",
     "description": "Financial structure of the US economy. Bank behavior. Monetary control.",
     "raw_prereq": "ECON 110B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON110B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -463,12 +584,17 @@
             "course_id": "ECON110B"
           },
           {
-            "type": "COURSE",
-            "course_id": "ECON120B"
-          },
-          {
-            "type": "COURSE",
-            "course_id": "MA33"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181B"
+              }
+            ]
           }
         ]
       }
@@ -502,8 +628,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
           }
         ]
       }
@@ -520,8 +655,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              }
+            ]
           }
         ]
       }
@@ -533,7 +677,17 @@
     "code": "ECON 117",
     "description": "Basic economic dynamics, consumption versus growth with fixed or growing populations, the Harrod-Domar growth model, the neoclassical growth model, optimal growth, the Golden Rule, money and economic growth, technological progress and economic growth, human capital and endogenous economic growth, and alternative theories of growth and distribution.",
     "raw_prereq": "ECON 100A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -586,8 +740,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
           }
         ]
       }
@@ -643,6 +806,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
               }
             ]
           }
@@ -661,8 +828,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON120B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181B"
+              }
+            ]
           }
         ]
       }
@@ -743,8 +919,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
           }
         ]
       }
@@ -790,6 +975,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
               }
             ]
           }
@@ -851,8 +1040,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
           }
         ]
       }
@@ -869,8 +1067,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
           }
         ]
       }
@@ -925,6 +1132,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -938,7 +1149,17 @@
     "code": "ECON 132T",
     "description": "This course presents a selection of applications and advanced topics that build on the material covered in the ECON 132, Energy Economics course.",
     "raw_prereq": "ECON 132.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON132"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -946,7 +1167,17 @@
     "code": "ECON 134",
     "description": "The course examines major issues relating to US budget policy, including deficits and debt, distributional and efficiency effects of the tax system, Social Security and disability insurance, and transfer programs. We build on empirical and theoretical tools to give students a framework for understanding the practice of US budget policymaking in relation to current economic debates.",
     "raw_prereq": "ECON 100A. Enrollment limited to majors in the Department of Economics.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -981,7 +1212,17 @@
     "code": "ECON 136",
     "description": "A practical yet theory-based study of the firm’s role in managing workers, including issues related to hiring, education and training, promotions, layoffs and buyouts, and the overarching role that worker compensation plays in all of these.",
     "raw_prereq": "ECON 100B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -999,7 +1240,7 @@
           },
           {
             "type": "COURSE",
-            "course_id": "MA33"
+            "course_id": "ECON120C"
           }
         ]
       }
@@ -1011,7 +1252,17 @@
     "code": "ECON 138",
     "description": "This course will investigate differences in economic outcomes on the basis of race, gender, ethnicity, religion, and sexual orientation. We will study economic theories of discrimination, empirical work testing those theories, and policies aimed at alleviating group-level differences in economic outcomes.",
     "raw_prereq": "ECON 1.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON1"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1024,8 +1275,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              }
+            ]
           }
         ]
       }
@@ -1042,8 +1302,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              }
+            ]
           }
         ]
       }
@@ -1055,7 +1324,17 @@
     "code": "ECON 141",
     "description": "Demand for health care and health insurance, employer provision of health insurance and impact on wages and job changes. Cross-country comparisons of health systems.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1068,8 +1347,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON100B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON109"
+              }
+            ]
           }
         ]
       }
@@ -1087,7 +1375,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "MA33"
+            "course_id": "ECON100C"
           }
         ]
       }
@@ -1104,8 +1392,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
           }
         ]
       }
@@ -1122,8 +1419,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON2"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON100A"
+              }
+            ]
           }
         ]
       }
@@ -1135,7 +1441,17 @@
     "code": "ECON 146",
     "description": "Theory of business cycles and techniques used by governments to stabilize an economy. Discussion of recent economic experience.",
     "raw_prereq": "ECON 110B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON110B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1204,6 +1520,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH188"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH184"
               }
             ]
           }
@@ -1217,7 +1537,17 @@
     "code": "ECON 150",
     "description": "Overview of the existing national tax structure in the United States, its effects on individual and firm decisions, and the resulting efficiency costs and distributional consequences. The course concludes with an examination of several commonly-proposed tax reforms.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1225,7 +1555,17 @@
     "code": "ECON 151",
     "description": "Overview of the public sector in the United States and the scope of government intervention in economic life. Theory of public goods and externalities. Discussion of specific expenditure programs such as education and national defense.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1233,7 +1573,17 @@
     "code": "ECON 152",
     "description": "Overview of the public sector in the United States and the justifications for government intervention in economic life. Theory of income redistribution and social insurance. Applications to current policy in such areas as health insurance, welfare, unemployment insurance, and Social Security.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1241,7 +1591,17 @@
     "code": "ECON 152T",
     "description": "Investigate design of social insurance in the context of the family. Learn effects of economic shocks, such as unemployment and adverse health events, on the family as the economic unit. Learning outcomes include informal self-insurance arrangements and spillovers across family members. Use theory to study welfare implications of findings on optimal design of social insurance policies.",
     "raw_prereq": "ECON 152.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON152"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1272,6 +1632,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1290,6 +1654,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1306,8 +1674,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON164"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON164"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON164"
+              }
+            ]
           }
         ]
       }
@@ -1326,6 +1703,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1342,8 +1723,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON165"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON165"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON165"
+              }
+            ]
           }
         ]
       }
@@ -1362,6 +1752,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1380,6 +1774,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1398,6 +1796,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON3"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON100A"
           }
         ]
       }
@@ -1447,6 +1849,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
               }
             ]
           }
@@ -1483,8 +1889,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON172A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON172A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH171A"
+              }
+            ]
           }
         ]
       }
@@ -1554,7 +1969,17 @@
     "code": "ECON 174",
     "description": "Risk measures, hedging techniques, value of risk to firms, estimation of optimal hedge ratio, risk management with options and futures. ECON 171 is recommended.",
     "raw_prereq": "ECON 173A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON173A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1584,6 +2009,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
               }
             ]
           }
@@ -1597,7 +2026,17 @@
     "code": "ECON 176",
     "description": "Role of marketing in the economy. Topics such as buyer behavior, marketing mix, promotion, product selection, pricing, and distribution. Concurrent enrollment in ECON 120C is permitted.",
     "raw_prereq": "ECON 120C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON120C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1610,25 +2049,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EN25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EN26"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EN28"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "MA33"
+            "course_id": "ECON120C"
           }
         ]
       }
@@ -1647,6 +2069,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1658,7 +2084,17 @@
     "code": "ECON 182",
     "description": "Selected topics in microeconomics.",
     "raw_prereq": "ECON 100C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON100C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1666,7 +2102,17 @@
     "code": "ECON 183",
     "description": "May be taken for credit up to three times.",
     "raw_prereq": "ECON 110B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON110B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1679,8 +2125,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON120B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181B"
+              }
+            ]
           }
         ]
       }
@@ -1697,8 +2152,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECON120B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON120B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181B"
+              }
+            ]
           }
         ]
       }
@@ -1717,6 +2181,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON3"
           }
         ]
       }
@@ -1762,6 +2230,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
               }
             ]
           }
@@ -1823,7 +2295,17 @@
     "code": "ECON 200B",
     "description": "Arrow-Debreu model of general economic equilibrium and welfare economics. Axiomatic theory of the firm and household. Existence of general economic equilibrium. First and Second Fundamental Theorems of Welfare Economics. Futures and contingent commodity markets. Core and core convergence.",
     "raw_prereq": "ECON 200A. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON200A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1831,7 +2313,17 @@
     "code": "ECON 200C",
     "description": "Information economics: static and dynamic games of incomplete information, signaling, screening, and lemons. Institutional analysis: social choice, mechanism design, cooperative bargaining, contracts, strategic theory of the firm.",
     "raw_prereq": "ECON 200B. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON200B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1846,6 +2338,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON207"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON213"
           }
         ]
       }
@@ -1875,7 +2371,30 @@
     "code": "ECON 204",
     "description": "This course reviews the theoretical foundations for the analysis of contractual interaction, and it covers a selection of game-theoretic models and applications. The course is intended to provide a foundation for theoretical research on contracts as well as applied research on topics in behavioral/experimental, development, environmental, international, and labor economics, law and economics, and macroeconomics.",
     "raw_prereq": "ECON 200A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1961,7 +2480,17 @@
     "code": "ECON 210B",
     "description": "Models of the household’s intertemporal consumption/saving decision, and implications for risk aversion, basic portfolio allocation, and asset pricing. Models with heterogeneous agents—overlapping generations, incomplete markets, precautionary saving. Implications of labor market frictions for equilibrium employment.",
     "raw_prereq": "ECON 210A. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON210A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1969,7 +2498,17 @@
     "code": "ECON 210C",
     "description": "Basic facts and time series for macroeconomics. Modern theories of short-run fluctuations: sources of business cycle and the evolution of income, employment, interest rate, and prices. Monetary and fiscal policy theories in the presence of real and nominal rigidities.",
     "raw_prereq": "ECON 210B. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON210B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1977,7 +2516,30 @@
     "code": "ECON 210D",
     "description": "Study of the determinants of economic fluctuations, inflation, and interest rates with particular focus on the effects of monetary policy. Overview of key methods and findings of empirical research in macroeconomics. Recommended preparation: ECON 220D.",
     "raw_prereq": "graduate standing and ECON 210A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON210A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON210C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2016,7 +2578,17 @@
     "code": "ECON 212A-B-C",
     "description": "Examination of recent research in macroeconomics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
     "raw_prereq": "ECON 210C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON210C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2519,6 +3091,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
               }
             ]
           }
@@ -2563,6 +3139,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
               }
             ]
           }
@@ -2607,6 +3187,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
               }
             ]
           }
@@ -2651,6 +3235,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECON220B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON220C"
               }
             ]
           }
@@ -2739,6 +3327,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON210A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON280"
           }
         ]
       }
@@ -2774,14 +3366,6 @@
     "code": "ECON 250B",
     "description": "Topics typically include labor demand, labor supply, wage setting, inequality, intergenerational mobility, demographics, economics of family, migration, unemployment, religion, conflict, discrimination, human capital, education and training.",
     "raw_prereq": "ECON 250A.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "Advanced Topics in Labor Economics",
-    "code": "ECON 250C",
-    "description": "Topics typically include labor supply, education and training, human capital, discrimination, intergenerational mobility, inequality, wage setting.",
-    "raw_prereq": "ECON 250A and ECON 250B.",
     "prerequisites": [
       {
         "type": "AND",
@@ -2796,11 +3380,43 @@
     "offered_this_qtr": false
   },
   {
+    "name": "Advanced Topics in Labor Economics",
+    "code": "ECON 250C",
+    "description": "Topics typically include labor supply, education and training, human capital, discrimination, intergenerational mobility, inequality, wage setting.",
+    "raw_prereq": "ECON 250A and ECON 250B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON250A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON250B"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
     "name": "Industrial Organization: Firms",
     "code": "ECON 260",
     "description": "This course covers theory and empirical applications in the following areas of industrial organization: dynamic pricing, price discrimination, collusion, market power, discrete choice demand modeling, entry, asymmetric information, and search.",
     "raw_prereq": "ECON 220C. Enrollment by completion of prerequisites or by consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON220C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2815,6 +3431,10 @@
           {
             "type": "COURSE",
             "course_id": "ECON200C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "ECON220C"
           }
         ]
       }
@@ -2826,7 +3446,30 @@
     "code": "ECON 262",
     "description": "This course is intended to give students an introduction to the study of strategic interaction through a behavioral lens. We will review game theory experiments and analyze which theoretical predictions are validated and which are violated in practice. We will characterize the systematic violations of the theory that come from experiments and study how these behavioral regularities can be incorporated into new equilibrium concepts.",
     "raw_prereq": "graduate standing and ECON 200A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2834,7 +3477,30 @@
     "code": "ECON 263",
     "description": "Covers various models in behavioral economics including self-control, bounded memory, belief manipulation, framing effects, and behavioral game theory. The course will also discuss their role in industrial organization, finance, and political economy, and their implications for welfare.",
     "raw_prereq": "graduate standing and ECON 200A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -2850,7 +3516,30 @@
     "code": "ECON 265",
     "description": "Experimental findings by economists and psychologists of systematic departures from the classical model of decision making under risk and uncertainty. Issues of dynamic consistency in choice. Development, formal analysis and application of alternative models of risk preferences and beliefs.",
     "raw_prereq": "graduate standing and ECON 200A-B-C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECON200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON200C"
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2953,7 +3642,17 @@
     "code": "ECON 286",
     "description": "The aim of the course is to train students to present their research effectively to a broad audience. Students are required to prepare a formal presentation, and then to provide feedback on the presentations made by other students. Depending on student demand, meetings may be divided into multiple sections, based on field interests.",
     "raw_prereq": "graduate standing, ECON 285.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ECON285"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {

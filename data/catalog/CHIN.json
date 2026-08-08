@@ -234,6 +234,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -277,6 +281,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -320,6 +328,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -363,6 +375,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN182B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN182C"
               }
             ]
           }
@@ -406,6 +422,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN182B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN182C"
               }
             ]
           }
@@ -461,6 +481,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -516,6 +540,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -571,6 +599,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -614,6 +646,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -657,6 +693,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185C"
               }
             ]
           }
@@ -700,6 +740,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN185A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN185B"
               }
             ]
           }
@@ -731,6 +775,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN186B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN186C"
               }
             ]
           }
@@ -762,6 +810,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN186A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN186C"
               }
             ]
           }
@@ -793,6 +845,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHIN186A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHIN186CB"
               }
             ]
           }

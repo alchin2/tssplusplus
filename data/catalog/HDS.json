@@ -58,6 +58,10 @@
               {
                 "type": "COURSE",
                 "course_id": "HDS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC101"
               }
             ]
           }
@@ -89,6 +93,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ANTH2"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BILD3"
               }
             ]
           }
@@ -116,6 +124,10 @@
               {
                 "type": "COURSE",
                 "course_id": "HDS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "LIGN4"
               }
             ]
           }
@@ -143,6 +155,10 @@
               {
                 "type": "COURSE",
                 "course_id": "HDS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
               }
             ]
           }
@@ -161,8 +177,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "HDP1"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              }
+            ]
           }
         ]
       }
@@ -188,6 +213,10 @@
               {
                 "type": "COURSE",
                 "course_id": "HDS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC1"
               }
             ]
           }
@@ -206,8 +235,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "HDP181"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP181"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS181"
+              }
+            ]
           }
         ]
       }
@@ -285,6 +323,10 @@
               {
                 "type": "COURSE",
                 "course_id": "POLI30D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
               }
             ]
           }
@@ -305,6 +347,10 @@
           {
             "type": "COURSE",
             "course_id": "HDS1"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "HDS181"
           }
         ]
       }

@@ -61,6 +61,10 @@
                 "course_id": "FMPH40"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "GLBH181"
           }
         ]
       }
@@ -530,7 +534,17 @@
     "code": "GLBH 261",
     "description": "Students will explore the application of global health policy, governance, and law principles to the practice of global health through case studies and interactive debate simulations. The course will include a series of special and advanced topics in global health, including health migration, funding and innovation for infectious and chronic diseases, disease surveillance, fake medicines, and global health governance reform.",
     "raw_prereq": "GLBH 260.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "GLBH260"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

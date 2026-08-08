@@ -28,26 +28,7 @@
     "code": "BENG 90",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. This course will cover topics from biomechanics, biosystems, bioinformatics, and biotechnology among others.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BE28"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -55,26 +36,7 @@
     "code": "BENG 90L",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. This course is intended to be a lecture and lab component topics course. This course will cover topics from biomechanics, biosystems, bioinformatics and biotechnology among others.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BE28"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1174,26 +1136,7 @@
     "code": "BENG 190",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BE28"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1201,26 +1144,7 @@
     "code": "BENG 190L",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. This course is intended to be a lecture and lab component special topics course. This course will cover topics from biomechanics, biosystems, bioinformatics, and biotechnology among others.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "BE27"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "BE28"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {

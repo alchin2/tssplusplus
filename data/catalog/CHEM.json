@@ -60,6 +60,10 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "MATH20A"
               }
             ]
@@ -79,8 +83,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6AH"
+              }
+            ]
           }
         ]
       }
@@ -99,6 +112,19 @@
           {
             "type": "COURSE",
             "course_id": "CHEM6AH"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -115,8 +141,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
+              }
+            ]
           }
         ]
       }
@@ -135,6 +170,10 @@
           {
             "type": "COURSE",
             "course_id": "CHEM6BH"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
           }
         ]
       }
@@ -151,8 +190,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
+              }
+            ]
           }
         ]
       }
@@ -177,19 +225,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CH25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH34"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH35"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH36"
+                "course_id": "CHEM6BH"
               }
             ]
           }
@@ -242,8 +278,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
+              }
+            ]
           }
         ]
       }
@@ -255,7 +300,17 @@
     "code": "CHEM 40B",
     "description": "This is the second quarter of a two-quarter organic chemistry sequence intended for biological sciences majors and other interested students. The course is a continuation of CHEM 40A and provides an in-depth study of the molecular structure and reactivity of organic molecules with emphasis on biological applications. Topics covered include carbonyl reactivity, enzymatic catalysis, electrophilic substitutions and additions, and the molecular basis of drug action. Students may receive credit for one of the following: CHEM 40B or 40BH.",
     "raw_prereq": "CHEM 40A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM40A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -303,8 +358,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6BH"
+              }
+            ]
           }
         ]
       }
@@ -316,7 +380,17 @@
     "code": "CHEM 41B",
     "description": "This is the second quarter of a three-quarter organic chemistry sequence for chemistry, biochemistry, and engineering majors and interested students. The course is a rigorous and in-depth study of the properties and reactions of the major classes of organic compounds; focusing on alcohols, ethers, sulfur compounds, aromatics, organometallics, and introduction to carbonyl reactivity. Emphasis on a mechanistic understanding of reactions, the effects of molecular structure, and multi-step syntheses.",
     "raw_prereq": "CHEM 41A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM41A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -324,7 +398,17 @@
     "code": "CHEM 41C",
     "description": "This is the third quarter of a three-quarter organic chemistry sequence intended for chemistry, biochemistry, and engineering majors and interested students. The course is a continuation of CHEM 41A and CHEM 41B with an in-depth study of the properties, synthesis, and reactions of the major classes of organic compounds. Emphasis on a mechanistic understanding of reactions, the effects of molecular structure, and multi-step syntheses.",
     "raw_prereq": "CHEM 41B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM41B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -359,6 +443,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
               }
             ]
           }
@@ -399,6 +487,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
               }
             ]
           }
@@ -470,7 +562,15 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "CHEM7LM"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "PHYS2CL"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2BL"
               }
             ]
           }
@@ -515,6 +615,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PHYS2CL"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2DL"
               }
             ]
           }
@@ -553,6 +657,10 @@
           {
             "type": "COURSE",
             "course_id": "PHYS2A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2B"
           }
         ]
       }
@@ -619,6 +727,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM131"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM133"
               }
             ]
           }
@@ -632,7 +744,17 @@
     "code": "CHEM 105B",
     "description": "Laboratory course in experimental physical chemistry. Program or materials fees may apply.",
     "raw_prereq": "CHEM 105A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM105A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -664,6 +786,10 @@
                 "course_id": "CHEM143AM"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
           }
         ]
       }
@@ -699,6 +825,10 @@
                 "course_id": "CHEM143AM"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
           }
         ]
       }
@@ -715,8 +845,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
           }
         ]
       }
@@ -728,7 +867,17 @@
     "code": "CHEM 113",
     "description": "A discussion of the physical principles governing biomolecular structure and function. Experimental and theoretical approaches to understand protein dynamics, enzyme kinetics, and mechanisms will be covered.",
     "raw_prereq": "CHEM 41C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM41C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -741,8 +890,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM40A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
           }
         ]
       }
@@ -759,8 +917,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM40A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
+              }
+            ]
           }
         ]
       }
@@ -792,6 +959,10 @@
                 "course_id": "CHEM41B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
           }
         ]
       }
@@ -808,8 +979,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM114A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              }
+            ]
           }
         ]
       }
@@ -837,6 +1017,10 @@
                 "course_id": "CHEM114B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114C"
           }
         ]
       }
@@ -855,6 +1039,19 @@
           {
             "type": "COURSE",
             "course_id": "CHEM114A"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM109"
+              }
+            ]
           }
         ]
       }
@@ -882,6 +1079,10 @@
                 "course_id": "CHEM40B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
           }
         ]
       }
@@ -907,6 +1108,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
               }
             ]
           }
@@ -920,7 +1125,17 @@
     "code": "CHEM 118",
     "description": "A survey of the biochemical action of drugs and toxins as well as their absorption and excretion.",
     "raw_prereq": "CHEM 114A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -955,6 +1170,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
               }
             ]
           }
@@ -995,6 +1214,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM41A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140A"
               }
             ]
           }
@@ -1008,7 +1231,17 @@
     "code": "CHEM 120B",
     "description": "A continuation of the discussion of structure, bonding, and reactivity with emphasis on transition metals and other elements using filled d orbitals to form bonds. Coordination chemistry in terms of valence bond, crystal field, and molecular orbital theory. The properties and reactivities of transition metal complexes including organometallic compounds.",
     "raw_prereq": "CHEM 120A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM120A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1050,23 +1283,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "CH25"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH31"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH34"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH35"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "CH36"
+                "course_id": "CHEM143AH"
               }
             ]
           }
@@ -1087,6 +1304,10 @@
           {
             "type": "COURSE",
             "course_id": "CHEM114A"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM120A"
           }
         ]
       }
@@ -1128,8 +1349,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH10C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              }
+            ]
           }
         ]
       }
@@ -1146,8 +1376,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM126A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM126A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM127"
+              }
+            ]
           }
         ]
       }
@@ -1188,6 +1427,10 @@
                 "course_id": "PHYS2D"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
           }
         ]
       }
@@ -1221,8 +1464,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "PHYS2C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS2D"
+              }
+            ]
           }
         ]
       }
@@ -1250,6 +1502,10 @@
                 "course_id": "CHEM133"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM131"
           }
         ]
       }
@@ -1268,6 +1524,10 @@
           {
             "type": "COURSE",
             "course_id": "CHEM6C"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PHYS2C"
           }
         ]
       }
@@ -1303,6 +1563,10 @@
                 "course_id": "CHEM133"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
           }
         ]
       }
@@ -1336,6 +1600,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140AH"
               }
             ]
           }
@@ -1388,6 +1656,10 @@
               {
                 "type": "COURSE",
                 "course_id": "BILD1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
               }
             ]
           }
@@ -1419,8 +1691,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "CHEM40B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41B"
+              }
+            ]
           }
         ]
       }
@@ -1479,6 +1760,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140BH"
               }
             ]
           }
@@ -1520,6 +1805,10 @@
                 "course_id": "CHEM140CH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM143B"
           }
         ]
       }
@@ -1553,6 +1842,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM140BH"
               }
             ]
           }
@@ -1580,6 +1873,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
               }
             ]
           }
@@ -1607,6 +1904,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40AH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41A"
               }
             ]
           }
@@ -1625,8 +1926,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM40B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM40B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
+              }
+            ]
           }
         ]
       }
@@ -1651,6 +1961,10 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "CHEM41C"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "CHEM152"
               }
             ]
@@ -1670,8 +1984,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM152"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM152"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM154"
+              }
+            ]
           }
         ]
       }
@@ -1701,8 +2024,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "CHEM154"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM154"
+              }
+            ]
           }
         ]
       }
@@ -1728,6 +2060,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
               }
             ]
           }
@@ -1755,6 +2091,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM40CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM41C"
               }
             ]
           }
@@ -1768,7 +2108,17 @@
     "code": "CHEM 163",
     "description": "Introduction to fundamental theory and applications of mass spectrometry. The basics of mass spectrometry instrumentation will be discussed. Different types of mass spectrometers and their advantages for studying certain types of molecules will be examined. Various data analysis platforms will be reviewed and applications relevant for the biotech industry will be discussed. This course will have a particular focus on protein-based mass spectrometry. May be coscheduled with CHEM 263.",
     "raw_prereq": "CHEM 41C.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM41C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -1807,8 +2157,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "BIMM100"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BIMM100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114C"
+              }
+            ]
           }
         ]
       }
@@ -1825,8 +2184,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM114A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM114A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIBC100"
+              }
+            ]
           }
         ]
       }
@@ -1858,6 +2226,10 @@
                 "course_id": "CHEM41C"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
           }
         ]
       }
@@ -1889,6 +2261,10 @@
                 "course_id": "CHEM41C"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
           }
         ]
       }
@@ -1900,7 +2276,17 @@
     "code": "CHEM 169",
     "description": "Dive deep into artificial intelligence (AI) for chemistry and biochemistry. The course provides students with hands-on exploration of AI methods applied to chemical and biochemical systems. Topics explored include areas like protein structure and complex prediction, protein language models, and large language models to accelerate research. Applications include molecular property prediction, enzyme substrate prediction, and drug discovery. Emphasis will be placed on project-based learning. May be coscheduled with CHEM 269.",
     "raw_prereq": "CHEM 114A. Recommended: Introductory course in Python programming, with a focus on the pandas library.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM114A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1913,8 +2299,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
           }
         ]
       }
@@ -1931,8 +2326,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
           }
         ]
       }
@@ -1949,8 +2353,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
           }
         ]
       }
@@ -1967,8 +2380,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "CHEM6C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM6CH"
+              }
+            ]
           }
         ]
       }
@@ -2006,8 +2428,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH20C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
           }
         ]
       }
@@ -2041,6 +2472,10 @@
               {
                 "type": "COURSE",
                 "course_id": "CHEM130"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "CHEM133"
               }
             ]
           }
@@ -2072,8 +2507,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "CHEM96"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM96"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS31"
+              }
+            ]
           }
         ]
       }
@@ -2103,8 +2547,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "CHEM187"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "CHEM187"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS122"
+              }
+            ]
           }
         ]
       }
@@ -2116,7 +2569,17 @@
     "code": "CHEM 190",
     "description": "Focus on select topics from among numerous areas relevant to chemistry, including linear algebra, probability theory, group theory, complex variables, Laplace and Fourier transforms, partial differential equations, stochastic variables, random walks, and others. May be coscheduled with CHEM 290.",
     "raw_prereq": "MATH 20D.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2284,7 +2747,17 @@
     "code": "CHEM 218",
     "description": "Fundamental concepts in directed evolution and natural (biological) evolution. In vitro selection and in vitro evolution of aptamers and catalytic RNAs. Application of directed evolution experiments to studies on the origin of life. Evolution of non-coding RNAs in biology, including the ribosome and self-splicing introns. Enrollment is limited to chemistry and biochemistry and molecular biophysics PhD students.",
     "raw_prereq": "CHEM 217. (May not be offered every year.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CHEM217"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

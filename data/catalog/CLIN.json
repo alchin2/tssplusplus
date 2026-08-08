@@ -12,7 +12,17 @@
     "code": "CLIN 227B",
     "description": "This five-week course during year two covers neurological, psychiatric, ophthalmological, otolaryngological, and general head and neck principles, syndromes, and disorders.",
     "raw_prereq": "CLIN 227A. S/U grades only.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLIN227A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

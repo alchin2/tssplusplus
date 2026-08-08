@@ -82,6 +82,10 @@
               {
                 "type": "COURSE",
                 "course_id": "WCWP10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SYN1"
               }
             ]
           }
@@ -95,7 +99,17 @@
     "code": "ENG 100L",
     "description": "Faculty-directed, interdisciplinary, long-term humanitarian engineering, technology, and social innovation projects. Students work in teams to design, build, test, and deliver solutions to real-world problems experienced by nonprofit organizations and the communities they serve. ENG 100L is the laboratory course for the Global TIES program. Enrollment in this course is limited to students who have applied to and been accepted into the Global TIES program. Please go to http://globalties.ucsd.edu to apply to the program. May be taken for credit six times.",
     "raw_prereq": "ENG 100D. Department approval required.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "ENG100D"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

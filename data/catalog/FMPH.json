@@ -90,7 +90,17 @@
     "code": "FMPH 110",
     "description": "This course introduces health behavior concepts through applications to chronic disease prevention. The focus is on smoking, dietary behaviors, and physical activity and is organized around relationships to health, measurement, influencing factors, interventions, and translation to public health practice. Must be taken for a letter grade to be applied to the public health major. Renumbered from FPMU 110. Students may not receive credit for FPMU 110 and FMPH 110.",
     "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH40"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -143,22 +153,6 @@
     "code": "FMPH 155",
     "description": "An overview of the role of qualitative research methods in public health. The course will focus on qualitative research as it relates to formative program design, community-based participatory approaches, and as a tool for amplifying voices and elucidating both complex social-ecological processes and internal individual experiences. Throughout the term, students will work in teams to design, conduct, analyze, and report a full qualitative study on a public health topic of their choosing. Must be taken for a letter grade to be applied to the public health major. Students may not receive credit for FMPH 155 and FMPH 191 subtitled “Qualitative Research for Global Public Health.”",
     "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "Clinical Nutrition in Public Health",
-    "code": "FMPH 161",
-    "description": "Clinical nutrition is the study of nutrition and diet as related to the prevention and treatment of human disease. The practical and psychosocial aspects of diet modification and food/food product availability are key aspects of clinical nutrition practice, whether individual or community based, irrespective of whether the goal is primary prevention or disease treatment. Students will identify applications and translation of nutritional guidelines and recommendations into behavior in the course. Must be taken for a letter grade to be applied to the public health major. Students may not receive credit for FMPH 161 and FMPH 191 subtitled “Clinical Nutrition in Public Health.”",
-    "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
-  },
-  {
-    "name": "Field Epidemiology and Outbreak Investigations",
-    "code": "FMPH 171",
-    "description": "This course consists of a series of practical epidemiological infectious and non-infectious disease paper- and computer-based exercises. Students will have the opportunity to apply their epidemiological and biostatistical skills to real-world situations. The course is highly interactive and challenges students’ knowledge and critical thinking capacities. Students will give presentations, write a scientific abstract and press release, and develop a poster. Must be taken for a letter grade to be applied to the public health major. Students may not receive credit for FMPH 171 and FMPH 191 subtitled “Field Epidemiology and Outbreak Investigations.”",
-    "raw_prereq": "FMPH 40 and FMPH 101. Restricted enrollment to sophomore, junior, and senior standing.",
     "prerequisites": [
       {
         "type": "AND",
@@ -173,11 +167,61 @@
     "offered_this_qtr": false
   },
   {
+    "name": "Clinical Nutrition in Public Health",
+    "code": "FMPH 161",
+    "description": "Clinical nutrition is the study of nutrition and diet as related to the prevention and treatment of human disease. The practical and psychosocial aspects of diet modification and food/food product availability are key aspects of clinical nutrition practice, whether individual or community based, irrespective of whether the goal is primary prevention or disease treatment. Students will identify applications and translation of nutritional guidelines and recommendations into behavior in the course. Must be taken for a letter grade to be applied to the public health major. Students may not receive credit for FMPH 161 and FMPH 191 subtitled “Clinical Nutrition in Public Health.”",
+    "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH40"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
+    "name": "Field Epidemiology and Outbreak Investigations",
+    "code": "FMPH 171",
+    "description": "This course consists of a series of practical epidemiological infectious and non-infectious disease paper- and computer-based exercises. Students will have the opportunity to apply their epidemiological and biostatistical skills to real-world situations. The course is highly interactive and challenges students’ knowledge and critical thinking capacities. Students will give presentations, write a scientific abstract and press release, and develop a poster. Must be taken for a letter grade to be applied to the public health major. Students may not receive credit for FMPH 171 and FMPH 191 subtitled “Field Epidemiology and Outbreak Investigations.”",
+    "raw_prereq": "FMPH 40 and FMPH 101. Restricted enrollment to sophomore, junior, and senior standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH40"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH101"
+          }
+        ]
+      }
+    ],
+    "offered_this_qtr": false
+  },
+  {
     "name": "Topics in Public Health",
     "code": "FMPH 191",
     "description": "Selected topics in the field of public health. Must be taken for a letter grade to be applied to the public health major. May be taken for credit up to three times.",
     "raw_prereq": "FMPH 40. Restricted enrollment to sophomore, junior, and senior standing. Department approval required.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH40"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -209,6 +253,10 @@
                 "course_id": "FMPH102"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH110"
           }
         ]
       }
@@ -252,6 +300,10 @@
                 "course_id": "FMPH120"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH193"
           }
         ]
       }
@@ -295,6 +347,10 @@
                 "course_id": "FMPH102"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "FMPH110"
           }
         ]
       }
@@ -306,7 +362,17 @@
     "code": "FMPH 196B",
     "description": "This is the second of a three-part honors series that serves as the culminating experience for the BS in public health majors. This course represents an experiential learning opportunity at a preapproved community site. Under supervision of public health faculty and pertinent site representatives, students will refine and implement the public health proposal developed in the first part of the honors series. Must be taken for a letter grade to be applied to the public health major.",
     "raw_prereq": "FMPH 196A. Department approval required. Restricted to upper-division public health majors only (FP25).",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH196A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -314,7 +380,17 @@
     "code": "FMPH 196C",
     "description": "This is the third of a three-part honors series that serves as the culminating experience for the BS in public health majors. Students will analyze, interpret, and contextualize findings from their projects completed in the series. Oral and written communication will focus on disseminating public health information in diverse formats and will include a presentation and an honors thesis. Must be taken for a letter grade to be applied to the public health major.",
     "raw_prereq": "FMPH 196B. Restricted to upper-division public health majors only (FP25).",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH196B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -478,26 +554,6 @@
               {
                 "type": "COURSE",
                 "course_id": "PHB223"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB79"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB80"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PB81"
               }
             ]
           }
@@ -692,6 +748,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH281A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
               }
             ]
           }
@@ -803,8 +863,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "FMPH223"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB223"
+              }
+            ]
           }
         ]
       }
@@ -874,8 +943,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "FMPH244B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FMPH244B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHB244B"
+              }
+            ]
           }
         ]
       }
@@ -887,17 +965,7 @@
     "code": "FMPH 277",
     "description": "This course provides an overview of the US health policy landscape. It addresses the development of explicit health policies to promote certain health behaviors, policies aimed at public health safety, and policy issues related to emerging health and biomedical technologies. Renumbered from FPM 290. Students may not receive credit for FMPH 277 and FPM 290.",
     "raw_prereq": "must be enrolled in the UC San Diego/SDSU Joint Doctoral Program in public health (PU75, PU76, and PU77), biostatistics major (FM77), or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PU76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -926,13 +994,9 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "PB76"
+                "course_id": "PHB280"
               }
             ]
-          },
-          {
-            "type": "COURSE",
-            "course_id": "PB77"
           }
         ]
       }
@@ -1032,17 +1096,7 @@
     "code": "FMPH 411",
     "description": "This course covers optimization and evaluation methods, including formative research, experimental and quasi-experimental study designs, and optimization trials as used in the multiphase optimization strategy (MOST). While this is not a statistics or measurement course, overviews of data analyses (e.g., statistical analyses, cost and cost-effectiveness analyses, dynamical modeling) and measurement (e.g., qualitative and quantitative) will be provided as appropriate for each of the above methods.",
     "raw_prereq": "must be enrolled in MPH program (FM75) or program approval and successfully completed FMPH 402 and FMPH 403.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "FMPH402"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1146,7 +1200,17 @@
     "code": "FMPH 440",
     "description": "This course will cover the economics of health care demand and supply. This course will describe the health care industry in an economics context; analyze health behaviors of consumers, producers, and insurers; and introduce and evaluate health policies to regulate the health care industry. The theories developed throughout the course will be applied to current health policy problems.",
     "raw_prereq": "successfully completed FMPH 405.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH405"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1154,7 +1218,17 @@
     "code": "FMPH 441",
     "description": "This course will introduce students to organizations that make up the US health care system and will cover how health care in the US is organized and financed and how this compares with other countries around the world. The implications of the increasingly large role played by health systems in health care and the implications of system growth for quality, equity, and cost will also be discussed.",
     "raw_prereq": "successfully completed FMPH 405.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FMPH405"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1178,30 +1252,7 @@
     "code": "FMPH 462",
     "description": "This course will focus on the health and economic burden of non-communicable diseases (NCD) globally, understanding global patterns of major diseases and disease categories (cancer, CVD, diabetes, obesity) and health behaviors (smoking, diet, physical activity), global health policy and advocacy, and intervention strategies and evaluation of health programs related to global NCD. We will cover select global health issues in a format allowing for in-depth discussion.",
     "raw_prereq": "must be enrolled in MPH program (FM75, FM76, FM77, PU75, or PU77) or program approval.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "FM76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "FM77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PU75"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1289,7 +1340,17 @@
     "code": "FPM 246",
     "description": "An introduction to the history and epidemiology of work-related disease. A review of occupational-related health problems, i.e., heart disease, pneumoconiosis, peripheral neuropathy, sterility, birth defects, psychiatric problems. Emphasis on the occupational history in the diagnosis of job-related disease and disability. Major modalities of prevention and control will be presented and the role of health practitioners, government, management and labor will be reviewed. The course will include guest lecturers, films, videotapes and field visits to local industries and/or clinicians treating occupational diseases.",
     "raw_prereq": "SM 208.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SM208"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1321,7 +1382,17 @@
     "code": "FPM 258B",
     "description": "This second quarter of a three-quarter sequence combines didactic instruction, interactive sessions and student presentations. Topics cover study design, ethics, data analysis and management techniques, and qualitative research will be presented. Focus: lectures (different from I or III).",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student, FPM 258A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM258A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1329,7 +1400,17 @@
     "code": "FPM 258C",
     "description": "This third quarter of a thre-quarter sequence combines didactic instruction, interactive sessions and student presentations. Topics cover study design, ethics, data analysis and management techniques, and qualitative research will be presented. Focus: lectures (different from I or II).",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, SOM student, FPM 258B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM258B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1345,7 +1426,17 @@
     "code": "FPM 259B",
     "description": "Students will learn the principles of scientific writing, review examples of scientific literature, and then complete a manuscript suitable for publication based on their project from FPM 259A. May be taken for credit two times.",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, FPM 259A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM259A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1353,7 +1444,17 @@
     "code": "FPM 259C",
     "description": "Students will learn the principles of scientific presentations, for the classroom, and for scientific meetings (both oral and poster presentations). Students will then prepare and deliver presentations based on their project from FPM 259A. May be taken for credit two times.",
     "raw_prereq": "Joint Doctoral Program in Public Health graduate student, FPM 259B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM259B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1425,7 +1526,17 @@
     "code": "FPM 286",
     "description": "The Free Clinic Project operates at three community-based sites. In this class, students, under faculty supervision, provide clinical services and learn administrative, health education and leadership. S/U grades only. May be taken for credit as many times as desired.",
     "raw_prereq": "FPM 272.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "FPM272"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {

@@ -20,7 +20,17 @@
     "code": "MATH 3C",
     "description": "Functions and their graphs. Linear and polynomial functions, zeroes, inverse functions, exponential and logarithmic, trigonometric functions and their inverses. Emphasis on understanding algebraic, numerical, and graphical. (No credit given if taken after MATH 4C, 10A, or 20A.)",
     "raw_prereq": "Math Placement Exam qualifying score or MATH 3B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH3B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -51,8 +61,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH3C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH3C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH4C"
+              }
+            ]
           }
         ]
       }
@@ -69,8 +88,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH10A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
           }
         ]
       }
@@ -87,8 +115,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -105,8 +142,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH10B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20B"
+              }
+            ]
           }
         ]
       }
@@ -132,6 +178,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
               }
             ]
           }
@@ -150,8 +200,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH4C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH4C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              }
+            ]
           }
         ]
       }
@@ -177,6 +236,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH10B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH10C"
               }
             ]
           }
@@ -190,7 +253,17 @@
     "code": "MATH 20C",
     "description": "Vector geometry, vector functions and their derivatives. Partial differentiation. Maxima and minima. Double integration. (Two units of credit given if taken after MATH 10C. Credit not offered for both MATH 20C and 31BH. Formerly numbered MATH 21C.)",
     "raw_prereq": "AP Calculus BC score of 4 or 5, or MATH 20B with a grade of C– or better.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -216,8 +289,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
           }
         ]
       }
@@ -251,8 +333,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH20C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
           }
         ]
       }
@@ -351,7 +442,17 @@
     "code": "MATH 96",
     "description": "Students will develop skills in analytical thinking as they solve and present solutions to challenging mathematical problems in preparation for the William Lowell Putnam Mathematics Competition, a national undergraduate mathematics examination held each year. Students must sit for at least one half of the Putnam exam (given the first Saturday in December) to receive a passing grade. P/NP grades only. May be taken for credit up to four times.",
     "raw_prereq": "AP Calculus AB score of 4 or more, or AP Calculus BC score of 3 or more, or MATH 20A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH20A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -450,6 +551,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -520,8 +625,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH100B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH103B"
+              }
+            ]
           }
         ]
       }
@@ -556,8 +670,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -574,8 +697,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH100B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH103B"
+              }
+            ]
           }
         ]
       }
@@ -607,6 +739,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -644,8 +780,17 @@
             "course_id": "MATH20D"
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH20E"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20E"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
           }
         ]
       }
@@ -683,8 +828,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH109"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              }
+            ]
           }
         ]
       }
@@ -755,6 +909,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH20D"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BILD1"
           }
         ]
       }
@@ -777,6 +935,10 @@
           {
             "type": "COURSE",
             "course_id": "MATH110"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
           }
         ]
       }
@@ -788,7 +950,17 @@
     "code": "MATH 114",
     "description": "Topics include random number generators, variance reduction, Monte Carlo (including Markov Chain Monte Carlo) simulation, and numerical methods for stochastic differential equations. Methods will be illustrated on applications in biology, physics, and finance. May be coscheduled with MATH 214. Recommended preparation: CSE 5A, CSE 8A, CSE 11, or ECE 15. Students should complete a computer programming course before enrolling in MATH 114.",
     "raw_prereq": "MATH 180A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -846,8 +1018,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -859,7 +1040,17 @@
     "code": "MATH 121B",
     "description": "Examine how learning theories can consolidate observations about conceptual development with the individual student as well as the development of knowledge in the history of mathematics. Examine how teaching theories explain the effect of teaching approaches addressed in the previous courses.",
     "raw_prereq": "MATH 121A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH121A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -887,6 +1078,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20D"
           }
         ]
       }
@@ -903,8 +1098,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -957,8 +1161,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -975,8 +1188,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH142A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH142A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140A"
+              }
+            ]
           }
         ]
       }
@@ -993,8 +1215,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH140B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH142B"
+              }
+            ]
           }
         ]
       }
@@ -1011,8 +1242,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH140B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH142B"
+              }
+            ]
           }
         ]
       }
@@ -1029,8 +1269,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH140B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH142B"
+              }
+            ]
           }
         ]
       }
@@ -1069,6 +1318,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
               }
             ]
           }
@@ -1118,6 +1371,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20F"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
               }
             ]
           }
@@ -1163,8 +1420,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -1196,6 +1462,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -1207,7 +1477,17 @@
     "code": "MATH 155B",
     "description": "Spline curves, NURBS, knot insertion, spline interpolation, illumination models, radiosity, and ray tracing.",
     "raw_prereq": "MATH 155A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH155A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1274,6 +1554,10 @@
               {
                 "type": "COURSE",
                 "course_id": "ECE143"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH189"
               }
             ]
           }
@@ -1292,8 +1576,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -1392,6 +1685,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -1447,6 +1744,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
               }
             ]
           }
@@ -1460,7 +1761,17 @@
     "code": "MATH 170B",
     "description": "Rounding and discretization errors. Calculation of roots of polynomials and nonlinear equations. Interpolation. Approximation of functions. Knowledge of programming recommended.",
     "raw_prereq": "MATH 170A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH170A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -1519,6 +1830,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -1579,8 +1894,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
           }
         ]
       }
@@ -1597,8 +1921,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "DSC123A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "DSC123A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH173A"
+              }
+            ]
           }
         ]
       }
@@ -1768,6 +2101,10 @@
                 "course_id": "MATH31CH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH180A"
           }
         ]
       }
@@ -1821,6 +2158,10 @@
                 "course_id": "MATH31AH"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "MATH20C"
           }
         ]
       }
@@ -1898,6 +2239,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH189"
               }
             ]
           }
@@ -1963,6 +2308,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH189"
               }
             ]
           }
@@ -1985,8 +2334,17 @@
             "course_id": "MATH180A"
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
           }
         ]
       }
@@ -2030,8 +2388,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH31CH"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH31CH"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH109"
+              }
+            ]
           }
         ]
       }
@@ -2078,8 +2445,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH20C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH20C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31BH"
+              }
+            ]
           }
         ]
       }
@@ -2123,8 +2499,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH10A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
           }
         ]
       }
@@ -2145,8 +2530,17 @@
             "course_id": "MATH187A"
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH18"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
           }
         ]
       }
@@ -2189,8 +2583,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH100A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH103A"
+              }
+            ]
           }
         ]
       }
@@ -2261,6 +2664,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE125"
               }
             ]
           }
@@ -2288,6 +2695,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH140A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH142A"
               }
             ]
           }
@@ -2301,7 +2712,17 @@
     "code": "MATH 190B",
     "description": "An introduction to the fundamental group: homotopy and path homotopy, homotopy equivalence, basic calculations of fundamental groups, fundamental group of the circle and applications (for instance to retractions and fixed-point theorems), van Kampen’s theorem, covering spaces, universal covers. Examples of all of the above. Instructor may choose further topics such as deck transformations and the Galois correspondence, basic homology, compact surfaces.",
     "raw_prereq": "MATH 190A. Students who have not completed the listed prerequisite may enroll with consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH190A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -2402,6 +2823,10 @@
             "items": [
               {
                 "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "ECON120A"
               },
               {
@@ -2452,34 +2877,7 @@
     "code": "MATH 200A",
     "description": "First course in graduate algebra. Topics may include group actions, Sylow theorems, solvable and nilpotent groups, free groups and presentations, semidirect products, polynomial rings, unique factorization, chain conditions, modules over principal ideal domains, rational and Jordan canonical forms, tensor products, projective and flat modules, Galois theory, solvability by radicals, localization, primary decomposition, Hilbert Nullstellensatz, integral extensions, Dedekind domains, Krull dimension.",
     "raw_prereq": "graduate standing in MA75, MA76, MA77, MA80, MA81. All other students may enroll with consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "MA75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MA76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MA77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MA80"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2492,8 +2890,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH200A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH200A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200A"
+              }
+            ]
           }
         ]
       }
@@ -2510,8 +2917,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH200B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH200B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200B"
+              }
+            ]
           }
         ]
       }
@@ -2528,8 +2944,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH200C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              }
+            ]
           }
         ]
       }
@@ -2590,8 +3015,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH200C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              }
+            ]
           }
         ]
       }
@@ -2608,8 +3042,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH203A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH203A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH203A"
+              }
+            ]
           }
         ]
       }
@@ -2626,8 +3069,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH203B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH203B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH203B"
+              }
+            ]
           }
         ]
       }
@@ -2644,8 +3096,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH200C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              }
+            ]
           }
         ]
       }
@@ -2662,8 +3123,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH204A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH204A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH204A"
+              }
+            ]
           }
         ]
       }
@@ -2680,8 +3150,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH204B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH204B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH204B"
+              }
+            ]
           }
         ]
       }
@@ -2714,8 +3193,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH206A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH206A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH206A"
+              }
+            ]
           }
         ]
       }
@@ -2732,8 +3220,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH200C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200C"
+              }
+            ]
           }
         ]
       }
@@ -2883,6 +3380,10 @@
               },
               {
                 "type": "COURSE",
+                "course_id": "PHB244B"
+              },
+              {
+                "type": "COURSE",
                 "course_id": "FMPH244B"
               },
               {
@@ -2922,8 +3423,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH216A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH216A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH216A"
+              }
+            ]
           }
         ]
       }
@@ -2940,8 +3450,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH216B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH216B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH216B"
+              }
+            ]
           }
         ]
       }
@@ -3005,8 +3524,17 @@
             "course_id": "MATH200A"
           },
           {
-            "type": "COURSE",
-            "course_id": "MATH200A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH220C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH200A"
+              }
+            ]
           },
           {
             "type": "COURSE",
@@ -3027,8 +3555,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH221A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH221A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH221A"
+              }
+            ]
           }
         ]
       }
@@ -3050,6 +3587,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH210B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH240C"
               },
               {
                 "type": "COURSE",
@@ -3076,8 +3617,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH231A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH231A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH231A"
+              }
+            ]
           }
         ]
       }
@@ -3094,8 +3644,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH231B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH231B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH231B"
+              }
+            ]
           }
         ]
       }
@@ -3120,8 +3679,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH237A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH237A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH237A"
+              }
+            ]
           }
         ]
       }
@@ -3133,34 +3701,7 @@
     "code": "MATH 240A",
     "description": "First course in graduate real analysis. Abstract measure and integration theory, integration on product spaces. Lebesgue measure and integral, Lebesgue-Stieltjes integrals, functions of bounded variation, differentiation of measures. Locally compact Hausdorff spaces, Banach and Hilbert spaces, linear functionals. Lebesgue spaces and interpolation, elements of Fourier analysis and distribution theory.",
     "raw_prereq": "graduate standing in MA75, MA76, MA77, MA80, MA81. All other students may enroll with consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "MA75"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MA76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MA77"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MA80"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -3173,8 +3714,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH240A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH240A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH240A"
+              }
+            ]
           }
         ]
       }
@@ -3191,8 +3741,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH240B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH240B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH240B"
+              }
+            ]
           }
         ]
       }
@@ -3209,8 +3768,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH240C"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH240C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH240C"
+              }
+            ]
           }
         ]
       }
@@ -3227,8 +3795,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH241A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH241A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH241A"
+              }
+            ]
           }
         ]
       }
@@ -3332,8 +3909,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH247A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH247A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH247A"
+              }
+            ]
           }
         ]
       }
@@ -3404,8 +3990,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH257A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH257A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH257A"
+              }
+            ]
           }
         ]
       }
@@ -3467,7 +4062,17 @@
     "code": "MATH 261B",
     "description": "Introduction to probabilistic algorithms. Game theoretic techniques. Applications of the probabilistic method to algorithm analysis. Markov Chains and Random walks. Applications to approximation algorithms, distributed algorithms, online and parallel algorithms. MATH 261A must be taken before MATH 261B.",
     "raw_prereq": "MATH 261A.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH261A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3475,7 +4080,17 @@
     "code": "MATH 261C",
     "description": "Advanced topics in the probabilistic combinatorics and probabilistic algorithms. Random graphs. Spectral Methods. Network algorithms and optimization. Statistical learning. MATH 261B must be taken before MATH 261C.",
     "raw_prereq": "MATH 261B.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH261B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -3496,8 +4111,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH262A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH262A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH262A"
+              }
+            ]
           }
         ]
       }
@@ -3855,8 +4479,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH280A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH280A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH280A"
+              }
+            ]
           }
         ]
       }
@@ -3873,8 +4506,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH280B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH280B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH280B"
+              }
+            ]
           }
         ]
       }
@@ -3944,7 +4586,17 @@
     "code": "MATH 284",
     "description": "Survival analysis is an important tool in many areas of applications including biomedicine, economics, engineering. It deals with the analysis of time to events data with censoring. This course discusses the concepts and theories associated with survival data and censoring, comparing survival distributions, proportional hazards regression, nonparametric tests, competing risk models, and frailty models. The emphasis is on semiparametric inference, and material is drawn from recent literature. Students who have not completed listed prerequisites may enroll with consent of instructor.",
     "raw_prereq": "MATH 282A. Students who have not completed listed prerequisite may enroll with consent of instructor.",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MATH282A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -4080,8 +4732,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH289A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH289A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH289A"
+              }
+            ]
           }
         ]
       }
@@ -4132,6 +4793,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH140B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH140C"
               }
             ]
           }
@@ -4158,8 +4823,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH291A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH291A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH291A"
+              }
+            ]
           }
         ]
       }

@@ -126,17 +126,7 @@
     "code": "EDS 102",
     "description": "Introductory course addressing topics in qualitative research method and analytic approaches, including methods such as case studies, video analysis, interviews, observations, and ethnography. Concepts explore the practice and philosophical underpinnings of specified qualitative research approach and examples of qualitative studies. If taken for EDS major, must be taken for a letter grade.",
     "raw_prereq": "ED25 major and upper-division standing.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED25"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -144,17 +134,7 @@
     "code": "EDS 103",
     "description": "Introduction to quantitative fundamentals of statistical inference in education research. Emphasis on applying statistical concepts, selecting appropriate techniques, using techniques, and examining assumptions to interpret analytic results and summarize findings. Hands-on practice will be integral to the course. If taken for EDS major, must be taken for a letter grade.",
     "raw_prereq": "ED25 major and upper-division standing.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED25"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -214,6 +194,10 @@
               {
                 "type": "COURSE",
                 "course_id": "PHYS2D"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PHYS4B"
               }
             ]
           }
@@ -291,26 +275,7 @@
     "code": "EDS 115",
     "description": "This course examines the development of cognition, thinking, and language from infancy to adolescence with implications for education. Topics include learning theories, executive function, memory and language, as well as impacts of technology, poverty, diversity, and bilingualism. Course content focuses on addressing achievement gaps. Students may not receive credit for both EDS 115 and EDS 115GS.",
     "raw_prereq": "upper-division or graduate majors ED 78 or ED 76 standing or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -488,6 +453,10 @@
               {
                 "type": "COURSE",
                 "course_id": "SOCI117"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS125"
               }
             ]
           }
@@ -695,8 +664,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "EDS140"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "EDS140"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS140"
+              }
+            ]
           }
         ]
       }
@@ -862,17 +840,7 @@
     "code": "EDS 342A",
     "description": "Students will examine the history, current theory, philosophy, legislation, and trends in deaf education. Methods of first- and second-language development, communication, and literacy skills for deaf and hard-of-hearing children will be introduced.",
     "raw_prereq": "must be an ED76 major. (F)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -893,13 +861,17 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "ED76"
+                "course_id": "EDS361A"
               },
               {
                 "type": "COURSE",
                 "course_id": "EDS361B"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "EDS369A"
           }
         ]
       }
@@ -928,7 +900,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "ED76"
+                "course_id": "EDS361A"
               }
             ]
           }
@@ -942,17 +914,7 @@
     "code": "EDS 349",
     "description": "Education specialist credential candidate performs student teaching in participating schools for a minimum of seven weeks full-time under the supervision of a cooperating teacher and university supervisor. The field experience provides professional preparation and diversified teaching responsibilities for postbaccalaureate students pursuing the California Deaf and Hard of Hearing Specialist and BCLAD Credential.",
     "raw_prereq": "must be an ED76 major, Teaching and Bilingual Education (ASL-English)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -960,26 +922,7 @@
     "code": "EDS 351",
     "description": "Students will examine the principles of second language acquisition and approaches to bilingual education. They will develop a repertoire of strategies for teaching in elementary or secondary content areas.",
     "raw_prereq": "ED76 or ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship. (F)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -987,17 +930,7 @@
     "code": "EDS 352A",
     "description": "First course in a three-course sequence. Provides a theoretical and practical grounding in various pedagogical techniques for teaching in bilingual settings. Course covers principles of bilingualism and bilingual pedagogy; transfer between primary and target languages as appropriate to the language(s) of emphasis. Candidates study methods for teaching primary and target languages in a variety of program models; curriculum/assessment practices; and approaches for interacting with families/communities.",
     "raw_prereq": "ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship. Department approval for all other students required.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -1011,7 +944,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "ED78"
+            "course_id": "EDS352A"
           }
         ]
       }
@@ -1029,7 +962,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "ED78"
+            "course_id": "EDS352B"
           }
         ]
       }
@@ -1095,17 +1028,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EDS355B"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED85"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS355B"
           }
         ]
       }
@@ -1117,17 +1041,7 @@
     "code": "EDS 359",
     "description": "The education specialist credential candidate performs clinical practice (fieldwork and student/intern teaching) in participating schools for a minimum of 120 hours over the course of the quarter under the supervision of a school district guide teacher and a university supervisor. The clinical practice experience offers professional preparation for MEd/Multiple Subject credential candidates pursuing the California Preliminary Education Specialist Teaching Credential.",
     "raw_prereq": "must be an ED78 major: Affirmed Education Specialist Credential candidate at UC San Diego who has advanced to student teaching or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1135,21 +1049,7 @@
     "code": "EDS 361A",
     "description": "First course in a three-course sequence. It provides pedagogical methods for multiple-subject teaching. Diverse subject areas (math, science, fine arts, P.E., and social studies) are integrated into a single intercurricular course of study by emphasizing activity/inquiry techniques of instruction.",
     "raw_prereq": "must be an ED76 major: Teaching and Learning Bilingual Education (ASL-English) or ED78 major only for Elementary Multiple Subject candidate who has advanced to student teaching. (F)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED76"
-          },
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -1162,21 +1062,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EDS361A"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "ED78"
+            "course_id": "EDS361A"
           }
         ]
       }
@@ -1193,21 +1080,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "EDS361B"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              }
-            ]
-          },
-          {
             "type": "COURSE",
-            "course_id": "ED78"
+            "course_id": "EDS361B"
           }
         ]
       }
@@ -1219,17 +1093,7 @@
     "code": "EDS 368",
     "description": "This course is designed to provide multiple subject credential candidates with support and mentorship to ensure successful completion of all California Multiple Subject Teaching Credential requirements. May be taken for credit up to three times.",
     "raw_prereq": "ED78 majors for Elementary Multiple Subjects only.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -1242,21 +1106,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EDS370A"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS370A"
           }
         ]
       }
@@ -1278,10 +1129,6 @@
               {
                 "type": "COURSE",
                 "course_id": "EDS369A"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
               },
               {
                 "type": "COURSE",
@@ -1312,10 +1159,6 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
                 "course_id": "EDS370C"
               }
             ]
@@ -1335,21 +1178,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EDS369A"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS369A"
           }
         ]
       }
@@ -1366,21 +1196,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EDS369B"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS369B"
           }
         ]
       }
@@ -1397,21 +1214,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED76"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EDS369C"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS369C"
           }
         ]
       }
@@ -1423,17 +1227,7 @@
     "code": "EDS 371",
     "description": "Introduces prospective secondary teachers to principles and strategies of teaching history-social science by applying social science theory to classroom practice. Requires instructors to demonstrate the ability to teach state-adopted content standards in history-social science while enabling students to learn and use analytic thinking skills aligned with the California state standards.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1449,17 +1243,7 @@
     "code": "EDS 373",
     "description": "The course introduces prospective secondary teachers to principles and strategies of teaching English language arts. Topics include writing processes, reading processes, integrated language arts, assessment, the second language learner, the classroom community, the California English Language Arts Framework.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1467,17 +1251,7 @@
     "code": "EDS 374",
     "description": "Mathematics teaching techniques, including curriculum design, California Model Curriculum Standards, instructional methods, computer applications, selection and use of textbooks, student assessment, lesson planning, and classroom organization. Professional matters including curriculum planning, professional organizations, para-professionals, professional ethics, education law, and parent involvement are addressed.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1485,17 +1259,7 @@
     "code": "EDS 375",
     "description": "Science teaching techniques, including science curriculum design, California Model Curriculum Standards, instructional methods, computer applications, selection and use of textbooks, student assessment, lesson planning, and classroom organization. Professional matters including curriculum planning, professional organizations, paraprofessionals, professional ethics, education law, and parent involvement are addressed.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1503,17 +1267,7 @@
     "code": "EDS 376",
     "description": "This course satisfies the California Commission on Teacher Credentialing requirement for preparation in reading theory and methods for all credential candidates. Theories of reading development, integration of the language arts, reading and writing in the content areas, teaching methods, and literature.",
     "raw_prereq": "ED78 Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1521,17 +1275,7 @@
     "code": "EDS 378",
     "description": "This course is designed to provide secondary credential candidates with content-specific support and mentorship to ensure successful completion of all California Single Subject Teaching Credential requirements. May be taken for credit up to three times.",
     "raw_prereq": "ED78 majors for Single Subjects only.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -1544,17 +1288,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EDS380A"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS380A"
           }
         ]
       }
@@ -1575,7 +1310,7 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "ED78"
+                "course_id": "EDS379A"
               },
               {
                 "type": "COURSE",
@@ -1602,7 +1337,7 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "ED78"
+                "course_id": "EDS379B"
               },
               {
                 "type": "COURSE",
@@ -1625,17 +1360,8 @@
         "type": "AND",
         "items": [
           {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "EDS379A"
-              }
-            ]
+            "type": "COURSE",
+            "course_id": "EDS379A"
           }
         ]
       }
@@ -1656,7 +1382,7 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "ED78"
+                "course_id": "EDS380A"
               },
               {
                 "type": "COURSE",
@@ -1683,7 +1409,11 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "ED78"
+                "course_id": "EDS380A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "EDS380B"
               },
               {
                 "type": "COURSE",
@@ -1701,17 +1431,7 @@
     "code": "EDS 381",
     "description": "This course satisfies the Commission on Teacher Credentialing requirement for Health Education. Topics include physical education, substance abuse, sex education, cardio-pulmonary resuscitation, nutrition, and first aid.",
     "raw_prereq": "ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1719,26 +1439,7 @@
     "code": "EDS 382",
     "description": "This course satisfies the Commission on Teacher Credentialing requirements for Special Education. Topics include teaching methods for accommodating special-needs students in the regular classroom, developing an Individual Education Plan, characteristics of special-needs students, lesson planning to accommodate individual differences, and legislated mandates.",
     "raw_prereq": "ED78 or ED81 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship and department approval required.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED78"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ED81"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1746,17 +1447,7 @@
     "code": "EDS 384",
     "description": "Students will investigate advanced topics of formal and informal assessment techniques used for deaf and hard of hearing children, bilingual and multicultural education practices across the curriculum, effective learning environments, and approaches for educating and interacting with families and communities.",
     "raw_prereq": "must be an ED78 major: Affirmed Education Specialist Credential candidate at UC San Diego who has advanced to student teaching or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1764,17 +1455,7 @@
     "code": "EDS 385",
     "description": "Examines the underlying mathematical concepts of the elementary school mathematics curriculum and related pedagogical implications for teaching. Topics include number concepts, algebraic thinking, geometry, and data collection and analysis.",
     "raw_prereq": "students must be ED78 majors: MEd/Elementary-Multiple Subject Credential candidates who have advanced to student teaching or internship. (MS-2).",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED78"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1856,17 +1537,7 @@
     "code": "EDS 229",
     "description": "This course prepares K–12 teacher-researchers to design, implement, and evaluate classroom research. Students learn how to access and evaluate research studies, curricular materials, and instructional approaches both online and in print.",
     "raw_prereq": "students must be registered ED75 majors.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED75"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1874,17 +1545,7 @@
     "code": "EDS 230A-B-C",
     "description": "A yearlong course sequence, which provides an extensive overview of curriculum, design principles appropriate for K–12 instruction. Consensus and model building methods will be discussed using case studies of curriculum research and development projects appropriate for various subject areas and grade levels. Participants will design, implement, and evaluate a curriculum project in their own classrooms.",
     "raw_prereq": "must be ED75 major or consent of instructor. (F,W,S)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED75"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1892,17 +1553,7 @@
     "code": "EDS 231",
     "description": "Selected advanced topics in K–12 instructional practices in various subject areas. Techniques for teaching higher-level cognitive processes and advanced applications of computers and other technology will be stressed. Participants will conduct a field study of promising teaching practices appropriate to their grade level(s) and subject area(s) of instruction.",
     "raw_prereq": "must be ED75 major or consent of instructor. (Su)",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED75"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1910,17 +1561,7 @@
     "code": "EDS 232",
     "description": "This course explores topical issues in education. It focuses on recent developments that have broad implications for research and practice in teaching and learning. Course topics will vary each time the course is offered.",
     "raw_prereq": "ED75 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED75"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1928,17 +1569,7 @@
     "code": "EDS 233A",
     "description": "Current topics and issues in education and educational research methodology, including action research, participant observation, ethnography, and survey research. This is the first in a two-course series.",
     "raw_prereq": "ED79 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED79"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1946,17 +1577,7 @@
     "code": "EDS 233B",
     "description": "Current topics and issues in education and educational research methodology, including action research, participant observation, ethnography, and survey research. This is the second in a two-course series.",
     "raw_prereq": "EDS 233A: ED79 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED79"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1964,17 +1585,7 @@
     "code": "EDS 240A",
     "description": "A three-course sequence in which participants conduct an overview of research and design and conduct a study related to bilingual, bicultural education for deaf children.",
     "raw_prereq": "ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -1989,10 +1600,6 @@
           {
             "type": "COURSE",
             "course_id": "EDS240A"
-          },
-          {
-            "type": "COURSE",
-            "course_id": "ED76"
           }
         ]
       }
@@ -2004,17 +1611,7 @@
     "code": "EDS 240C",
     "description": "A three-course sequence in which participants conduct an overview of research and design and conduct a study related to bilingual, bicultural education for deaf children.",
     "raw_prereq": "EDS 240A/EDS 240B, and ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED76"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2054,17 +1651,7 @@
     "code": "EDS 251",
     "description": "This course explores formal and informal learning environments with documented records of successful student engagement. Using an array of curriculum and learning theories, students investigate new and traditional pedagogical practices, curricula, and learning environments for elements of transformative practices. Students critique current literature on teaching for change as it applies to the contexts they chose to study and identify new possibilities for teaching and learning in diverse student contexts. Letter grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2072,17 +1659,7 @@
     "code": "EDS 252",
     "description": "The course focuses on factors that shape the unequal distribution of educational opportunities for marginalized groups. Students will interrogate societal and school structures and underlying sociocultural processes that impact engagement and outcomes for marginalized groups or students. Students will explore theories on student success and failure, family and community connections, and identity formation in relation to transforming outcomes. Letter grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2090,17 +1667,7 @@
     "code": "EDS 253",
     "description": "This course exposes students to past and present systemic policies that influence the practices and efficiency of the P–20 system. Students will explore the barriers and facilitators of successful policy interventions at the local, state, and federal levels of education policy. Attention is given to each segment of the educational continuum, exposing students to strategies for transforming the educational system to ensure equitable opportunities to learn and achieve.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2108,26 +1675,7 @@
     "code": "EDS 254",
     "description": "Introduction to quantitative concepts, descriptive statistics, and fundamentals of statistical inference in social science. Emphasis on applying statistical concepts—how to select the appropriate statistical techniques, execute those techniques, examine assumptions necessary for the techniques to work appropriately, interpret analytic results, and summarize findings in a professional manner. Hands-on computer-based practice of quantitative analyses will be an integral part of the course. Letter grades only.",
     "raw_prereq": "doctoral students in education ED82 or MSED major ME75 or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "ED82"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "ME75"
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2141,7 +1689,7 @@
         "items": [
           {
             "type": "COURSE",
-            "course_id": "ME75"
+            "course_id": "EDS254"
           }
         ]
       }
@@ -2163,7 +1711,7 @@
           },
           {
             "type": "COURSE",
-            "course_id": "ED82"
+            "course_id": "EDS264"
           }
         ]
       }
@@ -2175,21 +1723,7 @@
     "code": "EDS 257",
     "description": "This course will guide doctoral students in conducting rigorous case study research in the social sciences and the field of education. The course will address case study design, data collection, data analysis, and reporting. This will be accomplished through training on these stages of case study research. It will also provide hands-on experience designing case studies and analyzing case study data. The course will equip students with all the necessary tools to conduct independent case studies. Letter grades only.",
     "raw_prereq": "ED82 and ED79 majors, or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          },
-          {
-            "type": "COURSE",
-            "course_id": "ED79"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2197,17 +1731,7 @@
     "code": "EDS 259",
     "description": "Universities are exploring new ways to convey the relevance of research directly to interested stakeholders beyond the academy. In this course, students will learn and practice a variety of strategies and tools for communicating their scholarship to a range of audiences, actively participate in discussion of education equity and access, and coconstruct meaningful partnerships with education stakeholders. S/U grades only. May be taken for credit two times.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2215,17 +1739,7 @@
     "code": "EDS 259A",
     "description": "This course will support students in learning how to write a systematic literature review and other foundational elements for developing research proposals and publishable articles. S/U grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2233,17 +1747,7 @@
     "code": "EDS 259B",
     "description": "This course will support advanced PhD students in learning how to communicate research findings in various formats for different audiences including researchers, practitioners, policymakers, and the broader public. S/U grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2391,17 +1895,7 @@
     "code": "EDS 264",
     "description": "This course provides an introduction to qualitative approaches in education research. Students explore various qualitative methods and analytic strategies and gain hands-on experiences analyzing qualitative data collected on topics relevant to the study of education. The assigned readings include scholarship on the philosophical underpinnings and practice of qualitative research and varied examples of published qualitative research studies.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2409,17 +1903,7 @@
     "code": "EDS 265",
     "description": "This course series addresses special topics in education research and data analysis. Students explore a faculty-specified qualitative research method and analytic approach. Approaches may include case studies, video analysis, mixed methods, naturalistic observations, ethnography, and netnography. The assigned readings include scholarship on the practice and philosophical underpinnings of the specified qualitative research approach and examples of published qualitative studies.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2427,17 +1911,7 @@
     "code": "EDS 266",
     "description": "This course series addresses special topics in quantitative education research and data analysis. Students explore a faculty-specified quantitative research method and analytic approach. Approaches may include social network analysis, hierarchical linear modeling, latent class analysis, and structural equation modeling. The readings include scholarship on the practice and philosophical underpinnings of the specified quantitative research approach and examples of published quantitative studies. Letter grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": false
   },
   {
@@ -2470,7 +1944,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "ED82"
+                "course_id": "EDS253"
               }
             ]
           }
@@ -2821,17 +2295,7 @@
     "code": "EDS 296",
     "description": "The RAC will provide a structured environment for mentoring that is designed around the current academic needs of each student. The RAC also provides support for the analysis and write-up of dissertation research. S/U grades only. May be repeated for credit up to eighteen times for a maximum of 120 units.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED82"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {
@@ -2855,17 +2319,7 @@
     "code": "EDS 299",
     "description": "Directed research on dissertation topic for students who have been admitted to candidacy for the EdD or PhD program. May be taken for credit up to four times for a maximum of forty-eight units.",
     "raw_prereq": "admission into the EdD or PhD program (major codes ED81 and ED82) and consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "ED81"
-          }
-        ]
-      }
-    ],
+    "prerequisites": [],
     "offered_this_qtr": true
   },
   {

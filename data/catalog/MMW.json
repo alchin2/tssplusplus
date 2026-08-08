@@ -41,8 +41,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MMW12"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
           }
         ]
       }
@@ -59,8 +68,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MMW12"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW12"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW12R"
+              }
+            ]
           }
         ]
       }
@@ -90,8 +108,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MMW13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13R"
+              }
+            ]
           }
         ]
       }
@@ -121,8 +148,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MMW13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13R"
+              }
+            ]
           }
         ]
       }
@@ -152,8 +188,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MMW13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13R"
+              }
+            ]
           }
         ]
       }
@@ -183,8 +228,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MMW13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13R"
+              }
+            ]
           }
         ]
       }
@@ -214,8 +268,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MMW13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13R"
+              }
+            ]
           }
         ]
       }
@@ -245,8 +308,17 @@
             ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MMW13"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW13"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW13R"
+              }
+            ]
           }
         ]
       }

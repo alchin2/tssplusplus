@@ -41,8 +41,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MATH10A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              }
+            ]
           }
         ]
       }

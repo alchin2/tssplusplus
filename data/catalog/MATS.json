@@ -26,6 +26,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE271A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO265"
               }
             ]
           }
@@ -44,8 +48,17 @@
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "ECE238B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "ECE238B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE271B"
+              }
+            ]
           }
         ]
       }
@@ -57,7 +70,17 @@
     "code": "MATS 201C",
     "description": "Classification of phase transformations: displacive and reconstructive transformations: classical and nonclassical theories of nucleation: Becker-Doering, Volmer-Weber, lattice instabilities, spinodal decomposition. Growth theories: interface migration, stress effects, terrace-ledge mechanisms, epitaxial growth, kinetics, and mechanics. Precipitation. Order-disorder transformations. Solidification. Amorphization.",
     "raw_prereq": "consent of instructor. (Cross-listed with MAE 271C.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE271C"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -81,7 +104,17 @@
     "code": "MATS 205A",
     "description": "Point, line, and planar defects in crystalline solids, including vacancies, self-interstitials, solute atoms, dislocations, stacking faults, and grain boundaries; effects of imperfections on mechanical properties; interactions of dislocations with point defects; strain hardening by micro-obstacles, precipitation, and alloying elements.",
     "raw_prereq": "consent of instructor. (Cross-listed with MAE 272.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE272"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -89,7 +122,17 @@
     "code": "MATS 213A",
     "description": "Elastic waves in continuum; longitudinal and shear waves. Surface waves. Plastic waves; shock waves; Rankine-Hugoniot relations. Method of characteristics, differential and difference form of conservation equations; dynamic plasticity and dynamic fracture. Shock wave reflection and interaction.",
     "raw_prereq": "consent of instructor. (Cross-listed with MAE 273A.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE273A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -111,6 +154,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE251"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO227"
               }
             ]
           }
@@ -124,7 +171,17 @@
     "code": "MATS 231",
     "description": "Main focus is the large deformations and instabilities in soft materials, such as elastomers, gels, and biomaterials. Some contents in thermodynamics and finite deformation theory are reviewed and summarized. Fundamental theories are applied to study the mechanics of gels, electroactive polymers, and biomaterials. This course intends to use soft material as an example to illustrate how to study the interaction between mechanics and other fields in materials (e.g., electric field, chemical field).",
     "raw_prereq": "graduate standing. (Cross-listed with MAE 276.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE276"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -132,7 +189,17 @@
     "code": "MATS 236",
     "description": "Topics include phase equilibria and crystallography, defects and thermodynamics (Kröger-Vink Notation), glass science, electrical and ionic transport behavior, Brouwer diagrams, powder synthesis and compaction, sintering theory and gain growth, mechanical, optical, magnetic, electrical properties, fuel cells.",
     "raw_prereq": "graduate standing or consent of instructor. (Cross-listed with MAE 253.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE253"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -140,7 +207,17 @@
     "code": "MATS 251A",
     "description": "The electronic and optical properties of metals, semiconductors, and insulators. The concept of the band structure. Electronic and lattice conductivity. Type I and Type II superconductivity. Optical engineering using photonic band gap crystals in one-, two-, and three-dimensions. Current research frontiers.",
     "raw_prereq": "consent of the instructor. (Cross-listed with MAE 265A.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE265A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": true
   },
   {
@@ -162,6 +239,10 @@
               {
                 "type": "COURSE",
                 "course_id": "MAE265B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "NANO251A"
               }
             ]
           }
@@ -175,7 +256,17 @@
     "code": "MATS 252",
     "description": "This class will cover biomaterials and biomimetic materials. Metal, ceramic, and polymer biomaterials will be discussed. Emphasis will be on the structure-property relationships, biocompatibility/degradation issues and tissue/material interactions. Synthesis and mechanical testing of biomimetic materials will also be discussed.",
     "raw_prereq": "consent of instructor. (Cross-listed with MAE 266.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE266"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -183,7 +274,17 @@
     "code": "MATS 253",
     "description": "This course discusses synthesis techniques, processing, microstructural control, and unique physical properties of materials in nanodimensions. Topics include nanowires, quantum dots, thin films, electrical transport, electron emission properties, optical behavior, mechanical behavior, and technical applications of nanomaterials.",
     "raw_prereq": "consent of instructor. (Cross-listed with MAE 267.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE267"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -191,7 +292,17 @@
     "code": "MATS 254",
     "description": "Fabrication of Micro-Electro-Mechanical Systems (MEMS) by bulk and surface micromachining of single crystal, polycrystal, and amorphous silicon and other materials. Performance issues including electrostatic, magnetic, piezoelectric actuations, residual stresses, deformation. Novel device applications, future trends in smart materials and nano-electro-mechanical (NEMS) systems.",
     "raw_prereq": "consent of instructor. (Cross-listed with MAE 268.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE268"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -207,7 +318,17 @@
     "code": "MATS 256",
     "description": "This class will cover the fundamentals/engineering aspects of various energy materials based on metallic, ceramic, semiconductor; and chemical structures and their applications related to solar cells, fuel cells, batteries, fusion energy, and hydrogen storage will be discussed.",
     "raw_prereq": "graduate standing or consent of instructor. (Cross-listed with MAE 254.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "MAE254"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -229,6 +350,10 @@
               {
                 "type": "COURSE",
                 "course_id": "NANO257"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE257"
               }
             ]
           }
@@ -242,7 +367,17 @@
     "code": "MATS 261A",
     "description": "Introduction to processing and fabrication methods of polymers and composite materials. Processing techniques; facilities and equipment, material-processing-microstructure interaction, materials selection, form and quality control. Extrusion, injection molding, blow molding, compression molding, thermoforming, casting, foaming. Wet layup; sprayup; autoclave cure, SMC; RTM; resin infusion; winding and fiber placement; pultrusion. Process induced defects and environmental considerations.",
     "raw_prereq": "graduate standing. (Cross-listed with SE 251A.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE251A"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
@@ -250,7 +385,17 @@
     "code": "MATS 261B",
     "description": "Material-science oriented course on polymers and composites. Mechanical properties of polymers; micromechanisms of elastic and plastic deformations, fracture, and fatigue of polymers and composites.",
     "raw_prereq": "graduate standing. (Cross-listed with SE 251B.)",
-    "prerequisites": [],
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SE251B"
+          }
+        ]
+      }
+    ],
     "offered_this_qtr": false
   },
   {
