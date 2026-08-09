@@ -6,8 +6,6 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
   course: CourseDetail; plannedItems: PlannedItem[]; onAdd: (c: CourseDetail, s: Section) => void;
 }) {
   const alreadyPlanned = plannedItems.some(i => i.course.id === course.id);
-  const totalSeats = course.sections.reduce((s, sec) => s + (sec.capacity ?? 0), 0);
-  const totalEnrolled = course.sections.reduce((s, sec) => s + (sec.enrolled ?? 0), 0);
 
   return (
     <div>
@@ -22,14 +20,11 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
             <th className="border border-[#c0c0c0] px-2 py-1 text-left font-bold">Sec</th>
             <th className="border border-[#c0c0c0] px-2 py-1 text-left font-bold">Instructor</th>
             <th className="border border-[#c0c0c0] px-2 py-1 text-left font-bold">Meeting</th>
-            <th className="border border-[#c0c0c0] px-2 py-1 text-center font-bold">Avail/Enrl/Lim</th>
-            <th className="border border-[#c0c0c0] px-1 py-1 text-center font-bold">WL</th>
             <th className="border border-[#c0c0c0] px-1 py-1"></th>
           </tr>
         </thead>
         <tbody>
           {course.sections.map((sec, si) => {
-            const avail = sec.capacity !== null && sec.enrolled !== null ? sec.capacity - sec.enrolled : null;
             const conflict = !alreadyPlanned && conflictsWith(sec, plannedItems);
             const bg = si % 2 === 0 ? "#ffffff" : "#f5f5fb";
             return (
@@ -45,14 +40,6 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
                         : <span className="text-gray-400">TBA</span>}
                     </div>
                   ))}
-                </td>
-                <td className="border border-[#c0c0c0] px-2 py-1 text-center font-mono text-[11px] whitespace-nowrap">
-                  {avail !== null
-                    ? <><span style={{ color: avail > 0 ? "#006666" : "#cc0000" }}>{avail}</span>/{sec.enrolled}/{sec.capacity}</>
-                    : <span className="text-gray-400">—</span>}
-                </td>
-                <td className="border border-[#c0c0c0] px-1 py-1 text-center font-mono text-[11px]">
-                  {sec.waitlist ? <span style={{ color: "#cc6600" }}>{sec.waitlist}</span> : "—"}
                 </td>
                 <td className="border border-[#c0c0c0] px-1 py-1 text-center">
                   {alreadyPlanned
@@ -72,10 +59,6 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
           })}
         </tbody>
       </table>
-      <div className="mt-1.5 text-[0.769rem] text-gray-500 flex gap-3">
-        <span>Total: <strong>{totalEnrolled}</strong>/{totalSeats}</span>
-        <span style={{ color: "#006666" }}>Available: <strong>{totalSeats - totalEnrolled}</strong></span>
-      </div>
     </div>
   );
 }
