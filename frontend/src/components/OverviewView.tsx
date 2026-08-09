@@ -17,9 +17,6 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
 
   const totalHrs   = items.reduce((s, { section }) =>
     s + section.meetings.reduce((ms, m) => ms + (m.end - m.start) * m.days.length, 0), 0);
-  const withSeats  = items.filter(({ section: sec }) => sec.enrolled !== null && sec.capacity !== null && sec.capacity > 0);
-  const avgFill    = withSeats.length === 0 ? null : Math.round(
-    withSeats.reduce((s, { section: sec }) => s + sec.enrolled! / sec.capacity!, 0) / withSeats.length * 100);
   const buildings  = new Set(items.flatMap(({ section }) =>
     section.meetings.map(m => m.room.split(" ")[0]))).size;
   const finals     = items.map(({ course, section }) => ({ course, section, fi: computeFinal(section) }))
@@ -37,7 +34,6 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
         {[
           { v: items.length,                            l: "Courses"      },
           { v: `${totalHrs.toFixed(1)}h`,               l: "Class Hrs/Wk" },
-          { v: avgFill === null ? "—" : `${avgFill}%`,  l: "Avg Fill Rate" },
           { v: buildings,                               l: "Buildings"    },
         ].map(({ v, l }) => (
           <div key={l} className="border-l border-white/25 px-6">
@@ -50,7 +46,6 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
       {/* ── course cards ── */}
       <div className="p-5 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(440px, 1fr))" }}>
         {items.map(({ course, section }) => {
-          const fill = section.enrolled !== null && section.capacity ? section.enrolled / section.capacity : null;
           const fi   = computeFinal(section);
           const lec  = section.meetings.find(m => m.type === "LE");
 
@@ -89,37 +84,6 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                     <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-0.5">Section</div>
                     <div className="text-xs font-bold" style={{ color: "#6261c0" }}>§ {section.id}</div>
                   </div>
-                </div>
-              </div>
-
-              {/* enrollment row */}
-              <div className="flex items-stretch">
-                <div style={{ width: 5, backgroundColor: course.color, flexShrink: 0 }} />
-                <div className="flex-1 px-4 py-2.5 border-b border-[#e8e8f4]">
-                  <div className="text-[9px] font-bold uppercase tracking-wide text-gray-400 mb-1.5">Enrollment</div>
-                  {fill === null ? (
-                    <span className="text-[11px] text-gray-400 italic">No seat data</span>
-                  ) : (
-                    <div className="flex items-center gap-3">
-                      <div className="flex-1 h-2.5 rounded-full overflow-hidden" style={{ backgroundColor: "#e8e8f0" }}>
-                        <div className="h-full rounded-full transition-all" style={{
-                          width: `${fill * 100}%`,
-                          backgroundColor: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a",
-                        }} />
-                      </div>
-                      <span className="text-xs font-bold text-gray-700 whitespace-nowrap">
-                        {section.enrolled} / {section.capacity}
-                      </span>
-                      <span className="text-[10px] font-bold whitespace-nowrap" style={{ color: fill >= 1 ? "#dc2626" : fill > 0.8 ? "#d97706" : "#16a34a" }}>
-                        {Math.round(fill * 100)}%
-                      </span>
-                      {(section.waitlist ?? 0) > 0 && (
-                        <span className="text-[10px] px-1.5 py-0.5 rounded font-bold" style={{ backgroundColor: "#fef3c7", color: "#b45309" }}>
-                          WL: {section.waitlist}
-                        </span>
-                      )}
-                    </div>
-                  )}
                 </div>
               </div>
 
