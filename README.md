@@ -18,7 +18,7 @@ missing crucial features, and constant down time.
 
 TSS++ offers a friendlier way to browse the schedule of
 classes and build your schedule without TritonGPT. It pairs the public course
-catalog with live section/seat data, renders full transitive prerequisite trees, and
+catalog with  quarterly data, renders full transitive prerequisite trees, and
 lets you plan a schedules you can export to any calendar app.
 
 ## Features
@@ -26,13 +26,12 @@ lets you plan a schedules you can export to any calendar app.
 - **Course search** — filter by department and "offered this quarter", full-text query,
   served from the backend.
 - **Course detail** — sections, meeting times, instructors, and live seat/waitlist counts.
-- **Prerequisites** — raw catalog prerequisite text per course; the full transitive
-  graph (ported from [ClassGraph](https://github.com/nehalc200/classgraph)) is built and
-  cached in MongoDB by the backend, not yet rendered in the UI.
-- **Schedule planner** — a FullCalendar based weekly view with automatic conflict
-  detection; state lives in your browser (`localStorage`).
+- **Prerequisites** — an interactive, zoomable prerequisite graph in the course detail
+  panel, rendering the full transitive tree
+- **Schedule planner** — a FullCalendar based weekly view spanning the full week
+  with automatic conflict detection; state lives in your browser (`localStorage`).
 - **Overview** — Stats for your planned quarter: units, weekly hours, average
-  section fill, and a computed finals schedule.
+  section fill, and a finals schedule computed for the current term.
 - **Campus map** — a Leaflet map pinning every planned course's building, with real
   walking routes between back-to-back meetings (proxied through OpenRouteService).
 - **ICS export** — export your planned schedule to a standard `.ics` file, anchored to
@@ -131,6 +130,14 @@ cd backend && uvicorn app.main:app --reload   # docs at http://localhost:8000/do
 cd frontend && npm install && npm run dev      # http://localhost:5173
 ```
 
+### Tests
+
+The Python pipeline is covered by [pytest](https://pytest.org) suites under each
+component's `tests/` directory (catalog scraper, TSS scraper, and helpers):
+
+```sh
+pytest scrapers
+```
 
 ## API
 
