@@ -4,10 +4,10 @@ import { currentTermDates } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
 
 const TZID = "America/Los_Angeles";
-const BYDAY: Record<DayCode, string> = { M: "MO", Tu: "TU", W: "WE", Th: "TH", F: "FR" };
+const BYDAY: Record<DayCode, string> = { M: "MO", Tu: "TU", W: "WE", Th: "TH", F: "FR", Sa: "SA", Su: "SU" };
 // Date#getUTCDay() convention: Sun=0 ... Sat=6.
-const WEEKDAY: Record<DayCode, number> = { M: 1, Tu: 2, W: 3, Th: 4, F: 5 };
-const DAY_ORDER: DayCode[] = ["M", "Tu", "W", "Th", "F"];
+const WEEKDAY: Record<DayCode, number> = { M: 1, Tu: 2, W: 3, Th: 4, F: 5, Sa: 6, Su: 0 };
+const DAY_ORDER: DayCode[] = ["M", "Tu", "W", "Th", "F", "Sa", "Su"];
 // Weeks of recurrence per meeting when the term's real dates aren't known
 // (see academicCalendar.ts) — a standard 10-week quarter.
 const WEEKS = 10;

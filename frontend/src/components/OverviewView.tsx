@@ -1,6 +1,6 @@
 import { BookOpen, LayoutGrid } from "lucide-react";
 import { termLabel, useMeta } from "../hooks/useMeta";
-import { computeFinal, fmt } from "../lib/schedule";
+import { computeFinal, finalDateLabel, finalsRangeLabel, fmt } from "../lib/schedule";
 import type { PlannedItem } from "../types";
 
 export function OverviewView({ items }: { items: PlannedItem[] }) {
@@ -150,7 +150,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                   <div className="text-[0.692rem] font-bold uppercase tracking-wide text-gray-400 mb-1">Final Exam</div>
                   {fi ? (
                     <div className="flex items-center gap-3 flex-wrap">
-                      <span className="text-[0.769rem] font-bold px-2 py-0.5 rounded" style={{ backgroundColor: "#6261c0", color: "#fff" }}>{fi.dateLabel}</span>
+                      <span className="text-[0.769rem] font-bold px-2 py-0.5 rounded" style={{ backgroundColor: "#6261c0", color: "#fff" }}>{finalDateLabel(fi.colIdx)}</span>
                       <span className="text-xs text-gray-700 font-bold">{fmt(fi.startH)} – {fmt(fi.endH)}</span>
                       <span className="text-[0.846rem] text-gray-500 font-mono">{lec?.room ?? "TBD"}</span>
                     </div>
@@ -170,7 +170,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
           <div className="border border-[#d4d4e4] bg-white overflow-hidden" style={{ borderRadius: 3 }}>
             <div className="px-4 py-2.5 border-b border-[#d4d4e4] flex items-center gap-2" style={{ backgroundColor: "#6261c0" }}>
               <BookOpen className="w-3.5 h-3.5 text-white" />
-              <span className="font-bold text-white text-xs">Finals Week Summary — Jun 9–14, 2025</span>
+              <span className="font-bold text-white text-xs">Finals Week Summary — {finalsRangeLabel()}</span>
             </div>
             <table className="w-full text-xs border-collapse">
               <thead>
@@ -193,7 +193,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                       </td>
                       <td className="px-4 py-2.5 font-bold" style={{ color: "#6261c0" }}>§ {section.id}</td>
                       <td className="px-4 py-2.5 text-gray-600">{section.instructor}</td>
-                      <td className="px-4 py-2.5 font-bold text-gray-700">{fi!.dateLabel}</td>
+                      <td className="px-4 py-2.5 font-bold text-gray-700">{finalDateLabel(fi!.colIdx)}</td>
                       <td className="px-4 py-2.5 text-gray-600">{fmt(fi!.startH)} – {fmt(fi!.endH)}</td>
                       <td className="px-4 py-2.5 text-gray-500 font-mono text-[0.769rem]">{lec?.room ?? "TBD"}</td>
                     </tr>

@@ -241,8 +241,7 @@ export function parseSched(sched: string | null): ParsedSched {
 
   const daysStr = firstLine.slice(0, timeMatch.index).replace(/[,\s]/g, "");
   const dayTokens: string[] = daysStr.match(DAY_TOKEN_RE) ?? [];
-  // Sa/Su drop out here -- the planner grid and DayCode are Mon-Fri only.
-  const days = dayTokens.filter((d): d is DayCode => ["M", "Tu", "W", "Th", "F"].includes(d));
+  const days = dayTokens.filter((d): d is DayCode => ["M", "Tu", "W", "Th", "F", "Sa", "Su"].includes(d));
 
   return {
     days,

@@ -4,7 +4,7 @@ import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import type { EventClickArg, EventContentArg } from "@fullcalendar/core";
 import { toast } from "sonner";
-import { fmt } from "../lib/schedule";
+import { finalsRangeLabel, fmt } from "../lib/schedule";
 import { downloadICS } from "../lib/ics";
 import {
   FIN_INITIAL_DATE, REG_INITIAL_DATE,
@@ -175,7 +175,7 @@ export function PlannerView({ items, onRemove, onBrowse }: {
           </div>
           {finalsMode && (
             <span className="text-[0.692rem] font-bold tracking-wide" style={{ color: "#6261c0" }}>
-              FINALS WEEK · JUN 9 – JUN 14
+              FINALS WEEK · {finalsRangeLabel()}
             </span>
           )}
           <div className="ml-auto flex items-center gap-3 text-[0.692rem] text-gray-600">
@@ -199,7 +199,7 @@ export function PlannerView({ items, onRemove, onBrowse }: {
             initialDate={finalsMode ? FIN_INITIAL_DATE : REG_INITIAL_DATE}
             headerToolbar={false}
             firstDay={1}
-            hiddenDays={finalsMode ? [0] : [0, 6]}
+            hiddenDays={finalsMode ? [0] : []}
             allDaySlot={false}
             slotMinTime="08:00:00"
             slotMaxTime="21:00:00"

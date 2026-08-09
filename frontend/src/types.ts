@@ -1,5 +1,5 @@
 export type MainView = "home" | "search" | "planner" | "overview" | "map";
-export type DayCode = "M" | "Tu" | "W" | "Th" | "F";
+export type DayCode = "M" | "Tu" | "W" | "Th" | "F" | "Sa" | "Su";
 
 export interface Meeting {
   // TSS teaching-method codes: LE/DI/LA plus others (SE, FI, ...).
