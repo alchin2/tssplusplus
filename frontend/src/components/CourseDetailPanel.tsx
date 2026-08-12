@@ -84,9 +84,6 @@ export function CourseDetailPanel({ course, plannedItems, onAdd }: {
                 <GitBranch className="w-3.5 h-3.5" style={{ color: "#6261c0" }} />
                 <span className="text-xs font-bold" style={{ color: "#0b4a67" }}>Prerequisites</span>
               </div>
-              {detail.rawPrereq && (
-                <p className="text-[11px] text-gray-700 leading-relaxed mb-2">{detail.rawPrereq}</p>
-              )}
               <PrereqGraph moduleId={detail.moduleId} plannedCodes={plannedCodes} />
             </div>
 

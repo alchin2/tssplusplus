@@ -218,7 +218,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
       {/* Toolbar */}
       <div className="flex items-center justify-between px-3 py-1.5 border-b border-[#c0c0c0] bg-[#ececfa]">
         <span className="text-[0.846rem] font-bold" style={{ color: "#0b4a67" }}>
-          {totalDepth + 1} level{totalDepth !== 0 ? "s" : ""} shown · depth limit {MAX_D}
+          {totalDepth + 1} level{totalDepth !== 0 ? "s" : ""} shown 
         </span>
         <div className="flex items-center gap-2">
           {(expanded.size > 0 || expandedOr.size > 0) && (
@@ -228,7 +228,6 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
             </button>
           )}
           <span className="text-[0.769rem] text-gray-500">
-            Scroll to zoom · drag to pan · click <span className="font-bold text-indigo-600">+</span> to expand
           </span>
           <div className="flex items-center border border-[#aaa] bg-white">
             <button onClick={zoomOut} disabled={view.scale <= ZOOM_MIN} title="Zoom out"
@@ -354,7 +353,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
           { fill: "#0b4a67", stroke: "#083858", label: "Selected" },
           { fill: "#dcfce7", stroke: "#16a34a", label: "Planned" },
           { fill: "#f8faff", stroke: "#8899bb", label: "Available" },
-          { fill: "#fee2e2", stroke: "#dc2626", label: "Not in catalog" },
+          { fill: "#fee2e2", stroke: "#dc2626", label: "Archived Class" },
         ].map(({ fill, stroke, label }) => (
           <span key={label} className="flex items-center gap-1">
             <svg width={12} height={12}><rect x={1} y={1} width={10} height={10} rx={2} fill={fill} stroke={stroke} strokeWidth={1.5} /></svg>
