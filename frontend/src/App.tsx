@@ -30,6 +30,40 @@ export default function App() {
   const [dockTab, setDockTab]         = useState<DockTab>("detail");
   const [mobileZone, setMobileZone]   = useState<MobileZone>("calendar");
 
+  // Resizable context dock (desktop only). Width is a plain px number and only
+  // takes effect at md+, where the dock sits beside the calendar.
+  const [dockWidth, setDockWidth]     = useState(440);
+  const [isDesktop, setIsDesktop]     = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(min-width: 768px)").matches,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 768px)");
+    const onChange = () => setIsDesktop(mq.matches);
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, []);
+
+  function startDockResize(e: React.PointerEvent) {
+    e.preventDefault();
+    const startX = e.clientX;
+    const startW = dockWidth;
+    function onMove(ev: PointerEvent) {
+      // Dock is on the right, so dragging the handle left widens it.
+      const next = Math.min(Math.max(startW + (startX - ev.clientX), 320), 760);
+      setDockWidth(next);
+    }
+    function onUp() {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+      document.body.style.cursor = "";
+      document.body.style.userSelect = "";
+    }
+    document.body.style.cursor = "col-resize";
+    document.body.style.userSelect = "none";
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onUp);
+  }
+
   // Server-side search/filter per the /api/courses contract, debounced so
   // typing doesn't fire a request per keystroke. State stays lifted here and
   // feeds the CommandPalette; results survive the palette closing/reopening.
@@ -139,8 +173,14 @@ export default function App() {
           <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} onSelectCourse={selectByCourseId} />
         </div>
 
+        {/* Resize handle (desktop only) */}
+        <div onPointerDown={startDockResize}
+          className="hidden md:block flex-shrink-0 w-1 cursor-col-resize bg-[#c0c0c0] hover:bg-[#6261c0] active:bg-[#6261c0] transition-colors"
+          role="separator" aria-orientation="vertical" title="Drag to resize" />
+
         {/* Context dock */}
-        <div className={`${mobileZone === "dock" ? "flex" : "hidden"} md:flex w-full md:w-[440px] flex-shrink-0 flex-col pb-16 md:pb-0`}>
+        <div className={`${mobileZone === "dock" ? "flex" : "hidden"} md:flex w-full flex-shrink-0 flex-col pb-16 md:pb-0`}
+          style={isDesktop ? { width: dockWidth } : undefined}>
           <ContextDock
             tab={dockTab} onTab={setDockTab}
             selectedCourse={selectedCourse}
