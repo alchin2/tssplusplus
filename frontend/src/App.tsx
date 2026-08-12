@@ -74,6 +74,12 @@ export default function App() {
     setPaletteOpen(false);
   }
 
+  // Calendar events carry a courseId; resolve it to the planned Course.
+  function selectByCourseId(courseId: string) {
+    const item = plannedItems.find(i => i.course.id === courseId);
+    if (item) openCourse(item.course);
+  }
+
   function handleAdd(course: Course, section: Section) {
     if (plannedItems.some(i => i.course.id === course.id)) { toast.error(`${course.code} already in planner`); return; }
     const conflict = conflictsWith(section, plannedItems);
@@ -130,7 +136,7 @@ export default function App() {
       <main className="flex-1 flex overflow-hidden" style={{ backgroundColor: "#fff" }}>
         {/* Calendar canvas */}
         <div className={`${mobileZone === "calendar" ? "flex" : "hidden"} md:flex flex-1 min-w-0 flex-col pb-16 md:pb-0`}>
-          <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} />
+          <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} onSelectCourse={selectByCourseId} />
         </div>
 
         {/* Context dock */}
@@ -140,6 +146,7 @@ export default function App() {
             selectedCourse={selectedCourse}
             plannedItems={plannedItems}
             onAdd={handleAdd}
+            onRemove={handleRemove}
             onClearSelection={() => setSelected(null)}
           />
         </div>

@@ -1,4 +1,4 @@
-import { AlertTriangle, CalendarX2, Download, Search, Trash2, X } from "lucide-react";
+import { AlertTriangle, CalendarX2, Download, Search, Trash2 } from "lucide-react";
 import { useCallback, useMemo, useRef, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
@@ -31,10 +31,11 @@ function renderEvent(arg: EventContentArg) {
   );
 }
 
-export function PlannerView({ items, onRemove, onBrowse }: {
+export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
   items: PlannedItem[];
   onRemove: (id: string) => void;
   onBrowse?: () => void;
+  onSelectCourse?: (courseId: string) => void;
 }) {
   const [finalsMode, setFinalsMode] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
@@ -66,7 +67,9 @@ export function PlannerView({ items, onRemove, onBrowse }: {
   }
 
   function handleEventClick(arg: EventClickArg) {
-    toggleHighlight((arg.event.extendedProps as PlannerEventProps).courseId);
+    const { courseId } = arg.event.extendedProps as PlannerEventProps;
+    toggleHighlight(courseId);   // dim the others
+    onSelectCourse?.(courseId);  // open it in the Detail dock
   }
 
   if (items.length === 0) {
@@ -92,105 +95,57 @@ export function PlannerView({ items, onRemove, onBrowse }: {
   }
 
   return (
-    <div className="flex h-full">
-      {/* ── Sidebar: planned courses ── */}
-      <aside className="w-64 flex-shrink-0 border-r border-[#c0c0c0] bg-[#f5f5fa] flex flex-col">
-        <div className="px-3 py-2 border-b border-[#c0c0c0]" style={{ backgroundColor: "#6261c0" }}>
-          <h3 className="font-bold text-white text-xs tracking-wide">PLANNED COURSES</h3>
-          <p className="text-white opacity-70 text-[10px]">{items.length} course{items.length !== 1 ? "s" : ""}</p>
-        </div>
-        <div className="flex-1 overflow-y-auto p-2 space-y-1.5">
-          {items.map(({ course, section }) => {
-            const highlighted = highlightId === course.id;
-            const conflict = conflictIds.has(course.id);
-            return (
-              <div key={course.id} onClick={() => toggleHighlight(course.id)}
-                className="w-full text-left flex items-stretch gap-2 px-2 py-1.5 border bg-white text-xs cursor-pointer transition-shadow"
-                style={{
-                  borderColor: highlighted ? "#0b4a67" : "#c0c0c0",
-                  boxShadow: highlighted ? "0 0 0 2px #f5c842" : "none",
-                }}>
-                <div className="w-2 flex-shrink-0 rounded-sm" style={{ backgroundColor: course.color }} />
-                <div className="flex-1 min-w-0 py-0.5">
-                  <div className="flex items-center gap-1.5">
-                    <p className="font-mono font-bold text-[0.846rem]">{course.code} – {section.id}</p>
-                    {conflict && (
-                      <span className="text-[0.577rem] font-bold px-1 py-px leading-tight flex-shrink-0"
-                        style={{ backgroundColor: "#cc0000", color: "#fff" }}>
-                        CONFLICT
-                      </span>
-                    )}
-                  </div>
-                  <p className="text-[0.769rem] text-gray-500 truncate">{section.instructor}</p>
-                  <div className="mt-0.5 space-y-px">
-                    {section.meetings.map((m, i) => (
-                      <p key={i} className="text-[0.692rem] text-gray-400 font-mono truncate">
-                        {m.type} · {m.days.join("")} · {fmt(m.start)}–{fmt(m.end)}
-                      </p>
-                    ))}
-                  </div>
-                </div>
-                <button aria-label={`Remove ${course.code}`}
-                  onClick={e => { e.stopPropagation(); onRemove(course.id); }}
-                  className="self-center p-0.5 text-gray-400 hover:text-red-600 transition-colors">
-                  <X className="w-3.5 h-3.5" />
-                </button>
-              </div>
-            );
-          })}
-        </div>
-        <div className="p-2 border-t border-[#c0c0c0] space-y-1.5">
-          <button
-            onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
-            className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold"
-            style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
-            <Download className="w-3.5 h-3.5 text-[#333]" /><span className="text-[#333]">Export ICS</span>
+    <div className="flex flex-col h-full min-w-0">
+      {/* ── Toolbar ── */}
+      <div className="flex-shrink-0 flex items-center gap-3 px-3 py-2 border-b border-[#c0c0c0] bg-[#ececfa]">
+        <div className="flex" style={{ border: "1px solid #0b4a67" }}>
+          <button onClick={() => setFinalsMode(false)}
+            className="px-3 py-1 text-[0.692rem] font-bold transition-colors"
+            style={{ backgroundColor: !finalsMode ? "#0b4a67" : "#fff", color: !finalsMode ? "#fff" : "#0b4a67" }}>
+            WEEKLY
           </button>
-          <button onClick={() => items.forEach(i => onRemove(i.course.id))}
-            className="w-full flex items-center justify-center gap-1.5 py-1.5 text-xs font-bold border border-[#c0c0c0] bg-white text-gray-700 hover:bg-gray-50">
-            <Trash2 className="w-3.5 h-3.5" /> Clear All
+          <button onClick={() => setFinalsMode(true)}
+            className="px-3 py-1 text-[0.692rem] font-bold transition-colors border-l"
+            style={{
+              backgroundColor: finalsMode ? "#6261c0" : "#fff",
+              color: finalsMode ? "#fff" : "#0b4a67",
+              borderColor: "#0b4a67",
+            }}>
+            FINALS
           </button>
         </div>
-      </aside>
 
-      {/* ── Calendar column ── */}
-      <div className="flex-1 flex flex-col min-w-0">
-        {/* Toolbar */}
-        <div className="flex-shrink-0 flex items-center gap-3 px-3 py-2 border-b border-[#c0c0c0] bg-[#ececfa]">
-          <div className="flex" style={{ border: "1px solid #0b4a67" }}>
-            <button onClick={() => setFinalsMode(false)}
-              className="px-3 py-1 text-[0.692rem] font-bold transition-colors"
-              style={{ backgroundColor: !finalsMode ? "#0b4a67" : "#fff", color: !finalsMode ? "#fff" : "#0b4a67" }}>
-              WEEKLY
-            </button>
-            <button onClick={() => setFinalsMode(true)}
-              className="px-3 py-1 text-[0.692rem] font-bold transition-colors border-l"
-              style={{
-                backgroundColor: finalsMode ? "#6261c0" : "#fff",
-                color: finalsMode ? "#fff" : "#0b4a67",
-                borderColor: "#0b4a67",
-              }}>
-              FINALS
-            </button>
-          </div>
-          {finalsMode && (
-            <span className="text-[0.692rem] font-bold tracking-wide" style={{ color: "#6261c0" }}>
-              FINALS WEEK · {finalsRangeLabel()}
+        {/* Schedule actions — moved here from the removed sidebar */}
+        <button
+          onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
+          title="Export .ics"
+          className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold"
+          style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
+          <Download className="w-3 h-3" /> Export ICS
+        </button>
+        <button onClick={() => items.forEach(i => onRemove(i.course.id))} title="Clear all courses"
+          className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold border border-[#c0c0c0] bg-white text-gray-700 hover:bg-gray-50">
+          <Trash2 className="w-3 h-3" /> Clear All
+        </button>
+
+        {finalsMode && (
+          <span className="hidden lg:inline text-[0.692rem] font-bold tracking-wide" style={{ color: "#6261c0" }}>
+            FINALS WEEK · {finalsRangeLabel()}
+          </span>
+        )}
+        <div className="ml-auto flex items-center gap-3 text-[0.692rem] text-gray-600">
+          <span><b>{items.length}</b> course{items.length !== 1 ? "s" : ""}</span>
+          {conflictIds.size > 0 && (
+            <span className="flex items-center gap-1 font-bold" style={{ color: "#cc0000" }}>
+              <AlertTriangle className="w-3 h-3" />
+              {conflictIds.size} conflict{conflictIds.size !== 1 ? "s" : ""}
             </span>
           )}
-          <div className="ml-auto flex items-center gap-3 text-[0.692rem] text-gray-600">
-            <span><b>{items.length}</b> course{items.length !== 1 ? "s" : ""} planned</span>
-            {conflictIds.size > 0 && (
-              <span className="flex items-center gap-1 font-bold" style={{ color: "#cc0000" }}>
-                <AlertTriangle className="w-3 h-3" />
-                {conflictIds.size} time conflict{conflictIds.size !== 1 ? "s" : ""}
-              </span>
-            )}
-          </div>
         </div>
+      </div>
 
-        {/* FullCalendar */}
-        <div ref={observeWrap} className={`flex-1 min-h-0 bg-white ${finalsMode ? "planner-finals" : ""}`}>
+      {/* ── FullCalendar ── */}
+      <div ref={observeWrap} className={`flex-1 min-h-0 bg-white ${finalsMode ? "planner-finals" : ""}`}>
           <FullCalendar
             ref={calRef}
             key={finalsMode ? "fin" : "reg"}
@@ -222,7 +177,6 @@ export function PlannerView({ items, onRemove, onBrowse }: {
             }
             eventClick={handleEventClick}
           />
-        </div>
       </div>
     </div>
   );

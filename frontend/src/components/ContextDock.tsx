@@ -9,12 +9,13 @@ export type DockTab = "detail" | "overview" | "map";
 // The right-hand context dock: a segmented Detail / Overview / Map switcher
 // that renders the existing views in place of the old tab navigation. The
 // calendar canvas stays put to its left; nothing here navigates away from it.
-export function ContextDock({ tab, onTab, selectedCourse, plannedItems, onAdd, onClearSelection }: {
+export function ContextDock({ tab, onTab, selectedCourse, plannedItems, onAdd, onRemove, onClearSelection }: {
   tab: DockTab;
   onTab: (t: DockTab) => void;
   selectedCourse: Course | null;
   plannedItems: PlannedItem[];
   onAdd: (c: Course, s: Section) => void;
+  onRemove: (courseId: string) => void;
   onClearSelection: () => void;
 }) {
   const tabs: { id: DockTab; label: string; icon: typeof BookOpen }[] = [
@@ -50,7 +51,7 @@ export function ContextDock({ tab, onTab, selectedCourse, plannedItems, onAdd, o
             ? <CourseDetailPanel course={selectedCourse} plannedItems={plannedItems} onAdd={onAdd} onClose={onClearSelection} />
             : <DetailEmpty />
         )}
-        {tab === "overview" && <OverviewView items={plannedItems} />}
+        {tab === "overview" && <OverviewView items={plannedItems} onRemove={onRemove} />}
         {tab === "map" && <MapView items={plannedItems} />}
       </div>
     </div>

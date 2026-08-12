@@ -1,10 +1,12 @@
-import { BookOpen, LayoutGrid } from "lucide-react";
+import { AlertTriangle, BookOpen, LayoutGrid, X } from "lucide-react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { computeFinal, finalDateLabel, finalsRangeLabel, fmt } from "../lib/schedule";
+import { conflictingCourseIds } from "../lib/plannerEvents";
 import type { PlannedItem } from "../types";
 
-export function OverviewView({ items }: { items: PlannedItem[] }) {
+export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemove?: (courseId: string) => void }) {
   const term = termLabel(useMeta());
+  const conflictIds = conflictingCourseIds(items);
   if (items.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-[60vh] gap-3 text-gray-400">
@@ -46,8 +48,9 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
       {/* ── course cards ── */}
       <div className="p-5 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(440px, 1fr))" }}>
         {items.map(({ course, section }) => {
-          const fi   = computeFinal(section);
-          const lec  = section.meetings.find(m => m.type === "LE");
+          const fi       = computeFinal(section);
+          const lec      = section.meetings.find(m => m.type === "LE");
+          const conflict = conflictIds.has(course.id);
 
           return (
             <div key={course.id} className="bg-white border border-[#d4d4e4] overflow-hidden"
@@ -62,11 +65,22 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-mono font-bold text-base" style={{ color: "#0b4a67" }}>{course.code}</span>
                         <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm" style={{ backgroundColor: course.color + "22", color: course.color }}>{course.dept}</span>
+                        {conflict && (
+                          <span className="flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5" style={{ backgroundColor: "#cc0000", color: "#fff" }}>
+                            <AlertTriangle className="w-2.5 h-2.5" /> CONFLICT
+                          </span>
+                        )}
                       </div>
                       <p className="text-sm font-bold text-gray-700 mt-0.5 leading-snug">{course.title}</p>
                     </div>
                     {course.offeredThisQuarter && (
                       <span className="text-[10px] font-bold px-2 py-0.5 flex-shrink-0" style={{ backgroundColor: "#d56a03", color: "#fff" }}>{term || "…"}</span>
+                    )}
+                    {onRemove && (
+                      <button onClick={() => onRemove(course.id)} aria-label={`Remove ${course.code}`} title={`Remove ${course.code}`}
+                        className="flex-shrink-0 p-1 text-gray-400 hover:text-red-600 transition-colors">
+                        <X className="w-4 h-4" />
+                      </button>
                     )}
                   </div>
                 </div>
