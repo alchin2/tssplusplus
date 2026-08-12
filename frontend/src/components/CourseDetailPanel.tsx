@@ -1,4 +1,4 @@
-import { BookOpen, CalendarOff, GitBranch, Layers, Loader2, TriangleAlert, X } from "lucide-react";
+import { BookOpen, CalendarOff, GitBranch, Layers, Loader2, TriangleAlert } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { ApiError, fetchCourseDetail } from "../lib/api";
@@ -6,9 +6,9 @@ import type { Course, CourseDetail, PlannedItem, Section } from "../types";
 import { PrereqGraph } from "./PrereqGraph";
 import { SectionsTable } from "./SectionsTable";
 
-export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
+export function CourseDetailPanel({ course, plannedItems, onAdd }: {
   course: Course; plannedItems: PlannedItem[];
-  onAdd: (c: Course, s: Section) => void; onClose: () => void;
+  onAdd: (c: Course, s: Section) => void;
 }) {
   const term = termLabel(useMeta());
   const [detail, setDetail] = useState<CourseDetail | null>(null);
@@ -36,12 +36,7 @@ export function CourseDetailPanel({ course, plannedItems, onAdd, onClose }: {
     <div className="h-full flex flex-col" style={{ backgroundColor: "#fff" }}>
       {/* Panel header */}
       <div className="flex-shrink-0 flex items-center gap-2 px-3 py-2.5" style={{ backgroundColor: "#6261c0" }}>
-        <button onClick={onClose}
-          className="flex items-center justify-center w-6 h-6 text-white/70 hover:text-white hover:bg-white/20 transition-colors rounded"
-          title="Close panel">
-          <X className="w-3.5 h-3.5" />
-        </button>
-        <div className="w-px h-4 bg-white/30 mx-0.5" />
+        <BookOpen className="w-3.5 h-3.5 text-white/80 flex-shrink-0" />
         <span className="font-mono font-bold text-white text-xs">{course.code}</span>
         <span className="text-white/75 text-xs truncate">{course.title}</span>
         <div className="ml-auto flex items-center gap-2 flex-shrink-0">

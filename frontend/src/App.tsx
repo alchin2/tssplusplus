@@ -147,7 +147,6 @@ export default function App() {
             plannedItems={plannedItems}
             onAdd={handleAdd}
             onRemove={handleRemove}
-            onClearSelection={() => setSelected(null)}
           />
         </div>
       </main>

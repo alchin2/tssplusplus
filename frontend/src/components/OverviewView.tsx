@@ -28,8 +28,8 @@ export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemo
     <div className="overflow-auto" style={{ backgroundColor: "#f5f5fa", minHeight: "100%" }}>
 
       {/* ── stats bar ── */}
-      <div className="flex-shrink-0 px-6 py-3 border-b border-[#b0b0c8] flex items-center gap-0" style={{ backgroundColor: "#6261c0" }}>
-        <div className="pr-6">
+      <div className="flex-shrink-0 px-4 py-3 border-b border-[#b0b0c8] flex items-center flex-wrap gap-y-2" style={{ backgroundColor: "#6261c0" }}>
+        <div className="pr-4">
           <div className="text-white font-bold text-sm">My Schedule Overview</div>
           <div className="text-white/60 text-[11px]">{term || "…"}</div>
         </div>
@@ -38,7 +38,7 @@ export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemo
           { v: `${totalHrs.toFixed(1)}h`,               l: "Class Hrs/Wk" },
           { v: buildings,                               l: "Buildings"    },
         ].map(({ v, l }) => (
-          <div key={l} className="border-l border-white/25 px-6">
+          <div key={l} className="border-l border-white/25 px-4">
             <div className="text-white font-bold text-xl leading-none">{v}</div>
             <div className="text-white/55 text-[0.769rem] mt-1">{l}</div>
           </div>
@@ -46,7 +46,10 @@ export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemo
       </div>
 
       {/* ── course cards ── */}
-      <div className="p-5 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(440px, 1fr))" }}>
+      {/* min(100%, 440px) keeps the track from forcing horizontal scroll when
+          the dock is narrower than 440px, while still going multi-column on
+          the full-width mobile dock. */}
+      <div className="p-4 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 440px), 1fr))" }}>
         {items.map(({ course, section }) => {
           const fi       = computeFinal(section);
           const lec      = section.meetings.find(m => m.type === "LE");
@@ -144,13 +147,14 @@ export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemo
 
       {/* ── finals summary table ── */}
       {finals.length > 0 && (
-        <div className="px-5 pb-6">
+        <div className="px-4 pb-6">
           <div className="border border-[#d4d4e4] bg-white overflow-hidden" style={{ borderRadius: 3 }}>
             <div className="px-4 py-2.5 border-b border-[#d4d4e4] flex items-center gap-2" style={{ backgroundColor: "#6261c0" }}>
               <BookOpen className="w-3.5 h-3.5 text-white" />
               <span className="font-bold text-white text-xs">Finals Week Summary — {finalsRangeLabel()}</span>
             </div>
-            <table className="w-full text-xs border-collapse">
+            <div className="overflow-x-auto">
+            <table className="min-w-[520px] w-full text-xs border-collapse">
               <thead>
                 <tr style={{ backgroundColor: "#f0effe" }}>
                   {["Course", "Section", "Professor", "Date", "Time", "Room"].map(h => (
@@ -179,6 +183,7 @@ export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemo
                 })}
               </tbody>
             </table>
+            </div>
           </div>
         </div>
       )}

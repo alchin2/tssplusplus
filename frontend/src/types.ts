@@ -1,4 +1,3 @@
-export type MainView = "home" | "search" | "planner" | "overview" | "map";
 export type DayCode = "M" | "Tu" | "W" | "Th" | "F" | "Sa" | "Su";
 
 export interface Meeting {

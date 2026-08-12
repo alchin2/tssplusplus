@@ -1,25 +1,41 @@
 # TSS++ Frontend
 
 Vite + React + TypeScript + Tailwind v4 app implementing the
-WebReg-inspired TSS++ interface: course search, course detail,
-schedule planner, quarter overview, and campus map. Ported from the
-TSS++ Figma Make design and now wired to the FastAPI backend.
+WebReg-inspired TSS++ interface as a single-page **workbench**: a
+persistent weekly-calendar canvas on the left and a context dock
+(course detail / quarter overview / campus map) on the right, with
+course search living in a ⌘K command palette. Wired to the FastAPI
+backend.
+
+## Layout
+
+Two zones sit side by side under the top bar (they stack into one
+zone at a time on mobile, switched from the bottom nav):
+
+- **Calendar canvas** (`PlannerView`) — the weekly/finals timegrid;
+  always rendered, even when empty. Click an event to open it in the
+  dock; click the event's top-right × to remove it.
+- **Context dock** (`ContextDock`) — a segmented Detail / Overview /
+  Map switcher, ~440px wide on desktop.
+- **Command palette** (`CommandPalette`) — ⌘K (or the top-bar search
+  field) opens a filterable course search overlay; picking a course
+  opens it in the dock's Detail tab.
 
 ## Structure
 
 ```
 src/
-├── App.tsx                  nav + view routing + sliding course-detail panel
+├── App.tsx                  two-zone workbench shell + ⌘K palette wiring
 ├── main.tsx                 entry point
 ├── types.ts                 Course/Section/Meeting/PlannedItem types
 ├── components/
-│   ├── HomeView.tsx          landing page: headline stats + "Get Started" CTA into search
-│   ├── SearchView.tsx        filterable course table
-│   ├── CourseDetailPanel.tsx side panel: description, raw prereq text, sections
-│   ├── PrereqGraph.tsx       interactive prerequisite tree (SVG) -- built, not yet wired into the panel
+│   ├── CommandPalette.tsx    ⌘K course-search overlay (dept/division/offered filters)
+│   ├── PlannerView.tsx       FullCalendar weekly/finals canvas + export/clear toolbar
+│   ├── ContextDock.tsx       segmented Detail / Overview / Map switcher
+│   ├── CourseDetailPanel.tsx dock Detail: description, prereq graph, sections
+│   ├── PrereqGraph.tsx       interactive prerequisite tree (SVG), fed by /prereqs
 │   ├── SectionsTable.tsx     section list with conflict/seat display
-│   ├── PlannerView.tsx       FullCalendar-based weekly planner
-│   ├── OverviewView.tsx      planned-quarter stats: units, weekly hours, fill, finals
+│   ├── OverviewView.tsx      planned-quarter stats + per-course cards + finals summary
 │   ├── MapView.tsx           Leaflet campus map with walking routes between meetings
 │   └── RaccoonLogo.tsx       inline SVG mascot/logo
 ├── hooks/
@@ -34,9 +50,6 @@ src/
 │   ├── academicCalendar.ts   real quarter/finals dates
 │   ├── ics.ts                .ics file generation for schedule export
 │   └── routeCache.ts         caches walking-route responses per stop sequence
-├── data/
-│   └── prereqs.ts            mock prerequisite data -- only consumer left is the
-│                              unwired PrereqGraph.tsx/prereqGraph.ts pair
 └── styles/                  fonts, Tailwind, theme tokens, FullCalendar overrides
 ```
 
@@ -67,25 +80,18 @@ development and unconfigured previews do not send analytics.
 The app is wired to the backend via `lib/api.ts`, a typed client whose
 DTOs mirror `backend/app/schemas.py`:
 
-- Course search/filter (`SearchView`) -- `GET /api/courses`.
+- Course search/filter (`CommandPalette`) -- `GET /api/courses`.
 - Course detail, sections, and raw prereq text (`CourseDetailPanel`)
   -- `GET /api/courses/{module_id}`.
+- Transitive prerequisite graph (`PrereqGraph`, rendered in the
+  Detail panel) -- `GET /api/courses/{module_id}/prereqs`.
 - Department list + headline counts (`useMeta`) -- `GET /api/meta`.
 - Building coordinates for the map (`useBuildings`) -- `GET /api/buildings`.
 - Walking routes between back-to-back meetings (`MapView`) -- `GET /api/route`,
   falling back to a straight line if routing is unavailable.
 
-`data/prereqs.ts` is the one piece of mock data left. It backs
-`PrereqGraph.tsx`/`lib/prereqGraph.ts`, an interactive prerequisite
-tree component that isn't rendered anywhere yet -- `CourseDetailPanel`
-currently shows the catalog's raw prerequisite text instead. The
-backend already serves the real transitive graph at
-`GET /api/courses/{module_id}/prereqs`; wiring `PrereqGraph` to that
-endpoint (dropping the mock data) is the main thing left.
-
-Course/section colors, previously hand-picked in the mock data, are
-now derived deterministically from the course code (`colorFor` in
-`lib/api.ts`).
+The app carries no mock data. Course/section colors are derived
+deterministically from the course code (`colorFor` in `lib/api.ts`).
 
 ## Build
 
@@ -98,8 +104,7 @@ npm run preview # serve the production build locally
 
 - **React 18 + TypeScript**
 - **Tailwind CSS v4** (via `@tailwindcss/vite`, no separate PostCSS config)
-- **FullCalendar** (`@fullcalendar/react` + `daygrid`/`timegrid`) for the planner
+- **FullCalendar** (`@fullcalendar/react` + `timegrid`) for the planner canvas
 - **Leaflet** (via `react-leaflet`) for the campus map
-- **motion** (Framer Motion) for the sliding detail panel
 - **lucide-react** for icons
 - **sonner** for toast notifications

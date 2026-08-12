@@ -69,6 +69,13 @@ Below ~900px the two zones stack and the bottom nav returns as a zone switcher
 
 ## Phases
 
+> **Status:** all phases complete. The Overview per-course remove + conflict
+> badge (Phase 4) were pulled forward into Phase 3 so removing the sidebar
+> didn't lose single-course removal; `ContextDock` was scaffolded in Phase 1.
+> Phase 4 + 5 finished together: dropped the `CourseDetailPanel` close ✕,
+> tuned the Overview grid/tables for the ~440px dock, deleted the dead
+> `HomeView`/`SearchView`/`MainView` code, and updated both READMEs.
+
 ### Phase 1 — App shell (`src/App.tsx`)
 - Replace the horizontal tab nav + full-view swapping with the two-zone workbench:
   calendar canvas + context dock + command-palette overlay.

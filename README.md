@@ -170,7 +170,7 @@ Full contract in [`backend/README.md`](backend/README.md).
 - ~~[ ] Archive enrollment data (seats + waitlist) and publish it as a public dataset~~ *(Cookies Expire too fast)*
 - ~~[ ] Auto Fetch Cookies~~ *(Not possible due to 2FA automation)*
 - [ ] Degree Audit Feature
-- [ ] Frontend Redesign to be one page
+- [x] Frontend Redesign to be one page
 
 
 ## Contributing
