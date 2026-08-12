@@ -28,7 +28,7 @@ export interface GNode {
   depth: number; x: number; y: number;
   isExpandable: boolean; isOrMore: boolean;
   orGroupPath: string | null; parentId: string | null;
-  status: "root" | "planned" | "unresolved" | "default";
+  status: "root" | "planned" | "default";
 }
 export interface GEdge { id: string; fromId: string; toId: string; x1: number; y1: number; x2: number; y2: number; }
 export interface GOrBox { id: string; x: number; y: number; w: number; h: number; }
@@ -117,7 +117,6 @@ function place(
 
   const status: GNode["status"] = depth === 0 ? "root"
     : plannedCodes.has(node.code) ? "planned"
-    : node.title === null ? "unresolved"
     : "default";
 
   nodes.push({
@@ -197,9 +196,31 @@ function place(
   });
 }
 
+// Archived classes -- prereq codes with no catalog match, surfaced by the
+// backend with a null title -- are dropped from the tree entirely before
+// layout so they never render. An unresolved course has no known prereqs, so
+// an archived node is always a leaf and removing it never orphans a subtree.
+// An OR group left with a single surviving alternative is unwrapped into a
+// plain required prereq; one left with none is dropped along with the group.
+function pruneArchived(node: PrereqNode): PrereqNode {
+  const children: PrereqNode[] = [];
+  for (const child of node.children) {
+    if (child.code === "OR") {
+      const alts = child.children.filter(a => a.title !== null).map(pruneArchived);
+      if (alts.length === 0) continue;
+      if (alts.length === 1) children.push(alts[0]);
+      else children.push({ ...child, children: alts });
+    } else if (child.title !== null) {
+      children.push(pruneArchived(child));
+    }
+  }
+  return { ...node, children };
+}
+
 export function buildGraph(
   root: PrereqNode, exp: Set<string>, orExp: Set<string>, plannedCodes: Set<string>,
 ): GraphLayout {
+  root = pruneArchived(root);
   const nodes: GNode[] = [], edges: GEdge[] = [];
   const orBoxMap: Record<string, string[]> = {};
   place(root, 0, 0, "0", null, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, { n: 0 });
@@ -240,8 +261,7 @@ export function buildGraph(
 }
 
 export const NODE_CFG: Record<GNode["status"], { fill: string; stroke: string; text: string }> = {
-  root:       { fill: "#0b4a67", stroke: "#083858", text: "#ffffff" },
-  planned:    { fill: "#dcfce7", stroke: "#16a34a", text: "#14532d" },
-  unresolved: { fill: "#fee2e2", stroke: "#dc2626", text: "#7f1d1d" },
-  default:    { fill: "#f8faff", stroke: "#8899bb", text: "#1a2a4a" },
+  root:    { fill: "#0b4a67", stroke: "#083858", text: "#ffffff" },
+  planned: { fill: "#dcfce7", stroke: "#16a34a", text: "#14532d" },
+  default: { fill: "#f8faff", stroke: "#8899bb", text: "#1a2a4a" },
 };

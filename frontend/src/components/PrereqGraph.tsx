@@ -321,7 +321,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
 
                   {node.status !== "default" && !node.isOrMore && (
                     <rect x={nx} y={ny + 6} width={3} height={GNH - 12} rx={1.5}
-                      fill={node.status === "root" ? "#f5c842" : node.status === "planned" ? "#16a34a" : "#dc2626"} />
+                      fill={node.status === "root" ? "#f5c842" : "#16a34a"} />
                   )}
 
                   <text x={node.x + (canToggle ? -6 : 0)} y={node.y - 7} textAnchor="middle"
@@ -353,7 +353,6 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
           { fill: "#0b4a67", stroke: "#083858", label: "Selected" },
           { fill: "#dcfce7", stroke: "#16a34a", label: "Planned" },
           { fill: "#f8faff", stroke: "#8899bb", label: "Available" },
-          { fill: "#fee2e2", stroke: "#dc2626", label: "Archived Class" },
         ].map(({ fill, stroke, label }) => (
           <span key={label} className="flex items-center gap-1">
             <svg width={12} height={12}><rect x={1} y={1} width={10} height={10} rx={2} fill={fill} stroke={stroke} strokeWidth={1.5} /></svg>
