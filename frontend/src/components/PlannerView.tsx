@@ -1,4 +1,4 @@
-import { AlertTriangle, CalendarX2, Download, Search, Trash2 } from "lucide-react";
+import { AlertTriangle, Download, Search, Trash2, X } from "lucide-react";
 import { useCallback, useMemo, useRef, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
@@ -21,7 +21,14 @@ function renderEvent(arg: EventContentArg) {
         <div className="absolute inset-0 pointer-events-none"
           style={{ background: "repeating-linear-gradient(135deg, transparent 0 6px, rgba(120,0,0,0.30) 6px 9px)" }} />
       )}
-      <div className="flex items-center gap-1">
+      {/* Quick-remove affordance — purely visual (pointer-events:none) so the
+          click lands on the event; handleEventClick detects the top-right
+          corner hotspot and removes. Title lives on the wrapper for the tooltip. */}
+      <span data-ev-remove aria-hidden="true"
+        className="absolute top-0 right-0 z-10 flex items-center justify-center w-4 h-4 text-white/70 pointer-events-none">
+        <X className="w-3 h-3" />
+      </span>
+      <div className="flex items-center gap-1 pr-3.5">
         <span className="font-mono font-bold text-[0.769rem]">{p.code}</span>
         {p.conflict && <AlertTriangle className="w-3 h-3 flex-shrink-0" style={{ color: "#ffd7d7" }} />}
       </div>
@@ -41,8 +48,8 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
   const [highlightId, setHighlightId] = useState<string | null>(null);
 
   // FullCalendar only re-measures on window resize, but this container also
-  // changes width when the course-detail panel animates open/closed. Observe
-  // the wrapper and nudge the calendar to re-measure.
+  // changes width when the context dock opens/closes. Observe the wrapper and
+  // nudge the calendar to re-measure.
   const calRef = useRef<FullCalendar | null>(null);
   const roRef = useRef<ResizeObserver | null>(null);
   const observeWrap = useCallback((el: HTMLDivElement | null) => {
@@ -68,31 +75,20 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
 
   function handleEventClick(arg: EventClickArg) {
     const { courseId } = arg.event.extendedProps as PlannerEventProps;
+    // The × is a visual affordance in the event's top-right corner (it's
+    // pointer-events:none, so the click lands on the event and reaches here).
+    // A click inside that corner hotspot removes; anywhere else selects.
+    const r = arg.el.getBoundingClientRect();
+    const inRemoveHotspot = arg.jsEvent.clientX >= r.right - 22 && arg.jsEvent.clientY <= r.top + 22;
+    if (inRemoveHotspot) {
+      onRemove(courseId);
+      return;
+    }
     toggleHighlight(courseId);   // dim the others
     onSelectCourse?.(courseId);  // open it in the Detail dock
   }
 
-  if (items.length === 0) {
-    return (
-      <div className="h-full flex items-center justify-center px-4">
-        <div className="text-center max-w-xs border border-[#c0c0c0] bg-white px-8 py-10"
-          style={{ boxShadow: "4px 4px 0 #c9cede" }}>
-          <CalendarX2 className="w-10 h-10 mx-auto" style={{ color: "#6261c0" }} />
-          <h3 className="mt-4 font-bold" style={{ color: "#0b4a67" }}>Nothing scheduled yet</h3>
-          <p className="mt-1.5 text-xs text-gray-500 leading-relaxed">
-            Find a course and click ADD — every section you pick lands on this calendar.
-          </p>
-          {onBrowse && (
-            <button onClick={onBrowse}
-              className="mt-5 inline-flex items-center gap-1.5 px-4 py-1.5 text-xs font-bold text-white transition-colors hover:brightness-110"
-              style={{ backgroundColor: "#0b4a67", border: "1px solid #083a52" }}>
-              <Search className="w-3.5 h-3.5" /> Browse courses
-            </button>
-          )}
-        </div>
-      </div>
-    );
-  }
+  const empty = items.length === 0;
 
   return (
     <div className="flex flex-col h-full min-w-0">
@@ -115,7 +111,18 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
           </button>
         </div>
 
-        {/* Schedule actions — moved here from the removed sidebar */}
+        {/* Schedule actions — moved here from the removed sidebar. With
+            nothing planned there's nothing to export/clear, so offer search. */}
+        {empty ? (
+          onBrowse && (
+            <button onClick={onBrowse} title="Search the catalog (⌘K)"
+              className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold text-white hover:brightness-110"
+              style={{ backgroundColor: "#0b4a67", border: "1px solid #083a52" }}>
+              <Search className="w-3 h-3" /> Add courses
+            </button>
+          )
+        ) : (
+          <>
         <button
           onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
           title="Export .ics"
@@ -127,6 +134,8 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
           className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold border border-[#c0c0c0] bg-white text-gray-700 hover:bg-gray-50">
           <Trash2 className="w-3 h-3" /> Clear All
         </button>
+          </>
+        )}
 
         {finalsMode && (
           <span className="hidden lg:inline text-[0.692rem] font-bold tracking-wide" style={{ color: "#6261c0" }}>
@@ -144,7 +153,7 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
         </div>
       </div>
 
-      {/* ── FullCalendar ── */}
+      {/* ── FullCalendar (always rendered — the empty grid still shows) ── */}
       <div ref={observeWrap} className={`flex-1 min-h-0 bg-white ${finalsMode ? "planner-finals" : ""}`}>
           <FullCalendar
             ref={calRef}

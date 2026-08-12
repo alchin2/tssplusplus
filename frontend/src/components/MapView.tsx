@@ -118,24 +118,27 @@ export function MapView({ items }: { items: PlannedItem[] }) {
   }, [stopLatLngs]);
 
   return (
-    <div className="flex h-full">
+    <div className="flex flex-col h-full">
+
+      {/* ── day selector: full-width horizontal bar, weekdays only ── */}
+      <div className="flex-shrink-0 flex border-b border-[#c0c0c0]">
+        {DAY_CODES.slice(0, 5).map((d, i) => (
+          <button key={d} onClick={() => setSelDay(d)}
+            className="flex-1 py-2 text-[0.846rem] font-bold border-r border-[#c0c0c0] last:border-r-0 transition-colors"
+            style={{ backgroundColor: selDay === d ? "#0b4a67" : "#f5f5fa", color: selDay === d ? "#fff" : "#4a5875" }}>
+            {DAY_LABELS[i]}
+          </button>
+        ))}
+      </div>
+
+      {/* ── content: day's class list + map ── */}
+      <div className="flex flex-1 min-h-0">
 
       {/* ── left sidebar ── */}
       <aside className="w-56 flex-shrink-0 border-r border-[#c0c0c0] bg-white flex flex-col z-10">
         <div className="px-3 py-2 border-b border-[#c0c0c0]" style={{ backgroundColor: "#6261c0" }}>
           <h3 className="font-bold text-white text-xs flex items-center gap-1.5"><MapIcon className="w-3.5 h-3.5" />Campus Map</h3>
-          <p className="text-white/70 text-[0.769rem] mt-0.5">Select a day to see your route</p>
-        </div>
-
-        {/* day selector */}
-        <div className="flex border-b border-[#c0c0c0]">
-          {DAY_CODES.map((d, i) => (
-            <button key={d} onClick={() => setSelDay(d)}
-              className="flex-1 py-2 text-[0.846rem] font-bold border-r border-[#c0c0c0] last:border-r-0 transition-colors"
-              style={{ backgroundColor: selDay === d ? "#0b4a67" : "#f5f5fa", color: selDay === d ? "#fff" : "#4a5875" }}>
-              {DAY_LABELS[i]}
-            </button>
-          ))}
+          <p className="text-white/70 text-[0.769rem] mt-0.5">Your route for {DAY_LABELS[DAY_CODES.indexOf(selDay)]}</p>
         </div>
 
         {/* class list */}
@@ -229,6 +232,7 @@ export function MapView({ items }: { items: PlannedItem[] }) {
             />
           )}
         </MapContainer>
+      </div>
       </div>
     </div>
   );
