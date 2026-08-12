@@ -10,6 +10,10 @@ document per course into MongoDB.
 module_id/code/name to data/offered/<term>.csv, skipping sections
 entirely. Run this first (and re-run it to refresh the list) -- the
 default mode reads this file instead of re-fetching titles every run.
+Immediately afterward it re-runs the offered-courses marking step
+(scrapers/helpers/mark_offered_courses.py) so the refreshed CSV keeps its
+normalized-code column and the catalog's offered_this_qtr flags stay in
+sync.
 
 Setup:
   1. Log into https://tss.ucsd.edu/fiori in Chrome as normal.
@@ -96,6 +100,33 @@ def write_titles_csv(titles: list[dict], peryr: str, perid: str) -> Path:
         for title in titles:
             writer.writerow([title.get("Smobjid"), title.get("Short"), title.get("Stext") or title.get("Title")])
     return out_path
+
+
+def run_mark_offered(peryr: str, perid: str) -> None:
+    """Re-derives the offered CSV's normalized-code column and re-marks the
+    catalog against it. Run right after a --titles-only refresh: that
+    overwrite drops the downstream `filtered_data` column and leaves the
+    catalog's offered_this_qtr flags stale, so we regenerate both here.
+
+    Reuses scrapers/helpers/mark_offered_courses.py (a sibling package) by
+    adding its dir to sys.path -- the two scrapers live in separate trees."""
+    helpers_dir = PROJECT_ROOT / "scrapers" / "helpers"
+    sys.path.insert(0, str(helpers_dir))
+    try:
+        from mark_offered_courses import (  # type: ignore[import-not-found]
+            CATALOG_DIR,
+            add_filtered_data_column,
+            load_offered_codes,
+            mark_offered_in_catalog,
+        )
+    finally:
+        sys.path.remove(str(helpers_dir))
+
+    csv_path = OFFERED_DIR / f"{term_slug(peryr, perid)}.csv"
+    add_filtered_data_column(csv_path)
+    offered_codes = load_offered_codes(csv_path)
+    marked_true, total = mark_offered_in_catalog(CATALOG_DIR, offered_codes)
+    print(f"Re-derived filtered_data column and marked {marked_true}/{total} catalog course(s) as offered_this_qtr=true")
 
 
 def read_titles_csv(peryr: str, perid: str) -> list[dict]:
@@ -187,7 +218,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--peryr", default="2026")
     parser.add_argument("--perid", default="2", help="'2' = Fall 2026, confirmed via keydate")
-    parser.add_argument("--titles-only", action="store_true", help="just fetch titles to data/offered/<term>.csv")
+    parser.add_argument("--titles-only", action="store_true",
+                        help="fetch titles to data/offered/<term>.csv, then re-mark offered courses")
     parser.add_argument("--workers", type=int, default=5,
                         help="concurrent scraper threads; keep modest to stay polite to TSS")
     args = parser.parse_args()
@@ -205,6 +237,7 @@ def main():
             print(f"Skipped {skipped} UCSD Extension course(s) total.")
         out_path = write_titles_csv(kept, args.peryr, args.perid)
         print(f"Wrote {len(kept)} title records to {out_path.resolve()}")
+        run_mark_offered(args.peryr, args.perid)
         return
 
     scrape_all_sections(args.peryr, args.perid, workers=args.workers)
