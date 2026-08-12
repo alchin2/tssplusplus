@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { Calendar, Github, LayoutGrid, Map as MapIcon, Search, X } from "lucide-react";
+import { Calendar, Github, LayoutGrid, Map as MapIcon, Search } from "lucide-react";
 import { Toaster, toast } from "sonner";
 import { RaccoonLogo } from "./components/RaccoonLogo";
+import { CommandPalette } from "./components/CommandPalette";
 import { ContextDock, type DockTab } from "./components/ContextDock";
 import { PlannerView } from "./components/PlannerView";
-import { SearchView } from "./components/SearchView";
 import { usePlannedItems } from "./hooks/usePlannedItems";
 import { fetchCourses } from "./lib/api";
 import { conflictsWith } from "./lib/schedule";
@@ -31,8 +31,8 @@ export default function App() {
   const [mobileZone, setMobileZone]   = useState<MobileZone>("calendar");
 
   // Server-side search/filter per the /api/courses contract, debounced so
-  // typing doesn't fire a request per keystroke. (Lifted into the palette in
-  // Phase 2; kept here for now so the interim SearchView overlay works.)
+  // typing doesn't fire a request per keystroke. State stays lifted here and
+  // feeds the CommandPalette; results survive the palette closing/reopening.
   useEffect(() => {
     let alive = true;
     setLoading(true);
@@ -164,39 +164,20 @@ export default function App() {
         </button>
       </nav>
 
-      {/* ── Command palette (interim: wraps SearchView until Phase 2) ── */}
+      {/* ── ⌘K command palette ── */}
       {paletteOpen && (
-        <div className="fixed inset-0 z-50 flex items-start justify-center p-4 md:p-10"
-          style={{ backgroundColor: "rgba(15,23,42,0.35)" }}
-          onMouseDown={() => setPaletteOpen(false)}>
-          <div className="w-full max-w-3xl bg-white shadow-2xl flex flex-col overflow-hidden"
-            style={{ maxHeight: "82vh", border: "1px solid #c0c0c0" }}
-            onMouseDown={e => e.stopPropagation()}>
-            <div className="flex-shrink-0 flex items-center justify-between px-3 py-2" style={{ backgroundColor: "#6261c0" }}>
-              <span className="text-white font-bold text-xs tracking-wide flex items-center gap-1.5">
-                <Search className="w-3.5 h-3.5" /> Course search
-              </span>
-              <button onClick={() => setPaletteOpen(false)}
-                className="flex items-center justify-center w-6 h-6 text-white/70 hover:text-white hover:bg-white/20 transition-colors rounded"
-                title="Close (Esc)">
-                <X className="w-3.5 h-3.5" />
-              </button>
-            </div>
-            <div className="flex-1 min-h-0 overflow-auto app-scroll">
-              <SearchView
-                query={query} onQuery={setQuery}
-                deptFilter={deptFilter} onDeptFilter={setDept}
-                offeredFilter={offeredFilter} onOfferedFilter={setOff}
-                divFilter={divFilter} onDivFilter={setDiv}
-                courses={filtered}
-                loading={searchLoading}
-                error={searchError}
-                selectedCourseId={selectedCourse?.id ?? null}
-                onOpenCourse={openCourse}
-              />
-            </div>
-          </div>
-        </div>
+        <CommandPalette
+          onClose={() => setPaletteOpen(false)}
+          query={query} onQuery={setQuery}
+          deptFilter={deptFilter} onDeptFilter={setDept}
+          offeredFilter={offeredFilter} onOfferedFilter={setOff}
+          divFilter={divFilter} onDivFilter={setDiv}
+          courses={filtered}
+          loading={searchLoading}
+          error={searchError}
+          selectedCourseId={selectedCourse?.id ?? null}
+          onOpenCourse={openCourse}
+        />
       )}
     </div>
   );
