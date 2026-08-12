@@ -166,11 +166,10 @@ Full contract in [`backend/README.md`](backend/README.md).
 - [x] Campus map + walking routes
 - [x] ICS export feature
 - [x] Interactive prerequisite viewer
-- [x] Cron job to check for schedule updates and scrape data automatically
-- ~~[ ] Archive enrollment data (seats + waitlist) and publish it as a public dataset~~ *(Cookies Expire too fast)*
-- ~~[ ] Auto Fetch Cookies~~ *(Not possible due to 2FA automation)*
+- [x] Cron job to check for schedule updates 
+- [x] Frontend Redesign 
 - [ ] Degree Audit Feature
-- [x] Frontend Redesign to be one page
+- [ ] Automatic Scraper for live section updates ([coming soon](https://github.com/alchin2/cookie.jar))
 
 
 ## Contributing
