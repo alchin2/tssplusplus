@@ -44,6 +44,15 @@ export interface PlannedItem {
   section: Section;
 }
 
+// Courses parsed out of an uploaded academic-history PDF (see
+// lib/transcriptParse.ts). Codes are normalized "SUBJ NUM" strings (e.g.
+// "CSE 12") so they match catalog codes used elsewhere; the sets are disjoint.
+export interface TranscriptRecord {
+  completed: Set<string>;
+  inProgress: Set<string>;
+  planned: Set<string>;
+}
+
 // GET /api/courses/{module_id}/prereqs -- resolved, fully transitive
 // prerequisite tree. An OR group is a node with code "OR" whose
 // children are the alternatives; every other node is a real course.

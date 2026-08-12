@@ -28,7 +28,16 @@ export interface GNode {
   depth: number; x: number; y: number;
   isExpandable: boolean; isOrMore: boolean;
   orGroupPath: string | null; parentId: string | null;
-  status: "root" | "planned" | "default";
+  status: "root" | "completed" | "inProgress" | "planned" | "default";
+}
+
+// Code sets that tint a node by its standing. `planned` is the schedule
+// planner; `completed`/`inProgress` come from an uploaded transcript
+// (lib/transcriptParse.ts). Highest-priority match wins (see place()).
+export interface StatusCodes {
+  planned: Set<string>;
+  completed: Set<string>;
+  inProgress: Set<string>;
 }
 export interface GEdge { id: string; fromId: string; toId: string; x1: number; y1: number; x2: number; y2: number; }
 export interface GOrBox { id: string; x: number; y: number; w: number; h: number; }
@@ -93,7 +102,7 @@ function orGroupExpansion(
 function place(
   node: PrereqNode, depth: number, leftCol: number, path: string,
   parentId: string | null, orGroupPath: string | null,
-  exp: Set<string>, orExp: Set<string>, plannedCodes: Set<string>,
+  exp: Set<string>, orExp: Set<string>, codes: StatusCodes,
   nodes: GNode[], edges: GEdge[], orBoxMap: Record<string, string[]>, seq: { n: number },
   // yShift translates this node -- and, inherited unchanged, its whole subtree
   // -- straight down by a fixed pixel offset. OR-group cards use it to stack
@@ -116,7 +125,9 @@ function place(
   const y = GPAD + GNH / 2 + depth * (GNH + VGAP) + yShift;
 
   const status: GNode["status"] = depth === 0 ? "root"
-    : plannedCodes.has(node.code) ? "planned"
+    : codes.completed.has(node.code) ? "completed"
+    : codes.inProgress.has(node.code) ? "inProgress"
+    : codes.planned.has(node.code) ? "planned"
     : "default";
 
   nodes.push({
@@ -162,13 +173,13 @@ function place(
           // straight down, centered under the card like any non-grouped course.
           const aw = subW(alt, depth + 1, `${groupPath}.${j}`, exp, orExp);
           place(alt, depth + 1, stackCol - (aw - 1) / 2, `${groupPath}.${j}`, id, groupPath,
-            exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yS, false);
+            exp, orExp, codes, nodes, edges, orBoxMap, seq, "center", yS, false);
         } else {
           // A card above the bottom stays in the stack column but branches its
           // prereqs out to the side so they don't overlay the cards beneath it.
           // Only the one expanded alt has a subtree to push aside (childColShift).
           place(alt, depth + 1, stackCol, `${groupPath}.${j}`, id, groupPath,
-            exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "right", yS, false, j === expandedJ ? 1 : 0);
+            exp, orExp, codes, nodes, edges, orBoxMap, seq, "right", yS, false, j === expandedJ ? 1 : 0);
         }
       });
 
@@ -190,7 +201,7 @@ function place(
       col = groupCol + width;
     } else {
       const cw = subW(child, depth + 1, `${path}.${i}`, exp, orExp);
-      place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, seq, "center", yShift);
+      place(child, depth + 1, col, `${path}.${i}`, id, null, exp, orExp, codes, nodes, edges, orBoxMap, seq, "center", yShift);
       col += cw;
     }
   });
@@ -218,12 +229,12 @@ function pruneArchived(node: PrereqNode): PrereqNode {
 }
 
 export function buildGraph(
-  root: PrereqNode, exp: Set<string>, orExp: Set<string>, plannedCodes: Set<string>,
+  root: PrereqNode, exp: Set<string>, orExp: Set<string>, codes: StatusCodes,
 ): GraphLayout {
   root = pruneArchived(root);
   const nodes: GNode[] = [], edges: GEdge[] = [];
   const orBoxMap: Record<string, string[]> = {};
-  place(root, 0, 0, "0", null, null, exp, orExp, plannedCodes, nodes, edges, orBoxMap, { n: 0 });
+  place(root, 0, 0, "0", null, null, exp, orExp, codes, nodes, edges, orBoxMap, { n: 0 });
 
   const orBoxes: GOrBox[] = [];
   for (const [groupPath, memberIds] of Object.entries(orBoxMap)) {
@@ -260,8 +271,17 @@ export function buildGraph(
   return { nodes, edges, orBoxes, svgW, svgH };
 }
 
-export const NODE_CFG: Record<GNode["status"], { fill: string; stroke: string; text: string }> = {
-  root:    { fill: "#0b4a67", stroke: "#083858", text: "#ffffff" },
-  planned: { fill: "#dcfce7", stroke: "#16a34a", text: "#14532d" },
-  default: { fill: "#f8faff", stroke: "#8899bb", text: "#1a2a4a" },
+// Per-status colors -- the single source of truth for node fills/strokes, the
+// left accent bar, and the legend (PrereqGraph derives its swatches straight
+// from here so they can never drift from what the graph draws). `label` is the
+// legend caption; insertion order here is the legend order. `completed` and
+// `inProgress` reflect an uploaded transcript; `planned` the schedule planner.
+export const NODE_CFG: Record<
+  GNode["status"], { fill: string; stroke: string; text: string; accent: string; label: string }
+> = {
+  root:       { fill: "#0b4a67", stroke: "#083858", text: "#ffffff", accent: "#f5c842", label: "Selected" },
+  completed:  { fill: "#dcfce7", stroke: "#16a34a", text: "#14532d", accent: "#16a34a", label: "Completed" },
+  inProgress: { fill: "#fef3c7", stroke: "#d97706", text: "#92400e", accent: "#d97706", label: "In progress" },
+  planned:    { fill: "#dbeafe", stroke: "#2563eb", text: "#1e3a8a", accent: "#2563eb", label: "Planned" },
+  default:    { fill: "#f8faff", stroke: "#8899bb", text: "#1a2a4a", accent: "#8899bb", label: "Available" },
 };

@@ -8,7 +8,14 @@ import type { PrereqNode } from "../types";
 const ZOOM_MIN = 0.5, ZOOM_MAX = 2, ZOOM_STEP = 0.25;
 type View = { x: number; y: number; scale: number };
 
-export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plannedCodes: Set<string> }) {
+export function PrereqGraph(
+  { moduleId, plannedCodes, completedCodes, inProgressCodes }: {
+    moduleId: string;
+    plannedCodes: Set<string>;
+    completedCodes: Set<string>;
+    inProgressCodes: Set<string>;
+  },
+) {
   const [tree, setTree] = useState<PrereqNode | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
@@ -37,8 +44,8 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
   }, [moduleId]);
 
   const graph = useMemo(
-    () => (tree ? buildGraph(tree, expanded, expandedOr, plannedCodes) : null),
-    [tree, expanded, expandedOr, plannedCodes]
+    () => (tree ? buildGraph(tree, expanded, expandedOr, { planned: plannedCodes, completed: completedCodes, inProgress: inProgressCodes }) : null),
+    [tree, expanded, expandedOr, plannedCodes, completedCodes, inProgressCodes]
   );
   graphRef.current = graph;
 
@@ -321,7 +328,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
 
                   {node.status !== "default" && !node.isOrMore && (
                     <rect x={nx} y={ny + 6} width={3} height={GNH - 12} rx={1.5}
-                      fill={node.status === "root" ? "#f5c842" : "#16a34a"} />
+                      fill={cfg.accent} />
                   )}
 
                   <text x={node.x + (canToggle ? -6 : 0)} y={node.y - 7} textAnchor="middle"
@@ -349,11 +356,7 @@ export function PrereqGraph({ moduleId, plannedCodes }: { moduleId: string; plan
       </div>
 
       <div className="flex items-center gap-4 px-3 py-1.5 bg-white border-t border-[#c0c0c0] text-[0.769rem] text-gray-600 flex-wrap">
-        {[
-          { fill: "#0b4a67", stroke: "#083858", label: "Selected" },
-          { fill: "#dcfce7", stroke: "#16a34a", label: "Planned" },
-          { fill: "#f8faff", stroke: "#8899bb", label: "Available" },
-        ].map(({ fill, stroke, label }) => (
+        {Object.values(NODE_CFG).map(({ fill, stroke, label }) => (
           <span key={label} className="flex items-center gap-1">
             <svg width={12} height={12}><rect x={1} y={1} width={10} height={10} rx={2} fill={fill} stroke={stroke} strokeWidth={1.5} /></svg>
             {label}

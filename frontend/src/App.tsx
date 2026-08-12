@@ -8,7 +8,9 @@ import { PlannerView } from "./components/PlannerView";
 import { usePlannedItems } from "./hooks/usePlannedItems";
 import { fetchCourses } from "./lib/api";
 import { conflictsWith } from "./lib/schedule";
-import type { Course, Section } from "./types";
+import type { Course, Section, TranscriptRecord } from "./types";
+
+const EMPTY_TRANSCRIPT: TranscriptRecord = { completed: new Set(), inProgress: new Set(), planned: new Set() };
 
 // Mobile shows one zone at a time; desktop shows both side by side.
 type MobileZone = "calendar" | "dock";
@@ -20,6 +22,13 @@ export default function App() {
   const [divFilter, setDiv]           = useState<"all" | "lower" | "upper">("all");
   const [selectedCourse, setSelected] = useState<Course | null>(null);
   const [plannedItems, updatePlanned] = usePlannedItems();
+
+  // Uploaded academic history -- completed/in-progress courses tint every
+  // prerequisite graph. Kept at app level so it persists across course
+  // selections (the uploader lives inside the per-course detail panel).
+  const [transcript, setTranscript] = useState<{
+    fileName: string | null; loading: boolean; error: string | null; record: TranscriptRecord;
+  }>({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
 
   const [courses, setCourses]         = useState<Course[]>([]);
   const [searchLoading, setLoading]   = useState(true);
@@ -126,6 +135,28 @@ export default function App() {
     updatePlanned(prev => prev.filter(i => i.course.id !== courseId));
   }
 
+  async function handleTranscriptFile(file: File) {
+    setTranscript(t => ({ ...t, fileName: file.name, loading: true, error: null }));
+    try {
+      // Loaded on demand so pdf.js (~300 KB gzip) stays out of the initial bundle.
+      const [{ extractTextFromPdf }, { parseAcademicHistoryText }] = await Promise.all([
+        import("./lib/pdfExtract"),
+        import("./lib/transcriptParse"),
+      ]);
+      const record = parseAcademicHistoryText(await extractTextFromPdf(file));
+      setTranscript({ fileName: file.name, loading: false, error: null, record });
+      const n = record.completed.size + record.inProgress.size + record.planned.size;
+      if (n === 0) toast.warning("No UCSD courses detected in that PDF.");
+      else toast.success(`Detected ${record.completed.size} completed, ${record.inProgress.size} in progress`);
+    } catch {
+      setTranscript(t => ({ ...t, loading: false, error: "Could not read that PDF." }));
+    }
+  }
+
+  function clearTranscript() {
+    setTranscript({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
+  }
+
   return (
     <div className="h-dvh flex flex-col app-shell" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
       <Toaster position="top-right" richColors />
@@ -187,6 +218,9 @@ export default function App() {
             plannedItems={plannedItems}
             onAdd={handleAdd}
             onRemove={handleRemove}
+            transcript={transcript}
+            onTranscriptFile={handleTranscriptFile}
+            onTranscriptClear={clearTranscript}
           />
         </div>
       </main>
