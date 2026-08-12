@@ -84,7 +84,10 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
       onRemove(courseId);
       return;
     }
-    toggleHighlight(courseId);   // dim the others
+    // Keep this click from reaching the wrapper's background handler, which
+    // clears the highlight.
+    arg.jsEvent.stopPropagation();
+    toggleHighlight(courseId);   // highlight the selected course
     onSelectCourse?.(courseId);  // open it in the Detail dock
   }
 
@@ -154,7 +157,8 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
       </div>
 
       {/* ── FullCalendar (always rendered — the empty grid still shows) ── */}
-      <div ref={observeWrap} className={`flex-1 min-h-0 bg-white ${finalsMode ? "planner-finals" : ""}`}>
+      <div ref={observeWrap} onClick={() => setHighlightId(null)}
+        className={`flex-1 min-h-0 bg-white ${finalsMode ? "planner-finals" : ""}`}>
           <FullCalendar
             ref={calRef}
             key={finalsMode ? "fin" : "reg"}
