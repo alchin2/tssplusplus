@@ -1,7 +1,7 @@
 import { Loader2, Maximize2, TriangleAlert, ZoomIn, ZoomOut } from "lucide-react";
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { ApiError, fetchCoursePrereqs } from "../lib/api";
-import { GNH, GNW, GPAD, MAX_D, NODE_CFG, buildGraph } from "../lib/prereqGraph";
+import { GNH, GNW, GPAD, NODE_CFG, buildGraph } from "../lib/prereqGraph";
 import type { GNode, GraphLayout } from "../lib/prereqGraph";
 import type { PrereqNode } from "../types";
 

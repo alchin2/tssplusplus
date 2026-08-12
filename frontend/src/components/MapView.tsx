@@ -10,9 +10,6 @@ import { DAY_CODES, DAY_LABELS, fmt } from "../lib/schedule";
 import type { Course, DayCode, Meeting, PlannedItem, Section } from "../types";
 
 const UCSD_CENTER: [number, number] = [32.8801, -117.2340];
-// Geisel Library never hosts a class meeting, so it can't come from the
-// scraped-meeting-locations dataset -- it's a purely cosmetic landmark pin.
-const GEISEL_LATLNG: [number, number] = [32.8810, -117.2378];
 
 // Real meeting.room values are full building names + room number, e.g.
 // "Peterson Hall Room 110" (see lib/api.ts's parseSched). Stripping the
