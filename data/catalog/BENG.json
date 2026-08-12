@@ -1795,7 +1795,7 @@
     "description": "Lectures, readings, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting federal regulations for such training. Students should review the following web page prior to enrollment: https://ethics.ucsd.edu/courses/ethics/index.html. (S/U grades only.)",
     "raw_prereq": "doctoral students only or consent of department. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Patient-Centered Clinical Medicine for Bioengineers",
@@ -1871,7 +1871,7 @@
     "description": "Laboratory research rotation for first-year BENG PhD students. Students will write a final paper. (S/U grades only.)",
     "raw_prereq": "PhD student in bioengineering. (F,W,S)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Graduate Research",

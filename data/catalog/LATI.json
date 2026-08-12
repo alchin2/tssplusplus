@@ -189,7 +189,7 @@
     "description": "Independent work by graduate students engaged in thesis research and writing under the direct supervision of a faculty adviser.",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Apprenticeship",

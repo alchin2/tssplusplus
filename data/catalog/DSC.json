@@ -799,7 +799,7 @@
     "description": "Essential tools for data science including the basic process of data science; Python and Jupyter notebooks; finding answers within large datasets by using Python to import data, explore it, analyze it, learn from it, visualize it, and generate easily shareable reports. An applied understanding of how to manipulate and analyze uncurated datasets; basic statistical analysis and machine learning methods; and how to effectively visualize results. This is a distance education course.",
     "raw_prereq": "none. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Data Management for Analytics",
@@ -835,7 +835,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Numerical Linear Algebra",
@@ -915,7 +915,7 @@
     "description": "Foundations of probability and statistics needed for data science, including mathematical theory, and hands-on experience of applying this theory to actual data using Jupyter notebooks. Random variables, dependence, correlation, regression, PCA, entropy and MDL. This course is a distance education course.",
     "raw_prereq": "none. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Embedded Sensing, IOT Data Models, and Methods",
@@ -1176,7 +1176,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Unsupervised Learning",
@@ -1194,7 +1194,7 @@
         ]
       }
     ],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Natural Language Processing",
@@ -1413,7 +1413,7 @@
     "description": "Graduate research. May be taken for credit up to twenty-four times.",
     "raw_prereq": "none. Restricted to graduate-level students.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Assistantship",

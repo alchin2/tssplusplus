@@ -3830,7 +3830,7 @@
     "description": "Directed group study on a topic or in a field not included in the regular curriculum by special arrangement with a faculty member. May be taken three times for credit.",
     "raw_prereq": "consent of instructor. (P/NP grades only.)",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Independent Study in Communication",
@@ -4356,7 +4356,7 @@
     "description": "Advanced independent study in communication under the guidance of Department of Communication faculty.",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Practice Teaching in Communication",

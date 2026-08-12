@@ -3685,7 +3685,7 @@
     "description": "(S/U grades only.)",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Methods in Economics",

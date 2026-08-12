@@ -4099,7 +4099,7 @@
     "description": "Biochemical and physiological mechanisms of adaptation of organisms to the marine environment. Special emphasis is on biological responses to temperature, salinity, carbon dioxide, pH and bicarbonate levels.",
     "raw_prereq": "graduate standing or consent of instructor.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Phytoplankton Diversity",

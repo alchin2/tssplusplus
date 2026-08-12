@@ -5,7 +5,7 @@
     "description": "Each graduate student in the Materials Science and Engineering Program is expected to attend a weekly seminar in materials science or related areas. MS students must enroll for three quarters, PhD students for six quarters. (S/U grades only.)",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thermodynamics of Solids",

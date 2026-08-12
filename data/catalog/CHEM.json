@@ -3338,7 +3338,7 @@
     "description": "An introduction to specific scientific research areas, experimental design, and techniques in contemporary research through independent, original projects under the direction or guidance of individual faculty members. May be taken for credit up to four times for a maximum of sixteen units. (S/U grades only.)",
     "raw_prereq": "first-year graduate-student standing.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Research in Chemistry",

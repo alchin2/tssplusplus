@@ -2,6 +2,8 @@ module_id,code,name,filtered_data
 1,AAPI-087,First-year Seminar,AAPI87
 4,AAS-010R,Intro/African-American Studies,AAS10R
 10,AAS-170,Legacies of Research,AAS170
+21,AAS-198,Directed Group Study,AAS198
+22,AAS-199,Independent Study,AAS199
 24,COSE-215,Decision and Risk Analysis,COSE215
 31,COSE-230A,Quarterly Team Project,COSE230A
 49,MAE-020,Elements of Materials Science,MAE20
@@ -103,9 +105,11 @@ module_id,code,name,filtered_data
 1085,ASTR-104,Thermal Astrophysics,ASTR104
 1090,ASTR-122,Physical Cosmology,ASTR122
 1095,ASTR-150,Observational Optical Lab,ASTR150
+1103,ASTR-199,Research for Undergraduates,ASTR199
 1106,ASTR-215,Stellar Remnants,ASTR215
 1109,ASTR-250,Astro Colloquium,ASTR250
 1110,ASTR-251,Astro Journal Club,ASTR251
+1114,ASTR-298,Directed Studies in Astronomy,ASTR298
 1116,ASTR-500,Astronomical Teaching Training,ASTR500
 1117,AUD-236,Preceptorship in Neuro-Otology,AUD236
 1120,AUD-257,Ear Diseases & Treatment,AUD257
@@ -149,8 +153,10 @@ module_id,code,name,filtered_data
 1269,BENG-254,Synthetic Biology,BENG254
 1276,BENG-280A,Principles/Biomedical Imaging,BENG280A
 1279,BENG-282,Seminar: Faculty Research,BENG282
+1284,BENG-292,Scientific Ethics,BENG292
 1285,BENG-294A,Patient-Cent Clinical Medicine,BENG294A
 1288,BENG-295,BENG Design Proj & Industr Trn,BENG295
+1291,BENG-298L,Laboratory Research Rotation,BENG298L
 1292,BENG-299,Graduate Research,BENG299
 1294,BENG-501,Teaching Experience,BENG501
 1297,BGGN-202,Prof Develop for Biologists,BGGN202
@@ -228,6 +234,7 @@ module_id,code,name,filtered_data
 1806,BISP-195P,Pedagogy Learning Apprentice,BISP195P
 1810,BNFO-281,Sem in Bioinformtcs & Sys Biol,BNFO281
 1811,BNFO-283,BNFO Student Research Talks,BNFO283
+1815,BNFO-294,Scientific Ethics,BNFO294
 1816,BNFO-298,Research Rotation,BNFO298
 1817,BNFO-299,Graduate Research,BNFO299
 1818,BNFO-500,Teaching Assistanship,BNFO500
@@ -236,6 +243,7 @@ module_id,code,name,filtered_data
 1840,CAT-124,Sixth College Practicum,CAT124
 1843,CAT-125,Public Rhetoric & Prac Comm,CAT125
 1845,CAT-125R,Pub Rhet & Prac Comm Online,CAT125R
+1852,CAT-200,Writing and Critical Pedagogy,CAT200
 1855,CCE-001,CriticalApproach/CommPractice,CCE1
 1856,CCE-002,Cultivat/CommInformedPractices,CCE2
 1857,CCE-003,Elements/CommEngageColResearch,CCE3
@@ -339,6 +347,7 @@ module_id,code,name,filtered_data
 2592,POLI-104M,Law and Sex,POLI104M
 2600,TDGR-289D,Professionalization Seminar,TDGR289D
 2602,ECON-205,Mathematics for Economists,ECON205
+2603,TDGR-293,Directed Studies,TDGR293
 2609,CHEM-291,Molecular Biophysics Seminar,CHEM291
 2618,CHEM-292,Chem-Biol Interfaces Seminar,CHEM292
 2620,MATH-020D,Intro/Differential Equations,MATH20D
@@ -346,6 +355,7 @@ module_id,code,name,filtered_data
 2630,CHEM-294,Organic Chemistry Seminar,CHEM294
 2631,TDHD-175,Cultural Perspectives on Dance,TDHD175
 2637,ECON-210A,Macroeconomics A,ECON210A
+2644,CHEM-298,Special Study in Chemistry,CHEM298
 2645,TDHT-010,Introduction to Play Analysis,TDHT10
 2647,TDHT-021,Ancient and Medieval Theatre,TDHT21
 2650,CHEM-299,Research in Chemistry,CHEM299
@@ -425,6 +435,7 @@ module_id,code,name,filtered_data
 3197,MATH-154,Discrete Math & Graph Theory,MATH154
 3198,POLI-130B,Politics/People's Rep of China,POLI130B
 3200,ECON-296,Original Research Paper,ECON296
+3207,ECON-299,Research in Economics,ECON299
 3216,ECON-500A,Teaching Methods in Economics,ECON500A
 3270,EDS-031,Introductn to Teaching Science,EDS31
 3289,EDS-038,Explorations in Education,EDS38
@@ -454,6 +465,7 @@ module_id,code,name,filtered_data
 3621,MATH-183,Statistical Methods,MATH183
 3629,CLRE-255,Data Management & Informatics,CLRE255
 3632,MATH-184,Enumerative Combinatorics,MATH184
+3633,EDS-198,Directed Group Study,EDS198
 3648,CLRE-256,Patient-Oriented Research II,CLRE256
 3660,EDS-253,Transform Edu Sys and Policy,EDS253
 3663,POLI-145C,Interntnl Reltn After Cold War,POLI145C
@@ -583,6 +595,7 @@ module_id,code,name,filtered_data
 4706,COMM-194,Research Seminar/Washington DC,COMM194
 4717,MATH-286,Stochastic Differential Equatn,MATH286
 4721,POLI-279,Special Topics in Methodology,POLI279
+4724,COMM-198,Directed Group Study/Comm,COMM198
 4727,POLI-280,Wrkshp: Intl Law & Regulation,POLI280
 4728,POLI-281,Workshop: American Politics,POLI281
 4735,COGR-200A,Intro Study/Comm as Soc Force,COGR200A
@@ -602,6 +615,7 @@ module_id,code,name,filtered_data
 4836,MATH-299,Reading and Research,MATH299
 4846,MATH-500,Teaching Assistant Training,MATH500
 4856,SIO-170,Volcanology,SIO170
+4859,MATS-200,Graduate Seminar,MATS200
 4864,GPPS-463,Politics of Southeast Asia,GPPS463
 4865,MATS-201A,Thermodynamics of Solids,MATS201A
 4876,COGR-225C,Colloquium in Science Studies,COGR225C
@@ -615,6 +629,7 @@ module_id,code,name,filtered_data
 5023,MATS-236,Advanced Ceramics,MATS236
 5046,ESYS-090,Undergraduate Seminar,ESYS90
 5055,ESYS-101,Environmental Biology,ESYS101
+5060,COGR-299,Graduate Research,COGR299
 5061,MATS-251A,Elect&Photon Props. Materials,MATS251A
 5066,COGR-500,Practice Teaching/Communicatn,COGR500
 5073,COGS-001,Introduction to Cognitive Sci,COGS1
@@ -743,6 +758,7 @@ module_id,code,name,filtered_data
 6145,COGS-194,Research Seminar/Washington DC,COGS194
 6148,ERC-020,Frshmn Honors Sem:Intntl Theme,ERC20
 6149,MGT-045,Principles of Accounting,MGT45
+6152,COGS-197,Cognitive Science Internship,COGS197
 6153,MGT-052,Test & Measurement at Work,MGT52
 6155,MGT-071,Operating Successful Business,MGT71
 6161,MGT-071R,Operating Successful Business,MGT71R
@@ -827,8 +843,11 @@ module_id,code,name,filtered_data
 6525,LATI-220,Special Topic/Lat Amer Studies,LATI220
 6531,COGS-260,Seminar on Special Topics,COGS260
 6537,PH-427,Mental Hlth Across/Life Course,PH427
+6541,LATI-299,Independent Research,LATI299
 6568,TDGR-239,Skills,TDGR239
+6571,COGS-298,Directed Independent Study,COGS298
 6574,PH-441,Org&Financing/US HealthcareSys,PH441
+6575,COGS-299,Thesis Research,COGS299
 6580,COGS-500,Teaching Apprenticeship,COGS500
 6584,COMM-100A,"Comm, the Person&Everyday Life",COMM100A
 6586,TDGR-240,Directing Seminar,TDGR240
@@ -871,6 +890,7 @@ module_id,code,name,filtered_data
 7038,PSYC-242,Current Dir/Developmental Psyc,PSYC242
 7041,MGT-296,Research/Mgmt for Dissertation,MGT296
 7043,PH-050,Primary Care and Public Health,PH50
+7044,MGT-497,Advanced Management Research,MGT497
 7049,COMM-101T,Media Prod Lab: Topics in Prod,COMM101T
 7051,MGT-499,Individual Directed Study,MGT499
 7054,LIGM-001D,German Conversation,LIGM1D
@@ -1196,7 +1216,9 @@ module_id,code,name,filtered_data
 9233,USP-186,Senior Sequence Resrch Proposl,USP186
 9235,CSE-158R,Recommender Sys&Web Mining,CSE158R
 9241,CSE-020,Discrete Mathematics,CSE20
+9243,LTCO-298,Special Projects:Writng Course,LTCO298
 9247,MUS-176,Music Technology Seminar,MUS176
+9251,LTCO-299,Dissertation,LTCO299
 9255,CSE-021,Math/Algorithm&Systems Analys,CSE21
 9257,LTCS-010,Studies in Popular Culture,LTCS10
 9270,MUS-174A,Audio&MIDIStudioTechniques I,MUS174A
@@ -1237,6 +1259,7 @@ module_id,code,name,filtered_data
 9477,VIS-001,Intr/Art-Making:2-D Practices,VIS1
 9488,SIO-109R,Bending/Curve: Climate Change,SIO109R
 9502,HIEU-184,Yugoslavia Before During After,HIEU184
+9518,LTCS-299,Dissertation,LTCS299
 9528,MUS-215A,Seminar/IntegrativeStudies I,MUS215A
 9551,SIO-117,Physical Basis/Global Warming,SIO117
 9558,LTEA-110A,Classicl Chinese Fict/Transltn,LTEA110A
@@ -1323,6 +1346,7 @@ module_id,code,name,filtered_data
 10113,CSE-209B,Top/Seminar in Cryptography,CSE209B
 10115,NANO-202,Intermolecular& Surface Forces,NANO202
 10121,CSE-216,Interaction Design Research,CSE216
+10122,HIGR-282,Topics in Global History,HIGR282
 10137,CSE-219,Design at Large,CSE219
 10146,NANO-227,Structure & Analysis of Solids,NANO227
 10148,SIOC-214A,Intro To Fluid Mechanics,SIOC214A
@@ -1358,6 +1382,7 @@ module_id,code,name,filtered_data
 10472,CSE-258R,Recommender Sys&Web Mining,CSE258R
 10479,HILD-010,East Asia: The Great Tradition,HILD10
 10491,CSE-210,Principle/Software Engineering,CSE210
+10496,LTEN-299,Dissertation,LTEN299
 10509,VIS-124E,The Production of Nature,VIS124E
 10510,HILD-014,Film & History in Latin Amer,HILD14
 10528,HILD-030,History of Public Health,HILD30
@@ -1430,6 +1455,7 @@ module_id,code,name,filtered_data
 11267,SIOB-279,Ecology Seminar/BO,SIOB279
 11274,VIS-164,Photographic Strategies,VIS164
 11275,SIOB-280,Biological Oceanography,SIOB280
+11282,SIOB-281,Marine Physiology,SIOB281
 11300,DOC-001,Diversity,DOC1
 11305,VIS-167,Social Engagement&Photography,VIS167
 11335,SIOB-285,Physical-Biological Interactns,SIOB285
@@ -1470,14 +1496,19 @@ module_id,code,name,filtered_data
 11642,DSC-200,Data Science Programming,DSC200
 11658,SIOG-238,Numerical Methods,SIOG238
 11660,DSC-204A,Scalable Data Systems,DSC204A
+11673,DSC-207R,Python for Data Science,DSC207R
+11689,DSC-209R,Data Visualization,DSC209R
 11694,SOCI-001,Introduction to Sociology,SOCI1
 11697,DSC-210,Numerical Linear Algebra,DSC210
 11706,DSC-212,Probs. & Stats. for DSC,DSC212
+11716,DSC-215R,Found Prob/Stats in Data Sci,DSC215R
 11731,DSC-240,Machine Learning,DSC240
 11737,DSC-242,High-Dimensional Prob/Stats,DSC242
 11764,VIS-200,Methods and Theories,VIS200
 11766,SOCI-100,Classical Sociological Theory,SOCI100
 11774,VIS-203,Working Critique,VIS203
+11779,DSC-256R,Data Mining on the Web,DSC256R
+11784,DSC-257R,Unsupervised Learning,DSC257R
 11790,VIS-205,Intro/Grad Studies/Art Practic,VIS205
 11802,VIS-207,Working Practice for AP PhD's,VIS207
 11810,DSC-261,Responsible Data Science,DSC261
@@ -1488,6 +1519,7 @@ module_id,code,name,filtered_data
 11841,DSC-293,Faculty Research Seminar,DSC293
 11845,SOCI-105,Ethnographic Film: Media Meth,SOCI105
 11853,DSC-295,Academia Survival Skills,DSC295
+11863,DSC-299,Graduate Research,DSC299
 11868,DSC-500,Teaching Assistantship,DSC500
 11872,DSC-599,Teaching Methods/Data Science,DSC599
 11879,DSE-200,Python for Data Anlaysis,DSE200
@@ -1571,6 +1603,7 @@ module_id,code,name,filtered_data
 12840,PH-275,HSRIS Colloquium Series,PH275
 12843,SOCG-226,Political Sociology,SOCG226
 12844,PH-289R,Implementation Science,PH289R
+12846,PH-299,Dissertation Research PH,PH299
 12849,PH-417R,CVD Epidemiology,PH417R
 12853,PH-429,Substance Use/Population Hlth,PH429
 12854,ECE-148,Intro to Autonomous Vehicles,ECE148
@@ -1582,6 +1615,8 @@ module_id,code,name,filtered_data
 12949,LTKO-001A,Beginning Korean:First Yr. I,LTKO1A
 12983,SOCG-290,Graduate Seminar,SOCG290
 12985,LTKO-002A,Intermediate Korean:2nd Yr I,LTKO2A
+12988,SOCG-298,Independent Study,SOCG298
+12994,SOCG-299,Thesis Research,SOCG299
 13004,SOCI-104Q,Qualitative Interviewing,SOCI104Q
 13013,ECE-158A,Data Networks I,ECE158A
 13018,HITO-194,History Honors,HITO194
@@ -1647,9 +1682,11 @@ module_id,code,name,filtered_data
 13548,LTSP-002F,Spanish Heritage Learners II,LTSP2F
 13549,PHIL-176,Philosophy of Culture,PHIL176
 13557,LTSP-003F,Spanish Heritage Learners III,LTSP3F
+13572,HIGR-299,Ph.D. Thesis Direction,HIGR299
 13575,ECE-240A,Lasers and Optics,ECE240A
 13578,LTSP-002A,Intermediate Spanish I,LTSP2A
 13579,PHIL-147,Philosophy of Biology,PHIL147
+13581,HIGR-500,Apprentice Teaching,HIGR500
 13602,HITO-087,First-year Seminar,HITO87
 13605,LTSP-002B,Intermediate Spanish II,LTSP2B
 13614,HITO-100,The Craft of History,HITO100
@@ -1683,6 +1720,7 @@ module_id,code,name,filtered_data
 13826,PHIL-220,"Agency,Responsibility&Freedom",PHIL220
 13845,ECE-253,Fundmntls/Digital Image Proces,ECE253
 13855,HITO-193,Research Seminar/Washington DC,HITO193
+13857,HITO-199,Independent Study/Hist Topics,HITO199
 13902,PHIL-271,"Agency, Morality, and Psych RG",PHIL271
 13911,ECE-257A,Modern Communication Networks,ECE257A
 13914,PHIL-275,German Philosophy RG,PHIL275
@@ -1731,6 +1769,7 @@ module_id,code,name,filtered_data
 14361,PHYS-001BL,Electricity & Magnetism Lab,PHYS1BL
 14386,ECE-298,Independent Study,ECE298
 14387,PHYS-001C,"Waves, Optics & Modern Physics",PHYS1C
+14388,LTSP-299,Dissertation,LTSP299
 14390,ECE-299,Research,ECE299
 14393,LTTH-115,Introduction/Critical Theory,LTTH115
 14394,ECE-501,Teaching,ECE501
@@ -1812,6 +1851,7 @@ module_id,code,name,filtered_data
 15108,PHYS-191,Undergraduate Seminar/Physics,PHYS191
 15109,INTL-190,Seminar/International Studies,INTL190
 15122,INTL-190H,Honors Seminar/ Int'l Studies,INTL190H
+15124,LTWR-295,MFA Thesis,LTWR295
 15130,MAE-002,Intro to Aerospace Engineering,MAE2
 15138,PHYS-200A,Theoretical Mechanics I,PHYS200A
 15141,MAE-008,MATLAB Program for Engr Analys,MAE8
@@ -1856,6 +1896,7 @@ module_id,code,name,filtered_data
 15449,PHYS-253,Astrophysics & Cosmology Sem,PHYS253
 15457,PHYS-254,Biophysics Seminar,PHYS254
 15463,PHYS-255,Biophysics Talks,PHYS255
+15484,PHYS-260,Physics Colloquium,PHYS260
 15507,PHYS-275,Biological Physics,PHYS275
 15528,PHYS-298,Directed Study in Physics,PHYS298
 15530,PHYS-299,Thesis Research in Physics,PHYS299
@@ -1870,15 +1911,20 @@ module_id,code,name,filtered_data
 15620,SYN-100,Engaging/Changing Planet,SYN100
 15622,SYN-150,Defining Scope/Changing Planet,SYN150
 15633,TDAC-106,Chekhov Acting,TDAC106
+20622,ARCH-900.02,FTRS: Intro to AutoCAD,ARCH900.02
 20639,ARCH-900.05,Revit Architecture I,ARCH900.05
 21050,ART-813.15,Cntmpry Floral Dsgn Fall Flwr,ART813.15
 21303,EDUC-800.12,Reading & Literacy Orientation,EDUC800.12
+21309,EDUC-800.13,SAT Prep,EDUC800.13
 21586,EDUC-800.61,TESL Practicum,EDUC800.61
+21620,EDUC-800.67,WACAC CCEP NFC,EDUC800.67
 21766,EDUC-900.08,GRE Test Prep,EDUC900.08
 21784,EDUC-900.11,MCAT Test Prep,EDUC900.11
 21922,EDUC-900.34,Enlistment ASVAB Test Prep,EDUC900.34
 22171,CDEV-700.00,Course Development- Photo,CDEV700.00
 22180,LANG-901.19,Discuss TV/Video Int ESL,LANG901.19
+22195,CDEV-700.04,CDEV - Translation,CDEV700.04
+22202,CDEV-700.05,CDEV - Spanish,CDEV700.05
 22234,LANG-901.53,Volunteer Lead ESL Adv,LANG901.53
 22240,LANG-901.57,Adv. Academic Skills,LANG901.57
 22252,LANG-901.63,High-Int Academic Skills,LANG901.63
@@ -1887,6 +1933,7 @@ module_id,code,name,filtered_data
 22343,LANG-902.28,Professional English Elect. I,LANG902.28
 22373,LANG-902.37,Professional Leadership Sem.,LANG902.37
 22385,LANG-902.44,Professional Elective IV,LANG902.44
+22388,CDEV-700.36,Course Development - Writing,CDEV700.36
 22408,LANG-902.53,Disc.Idioms/Slang Pre-Int/Int.,LANG902.53
 22414,LANG-902.54,Disc.Idioms/Slang High-Int/Adv,LANG902.54
 22426,LANG-902.56,Disc TV/Film/Vid High-Int/Adv.,LANG902.56
@@ -1895,6 +1942,7 @@ module_id,code,name,filtered_data
 22462,LANG-902.62,High-Int. Comm. Grammar,LANG902.62
 22474,LANG-902.64,High-Int/Adv. Comm. Grammar,LANG902.64
 22486,LANG-902.66,Military English,LANG902.66
+22495,CDEV-700.54,CDEV - Foreign Language,CDEV700.54
 27910,LING-900.12,Intro to Transl and Interp,LING900.12
 28952,OSHR-700.01,Politics & Current Events 1,OSHR700.01
 29013,OSHR-700.10,Activities & Events 1,OSHR700.10
@@ -1908,6 +1956,8 @@ module_id,code,name,filtered_data
 29233,OSHR-700.44,Literature 2,OSHR700.44
 29240,OSHR-700.45,Literature 3,OSHR700.45
 29859,OSHR-701.31,Literature 4,OSHR701.31
+30147,OSHR-701.70,Write Your Story Forward LR,OSHR701.70
+30155,PATH-700.00,Clinical Lab Sci Res Shell,PATH700.00
 30742,BENG-900.11,BioEng Research Proposal,BENG900.11
 30769,BENG-900.16,Mammalian Cell & Tissue,BENG900.16
 31186,BIOL-800.07,Pharma & Biotech Drugs Journey,BIOL800.07
@@ -1917,6 +1967,9 @@ module_id,code,name,filtered_data
 31811,CSE-901.03,FTRS: Intro to Robotics w/JS,CSE901.03
 32189,CSE-901.62,Python and Mathematics for ML,CSE901.62
 32415,CSE-901.94,Digital Logic Circuits,CSE901.94
+39153,BUSA-800.55,MicroMBA,BUSA800.55
+39161,BUSA-800.56,Product Management Program,BUSA800.56
+39173,BUSA-800.58,Biotech Unicorn Program,BUSA800.58
 39191,BUSA-800.61,Crafting Unique Personal Brand,BUSA800.61
 39198,BUSA-800.62,Interpersonal Communication,BUSA800.62
 39205,BUSA-800.63,Navigating Conflict,BUSA800.63
@@ -1924,25 +1977,39 @@ module_id,code,name,filtered_data
 39218,BUSA-800.65,Lean Six Sigma Cinturón Blanco,BUSA800.65
 39371,BUSA-900.17,FTRS Business Decision Making,BUSA900.17
 39711,BUSA-900.70,FTRS: Principles of Marketing,BUSA900.70
+43667,WKSP-700.03,CorpEd Training,WKSP700.03
 43959,WKSP-700.45,SDUSD Induction Mentor Service,WKSP700.45
 43999,MARI-900.44,Introduction to Marine Science,MARI900.44
 44047,MARI-900.51,Intro to Scientific Writing,MARI900.51
+45833,INFO-700.27,Translation Info Session,INFO700.27
 45854,INFO-700.34,Copyediting Information Sess,INFO700.34
+46251,INFO-701.79,Pre-Arrival Orientation ELI,INFO701.79
+46254,INFO-701.80,Pre-Arriv Orient TEFL/BPIS/UPS,INFO701.80
 46257,INFO-701.81,ELI Info & Resources,INFO701.81
+46272,INFO-701.86,PAO Intl Custom Programs,INFO701.86
 46302,INFO-701.97,Project Management Information,INFO701.97
 48400,RMED-800.15,LC Lecture Review,RMED800.15
 48402,RMED-800.17,Clinical Preceptor Symposium,RMED800.17
 48579,BIOM-900.06,Sports Medicine,BIOM900.06
 48589,CSE-902.15,Foundations Programming & Math,CSE902.15
 48691,EXAM-900.00,Entrance Exam: Translation,EXAM900.00
+48719,OSHR-701.71,Osher Online Learning 2,OSHR701.71
+48720,OSHR-701.74,Osher Online Learning 5,OSHR701.74
+48721,OSHR-701.75,Osher Online Learning 6,OSHR701.75
 48722,OSHR-701.82,Osher - Law and Society,OSHR701.82
+48723,OSHR-701.76,Osher Online Learning 7,OSHR701.76
 48724,OSHR-701.80,Osher - Master Class,OSHR701.80
 48725,OSHR-701.86,Membership: Quarterly,OSHR701.86
 48726,OSHR-701.85,Membership: Annual,OSHR701.85
 48728,OSHR-701.84,Osher - Literature and History,OSHR701.84
+48732,OSHR-701.73,Osher Online Learning 4,OSHR701.73
 48737,OSHR-701.81,Osher - Premier Class,OSHR701.81
 48738,OSHR-701.89,Membership: Affiliate,OSHR701.89
+48739,OSHR-701.78,Osher Online Learning 9,OSHR701.78
+48741,OSHR-701.72,Osher Online Learning 3,OSHR701.72
+48743,OSHR-701.77,Osher Online Learning 8,OSHR701.77
 48744,OSHR-701.83,Osher - Arts and Humanities,OSHR701.83
+48746,OSHR-701.79,Osher Online Learning 10,OSHR701.79
 48757,OSHR-701.94,Osher - Sci/Med/Engineering,OSHR701.94
 48758,OSHR-701.93,Osher - IR/Politics/CurrentEvt,OSHR701.93
 48759,OSHR-701.93,Osher - IR/Politics/CurrentEvt,OSHR701.93
@@ -1950,3 +2017,4 @@ module_id,code,name,filtered_data
 48761,OSHR-701.91,Osher - Activities and Events,OSHR701.91
 48762,OSHR-701.90,Osher - Discussion Groups,OSHR701.90
 48779,LIGN-103,Ling Analysis: Syn/Sem/Prag,LIGN103
+48901,PH-200,Foundations of Public Health,PH200

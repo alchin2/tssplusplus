@@ -3132,7 +3132,7 @@
     "description": "Discussions of recent research in physics directed to the entire physics community. (S/U grades only.)",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Seminar on Physics Research at UC San Diego",

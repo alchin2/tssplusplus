@@ -632,7 +632,7 @@
     "description": "Independent reading or research on a problem by special arrangement with a faculty member. Department approval required. Upper division standing required. May be taken for credit up to three times.",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Honors Thesis Research for Undergraduates",
@@ -824,7 +824,7 @@
     "description": "Research studies under the direction of a faculty member. May be taken for credit up to twenty-four times. Department approval required.",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Research in Astronomy and Astrophysics",

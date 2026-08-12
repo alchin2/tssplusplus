@@ -2507,7 +2507,7 @@
     "description": "The student will undertake a program of practical research in a supervised work environment. Topics to be researched may vary, but in each case the course will provide skills for carrying out these studies. P/NP grades only. May be taken for credit up to three times.",
     "raw_prereq": "upper-division standing; 2.5 GPA; department approval.",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Directed Group Study",
@@ -2782,7 +2782,7 @@
     "description": "Students study and research selected topics under the direction of a member of the faculty.",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Thesis Research",
@@ -2790,7 +2790,7 @@
     "description": "Students are provided directed research on their dissertation topic by faculty advisers.",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": false
+    "offered_this_qtr": true
   },
   {
     "name": "Teaching Apprenticeship",
