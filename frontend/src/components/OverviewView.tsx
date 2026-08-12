@@ -1,10 +1,12 @@
-import { BookOpen, LayoutGrid } from "lucide-react";
+import { AlertTriangle, BookOpen, LayoutGrid, X } from "lucide-react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { computeFinal, finalDateLabel, finalsRangeLabel, fmt } from "../lib/schedule";
+import { conflictingCourseIds } from "../lib/plannerEvents";
 import type { PlannedItem } from "../types";
 
-export function OverviewView({ items }: { items: PlannedItem[] }) {
+export function OverviewView({ items, onRemove }: { items: PlannedItem[]; onRemove?: (courseId: string) => void }) {
   const term = termLabel(useMeta());
+  const conflictIds = conflictingCourseIds(items);
   if (items.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-[60vh] gap-3 text-gray-400">
@@ -26,8 +28,8 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
     <div className="overflow-auto" style={{ backgroundColor: "#f5f5fa", minHeight: "100%" }}>
 
       {/* ── stats bar ── */}
-      <div className="flex-shrink-0 px-6 py-3 border-b border-[#b0b0c8] flex items-center gap-0" style={{ backgroundColor: "#6261c0" }}>
-        <div className="pr-6">
+      <div className="flex-shrink-0 px-4 py-3 border-b border-[#b0b0c8] flex items-center flex-wrap gap-y-2" style={{ backgroundColor: "#6261c0" }}>
+        <div className="pr-4">
           <div className="text-white font-bold text-sm">My Schedule Overview</div>
           <div className="text-white/60 text-[11px]">{term || "…"}</div>
         </div>
@@ -36,7 +38,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
           { v: `${totalHrs.toFixed(1)}h`,               l: "Class Hrs/Wk" },
           { v: buildings,                               l: "Buildings"    },
         ].map(({ v, l }) => (
-          <div key={l} className="border-l border-white/25 px-6">
+          <div key={l} className="border-l border-white/25 px-4">
             <div className="text-white font-bold text-xl leading-none">{v}</div>
             <div className="text-white/55 text-[0.769rem] mt-1">{l}</div>
           </div>
@@ -44,10 +46,14 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
       </div>
 
       {/* ── course cards ── */}
-      <div className="p-5 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(440px, 1fr))" }}>
+      {/* min(100%, 440px) keeps the track from forcing horizontal scroll when
+          the dock is narrower than 440px, while still going multi-column on
+          the full-width mobile dock. */}
+      <div className="p-4 grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 440px), 1fr))" }}>
         {items.map(({ course, section }) => {
-          const fi   = computeFinal(section);
-          const lec  = section.meetings.find(m => m.type === "LE");
+          const fi       = computeFinal(section);
+          const lec      = section.meetings.find(m => m.type === "LE");
+          const conflict = conflictIds.has(course.id);
 
           return (
             <div key={course.id} className="bg-white border border-[#d4d4e4] overflow-hidden"
@@ -62,11 +68,22 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-mono font-bold text-base" style={{ color: "#0b4a67" }}>{course.code}</span>
                         <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-sm" style={{ backgroundColor: course.color + "22", color: course.color }}>{course.dept}</span>
+                        {conflict && (
+                          <span className="flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5" style={{ backgroundColor: "#cc0000", color: "#fff" }}>
+                            <AlertTriangle className="w-2.5 h-2.5" /> CONFLICT
+                          </span>
+                        )}
                       </div>
                       <p className="text-sm font-bold text-gray-700 mt-0.5 leading-snug">{course.title}</p>
                     </div>
                     {course.offeredThisQuarter && (
                       <span className="text-[10px] font-bold px-2 py-0.5 flex-shrink-0" style={{ backgroundColor: "#d56a03", color: "#fff" }}>{term || "…"}</span>
+                    )}
+                    {onRemove && (
+                      <button onClick={() => onRemove(course.id)} aria-label={`Remove ${course.code}`} title={`Remove ${course.code}`}
+                        className="flex-shrink-0 p-1 text-gray-400 hover:text-red-600 transition-colors">
+                        <X className="w-4 h-4" />
+                      </button>
                     )}
                   </div>
                 </div>
@@ -130,13 +147,14 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
 
       {/* ── finals summary table ── */}
       {finals.length > 0 && (
-        <div className="px-5 pb-6">
+        <div className="px-4 pb-6">
           <div className="border border-[#d4d4e4] bg-white overflow-hidden" style={{ borderRadius: 3 }}>
             <div className="px-4 py-2.5 border-b border-[#d4d4e4] flex items-center gap-2" style={{ backgroundColor: "#6261c0" }}>
               <BookOpen className="w-3.5 h-3.5 text-white" />
               <span className="font-bold text-white text-xs">Finals Week Summary — {finalsRangeLabel()}</span>
             </div>
-            <table className="w-full text-xs border-collapse">
+            <div className="overflow-x-auto">
+            <table className="min-w-[520px] w-full text-xs border-collapse">
               <thead>
                 <tr style={{ backgroundColor: "#f0effe" }}>
                   {["Course", "Section", "Professor", "Date", "Time", "Room"].map(h => (
@@ -165,6 +183,7 @@ export function OverviewView({ items }: { items: PlannedItem[] }) {
                 })}
               </tbody>
             </table>
+            </div>
           </div>
         </div>
       )}

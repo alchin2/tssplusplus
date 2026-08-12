@@ -1,21 +1,19 @@
-import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useState } from "react";
-import { BookOpen, Calendar, Github, LayoutGrid, Map as MapIcon, Search } from "lucide-react";
+import { Calendar, Github, LayoutGrid, Map as MapIcon, Search } from "lucide-react";
 import { Toaster, toast } from "sonner";
-import { CourseDetailPanel } from "./components/CourseDetailPanel";
 import { RaccoonLogo } from "./components/RaccoonLogo";
-import { HomeView } from "./components/HomeView";
-import { MapView } from "./components/MapView";
-import { OverviewView } from "./components/OverviewView";
+import { CommandPalette } from "./components/CommandPalette";
+import { ContextDock, type DockTab } from "./components/ContextDock";
 import { PlannerView } from "./components/PlannerView";
-import { SearchView } from "./components/SearchView";
 import { usePlannedItems } from "./hooks/usePlannedItems";
 import { fetchCourses } from "./lib/api";
 import { conflictsWith } from "./lib/schedule";
-import type { Course, MainView, Section } from "./types";
+import type { Course, Section } from "./types";
+
+// Mobile shows one zone at a time; desktop shows both side by side.
+type MobileZone = "calendar" | "dock";
 
 export default function App() {
-  const [mainView, setMainView]       = useState<MainView>("home");
   const [query, setQuery]             = useState("");
   const [deptFilter, setDept]         = useState("ALL");
   const [offeredFilter, setOff]       = useState(false);
@@ -27,8 +25,48 @@ export default function App() {
   const [searchLoading, setLoading]   = useState(true);
   const [searchError, setError]       = useState<string | null>(null);
 
-  // Server-side search/filter per the design doc's /api/courses contract,
-  // debounced so typing doesn't fire a request per keystroke.
+  // Workbench UI state
+  const [paletteOpen, setPaletteOpen] = useState(false);
+  const [dockTab, setDockTab]         = useState<DockTab>("detail");
+  const [mobileZone, setMobileZone]   = useState<MobileZone>("calendar");
+
+  // Resizable context dock (desktop only). Width is a plain px number and only
+  // takes effect at md+, where the dock sits beside the calendar.
+  const [dockWidth, setDockWidth]     = useState(440);
+  const [isDesktop, setIsDesktop]     = useState(
+    () => typeof window !== "undefined" && window.matchMedia("(min-width: 768px)").matches,
+  );
+  useEffect(() => {
+    const mq = window.matchMedia("(min-width: 768px)");
+    const onChange = () => setIsDesktop(mq.matches);
+    mq.addEventListener("change", onChange);
+    return () => mq.removeEventListener("change", onChange);
+  }, []);
+
+  function startDockResize(e: React.PointerEvent) {
+    e.preventDefault();
+    const startX = e.clientX;
+    const startW = dockWidth;
+    function onMove(ev: PointerEvent) {
+      // Dock is on the right, so dragging the handle left widens it.
+      const next = Math.min(Math.max(startW + (startX - ev.clientX), 320), 760);
+      setDockWidth(next);
+    }
+    function onUp() {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+      document.body.style.cursor = "";
+      document.body.style.userSelect = "";
+    }
+    document.body.style.cursor = "col-resize";
+    document.body.style.userSelect = "none";
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onUp);
+  }
+
+  // Server-side search/filter per the /api/courses contract, debounced so
+  // typing doesn't fire a request per keystroke. State stays lifted here and
+  // feeds the CommandPalette; results survive the palette closing/reopening.
   useEffect(() => {
     let alive = true;
     setLoading(true);
@@ -49,14 +87,31 @@ export default function App() {
     return divFilter === "lower" ? num < 100 : num >= 100;
   }), [courses, divFilter]);
 
-  function goSearch(q?: string) {
-    if (q !== undefined) setQuery(q);
-    setMainView("search");
-    setSelected(null);
-  }
+  // ⌘K / Ctrl-K toggles the command palette; Escape closes it.
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setPaletteOpen(o => !o);
+      } else if (e.key === "Escape") {
+        setPaletteOpen(false);
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
 
   function openCourse(course: Course) {
-    setSelected(prev => prev?.id === course.id ? null : course);
+    setSelected(course);
+    setDockTab("detail");
+    setMobileZone("dock");
+    setPaletteOpen(false);
+  }
+
+  // Calendar events carry a courseId; resolve it to the planned Course.
+  function selectByCourseId(courseId: string) {
+    const item = plannedItems.find(i => i.course.id === courseId);
+    if (item) openCourse(item.course);
   }
 
   function handleAdd(course: Course, section: Section) {
@@ -71,46 +126,32 @@ export default function App() {
     updatePlanned(prev => prev.filter(i => i.course.id !== courseId));
   }
 
-  const showPanel = selectedCourse !== null && mainView === "search";
-
   return (
     <div className="h-dvh flex flex-col app-shell" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
       <Toaster position="top-right" richColors />
 
-      {/* Nav */}
-      <nav className="flex-shrink-0 h-10 flex items-stretch z-10" style={{ backgroundColor: "#0b4a67" }}>
-        <button
-          onClick={() => { setMainView("home"); setSelected(null); }}
-          className="flex items-center gap-2 px-4 border-r border-white/20 hover:bg-white/10 transition-colors">
+      {/* ── Top bar ── */}
+      <nav className="flex-shrink-0 h-10 flex items-center gap-2 px-2 z-10" style={{ backgroundColor: "#0b4a67" }}>
+        <div className="flex items-center gap-2 pr-2">
           <span style={{ display: "flex", flexShrink: 0, transform: "rotate(-4deg)", filter: "drop-shadow(0 1px 3px rgba(0,0,0,0.3))" }}>
-            <RaccoonLogo width={36} />
+            <RaccoonLogo width={32} />
           </span>
           <span className="font-bold text-white text-sm tracking-tight">TSS<span style={{ color: "#f5c842" }}>++</span></span>
+        </div>
+
+        {/* ⌘K search trigger */}
+        <button onClick={() => setPaletteOpen(true)}
+          className="flex-1 max-w-md flex items-center gap-2 px-2.5 py-1 text-white/70 hover:text-white transition-colors"
+          style={{ backgroundColor: "rgba(255,255,255,0.14)", border: "1px solid rgba(255,255,255,0.22)" }}>
+          <Search className="w-3.5 h-3.5 flex-shrink-0" />
+          <span className="text-xs">Search courses…</span>
+          <span className="ml-auto text-[10px] font-bold px-1.5 py-0.5" style={{ backgroundColor: "rgba(255,255,255,0.16)", border: "1px solid rgba(255,255,255,0.25)" }}>⌘K</span>
         </button>
 
-        {([
-          { id: "search"   as const, label: "Course Search"    },
-          { id: "planner"  as const, label: "Schedule Planner" },
-          { id: "overview" as const, label: "Overview"         },
-          { id: "map"      as const, label: "Map"              },
-        ] as const).map(({ id, label }) => {
-          const active = mainView === id;
-          return (
-            <button key={id}
-              onClick={() => { if (id === "search") goSearch(); else { setMainView(id); setSelected(null); } }}
-              className="hidden md:block px-4 text-xs font-bold border-r border-white/20 transition-colors"
-              style={{ backgroundColor: active ? "#d56a03" : "transparent", color: "#fff" }}
-              onMouseEnter={e => { if (!active) (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.12)"; }}
-              onMouseLeave={e => { if (!active) (e.target as HTMLElement).style.backgroundColor = "transparent"; }}>
-              {label}
-            </button>
-          );
-        })}
-
-        <div className="ml-auto flex items-center gap-1 px-3">
+        <div className="ml-auto flex items-center gap-1">
           {plannedItems.length > 0 && (
-            <button onClick={() => { setMainView("planner"); setSelected(null); }}
-              className="flex items-center gap-1.5 px-2.5 py-1 text-white text-[0.769rem] font-bold mr-1"
+            <button onClick={() => { setDockTab("overview"); setMobileZone("dock"); }}
+              className="flex items-center gap-1.5 px-2.5 py-1 text-white text-[0.769rem] font-bold"
               style={{ backgroundColor: "#d56a03", border: "1px solid #c86000" }}>
               <Calendar className="w-3 h-3" />
               {plannedItems.length} course{plannedItems.length !== 1 ? "s" : ""}
@@ -125,90 +166,65 @@ export default function App() {
 
       <div style={{ height: 3, backgroundColor: "#6261c0", flexShrink: 0 }} />
 
-      {/* Main */}
+      {/* ── Two zones: calendar canvas + context dock ── */}
       <main className="flex-1 flex overflow-hidden" style={{ backgroundColor: "#fff" }}>
-
-        {/* Content area — shrinks when panel is open */}
-        {/* pb-16 keeps content clear of the fixed mobile bottom nav */}
-        <div className="flex-1 min-w-0 overflow-auto transition-all duration-200 pb-16 md:pb-0 app-scroll">
-          {mainView === "home" && <HomeView onSearch={goSearch} />}
-          {mainView === "search" && (
-            <SearchView
-              query={query} onQuery={setQuery}
-              deptFilter={deptFilter} onDeptFilter={setDept}
-              offeredFilter={offeredFilter} onOfferedFilter={setOff}
-              divFilter={divFilter} onDivFilter={setDiv}
-              courses={filtered}
-              loading={searchLoading}
-              error={searchError}
-              selectedCourseId={selectedCourse?.id ?? null}
-              onOpenCourse={openCourse}
-            />
-          )}
-          {mainView === "planner" && (
-            <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => goSearch()} />
-          )}
-          {mainView === "overview" && (
-            <OverviewView items={plannedItems} />
-          )}
-          {mainView === "map" && (
-            <MapView items={plannedItems} />
-          )}
+        {/* Calendar canvas */}
+        <div className={`${mobileZone === "calendar" ? "flex" : "hidden"} md:flex flex-1 min-w-0 flex-col pb-16 md:pb-0`}>
+          <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} onSelectCourse={selectByCourseId} />
         </div>
 
-        {/* Side detail panel */}
-        <AnimatePresence>
-          {showPanel && selectedCourse && (
-            <motion.div
-              key="detail-panel"
-              initial={{ x: 520, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: 520, opacity: 0 }}
-              transition={{ duration: 0.22, ease: [0.25, 0.1, 0.25, 1] }}
-              style={{ width: 520, flexShrink: 0, borderLeft: "2px solid #6261c0" }}
-              className="overflow-hidden shadow-xl"
-            >
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={selectedCourse.id}
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={{ duration: 0.12 }}
-                  className="h-full"
-                >
-                  <CourseDetailPanel
-                    course={selectedCourse}
-                    plannedItems={plannedItems}
-                    onAdd={handleAdd}
-                    onClose={() => setSelected(null)}
-                  />
-                </motion.div>
-              </AnimatePresence>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {/* Resize handle (desktop only) */}
+        <div onPointerDown={startDockResize}
+          className="hidden md:block flex-shrink-0 w-1 cursor-col-resize bg-[#c0c0c0] hover:bg-[#6261c0] active:bg-[#6261c0] transition-colors"
+          role="separator" aria-orientation="vertical" title="Drag to resize" />
+
+        {/* Context dock */}
+        <div className={`${mobileZone === "dock" ? "flex" : "hidden"} md:flex w-full flex-shrink-0 flex-col pb-16 md:pb-0`}
+          style={isDesktop ? { width: dockWidth } : undefined}>
+          <ContextDock
+            tab={dockTab} onTab={setDockTab}
+            selectedCourse={selectedCourse}
+            plannedItems={plannedItems}
+            onAdd={handleAdd}
+            onRemove={handleRemove}
+          />
+        </div>
       </main>
 
-      {/* Mobile bottom nav */}
-      <nav className="md:hidden fixed bottom-0 inset-x-0 flex border-t border-[#c0c0c0] z-50"
+      {/* ── Mobile bottom nav (zone switcher) ── */}
+      <nav className="md:hidden fixed bottom-0 inset-x-0 flex border-t border-[#c0c0c0] z-40"
         style={{ backgroundColor: "#0b4a67", paddingBottom: "var(--safe-area-bottom)" }}>
-        {[
-          { id: "home"     as const, label: "Home",     icon: BookOpen   },
-          { id: "search"   as const, label: "Search",   icon: Search     },
-          { id: "planner"  as const, label: "Planner",  icon: Calendar   },
-          { id: "overview" as const, label: "Overview", icon: LayoutGrid },
-          { id: "map"      as const, label: "Map",      icon: MapIcon    },
-        ].map(({ id, label, icon: Icon }) => (
-          <button key={id}
-            onClick={() => id === "search" ? goSearch() : (setMainView(id), setSelected(null))}
-            className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold transition-colors"
-            style={{ color: mainView === id ? "#f5c842" : "rgba(255,255,255,0.7)" }}>
-            <Icon className="w-4 h-4" />
-            {label}
-          </button>
-        ))}
+        <button onClick={() => setPaletteOpen(true)}
+          className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold text-white/70">
+          <Search className="w-4 h-4" /> Search
+        </button>
+        <button onClick={() => setMobileZone("calendar")}
+          className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold transition-colors"
+          style={{ color: mobileZone === "calendar" ? "#f5c842" : "rgba(255,255,255,0.7)" }}>
+          <Calendar className="w-4 h-4" /> Calendar
+        </button>
+        <button onClick={() => setMobileZone("dock")}
+          className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold transition-colors"
+          style={{ color: mobileZone === "dock" ? "#f5c842" : "rgba(255,255,255,0.7)" }}>
+          {dockTab === "map" ? <MapIcon className="w-4 h-4" /> : <LayoutGrid className="w-4 h-4" />} Dock
+        </button>
       </nav>
+
+      {/* ── ⌘K command palette ── */}
+      {paletteOpen && (
+        <CommandPalette
+          onClose={() => setPaletteOpen(false)}
+          query={query} onQuery={setQuery}
+          deptFilter={deptFilter} onDeptFilter={setDept}
+          offeredFilter={offeredFilter} onOfferedFilter={setOff}
+          divFilter={divFilter} onDivFilter={setDiv}
+          courses={filtered}
+          loading={searchLoading}
+          error={searchError}
+          selectedCourseId={selectedCourse?.id ?? null}
+          onOpenCourse={openCourse}
+        />
+      )}
     </div>
   );
 }
