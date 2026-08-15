@@ -3,12 +3,17 @@ import { useEffect, useMemo, useState } from "react";
 import { termLabel, useMeta } from "../hooks/useMeta";
 import { ApiError, fetchCourseDetail } from "../lib/api";
 import type { Course, CourseDetail, PlannedItem, Section } from "../types";
+import type { TranscriptState } from "./ContextDock";
 import { PrereqGraph } from "./PrereqGraph";
 import { SectionsTable } from "./SectionsTable";
+import { TranscriptUpload } from "./TranscriptUpload";
 
-export function CourseDetailPanel({ course, plannedItems, onAdd }: {
+export function CourseDetailPanel({ course, plannedItems, onAdd, transcript, onTranscriptFile, onTranscriptClear }: {
   course: Course; plannedItems: PlannedItem[];
   onAdd: (c: Course, s: Section) => void;
+  transcript: TranscriptState;
+  onTranscriptFile: (file: File) => void;
+  onTranscriptClear: () => void;
 }) {
   const term = termLabel(useMeta());
   const [detail, setDetail] = useState<CourseDetail | null>(null);
@@ -84,7 +89,12 @@ export function CourseDetailPanel({ course, plannedItems, onAdd }: {
                 <GitBranch className="w-3.5 h-3.5" style={{ color: "#6261c0" }} />
                 <span className="text-xs font-bold" style={{ color: "#0b4a67" }}>Prerequisites</span>
               </div>
-              <PrereqGraph moduleId={detail.moduleId} plannedCodes={plannedCodes} />
+              <TranscriptUpload
+                fileName={transcript.fileName} loading={transcript.loading}
+                error={transcript.error} record={transcript.record}
+                onPick={onTranscriptFile} onClear={onTranscriptClear} />
+              <PrereqGraph moduleId={detail.moduleId} plannedCodes={plannedCodes}
+                completedCodes={transcript.record.completed} inProgressCodes={transcript.record.inProgress} />
             </div>
 
             {/* Sections */}

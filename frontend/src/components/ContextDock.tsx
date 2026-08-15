@@ -2,20 +2,30 @@ import { BookOpen, LayoutGrid, Map as MapIcon, MousePointerClick } from "lucide-
 import { CourseDetailPanel } from "./CourseDetailPanel";
 import { OverviewView } from "./OverviewView";
 import { MapView } from "./MapView";
-import type { Course, PlannedItem, Section } from "../types";
+import type { Course, PlannedItem, Section, TranscriptRecord } from "../types";
 
 export type DockTab = "detail" | "overview" | "map";
+
+export interface TranscriptState {
+  fileName: string | null;
+  loading: boolean;
+  error: string | null;
+  record: TranscriptRecord;
+}
 
 // The right-hand context dock: a segmented Detail / Overview / Map switcher
 // that renders the existing views in place of the old tab navigation. The
 // calendar canvas stays put to its left; nothing here navigates away from it.
-export function ContextDock({ tab, onTab, selectedCourse, plannedItems, onAdd, onRemove }: {
+export function ContextDock({ tab, onTab, selectedCourse, plannedItems, onAdd, onRemove, transcript, onTranscriptFile, onTranscriptClear }: {
   tab: DockTab;
   onTab: (t: DockTab) => void;
   selectedCourse: Course | null;
   plannedItems: PlannedItem[];
   onAdd: (c: Course, s: Section) => void;
   onRemove: (courseId: string) => void;
+  transcript: TranscriptState;
+  onTranscriptFile: (file: File) => void;
+  onTranscriptClear: () => void;
 }) {
   const tabs: { id: DockTab; label: string; icon: typeof BookOpen }[] = [
     { id: "detail",   label: "Detail",   icon: BookOpen   },
@@ -47,7 +57,8 @@ export function ContextDock({ tab, onTab, selectedCourse, plannedItems, onAdd, o
       <div className="flex-1 min-h-0 overflow-auto app-scroll">
         {tab === "detail" && (
           selectedCourse
-            ? <CourseDetailPanel course={selectedCourse} plannedItems={plannedItems} onAdd={onAdd} />
+            ? <CourseDetailPanel course={selectedCourse} plannedItems={plannedItems} onAdd={onAdd}
+                transcript={transcript} onTranscriptFile={onTranscriptFile} onTranscriptClear={onTranscriptClear} />
             : <DetailEmpty />
         )}
         {tab === "overview" && <OverviewView items={plannedItems} onRemove={onRemove} />}
