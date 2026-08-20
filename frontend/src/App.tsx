@@ -129,10 +129,15 @@ export default function App() {
   }
 
   function handleAdd(course: Course, section: Section) {
-    if (plannedItems.some(i => i.course.id === course.id)) { toast.error(`${course.code} already in planner`); return; }
-    const conflict = conflictsWith(section, plannedItems);
-    updatePlanned(prev => [...prev, { course, section }]);
-    if (conflict) toast.warning(`Added ${course.code} – ${section.id} — time conflict with an existing course`);
+    const existing = plannedItems.find(i => i.course.id === course.id);
+    if (existing?.section.id === section.id) return; // already booked, nothing to do
+    // Booking a section replaces any previously booked section of the same
+    // course; conflict is checked against the other courses only.
+    const others = plannedItems.filter(i => i.course.id !== course.id);
+    const conflict = conflictsWith(section, others);
+    updatePlanned(prev => [...prev.filter(i => i.course.id !== course.id), { course, section }]);
+    if (existing) toast.success(`Switched ${course.code} to ${section.id}`);
+    else if (conflict) toast.warning(`Added ${course.code} – ${section.id} — time conflict with an existing course`);
     else toast.success(`Added ${course.code} – ${section.id}`);
   }
 

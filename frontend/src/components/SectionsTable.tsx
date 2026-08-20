@@ -5,13 +5,16 @@ import type { CourseDetail, PlannedItem, Section } from "../types";
 export function SectionsTable({ course, plannedItems, onAdd }: {
   course: CourseDetail; plannedItems: PlannedItem[]; onAdd: (c: CourseDetail, s: Section) => void;
 }) {
-  const alreadyPlanned = plannedItems.some(i => i.course.id === course.id);
+  const plannedSection = plannedItems.find(i => i.course.id === course.id)?.section;
+  // Conflict checks ignore this course's own planned section so that switching
+  // between its sections isn't reported as conflicting with itself.
+  const otherItems = plannedItems.filter(i => i.course.id !== course.id);
 
   return (
     <div>
-      {alreadyPlanned && (
+      {plannedSection && (
         <div className="mb-2 flex items-center gap-1.5 px-2 py-1.5 text-xs font-medium border border-green-400 bg-green-50 text-green-800">
-          <CheckCircle2 className="w-3 h-3" /> A section is in your planner.
+          <CheckCircle2 className="w-3 h-3" /> Section {plannedSection.id} is in your planner.
         </div>
       )}
       <table className="w-full text-xs border-collapse">
@@ -25,10 +28,11 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
         </thead>
         <tbody>
           {course.sections.map((sec, si) => {
-            const conflict = !alreadyPlanned && conflictsWith(sec, plannedItems);
+            const isPlanned = plannedSection?.id === sec.id;
+            const conflict = !isPlanned && conflictsWith(sec, otherItems);
             const bg = si % 2 === 0 ? "#ffffff" : "#f5f5fb";
             return (
-              <tr key={sec.id} style={{ backgroundColor: conflict ? "#fff0f0" : bg }}>
+              <tr key={sec.id} style={{ backgroundColor: isPlanned ? "#f0fff4" : conflict ? "#fff0f0" : bg }}>
                 <td className="border border-[#c0c0c0] px-2 py-1 font-mono font-bold text-[11px] whitespace-nowrap">{sec.id}</td>
                 <td className="border border-[#c0c0c0] px-2 py-1 text-[11px]">{sec.instructor}</td>
                 <td className="border border-[#c0c0c0] px-2 py-1">
@@ -42,7 +46,7 @@ export function SectionsTable({ course, plannedItems, onAdd }: {
                   ))}
                 </td>
                 <td className="border border-[#c0c0c0] px-1 py-1 text-center">
-                  {alreadyPlanned
+                  {isPlanned
                     ? <span className="text-green-700 text-[0.769rem]">✓</span>
                     : <div className="flex flex-col items-center gap-0.5">
                         <button onClick={() => onAdd(course, sec)}
