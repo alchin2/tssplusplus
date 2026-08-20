@@ -1,4 +1,4 @@
-import { AlertTriangle, Download, Search, Trash2, X } from "lucide-react";
+import { AlertTriangle, Download, Search, X } from "lucide-react";
 import { useCallback, useMemo, useRef, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
@@ -6,6 +6,7 @@ import type { EventClickArg, EventContentArg } from "@fullcalendar/core";
 import { toast } from "sonner";
 import { finalsRangeLabel, fmt } from "../lib/schedule";
 import { downloadICS } from "../lib/ics";
+import { ScheduleImportButton } from "./ScheduleImportButton";
 import {
   FIN_INITIAL_DATE, REG_INITIAL_DATE,
   buildFinalsEvents, buildRegularEvents, conflictingCourseIds,
@@ -38,11 +39,13 @@ function renderEvent(arg: EventContentArg) {
   );
 }
 
-export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
+export function PlannerView({ items, onRemove, onBrowse, onSelectCourse, onImportPdf, importing }: {
   items: PlannedItem[];
   onRemove: (id: string) => void;
   onBrowse?: () => void;
   onSelectCourse?: (courseId: string) => void;
+  onImportPdf?: (file: File) => void;
+  importing?: boolean;
 }) {
   const [finalsMode, setFinalsMode] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
@@ -115,30 +118,16 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
         </div>
 
         {/* Schedule actions — moved here from the removed sidebar. With
-            nothing planned there's nothing to export/clear, so offer search. */}
-        {empty ? (
-          onBrowse && (
-            <button onClick={onBrowse} title="Search the catalog (⌘K)"
-              className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold text-white hover:brightness-110"
-              style={{ backgroundColor: "#0b4a67", border: "1px solid #083a52" }}>
-              <Search className="w-3 h-3" /> Add courses
-            </button>
-          )
-        ) : (
-          <>
-        <button
-          onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
-          title="Export .ics"
-          className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold"
-          style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
-          <Download className="w-3 h-3" /> Export ICS
-        </button>
-        <button onClick={() => items.forEach(i => onRemove(i.course.id))} title="Clear all courses"
-          className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold border border-[#c0c0c0] bg-white text-gray-700 hover:bg-gray-50">
-          <Trash2 className="w-3 h-3" /> Clear All
-        </button>
-          </>
+            nothing planned there's nothing to export, so offer search. */}
+        {empty && onBrowse && (
+          <button onClick={onBrowse} title="Search the catalog (⌘K)"
+            className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold text-white hover:brightness-110"
+            style={{ backgroundColor: "#0b4a67", border: "1px solid #083a52" }}>
+            <Search className="w-3 h-3" /> Add courses
+          </button>
         )}
+
+        {onImportPdf && <ScheduleImportButton onPick={onImportPdf} loading={!!importing} />}
 
         {finalsMode && (
           <span className="hidden lg:inline text-[0.692rem] font-bold tracking-wide" style={{ color: "#6261c0" }}>
@@ -146,7 +135,15 @@ export function PlannerView({ items, onRemove, onBrowse, onSelectCourse }: {
           </span>
         )}
         <div className="ml-auto flex items-center gap-3 text-[0.692rem] text-gray-600">
-          <span><b>{items.length}</b> course{items.length !== 1 ? "s" : ""}</span>
+          {!empty && (
+            <button
+              onClick={() => { downloadICS(items); toast.success("Schedule exported — check your downloads for tss-schedule.ics"); }}
+              title="Export .ics"
+              className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold"
+              style={{ background: "linear-gradient(to bottom, #f5c842, #e6a800)", border: "1px solid #c8900a", color: "#333" }}>
+              <Download className="w-3 h-3" /> Export ICS
+            </button>
+          )}
           {conflictIds.size > 0 && (
             <span className="flex items-center gap-1 font-bold" style={{ color: "#cc0000" }}>
               <AlertTriangle className="w-3 h-3" />

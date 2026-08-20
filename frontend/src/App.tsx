@@ -8,6 +8,7 @@ import { PlannerView } from "./components/PlannerView";
 import { usePlannedItems } from "./hooks/usePlannedItems";
 import { fetchCourses } from "./lib/api";
 import { conflictsWith } from "./lib/schedule";
+import { conflictingCourseIds } from "./lib/plannerEvents";
 import type { Course, Section, TranscriptRecord } from "./types";
 
 const EMPTY_TRANSCRIPT: TranscriptRecord = { completed: new Set(), inProgress: new Set(), planned: new Set() };
@@ -33,6 +34,10 @@ export default function App() {
   const [courses, setCourses]         = useState<Course[]>([]);
   const [searchLoading, setLoading]   = useState(true);
   const [searchError, setError]       = useState<string | null>(null);
+
+  // Importing an enrolled schedule from a TSS "My Courses" PDF (replaces the
+  // planner). Kept separate from the transcript upload above.
+  const [scheduleImporting, setScheduleImporting] = useState(false);
 
   // Workbench UI state
   const [paletteOpen, setPaletteOpen] = useState(false);
@@ -157,6 +162,48 @@ export default function App() {
     setTranscript({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
   }
 
+  // Import an enrolled schedule from a TSS "My Courses" PDF. The screenshot only
+  // supplies each course + section code; the real meeting times come from this
+  // term's API (resolveScheduleImport). Importing *replaces* the planner -- but
+  // only once at least one section actually resolves, so a stray/wrong PDF can't
+  // silently wipe the user's schedule.
+  async function handleScheduleImportFile(file: File) {
+    setScheduleImporting(true);
+    try {
+      // Loaded on demand so pdf.js stays out of the initial bundle (same as the
+      // transcript flow).
+      const [{ extractTextFromPdf }, { parseMyCoursesText, resolveScheduleImport }] = await Promise.all([
+        import("./lib/pdfExtract"),
+        import("./lib/scheduleImport"),
+      ]);
+      const pairs = parseMyCoursesText(await extractTextFromPdf(file));
+      if (pairs.length === 0) {
+        toast.warning("No courses detected — is this the TSS My Courses PDF?");
+        return;
+      }
+
+      const { matched, misses } = await resolveScheduleImport(pairs);
+      if (matched.length === 0) {
+        toast.error("Couldn't match any of those courses to this quarter's schedule.");
+        return;
+      }
+
+      updatePlanned(() => matched); // replace the planner
+      const conflicts = conflictingCourseIds(matched).size;
+      const parts = [`Imported ${matched.length} course${matched.length !== 1 ? "s" : ""} (replaced your planner)`];
+      if (conflicts > 0) parts.push(`${conflicts} conflict${conflicts !== 1 ? "s" : ""}`);
+      toast.success(parts.join(" · "));
+      if (misses.length > 0) {
+        const label = misses.map(m => m.code).join(", ");
+        toast.warning(`Couldn't match ${misses.length} course${misses.length !== 1 ? "s" : ""}: ${label}`);
+      }
+    } catch {
+      toast.error("Could not read that PDF.");
+    } finally {
+      setScheduleImporting(false);
+    }
+  }
+
   return (
     <div className="h-dvh flex flex-col app-shell" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
       <Toaster position="top-right" richColors />
@@ -201,7 +248,7 @@ export default function App() {
       <main className="flex-1 flex overflow-hidden" style={{ backgroundColor: "#fff" }}>
         {/* Calendar canvas */}
         <div className={`${mobileZone === "calendar" ? "flex" : "hidden"} md:flex flex-1 min-w-0 flex-col pb-16 md:pb-0`}>
-          <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} onSelectCourse={selectByCourseId} />
+          <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} onSelectCourse={selectByCourseId} onImportPdf={handleScheduleImportFile} importing={scheduleImporting} />
         </div>
 
         {/* Resize handle (desktop only) */}
