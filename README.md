@@ -27,13 +27,10 @@ List / Calendar / Finals / Map tabs below.
 
 ![Search for Classes with the CSE 100 drawer open: sections table with Plan buttons, description, and prerequisite tree](docs/screenshots/search.png)
 
-| List | Calendar |
+| List | Map |
 | --- | --- |
-| ![My Schedule list tab](docs/screenshots/list.png) | ![Weekly calendar tab](docs/screenshots/calendar.png) |
-
-| Finals | Map |
+| ![My Schedule list tab](docs/screenshots/list.png) | ![Campus map tab with walking route](docs/screenshots/map.jpg) |
 | --- | --- |
-| ![Finals week tab](docs/screenshots/finals.png) | ![Campus map tab with walking route](docs/screenshots/map.jpg) |
 
 <details>
 <summary>Mobile</summary>
