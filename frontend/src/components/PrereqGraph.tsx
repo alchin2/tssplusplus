@@ -194,7 +194,7 @@ export function PrereqGraph(
 
   if (error) {
     return (
-      <div className="flex items-center gap-2 px-3 py-2.5 text-xs border border-amber-400 bg-amber-50 text-amber-800">
+      <div className="wr-notice is-warn flex items-center gap-2">
         <TriangleAlert className="w-4 h-4 flex-shrink-0" />
         {error}
       </div>
@@ -203,7 +203,7 @@ export function PrereqGraph(
 
   if (!tree || !graph) {
     return (
-      <div className="flex items-center justify-center gap-2 py-6 text-xs text-gray-500 border border-dashed border-gray-300 bg-gray-50">
+      <div className="flex items-center justify-center gap-2 py-6 text-[0.846rem]" style={{ color: "var(--wr-muted)", border: "1px dashed var(--wr-rule)", background: "#fafafa" }}>
         <Loader2 className="w-4 h-4 animate-spin" />
         Loading prerequisite tree…
       </div>
@@ -212,7 +212,7 @@ export function PrereqGraph(
 
   if (tree.children.length === 0) {
     return (
-      <div className="flex items-center justify-center py-6 text-xs text-gray-500 border border-dashed border-gray-300 bg-gray-50">
+      <div className="flex items-center justify-center py-6 text-[0.846rem]" style={{ color: "var(--wr-muted)", border: "1px dashed var(--wr-rule)", background: "#fafafa" }}>
         No prerequisites for {tree.code}
       </div>
     );
@@ -221,35 +221,33 @@ export function PrereqGraph(
   const totalDepth = graph.nodes.length ? Math.max(...graph.nodes.map(n => n.depth)) : 0;
 
   return (
-    <div className="border border-[#c0c0c0] bg-[#f7f8fc] overflow-hidden">
+    <div className="overflow-hidden" style={{ border: "1px solid var(--wr-rule)", background: "#fafbfc" }}>
       {/* Toolbar */}
-      <div className="flex items-center justify-between px-3 py-1.5 border-b border-[#c0c0c0] bg-[#ececfa]">
-        <span className="text-[0.846rem] font-bold" style={{ color: "#0b4a67" }}>
+      <div className="flex items-center justify-between px-3 py-1.5" style={{ borderBottom: "1px solid var(--wr-rule)", background: "var(--wr-head)" }}>
+        <span className="text-[0.846rem] font-bold" style={{ color: "var(--wr-text-soft)" }}>
           {totalDepth + 1} level{totalDepth !== 0 ? "s" : ""} shown 
         </span>
         <div className="flex items-center gap-2">
           {(expanded.size > 0 || expandedOr.size > 0) && (
             <button onClick={() => { setExpanded(new Set()); setExpandedOr(new Set()); }}
-              className="text-[0.769rem] px-2 py-0.5 border border-[#aaa] bg-white text-gray-600 hover:bg-gray-100">
+              className="wr-btn is-sm">
               Collapse all
             </button>
           )}
-          <span className="text-[0.769rem] text-gray-500">
-          </span>
-          <div className="flex items-center border border-[#aaa] bg-white">
+          <div className="flex items-center bg-white" style={{ border: "1px solid var(--wr-rule)", borderRadius: 3 }}>
             <button onClick={zoomOut} disabled={view.scale <= ZOOM_MIN} title="Zoom out"
-              className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:hover:bg-white">
+              className="flex items-center justify-center w-6 h-6 hover:bg-[#ececec] disabled:opacity-30 disabled:hover:bg-white" style={{ color: "var(--wr-text-soft)" }}>
               <ZoomOut className="w-3 h-3" />
             </button>
-            <span className="text-[0.769rem] text-gray-600 w-9 text-center border-x border-[#aaa]">
+            <span className="text-[0.769rem] w-10 text-center" style={{ color: "var(--wr-text-soft)", borderLeft: "1px solid var(--wr-rule)", borderRight: "1px solid var(--wr-rule)" }}>
               {Math.round(view.scale * 100)}%
             </span>
             <button onClick={zoomIn} disabled={view.scale >= ZOOM_MAX} title="Zoom in"
-              className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 disabled:opacity-30 disabled:hover:bg-white">
+              className="flex items-center justify-center w-6 h-6 hover:bg-[#ececec] disabled:opacity-30 disabled:hover:bg-white" style={{ color: "var(--wr-text-soft)" }}>
               <ZoomIn className="w-3 h-3" />
             </button>
             <button onClick={resetView} title="Reset view"
-              className="flex items-center justify-center w-5 h-5 text-gray-600 hover:bg-gray-100 border-l border-[#aaa]">
+              className="flex items-center justify-center w-6 h-6 hover:bg-[#ececec]" style={{ color: "var(--wr-text-soft)", borderLeft: "1px solid var(--wr-rule)" }}>
               <Maximize2 className="w-3 h-3" />
             </button>
           </div>
@@ -265,10 +263,10 @@ export function PrereqGraph(
             transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}>
             <defs>
               <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-                <polygon points="0 0, 8 3, 0 6" fill="#b0b8cc" />
+                <polygon points="0 0, 8 3, 0 6" fill="#b5c2cd" />
               </marker>
               <marker id="arr-hi" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-                <polygon points="0 0, 8 3, 0 6" fill="#0ea5e9" />
+                <polygon points="0 0, 8 3, 0 6" fill="#1f6a9b" />
               </marker>
               <filter id="gshadow" x="-20%" y="-20%" width="140%" height="140%">
                 <feDropShadow dx="0" dy="1" stdDeviation="2" floodOpacity="0.13" />
@@ -278,8 +276,8 @@ export function PrereqGraph(
             {graph.orBoxes.map(box => (
               <g key={box.id}>
                 <rect x={box.x} y={box.y} width={box.w} height={box.h} rx={9}
-                  fill="#f0ecff" stroke="#8b5cf6" strokeWidth={1.5} strokeDasharray="6,3" opacity={0.85} />
-                <rect x={box.x + 5} y={box.y - 10} width={26} height={15} rx={4} fill="#7c3aed" />
+                  fill="#f4eff8" stroke="#7a4f8a" strokeWidth={1.5} strokeDasharray="6,3" opacity={0.9} />
+                <rect x={box.x + 5} y={box.y - 10} width={26} height={15} rx={2} fill="#7a4f8a" />
                 <text x={box.x + 18} y={box.y - 1} textAnchor="middle" fill="#fff" fontSize={9} fontWeight="800">OR</text>
               </g>
             ))}
@@ -291,7 +289,7 @@ export function PrereqGraph(
               const d = `M ${e.x1} ${e.y1} C ${e.x1} ${midY}, ${e.x2} ${midY}, ${e.x2} ${e.y2}`;
               return (
                 <path key={e.id} d={d} fill="none"
-                  stroke={onPath ? "#0ea5e9" : "#c0c8d8"}
+                  stroke={onPath ? "#1f6a9b" : "#c3ccd6"}
                   strokeWidth={onPath ? 2.5 : 1.5}
                   opacity={dimmed ? 0.12 : 0.85}
                   markerEnd={onPath ? "url(#arr-hi)" : "url(#arr)"}
@@ -321,29 +319,29 @@ export function PrereqGraph(
                 >
                   <title>{node.isOrMore ? node.title : `${node.code}${node.title !== node.code ? ` — ${node.title}` : ""}`}</title>
 
-                  <rect x={nx} y={ny} width={GNW} height={GNH} rx={6}
-                    fill={cfg.fill} stroke={isHov ? "#0ea5e9" : cfg.stroke}
+                  <rect x={nx} y={ny} width={GNW} height={GNH} rx={3}
+                    fill={cfg.fill} stroke={isHov ? "#1f6a9b" : cfg.stroke}
                     strokeWidth={isHov ? 2 : node.status === "root" ? 2 : 1}
                     strokeDasharray={node.isOrMore ? "5,3" : undefined} />
 
                   {node.status !== "default" && !node.isOrMore && (
-                    <rect x={nx} y={ny + 6} width={3} height={GNH - 12} rx={1.5}
+                    <rect x={nx} y={ny + 6} width={3} height={GNH - 12} rx={1}
                       fill={cfg.accent} />
                   )}
 
                   <text x={node.x + (canToggle ? -6 : 0)} y={node.y - 7} textAnchor="middle"
                     fill={cfg.text} fontSize={11} fontWeight="700"
-                    fontFamily="'JetBrains Mono', 'Consolas', monospace">
+                    fontFamily="Helvetica, Arial, sans-serif">
                     {node.code.length > 13 ? node.code.slice(0, 12) + "…" : node.code}
                   </text>
                   <text x={node.x + (canToggle ? -6 : 0)} y={node.y + 9} textAnchor="middle"
-                    fill={cfg.text} fontSize={8.5} opacity={0.72} fontFamily="Arial, sans-serif">
+                    fill={cfg.text} fontSize={8.5} opacity={0.72} fontFamily="Helvetica, Arial, sans-serif">
                     {node.title.length > 20 ? node.title.slice(0, 19) + "…" : node.title}
                   </text>
 
                   {canToggle && (
                     <g transform={`translate(${nx + GNW - 9}, ${ny + GNH / 2})`}>
-                      <circle r={8} fill="#6366f1" />
+                      <circle r={8} fill="#1f6a9b" />
                       <text textAnchor="middle" dominantBaseline="middle" fill="#fff" fontSize={13} fontWeight="700" dy={0.5}>
                         {node.isOrMore ? "+" : expanded.has(node.code) ? "−" : "+"}
                       </text>
@@ -355,10 +353,10 @@ export function PrereqGraph(
         </svg>
       </div>
 
-      <div className="flex items-center gap-4 px-3 py-1.5 bg-white border-t border-[#c0c0c0] text-[0.769rem] text-gray-600 flex-wrap">
+      <div className="flex items-center gap-4 px-3 py-1.5 bg-white text-[0.769rem] flex-wrap" style={{ borderTop: "1px solid var(--wr-rule)", color: "var(--wr-text-soft)" }}>
         {Object.values(NODE_CFG).map(({ fill, stroke, label }) => (
           <span key={label} className="flex items-center gap-1">
-            <svg width={12} height={12}><rect x={1} y={1} width={10} height={10} rx={2} fill={fill} stroke={stroke} strokeWidth={1.5} /></svg>
+            <svg width={12} height={12} aria-hidden="true"><rect x={1} y={1} width={10} height={10} rx={1.5} fill={fill} stroke={stroke} strokeWidth={1.5} /></svg>
             {label}
           </span>
         ))}

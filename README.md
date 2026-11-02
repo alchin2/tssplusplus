@@ -25,15 +25,45 @@ TSS++ is an open-source alternative for browsing UCSD's schedule of classes and 
 <img width="2369" height="1652" alt="image" src="https://github.com/user-attachments/assets/9917d0b4-99ed-4c04-802e-8ec7cb90b01b" />
 
 
+## Screenshots
+
+The interface takes after UCSD's retired WebReg: search on top, your schedule in
+List / Calendar / Finals / Map tabs below.
+
+![Search for Classes with the CSE 100 drawer open: sections table with Plan buttons, description, and prerequisite tree](docs/screenshots/search.png)
+
+| List | Calendar |
+| --- | --- |
+| ![My Schedule list tab](docs/screenshots/list.png) | ![Weekly calendar tab](docs/screenshots/calendar.png) |
+
+| Finals | Map |
+| --- | --- |
+| ![Finals week tab](docs/screenshots/finals.png) | ![Campus map tab with walking route](docs/screenshots/map.jpg) |
+
+<details>
+<summary>Mobile</summary>
+
+<img src="docs/screenshots/mobile.png" alt="Mobile view of the planner" width="390">
+
+</details>
+
 ## Features
 
-* **Course search** — filter by department, offered courses, and full-text queries through the backend API.
-* **Course detail** — view sections, meeting times, instructors, and live seat/waitlist counts.
-* **Prerequisites** — explore an interactive, zoomable prerequisite graph that renders the full transitive prerequisite tree.
-* **Schedule planner** — build a weekly schedule using FullCalendar with automatic conflict detection and browser-persisted state via `localStorage`.
-* **Overview** — view planned units, weekly class hours, average section fill, and the current term's finals schedule.
-* **Campus map** — visualize planned courses with Leaflet and generate real walking routes between back-to-back classes using OpenRouteService.
-* **ICS export** — export your planned schedule to a standard `.ics` file using the actual UCSD quarter dates.
+- **Course search** — filter by department and "offered this quarter", full-text query,
+  served from the backend.
+- **Course detail** — sections, meeting times, instructors, and live seat/waitlist counts.
+- **Prerequisites** — an interactive, zoomable prerequisite graph in the course detail
+  panel, rendering the full transitive tree
+- **Schedule planner** — a FullCalendar based weekly view spanning the full week
+  with automatic conflict detection; state lives in your browser (`localStorage`).
+- **My Schedule list** — a WebReg-style status table of your planned quarter
+  (section codes, meeting types, days, times, buildings, rooms, Final Exam rows)
+  with class-hour and building totals and a conflict notice listing every
+  colliding pair.
+- **Campus map** — a Leaflet map pinning every planned course's building, with real
+  walking routes between back-to-back meetings (proxied through OpenRouteService).
+- **ICS export** — export your planned schedule to a standard `.ics` file, anchored to
+  the real quarter dates.
 
 ## Built with
 

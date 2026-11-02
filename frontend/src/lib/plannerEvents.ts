@@ -39,6 +39,7 @@ export interface PlannerEventProps {
   title: string;
   type: string;
   room: string;
+  instructor: string;
   startH: number;
   endH: number;
   conflict: boolean;
@@ -60,7 +61,7 @@ export function buildRegularEvents(items: PlannedItem[]): EventInput[] {
   const events: EventInput[] = [];
   for (const { course, section } of items) {
     // Flag the specific colliding blocks, not the whole section — a course
-    // whose lecture conflicts shouldn't hatch its unrelated discussion slot.
+    // whose lecture conflicts shouldn't outline its unrelated discussion slot.
     const otherMeetings = items
       .filter(o => o.course.id !== course.id)
       .flatMap(o => o.section.meetings);
@@ -82,6 +83,7 @@ export function buildRegularEvents(items: PlannedItem[]): EventInput[] {
             title: course.title,
             type: m.type,
             room: m.room,
+            instructor: section.instructor,
             startH: m.start,
             endH: m.end,
             conflict,
@@ -95,10 +97,12 @@ export function buildRegularEvents(items: PlannedItem[]): EventInput[] {
 
 export function buildFinalsEvents(items: PlannedItem[]): EventInput[] {
   const events: EventInput[] = [];
-  for (const { course, section } of items) {
-    const fi = computeFinal(section);
+  const finals = items.map(it => ({ it, fi: computeFinal(it.section) }));
+  for (const { it: { course, section }, fi } of finals) {
     if (!fi) continue;
     const room = section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
+    const conflict = finals.some(o =>
+      o.fi && o.it.course.id !== course.id && o.fi.colIdx === fi.colIdx && fi.startH < o.fi.endH && o.fi.startH < fi.endH);
     events.push({
       id: `${course.id}:${section.id}:final`,
       start: `${FINALS_WEEK[fi.colIdx]}T${toHMS(fi.startH)}`,
@@ -111,9 +115,10 @@ export function buildFinalsEvents(items: PlannedItem[]): EventInput[] {
         title: course.title,
         type: "FINAL",
         room,
+        instructor: section.instructor,
         startH: fi.startH,
         endH: fi.endH,
-        conflict: false,
+        conflict,
       } satisfies PlannerEventProps,
     });
   }

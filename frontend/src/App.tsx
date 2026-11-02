@@ -1,86 +1,58 @@
-import { useEffect, useMemo, useState } from "react";
-import { Calendar, Github, LayoutGrid, Map as MapIcon, Search } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Toaster, toast } from "sonner";
-import { RaccoonLogo } from "./components/RaccoonLogo";
-import { CommandPalette } from "./components/CommandPalette";
-import { ContextDock, type DockTab } from "./components/ContextDock";
-import { PlannerView } from "./components/PlannerView";
+import { ConflictNotice } from "./components/ConflictNotice";
+import { ScheduleImportButton } from "./components/ScheduleImportButton";
+import { ScheduleTabs, type ScheduleTab } from "./components/ScheduleTabs";
+import { SearchPanel, type Div } from "./components/SearchPanel";
+import { SiteFooter } from "./components/SiteFooter";
+import { SiteHeader } from "./components/SiteHeader";
 import { usePlannedItems } from "./hooks/usePlannedItems";
+import { termLabel, termName, useMeta } from "./hooks/useMeta";
 import { fetchCourses } from "./lib/api";
-import { conflictsWith } from "./lib/schedule";
+import { downloadICS } from "./lib/ics";
+import { conflictPairs, conflictsWith } from "./lib/schedule";
 import { conflictingCourseIds } from "./lib/plannerEvents";
 import type { Course, Section, TranscriptRecord } from "./types";
 
 const EMPTY_TRANSCRIPT: TranscriptRecord = { completed: new Set(), inProgress: new Set(), planned: new Set() };
 
-// Mobile shows one zone at a time; desktop shows both side by side.
-type MobileZone = "calendar" | "dock";
-
 export default function App() {
+  const meta = useMeta();
+  const term = termLabel(meta);
+  const termTitle = termName(meta);
+  const depts = useMemo(() => ["ALL", ...(meta?.depts ?? [])], [meta]);
+
+  // Search state. The debounced fetch lives here; SearchPanel renders it.
   const [query, setQuery]             = useState("");
   const [deptFilter, setDept]         = useState("ALL");
   const [offeredFilter, setOff]       = useState(false);
-  const [divFilter, setDiv]           = useState<"all" | "lower" | "upper">("all");
-  const [selectedCourse, setSelected] = useState<Course | null>(null);
-  const [plannedItems, updatePlanned] = usePlannedItems();
-
-  // Uploaded academic history -- completed/in-progress courses tint every
-  // prerequisite graph. Kept at app level so it persists across course
-  // selections (the uploader lives inside the per-course detail panel).
-  const [transcript, setTranscript] = useState<{
-    fileName: string | null; loading: boolean; error: string | null; record: TranscriptRecord;
-  }>({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
-
+  const [divFilter, setDiv]           = useState<Div>("all");
   const [courses, setCourses]         = useState<Course[]>([]);
   const [searchLoading, setLoading]   = useState(true);
   const [searchError, setError]       = useState<string | null>(null);
+  const [searchActive, setSearchActive] = useState(false);
+  const [expandedId, setExpandedId]   = useState<string | null>(null);
+  // A course opened from the schedule (List row or calendar block) is pinned
+  // above the results so it is visible even when the search doesn't list it.
+  const [pinned, setPinned]           = useState<Course | null>(null);
+  const [scrollToken, setScrollToken] = useState(0);
+  const searchRef = useRef<HTMLInputElement>(null);
+
+  const [plannedItems, updatePlanned] = usePlannedItems();
+  const [tab, setTab]                 = useState<ScheduleTab>("list");
+
+  // Uploaded academic history -- completed/in-progress courses tint every
+  // prerequisite graph. Kept at app level so it persists across drawers.
+  const [transcript, setTranscript] = useState<{
+    fileName: string | null; loading: boolean; error: string | null; record: TranscriptRecord;
+  }>({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
 
   // Importing an enrolled schedule from a TSS "My Courses" PDF (replaces the
   // planner). Kept separate from the transcript upload above.
   const [scheduleImporting, setScheduleImporting] = useState(false);
 
-  // Workbench UI state
-  const [paletteOpen, setPaletteOpen] = useState(false);
-  const [dockTab, setDockTab]         = useState<DockTab>("detail");
-  const [mobileZone, setMobileZone]   = useState<MobileZone>("calendar");
-
-  // Resizable context dock (desktop only). Width is a plain px number and only
-  // takes effect at md+, where the dock sits beside the calendar.
-  const [dockWidth, setDockWidth]     = useState(440);
-  const [isDesktop, setIsDesktop]     = useState(
-    () => typeof window !== "undefined" && window.matchMedia("(min-width: 768px)").matches,
-  );
-  useEffect(() => {
-    const mq = window.matchMedia("(min-width: 768px)");
-    const onChange = () => setIsDesktop(mq.matches);
-    mq.addEventListener("change", onChange);
-    return () => mq.removeEventListener("change", onChange);
-  }, []);
-
-  function startDockResize(e: React.PointerEvent) {
-    e.preventDefault();
-    const startX = e.clientX;
-    const startW = dockWidth;
-    function onMove(ev: PointerEvent) {
-      // Dock is on the right, so dragging the handle left widens it.
-      const next = Math.min(Math.max(startW + (startX - ev.clientX), 320), 760);
-      setDockWidth(next);
-    }
-    function onUp() {
-      window.removeEventListener("pointermove", onMove);
-      window.removeEventListener("pointerup", onUp);
-      document.body.style.cursor = "";
-      document.body.style.userSelect = "";
-    }
-    document.body.style.cursor = "col-resize";
-    document.body.style.userSelect = "none";
-    window.addEventListener("pointermove", onMove);
-    window.addEventListener("pointerup", onUp);
-  }
-
   // Server-side search/filter per the /api/courses contract, debounced so
-  // typing doesn't fire a request per keystroke. State stays lifted here and
-  // feeds the CommandPalette; results survive the palette closing/reopening.
+  // typing doesn't fire a request per keystroke.
   useEffect(() => {
     let alive = true;
     setLoading(true);
@@ -93,56 +65,69 @@ export default function App() {
     return () => { alive = false; clearTimeout(timer); };
   }, [query, deptFilter, offeredFilter]);
 
-  // Lower/upper division stays client-side -- the backend doesn't model it.
+  // Division stays client-side -- the backend doesn't model it.
   const filtered = useMemo(() => courses.filter(c => {
     if (divFilter === "all") return true;
     const num = parseInt(c.code.split(" ")[1]);
     if (Number.isNaN(num)) return true;
-    return divFilter === "lower" ? num < 100 : num >= 100;
+    if (divFilter === "lower") return num < 100;
+    if (divFilter === "upper") return num >= 100 && num < 200;
+    return num >= 200;
   }), [courses, divFilter]);
 
-  // ⌘K / Ctrl-K toggles the command palette; Escape closes it.
+  // ⌘K / Ctrl-K jumps to the search box, as it always has.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
-        setPaletteOpen(o => !o);
-      } else if (e.key === "Escape") {
-        setPaletteOpen(false);
+        searchRef.current?.focus();
+        searchRef.current?.select();
       }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  function openCourse(course: Course) {
-    setSelected(course);
-    setDockTab("detail");
-    setMobileZone("dock");
-    setPaletteOpen(false);
-  }
+  const conflictIds = useMemo(() => conflictingCourseIds(plannedItems), [plannedItems]);
+  const pairs = useMemo(() => conflictPairs(plannedItems), [plannedItems]);
 
-  // Calendar events carry a courseId; resolve it to the planned Course.
+  // Schedule rows and calendar blocks carry a courseId; open that course's
+  // drawer above the schedule and scroll to it.
   function selectByCourseId(courseId: string) {
     const item = plannedItems.find(i => i.course.id === courseId);
-    if (item) openCourse(item.course);
+    if (!item) return;
+    setPinned(item.course);
+    setExpandedId(item.course.id);
+    setScrollToken(t => t + 1);
+  }
+
+  function setSearchVisible(v: boolean) {
+    setSearchActive(v);
+    if (!v) { setPinned(null); setExpandedId(null); }
   }
 
   function handleAdd(course: Course, section: Section) {
     const existing = plannedItems.find(i => i.course.id === course.id);
-    if (existing?.section.id === section.id) return; // already booked, nothing to do
-    // Booking a section replaces any previously booked section of the same
+    if (existing?.section.id === section.id) return; // already planned, nothing to do
+    // Planning a section replaces any previously planned section of the same
     // course; conflict is checked against the other courses only.
     const others = plannedItems.filter(i => i.course.id !== course.id);
     const conflict = conflictsWith(section, others);
     updatePlanned(prev => [...prev.filter(i => i.course.id !== course.id), { course, section }]);
-    if (existing) toast.success(`Switched ${course.code} to ${section.id}`);
-    else if (conflict) toast.warning(`Added ${course.code} – ${section.id} — time conflict with an existing course`);
-    else toast.success(`Added ${course.code} – ${section.id}`);
+    if (existing) toast.success(`Changed ${course.code} to section ${section.id}.`);
+    else if (conflict) toast.warning(`Planned ${course.code} section ${section.id}. It conflicts with another class on your schedule.`);
+    else toast.success(`Planned ${course.code} section ${section.id}.`);
   }
 
   function handleRemove(courseId: string) {
+    const item = plannedItems.find(i => i.course.id === courseId);
     updatePlanned(prev => prev.filter(i => i.course.id !== courseId));
+    if (item) toast.success(`Removed ${item.course.code} from your schedule.`);
+  }
+
+  function exportIcs() {
+    downloadICS(plannedItems);
+    toast.success("Schedule exported. Look for tss-schedule.ics in your downloads.");
   }
 
   async function handleTranscriptFile(file: File) {
@@ -156,8 +141,8 @@ export default function App() {
       const record = parseAcademicHistoryText(await extractTextFromPdf(file));
       setTranscript({ fileName: file.name, loading: false, error: null, record });
       const n = record.completed.size + record.inProgress.size + record.planned.size;
-      if (n === 0) toast.warning("No UCSD courses detected in that PDF.");
-      else toast.success(`Detected ${record.completed.size} completed, ${record.inProgress.size} in progress`);
+      if (n === 0) toast.warning("No UCSD courses were detected in that PDF.");
+      else toast.success(`Detected ${record.completed.size} completed and ${record.inProgress.size} in-progress courses.`);
     } catch {
       setTranscript(t => ({ ...t, loading: false, error: "Could not read that PDF." }));
     }
@@ -167,7 +152,7 @@ export default function App() {
     setTranscript({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
   }
 
-  // Import an enrolled schedule from a TSS "My Courses" PDF. The screenshot only
+  // Import an enrolled schedule from a TSS "My Courses" PDF. The PDF only
   // supplies each course + section code; the real meeting times come from this
   // term's API (resolveScheduleImport). Importing *replaces* the planner -- but
   // only once at least one section actually resolves, so a stray/wrong PDF can't
@@ -175,33 +160,32 @@ export default function App() {
   async function handleScheduleImportFile(file: File) {
     setScheduleImporting(true);
     try {
-      // Loaded on demand so pdf.js stays out of the initial bundle (same as the
-      // transcript flow).
       const [{ extractTextFromPdf }, { parseMyCoursesText, resolveScheduleImport }] = await Promise.all([
         import("./lib/pdfExtract"),
         import("./lib/scheduleImport"),
       ]);
-      const pairs = parseMyCoursesText(await extractTextFromPdf(file));
-      if (pairs.length === 0) {
-        toast.warning("No courses detected — is this the TSS My Courses PDF?");
+      const pairsFound = parseMyCoursesText(await extractTextFromPdf(file));
+      if (pairsFound.length === 0) {
+        toast.warning("No courses were detected. Is this the TSS My Courses PDF?");
         return;
       }
 
-      const { matched, misses } = await resolveScheduleImport(pairs);
+      const { matched, misses } = await resolveScheduleImport(pairsFound);
       if (matched.length === 0) {
-        toast.error("Couldn't match any of those courses to this quarter's schedule.");
+        toast.error("None of those courses matched this quarter's schedule.");
         return;
       }
 
       updatePlanned(() => matched); // replace the planner
       const conflicts = conflictingCourseIds(matched).size;
-      const parts = [`Imported ${matched.length} course${matched.length !== 1 ? "s" : ""} (replaced your planner)`];
-      if (conflicts > 0) parts.push(`${conflicts} conflict${conflicts !== 1 ? "s" : ""}`);
-      toast.success(parts.join(" · "));
+      const parts = [`Imported ${matched.length} course${matched.length !== 1 ? "s" : ""} and replaced your planner.`];
+      if (conflicts > 0) parts.push(`${conflicts} conflict${conflicts !== 1 ? "s" : ""} flagged.`);
+      toast.success(parts.join(" "));
       if (misses.length > 0) {
         const label = misses.map(m => m.code).join(", ");
-        toast.warning(`Couldn't match ${misses.length} course${misses.length !== 1 ? "s" : ""}: ${label}`);
+        toast.warning(`Could not match ${misses.length} course${misses.length !== 1 ? "s" : ""}: ${label}`);
       }
+      setTab("list");
     } catch {
       toast.error("Could not read that PDF.");
     } finally {
@@ -209,108 +193,64 @@ export default function App() {
     }
   }
 
+  const empty = plannedItems.length === 0;
+
   return (
-    <div className="h-dvh flex flex-col app-shell" style={{ fontFamily: "Arial, Helvetica, sans-serif", fontSize: "1rem", backgroundColor: "#dde1ec" }}>
-      <Toaster position="top-right" richColors />
+    <div className="min-h-dvh flex flex-col">
+      <Toaster position="bottom-right" richColors closeButton
+        toastOptions={{ style: { borderRadius: 4, fontFamily: "inherit", fontSize: "0.923rem" } }} />
 
-      {/* ── Top bar ── */}
-      <nav className="flex-shrink-0 h-10 flex items-center gap-2 px-2 z-10" style={{ backgroundColor: "#0b4a67" }}>
-        <div className="flex items-center gap-2 pr-2">
-          <span style={{ display: "flex", flexShrink: 0, transform: "rotate(-4deg)", filter: "drop-shadow(0 1px 3px rgba(0,0,0,0.3))" }}>
-            <RaccoonLogo width={32} />
-          </span>
-          <span className="font-bold text-white text-sm tracking-tight">TSS<span style={{ color: "#f5c842" }}>++</span></span>
-        </div>
+      <SiteHeader />
 
-        {/* ⌘K search trigger */}
-        <button onClick={() => setPaletteOpen(true)}
-          className="flex-1 max-w-md flex items-center gap-2 px-2.5 py-1 text-white/70 hover:text-white transition-colors"
-          style={{ backgroundColor: "rgba(255,255,255,0.14)", border: "1px solid rgba(255,255,255,0.22)" }}>
-          <Search className="w-3.5 h-3.5 flex-shrink-0" />
-          <span className="text-xs">Search courses…</span>
-          <span className="ml-auto text-[10px] font-bold px-1.5 py-0.5" style={{ backgroundColor: "rgba(255,255,255,0.16)", border: "1px solid rgba(255,255,255,0.25)" }}>⌘K</span>
-        </button>
-
-        <div className="ml-auto flex items-center gap-1">
-          {plannedItems.length > 0 && (
-            <button onClick={() => { setDockTab("overview"); setMobileZone("dock"); }}
-              className="flex items-center gap-1.5 px-2.5 py-1 text-white text-[0.769rem] font-bold"
-              style={{ backgroundColor: "#d56a03", border: "1px solid #c86000" }}>
-              <Calendar className="w-3 h-3" />
-              {plannedItems.length} course{plannedItems.length !== 1 ? "s" : ""}
+      <main className="wr-page flex-1 pt-5 pb-6">
+        {/* ── Title row ── */}
+        <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+          <h1 className="wr-title">Course Enrollment</h1>
+          <div className="wr-pipes print:hidden">
+            <ScheduleImportButton onPick={handleScheduleImportFile} loading={scheduleImporting} />
+            <button type="button" className="wr-linkbtn" onClick={exportIcs} disabled={empty}
+              title={empty ? "Plan a class first" : "Download an .ics file for your calendar app"}>
+              Export .ics
             </button>
-          )}
-          <a href="https://github.com/alchin2/tssplusplus" target="_blank" rel="noopener noreferrer"
-            className="p-1.5 text-white/70 hover:text-white transition-colors">
-            <Github className="w-3.5 h-3.5" />
-          </a>
-        </div>
-      </nav>
-
-      <div style={{ height: 3, backgroundColor: "#6261c0", flexShrink: 0 }} />
-
-      {/* ── Two zones: calendar canvas + context dock ── */}
-      <main className="flex-1 flex overflow-hidden" style={{ backgroundColor: "#fff" }}>
-        {/* Calendar canvas */}
-        <div className={`${mobileZone === "calendar" ? "flex" : "hidden"} md:flex flex-1 min-w-0 flex-col pb-16 md:pb-0`}>
-          <PlannerView items={plannedItems} onRemove={handleRemove} onBrowse={() => setPaletteOpen(true)} onSelectCourse={selectByCourseId} onImportPdf={handleScheduleImportFile} importing={scheduleImporting} />
+            <span style={{ color: "var(--wr-text)" }}>
+              <span className="font-normal" style={{ color: "var(--wr-muted)" }}>Term: </span>{termTitle}
+            </span>
+          </div>
         </div>
 
-        {/* Resize handle (desktop only) */}
-        <div onPointerDown={startDockResize}
-          className="hidden md:block flex-shrink-0 w-1 cursor-col-resize bg-[#c0c0c0] hover:bg-[#6261c0] active:bg-[#6261c0] transition-colors"
-          role="separator" aria-orientation="vertical" title="Drag to resize" />
-
-        {/* Context dock */}
-        <div className={`${mobileZone === "dock" ? "flex" : "hidden"} md:flex w-full flex-shrink-0 flex-col pb-16 md:pb-0`}
-          style={isDesktop ? { width: dockWidth } : undefined}>
-          <ContextDock
-            tab={dockTab} onTab={setDockTab}
-            selectedCourse={selectedCourse}
-            plannedItems={plannedItems}
-            onAdd={handleAdd}
-            onRemove={handleRemove}
-            transcript={transcript}
-            onTranscriptFile={handleTranscriptFile}
-            onTranscriptClear={clearTranscript}
+        {/* ── Search for Classes ── */}
+        <div className="mt-5">
+          <SearchPanel
+            inputRef={searchRef}
+            query={query} onQuery={setQuery}
+            deptFilter={deptFilter} onDeptFilter={setDept}
+            offeredFilter={offeredFilter} onOfferedFilter={setOff}
+            divFilter={divFilter} onDivFilter={setDiv}
+            depts={depts} termLabel={term} termName={termTitle}
+            courses={filtered} loading={searchLoading} error={searchError}
+            active={searchActive} onActive={setSearchVisible}
+            expandedId={expandedId} onExpand={setExpandedId}
+            pinned={pinned} scrollToken={scrollToken}
+            plannedItems={plannedItems} onAdd={handleAdd} onRemove={handleRemove}
+            transcript={transcript} onTranscriptFile={handleTranscriptFile} onTranscriptClear={clearTranscript}
           />
+        </div>
+
+        {/* ── Conflicts ── */}
+        {pairs.length > 0 && (
+          <div className="mt-5">
+            <ConflictNotice pairs={pairs} />
+          </div>
+        )}
+
+        {/* ── My Schedule ── */}
+        <div className="mt-6">
+          <ScheduleTabs tab={tab} onTab={setTab} items={plannedItems} conflictIds={conflictIds}
+            selectedCourseId={pinned?.id ?? null} onRemove={handleRemove} onSelectCourse={selectByCourseId} />
         </div>
       </main>
 
-      {/* ── Mobile bottom nav (zone switcher) ── */}
-      <nav className="md:hidden fixed bottom-0 inset-x-0 flex border-t border-[#c0c0c0] z-40"
-        style={{ backgroundColor: "#0b4a67", paddingBottom: "var(--safe-area-bottom)" }}>
-        <button onClick={() => setPaletteOpen(true)}
-          className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold text-white/70">
-          <Search className="w-4 h-4" /> Search
-        </button>
-        <button onClick={() => setMobileZone("calendar")}
-          className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold transition-colors"
-          style={{ color: mobileZone === "calendar" ? "#f5c842" : "rgba(255,255,255,0.7)" }}>
-          <Calendar className="w-4 h-4" /> Calendar
-        </button>
-        <button onClick={() => setMobileZone("dock")}
-          className="flex-1 flex flex-col items-center gap-0.5 py-2 text-[0.769rem] font-bold transition-colors"
-          style={{ color: mobileZone === "dock" ? "#f5c842" : "rgba(255,255,255,0.7)" }}>
-          {dockTab === "map" ? <MapIcon className="w-4 h-4" /> : <LayoutGrid className="w-4 h-4" />} Dock
-        </button>
-      </nav>
-
-      {/* ── ⌘K command palette ── */}
-      {paletteOpen && (
-        <CommandPalette
-          onClose={() => setPaletteOpen(false)}
-          query={query} onQuery={setQuery}
-          deptFilter={deptFilter} onDeptFilter={setDept}
-          offeredFilter={offeredFilter} onOfferedFilter={setOff}
-          divFilter={divFilter} onDivFilter={setDiv}
-          courses={filtered}
-          loading={searchLoading}
-          error={searchError}
-          selectedCourseId={selectedCourse?.id ?? null}
-          onOpenCourse={openCourse}
-        />
-      )}
+      <SiteFooter />
     </div>
   );
 }
