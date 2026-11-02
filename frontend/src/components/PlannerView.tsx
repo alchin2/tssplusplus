@@ -87,7 +87,6 @@ export function PlannerView({ mode, items, onSelectCourse }: {
         initialDate={finalsMode ? FIN_INITIAL_DATE : REG_INITIAL_DATE}
         headerToolbar={false}
         firstDay={1}
-        hiddenDays={finalsMode ? [0] : []}
         allDaySlot={false}
         slotMinTime="08:00:00"
         slotMaxTime="22:00:00"
