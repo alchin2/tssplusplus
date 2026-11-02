@@ -20,11 +20,6 @@ On ~~7/10~~ ~~7/20~~ **7/21 at 8:00 AM PST**, UCSD replaced WebReg with the new 
 
 TSS++ is an open-source alternative for browsing UCSD's schedule of classes and planning a quarter. It combines the public course catalog with live quarterly enrollment data, renders full transitive prerequisite trees, detects schedule conflicts, maps walking routes between classes, and exports schedules directly to calendar apps.
 
-## Preview
-
-<img width="2369" height="1652" alt="image" src="https://github.com/user-attachments/assets/9917d0b4-99ed-4c04-802e-8ec7cb90b01b" />
-
-
 ## Screenshots
 
 The interface takes after UCSD's retired WebReg: search on top, your schedule in
