@@ -11,6 +11,17 @@ import type { Course, DayCode, Meeting, PlannedItem, Section } from "../types";
 
 const UCSD_CENTER: [number, number] = [32.8801, -117.2340];
 
+// Basemap tiles. Carto's public basemaps started answering browser requests
+// with a "key required" placeholder, so the default is OpenStreetMap's
+// standard tiles (no key; see https://operations.osmfoundation.org/policies/tiles/).
+// Override with VITE_TILE_URL / VITE_TILE_ATTRIBUTION to use another
+// provider, e.g. Esri's light gray canvas:
+//   https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}
+const TILE_URL = import.meta.env.VITE_TILE_URL || "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+const TILE_ATTRIBUTION = import.meta.env.VITE_TILE_ATTRIBUTION
+  || '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+const TILE_MAX_ZOOM = 19;
+
 // Real meeting.room values are full building names + room number, e.g.
 // "Peterson Hall Room 110" (see lib/api.ts's parseSched). Stripping the
 // "Room ..." suffix gives the same building-name key
@@ -162,10 +173,7 @@ export function MapView({ items }: { items: PlannedItem[] }) {
           style={{ height: "100%", width: "100%" }}
           zoomControl={true}
         >
-          <TileLayer
-            attribution='&copy; <a href="https://carto.com">CartoDB</a>'
-            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-          />
+          <TileLayer attribution={TILE_ATTRIBUTION} url={TILE_URL} maxZoom={TILE_MAX_ZOOM} />
 
 
 

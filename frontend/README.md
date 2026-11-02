@@ -75,6 +75,15 @@ Vercel Web Analytics is supported through Vercel's first-party
 Vercel when Web Analytics is enabled for the project; it is opt-in so local
 development and unconfigured previews do not send analytics.
 
+## Map tiles
+
+The Map tab uses OpenStreetMap's standard tiles by default (no key).
+Carto's public basemaps, used previously, now return a "key required"
+placeholder to browsers. To use another provider set `VITE_TILE_URL`
+(Leaflet template with `{z}/{x}/{y}`) and `VITE_TILE_ATTRIBUTION` in
+`.env`; a keyless alternative is Esri's World Light Gray canvas at
+`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`.
+
 ## Data
 
 The app is wired to the backend via `lib/api.ts`, a typed client whose
