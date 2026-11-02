@@ -21,6 +21,28 @@ classes and build your schedule without TritonGPT. It pairs the public course
 catalog with  quarterly data, renders full transitive prerequisite trees, and
 lets you plan a schedules you can export to any calendar app.
 
+## Screenshots
+
+The interface takes after UCSD's retired WebReg: search on top, your schedule in
+List / Calendar / Finals / Map tabs below.
+
+![Search for Classes with the CSE 100 drawer open: sections table with Plan buttons, description, and prerequisite tree](docs/screenshots/search.png)
+
+| List | Calendar |
+| --- | --- |
+| ![My Schedule list tab](docs/screenshots/list.png) | ![Weekly calendar tab](docs/screenshots/calendar.png) |
+
+| Finals | Map |
+| --- | --- |
+| ![Finals week tab](docs/screenshots/finals.png) | ![Campus map tab with walking route](docs/screenshots/map.jpg) |
+
+<details>
+<summary>Mobile</summary>
+
+<img src="docs/screenshots/mobile.png" alt="Mobile view of the planner" width="390">
+
+</details>
+
 ## Features
 
 - **Course search** — filter by department and "offered this quarter", full-text query,
