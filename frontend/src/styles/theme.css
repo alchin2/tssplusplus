@@ -1,86 +1,83 @@
-@custom-variant dark (&:is(.dark *));
+/* TSS++ design tokens — the WebReg world, flat.
+   Named after the registrar page they come from: a navy header band, a
+   light-blue nav strip, an orange page title, a navy tab bar over gray-headed
+   tables, deep slate-teal class blocks, and bordered notice boxes. */
 
 :root {
-  /* Fluid root font: 13px (the design's dense baseline) up to ~1200px
-     viewports, then scales continuously so the whole rem-based UI reads
-     comfortably on big displays — ~15.8px at 1728, ~19px at 2378 (large
-     monitor at dpr 1), capped at 20px from ~2570px up. */
+  /* Fluid root font: 13px (WebReg's dense baseline) up to ~1200px viewports,
+     then scales continuously so the rem-based page reads comfortably on big
+     displays — ~15.8px at 1728, ~19px at 2378, capped at 20px. */
   --font-size: clamp(13px, 0.51vw + 6.9px, 20px);
-  --background: #dde1ec;
-  --foreground: #000000;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Chrome */
+  --wr-header: #1f6a9b;        /* header band */
+  --wr-header-deep: #175a86;   /* header band lower edge / hover */
+  --wr-strip: #d3e4f2;         /* nav strip */
+  --wr-strip-border: #a9c4dc;
+  --wr-bar: #164f70;           /* schedule tab bar, calendar axis */
+  --wr-bar-deep: #0f3d58;
+
+  /* Ink */
+  --wr-text: #222222;
+  --wr-text-soft: #4a4a4a;
+  --wr-muted: #6b6b6b;
+  --wr-faint: #9a9a9a;
+  --wr-link: #1a5f99;
+  --wr-link-hover: #0f4575;
+  --wr-orange: #c8661c;        /* page title */
+  --wr-gold: #f5c842;          /* the "++" */
+
+  /* Surfaces */
+  --wr-page: #ffffff;
+  --wr-panel: #f4f4f4;         /* result drawers */
+  --wr-head: #ececec;          /* table header cells */
+  --wr-stripe: #f1f4f7;
+  --wr-teal: #3f7389;          /* WebReg's enrolled teal */
+  --wr-cyan: #d6eef5;          /* WebReg's waitlist cyan */
+  --wr-selected: #e4f0f8;
+
+  /* Rules */
+  --wr-rule: #c9c9c9;
+  --wr-rule-soft: #e2e2e2;
+  --wr-rule-hair: #efefef;
+
+  /* Notices */
+  --wr-danger: #b3261e;
+  --wr-danger-bg: #fbe9e9;
+  --wr-danger-border: #d9777a;
+  --wr-success: #2e7d32;
+  --wr-success-bg: #e9f6ea;
+  --wr-success-border: #8fc693;
+  --wr-warn: #7a5200;
+  --wr-warn-bg: #fff6dc;
+  --wr-warn-border: #e2c46a;
+
+  --wr-radius: 3px;
+  --wr-focus: #1f6a9b;
+
+  /* Legacy shadcn-style names still referenced by Tailwind utilities. */
+  --background: var(--wr-page);
+  --foreground: var(--wr-text);
   --card: #ffffff;
-  --card-foreground: #000000;
+  --card-foreground: var(--wr-text);
   --popover: #ffffff;
-  --popover-foreground: #000000;
-  --primary: #0b4a67;
+  --popover-foreground: var(--wr-text);
+  --primary: var(--wr-header);
   --primary-foreground: #ffffff;
-  --secondary: #ececfa;
-  --secondary-foreground: #000000;
-  --muted: #e2e4ff;
-  --muted-foreground: #333333;
-  --accent: #6261c0;
+  --secondary: var(--wr-strip);
+  --secondary-foreground: var(--wr-text);
+  --muted: var(--wr-panel);
+  --muted-foreground: var(--wr-muted);
+  --accent: var(--wr-orange);
   --accent-foreground: #ffffff;
-  --destructive: #cc0000;
+  --destructive: var(--wr-danger);
   --destructive-foreground: #ffffff;
-  --border: #c0c0c0;
+  --border: var(--wr-rule);
   --input: #ffffff;
   --input-background: #ffffff;
-  --switch-background: #aaaaaa;
-  --font-weight-medium: 600;
-  --font-weight-normal: 400;
-  --ring: #016691;
-  --chart-1: #3b82f6;
-  --chart-2: #10b981;
-  --chart-3: #8b5cf6;
-  --chart-4: #f59e0b;
-  --chart-5: #ef4444;
-  --radius: 0.125rem;
-  --sidebar: #f5f5fa;
-  --sidebar-foreground: #000000;
-  --sidebar-primary: #0b4a67;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #ececfa;
-  --sidebar-accent-foreground: #000000;
-  --sidebar-border: #c0c0c0;
-  --sidebar-ring: #016691;
-}
-
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --font-weight-medium: 500;
-  --font-weight-normal: 400;
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  --ring: var(--wr-focus);
+  --radius: var(--wr-radius);
 }
 
 @theme inline {
@@ -102,85 +99,73 @@
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
   --color-input: var(--input);
-  --color-input-background: var(--input-background);
-  --color-switch-background: var(--switch-background);
   --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: 2px;
+  --radius-md: var(--radius);
   --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-xl: 4px;
+  --font-sans: var(--font-sans);
 }
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
-
-  body {
-    @apply bg-background text-foreground;
-  }
-
-  /**
-  * Default typography styles for HTML elements (h1-h4, p, label, button, input).
-  * These are in @layer base, so Tailwind utility classes (like text-sm, text-lg) automatically override them.
-  */
 
   html {
     font-size: var(--font-size);
+    -webkit-text-size-adjust: 100%;
   }
 
-  h1 {
-    font-size: var(--text-2xl);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  body {
+    margin: 0;
+    background: var(--wr-page);
+    color: var(--wr-text);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
   }
 
-  h2 {
-    font-size: var(--text-xl);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  /* Browser surfaces carry the palette too. */
+  ::selection {
+    background: var(--wr-header);
+    color: #fff;
   }
-
-  h3 {
-    font-size: var(--text-lg);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  input, textarea, select, button {
+    font: inherit;
+    color: inherit;
+    caret-color: var(--wr-header);
   }
-
-  h4 {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  :focus-visible {
+    outline: 2px solid var(--wr-focus);
+    outline-offset: 1px;
   }
-
-  label {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  a {
+    color: var(--wr-link);
+    text-decoration: none;
   }
-
+  a:hover {
+    color: var(--wr-link-hover);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  table {
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+  }
+  h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  p {
+    margin: 0;
+  }
   button {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+    cursor: pointer;
   }
-
-  input {
-    font-size: var(--text-base);
-    font-weight: var(--font-weight-normal);
-    line-height: 1.5;
+  button:disabled {
+    cursor: default;
   }
 }

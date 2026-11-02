@@ -1,76 +1,123 @@
-/* FullCalendar v6 theme — maps the --fc-* hooks onto the app tokens in
-   theme.css so the calendar reads as part of the retro-registrar UI:
-   square corners, hairline interior gridlines, a firm outer frame. */
+/* FullCalendar v6 in the WebReg world: a navy day-header row and hour
+   column with white labels, a white grid with soft half-hour rules, and deep
+   course-colored blocks with white text (red outline on conflict). */
 
 .fc {
-  --fc-small-font-size: 0.769rem;
-  --fc-border-color: #dcdfe9;
-  --fc-page-bg-color: var(--card);
-  --fc-neutral-bg-color: var(--secondary);
+  --fc-small-font-size: 0.846rem;
+  --fc-border-color: var(--wr-rule-soft);
+  --fc-page-bg-color: #fff;
+  --fc-neutral-bg-color: var(--wr-stripe);
   --fc-today-bg-color: transparent;
   --fc-now-indicator-color: transparent;
   --fc-event-border-color: transparent;
   font-size: 0.846rem;
 }
 
-/* Outer frame + header row carry the structural border weight. */
+/* Frame: the tab panel already draws the outer border. */
 .fc .fc-scrollgrid {
-  border-color: var(--border);
+  border: 0;
 }
-.fc th {
-  border-color: var(--border);
+.fc .fc-scrollgrid-section > td,
+.fc .fc-scrollgrid-section > th {
+  border-color: var(--wr-rule-soft);
 }
 
-/* Day header cells render an <a class="fc-col-header-cell-cushion">. */
+/* Day header row, navy with white bold labels. */
 .fc .fc-col-header-cell {
-  background: var(--sidebar);
+  background: var(--wr-bar);
+  border-color: var(--wr-bar-deep);
 }
 .fc .fc-col-header-cell-cushion {
   display: block;
-  padding: 7px 2px 6px;
-  color: var(--primary);
+  padding: 0.45rem 0.25rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.846rem;
+  text-decoration: none;
+  line-height: 1.25;
+}
+.fc .fc-col-header-cell-cushion small {
+  display: block;
+  font-weight: 400;
+  color: #cfe0ee;
+  font-size: 0.769rem;
+}
+.fc .fc-timegrid-axis {
+  background: var(--wr-bar);
+  border-color: var(--wr-bar-deep);
+}
+
+/* Hour column: navy with white labels; rows 3rem tall. */
+.fc .fc-timegrid-slot {
+  height: 3rem;
+}
+.fc .fc-timegrid-slot-label {
+  background: var(--wr-bar);
+  border-color: var(--wr-bar-deep);
+  vertical-align: top;
+}
+/* inline-block, not block: FullCalendar measures the cushion to size the
+   axis column, and a block cushion measures as the column's own width. */
+.fc .fc-timegrid-slot-label-cushion {
+  display: inline-block;
+  min-width: 3.1rem;
+  padding: 0.2rem 0.45rem 0 0.45rem;
+  color: #fff;
   font-weight: 700;
   font-size: 0.769rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-decoration: none;
+  white-space: nowrap;
 }
-.planner-finals .fc .fc-col-header-cell-cushion {
-  color: var(--accent);
+.fc .fc-timegrid-slot-lane {
+  border-color: var(--wr-rule-soft);
 }
-
-/* Hour rows: minimum density like the old HOUR_H=52 grid; expandRows
-   stretches them on tall viewports, short viewports scroll instead. */
-.fc .fc-timegrid-slot {
-  height: 3.25rem;
+.fc .fc-timegrid-slot-minor {
+  border-top-style: dashed;
+  border-top-color: #e9eef3;
 }
-.fc .fc-timegrid-slot-label-cushion {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 0.692rem;
-  color: #8b93a7;
+.fc .fc-timegrid-col {
+  border-color: var(--wr-rule-soft);
+}
+.fc .fc-timegrid-divider {
+  display: none;
 }
 
-/* Event chips: solid course color, near-square corners, hairline inner edge. */
+/* Class blocks. */
 .fc .fc-timegrid-event {
-  border-radius: var(--radius);
+  border-radius: 2px;
   box-shadow: none;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   cursor: pointer;
-  transition: opacity 0.15s ease;
+  transition: opacity 150ms ease, outline-color 150ms ease;
+}
+.fc .fc-timegrid-event.planner-ev-conflict {
+  outline: 2px solid var(--wr-danger);
+  outline-offset: -2px;
+}
+.fc .fc-timegrid-event-harness {
+  margin-inline: 1px;
 }
 .fc .fc-event-main {
   padding: 0;
   color: #fff;
+  container-type: inline-size;
 }
-.fc .fc-timegrid-event:focus {
-  outline: 2px solid var(--ring);
+/* Side-by-side blocks get narrow: drop the clock first, keep the status word. */
+@container (max-width: 9.5rem) {
+  .planner-ev-time { display: none; }
+}
+@container (max-width: 6rem) {
+  .planner-ev-status { display: none; }
+}
+.fc .fc-timegrid-event:focus,
+.fc .fc-timegrid-event:focus-visible {
+  outline: 2px solid var(--wr-gold);
   outline-offset: 1px;
+  box-shadow: none;
 }
 
-/* Click-to-highlight: gently fade the other courses' events. */
+/* Click-to-highlight: fade the other courses' blocks. */
 .fc .planner-ev-dim {
-  opacity: 0.5;
-  transition: opacity 120ms ease;
+  opacity: 0.45;
 }
 
 @media (prefers-reduced-motion: reduce) {

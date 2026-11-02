@@ -30,8 +30,10 @@ lets you plan a schedules you can export to any calendar app.
   panel, rendering the full transitive tree
 - **Schedule planner** — a FullCalendar based weekly view spanning the full week
   with automatic conflict detection; state lives in your browser (`localStorage`).
-- **Overview** — Stats for your planned quarter: units, weekly hours, average
-  section fill, and a finals schedule computed for the current term.
+- **My Schedule list** — a WebReg-style status table of your planned quarter
+  (section codes, meeting types, days, times, buildings, rooms, Final Exam rows)
+  with class-hour and building totals and a conflict notice listing every
+  colliding pair.
 - **Campus map** — a Leaflet map pinning every planned course's building, with real
   walking routes between back-to-back meetings (proxied through OpenRouteService).
 - **ICS export** — export your planned schedule to a standard `.ics` file, anchored to

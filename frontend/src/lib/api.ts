@@ -150,7 +150,8 @@ export async function fetchRoute(stops: [number, number][]): Promise<RouteResult
 
 // Deterministic per-course color for planner/map chips, same role as the
 // old mock data's hand-picked hex values.
-const COURSE_COLORS = ["#3b82f6", "#8b5cf6", "#10b981", "#f59e0b", "#ef4444", "#06b6d4", "#f97316", "#84cc16", "#ec4899", "#14b8a6"];
+// Deep, white-text-safe tones in the WebReg family (its enrolled teal first).
+const COURSE_COLORS = ["#3f7389", "#2c5f8a", "#4a6b3a", "#7a4f8a", "#a0522d", "#2a6f6a", "#6b5b2e", "#8a3a4f", "#3d5a80", "#5f6b7a"];
 
 function colorFor(code: string): string {
   let hash = 0;

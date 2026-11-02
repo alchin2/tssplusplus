@@ -1,11 +1,10 @@
-import { CircleHelp, FileUp, Loader2 } from "lucide-react";
+import { CircleHelp, Loader2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-// Planner-toolbar control for importing an enrolled schedule from a TSS
-// "My Courses" PDF. Sibling in spirit to TranscriptUpload.tsx: purely
-// presentational -- the parent (App.tsx) owns the extract -> parse -> resolve
-// flow. Importing *replaces* the planner (see handleScheduleImportFile), so the
-// info popover sets that expectation up front.
+// Title-row action for importing an enrolled schedule from a TSS "My
+// Courses" PDF. Purely presentational -- the parent (App.tsx) owns the
+// extract -> parse -> resolve flow. Importing *replaces* the planner (see
+// handleScheduleImportFile), so the help popover sets that expectation.
 export function ScheduleImportButton({ onPick, loading }: {
   onPick: (file: File) => void;
   loading: boolean;
@@ -38,35 +37,28 @@ export function ScheduleImportButton({ onPick, loading }: {
   }
 
   return (
-    <div ref={wrapRef} className="relative flex items-center">
+    <div ref={wrapRef} className="relative inline-flex items-center gap-1">
       <input ref={inputRef} type="file" accept="application/pdf" className="hidden" onChange={handleChange} />
-
-      <div className="flex" style={{ border: "1px solid #514fb0" }}>
-        <button type="button" onClick={() => inputRef.current?.click()} disabled={loading}
-          title="Import your enrolled courses from a TSS My Courses PDF"
-          className="flex items-center gap-1 px-2 py-1 text-[0.692rem] font-bold text-white disabled:opacity-60 hover:brightness-110"
-          style={{ backgroundColor: "#6261c0" }}>
-          {loading ? <Loader2 className="w-3 h-3 animate-spin" /> : <FileUp className="w-3 h-3" />}
-          Import PDF
-        </button>
-        <button type="button" onClick={() => setHelpOpen(o => !o)} aria-label="How to import"
-          className="flex items-center px-1.5 py-1 text-white border-l hover:brightness-110"
-          style={{ backgroundColor: "#6261c0", borderColor: "#514fb0" }}>
-          <CircleHelp className="w-3 h-3" />
-        </button>
-      </div>
+      <button type="button" className="wr-linkbtn inline-flex items-center gap-1" onClick={() => inputRef.current?.click()} disabled={loading}
+        title="Import your enrolled courses from a TSS My Courses PDF">
+        {loading && <Loader2 className="w-3.5 h-3.5 animate-spin" aria-hidden="true" />}
+        {loading ? "Importing…" : "Import from TSS"}
+      </button>
+      <button type="button" onClick={() => setHelpOpen(o => !o)} aria-label="How to import from TSS" aria-expanded={helpOpen}
+        className="inline-flex items-center" style={{ color: "var(--wr-link)" }}>
+        <CircleHelp className="w-3.5 h-3.5" aria-hidden="true" />
+      </button>
 
       {helpOpen && (
-        <div className="absolute top-full left-0 mt-1 z-50 w-72 p-3 text-[0.692rem] leading-snug text-gray-700 shadow-lg"
-          style={{ backgroundColor: "#fff", border: "1px solid #6261c0" }}>
-          <div className="font-bold text-[0.769rem] text-[#0b4a67] mb-1.5">Import your enrolled courses</div>
+        <div className="wr-popover" style={{ top: "100%", right: 0, marginTop: 4 }} role="dialog" aria-label="How to import from TSS">
+          <p className="font-bold text-[0.923rem] mb-1.5" style={{ color: "var(--wr-text)" }}>Import your enrolled courses</p>
           <ol className="list-decimal pl-4 space-y-1">
             <li>Open <b>My Courses</b> in TSS.</li>
-            <li> <b>Print (Cntrl + P) </b> → <b>Save as PDF</b>.</li>
-            <li>Upload it here</li>
+            <li>Print the page (<b>Ctrl/⌘ + P</b>) and choose <b>Save as PDF</b>.</li>
+            <li>Upload that PDF here.</li>
           </ol>
-          <p className="mt-2 text-gray-500">
-            <b>Warning:</b> This <b>replaces</b> your current planner. Only courses offered this quarter can be matched.
+          <p className="mt-2">
+            <b>This replaces your current planner.</b> Only courses offered this quarter can be matched; anything else is listed as unmatched.
           </p>
         </div>
       )}

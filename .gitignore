@@ -7,3 +7,5 @@ cookie.txt
 .claude
 skills-lock.json
 node_modules
+# Impeccable review screenshots (regenerated locally)
+.impeccable/review/

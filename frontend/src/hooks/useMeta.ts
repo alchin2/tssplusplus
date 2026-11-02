@@ -23,3 +23,19 @@ export function useMeta(): Meta | null {
 export function termLabel(meta: Meta | null): string {
   return (meta?.term ?? "").toUpperCase();
 }
+
+// "fa26" -> "Fall Quarter 2026", the way WebReg names a term. Unknown codes
+// fall back to the uppercase label; no term yet reads as an ellipsis.
+const TERM_NAMES: Record<string, string> = {
+  fa: "Fall Quarter", wi: "Winter Quarter", sp: "Spring Quarter",
+  su: "Summer Session", s1: "Summer Session I", s2: "Summer Session II", s3: "Special Summer Session",
+};
+
+export function termName(meta: Meta | null): string {
+  const code = meta?.term;
+  if (!code) return "…";
+  const m = /^([a-z]\d|[a-z]{2})(\d{2})$/i.exec(code);
+  if (!m) return code.toUpperCase();
+  const name = TERM_NAMES[m[1].toLowerCase()];
+  return name ? `${name} 20${m[2]}` : code.toUpperCase();
+}
