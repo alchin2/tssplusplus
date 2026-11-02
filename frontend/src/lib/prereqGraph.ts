@@ -279,9 +279,9 @@ export function buildGraph(
 export const NODE_CFG: Record<
   GNode["status"], { fill: string; stroke: string; text: string; accent: string; label: string }
 > = {
-  root:       { fill: "#0b4a67", stroke: "#083858", text: "#ffffff", accent: "#f5c842", label: "Selected" },
-  completed:  { fill: "#dcfce7", stroke: "#16a34a", text: "#14532d", accent: "#16a34a", label: "Completed" },
-  inProgress: { fill: "#fef3c7", stroke: "#d97706", text: "#92400e", accent: "#d97706", label: "In progress" },
-  planned:    { fill: "#dbeafe", stroke: "#2563eb", text: "#1e3a8a", accent: "#2563eb", label: "Planned" },
-  default:    { fill: "#f8faff", stroke: "#8899bb", text: "#1a2a4a", accent: "#8899bb", label: "Available" },
+  root:       { fill: "#164f70", stroke: "#0f3d58", text: "#ffffff", accent: "#f5c842", label: "Selected" },
+  completed:  { fill: "#e9f6ea", stroke: "#2e7d32", text: "#1f5a23", accent: "#2e7d32", label: "Completed" },
+  inProgress: { fill: "#fff6dc", stroke: "#b07a00", text: "#6b4a00", accent: "#b07a00", label: "In progress" },
+  planned:    { fill: "#d6eef5", stroke: "#1f6a9b", text: "#0f3d58", accent: "#1f6a9b", label: "Planned" },
+  default:    { fill: "#ffffff", stroke: "#b5c2cd", text: "#222222", accent: "#b5c2cd", label: "Available" },
 };

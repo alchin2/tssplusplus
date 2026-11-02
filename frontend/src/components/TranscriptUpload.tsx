@@ -2,12 +2,10 @@ import { FileUp, Loader2, TriangleAlert, X } from "lucide-react";
 import { useRef } from "react";
 import type { TranscriptRecord } from "../types";
 
-// Upload control for a UCSD academic-history PDF, adapted from ClassGraph's
-// src/components/TranscriptUpload.jsx into TSS++'s flat/dense style. Purely
-// presentational: the parent owns the file -> extract -> parse flow (App.tsx)
-// so the parsed record persists across course selections, and the parsed
-// completed/in-progress courses tint the prerequisite graph. The detected
-// counts here reuse the graph's legend colors so the mapping reads at a glance.
+// Upload control for a UCSD academic-history PDF. Purely presentational: the
+// parent owns the file -> extract -> parse flow (App.tsx) so the parsed record
+// persists across drawers, and the completed/in-progress courses tint the
+// prerequisite graph. The counts reuse the graph's legend colors.
 export function TranscriptUpload(
   { fileName, loading, error, record, onPick, onClear }: {
     fileName: string | null;
@@ -28,45 +26,37 @@ export function TranscriptUpload(
   }
 
   return (
-    <div className="mb-3">
+    <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[0.846rem]" style={{ color: "var(--wr-muted)" }}>
       <input ref={inputRef} type="file" accept="application/pdf" className="hidden" onChange={handleChange} />
 
-      <div className="flex items-center gap-2">
-        <button type="button" onClick={() => inputRef.current?.click()} disabled={loading}
-          className="flex items-center gap-1.5 px-2 py-1 text-[0.769rem] font-bold text-white disabled:opacity-60"
-          style={{ backgroundColor: "#6261c0", border: "1px solid #514fb0" }}>
-          {loading ? <Loader2 className="w-3 h-3 animate-spin" /> : <FileUp className="w-3 h-3" />}
-          Upload transcript
-        </button>
-        <span className="text-[0.769rem] text-gray-500 truncate flex-1 min-w-0" title={fileName ?? undefined}>
-          {loading ? "Reading PDF…" : fileName ?? "Highlight completed & in-progress prereqs (PDF)"}
-        </span>
-        {(fileName || hasData) && !loading && (
-          <button type="button" onClick={onClear} title="Clear transcript"
-            className="flex-shrink-0 flex items-center gap-0.5 text-[0.769rem] text-gray-500 hover:text-gray-800">
-            <X className="w-3 h-3" /> Clear
-          </button>
-        )}
-      </div>
+      <button type="button" onClick={() => inputRef.current?.click()} disabled={loading} className="wr-btn is-sm"
+        title="Upload your academic history PDF to mark completed and in-progress prerequisites">
+        {loading ? <Loader2 className="w-3 h-3 animate-spin" aria-hidden="true" /> : <FileUp className="w-3 h-3" aria-hidden="true" />}
+        {fileName ? "Replace transcript" : "Upload transcript"}
+      </button>
 
-      {error && (
-        <div className="mt-1.5 flex items-center gap-1.5 text-[0.769rem] text-amber-800">
-          <TriangleAlert className="w-3 h-3 flex-shrink-0" /> {error}
-        </div>
-      )}
+      {loading && <span>Reading PDF…</span>}
+      {!loading && !fileName && !hasData && <span>Marks completed and in-progress prerequisites (academic history PDF).</span>}
+      {!loading && fileName && <span className="truncate max-w-[14rem]" title={fileName}>{fileName}</span>}
 
       {hasData && !loading && (
-        <div className="mt-1.5 flex items-center gap-3 text-[0.769rem]">
-          {record.completed.size > 0 && (
-            <span style={{ color: "#16a34a" }}><b>{record.completed.size}</b> completed</span>
-          )}
-          {record.inProgress.size > 0 && (
-            <span style={{ color: "#d97706" }}><b>{record.inProgress.size}</b> in progress</span>
-          )}
-          {record.planned.size > 0 && (
-            <span style={{ color: "#2563eb" }}><b>{record.planned.size}</b> planned</span>
-          )}
-        </div>
+        <span className="inline-flex gap-2">
+          {record.completed.size > 0 && <span style={{ color: "#2e7d32" }}><b>{record.completed.size}</b> completed</span>}
+          {record.inProgress.size > 0 && <span style={{ color: "#8a5a00" }}><b>{record.inProgress.size}</b> in progress</span>}
+          {record.planned.size > 0 && <span style={{ color: "var(--wr-link)" }}><b>{record.planned.size}</b> planned</span>}
+        </span>
+      )}
+
+      {(fileName || hasData) && !loading && (
+        <button type="button" onClick={onClear} className="wr-linkbtn is-quiet inline-flex items-center gap-0.5" title="Clear transcript">
+          <X className="w-3 h-3" aria-hidden="true" /> Clear
+        </button>
+      )}
+
+      {error && (
+        <span className="inline-flex items-center gap-1" style={{ color: "var(--wr-danger)" }}>
+          <TriangleAlert className="w-3 h-3" aria-hidden="true" /> {error}
+        </span>
       )}
     </div>
   );

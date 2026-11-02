@@ -7,6 +7,25 @@ export function fmt(h: number): string {
   return `${h12}:${min.toString().padStart(2, "0")}${ap}`;
 }
 
+// WebReg's compact clock: "8:00a", "12:30p".
+export function fmtShort(h: number): string {
+  const hr = Math.floor(h), min = Math.round((h - hr) * 60);
+  const ap = hr >= 12 ? "p" : "a", h12 = hr > 12 ? hr - 12 : hr === 0 ? 12 : hr;
+  return `${h12}:${min.toString().padStart(2, "0")}${ap}`;
+}
+
+export function fmtRange(start: number, end: number): string {
+  return `${fmtShort(start)}-${fmtShort(end)}`;
+}
+
+// "Peterson Hall Room 110" -> { building: "Peterson Hall", room: "110" }.
+// Rooms without the "Room" marker keep the whole string as the building.
+export function splitRoom(room: string): { building: string; room: string } {
+  const m = /^(.*?)\s+Room\s+(.+)$/.exec(room);
+  if (m) return { building: m[1].trim(), room: m[2].trim() };
+  return { building: room || "TBA", room: "" };
+}
+
 export const DAY_CODES: DayCode[] = ["M", "Tu", "W", "Th", "F", "Sa", "Su"];
 export const DAY_LABELS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 export const DEPTS = ["ALL", "CSE", "ECE", "MATH", "COGS"];
@@ -17,6 +36,25 @@ export function conflictsWith(s: Section, items: PlannedItem[]): boolean {
       for (const mb of b.meetings)
         if (ma.days.some(d => mb.days.includes(d)) && ma.start < mb.end && mb.start < ma.end) return true;
   return false;
+}
+
+// Every colliding pair of planned courses, meetings and finals separately,
+// in planner order -- the list WebReg prints in its conflict notice.
+export interface ConflictPair { a: string; b: string; final: boolean }
+
+export function conflictPairs(items: PlannedItem[]): ConflictPair[] {
+  const out: ConflictPair[] = [];
+  for (let i = 0; i < items.length; i++) {
+    for (let j = i + 1; j < items.length; j++) {
+      const A = items[i], B = items[j];
+      if (conflictsWith(A.section, [B])) out.push({ a: A.course.code, b: B.course.code, final: false });
+      const fa = computeFinal(A.section), fb = computeFinal(B.section);
+      if (fa && fb && fa.colIdx === fb.colIdx && fa.startH < fb.endH && fb.startH < fa.endH) {
+        out.push({ a: A.course.code, b: B.course.code, final: true });
+      }
+    }
+  }
+  return out;
 }
 
 // ─── Finals ─────────────────────────────────────────────────────────────────
@@ -61,6 +99,16 @@ export function finalDateLabel(colIdx: number): string {
   return asDate(finalsWeekISO()[colIdx])
     .toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", ...UTC })
     .replace(",", "");
+}
+
+// WebReg-style numeric date for a final's day, e.g. "Sa 12/13/2026".
+export function finalDateShort(colIdx: number): string {
+  const d = asDate(finalsWeekISO()[colIdx]);
+  const wd = d.toLocaleDateString("en-US", { weekday: "short", ...UTC });
+  const code = wd === "Tue" ? "Tu" : wd === "Thu" ? "Th" : wd === "Sat" ? "Sa" : wd === "Sun" ? "Su" : wd[0];
+  const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(d.getUTCDate()).padStart(2, "0");
+  return `${code} ${mm}/${dd}/${d.getUTCFullYear()}`;
 }
 
 // Range label for the whole finals week (e.g. "Dec 8–13, 2026"), for headings.
