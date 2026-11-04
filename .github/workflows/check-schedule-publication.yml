@@ -1,15 +1,22 @@
 name: Check Schedule of Classes publication
 
-# Once a day at 9pm Pacific, ask Blink whether a new quarter's Schedule
-# of Classes went online yesterday.
+# Once a day, ask Blink whether a new quarter's Schedule of Classes went
+# online recently and hasn't been scraped yet. GitHub often starts
+# scheduled runs hours late, so check_publication.py accepts a multi-day
+# window instead of the run having to land at an exact time.
 on:
   schedule:
-    - cron: '0 4 * * *'   # 9pm Pacific while PDT (UTC-7)
-    - cron: '0 5 * * *'   # 9pm Pacific while PST (UTC-8)
+    - cron: '0 4 * * *'   # ~8-9pm Pacific, when GitHub runs it on time
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: write
+
+# A manual run mid-scrape shouldn't start a second, overlapping scrape.
+concurrency:
+  group: check-schedule-publication
+  cancel-in-progress: false
 
 jobs:
   check-publication:
@@ -25,52 +32,71 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Only the trigger that lands on 9pm Pacific for the current season
-      - name: Guard - only continue at 9pm Pacific
-        id: guard
-        run: |
-          python3 - <<'PY'
-          import os
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
-          now = datetime.now(ZoneInfo("America/Los_Angeles"))
-          proceed = now.hour == 21 or os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch"
-          print(f"Pacific time now: {now:%Y-%m-%d %H:%M %Z} (hour={now.hour})")
-          print(f"Proceed? {proceed}")
-          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write(f"proceed={'true' if proceed else 'false'}\n")
-          PY
-
-      - name: Check whether a quarter published yesterday
+      - name: Check for a newly published, unscraped quarter
         id: check
-        if: steps.guard.outputs.proceed == 'true'
         run: python3 scrapers/helpers/check_publication.py
 
-      # Heads-up 15 minutes before the cookie-dependent scraping starts.
-      - name: Notify Discord 15 minutes before scraping
+      # One tracking issue per quarter -- reused on retry days, closed below
+      # once the scrape succeeds.
+      - name: Open catalog-update issue
+        id: issue
         if: steps.check.outputs.run == 'true'
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GH_TOKEN: ${{ github.token }}
           QUARTER: ${{ steps.check.outputs.quarter }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
-            echo "DISCORD_WEBHOOK_URL not set; skipping heads-up and the 15-min wait."
-            exit 0
-          fi
-          read -r -d '' CONTENT <<EOF || true
-          :hourglass_flowing_sand: **TSS++ will scrape $QUARTER in 15 minutes.**
-          Make sure the \`TSS_COOKIE\` secret is fresh or the scrape will fail:
-          log into <https://tss.ucsd.edu/fiori> -> DevTools (F12) -> Network -> Fetch/XHR -> reload -> copy any \`tss.ucsd.edu\` request's full \`cookie\` header -> update the \`TSS_COOKIE\` secret.
+          TITLE="Update Course Catalog to $QUARTER"
+          URL=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "\"$TITLE\" in:title" --json title,url \
+            | jq -r --arg t "$TITLE" '.[] | select(.title == $t) | .url' | head -n1)
+          if [ -n "$URL" ]; then
+            echo "Reusing open issue: $URL"
+            echo "created=false" >> "$GITHUB_OUTPUT"
+          else
+            read -r -d '' BODY <<EOF || true
+          The $QUARTER Schedule of Classes is online, so the catalog and live section data need refreshing.
+
+          The scrape needs a fresh \`TSS_COOKIE\` secret:
+          1. Log into <https://tss.ucsd.edu/fiori> in Chrome.
+          2. DevTools (F12) -> Network -> Fetch/XHR -> reload once.
+          3. Click any \`tss.ucsd.edu\` request and copy the full \`cookie\` request header.
+          4. Update the \`TSS_COOKIE\` repo secret with that value.
+
+          The workflow retries daily (or re-run it from Actions) and closes this issue once the scrape succeeds.
 
           Run: $RUN_URL
           EOF
+            URL=$(gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body "$BODY")
+            echo "Opened issue: $URL"
+            echo "created=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      # Only for a newly opened issue, so retry days don't re-announce it.
+      - name: Notify Discord of the new quarter
+        if: steps.issue.outputs.created == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          QUARTER: ${{ steps.check.outputs.quarter }}
+          ISSUE_URL: ${{ steps.issue.outputs.url }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "DISCORD_WEBHOOK_URL not set; skipping notification."
+            exit 0
+          fi
+          read -r -d '' CONTENT <<EOF || true
+          :calendar: **The $QUARTER Schedule of Classes is online** -- TSS++ is scraping it now.
+          Make sure the \`TSS_COOKIE\` secret is fresh or the scrape will fail.
+
+          Issue: $ISSUE_URL
+          EOF
           jq -n --arg content "$CONTENT" '{content: $content}' \
             | curl -sS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"
-          echo "Waiting 15 minutes so the cookie can be refreshed before scraping..."
-          sleep 900
 
-      # Everything below runs only the day after a quarter goes online.
+      # Everything below runs only once a quarter has gone online and
+      # until its scrape succeeds (retried daily within the catch-up window).
+      # Scrapers get that quarter's term code as TSS_TERM (e.g. wi27), not
+      # the live site's term.
       - name: Scrape course catalog
         if: steps.check.outputs.run == 'true'
         run: python3 scrapers/catalog_scraper/main.py
@@ -83,10 +109,14 @@ jobs:
 
       - name: Refresh offered-course list
         if: steps.check.outputs.run == 'true'
+        env:
+          TSS_TERM: ${{ steps.check.outputs.term }}
         run: python3 scrapers/tss_scraper/main.py --titles-only
 
       - name: Mark offered courses in the catalog
         if: steps.check.outputs.run == 'true'
+        env:
+          TSS_TERM: ${{ steps.check.outputs.term }}
         run: python3 scrapers/helpers/mark_offered_courses.py
 
       # Commit the catalog/offered data before the Mongo section scrape
@@ -105,21 +135,49 @@ jobs:
         if: steps.check.outputs.run == 'true'
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          TSS_TERM: ${{ steps.check.outputs.term }}
         run: python3 scrapers/tss_scraper/main.py
 
-      # A dead cookie aborts the scrape, pings discord
+      # Recorded only after the section scrape succeeds, so a dead cookie
+      # leaves the quarter pending and tomorrow's run retries it.
+      - name: Mark quarter as scraped
+        if: steps.check.outputs.run == 'true'
+        env:
+          QUARTER: ${{ steps.check.outputs.quarter }}
+        run: python3 scrapers/helpers/check_publication.py --mark-scraped "$QUARTER"
+
+      - name: Commit scraped-quarter marker
+        if: steps.check.outputs.run == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: mark ${{ steps.check.outputs.quarter }} as scraped"
+          file_pattern: data/scraped_quarters.txt
+
+      - name: Close catalog-update issue
+        if: steps.check.outputs.run == 'true' && steps.issue.outputs.url != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          QUARTER: ${{ steps.check.outputs.quarter }}
+          ISSUE_URL: ${{ steps.issue.outputs.url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue close "$ISSUE_URL" --reason completed --comment "Scraped $QUARTER: $RUN_URL"
+
+      # Any failed step once a quarter is pending pings discord -- a dead
+      # cookie usually fails at --titles-only, before the section scrape.
       - name: Alert Discord that the TSS cookie needs refreshing
-        if: always() && steps.scrape.outcome == 'failure'
+        if: failure() && steps.check.outputs.run == 'true'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ISSUE_URL: ${{ steps.issue.outputs.url }}
         run: |
           if [ -z "$DISCORD_WEBHOOK_URL" ]; then
             echo "DISCORD_WEBHOOK_URL not set; skipping notification."
             exit 0
           fi
           read -r -d '' CONTENT <<EOF || true
-          :warning: **TSS++ catalog-refresh scrape failed** -- the TSS cookie has likely expired.
+          :warning: **TSS++ catalog-refresh scrape failed** -- most likely the TSS cookie expired (check the run log if not).
 
           Refresh it:
           1. Log into <https://tss.ucsd.edu/fiori> in Chrome.
@@ -127,7 +185,10 @@ jobs:
           3. Click any \`tss.ucsd.edu\` request and copy the full \`cookie\` request header.
           4. Update the \`TSS_COOKIE\` repo secret with that value.
 
+          Tomorrow's run retries automatically, or re-run this workflow now from Actions.
+
           Run log: $RUN_URL
+          Issue: ${ISSUE_URL:-n/a}
           EOF
           jq -n --arg content "$CONTENT" '{content: $content}' \
             | curl -sS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK_URL"

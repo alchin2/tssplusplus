@@ -9,6 +9,7 @@ from tools.session import SessionExpiredError
 from main import (
     filter_titles,
     is_excluded_code,
+    parse_term,
     read_titles_csv,
     scrape_all_sections,
     split_subject_code,
@@ -26,6 +27,32 @@ def test_term_slug_fall_confirmed():
 
 def test_term_slug_unconfirmed_perid_falls_back_without_guessing():
     assert term_slug("2027", "9") == "p927"
+
+
+# --- parse_term ---------------------------------------------------------------
+
+
+def test_parse_term_fall_confirmed():
+    assert parse_term("fa26") == ("2026", "2")
+
+
+def test_parse_term_round_trips_with_term_slug():
+    assert term_slug(*parse_term("fa27")) == "fa27"
+
+
+def test_parse_term_normalizes_case_and_whitespace():
+    assert parse_term(" FA26 ") == ("2026", "2")
+
+
+def test_parse_term_unconfirmed_season_raises_instead_of_guessing():
+    with pytest.raises(ValueError, match="No confirmed TSS Perid"):
+        parse_term("wi27")
+
+
+@pytest.mark.parametrize("bad", ["", "fall26", "fa2026", "26fa"])
+def test_parse_term_rejects_malformed_codes(bad):
+    with pytest.raises(ValueError, match="Bad term code"):
+        parse_term(bad)
 
 
 # --- write_titles_csv -----------------------------------------------------------

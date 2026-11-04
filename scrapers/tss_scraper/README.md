@@ -38,8 +38,13 @@ python3 main.py                 # scrape sections+meetings, upsert to MongoDB
 The default run reads that CSV instead of re-fetching titles every
 time, so run `--titles-only` again whenever you want to refresh it.
 
-Both default to `--peryr 2026 --perid 2` (Fall 2026, the only
-confirmed `Perid`). Pass `--peryr`/`--perid` for other terms.
+Both scrape the term in `TSS_TERM` from the repo-root `.env` (e.g.
+`TSS_TERM=fa26`), the same setting the backend reads, so switching terms
+is a one-line change. `--term wi27` overrides it for one run. The term
+code maps to TSS's `Peryr`/`Perid` via `TERM_PERIDS` in `main.py`; only
+fall (`Perid` 2) is confirmed so far, and other seasons error out until
+theirs is added. To probe an unconfirmed one, pass raw
+`--peryr`/`--perid`, which override the term.
 
 The default (non-`--titles-only`) run fans courses out across
 `--workers` threads (default 5) -- keep it modest to stay polite to
@@ -59,7 +64,7 @@ duplicate data.
 - `tools/sections.py` -- fetches one course's flat event rows
   (`YUCSD_CON_MODULE(...)/_sections`) and groups them by package into
   real sections, each with its meetings.
-- `tools/storage.py` -- MongoDB upsert (collection defaults to `fa26`).
+- `tools/storage.py` -- MongoDB upsert (one collection per term, e.g. `fa26`).
 
 Each MongoDB document also keeps the untouched raw API rows in a `raw`
 field, so a grouping/parsing bug can be fixed by reprocessing instead of
