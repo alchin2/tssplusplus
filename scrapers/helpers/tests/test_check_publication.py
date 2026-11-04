@@ -1,6 +1,13 @@
 from datetime import date
 
-from check_publication import newly_published_quarter, parse_publication_dates
+from check_publication import (
+    CATCH_UP_DAYS,
+    mark_scraped,
+    parse_publication_dates,
+    pending_quarter,
+    quarter_term,
+    read_scraped,
+)
 
 # Mirrors Blink's real layout: two year tables, a decoy row, dates
 # footnoted with "*", and TBA/n-a cells that must be skipped.
@@ -46,24 +53,67 @@ DATES = {"Fall 2026": date(2026, 7, 10), "Winter 2027": date(2026, 11, 5)}
 
 
 def test_day_after_publication_returns_quarter():
-    assert newly_published_quarter(DATES, date(2026, 7, 11)) == "Fall 2026"
+    assert pending_quarter(DATES, date(2026, 7, 11), set()) == "Fall 2026"
 
 
 def test_publication_day_itself_is_not_a_match():
-    assert newly_published_quarter(DATES, date(2026, 7, 10)) is None
+    assert pending_quarter(DATES, date(2026, 7, 10), set()) is None
 
 
-def test_two_days_after_is_not_a_match():
-    assert newly_published_quarter(DATES, date(2026, 7, 12)) is None
+def test_late_run_within_window_still_matches():
+    # GitHub delays can push the day-after run into the next Pacific day.
+    assert pending_quarter(DATES, date(2026, 11, 7), set()) == "Winter 2027"
+
+
+def test_last_day_of_window_matches():
+    assert pending_quarter(DATES, date(2026, 7, 10 + CATCH_UP_DAYS), set()) == "Fall 2026"
+
+
+def test_after_window_is_not_a_match():
+    assert pending_quarter(DATES, date(2026, 7, 11 + CATCH_UP_DAYS), set()) is None
+
+
+def test_already_scraped_quarter_is_skipped():
+    assert pending_quarter(DATES, date(2026, 11, 6), {"Winter 2027"}) is None
 
 
 def test_matches_the_right_quarter_among_several():
-    assert newly_published_quarter(DATES, date(2026, 11, 6)) == "Winter 2027"
+    assert pending_quarter(DATES, date(2026, 11, 6), set()) == "Winter 2027"
 
 
-def test_no_quarter_published_yesterday_returns_none():
-    assert newly_published_quarter(DATES, date(2026, 1, 1)) is None
+def test_overlapping_windows_prefer_most_recent_unscraped():
+    dates = {"Winter 2027": date(2026, 11, 5), "Spring 2027": date(2026, 11, 8)}
+    assert pending_quarter(dates, date(2026, 11, 9), set()) == "Spring 2027"
+    assert pending_quarter(dates, date(2026, 11, 9), {"Spring 2027"}) == "Winter 2027"
+
+
+def test_no_quarter_published_recently_returns_none():
+    assert pending_quarter(DATES, date(2026, 1, 1), set()) is None
 
 
 def test_empty_dates_returns_none():
-    assert newly_published_quarter({}, date(2026, 7, 11)) is None
+    assert pending_quarter({}, date(2026, 7, 11), set()) is None
+
+
+def test_read_scraped_missing_file_is_empty(tmp_path):
+    assert read_scraped(tmp_path / "scraped_quarters.txt") == set()
+
+
+def test_mark_scraped_appends_once(tmp_path):
+    path = tmp_path / "scraped_quarters.txt"
+    mark_scraped("Fall 2026", path)
+    mark_scraped("Winter 2027", path)
+    mark_scraped("Winter 2027", path)
+    assert path.read_text() == "Fall 2026\nWinter 2027\n"
+    assert read_scraped(path) == {"Fall 2026", "Winter 2027"}
+
+
+def test_quarter_term_maps_blink_labels_to_term_codes():
+    assert quarter_term("Fall 2026") == "fa26"
+    assert quarter_term("Winter 2027") == "wi27"
+    assert quarter_term("Spring 2027") == "sp27"
+
+
+def test_quarter_term_unknown_label_returns_none():
+    assert quarter_term("Summer Session I 2027") is None
+    assert quarter_term("Fall") is None

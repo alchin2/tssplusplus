@@ -62,10 +62,11 @@ def test_get_collection_uses_defaults_when_unset(mock_client_cls, monkeypatch):
     mock_client = MagicMock()
     mock_client_cls.return_value = mock_client
 
-    get_collection()
+    get_collection("fa26")
 
     mock_client_cls.assert_called_once_with(DEFAULT_MONGO_URI)
     mock_client.__getitem__.assert_called_once_with(DEFAULT_DB_NAME)
+    mock_client[DEFAULT_DB_NAME].__getitem__.assert_called_once_with("fa26")
 
 
 @patch("tools.storage.MongoClient")
@@ -75,7 +76,7 @@ def test_get_collection_prefers_explicit_args_over_env(mock_client_cls, monkeypa
     mock_client = MagicMock()
     mock_client_cls.return_value = mock_client
 
-    get_collection(uri="mongodb://explicit-host:27017", db_name="explicit_db")
+    get_collection("fa26", uri="mongodb://explicit-host:27017", db_name="explicit_db")
 
     mock_client_cls.assert_called_once_with("mongodb://explicit-host:27017")
     mock_client.__getitem__.assert_called_once_with("explicit_db")
@@ -88,7 +89,7 @@ def test_get_collection_falls_back_to_env_vars(mock_client_cls, monkeypatch):
     mock_client = MagicMock()
     mock_client_cls.return_value = mock_client
 
-    get_collection()
+    get_collection("fa26")
 
     mock_client_cls.assert_called_once_with("mongodb://env-host:27017")
     mock_client.__getitem__.assert_called_once_with("env_db")

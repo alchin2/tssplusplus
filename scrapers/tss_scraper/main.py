@@ -22,7 +22,8 @@ Setup:
      header's full value into a new file called cookie.txt, next to
      this script. Don't share that file with anyone -- it's your login.
   4. pip install -r requirements.txt
-  5. python3 main.py
+  5. Set TSS_TERM in the repo-root .env (e.g. TSS_TERM=fa26).
+  6. python3 main.py
 
 Sessions expire. If you start getting a clear "session expired" error,
 redo steps 1-3.
@@ -30,6 +31,7 @@ redo steps 1-3.
 
 import argparse
 import csv
+import os
 import re
 import sys
 import threading
@@ -38,6 +40,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
+from dotenv import load_dotenv
 
 from tools.sections import REQUEST_DELAY_SEC, scrape_course_sections
 from tools.session import SessionExpiredError, build_session
@@ -47,10 +50,17 @@ from tools.titles import fetch_titles
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 OFFERED_DIR = PROJECT_ROOT / "data" / "offered"
 
-# '2' = Fall, confirmed via keydate -- extend as other Perid values are
-# confirmed. Falls back to a plain "p<perid>" prefix instead of guessing
-# a season for anything unconfirmed.
-PERID_TERM_ABBR = {"2": "fa"}
+load_dotenv(PROJECT_ROOT / ".env")
+
+# Term code season prefix -> TSS AcademicPeriod (Perid). '2' = Fall,
+# confirmed via keydate -- extend as other Perid values are confirmed
+# (try them with --peryr/--perid first). AcademicYear (Peryr) is assumed
+# to be the term's calendar year; also only confirmed for fall.
+TERM_PERIDS = {"fa": "2"}
+# Reverse lookup for term_slug. Falls back to a plain "p<perid>" prefix
+# instead of guessing a season for anything unconfirmed.
+PERID_TERM_ABBR = {perid: abbr for abbr, perid in TERM_PERIDS.items()}
+TERM_RE = re.compile(r"^([a-z]{2})(\d{2})$")
 
 # Splits a title record's "Short" field (e.g. "MATH-010B") into a
 # subject prefix and the remaining course code, best-effort -- used for
@@ -86,6 +96,21 @@ def filter_titles(titles: list[dict]) -> list[dict]:
 def term_slug(peryr: str, perid: str) -> str:
     abbr = PERID_TERM_ABBR.get(perid, f"p{perid}")
     return f"{abbr}{peryr[-2:]}"
+
+
+def parse_term(term: str) -> tuple[str, str]:
+    """"fa26" -> ("2026", "2"), the (Peryr, Perid) pair TSS keys terms by.
+    Raises ValueError for a malformed code or an unconfirmed season."""
+    match = TERM_RE.match(term.strip().lower())
+    if not match:
+        raise ValueError(f"Bad term code {term!r}; expected e.g. 'fa26'.")
+    season, yy = match.groups()
+    if season not in TERM_PERIDS:
+        raise ValueError(
+            f"No confirmed TSS Perid for {season!r} terms yet. Find it (e.g. via "
+            f"--peryr/--perid) and add it to TERM_PERIDS in tss_scraper/main.py."
+        )
+    return f"20{yy}", TERM_PERIDS[season]
 
 
 def write_titles_csv(titles: list[dict], peryr: str, perid: str) -> Path:
@@ -188,7 +213,7 @@ def scrape_all_sections(peryr: str, perid: str, workers: int = 5) -> int:
     rows = read_titles_csv(peryr, perid)
     print(f"Found {len(rows)} course(s) to scrape sections for ({workers} workers).")
 
-    collection = get_collection()  # MongoClient is thread-safe, share one
+    collection = get_collection(term_slug(peryr, perid))  # MongoClient is thread-safe, share one
     ensure_indexes(collection)
 
     scraped = 0
@@ -216,13 +241,26 @@ def scrape_all_sections(peryr: str, perid: str, workers: int = 5) -> int:
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--peryr", default="2026")
-    parser.add_argument("--perid", default="2", help="'2' = Fall 2026, confirmed via keydate")
+    parser.add_argument("--term", default=os.environ.get("TSS_TERM"),
+                        help="term code, e.g. fa26 (default: TSS_TERM from .env)")
+    parser.add_argument("--peryr", help="raw TSS AcademicYear; with --perid, overrides --term")
+    parser.add_argument("--perid", help="raw TSS AcademicPeriod; with --peryr, overrides --term")
     parser.add_argument("--titles-only", action="store_true",
                         help="fetch titles to data/offered/<term>.csv, then re-mark offered courses")
     parser.add_argument("--workers", type=int, default=5,
                         help="concurrent scraper threads; keep modest to stay polite to TSS")
     args = parser.parse_args()
+
+    if args.peryr or args.perid:
+        if not (args.peryr and args.perid):
+            parser.error("--peryr and --perid must be passed together.")
+    elif not args.term:
+        parser.error("Set TSS_TERM in the repo-root .env (e.g. TSS_TERM=fa26) or pass --term.")
+    else:
+        try:
+            args.peryr, args.perid = parse_term(args.term)
+        except ValueError as e:
+            parser.error(str(e))
 
     # Built here even though section workers make their own sessions: fails
     # fast on a missing/empty cookie.txt before any threads spin up.

@@ -9,16 +9,20 @@ normalize_code(), which strips the separator and any leading zeros from
 both sides down to a common shape.
 
 Running it:
-  python3 mark_offered_courses.py [--term fa26]
+  python3 mark_offered_courses.py [--term fa26]   # defaults to TSS_TERM from .env
 """
 
 import argparse
 import csv
 import json
+import os
 import re
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+load_dotenv(PROJECT_ROOT / ".env")
 OFFERED_DIR = PROJECT_ROOT / "data" / "offered"
 CATALOG_DIR = PROJECT_ROOT / "data" / "catalog"
 
@@ -96,8 +100,11 @@ def mark_offered_in_catalog(catalog_dir: Path, offered_codes: set[str]) -> tuple
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--term", default="fa26", help="offered-courses CSV to use, e.g. fa26 -> data/offered/fa26.csv")
+    parser.add_argument("--term", default=os.environ.get("TSS_TERM"),
+                        help="offered-courses CSV to use, e.g. fa26 -> data/offered/fa26.csv (default: TSS_TERM from .env)")
     args = parser.parse_args()
+    if not args.term:
+        parser.error("Set TSS_TERM in the repo-root .env (e.g. TSS_TERM=fa26) or pass --term.")
 
     csv_path = OFFERED_DIR / f"{args.term}.csv"
     if not csv_path.exists():

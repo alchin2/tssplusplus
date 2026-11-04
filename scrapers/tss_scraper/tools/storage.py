@@ -22,13 +22,14 @@ load_dotenv(Path(__file__).resolve().parents[3] / ".env")
 
 DEFAULT_MONGO_URI = "mongodb://localhost:27017"
 DEFAULT_DB_NAME = "tssplusplus"
-COLLECTION_NAME = "fa26"
 
 
-def get_collection(uri: str | None = None, db_name: str | None = None) -> Collection:
+def get_collection(term: str, uri: str | None = None, db_name: str | None = None) -> Collection:
+    """One collection per term, named by its code (e.g. "fa26") -- the
+    backend reads the same name from TSS_TERM."""
     client = MongoClient(uri or os.environ.get("MONGODB_URI", DEFAULT_MONGO_URI))
     db = client[db_name or os.environ.get("MONGODB_DB", DEFAULT_DB_NAME)]
-    return db[COLLECTION_NAME]
+    return db[term]
 
 
 def ensure_indexes(collection: Collection) -> None:
