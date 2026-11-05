@@ -39,8 +39,9 @@ The default run reads that CSV instead of re-fetching titles every
 time, so run `--titles-only` again whenever you want to refresh it.
 
 Both scrape the term in `TSS_TERM` from the repo-root `.env` (e.g.
-`TSS_TERM=fa26`), the same setting the backend reads, so switching terms
-is a one-line change. `--term wi27` overrides it for one run. The term
+`TSS_TERM=fa26`), so switching terms is a one-line change. (The backend
+also serves that term and pins it as the default; see `backend/README.md`.)
+`--term wi27` overrides it for one run. The term
 code maps to TSS's `Peryr`/`Perid` via `TERM_PERIDS` in `main.py`; only
 fall (`Perid` 2) is confirmed so far, and other seasons error out until
 theirs is added. To probe an unconfirmed one, pass raw

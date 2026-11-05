@@ -19,7 +19,7 @@ def get_client() -> MongoClient:
     return MongoClient(settings.mongodb_uri, serverSelectionTimeoutMS=5000)
 
 
-def get_courses_collection() -> Collection:
+def get_courses_collection(term: str) -> Collection:
     """The scraper writes one collection per term (e.g. "fa26"),
     keyed on module_id -- see tools/storage.py."""
-    return get_client()[settings.mongodb_db][settings.term]
+    return get_client()[settings.mongodb_db][term]

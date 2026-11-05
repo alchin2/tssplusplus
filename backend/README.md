@@ -6,11 +6,16 @@ the scraped catalog (`data/catalog/*.json`) and per-course detail
 
 ## Endpoints
 
-- `GET /api/courses?dept=CSE&offered=true&q=<query>` -- search/filter,
-  returns a lightweight course list (code, name, dept, offered_this_qtr).
-- `GET /api/courses/{module_id}` -- full detail: catalog fields
-  (prereqs, offered flag) joined via `data/offered/<term>.csv`, plus
-  live sections/meetings grouped from the `<term>` MongoDB collection.
+Every course endpoint and `/api/meta` take an optional `?term=wi27`;
+omitted, they use the default term. A term with no servable data 404s.
+
+- `GET /api/courses?term=fa26&dept=CSE&offered=true&q=<query>` --
+  search/filter, returns a lightweight course list (code, name, dept,
+  offered_this_qtr). "Offered" and `module_id` come from the term's
+  `data/offered/<term>.csv`, not a flag stored in the catalog.
+- `GET /api/courses/{module_id}?term=fa26` -- full detail: catalog fields
+  (prereqs) joined via `data/offered/<term>.csv`, plus live
+  sections/meetings grouped from the `<term>` MongoDB collection.
 - `GET /api/courses/{module_id}/prereqs` -- full transitive prerequisite
   tree, ported from [ClassGraph](https://github.com/nehalc200/classgraph/tree/main/data/helpers)'s
   RootNode/ChildNode AST (see `app/prereqs.py`). Each node carries the
@@ -21,9 +26,14 @@ the scraped catalog (`data/catalog/*.json`) and per-course detail
   global) stops on real cycles instead of recursing forever. Built
   fresh from the local catalog on every request -- no Mongo involved,
   no caching.
-- `GET /api/meta` -- term + catalog-wide facts the frontend needs
-  before any search: the department dropdown options and the home
-  page's headline counts (course count, offered-this-quarter count).
+- `GET /api/meta` -- the servable `terms` (newest first),
+  `default_term`, the requested `term`, plus catalog-wide facts the
+  frontend needs before any search: the department dropdown options and
+  headline counts (course count, offered count for the term).
+
+A term is servable once it's listed in `data/scraped_quarters.txt` (the
+publication workflow appends it only after the section scrape succeeds)
+and its `data/offered/<term>.csv` exists. See `app/terms.py`.
 - `GET /api/buildings` -- every building name found in scraped meeting
   locations, mapped to its UCSD GIS coordinates + display abbreviation
   (`data/buildings.json`, built by `scrapers/build_buildings.py`).
@@ -52,9 +62,9 @@ Reads the repo-root `.env`, same file the scrapers use:
 
 - `MONGODB_URI` -- defaults to `mongodb://localhost:27017`
 - `MONGODB_DB` -- defaults to `tssplusplus`
-- `TSS_TERM` -- defaults to `fa26`; selects both
-  `data/offered/<term>.csv` and the Mongo collection to read sections
-  from (matches tss_scraper's term-per-collection layout)
+- `TSS_TERM` -- optional, e.g. `fa26`. Always servable (handy for a
+  local scrape that isn't in `scraped_quarters.txt`) and pinned as the
+  default term. Unset, the newest servable term is the default.
 - `ORS_API_KEY` -- free key from [openrouteservice.org](https://openrouteservice.org);
   powers `GET /api/route`. Unset means that endpoint always 502s.
 - `CORS_ORIGINS` -- comma-separated browser origins allowed to call the API.

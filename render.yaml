@@ -12,8 +12,6 @@ services:
         sync: false
       - key: MONGODB_DB
         value: tssplusplus
-      - key: TSS_TERM
-        value: fa26
       - key: ORS_API_KEY
         sync: false
       - key: CORS_ORIGINS

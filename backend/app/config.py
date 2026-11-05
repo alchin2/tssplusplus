@@ -19,11 +19,12 @@ class Settings(BaseSettings):
     mongodb_uri: str = "mongodb://localhost:27017"
     mongodb_db: str = "tssplusplus"
 
-    # Both the offered-courses CSV filename (data/offered/<term>.csv)
-    # and the Mongo collection name -- matches tss_scraper's term_slug
-    # convention (e.g. "fa26"). Named TSS_TERM to avoid colliding with
-    # the generic $TERM env var most shells already set.
-    term: str = Field(default="fa26", validation_alias="TSS_TERM")
+    # Optional term code (e.g. "fa26") to pin as the default term and
+    # always serve, even if it's not in data/scraped_quarters.txt (see
+    # app/terms.py). Unset, the newest fully scraped term is the default.
+    # Named TSS_TERM to avoid colliding with the generic $TERM env var
+    # most shells already set.
+    term: str | None = Field(default=None, validation_alias="TSS_TERM")
 
     # OpenRouteService API key for GET /api/route (walking directions
     # between campus buildings). Free tier, sign up at openrouteservice.org.
@@ -48,6 +49,10 @@ class Settings(BaseSettings):
     @property
     def offered_dir(self) -> Path:
         return DATA_DIR / "offered"
+
+    @property
+    def scraped_quarters_path(self) -> Path:
+        return DATA_DIR / "scraped_quarters.txt"
 
     @property
     def buildings_path(self) -> Path:
