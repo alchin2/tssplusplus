@@ -320,7 +320,7 @@
     transition: transform 120ms ease;
   }
   .wr-drawer-row[aria-expanded="true"] .wr-caret { transform: rotate(90deg); }
-  .wr-drawer-row .wr-code { font-weight: 700; white-space: nowrap; }
+  .wr-drawer-row .wr-code { font-weight: 700; overflow-wrap: anywhere; }
   .wr-drawer-row .wr-drawer-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .wr-drawer-row .wr-drawer-meta { color: var(--wr-muted); font-size: 0.846rem; white-space: nowrap; }
   .wr-drawer-row .wr-drawer-meta.is-planned { color: var(--wr-bar); font-weight: 700; }
