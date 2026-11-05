@@ -7,7 +7,7 @@ import type { DayCode, PlannedItem } from "../types";
 // weeks. The regular week is a fixed week in the past (Mon Jun 2 – Sun Jun 8):
 // only the weekday matters for weekly-recurring meetings, and a past week keeps
 // FullCalendar from drawing a "today" highlight. The finals week, in contrast,
-// is derived from the current term (see finalsWeekISO) so its column headers
+// is derived from the selected term (see finalsWeekISO) so its column headers
 // show the term's real finals dates.
 export const REG_INITIAL_DATE = "2025-06-02";
 
@@ -20,10 +20,6 @@ export const REG_WEEK: Record<DayCode, string> = {
   Sa: "2025-06-07",
   Su: "2025-06-08",
 };
-
-// Index = FinalInfo.colIdx (0 = Monday of finals week … 5 = Saturday).
-export const FINALS_WEEK = finalsWeekISO();
-export const FIN_INITIAL_DATE = FINALS_WEEK[0];
 
 // Decimal hours → "HH:MM:00". Minutes are rounded, not truncated: 8.833 → 08:50.
 export function toHMS(h: number): string {
@@ -95,7 +91,9 @@ export function buildRegularEvents(items: PlannedItem[]): EventInput[] {
   return events;
 }
 
-export function buildFinalsEvents(items: PlannedItem[]): EventInput[] {
+export function buildFinalsEvents(items: PlannedItem[], term: string | null): EventInput[] {
+  // Index = FinalInfo.colIdx (0 = Monday of finals week … 5 = Saturday).
+  const finalsWeek = finalsWeekISO(term);
   const events: EventInput[] = [];
   const finals = items.map(it => ({ it, fi: computeFinal(it.section) }));
   for (const { it: { course, section }, fi } of finals) {
@@ -105,8 +103,8 @@ export function buildFinalsEvents(items: PlannedItem[]): EventInput[] {
       o.fi && o.it.course.id !== course.id && o.fi.colIdx === fi.colIdx && fi.startH < o.fi.endH && o.fi.startH < fi.endH);
     events.push({
       id: `${course.id}:${section.id}:final`,
-      start: `${FINALS_WEEK[fi.colIdx]}T${toHMS(fi.startH)}`,
-      end: `${FINALS_WEEK[fi.colIdx]}T${toHMS(fi.endH)}`,
+      start: `${finalsWeek[fi.colIdx]}T${toHMS(fi.startH)}`,
+      end: `${finalsWeek[fi.colIdx]}T${toHMS(fi.endH)}`,
       backgroundColor: course.color,
       borderColor: "transparent",
       extendedProps: {

@@ -61,7 +61,7 @@ export function conflictPairs(items: PlannedItem[]): ConflictPair[] {
 // A section's final slot is derived from its lecture's meeting pattern (MWF vs
 // TuTh) and start time, mirroring the campus finals matrix. `colIdx` is the
 // finals-week column (0 = Monday of finals week … 5 = Saturday); the concrete
-// dates come from the current term (see finalsWeekISO in academicCalendar.ts),
+// dates come from the selected term (see finalsWeekISO in academicCalendar.ts),
 // so only the column index is stored here.
 
 export interface FinalInfo { colIdx: number; startH: number; endH: number; }
@@ -93,17 +93,17 @@ export function computeFinal(section: Section): FinalInfo | null {
 const UTC = { timeZone: "UTC" } as const;
 const asDate = (iso: string) => new Date(iso + "T00:00:00Z");
 
-// Human label for a final's day (e.g. "Mon Dec 8"), read from the current
+// Human label for a final's day (e.g. "Mon Dec 8"), read from the selected
 // term's finals week -- or the fixed fallback week when the term isn't known.
-export function finalDateLabel(colIdx: number): string {
-  return asDate(finalsWeekISO()[colIdx])
+export function finalDateLabel(colIdx: number, term?: string | null): string {
+  return asDate(finalsWeekISO(term)[colIdx])
     .toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", ...UTC })
     .replace(",", "");
 }
 
 // WebReg-style numeric date for a final's day, e.g. "Sa 12/13/2026".
-export function finalDateShort(colIdx: number): string {
-  const d = asDate(finalsWeekISO()[colIdx]);
+export function finalDateShort(colIdx: number, term?: string | null): string {
+  const d = asDate(finalsWeekISO(term)[colIdx]);
   const wd = d.toLocaleDateString("en-US", { weekday: "short", ...UTC });
   const code = wd === "Tue" ? "Tu" : wd === "Thu" ? "Th" : wd === "Sat" ? "Sa" : wd === "Sun" ? "Su" : wd[0];
   const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
@@ -112,8 +112,8 @@ export function finalDateShort(colIdx: number): string {
 }
 
 // Range label for the whole finals week (e.g. "Dec 8–13, 2026"), for headings.
-export function finalsRangeLabel(): string {
-  const week = finalsWeekISO();
+export function finalsRangeLabel(term?: string | null): string {
+  const week = finalsWeekISO(term);
   const s = asDate(week[0]), e = asDate(week[week.length - 1]);
   const mon = (d: Date) => d.toLocaleDateString("en-US", { month: "short", ...UTC });
   const start = `${mon(s)} ${s.getUTCDate()}`;

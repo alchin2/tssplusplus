@@ -22,9 +22,9 @@ The one place that pairs the public catalog (titles, descriptions, prerequisites
 
 - Browser app (Vite + React), desktop first; the maintainer views it in Arc at 2000px+ widths, and it must also work on a phone.
 - Reads a FastAPI backend (`/api/meta`, `/api/courses`, `/api/courses/{id}`, `/api/courses/{id}/prereqs`, `/api/buildings`, `/api/route`); the backend needs MongoDB and scraped data, so frontend verification stubs `/api/*`.
-- Planner state lives in `localStorage["tss-planned"]`; there is no login.
+- Planner state lives in `localStorage["tss-planned-v2:<term>"]`, one list per term; the selected term is `localStorage["tss-term"]`. There is no login.
 - Two PDF imports: a TSS "My Courses" PDF (replaces the planner with enrolled sections) and an academic-history PDF (tints completed/in-progress prerequisites). Both parse client-side with pdf.js.
-- Term is reported by `/api/meta` as a code like `fa26`.
+- Terms are codes like `fa26`. `/api/meta` lists the servable terms and the default; the title row's Term dropdown switches between them, and every course request carries `?term=`.
 
 ## Capabilities and Constraints
 

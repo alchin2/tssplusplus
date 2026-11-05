@@ -54,6 +54,9 @@ interface PrereqGraphNodeDto {
 
 export interface Meta {
   term: string;
+  default_term: string;
+  // Servable term codes, newest first.
+  terms: string[];
   depts: string[];
   course_count: number;
   offered_count: number;
@@ -98,12 +101,25 @@ async function getJson<T>(path: string): Promise<T> {
   return res.json();
 }
 
-export function fetchMeta(): Promise<Meta> {
-  return getJson<Meta>("/meta");
+export async function fetchMeta(): Promise<Meta> {
+  const meta = await getJson<Partial<Meta> & { term: string }>("/meta");
+  // A backend from before multi-term serving (e.g. mid-deploy) sends only
+  // `term`; treat it as the one available term.
+  return {
+    ...meta,
+    default_term: meta.default_term ?? meta.term,
+    terms: meta.terms ?? [meta.term],
+  } as Meta;
 }
 
-export async function fetchCourses(params: { dept?: string; offered?: boolean; q?: string }): Promise<Course[]> {
+// Every course endpoint is per term; omitting it gets the backend's default.
+function termQuery(term: string | null | undefined): string {
+  return term ? `?term=${encodeURIComponent(term)}` : "";
+}
+
+export async function fetchCourses(params: { term?: string | null; dept?: string; offered?: boolean; q?: string }): Promise<Course[]> {
   const search = new URLSearchParams();
+  if (params.term) search.set("term", params.term);
   if (params.dept && params.dept !== "ALL") search.set("dept", params.dept);
   if (params.offered) search.set("offered", "true");
   if (params.q) search.set("q", params.q);
@@ -112,8 +128,8 @@ export async function fetchCourses(params: { dept?: string; offered?: boolean; q
   return dtos.map(toCourse);
 }
 
-export async function fetchCourseDetail(moduleId: string): Promise<CourseDetail> {
-  const dto = await getJson<CourseDetailDto>(`/courses/${encodeURIComponent(moduleId)}`);
+export async function fetchCourseDetail(moduleId: string, term?: string | null): Promise<CourseDetail> {
+  const dto = await getJson<CourseDetailDto>(`/courses/${encodeURIComponent(moduleId)}${termQuery(term)}`);
   return {
     ...toCourse(dto),
     moduleId: dto.module_id,
@@ -123,8 +139,8 @@ export async function fetchCourseDetail(moduleId: string): Promise<CourseDetail>
   };
 }
 
-export async function fetchCoursePrereqs(moduleId: string): Promise<PrereqNode> {
-  const dto = await getJson<PrereqGraphNodeDto>(`/courses/${encodeURIComponent(moduleId)}/prereqs`);
+export async function fetchCoursePrereqs(moduleId: string, term?: string | null): Promise<PrereqNode> {
+  const dto = await getJson<PrereqGraphNodeDto>(`/courses/${encodeURIComponent(moduleId)}/prereqs${termQuery(term)}`);
   return toPrereqNode(dto);
 }
 

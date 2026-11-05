@@ -8,6 +8,7 @@ import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import { usePlannedItems } from "./hooks/usePlannedItems";
 import { termLabel, termName, useMeta } from "./hooks/useMeta";
+import { TermContext, useSelectedTerm } from "./hooks/useTerm";
 import { fetchCourses } from "./lib/api";
 import { downloadICS } from "./lib/ics";
 import { conflictPairs, conflictsWith } from "./lib/schedule";
@@ -18,8 +19,9 @@ const EMPTY_TRANSCRIPT: TranscriptRecord = { completed: new Set(), inProgress: n
 
 export default function App() {
   const meta = useMeta();
-  const term = termLabel(meta);
-  const termTitle = termName(meta);
+  const [term, setTerm] = useSelectedTerm(meta);
+  const termTag = termLabel(term);
+  const termTitle = termName(term);
   const depts = useMemo(() => ["ALL", ...(meta?.depts ?? [])], [meta]);
 
   // Search state. The debounced fetch lives here; SearchPanel renders it.
@@ -38,7 +40,7 @@ export default function App() {
   const [scrollToken, setScrollToken] = useState(0);
   const searchRef = useRef<HTMLInputElement>(null);
 
-  const [plannedItems, updatePlanned] = usePlannedItems();
+  const [plannedItems, updatePlanned] = usePlannedItems(term);
   const [tab, setTab]                 = useState<ScheduleTab>("list");
 
   // Uploaded academic history -- completed/in-progress courses tint every
@@ -52,18 +54,20 @@ export default function App() {
   const [scheduleImporting, setScheduleImporting] = useState(false);
 
   // Server-side search/filter per the /api/courses contract, debounced so
-  // typing doesn't fire a request per keystroke.
+  // typing doesn't fire a request per keystroke. Waits for the term so the
+  // first results aren't for the backend's default instead of the pick.
   useEffect(() => {
+    if (!term) return;
     let alive = true;
     setLoading(true);
     const timer = setTimeout(() => {
-      fetchCourses({ dept: deptFilter, offered: offeredFilter, q: query })
+      fetchCourses({ term, dept: deptFilter, offered: offeredFilter, q: query })
         .then(result => { if (alive) { setCourses(result); setError(null); } })
         .catch(err => { if (alive) { setCourses([]); setError(err instanceof Error ? err.message : "Request failed"); } })
         .finally(() => { if (alive) setLoading(false); });
     }, 250);
     return () => { alive = false; clearTimeout(timer); };
-  }, [query, deptFilter, offeredFilter]);
+  }, [term, query, deptFilter, offeredFilter]);
 
   // Division stays client-side -- the backend doesn't model it.
   const filtered = useMemo(() => courses.filter(c => {
@@ -101,6 +105,13 @@ export default function App() {
     setScrollToken(t => t + 1);
   }
 
+  // An open or pinned drawer belongs to the old term's course list.
+  function changeTerm(next: string) {
+    setTerm(next);
+    setPinned(null);
+    setExpandedId(null);
+  }
+
   function setSearchVisible(v: boolean) {
     setSearchActive(v);
     if (!v) { setPinned(null); setExpandedId(null); }
@@ -126,7 +137,7 @@ export default function App() {
   }
 
   function exportIcs() {
-    downloadICS(plannedItems);
+    downloadICS(plannedItems, term);
     toast.success("Schedule exported. Look for tss-schedule.ics in your downloads.");
   }
 
@@ -160,7 +171,7 @@ export default function App() {
   async function handleScheduleImportFile(file: File) {
     setScheduleImporting(true);
     try {
-      const [{ extractTextFromPdf }, { parseMyCoursesText, resolveScheduleImport }] = await Promise.all([
+      const [{ extractTextFromPdf }, { apiDeps, parseMyCoursesText, resolveScheduleImport }] = await Promise.all([
         import("./lib/pdfExtract"),
         import("./lib/scheduleImport"),
       ]);
@@ -170,9 +181,9 @@ export default function App() {
         return;
       }
 
-      const { matched, misses } = await resolveScheduleImport(pairsFound);
+      const { matched, misses } = await resolveScheduleImport(pairsFound, apiDeps(term));
       if (matched.length === 0) {
-        toast.error("None of those courses matched this quarter's schedule.");
+        toast.error(`None of those courses matched the ${termTitle} schedule.`);
         return;
       }
 
@@ -196,6 +207,7 @@ export default function App() {
   const empty = plannedItems.length === 0;
 
   return (
+    <TermContext.Provider value={term}>
     <div className="min-h-dvh flex flex-col">
       <Toaster position="bottom-right" richColors closeButton
         toastOptions={{ style: { borderRadius: 4, fontFamily: "inherit", fontSize: "0.923rem" } }} />
@@ -212,9 +224,15 @@ export default function App() {
               title={empty ? "Plan a class first" : "Download an .ics file for your calendar app"}>
               Export .ics
             </button>
-            <span style={{ color: "var(--wr-text)" }}>
-              <span className="font-normal" style={{ color: "var(--wr-muted)" }}>Term: </span>{termTitle}
-            </span>
+            <label style={{ color: "var(--wr-text)" }}>
+              <span className="font-normal" style={{ color: "var(--wr-muted)" }}>Term: </span>
+              <select className="wr-select font-bold" style={{ height: "1.7rem", lineHeight: "1.7rem" }}
+                value={term ?? ""} disabled={!meta} onChange={e => changeTerm(e.target.value)}>
+                {meta
+                  ? meta.terms.map(t => <option key={t} value={t}>{termName(t)}</option>)
+                  : <option value="">{termTitle}</option>}
+              </select>
+            </label>
           </div>
         </div>
 
@@ -226,7 +244,7 @@ export default function App() {
             deptFilter={deptFilter} onDeptFilter={setDept}
             offeredFilter={offeredFilter} onOfferedFilter={setOff}
             divFilter={divFilter} onDivFilter={setDiv}
-            depts={depts} termLabel={term} termName={termTitle}
+            depts={depts} termLabel={termTag} termName={termTitle}
             courses={filtered} loading={searchLoading} error={searchError}
             active={searchActive} onActive={setSearchVisible}
             expandedId={expandedId} onExpand={setExpandedId}
@@ -252,5 +270,6 @@ export default function App() {
 
       <SiteFooter />
     </div>
+    </TermContext.Provider>
   );
 }

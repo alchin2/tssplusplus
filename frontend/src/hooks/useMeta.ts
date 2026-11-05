@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchMeta, type Meta } from "../lib/api";
 
 // One shared fetch for the whole app; /api/meta is static per backend run.
+// Fetched for the default term -- the term list and depts don't vary by term.
 let cached: Meta | null = null;
 let inflight: Promise<Meta> | null = null;
 
@@ -20,8 +21,8 @@ export function useMeta(): Meta | null {
 }
 
 // "fa26" -> "FA26", the badge/label form used across the UI.
-export function termLabel(meta: Meta | null): string {
-  return (meta?.term ?? "").toUpperCase();
+export function termLabel(term: string | null): string {
+  return (term ?? "").toUpperCase();
 }
 
 // "fa26" -> "Fall Quarter 2026", the way WebReg names a term. Unknown codes
@@ -31,8 +32,7 @@ const TERM_NAMES: Record<string, string> = {
   su: "Summer Session", s1: "Summer Session I", s2: "Summer Session II", s3: "Special Summer Session",
 };
 
-export function termName(meta: Meta | null): string {
-  const code = meta?.term;
+export function termName(code: string | null): string {
   if (!code) return "…";
   const m = /^([a-z]\d|[a-z]{2})(\d{2})$/i.exec(code);
   if (!m) return code.toUpperCase();
