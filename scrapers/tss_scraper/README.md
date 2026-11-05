@@ -41,11 +41,16 @@ time, so run `--titles-only` again whenever you want to refresh it.
 Both scrape the term in `TSS_TERM` from the repo-root `.env` (e.g.
 `TSS_TERM=fa26`), so switching terms is a one-line change. (The backend
 also serves that term and pins it as the default; see `backend/README.md`.)
-`--term wi27` overrides it for one run. The term
-code maps to TSS's `Peryr`/`Perid` via `TERM_PERIDS` in `main.py`; only
-fall (`Perid` 2) is confirmed so far, and other seasons error out until
-theirs is added. To probe an unconfirmed one, pass raw
-`--peryr`/`--perid`, which override the term.
+`--term wi27` overrides it for one run.
+
+The term code maps to TSS's `Peryr`/`Perid` via `TERM_PERIDS` in
+`main.py`. TSS counts periods within an academic year that starts in the
+fall, so `Peryr` is the year that academic year began: `fa26` → 2026/2,
+`wi27` → 2026/3. Fall (`Perid` 2) is confirmed; Winter (`Perid` 3) is
+inferred and **unconfirmed** -- check it with
+`python3 main.py --peryr 2026 --perid 3 --titles-only` once Winter is in
+TSS. Other seasons error out until theirs is added. Raw
+`--peryr`/`--perid` override the term for probing.
 
 The default (non-`--titles-only`) run fans courses out across
 `--workers` threads (default 5) -- keep it modest to stay polite to

@@ -50,11 +50,16 @@ OFFERED_DIR = PROJECT_ROOT / "data" / "offered"
 
 load_dotenv(PROJECT_ROOT / ".env")
 
-# Term code season prefix -> TSS AcademicPeriod (Perid). '2' = Fall,
-# confirmed via keydate -- extend as other Perid values are confirmed
-# (try them with --peryr/--perid first). AcademicYear (Peryr) is assumed
-# to be the term's calendar year; also only confirmed for fall.
-TERM_PERIDS = {"fa": "2"}
+# Term code season prefix -> TSS AcademicPeriod (Perid). TSS numbers periods
+# within an academic year that starts in the fall, so AcademicYear (Peryr)
+# is the year that academic year began -- Fall 2026 = 2026/2, so Winter 2027
+# should be 2026/3. '2' = Fall, confirmed via keydate. '3' = Winter is
+# UNCONFIRMED, inferred from Fall's number: check it with
+# `--peryr 2026 --perid 3 --titles-only` once Winter is in TSS (sections
+# should begin early January). Extend as other Perid values are confirmed.
+TERM_PERIDS = {"fa": "2", "wi": "3"}
+# Seasons in the calendar year after their academic year (Peryr) began.
+NEXT_CALENDAR_YEAR = {"wi", "sp"}
 # Reverse lookup for term_slug. Falls back to a plain "p<perid>" prefix
 # instead of guessing a season for anything unconfirmed.
 PERID_TERM_ABBR = {perid: abbr for abbr, perid in TERM_PERIDS.items()}
@@ -92,13 +97,18 @@ def filter_titles(titles: list[dict]) -> list[dict]:
 
 
 def term_slug(peryr: str, perid: str) -> str:
-    abbr = PERID_TERM_ABBR.get(perid, f"p{perid}")
-    return f"{abbr}{peryr[-2:]}"
+    """("2026", "3") -> "wi27": the inverse of parse_term."""
+    abbr = PERID_TERM_ABBR.get(perid)
+    if abbr is None:
+        return f"p{perid}{peryr[-2:]}"
+    year = int(peryr) + (1 if abbr in NEXT_CALENDAR_YEAR else 0)
+    return f"{abbr}{year % 100:02d}"
 
 
 def parse_term(term: str) -> tuple[str, str]:
-    """"fa26" -> ("2026", "2"), the (Peryr, Perid) pair TSS keys terms by.
-    Raises ValueError for a malformed code or an unconfirmed season."""
+    """"fa26" -> ("2026", "2"), "wi27" -> ("2026", "3"): the (Peryr, Perid)
+    pair TSS keys terms by. Raises ValueError for a malformed code or an
+    unconfirmed season."""
     match = TERM_RE.match(term.strip().lower())
     if not match:
         raise ValueError(f"Bad term code {term!r}; expected e.g. 'fa26'.")
@@ -108,7 +118,8 @@ def parse_term(term: str) -> tuple[str, str]:
             f"No confirmed TSS Perid for {season!r} terms yet. Find it (e.g. via "
             f"--peryr/--perid) and add it to TERM_PERIDS in tss_scraper/main.py."
         )
-    return f"20{yy}", TERM_PERIDS[season]
+    year = 2000 + int(yy) - (1 if season in NEXT_CALENDAR_YEAR else 0)
+    return str(year), TERM_PERIDS[season]
 
 
 def write_titles_csv(titles: list[dict], peryr: str, perid: str) -> Path:
