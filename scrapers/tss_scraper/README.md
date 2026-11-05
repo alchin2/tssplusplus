@@ -46,11 +46,10 @@ also serves that term and pins it as the default; see `backend/README.md`.)
 The term code maps to TSS's `Peryr`/`Perid` via `TERM_PERIDS` in
 `main.py`. TSS counts periods within an academic year that starts in the
 fall, so `Peryr` is the year that academic year began: `fa26` → 2026/2,
-`wi27` → 2026/3. Fall (`Perid` 2) is confirmed; Winter (`Perid` 3) is
-inferred and **unconfirmed** -- check it with
-`python3 main.py --peryr 2026 --perid 3 --titles-only` once Winter is in
-TSS. Other seasons error out until theirs is added. Raw
-`--peryr`/`--perid` override the term for probing.
+`wi27` → 2026/3. Fall (`Perid` 2) and Winter (`Perid` 3) are confirmed;
+other seasons error out until theirs is added. Raw `--peryr`/`--perid`
+override the term for probing, e.g.
+`python3 main.py --peryr 2026 --perid 4 --titles-only`.
 
 The default (non-`--titles-only`) run fans courses out across
 `--workers` threads (default 5) -- keep it modest to stay polite to
