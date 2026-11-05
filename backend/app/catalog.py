@@ -11,11 +11,10 @@ from functools import lru_cache
 
 from app.config import settings
 
-# Mirrors mark_offered_courses.py's normalize_code: strips the
-# separator (dash/space/none) and any leading zeros between a course's
-# dept prefix and number, so "CSE-008A" and "CSE 8A" both -> "CSE8A".
-# Duplicated here (rather than imported) because scrapers/ isn't set up
-# as an installable package the backend can depend on.
+# Strips the separator (dash/space/none) and any leading zeros between a
+# course's dept prefix and number, so TSS's "CSE-008A" and the catalog's
+# "CSE 8A" both -> "CSE8A". This is how a term's offered CSV is joined to
+# the catalog.
 _CODE_RE = re.compile(r"^([A-Za-z]+)[\s-]*0*([0-9].*)$")
 
 

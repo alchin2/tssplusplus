@@ -113,12 +113,6 @@ jobs:
           TSS_TERM: ${{ steps.check.outputs.term }}
         run: python3 scrapers/tss_scraper/main.py --titles-only
 
-      - name: Mark offered courses in the catalog
-        if: steps.check.outputs.run == 'true'
-        env:
-          TSS_TERM: ${{ steps.check.outputs.term }}
-        run: python3 scrapers/helpers/mark_offered_courses.py
-
       # Commit the catalog/offered data before the Mongo section scrape
       - name: Commit refreshed data
         if: steps.check.outputs.run == 'true'

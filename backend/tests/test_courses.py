@@ -23,9 +23,6 @@ MATH_20A = {
     "code": "MATH 20A",
     "raw_prereq": "none",
     "prerequisites": [],
-    # Stale per-term flag left in the catalog JSON -- must be ignored in
-    # favor of the requested term's offered CSV.
-    "offered_this_qtr": True,
 }
 
 
@@ -116,7 +113,7 @@ def test_list_courses_offered_and_module_id_follow_the_term(client):
     winter = {c["code"]: c for c in client.get("/api/courses", params={"term": "wi27"}).json()}
 
     assert fall["CSE 100"] == {**fall["CSE 100"], "module_id": "8401", "offered_this_qtr": True}
-    # MATH 20A's stale catalog flag says offered, but fa26's CSV doesn't list it.
+    # MATH 20A is only in wi27's CSV.
     assert fall["MATH 20A"]["module_id"] is None
     assert fall["MATH 20A"]["offered_this_qtr"] is False
 

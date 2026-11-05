@@ -16,9 +16,9 @@ in order:
 
 open a "Update Course Catalog to <quarter>" issue + Discord message →
 catalog scrape → restore `cookie.txt` from `TSS_COOKIE` →
-`tss_scraper --titles-only` → `mark_offered_courses.py` → commit `data/`
-(auto-redeploys Render) → full section scrape into MongoDB → append the
-quarter to `data/scraped_quarters.txt`, commit it, and close the issue.
+`tss_scraper --titles-only` → commit `data/` (auto-redeploys Render) →
+full section scrape into MongoDB → append the quarter to
+`data/scraped_quarters.txt`, commit it, and close the issue.
 
 The site's term dropdown only lists a term once it's in
 `scraped_quarters.txt` (see `backend/app/terms.py`), so the mid-run
