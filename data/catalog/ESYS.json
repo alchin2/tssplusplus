@@ -4,24 +4,21 @@
     "code": "ESYS 10",
     "description": "This course explores the interdisciplinary character of environmental issues through an examination of a particular topic (climate change, for example) from numerous disciplinary perspectives (e.g., biology, chemistry, physics, political science, and economics).",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "First-year Seminar",
     "code": "ESYS 87",
     "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate college, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students with preference given to entering first-year students. (P/NP grades only)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Perspectives on Environmental Issues",
     "code": "ESYS 90",
     "description": "Provides an introduction to environmental systems. Faculty members from departments in the natural sciences, geosciences, and social sciences will offer perspectives in these areas.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Environmental Biology",
@@ -51,8 +48,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "The Solid and Fluid Earth",
@@ -90,16 +86,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Environmental Challenges: Science and Solutions",
     "code": "ESYS 103",
     "description": "This course explores the impacts of human, social, economic, and industrial activity on the environment. It highlights the central roles in ensuring sustainable development played by market forces, technological innovation, and government regulation on local, national, and global scales.",
     "raw_prereq": "junior or senior standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Senior Internship Project I",
@@ -116,8 +110,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Senior Internship Project II",
@@ -134,8 +127,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Environmental Systems Senior Seminar",
@@ -152,15 +144,13 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Independent Study",
     "code": "ESYS 199",
     "description": "Individually guided readings or projects in the area of environmental systems.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

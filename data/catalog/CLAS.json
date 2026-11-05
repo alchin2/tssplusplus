@@ -4,8 +4,7 @@
     "code": "CLAS 87",
     "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. May be taken for credit up to four times as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Greek Seminar",
@@ -35,8 +34,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Latin Seminar",
@@ -66,143 +64,125 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Early Christianity",
     "code": "CLAS 119",
     "description": "This course examines the emergence, growth, and development of Christianity in its first centuries. The class explores issues of community, doctrine, and practice; inter-religious and intra-religious tension and conflict; and cultural continuity and change.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Classical Diversities",
     "code": "CLAS 120",
     "description": "This course explores the questions of race and gender in the classical world, together with their impact on the study of the classics in the making of American identity.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "World Wisdom Traditions",
     "code": "CLAS 121R",
     "description": "This online course explores wisdom traditions of the premodern world, examining formative ideas on the art of living well and contrasting worldwide teachings on what it means to be human, one's obligations to others, and the ideal relationship with the natural world.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mythologies of the Ancient Mediterranean",
     "code": "CLAS 125",
     "description": "This course examines the diverse literary, historical, and religious aspects of ancient Mediterranean myths. Focus may change from specific regions like Greece, Egypt, or Mesopotamia to a comparative view across multiple cultures, exploring their connections within and beyond the Mediterranean world. May be taken for credit up to two times as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Classical Studies",
     "code": "CLAS 140",
     "description": "Selected topics in classical studies. May be taken for credit up to three times as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Honors Thesis in Classical Studies",
     "code": "CLAS 196A-B",
     "description": "BA honors thesis research under the direction of a member of a classical studies program faculty.",
     "raw_prereq": "acceptance into the classical studies honors program and consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "CLAS 198",
     "description": "Directed group study on a topic not generally included in the regular curriculum. Student must make arrangements with individual faculty members. May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "CLAS 199",
     "description": "Independent study on a topic not generally included in the regular curriculum. Student must make arrangements with individual faculty members. May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Contemporary Literary Theory and the Classics",
     "code": "CLASSIC 200A",
     "description": "An introduction to contemporary literary theory, focusing on important critical approaches to the literary texts. May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Diachronic Perspectives on Classical Antiquity",
     "code": "CLASSIC 200B",
     "description": "Examines ways in which classical texts and ideas have been received and appropriated for the diverse purposes of ancient and subsequent cultures. May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Greece and Rome in Their Contemporary Cultural Contexts",
     "code": "CLASSIC 200C",
     "description": "An introduction to the methods and perspectives of social scientific theory that can be used to study the material and social dimensions of the cultures of ancient Greece and Rome. May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Concurrent Readings",
     "code": "CLASSIC 205",
     "description": "May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Classics Graduate Seminar",
     "code": "CLASSIC 220",
     "description": "Subject matter variable; mainly but not exclusively major literary topics. May be repeated for credit as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "CLASSIC 280",
     "description": "Supervised independent research. Subject varies. May be repeated for credit.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research in Classics",
     "code": "CLASSIC 290",
     "description": "Research under Classics faculty. May be repeated for credit.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Dissertation Research",
     "code": "CLASSIC 299",
     "description": "Dissertation research with Classics faculty. May be repeated for credit.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "University Teaching",
     "code": "CLASSIC 399",
     "description": "Required of and limited to teaching assistants. Satisfactory/unsatisfactory grade only. May be repeated for credit.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

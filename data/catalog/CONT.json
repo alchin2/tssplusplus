@@ -4,24 +4,21 @@
     "code": "CONT 1",
     "description": "Overview of the history and role of higher education in American society, including a focus on the relationship between society and institutions of higher learning. The course utilizes an interdisciplinary, multicultural perspective reflecting the diversity of the university. Summer Session only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Disability, Race, and Diversity",
     "code": "CONT 68",
     "description": "This course will examine disability in the case of individuals with an intellectual or physical disability. Faced with ableism, intentional or unintentional, people with disabilities often experience difficulties in society. Using ableism provides an effective way of addressing ableist discrimination. The course will develop students’ awareness of the challenges of disability in current society. Winter quarter only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "College Academic Mentor Program",
     "code": "CONT 150A",
     "description": "The College Academic Mentor Program introduces students to the aspects of college advising at a local high school. Students will work with a diverse student population, focusing on low-income, first-generation students that are historically underrepresented at schools of higher education. Students will engage in both a training workshop and a field placement program. (P/NP grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "College Academic Mentor Program Field Study",
@@ -38,23 +35,20 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Contemporary Issues Workshop",
     "code": "CONT 196",
     "description": "A workshop for potential discussion leaders in the Contemporary Issues Program. Students will investigate topics for discussion and methods of presentation and inquiry. Participating in the workshop does not guarantee selection as discussion leader. (P/NP grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Group Studies in Contemporary Issues",
     "code": "CONT 198",
     "description": "Group studies, readings, projects, and discussions in areas of contemporary concern. Course is set up so that students may work together as a group in an area of contemporary concern whereby the group emphasis would be more beneficial and constructive than individual studies. May be taken for credit three times for a maximum of twelve units.",
     "raw_prereq": "department approval required. (P/NP grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

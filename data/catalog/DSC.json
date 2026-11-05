@@ -4,24 +4,21 @@
     "code": "DSC 10/R",
     "description": "This first course in data science introduces students to data exploration, statistical inference, and prediction. It introduces the Python programming language as a tool for tabular data manipulation, visualization, and simulation. Through homework assignments and projects, students are given an opportunity to develop their analytical skills while working with real-world datasets from a variety of domains.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Programming and Basic Data Structures for Data Science",
     "code": "DSC 20/R",
     "description": "Provides an understanding of the structures that underlie the programs, algorithms, and languages used in data science by expanding the repertoire of computational concepts introduced in DSC 10/R and exposing students to techniques of abstraction. Course will be taught in Python and will cover topics including recursion, higher-order functions, function composition, object-oriented programming, interpreters, classes, and simple data structures such as arrays, lists, and linked lists.",
     "raw_prereq": "DSC 10/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Data Structures and Algorithms for Data Science",
     "code": "DSC 30/R",
     "description": "Builds on topics covered in DSC 20/R and provides practical experience in composing larger computational systems through several significant programming projects using Java. Students will study advanced programming techniques including encapsulation, abstract data types, interfaces, algorithms and complexity, and data structures such as stacks, queues, priority queues, heaps, linked lists, binary trees, binary search trees, and hash tables.",
     "raw_prereq": "DSC 20/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Theoretical Foundations of Data Science I",
@@ -38,24 +35,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Theoretical Foundations of Data Science II",
     "code": "DSC 40B/R",
     "description": "The sequence DSC 40A/R-B/R introduces the theoretical foundations of data science. DSC 40B/R, the second course in the sequence, covers the fundamentals of computer science with applications to data science. Topics include time complexity analysis, the analysis of recursive algorithms, graph theory, and graph search algorithms. Whereas other courses in the curriculum, such as DSC 20/R and DSC 30/R, may touch on these topics briefly, this course aims to develop a deeper, theoretical understanding. DSC 40A/R-B/R connect to DSC 10/R, 20/R, and 30/R by providing the theoretical foundation for the methods that underlie data science.",
     "raw_prereq": "DSC 20/R and 40A/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "The Practice and Application of Data Science",
     "code": "DSC 80/R",
     "description": "The marriage of data, computation, and inferential thinking, or “data science,” is redefining how people and organizations solve challenging problems and understand the world. This course bridges lower- and upper-division data science courses as well as methods courses in other fields. Students master the data science life-cycle and learn many of the fundamental principles and techniques of data science spanning algorithms, statistics, machine learning, visualization, and data systems.",
     "raw_prereq": "DSC 30/R and DSC 40A/R. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Data Science",
@@ -72,8 +66,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Tutor Apprenticeship in Data Science",
@@ -90,16 +83,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Workshop in Data Science",
     "code": "DSC 96",
     "description": "Students will explore topics and tools relevant to the practice of data science in a workshop format. The instructor works with students on guided projects to help students acquire knowledge and skills to complement their course work in the core data science classes. Topics vary from quarter to quarter. Students are strongly recommended to enroll in either DSC 10 or DSC 20 concurrently.",
     "raw_prereq": "none. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Internship in Data Science",
@@ -120,8 +111,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Directed Group Study in Data Science",
@@ -142,8 +132,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Independent Study in Data Science",
@@ -164,16 +153,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Data Management",
     "code": "DSC 100",
     "description": "This course is an introduction to storage and management of large-scale data using classical relational (SQL) systems, with an eye toward applications in data science. The course covers topics including the SQL data model and query language, relational data modeling and schema design, elements of cost-based query optimizations, relational data base architecture, and database-backed applications.",
     "raw_prereq": "DSC 40B/R and DSC 80/R. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Systems for Scalable Analytics",
@@ -190,8 +177,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Beyond Relational Data Management",
@@ -208,24 +194,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Data Visualization",
     "code": "DSC 106",
     "description": "Data visualization helps explore and interpret data through interaction. This course introduces the principles, techniques, and algorithms for creating effective visualizations. The course draws on the knowledge from several disciplines including computer graphics, human-computer interaction, cognitive psychology, design, and statistical graphics and synthesizes relevant ideas. Students will design visualization systems using D3 or other web-based software and evaluate their effectiveness.",
     "raw_prereq": "DSC 80/R. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Signal Processing for Data Analysis",
     "code": "DSC 120",
     "description": "This course will focus on ideas from classical and modern signal processing, with the main themes of sampling continuous data and building informative representations using orthonormal bases, frames, and data dependent operators. Topics include sampling theory, Fourier analysis, lossy transformations and compression, time and spatial filters, and random Fourier features and connections to kernel methods. Sources of data include time series and streaming signals and various imaging modalities.",
     "raw_prereq": "(MATH 18 or MATH 31AH) and (MATH 20C or MATH 31BH) and DSC 80/R. Restricted to students with upper-division standing. Restricted to students within the DS25 major. All other students will be allowed as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Optimization Methods for Data Science I",
@@ -246,8 +229,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Optimization Methods for Data Science II",
@@ -277,8 +259,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probabilistic Modeling and Machine Learning",
@@ -312,8 +293,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Representation Learning",
@@ -347,8 +327,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Data Mining",
@@ -415,8 +394,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Hidden Data in Random Matrices",
@@ -450,8 +428,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Science and the Arts",
@@ -468,8 +445,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Text as Data",
@@ -519,8 +495,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Fairness and Algorithmic Decision-Making",
@@ -537,8 +512,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Spatial Data Science and Applications",
@@ -555,8 +529,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Science Project I",
@@ -618,8 +591,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Data Science Project II",
@@ -645,64 +617,56 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Data Science",
     "code": "DSC 190",
     "description": "Topics of special interest in data science. Topics vary from quarter to quarter. May be taken for credit up to four times when topic varies.",
     "raw_prereq": "department and instructor approval required to monitor enrollment and to ensure that students have the sufficient educational background for a given topic. Restricted to students with upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar in Data Science",
     "code": "DSC 191",
     "description": "A seminar course on topics of current interest in data science. Topics may vary from quarter to quarter. May be taken for credit three times.",
     "raw_prereq": "restricted to students with upper-division standing. Department and instructor approval is required to monitor enrollment and to ensure that students have the sufficient educational background for a given topic.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Data Science Internship",
     "code": "DSC 197",
     "description": "Individual research on a topic related to data science, by special arrangement with and under the direction of a faculty member, in connection with an internship at an organization. Internship work will inform but not necessarily define the research topic. The research topic is expected to promote the study of the principles and techniques involved in the internship work. Students should independently secure an internship before enrolling in the course.",
     "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. An application for Special Studies must be filed with the Registrar’s office after approval from the instructor and the department chair.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study in Data Science",
     "code": "DSC 198",
     "description": "Data science topics whose study involves reading and discussion by a small group of students under supervision of a faculty member. May be taken for credit up to two times.",
     "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. Department stamp required. An application for Special Studies must be filed with the Registrar’s office after approval from the instructor and the department chair.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study for Data Science Undergraduates",
     "code": "DSC 199",
     "description": "Independent reading or research on a topic related to data science by special arrangement with a faculty member. May be taken for credit up to two times.",
     "raw_prereq": "restricted to students with upper-division standing. Consent of the instructor and approval of the department. An application for Special Studies must be filed with the Registrar’s Office after approval from the instructor and the department chair.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Data Science Programming",
     "code": "DSC 200",
     "description": "Computing structures and programming concepts such as object orientation, data structures such as queues, heaps, lists, search trees, and hash tables. Laboratory skills include Jupyter notebooks, RESTful interfaces, and various software development kits (SDKs).",
     "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data Management for Data Science",
     "code": "DSC 202",
     "description": "Principles of data management, relational data model, relational algebra, SQL for data science, NoSQL databases (document, key-value, graph, column-family), multidimensional data management (data warehousing, OLAP Queries, OLAP Cubes, visualizing multidimensional data).",
     "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Data Visualization and Scalable Visual Analytics",
@@ -719,8 +683,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Scalable Data Systems",
@@ -737,8 +700,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Geometry of Data",
@@ -772,8 +734,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Algorithms for Data Science",
@@ -790,16 +751,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Python for Data Science",
     "code": "DSC 207R",
     "description": "Essential tools for data science including the basic process of data science; Python and Jupyter notebooks; finding answers within large datasets by using Python to import data, explore it, analyze it, learn from it, visualize it, and generate easily shareable reports. An applied understanding of how to manipulate and analyze uncurated datasets; basic statistical analysis and machine learning methods; and how to effectively visualize results. This is a distance education course.",
     "raw_prereq": "none. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data Management for Analytics",
@@ -816,8 +775,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Visualization",
@@ -834,16 +792,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Numerical Linear Algebra",
     "code": "DSC 210",
     "description": "Linear algebraic systems, least squares problems and regularization, orthogonalization methods, ill-conditioned problems, eigenvalue and singular value decomposition, principal component analysis, structured matrix factorization and fast algorithms, randomized linear algebra, JL lemma, sparse approximations.",
     "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Optimization",
@@ -860,16 +816,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probability and Statistics for Data Science",
     "code": "DSC 212",
     "description": "Probability, random variables, distributions, central limit theorem, maximum likelihood estimation, method of moments, confidence intervals, hypothesis testing, Bayesian estimation, introduction to simulation and the bootstrap.",
     "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Statistics on Manifolds",
@@ -890,40 +844,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topological Data Analysis",
     "code": "DSC 214",
     "description": "Topology provides a powerful way to describe essential features of functions and spaces. In recent years topological methods have attracted much attention for analyzing complex data. Fundamental developments have been made and the resulting methods have been applied in many fields, e.g., graphics, visualization, neuroscience, and material science. This course introduces basic concepts and topological structures behind these developments, algorithms for them, and examples of applications.",
     "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Thinking and Experimental Design",
     "code": "DSC 215",
     "description": "The goal of this course is to evaluate any paper in data science, regardless of application area. Topics include experimental design, claims, evidence, and statistical significance, the replication crisis, falsifiability, philosophy of science, history of probability and statistics. This class will be in the form of an open discussion based on provided reading materials.",
     "raw_prereq": "none. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Foundations of Probability and Statistics in Data Science",
     "code": "DSC 215R",
     "description": "Foundations of probability and statistics needed for data science, including mathematical theory, and hands-on experience of applying this theory to actual data using Jupyter notebooks. Random variables, dependence, correlation, regression, PCA, entropy and MDL. This course is a distance education course.",
     "raw_prereq": "none. Restricted to major codes DS78 and DS79. All other students with graduate standing may be considered as space permits.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Embedded Sensing, IOT Data Models, and Methods",
     "code": "DSC 231",
     "description": "Sensory data and control is mediated by devices near the edge of sensor networks, referred to as IOT (Internet of Things) devices. Components of IOT platforms: signal processing, communications/networking, control, real-time operating systems. Interfaces to cloud computing stack, publish-subscribe protocols such as MQTT, embedded software/middleware components, metadata schema, metadata normalization methods, applications in selected CPS (cyber-physical system) applications.",
     "raw_prereq": "none. The class is designed for electronic enthusiasts who are quick learners on new embedded, sensor network devices. Restricted to students within the DS75 and DS76 major.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Big Data Analytics Using Spark",
@@ -940,8 +889,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Machine Learning",
@@ -962,8 +910,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Statistical Models",
@@ -984,16 +931,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "High-Dimensional Probability and Statistics",
     "code": "DSC 242",
     "description": "Concentration inequalities, Markov processes and ergodicity, martingale inequalities, empirical processes, sparse linear models in high dimensions, principal component analysis in high dimensions, estimation of large covariance matrices.",
     "raw_prereq": "none. Restricted to DS75 and DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Advanced Optimization",
@@ -1014,8 +959,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Large-Scale Statistical Analysis",
@@ -1040,8 +984,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Causal Inference",
@@ -1062,16 +1005,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Data Mining",
     "code": "DSC 250",
     "description": "Graph mining and basic text analysis (including keyphrase extraction and generation), set expansion and taxonomy construction, graph representation learning, graph convolutional neural networks, heterogeneous information networks, label propagation, and truth findings.",
     "raw_prereq": "none. Restricted to DS75 and DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Machine Learning in Control",
@@ -1092,24 +1033,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Statistical Natural Language Processing",
     "code": "DSC 252",
     "description": "Diving deep to the classical NLP pipeline: tokenization, stemming, lemmatization, part-of-speech tagging, named entity recognition, parsing, and machine translation. Finite-state transducer, context-free grammar, hidden Markov models (HMM), and conditional random fields (CRF) will be covered in detail.",
     "raw_prereq": "none. Restricted to DS75 and DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Data-Driven Text Mining",
     "code": "DSC 253",
     "description": "Unsupervised, weakly supervised, and distantly supervised methods for text mining problems, including information retrieval, open-domain information extraction, text summarization (both extractive and generative), and knowledge graph construction. Bootstrapping, comparative analysis, learning from seed words and existing knowledge bases will be the key methodologies.",
     "raw_prereq": "none. Restricted to DS75 and DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Signal and Image Analysis",
@@ -1139,8 +1077,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Machine Learning Fundamentals",
@@ -1157,8 +1094,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Mining on the Web",
@@ -1175,8 +1111,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Unsupervised Learning",
@@ -1193,8 +1128,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Natural Language Processing",
@@ -1211,8 +1145,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Practice and Applications",
@@ -1233,16 +1166,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Science, Ethics, and Society",
     "code": "DSC 260",
     "description": "This course will consider foundational concepts including power, justice, bias, privacy, and explainability; societal practices including delegation, organizational incentives, and accountability; and governance mechanisms including law, regulation, and norms.",
     "raw_prereq": "none. Restricted to DS75 and DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Responsible Data Science",
@@ -1263,8 +1194,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Human-Centered Artificial Intelligence",
@@ -1285,8 +1215,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Fairness and Ethics",
@@ -1307,8 +1236,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Interpretability and Explainability in Machine Learning",
@@ -1325,8 +1253,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Graduate Capstone in Data Science",
@@ -1356,79 +1283,69 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Data Science",
     "code": "DSC 290",
     "description": "A graduate seminar course in which topics of special interest in data science will be presented by faculty or by graduate students under faculty direction. Restricted to graduate level students. May be repeated for credit twenty-four times as topics vary.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Data Science",
     "code": "DSC 291",
     "description": "Topics of special interest in data science. Topics may vary quarter to quarter. Restricted to graduate level students.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Faculty Research Seminar",
     "code": "DSC 293",
     "description": "Weekly faculty research seminar. Individual HDSI colloquia and distinguished lecturers may be included at the discretion of the instructor. May be taken for credit up to twenty-four times.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Research Rotation",
     "code": "DSC 294",
     "description": "Research rotations provide the opportunity for first-year PhD students to obtain research experience in data analysis under the guidance of HDSI affiliated faculty members. Through the rotations, students can identify a faculty member under whose supervision their dissertation research will be completed. Each research rotation is quarter-long; working with a HDSI faculty member and students are required to complete three separate rotations. Each student is required to take the course three times with at least two different instructors.",
     "raw_prereq": "none. Only first-year PhD students are eligible.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Academia Survival Skills",
     "code": "DSC 295",
     "description": "Basic skills necessary to succeed as a researcher in data science including scripting, cloud computing skills, fellowship proposal preparation, CV preparation, writing reviews, preparing posters, etc.",
     "raw_prereq": "none. Restricted to DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "DSC Graduate Internship",
     "code": "DSC 297",
     "description": "Internship with institution or agency allowing students to pursue topics raised in the data science core and/or elective courses. May be taken for credit up to four times.",
     "raw_prereq": "none. Restricted to DS75 and DS76 students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Research",
     "code": "DSC 299",
     "description": "Graduate research. May be taken for credit up to twenty-four times.",
     "raw_prereq": "none. Restricted to graduate-level students.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching Assistantship",
     "code": "DSC 500",
     "description": "A course in which teaching assistants are aided in learning proper teaching methods by means of supervision of their work by the faculty: handling of discussions, preparation and grading of examinations and other written exercises, and student relations. Number of units for credit depends on number of hours devoted to class or section assistance. May be taken for credit up to seventy-two units.",
     "raw_prereq": "DSC 500 is for selected teaching assistants only; therefore, consent of instructor is required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching Methods in Data Science",
     "code": "DSC 599",
     "description": "Training in teaching methods in the field of data science. This course examines theoretical and practical communication and teaching techniques particularly appropriate to data science.",
     "raw_prereq": "Consent of faculty required. Only graduate students who are TAing for the first time in the data science program are eligible to enroll.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

@@ -4,8 +4,7 @@
     "code": "CSS 1",
     "description": "This course develops computational thinking practices and skills critical for defining, describing, and analyzing social science problems using a computational approach. Students will learn to program in Python in the context of computational social science problems.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data and Model Programming for Computational Social Science",
@@ -51,8 +50,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Programming for Computational Social Science",
@@ -69,40 +67,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Environmental Data Science",
     "code": "CSS 120",
     "description": "This is an upper-division course focused on understanding some of the many approaches, algorithms, and processes used in environmental sciences. We will consider topics such as predicting fires using satellite data, analyzing strategies to improve conservation, and understanding the use of time series data for environmental purposes. Students will be taught to make predictions of migration patterns, temperatures, rising ocean levels, limitations in water sources, and crop growths.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Computational Social Science",
     "code": "CSS 201S",
     "description": "Overview of causal and statistical inference, data types/structure, and modeling/analytical approaches to social science data. Topics include models of social phenomena at different scales (cognition, behavior, learning, communication, language, game theory, markets, etc.) and analysis of different types of social data (social networks, text, GIS, timeseries, etc.). Emphasis is placed on the understanding of analytical and modeling methods, their applications and limitations. Open to CT75 majors only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computational Social Science Technical Boot Camp",
     "code": "CSS 202S",
     "description": "This course provides practical experience with the technical skills underpinning computational social science. Topics may include calculus, linear algebra, probability, Unix/Linux, working in the terminal, file encoding, file system organization, Python, numpy, pandas, scikit, notebooks, matplotlib, code style, scraping, data storage, SQL, JSON, CSV/TSV, version control, git, spreadsheets, algorithms, basic data visualization, and machine learning basics. Open to CT75 majors only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Methods for Computational Social Science",
     "code": "CSS 211",
     "description": "An introduction to the methods used by computational social scientists for data analysis, statistics, computing, inference, and machine learning, constituting the first part of a series of courses in CSS methods. This course covers research design, causal inference, data wrangling, visualization, probability, statistical inference, and statistical computing.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Advanced Statistical Applications",
@@ -136,31 +129,27 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computational Social Science Research Seminar",
     "code": "CSS 209",
     "description": "A weekly seminar series focused on selected topics in computational social science.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Research in Computational Social Science",
     "code": "CSS 296",
     "description": "Independent research under the supervision of individual faculty members.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching Apprentice",
     "code": "CSS 500",
     "description": "Graduate students are required to enroll in a teaching assistantship course while supporting undergraduate courses.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

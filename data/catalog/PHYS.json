@@ -31,8 +31,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mechanics Laboratory",
@@ -75,8 +74,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electricity and Magnetism",
@@ -115,8 +113,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electricity and Magnetism Laboratory",
@@ -167,8 +164,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Waves, Optics, and Modern Physics",
@@ -207,8 +203,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Waves, Optics, and Modern Physics Laboratory",
@@ -259,8 +254,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics—Mechanics",
@@ -306,8 +300,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics—Electricity and Magnetism",
@@ -358,8 +351,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics Laboratory—Mechanics",
@@ -393,8 +385,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics—Fluids, Waves, Thermodynamics, and Optics",
@@ -441,8 +432,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics Laboratory—Electricity and Magnetism",
@@ -489,8 +479,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics—Relativity and Quantum Physics",
@@ -533,8 +522,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics Laboratory—Modern Physics",
@@ -568,8 +556,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics for Physics Majors–Mechanics",
@@ -595,8 +582,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics for Physics Majors—Fluids, Waves, Statistical and Thermal Physics",
@@ -634,8 +620,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics for Physics Majors—Electricity and Magnetism",
@@ -714,8 +699,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physics for Physics Majors—Electromagnetic Waves, Special Relativity and Optics",
@@ -811,8 +795,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics for Physics Majors—Quantum Physics",
@@ -920,24 +903,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics of Everyday Life",
     "code": "PHYS 8",
     "description": "Examines phenomena and technology encountered in daily life from a physics perspective. Topics include waves, musical instruments, telecommunication, sports, appliances, transportation, computers, and energy sources. Physics concepts will be introduced and discussed as needed employing some algebra. No prior physics knowledge is required.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Concepts in Physics",
     "code": "PHYS 10",
     "description": "This is a one-quarter general physics course for nonscience majors. Topics covered are motion, energy, heat, waves, electric current, radiation, light, atoms and molecules, nuclear fission and fusion. This course emphasizes concepts with minimal mathematical formulation. Recommended preparation: college algebra.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Survey of Physics",
@@ -971,16 +951,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Energy and the Environment",
     "code": "PHYS 12",
     "description": "A course covering energy fundamentals, energy use in an industrial society and the impact of large-scale energy consumption. It addresses topics on fossil fuel, heat engines, solar energy, nuclear energy, energy conservation, transportation, air pollution and global effects. Concepts and quantitative analysis.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Poetry for Physicists",
@@ -1059,24 +1037,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics Introductory Special Topics",
     "code": "PHYS 39",
     "description": "From time to time a member of the regular faculty or a resident visitor will give a self-contained course on an introductory topic in their special area of research or help students prepare to succeed in the physics major. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only. May be repeated up to six times, provided the same topic is not repeated.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Physics Introductory Special Topics Lab",
     "code": "PHYS 39L",
     "description": "From time to time a member of the regular faculty or a resident visitor will offer a freshman-sophomore-level experimental lab in their special area of research. Open to major codes PY26, PY28, PY29, PY32, PY33, PY34, and PY35 only. May be repeated up to six times, provided the same topic is not repeated.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Scientific Computing with Python",
@@ -1093,32 +1068,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "First-year Seminar",
     "code": "PHYS 87",
     "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Students may complete up to four first-year seminars with the stipulation that none of the seminars are repeated.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "PHYS 98",
     "description": "Directed group study on a topic, or in a field not included in the regular departmental curriculum. P/NP grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "PHYS 99",
     "description": "Independent reading or research on a topic by special arrangement with a faculty member. P/NP grading only.",
     "raw_prereq": "lower-division standing. Completion of thirty units at UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form. Department stamp required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Electromagnetism I",
@@ -1152,8 +1123,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electromagnetism II",
@@ -1220,8 +1190,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Electromagnetism III",
@@ -1238,8 +1207,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical and Computational Physics I",
@@ -1318,8 +1286,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical and Computational Physics II",
@@ -1386,8 +1353,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mechanics I",
@@ -1466,8 +1432,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mechanics II",
@@ -1534,8 +1499,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Information is Physical",
@@ -1561,8 +1525,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Fluid Dynamics for Physicists",
@@ -1583,8 +1546,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Circuits and Electronics",
@@ -1618,8 +1580,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Experimental Techniques",
@@ -1636,8 +1597,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Laboratory Projects",
@@ -1654,8 +1614,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Physics I",
@@ -1701,8 +1660,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Physics II",
@@ -1723,8 +1681,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Quantum Physics III",
@@ -1741,8 +1698,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Condensed Matter/Materials Science Laboratory",
@@ -1763,8 +1719,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Nuclear Physics",
@@ -1794,8 +1749,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "String Theory",
@@ -1825,8 +1779,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics Special Topics",
@@ -1913,8 +1866,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Statistical and Thermal Physics I",
@@ -1931,8 +1883,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Statistical and Thermal Physics II",
@@ -1953,24 +1904,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computational Physics I: Probabilistic Models and Simulations",
     "code": "PHYS 141",
     "description": "Project-based computational physics laboratory course with student’s choice of Fortran 90/95, or C/C++. Applications from materials science to the structure of the early universe are chosen from molecular dynamics, classical and quantum Monte Carlo methods, physical Langevin/Fokker-Planck processes.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Computational Physics II: PDE and Matrix Models",
     "code": "PHYS 142",
     "description": "Project-based computational physics laboratory course for modern physics and engineering problems with student’s choice of Fortran90/95, or C/C++. Applications of finite element PDE models are chosen from quantum mechanics and nanodevices, fluid dynamics, electromagnetism, materials physics, and other modern topics.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Elementary Plasma Physics",
@@ -1987,8 +1935,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Condensed Matter Physics",
@@ -2018,8 +1965,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Electronic Materials",
@@ -2036,8 +1982,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Elementary Particle Physics",
@@ -2054,16 +1999,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Stars and Compact Objects",
     "code": "PHYS 160",
     "description": "A first course on stars, their structure, evolution, and as testing grounds for physics in extreme environments. Topics include fundamental interactions and nuclear physics in stars, fluid dynamics and transport equations, white dwarfs and neutron stars, supernovae, and the formation of heavy elements.",
     "raw_prereq": "4A-B-C-D-E.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Black Holes",
@@ -2101,8 +2044,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Modern Cosmology",
@@ -2140,8 +2082,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Medical Instruments: Principles and Practice",
@@ -2188,8 +2129,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Modern Physics Laboratory: Biological and Quantum Physics",
@@ -2214,8 +2154,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biological Physics",
@@ -2262,8 +2201,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Quantitative Microbiology",
@@ -2280,8 +2218,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics of the Cell",
@@ -2307,16 +2244,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biophysics of Neurons and Networks",
     "code": "PHYS 178",
     "description": "Information processing by nervous system through physical reasoning and mathematical analysis. A review of the biophysics of neurons and synapses and fundamental limits to signaling by nervous systems is followed by essential aspects of the dynamics of phase coupled neuronal oscillators, the dynamics and computational capabilities of recurrent neuronal networks, and the computational capability of layered networks. May be coscheduled with PHYS 278.",
     "raw_prereq": "upper-division standing. Recommended preparation: a working knowledge of calculus and linear algebra.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Undergraduate Seminar on Physics",
@@ -2342,48 +2277,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Senior Seminar in Physics",
     "code": "PHYS 192",
     "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in Physics (at the upper-division level). Senior Seminars may be offered in all campus departments. Topics will vary from quarter to quarter. Senior Seminars may be taken for credit up to four times, with a change in topic, and permission of the department. Enrollment is limited to twenty students, with preference given to seniors.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "PHYS 198",
     "description": "Directed group study on a topic or in a field not included in the regular departmental curriculum. (P/NP grades only.)",
     "raw_prereq": "consent of instructor and departmental chair.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research for Undergraduates",
     "code": "PHYS 199",
     "description": "Independent reading or research on a problem by special arrangement with a faculty member. (P/NP grades only.)",
     "raw_prereq": "consent of instructor and departmental chair.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Thesis Research for Undergraduates",
     "code": "PHYS 199H",
     "description": "Honors thesis research for seniors participating in the Honors Program. Research is conducted under the supervision of a physics faculty member.",
     "raw_prereq": "admission to the Honors Program in Physics.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Theoretical Mechanics I",
     "code": "PHYS 200A",
     "description": "Review of Lagrangian mechanics: calculus of variations, Noether’s theorem, constraints, central forces, coupled oscillations. Continuum mechanics: strings and membranes, Sturm-Liouville theory, dispersion. Hamiltonian mechanics: equations of motion, Poisson brackets, canonical transformations, Hamilton-Jacobi theory, action-angle variables, adiabatic invariants.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Dynamics: Deterministic, Stochastic, Statistical",
@@ -2400,32 +2329,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Methods for Physics",
     "code": "PHYS 201",
     "description": "An introduction to mathematical methods used in theoretical physics. Topics include a review of complex variable theory, applications of the Cauchy residue theorem, asymptotic series, method of steepest descent, Fourier and Laplace transforms, series solutions for ODE’s and related special functions, Sturm Liouville theory, variational principles, boundary value problems, and Green’s function techniques.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Estimation and Scaling in Physics",
     "code": "PHYS 202",
     "description": "This course stresses approximate techniques in physics, both in terms of quantitative estimation and scaling relationships. A broad range of topics may include drag, aerodynamics, fluids, waves, heat transfer, mechanics of materials, sound, optical phenomena, nuclear physics, societal-scale energy, weather and climate change, human metabolic energy. Undergraduates wishing to enroll will be expected to have prior completion of PHYS 100B, PHYS 110A, PHYS 130B, and PHYS 140A.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Advanced Classical Electrodynamics I",
     "code": "PHYS 203A",
     "description": "A basic course in electromagnetism at the graduate level. Contents include special relativity, relativistic formulation of electrodynamics from the principle of least action, electrostatics, magnetostatics, multipoles, waves, light, diffraction, and multipole radiation.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Classical Electrodynamics II",
@@ -2442,8 +2367,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Equilibrium Statistical Mechanics",
@@ -2473,8 +2397,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nonequilibrium Statistical Mechanics",
@@ -2491,16 +2414,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Solid-State Physics I",
     "code": "PHYS 211A",
     "description": "The first of a two-quarter course in solid-state physics. Covers a range of solid-state phenomena that can be understood within an independent particle description. Topics include chemical versus band-theoretical description of solids, electronic band structure calculation, lattice dynamics, transport phenomena and electrodynamics in metals, optical properties, semiconductor physics.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Solid-State Physics II",
@@ -2521,16 +2442,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Mechanics I",
     "code": "PHYS 212A",
     "description": "Quantum principles of state (pure, composite, entangled, mixed), observables, time evolution, and measurement postulate. Simple soluble systems: two-state, harmonic oscillator, and spherical potentials. Angular momentum and spin. Time-independent approximations.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Quantum Mechanics II",
@@ -2547,8 +2466,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Mechanics III",
@@ -2574,16 +2492,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Information is Physical",
     "code": "PHYS 213",
     "description": "The subject of the course is physical aspects of quantum information. Following a primer on Shannon’s theory on the compression and transmission of information, emphasizing its physical nature, the theory is extended to quantum systems. This includes measures of entanglement and their operational meanings, purification, and strong subadditivity of the von Neumann entropy. Further topics may include applications to quantum many-body physics, quantum algorithms and quantum complexity theory. May be coscheduled with PHYS 113. In addition to readings, homework, and exams at the graduate level, PHYS 213 will require a review paper at the end of the course, while the undergraduate course will not.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Physics of Elementary Particles",
@@ -2600,8 +2516,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Fields I",
@@ -2618,8 +2533,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Quantum Fields II",
@@ -2636,8 +2550,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantum Fields III",
@@ -2663,8 +2576,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Selected Topics in Quantum Fields",
@@ -2681,16 +2593,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Fluid Dynamics for Physicists",
     "code": "PHYS 216",
     "description": "This is a basic course in fluid dynamics for advanced students. The course consists of core fundamentals and modules on advanced applications to physical and biological phenomena. Core fundamentals include Euler and Navier-Stokes equations, potential and Stokesian flow, instabilities, boundary layers, turbulence, and shocks. Module topics include MHD, waves, and the physics of locomotion and olfaction. May be coscheduled with PHYS 116. The performance criteria for graduate students will be to complete and pass (1) a graduate-level exam and (2) graduate-level homework problem sets. In both cases, there will be overlap with the undergraduate exam and problems, but the graduates will be expected to complete additional work at a higher level. Recommended preparation: prior coursework consistent with PHYS 100B and 110B content. Open to major codes PY75, PY76, PY77, PY78, PY79, PY80, PY81, and PY82 only. All others must use the Enrollment Authorization System (EASy) to request approval to enroll.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Field Theory and the Renormalization Group",
@@ -2707,16 +2617,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Plasma Physics I",
     "code": "PHYS 218A",
     "description": "The basic physics of plasmas is discussed for the simple case of an unmagnetized plasma. Topics include thermal equilibrium statistical properties, fluid and Landau theory of electron and ion plasma waves, velocity space instabilities, quasi-linear theory, fluctuations, scattering or radiation, Fokker-Planck equation.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Plasma Physics II",
@@ -2733,8 +2641,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Plasma Physics III",
@@ -2751,8 +2658,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Condensed Matter/Materials Science Laboratory",
@@ -2769,8 +2675,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Group Theoretical Methods in Physics",
@@ -2787,8 +2692,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nonlinear and Nonequilibrium Dynamics of Physical Systems",
@@ -2805,8 +2709,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Experimental Methods for Particle Physics",
@@ -2827,16 +2730,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "General Relativity",
     "code": "PHYS 225A-B",
     "description": "This is a two-quarter course on gravitation and the general theory of relativity. The first quarter is intended to be offered every year and may be taken independently of the second quarter. The second quarter will be offered in alternate years. Topics covered in the first quarter include special relativity, differential geometry, the equivalence principle, the Einstein field equations, and experimental and observational tests of gravitation theories. The second quarter will focus on more advanced topics, including gravitational collapse, Schwarzschild and Kerr geometries, black holes, gravitational radiation, cosmology, and quantum gravitation.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "General Relativity",
@@ -2874,24 +2775,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cosmology",
     "code": "PHYS 227",
     "description": "An advanced survey of topics in physical cosmology. The Friedmann models and the large-scale structure of the universe, including the observational determination of Ho (the Hubble constant) and qo (the deceleration parameter). Galaxy number counts. A systematic exposition of the physics of the early universe, including vacuum phase transitions; inflation; the generation of net baryon number, fluctuations, topological defects and textures. Primordial nucleosynthesis, both standard and nonstandard models. Growth and decay of adiabatic and isocurvature density fluctuations. Discussion of dark matter candidates and constraints from observation and experiment. Nucleocosmo-chronology and the determination of the age of the universe.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "High-Energy Astrophysics and Compact Objects",
     "code": "PHYS 228",
     "description": "The physics of compact objects, including the equation of state of dense matter and stellar stability theory. Maximum mass of neutron stars, white dwarfs, and supermassive objects. Black holes and accretion disks. Compact X-ray sources and transient phenomena, including X-ray and g-ray bursts. The fundamental physics of electromagnetic radiation mechanisms: synchrotron radiation, Compton scattering, thermal and nonthermal bremsstrahlung, pair production, pulsars. Particle acceleration models, neutrino production and energy loss mechanisms, supernovae, and neutron star production.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Solid-State Physics",
@@ -2908,8 +2806,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Electronic Materials",
@@ -2926,8 +2823,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Collider Physics",
@@ -2948,8 +2844,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nonlinear Plasma Theory",
@@ -2966,8 +2861,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to the Standard Model and Beyond",
@@ -2984,120 +2878,105 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Special Topics",
     "code": "PHYS 239",
     "description": "From time to time a member of the regular faculty or a resident visitor will find it possible to give a self-contained short course on an advanced topic in his or her special area of research. This course is not offered on a regular basis, but it is estimated that it will be given once each academic year. (S/U grades permitted.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computational Physics I: Probabilistic Models and Simulations",
     "code": "PHYS 241",
     "description": "Project-based computational physics laboratory course with student’s choice of Fortran90/95 or C/C++. Applications from materials science to the structure of the early universe are chosen from molecular dynamics, classical and quantum Monte Carlo methods, physical Langevin/Fokker-Planck processes, and other modern topics.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Computational Physics II: PDE and Matrix Models",
     "code": "PHYS 242",
     "description": "Project-based computational physics laboratory course for modern physics and engineering problems with student’s choice of Fortran90/95 or C/C++. Applications of finite element PDE models are chosen from quantum mechanics and nanodevices, fluid dynamics, electromagnetism, materials physics, and other modern topics.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Stochastic Methods",
     "code": "PHYS 243",
     "description": "Introduction to methods of stochastic modeling and simulation. Topics include random variables; stochastic processes; Markov processes; one-step processes; the Fokker-Planck equation and Brownian motion; the Langevin approach; Monte-Carlo methods; fluctuations and the Boltzmann equation; and stochastic differential equations.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Parallel Computing in Science and Engineering",
     "code": "PHYS 244",
     "description": "Introduction to basic techniques of parallel computing, the design of parallel algorithms, and their scientific and engineering applications. Topics include parallel computing platforms; message-passing model and software; design and application of parallel software packages; parallel visualization; parallel applications.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Condensed Matter Physics Seminar",
     "code": "PHYS 250",
     "description": "Discussion of current research in physics of the solid state and of other condensed matter. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "High-Energy Physics Seminar",
     "code": "PHYS 251",
     "description": "Discussions of current research in nuclear physics, principally in the field of elementary particles. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Plasma Physics Seminar",
     "code": "PHYS 252",
     "description": "Discussions of recent research in plasma physics. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Astrophysics and Cosmology Seminar",
     "code": "PHYS 253",
     "description": "Discussions of recent research in astrophysics and cosmology. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Biophysics Seminar",
     "code": "PHYS 254",
     "description": "Presentation of current research in biological physics and quantitative biology by invited speakers from the United States and abroad. (S/U grades only.) May be taken for credit thirty times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Biophysics Research Talks",
     "code": "PHYS 255",
     "description": "Discussion of recent research in biological physics and quantitative biology by current graduate students. (S/U grades only.) May be taken for credit thirty times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "High-Energy Physics Special Topics Seminar",
     "code": "PHYS 257",
     "description": "Discussions of current research in high-energy physics. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Astrophysics and Space Physics Special Topics Seminar",
     "code": "PHYS 258",
     "description": "Discussions of current research in astrophysics and space physics. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Methods in Quantitative Biology",
     "code": "PHYS 259A",
     "description": "Critical analysis of methods used to collect and analyze biological data. Topics include general aspects of experimental conditions for data collection and strategy of mathematical modeling, as well as specific methodologies in image acquisition, single cell analysis, population dynamics, and statistical data analysis. These topics will be covered through critical reading, peer discussion, problem solving on case studies selected by the instructors. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Concepts and Methods in Quantitative Physiology",
@@ -3123,40 +3002,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physics Colloquium",
     "code": "PHYS 260",
     "description": "Discussions of recent research in physics directed to the entire physics community. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar on Physics Research at UC San Diego",
     "code": "PHYS 261",
     "description": "Discussions of current research conducted by faculty members in the Department of Physics. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Scientific Method Seminar",
     "code": "PHYS 264",
     "description": "Discussions of the application of the scientific method in the natural sciences. (S/U grades only.) May be taken for credit twenty-five times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Experimental Techniques for Quantitative Biology",
     "code": "PHYS 270A",
     "description": "A hands-on laboratory course in which the students learn and use experimental techniques, including optics, electronics, chemistry, machining, and computer interface, to design and develop simple instruments for quantitative characterization of living systems. Lab classes will comprise five two-week modules.",
     "raw_prereq": "department approval required. Recommended preparation: knowledge of electronics and optics at the level of introductory calculus, basic statistics, programming skills; knowledge of introductory biology.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Quantitative Biology Laboratory",
@@ -3173,119 +3047,104 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Information Theory and Pattern Formation in Biological Systems",
     "code": "PHYS 273",
     "description": "This course discusses how living systems acquire information on their environment and exploit it to generate structures and perform functions. Biological sensing of concentrations, reaction-diffusion equations, the Turing mechanism, and applications of information theory to cellular transduction pathways and animal behavior will be presented. Recommended preparation: familiarity with probabilities at the level of undergraduate statistical mechanics and major cellular processes; basic knowledge of information theory.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Stochastic Processes in Population Genetics",
     "code": "PHYS 274",
     "description": "The course explores genetic diversity within biological populations. Genetics fundamentals, mutation/selection equilibria, speciation, Wright-Fisher model, Kimura’s neutral theory, Luria-Delbrück test, the coalescent theory, evolutionary games and statistical methods for quantifying genetic observables such as SNPs, copy number variations, etc., will be discussed. Recommended preparation: familiarity with probabilities and PDEs at the undergraduate level; an introduction to basic evolutionary processes.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biological Physics",
     "code": "PHYS 275",
     "description": "The course teaches how a few fundamental models from statistical physics provide quantitative explanatory frameworks for many seemingly unrelated problems in biology. Case studies rotate from year to year and may include ion channel gating, cooperative binding, protein-DNA interaction, gene regulation, molecular motor dynamics, cytoskeletal assembly, biological electricity, population and evolutionary dynamics. May be coscheduled with PHYS 175. Students in PHYS 275 are expected to complete a report at the level of a research paper. Recommended preparation: an introduction to statistical mechanics, at least at the level of PHYS 140A or CHEM 132.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Quantitative Microbiology",
     "code": "PHYS 276",
     "description": "A quantitative description of bacteria from molecular interactions through cellular and population level behaviors. Topics will vary yearly, covering processes including gene regulation, molecular signaling, genetic circuits, stochastic dynamics, metabolic control, cell division, cell growth control, stress response, chemotaxis, biofilm formation. May be coscheduled with PHYS 176. Recommended preparation: an introductory course in biology is helpful but not necessary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Physics of the Cell",
     "code": "PHYS 277",
     "description": "Exploration of the physics problems that must be solved by a living cell in order to survive. Theoretical ideas from nonequilibrium statistical mechanics and dynamical systems are used to establish the physical principles that underlie biological function, focusing on the organization and behavior of eukaryotic cells. Specific topics rotate from year to year and may include genome organization and dynamics, motility, sensing, and organelle interaction. May be coscheduled with PHYS 177. The graduate version will include a report at the level of a research paper. Recommended preparation: familiarity with statistical mechanics at the level of PHYS 140A or CHEM 132.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biophysics of Neurons and Networks",
     "code": "PHYS 278",
     "description": "Information processing by nervous system through physical reasoning and mathematical analysis. A review of the biophysics of neurons and synapses and fundamental limits to signaling by nervous systems is followed by essential aspects of the dynamics of phase coupled neuronal oscillators, the dynamics and computational capabilities of recurrent neuronal networks, and the computational capability of layered networks. May be coscheduled with PHYS 178. Recommended preparation: a working knowledge of calculus and linear algebra.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Neurodynamics",
     "code": "PHYS 279",
     "description": "Introduction to the nonlinear dynamics of neurons and simple neural systems through nonlinear dynamics, bifurcation theory, and chaotic motions. The dynamics of single cells is considered at different levels of abstraction, e.g., biophysical and “reduced” models for analysis of regularly spiking and bursting cells, their dynamical properties, and their representation in phase space. Laboratory exercises will accompany the lectures. Duplicate credit not allowed for cross-listed courses: BGGN 260, BENG 260, PHYS 279.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Extensions in Physics",
     "code": "PHYS 281",
     "description": "This course covers topics not traditionally taught as part of a normal physics curriculum, but nonetheless useful extensions to the classic pedagogy. Example topics may include estimation, nuclear physics, fluid mechanics, and scaling relationships.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Spatiotemporal Dynamics of Biological Systems",
     "code": "PHYS 282",
     "description": "The course will introduce basic concepts of dynamical systems, from low dimensional systems to spatially extended systems, including Fisher wave, Turing instability, and excitable systems, and apply them to the study of concrete biological systems taken from a spectrum of fields including ecology and developmental biology. Recommended preparation: basic knowledge of biology and partial differential equations. A first course in partial differential equations; some basic concepts of modern biology.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "MS Thesis Research in Materials Physics",
     "code": "PHYS 295",
     "description": "Directed research on MS dissertation topic.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Studies in Physics",
     "code": "PHYS 297",
     "description": "Studies of special topics in physics under the direction of a faculty member. (S/U grades only.) May be taken for credit up to twenty-four times.",
     "raw_prereq": "instructor and department approval required. (S/U grades permitted.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Study in Physics",
     "code": "PHYS 298",
     "description": "Research studies under the direction of a faculty member. (S/U grades only.) May be taken for credit up to twenty-four times.",
     "raw_prereq": "instructor and department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Thesis Research in Physics",
     "code": "PHYS 299",
     "description": "Directed research on dissertation topic. (S/U grades only.) May be taken for credit up to twenty-four times.",
     "raw_prereq": "instructor and department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Instruction in Physics Teaching",
     "code": "PHYS 500",
     "description": "This course, designed for graduate students, includes discussion of teaching, techniques and materials necessary to teach physics courses. One meeting per week with course instructors, one meeting per week in an assigned recitation section, problem session, or laboratory section. Students are required to take a total of two units of PHYS 500.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

@@ -4,72 +4,63 @@
     "code": "BIOM 200A",
     "description": "This course provides a systematic approach to current biomedical research, using analysis of selected topics to focus on the process of research discovery and its critical evaluation. The course progresses through five thematic modules that cover genes, building a cell, cellular responses, organogenesis, and the processes that allow survival in the world.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Molecules to Organisms: Approaches",
     "code": "BIOM 200B",
     "description": "Students will critically evaluate classic and current research papers in biomedical research, in addition to being exposed to state-of-the-art technologies in research.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminars in Biomedical Research",
     "code": "BIOM 201",
     "description": "This course includes attendance at seminars in the biomedical sciences and is designed to provoke critical discussion of the presented findings and scientific approaches in a small-group setting.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Biomedical Sciences Research Rotation",
     "code": "BIOM 202",
     "description": "Laboratory rotations provide first-year students with experience in the various experimental methods used in biomedical sciences.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Lipid Cell Signaling Genomics, Proteomics, and Metabolomics",
     "code": "BIOM 209",
     "description": "Overview of new systems biology “omics” approaches to lipid metabolism and cell signaling including interrogating gene and lipid databases, techniques for lipidomics, and implications for profiling and biomarker discovery in blood and tissues relevant to inflammatory and other human diseases. Recommended: one quarter of undergraduate biochemistry.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Current Topics in Anthropogeny",
     "code": "BIOM 218",
     "description": "Participation in the symposia held by CARTA three times a year. Students shadow one of the speakers during public and private symposia. Students meet after each symposium and each writes a summary of the speaker’s presentation and ensuring discussion.",
     "raw_prereq": "graduate standing required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Ethics in Scientific Research",
     "code": "BIOM 219",
     "description": "Overview of ethical issues in scientific research, conflicts of interest; national, statewide and campus issues and requirement; ethical issues in publications; authorship; retention of research records; tracing of research records; attribution; plagiarism; copyright considerations; primary, archival and meeting summary publications; ethical procedures and policies; NIH, NSF, California and UC San Diego; case studies and precedents in ethics.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Essentials of Glycobiology",
     "code": "BIOM 222",
     "description": "Advanced elective for graduate/medical students who have had core courses in cell biology or biochemistry. Expert faculty will present a coordinated overview of the field of glycobiology, which explores the structure, synthesis, and functions of sugar chains in biological systems.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Anthropogeny",
     "code": "BIOM 225",
     "description": "An overview of the current state of research into human origins with illustration of the spatial and temporal scales: from million-year-old phylogenies to millisecond physiological processes, and from human societies dispersed across continents to cells and molecules.",
     "raw_prereq": "graduate standing required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Anthropogeny",
@@ -86,32 +77,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Contemporary Topics in Pharmacology",
     "code": "BIOM 231",
     "description": "A selection of short courses in the biomedical and pharmacological sciences offered by resident experts. Topics will vary annually. Each short course will last one to two weeks, meeting five hours a week.",
     "raw_prereq": "consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Genetics",
     "code": "BIOM 242",
     "description": "Intended for graduate students interested in principles of classical and molecular genetics. Will attend weekly genetics seminar and participate in didactic/discussion preparatory session.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Current Literature in Glycobiology",
     "code": "BIOM 246",
     "description": "Informal presentations on topics of current interest in glycobiology as represented in the current scientific literature.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Genetics and Genomics",
@@ -141,8 +128,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Pathogens and Host Defense",
@@ -172,8 +158,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular and Cell Biology",
@@ -203,8 +188,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular Basis of Drug Action and Disease Therapy",
@@ -234,16 +218,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular Pathology of Cancer",
     "code": "BIOM 256",
     "description": "This course outlines a current understanding of genetic mechanisms that underlie carcinogenesis and their impact on cell proliferation, differentiation, angiogenesis, metastasis, and survival. The topics of tumor histopathology, the tumor stem cell phenotype, and cancer drug design are also addressed.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Quantitative Methods in Genetics",
@@ -273,87 +255,76 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminars in Genetics",
     "code": "BIOM 272",
     "description": "This course includes attendance at seminars in genetics and is designed to provoke critical discussion of the presented findings and scientific approaches in a small group setting.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminars in Molecular and Cell Biology",
     "code": "BIOM 274",
     "description": "This course includes attendance at seminars in molecular and cell biology and is designed to provoke critical discussion of the presented findings and scientific approaches in a small group setting.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminars in Pharmacology",
     "code": "BIOM 275",
     "description": "This course includes attendance at seminars in pharmacology and is designed to provoke critical discussion of the presented findings and the scientific approaches in a small group setting.",
     "raw_prereq": "limited to BMS graduate students except by consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Inference in the Medical Sciences",
     "code": "BIOM 285",
     "description": "An introduction to basic techniques used in biomedical literature: t tests, ANOVA, chi-square, linear and nonlinear regression. Emphasis will be on understanding the appropriate use and interpretation of the tests, rather than on the calculations.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Pharmacology and Molecular Biology Journal Club",
     "code": "BIOM 294",
     "description": "Current literature in molecular pharmacology and molecular biology is reviewed. Two papers are chosen per week for oral presentation by students. Faculty critique the student presentations.",
     "raw_prereq": "enrollment in PhD program at year two and above. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Pharmacology Research Discussions",
     "code": "BIOM 295",
     "description": "Student, faculty, and fellow discussion groups on research projects. Students are expected to present research findings to fellows, other PhD students, and faculty.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Reading",
     "code": "BIOM 296",
     "description": "Reading of special topics under the direction of a faculty member. Exact subject matter to be arranged in individual cases.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Progress in Signal Transduction",
     "code": "BIOM 297",
     "description": "Papers describing recent progress in signal transduction from the cell-surface to the nucleus will be chosen from recent research literature. Two papers will be discussed and criticized in detail each week for one hour.",
     "raw_prereq": "graduate-level biochemistry, cell biology, and molecular biology; registered as second-year and above graduate student in biomedical sciences, biology, or chemistry. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Study",
     "code": "BIOM 298",
     "description": "Reading and laboratory study of special topics under the direction of a faculty member. Exact subject matter to be arranged in individual cases. (F,W,S)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study or Research",
     "code": "BIOM 299",
     "description": "Independent study or research.",
     "raw_prereq": "consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

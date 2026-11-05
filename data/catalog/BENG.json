@@ -4,80 +4,70 @@
     "code": "BENG 1",
     "description": "An introduction to bioengineering that includes lectures and hands-on laboratory for design projects. The principles of problem definition, engineering inventiveness, team design, prototyping, and testing, as well as information access, engineering standards, communication, ethics, and social responsibility will be emphasized. P/NP grades only.",
     "raw_prereq": "none. (F,W)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introductory Computer Programming and MATLAB",
     "code": "BENG 2",
     "description": "Introduction to MATLAB is designed to give students fluency in MATLAB, including popular toolboxes. Consists of interactive lectures with a computer running MATLAB for each student. Topics: variables, operations, and plotting; visualization and programming; and solving equations and curve fitting.",
     "raw_prereq": "bioengineering: biosystems majors only or consent of department. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "First-year Student Seminar",
     "code": "BENG 87",
     "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students. (F,W,S)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Bioengineering",
     "code": "BENG 90",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. This course will cover topics from biomechanics, biosystems, bioinformatics, and biotechnology among others.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Bioengineering with Laboratory",
     "code": "BENG 90L",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. This course is intended to be a lecture and lab component topics course. This course will cover topics from biomechanics, biosystems, bioinformatics and biotechnology among others.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Bioengineering and Medicine",
     "code": "BENG 91",
     "description": "Seminar discussing the interface between and opportunities for bioengineering and medicine. Students will interact with clinical faculty and bioengineering faculty to discuss current topics and problems where engineering solutions could improve the practice of medicine. Intended for first-year and transfer students in the Department of Bioengineering.",
     "raw_prereq": "bioengineering majors only or consent of department.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Internship/Field Studies",
     "code": "BENG 97",
     "description": "An enrichment program available to a limited number of lower-division undergraduate students, which provides work experience with industry, government offices, and hospitals. The internship is coordinated through UC San Diego’s Academic Internship Program under the supervision of a faculty member and an industrial, government, or hospital employee.",
     "raw_prereq": "lower-division standing, completion of thirty units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 3.0, and a completed and approved Special Studies form. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "BENG 98",
     "description": "Directed group study on a topic or in a field not included in the regular department curriculum. (P/NP grades only.)",
     "raw_prereq": "lower-division standing, completion of thirty units of undergraduate study at UC San Diego with a UC San Diego GPA of at least 3.0 and consent of a bioengineering faculty member; completed and approved Special Studies form.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study for Undergraduates",
     "code": "BENG 99",
     "description": "Independent reading or research by arrangement with a bioengineering faculty member. (P/NP grades only.)",
     "raw_prereq": "lower-division standing, completion of thirty units of undergraduate study at UC San Diego with a UC San Diego GPA of at least 3.0 and consent of a bioengineering faculty member; completed and approved Special Studies form.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "BENG 99H",
     "description": "Independent study or research under direction of a member of the faculty.",
     "raw_prereq": "student must be of first-year standing and a Regents Scholar; approved Special Studies form.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Probability and Statistics for Bioengineers",
@@ -111,8 +101,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Molecular Components of Living Systems",
@@ -129,8 +118,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioengineering Mass Transfer",
@@ -160,8 +148,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Musculoskeletal Biomechanics",
@@ -199,8 +186,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Soft Tissue Biomechanics",
@@ -217,8 +203,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Fluid and Cell Biomechanics",
@@ -235,8 +220,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Organic Chemistry Structural and Design Principles",
@@ -257,8 +241,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biosystems and Control",
@@ -284,8 +267,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Dynamic Simulation in Bioengineering",
@@ -323,8 +305,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Modeling and Computation in Bioengineering",
@@ -354,8 +335,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biotechnology Thermodynamics and Kinetics",
@@ -401,8 +381,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Analysis and Computational Engineering",
@@ -432,8 +411,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Measurements, Statistics, and Probability",
@@ -463,8 +441,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biomedical Signals and Systems",
@@ -485,8 +462,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Bioengineering Physiology",
@@ -528,8 +504,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioengineering Physiology",
@@ -585,8 +560,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biomedical Optics and Imaging",
@@ -603,8 +577,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Biosystems Engineering Laboratory",
@@ -630,8 +603,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Chemical and Molecular Bioengineering Techniques",
@@ -673,8 +645,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioreactor Engineering",
@@ -695,8 +666,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Biochemical Engineering",
@@ -721,8 +691,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biotechnology Laboratory",
@@ -739,8 +708,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Cell and Tissue Engineering",
@@ -803,8 +771,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Biomolecular Engineering",
@@ -821,8 +788,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Bioengineering Laboratory",
@@ -839,8 +805,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular Sequence Analysis",
@@ -857,8 +822,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biological Databases",
@@ -875,8 +839,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Genomic Technologies",
@@ -902,8 +865,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Principles of Biomaterials Design",
@@ -937,8 +899,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Principles of Bioinstrumentation Design",
@@ -964,8 +925,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioengineering Design Project: Planning",
@@ -999,8 +959,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioengineering Design Project: Development",
@@ -1017,8 +976,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Bioengineering Design Project: Implementation",
@@ -1035,8 +993,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioengineering Design Project: Presentation",
@@ -1053,8 +1010,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Design Development in Bioengineering",
@@ -1071,8 +1027,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Design Implementation in Bioengineering",
@@ -1089,8 +1044,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Physiological Systems Engineering",
@@ -1128,32 +1082,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Special Topics in Bioengineering",
     "code": "BENG 190",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Bioengineering with Laboratory",
     "code": "BENG 190L",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. This course is intended to be a lecture and lab component special topics course. This course will cover topics from biomechanics, biosystems, bioinformatics, and biotechnology among others.",
     "raw_prereq": "bioengineering majors only (BE25, BE27, BE28, BE29) or consent of department. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Senior Seminar I: Professional Issues in Bioengineering",
     "code": "BENG 191/291",
     "description": "(Conjoined with BENG 291.) Instills skills for personal and organizational development during lifelong learning. Student prepares portfolio of personal attributes and experiences, prepares for career interviews plus oral report of interviewing organizational CEO. Graduate students will prepare a NIH small business research grant.",
     "raw_prereq": "consent of instructor. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Clinical Experience in Bioengineering",
@@ -1179,48 +1129,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "BENG 195P",
     "description": "Under the supervision of an instructor, undergraduate students gain teaching experience through practical experiences in course management and effective teaching methods. (P/NP grades only.)",
     "raw_prereq": "3.0 GPA in the major and department approval. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Bioengineering Industrial Internship",
     "code": "BENG 196",
     "description": "Under the joint supervision of a faculty adviser and industry mentor, the student will work at or be mentored at a bioengineering industrial company to gain practical bioengineering experience, summarized in a technical report. May be taken for credit up to three times. With department approval, four units of credit may substitute for a technical elective. (P/NP grades only.)",
     "raw_prereq": "consent of department and completion of all lower-division course requirements, including general-science requirement; laboratory experience. (F,W,S,Su)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Engineering Internship",
     "code": "BENG 197",
     "description": "An enrichment program, available to a limited number of undergraduate students, which provides work experience with industry, government offices, hospitals, and their practices. Subject to the availability of positions, students will work in a local industry or hospital (on a salaried or unsalaried basis) under the supervision of a faculty member and industrial, government, or hospital employee. Prior department approval and final report are required. Units may not be applied toward major graduation requirements.",
     "raw_prereq": "completion of ninety units with a 2.5 GPA and approval from a bioengineering faculty coordinator. (F,W,S,Su)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "BENG 198",
     "description": "Directed group study, on a topic or in a field not included in the regular department curriculum, by arrangement with a bioengineering faculty member. (P/NP grades only.)",
     "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study for Undergraduates",
     "code": "BENG 199",
     "description": "Independent reading or research by arrangement with a bioengineering faculty member. May be taken for credit three times. (P/NP grades only.)",
     "raw_prereq": "upper-division standing, completion of ninety units of UC San Diego undergraduate study, a minimum UC San Diego GPA of 2.5, consent of instructor, and a completed and approved Special Studies form. (F,W,S,Su)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Bioinformatics II: Introduction to Bioinformatics Algorithms",
@@ -1237,8 +1181,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genomics, Proteomics, and Network Biology",
@@ -1264,32 +1207,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Systems Medicine: Data Analytics and Mechanisms",
     "code": "BENG 204",
     "description": "Conversion of data into mechanistic models to facilitate an “engineering” concept of human cells, tissues, and organs. It will involve data science, systems biology, pathophysiology, and engineering models.",
     "raw_prereq": "graduate standing. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Bioengineering",
     "code": "BENG 207",
     "description": "Course given at the discretion of the faculty on current topics of interest in bioengineering. (F,W,S)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Topics in Bioengineering with Lab",
     "code": "BENG 208",
     "description": "Course given at the discretion of the faculty on topics of current interest in engineering science. This course is intended to be a lecture and lab companion topics course.",
     "raw_prereq": "consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Continuum Mechanics Applied to Medicine/Biology",
@@ -1323,8 +1262,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Systems Biology and Bioengineering I: Biological Components",
@@ -1350,16 +1288,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Systems Biology and Bioengineering II: Large-Scale Data Analysis",
     "code": "BENG 212",
     "description": "Analysis of biological data can be performed at four levels: 1) statistical analysis, 2) integration of knowledge, 3) integration of networks, and 4) integration of biophysical laws. This course teaches the first two levels. The first level consists of specialized topics in statistical analysis of large-scale data sets and machine learning. The second level consists of leveraging prior knowledge for the analysis of diverse, multi-omic datasets and network reconstruction.",
     "raw_prereq": "graduate standing. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Systems Biology and Bioengineering III: Building and Simulating Large-Scale in Silico Models",
@@ -1376,64 +1312,56 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Neuromorphic Integrated Bioelectronics",
     "code": "BENG 216",
     "description": "Custom design of very large-scale integrated circuits and systems in silicon microchips that emulate the adaptive intelligence, resilience, and efficiency of neural sensing and cognitive processing in the brain, and interface dynamically with the body to probe and modulate physiological function. Assignments include a final project that entails the design, layout, and simulation of a neuromorphic or biomedical integrated circuit.",
     "raw_prereq": "graduate standing. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data Science for Multiscale Biology",
     "code": "BENG 219",
     "description": "Hands-on experience with computational tools for multiscale data analysis using example data sets obtained from multiscale biology research.",
     "raw_prereq": "graduate standing or consent of instructor. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Mathematical Methods for Bioengineering",
     "code": "BENG 221",
     "description": "Introduction of the foundations of engineering by teaching the mathematical methods that describe the engineering principles. Analytical and numerical approaches to solving the equations.",
     "raw_prereq": "graduate standing in bioengineering or consent of instructor. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Thermodynamics, Statistical Mechanics, Interfacial Phenomena in Living Systems",
     "code": "BENG 223",
     "description": "Thermodynamics, statistical mechanics, and interfacial phenomena that emphasize the chemical natures of living systems. Topics include intermolecular and surface forces, calculation of energetic processes, computation of electrical forces and fields, and principles of physics in multiscale engineering and design.",
     "raw_prereq": "graduate standing in bioengineering or consent of instructor. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Regulatory Affairs",
     "code": "BENG 224",
     "description": "Introduces real-world tools and skills that product development engineers are expected to master in a medical device company. Students will be introduced to all stages of medical device development in an FDA-regulated environment with an emphasis in design controls and building a design history file. Students will also be exposed to other relevant topics such as project management, legal consideration, medical reimbursement, regulatory submissions, commercialization, and product improvements.",
     "raw_prereq": "graduate standing in bioengineering only or consent of department.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Business of Biotech",
     "code": "BENG 225",
     "description": "This course broadly covers the business of biotech with emphasis on innovation and communication skills. Topics include (1) disruptive technologies, (2) FDA regulation, (3) licensing and spinouts, (4) financing, (5) business models, and (6) business development and acquisitions. The format is intensive and interactive.",
     "raw_prereq": "graduate standing in bioengineering or consent of department.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Foundations of Bioengineering I: Tissue and Cell Properties",
     "code": "BENG 226",
     "description": "Modern development of biomechanics at an advanced mathematical level. Description of internal stresses and deformation in living tissues and fluids, thermodynamics. Mechanics of soft connective tissue, extracellular matrix, cells, membranes, and cytoskeleton. Mechanotransduction, migration, adhesion. Blood flow in microvessels. Biomechanical analysis of tissue injury. Recommended preparation: a previous background in biomechanics is strongly recommended prior to taking this course.",
     "raw_prereq": "graduate standing or consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Transport Phenomena in Living Systems",
@@ -1450,16 +1378,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biochemistry",
     "code": "BENG 230A",
     "description": "A graduate course in biochemistry especially tailored to the requirements and background of bioengineering graduate students. It will cover the important macro- and small molecules in cells that are the major constituents, or that function as signaling molecules or molecular machineries. The structures, pathways, interactions, methodologies, and molecular designs using recombinant DNA technology will be covered.",
     "raw_prereq": "restricted to bioengineering graduate students with major code BE75. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Cell and Molecular Biology",
@@ -1476,8 +1402,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Cardiovascular Physiology",
@@ -1494,8 +1419,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Respiratory and Renal Physiology",
@@ -1525,56 +1449,49 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Musculoskeletal Health, Injury, and Disease",
     "code": "BENG 232",
     "description": "An overview of the musculoskeletal system from a bioengineering perspective. Health, injury, disease of bone, cartilage, tendon, ligament, meniscus, synovium, intervertebral disc, skeletal muscle, peripheral nerve. Mechanisms and models underlying current and future therapies.",
     "raw_prereq": "graduate standing or consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Neuromuscular Physiology and Biomechanics",
     "code": "BENG 233",
     "description": "Mechanical properties of structures involved in movement (muscles, tendons, bones). Models of neuromuscular adaptation to chronic electrical stimulation, voluntary exercise, surgical overload, spinal cord injury, denervation, limb immobilization, exercise-induced injury and muscle regeneration. Stem cells in muscle function and plasticity.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Intro to Neurophysiology: Molecules to Systems",
     "code": "BENG 234",
     "description": "Introduction to molecular and cellular neurobiology and their integration with systems neurophysiology. Homeostasis will be an organizing theme. The material will be presented both qualitatively and quantitatively, emphasizing the mathematical, physical, and chemical foundations and dynamics that underlie neurophysiological functions.",
     "raw_prereq": "graduate standing or consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Molecular Imaging and Quantitation in Living Cells",
     "code": "BENG 235",
     "description": "This course will introduce quantitative fluorescence microscopy techniques for imaging, manipulating, and quantifying the spatiotemporal characteristics of molecular events in live cells. A laboratory component will be integrated with students organized into small teams for projects. Recommended preparation: basic optics at the level of ECE 181, introductory molecular and cellular biology at the level of BIMM 100 and BICD 110, respectively.",
     "raw_prereq": "graduate standing or consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Molecular Biology of the Cardiovascular System",
     "code": "BENG 238/MED 238",
     "description": "An overview of heart, vascular development and associated diseases from a molecular biological perspective. Current approaches for generating mouse models of cardiovascular disease and recently developed technologies for physiological assessment in small animal models will be presented. (W)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Tissue Engineering and Regenerative Medicine: Foundations",
     "code": "BENG 241A",
     "description": "Overview and foundations of tissue engineering and regenerative medicine. Tissue structure, function, and dynamics in health and disease. Cells, microenvironment, extracellular matrix, and biomaterials as components of engineered tissues and organs. Functional goals, design, testing, and evaluation of therapies.",
     "raw_prereq": "graduate standing. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Tissue Engineering and Regenerative Medicine: Cell Microenvironment",
@@ -1591,8 +1508,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Tissue Engineering and Regenerative Medicine: Development and Growth",
@@ -1609,80 +1525,70 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Polymer Science and Engineering",
     "code": "BENG 242/MATS 257/NANO 257",
     "description": "Quantitative basic understanding of different branches of polymer science varying from polymer chemistry, characterization, thermodynamics, rheological properties, smart materials, self-assembly in biopolymers (natural) and synthetic polymers, and applications of polymers ranging from medicine to structure.",
     "raw_prereq": "graduate standing in bioengineering, nanoengineering, or materials science, or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Biophotonics",
     "code": "BENG 247A/ECE 247A/NANO 247A",
     "description": "Basic physics and chemistry of interaction of photons with matter; photonic radiation pressure; advanced optoelectronic detection systems, devices, methods, time-resolved fluorescent, chemiluminescent methods, fluorescent energy transfer techniques, quantum dots, near-field optical techniques, mechanisms of light sensitive biological systems including chloroplasts for photosynthetic energy conversion and basis of vision processes.",
     "raw_prereq": "graduate standing. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Bioelectronics",
     "code": "BENG 247B/ECE 247B/NANO 247B",
     "description": "Topics include photolithographic techniques for high-density DNA microarray production, incorporation of CMOS control into electronic DNA microarrays, direct electronic detection technology, biofuel cells, highly integrated devices (lab-on-a-chip, in vivo biosensors, etc.). Form heterogeneous materials and components.",
     "raw_prereq": "graduate standing. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Bionanotechnology",
     "code": "BENG 247C/ECE 247C/NANO 247C",
     "description": "Bionanotechnology is defined as science and engineering that involve working with biomolecules on the nanoscale. DNA and protein-based nanostructures or even entire microorganisms are subject of study and development of nanomachines. Another avenue is the nanoscale biomimicry in which synthetic systems are engineered to mimic what nature has already achieved. Bionanotechnology finds utility in medicine, materials, the environment. Students may receive credit for one of the following: NANO 247C, BENG 247C, or ECE 247C.",
     "raw_prereq": "graduate standing. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Synthetic Biology",
     "code": "BENG 254",
     "description": "Introduction to genetic circuits in natural systems, engineering principles in biology, characterization of biological components, numerical methods for systems analysis and design, fabrication of genetic systems in theory and practice, transformation and characterization, and examples of engineered systems.",
     "raw_prereq": "graduate bioengineering majors only or consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Neurodynamics",
     "code": "BENG 260/BGGN 260/PHYS 279",
     "description": "Introduction to the nonlinear dynamics of neurons and neural systems using bifurcation theory and chaotic motions, at different levels of abstraction, e.g., biophysical and “reduced” models for analysis of regularly spiking and bursting cells. Laboratory exercises will accompany the lectures.",
     "raw_prereq": "graduate standing or consent of instructor. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Microcirculation in Health and Disease",
     "code": "BENG 267",
     "description": "Structural and functional aspects of transport and blood-tissue exchange in key organs during circulatory shock, bacterial toxemia, hypertension. Physical and ultrastructural techniques used to analyze small-vessel dynamics.",
     "raw_prereq": "consent of instructor. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Numerical Analysis in Multiscale Biology",
     "code": "BENG 276/CHEM 276/MATH 276/SPPS 276",
     "description": "Introduces mathematical tools to simulate biological processes at multiple scales. Numerical methods for ordinary and partial differential equations (deterministic and stochastic), and methods for parallel computing and visualization. Hands-on use of computers emphasized; students will apply numerical methods in individual projects.",
     "raw_prereq": "consent of instructor. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Tissue Engineering Laboratory",
     "code": "BENG 277/BIOM 287",
     "description": "Students will learn to conduct tissue engineering and developmental biology experiments, microfabricate cell culture systems, engineer biopolymer materials, and develop and analyze quantitative models of transport, cell fate, and growth mechanics. The understanding and manipulation of multicellular processes that comprise development and growth involves specialized areas of biomechanics, developmental biology, biomaterials, and the tools of molecular biology, as well as the integration of theory and experiment. To fabricate functional tissues, it is important to establish underlying molecular and physical mechanisms and then control and integrate these.",
     "raw_prereq": "consent of instructor. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Magnetic Resonance Imaging",
@@ -1699,56 +1605,49 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Principles of Biomedical Imaging",
     "code": "BENG 280A/ECE 207",
     "description": "Fundamentals of Fourier transform and linear systems theory including convolution, sampling, noise, filtering, image reconstruction and visualization with an emphasis on applications to biomedical imaging. Examples from optical imaging, CT, MR, ultrasound, nuclear, PET, and radiography. Students may not receive credit for ECE 207 and BENG 280A.",
     "raw_prereq": "graduate standing. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Comparative Biomedical Imaging",
     "code": "BENG 280B",
     "description": "Application of biomedical imaging to the measurement of structure, function, and dynamics of organ systems from the microscopic to the organ level. Emphasis on detailed evaluation and comparison of specific imaging modalities.",
     "raw_prereq": "consent of instructor. (W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Imaging Cardiovascular Disease",
     "code": "BENG 280C",
     "description": "This course will focus on the imaging modalities used to diagnose and guide treatment of cardiovascular disease such as echocardiography, single photon computed tomography (SPECT), X-ray angiography, computed tomography (CT), and magnetic resonance imaging (MRI).",
     "raw_prereq": "graduate standing. (S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Bioengineering",
     "code": "BENG 281",
     "description": "Weekly seminars by faculty, visitors, postdoctoral research fellows, and graduate students concerning research topics in bioengineering and related subjects. May be repeated for credit. Course does not apply toward MS graduation requirements. (S/U grades only.) (F,W,S)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar: Faculty Research",
     "code": "BENG 282",
     "description": "Weekly seminars by bioengineering faculty presenting their research. May be repeated for credit. Course does not apply toward MS or PhD graduation requirements. (S/U grades only.) (F)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Supramolecular Structure Determination Laboratory",
     "code": "BENG 283/CHEM 283/BIOM 283",
     "description": "A laboratory course combining hands-on mass spectrometry and bioinformatics tools to explore the relationship between structure and function in macromolecules. Tools for peptide sequencing, analysis of post-translational modification, and fragmentation analysis by mass spectrometry are examples of experiments students will run.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Learning in Bioinformatics",
@@ -1778,32 +1677,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Senior Seminar I: Professional Issues in Bioengineering",
     "code": "BENG 291/191",
     "description": "(Conjoined with BENG 191.) Instills skills for personal and organizational development during lifelong learning. Student prepares portfolio of personal attributes and experiences, prepares for career interviews plus oral report of interviewing organizational CEO. Graduate students will prepare a NIH small business research grant.",
     "raw_prereq": "consent of instructor. (W)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Scientific Ethics",
     "code": "BENG 292",
     "description": "Lectures, readings, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting federal regulations for such training. Students should review the following web page prior to enrollment: https://ethics.ucsd.edu/courses/ethics/index.html. (S/U grades only.)",
     "raw_prereq": "doctoral students only or consent of department. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Patient-Centered Clinical Medicine for Bioengineers",
     "code": "BENG 294A",
     "description": "Case-based introduction to patient-focused reasoning. Covers principles of quantitative physiology, medical devices (diagnostic and therapeutic), and complexities of real-world care settings. Emphasis on cardiopulmonary diseases.",
     "raw_prereq": "bioengineering MS medicine majors only or consent of department.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Engineering in the Patient Healthcare System",
@@ -1820,8 +1715,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Clinical Experience in Bioengineering",
@@ -1838,63 +1732,55 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioengineering Design Project and Industrial Training",
     "code": "BENG 295",
     "description": "Independent work by graduate students focused on design, applied research, and professional experience.",
     "raw_prereq": "consent of instructor and department approval. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "BENG 296",
     "description": "",
     "raw_prereq": "consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "BENG 298",
     "description": "Directed group study on a topic or in a field not included in regular department curriculum, by special arrangement with a faculty member. (S/U grades only.)",
     "raw_prereq": "consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Laboratory Research Rotation",
     "code": "BENG 298L",
     "description": "Laboratory research rotation for first-year BENG PhD students. Students will write a final paper. (S/U grades only.)",
     "raw_prereq": "PhD student in bioengineering. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Graduate Research",
     "code": "BENG 299",
     "description": "Independent work by graduate students engaged in research and writing theses. (S/U grades only.)",
     "raw_prereq": "consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Apprentice Teaching for Specialization in Multi-Scale Biology",
     "code": "BENG 500",
     "description": "Teaching experience in one of the six bioengineering lab courses designated as a part of the BENG PhD Specialization in Multi-Scale Biology. Student is under the direction of the faculty member in charge of the course. (S/U grades only.)",
     "raw_prereq": "consent of instructor and department approval. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching Experience",
     "code": "BENG 501",
     "description": "Teaching experience in an appropriate bioengineering undergraduate course under direction of the faculty member in charge of the course. Lecturing one to two hours per week in either a problem-solving section or regular lecture. (S/U grades only.)",
     "raw_prereq": "consent of instructor and department approval. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

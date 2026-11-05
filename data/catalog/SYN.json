@@ -14,8 +14,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communicating for a Changing Planet",
@@ -32,8 +31,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Inquiring about a Changing Planet",
@@ -50,8 +48,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Inquiring about a Changing Planet",
@@ -68,16 +65,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Engaging with a Changing Planet",
     "code": "SYN 100",
     "description": "SYN 100 is a project-based course that builds upon foundational skills by taking a collaborative, interdisciplinary approach to complex global problems. Each section focuses on a different theme, challenge, or question related to the climate crisis. Despite the different class topics, all students will learn by designing and executing a team project that addresses their section’s theme.",
     "raw_prereq": "restricted to Seventh College students only, upper-division standing, completion of SYN 1/1R and SYN 2/2R, must be taken for a letter grade to count toward Seventh College general-education requirements.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Engaging with a Changing Planet Global Seminar",
@@ -94,24 +89,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Defining the Scope of a Changing Planet",
     "code": "SYN 150",
     "description": "SYN 150 is recommended for Seventh College transfer students in preparation for SYN 100. Students critically examine, through an interdisciplinary and antiracist lens, key issues impacting our changing planet.",
     "raw_prereq": "restricted to Seventh College transfer students only, must be taken for a letter grade to count toward Seventh College high-impact requirement, cannot be taken concurrently or after SYN 100. Duplicate credit with SYN 150R.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Defining the Scope of a Changing Planet",
     "code": "SYN 150R",
     "description": "SYN 150R is recommended for Seventh College transfer students in preparation for SYN 100. Students critically examine, through an interdisciplinary and antiracist lens, key issues impacting our changing planet.",
     "raw_prereq": "restricted to Seventh College transfer students only, must be taken for a letter grade to count toward Seventh College high-impact requirement, cannot be taken concurrently or after SYN 100. Duplicate credit with SYN 150.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Instruction in Project-Based Learning Management",
@@ -128,8 +120,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Directed Group Study",
@@ -146,8 +137,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Independent Study",
@@ -164,15 +154,13 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Apprentice Teaching in Synthesis Program",
     "code": "SYN 500",
     "description": "Consideration and development of key changing planet topics and pedagogical methods appropriate to undergraduate teaching in the interdisciplinary Synthesis Program writing courses, under the supervision of the program director. May be taken for credit up to eighteen times.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

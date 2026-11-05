@@ -4,8 +4,7 @@
     "code": "MATS 200",
     "description": "Each graduate student in the Materials Science and Engineering Program is expected to attend a weekly seminar in materials science or related areas. MS students must enroll for three quarters, PhD students for six quarters. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Thermodynamics of Solids",
@@ -35,8 +34,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Solid State Diffusion and Reaction Kinetics",
@@ -62,8 +60,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Phase Transformations",
@@ -80,24 +77,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MATS Academy I",
     "code": "MATS 202",
     "description": "This course focuses on essential topics for student success and the development of soft skills critical to thriving in a graduate program. Throughout the course, students will engage with various campus resources and support services to strengthen their academic performance, time management, and professional development. By the end of the course, students will be equipped with strategies to navigate the challenges of graduate studies and to make the most of their educational experience.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "MATS Academy II",
     "code": "MATS 203",
     "description": "This is part two of MATS Academy, intended for the continuation of MATS doctoral students. This course covers topics that are key to success in a doctoral program such as the R1 funding program, the faculty adviser and student relationship, preparation for the MATS comprehensive exam, scientific integrity and responsible conduct of research, effective literature analyses, hypotheses-driven research, research proposals, presentation skills, and outreach and service.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Imperfections in Solids",
@@ -114,8 +108,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dynamic Behavior of Materials I",
@@ -132,8 +125,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Structure and Analysis of Solids",
@@ -163,8 +155,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mechanics of Soft Materials",
@@ -181,8 +172,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Ceramics",
@@ -199,8 +189,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electronic and Photonic Properties of Materials",
@@ -217,8 +206,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Magnetic Materials: Principles and Applications",
@@ -248,8 +236,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biomaterials and Medical Devices",
@@ -266,8 +253,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nanomaterials and Properties",
@@ -284,8 +270,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Frontier Micro-Electro-Mechanical Systems",
@@ -302,16 +287,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biomaterials and Biomimetics",
     "code": "MATS 255",
     "description": "Fundamentals of materials science as applied to bioengineering design. Hierarchical structures. Cells and tissues. Natural and synthetic polymeric materials. Biomineralized materials. Biological composites. Cellular materials (foams). Functional biological materials. Biomaterials and implants. Bioinspired design and materials. (Cross-listed with NANO 252, CENG 256.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Energy Materials and Applications",
@@ -328,8 +311,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Polymer Science and Engineering",
@@ -359,8 +341,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Processing of Polymers and Composites",
@@ -377,8 +358,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mechanical Behavior of Polymers and Composites",
@@ -395,47 +375,41 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Engineering Solar Cells at the Nanoscale",
     "code": "MATS 269",
     "description": "(Cross-listed with NANO 269.) Fundamentals of photovoltaic energy conversion; limiting efficiencies, loss mechanisms. Nanoscale effects in semiconductor, thin film, and organic photovoltaics. Emphasis on emerging nanotechnologies including nanowires, heterostructures, hybrid materials, quantum dots, transparent conducting materials, and plasmonics.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Materials Science and Engineering",
     "code": "MATS 290",
     "description": "A course to be given at the discretion of the faculty in which topics of current interest in materials science and engineering will be presented.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research Conference",
     "code": "MATS 295",
     "description": "Group discussion of research activities and progress of group members.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "MATS 296",
     "description": "",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Research",
     "code": "MATS 299",
     "description": "Subject to the approval of a faculty adviser, students may choose courses offered by departments participating in the Materials Science and Engineering Program. Please see the graduate coordinator for more information.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]
