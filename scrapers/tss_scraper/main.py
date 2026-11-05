@@ -50,33 +50,16 @@ OFFERED_DIR = PROJECT_ROOT / "data" / "offered"
 
 load_dotenv(PROJECT_ROOT / ".env")
 
-# Term code season prefix -> TSS AcademicPeriod (Perid). TSS numbers periods
-# within an academic year that starts in the fall, so AcademicYear (Peryr)
-# is the year that academic year began -- Fall 2026 = 2026/2, so Winter 2027
-# should be 2026/3. '2' = Fall, confirmed via keydate. '3' = Winter is
-# UNCONFIRMED, inferred from Fall's number: check it with
-# `--peryr 2026 --perid 3 --titles-only` once Winter is in TSS (sections
-# should begin early January). Extend as other Perid values are confirmed.
+# Season -> TSS Perid. Peryr is the year the academic year began
+# (Fall 2026 = 2026/2, Winter 2027 = 2026/3).
 TERM_PERIDS = {"fa": "2", "wi": "3"}
-# Seasons in the calendar year after their academic year (Peryr) began.
 NEXT_CALENDAR_YEAR = {"wi", "sp"}
-# Reverse lookup for term_slug. Falls back to a plain "p<perid>" prefix
-# instead of guessing a season for anything unconfirmed.
 PERID_TERM_ABBR = {perid: abbr for abbr, perid in TERM_PERIDS.items()}
 TERM_RE = re.compile(r"^([a-z]{2})(\d{2})$")
 
-# Splits a title record's "Short" field (e.g. "MATH-010B") into a
-# subject prefix and the remaining course code, best-effort -- used for
-# the document's subject/code metadata, not as a correctness-critical
-# key (module_id already is).
 SUBJECT_CODE_RE = re.compile(r"^([A-Z]{2,6})[\s-]*(.*)$")
 
-# UCSD Extension (Extended Studies) offerings show up two ways in the
-# Short code: prefixed right after the dept code, e.g. "MATH-X400.18",
-# "EDS-XSD324A" (confirmed against a real fa26 scrape -- 595 courses
-# matched this shape and were legitimately excluded), or suffixed with
-# a trailing X, e.g. "LIAB-001AX", "COMM-110X" (same Extension-style
-# naming, not independently confirmed against a live scrape).
+# UCSD Extension courses: "MATH-X400.18" or "COMM-110X".
 EXCLUDED_PREFIX_RE = re.compile(r"^[A-Z]{2,6}-X")
 EXCLUDED_SUFFIX_RE = re.compile(r"X$")
 
@@ -97,7 +80,7 @@ def filter_titles(titles: list[dict]) -> list[dict]:
 
 
 def term_slug(peryr: str, perid: str) -> str:
-    """("2026", "3") -> "wi27": the inverse of parse_term."""
+    """("2026", "3") -> "wi27"."""
     abbr = PERID_TERM_ABBR.get(perid)
     if abbr is None:
         return f"p{perid}{peryr[-2:]}"
@@ -106,9 +89,7 @@ def term_slug(peryr: str, perid: str) -> str:
 
 
 def parse_term(term: str) -> tuple[str, str]:
-    """"fa26" -> ("2026", "2"), "wi27" -> ("2026", "3"): the (Peryr, Perid)
-    pair TSS keys terms by. Raises ValueError for a malformed code or an
-    unconfirmed season."""
+    """"fa26" -> ("2026", "2"), "wi27" -> ("2026", "3")."""
     match = TERM_RE.match(term.strip().lower())
     if not match:
         raise ValueError(f"Bad term code {term!r}; expected e.g. 'fa26'.")
@@ -123,9 +104,6 @@ def parse_term(term: str) -> tuple[str, str]:
 
 
 def write_titles_csv(titles: list[dict], peryr: str, perid: str) -> Path:
-    """Writes just what the sections scraper needs to run again later --
-    module_id (used directly as ModuleID) plus course code/name -- to
-    data/offered/<term>.csv, mirroring data/catalog/<CODE>.json."""
     OFFERED_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OFFERED_DIR / f"{term_slug(peryr, perid)}.csv"
     with out_path.open("w", newline="", encoding="utf-8") as f:
@@ -157,8 +135,6 @@ def split_subject_code(short: str | None) -> tuple[str | None, str | None]:
     return subject, (rest.strip() or None)
 
 
-# One requests.Session per worker thread (a Session isn't safely shareable
-# across threads), created lazily on the thread's first course.
 _thread_local = threading.local()
 
 
@@ -169,9 +145,7 @@ def _thread_session() -> requests.Session:
 
 
 def _scrape_one(row: dict, peryr: str, perid: str, collection) -> str | None:
-    """Worker: scrapes and upserts one course. Returns the course code on
-    success, None if skipped on a network error. SessionExpiredError
-    propagates so the main thread can abort the whole run."""
+    """Returns the course code, or None if skipped on a network error."""
     subject, code = split_subject_code(row["code"])
     try:
         doc = scrape_course_sections(
@@ -183,19 +157,15 @@ def _scrape_one(row: dict, peryr: str, perid: str, collection) -> str | None:
         return None
 
     upsert_course_document(collection, doc)
-    time.sleep(REQUEST_DELAY_SEC)  # per-worker pacing between courses
+    time.sleep(REQUEST_DELAY_SEC)
     return row["code"]
 
 
 def scrape_all_sections(peryr: str, perid: str, workers: int = 5) -> int:
-    """Scrapes sections+meetings for every course listed in
-    data/offered/<term>.csv and upserts one document per course into
-    MongoDB, fanning courses out across `workers` threads. Returns the
-    number of courses successfully scraped."""
     rows = read_titles_csv(peryr, perid)
     print(f"Found {len(rows)} course(s) to scrape sections for ({workers} workers).")
 
-    collection = get_collection(term_slug(peryr, perid))  # MongoClient is thread-safe, share one
+    collection = get_collection(term_slug(peryr, perid))
     ensure_indexes(collection)
 
     scraped = 0
@@ -209,8 +179,6 @@ def scrape_all_sections(peryr: str, perid: str, workers: int = 5) -> int:
             try:
                 result = future.result()
             except SessionExpiredError as e:
-                # Dead cookie kills every remaining request too -- stop the
-                # whole run instead of burning through 401s.
                 executor.shutdown(cancel_futures=True)
                 sys.exit(str(e))
             if result is not None:
@@ -244,8 +212,6 @@ def main():
         except ValueError as e:
             parser.error(str(e))
 
-    # Built here even though section workers make their own sessions: fails
-    # fast on a missing/empty cookie.txt before any threads spin up.
     session = build_session()
 
     if args.titles_only:

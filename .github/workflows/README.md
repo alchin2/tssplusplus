@@ -27,10 +27,9 @@ The newest listed term becomes the site's default.
 
 The scrapers get the published quarter's term code as `TSS_TERM` (e.g.
 "Winter 2027" → `wi27`), so the pipeline always scrapes the new quarter.
-`tss_scraper` knows the TSS `Perid` for fall (confirmed) and winter
-(inferred, unconfirmed) terms (see `TERM_PERIDS` in
-`scrapers/tss_scraper/main.py`); other seasons fail with a clear error
-until theirs is added.
+`tss_scraper` knows the TSS `Perid` for fall and winter terms (see
+`TERM_PERIDS` in `scrapers/tss_scraper/main.py`); other seasons fail with
+a clear error until theirs is added.
 
 GitHub often starts scheduled runs hours late, so the check uses a window
 rather than an exact time or date. The quarter is only marked scraped
