@@ -6,8 +6,7 @@ an orange "Course Enrollment" title, a **Search for Classes** panel whose
 results open as drawers (sections table with Plan buttons, description,
 prerequisite tree), a pink conflict notice when planned classes collide,
 and a **My Schedule** block with **List | Calendar | Finals | Map** tabs.
-Wired to the FastAPI backend. Visual tokens and component vocabulary are
-recorded in `../DESIGN.md`.
+Wired to the FastAPI backend.
 
 ## Layout
 
