@@ -42,7 +42,10 @@ export function CourseDrawer({
     <div className="wr-drawer" data-course-id={course.id}>
       <button type="button" className="wr-drawer-row" aria-expanded={expanded} aria-controls={bodyId} onClick={onToggle}>
         <span className="wr-caret" aria-hidden="true" />
-        <span className="wr-code">{course.code}</span>
+        {/* Cross-listed codes (BENG/BIMM/CSE/CHEM 182) wrap after each slash. */}
+        <span className="wr-code">{course.code.split("/").map((part, i, all) => (
+          <span key={i}>{part}{i < all.length - 1 && <>/<wbr /></>}</span>
+        ))}</span>
         <span className="wr-drawer-title" title={course.title}>{course.title}</span>
         {planned
           ? <span className="wr-drawer-meta is-planned">Planned · {planned.section.id}</span>

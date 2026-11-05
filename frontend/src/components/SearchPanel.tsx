@@ -31,7 +31,6 @@ export function SearchPanel({
   onTranscriptFile: (file: File) => void;
   onTranscriptClear: () => void;
 }) {
-  const [advanced, setAdvanced] = useState(false);
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -86,9 +85,6 @@ export function SearchPanel({
       <div className="flex flex-wrap items-start gap-x-4 gap-y-2">
         <div className="pt-1">
           <label htmlFor="class-search" className="wr-label block" style={{ fontSize: "1rem" }}>Search for Classes:</label>
-          <button type="button" className="wr-linkbtn is-quiet text-[0.846rem]" aria-expanded={advanced} onClick={() => setAdvanced(a => !a)}>
-            {advanced ? "Hide advanced search" : "Advanced search"}
-          </button>
         </div>
         <div className="flex-1 min-w-[16rem] max-w-[38rem]">
           <div className="flex items-start gap-2">
@@ -110,40 +106,38 @@ export function SearchPanel({
       </div>
 
       {/* ── Advanced search ── */}
-      {advanced && (
-        <div className="mt-3 p-3" style={{ border: "1px solid var(--wr-rule-soft)", background: "#fafafa" }}>
-          <div className="grid gap-x-8 gap-y-3" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(16rem, 1fr))" }}>
-            <label className="flex items-center gap-3">
-              <span className="wr-label text-[0.923rem] w-24 text-right">Department:</span>
-              <select className="wr-select flex-1" value={deptFilter} onChange={e => onDeptFilter(e.target.value)}>
-                {depts.map(d => <option key={d} value={d}>{d === "ALL" ? "All departments" : d}</option>)}
-              </select>
-            </label>
-            <fieldset className="flex items-start gap-3 m-0 p-0 border-0 min-w-0">
-              <legend className="sr-only">Show only</legend>
-              <span className="wr-label text-[0.923rem] w-24 text-right pt-0.5" aria-hidden="true">Show only:</span>
-              <div className="flex flex-wrap gap-x-4 gap-y-1 pt-0.5">
-                {([["all", "All"], ["lower", "Lower (1–99)"], ["upper", "Upper (100–199)"], ["grad", "Graduate (200+)"]] as const).map(([v, l]) => (
-                  <label key={v} className="wr-check">
-                    <input type="radio" name="division" value={v} checked={divFilter === v} onChange={() => onDivFilter(v)} />
-                    {l}
-                  </label>
-                ))}
-              </div>
-            </fieldset>
-          </div>
-          <div className="flex flex-wrap items-center gap-3 mt-3">
-            <label className="wr-check">
-              <input type="checkbox" checked={offeredFilter} onChange={e => onOfferedFilter(e.target.checked)} />
-              Only courses offered in {termName}
-            </label>
-            <div className="ml-auto flex gap-2">
-              <button type="button" className="wr-btn" onClick={reset} disabled={!hasFilters && !query}>Reset</button>
-              <button type="button" className="wr-btn is-primary" onClick={submit}>Search</button>
+      <div className="mt-3 p-3" style={{ border: "1px solid var(--wr-rule-soft)", background: "#fafafa" }}>
+        <div className="grid gap-x-8 gap-y-3" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(16rem, 1fr))" }}>
+          <label className="flex items-center gap-3">
+            <span className="wr-label text-[0.923rem] w-24 text-right">Department:</span>
+            <select className="wr-select flex-1" value={deptFilter} onChange={e => onDeptFilter(e.target.value)}>
+              {depts.map(d => <option key={d} value={d}>{d === "ALL" ? "All departments" : d}</option>)}
+            </select>
+          </label>
+          <fieldset className="flex items-start gap-3 m-0 p-0 border-0 min-w-0">
+            <legend className="sr-only">Show only</legend>
+            <span className="wr-label text-[0.923rem] w-24 text-right pt-0.5" aria-hidden="true">Show only:</span>
+            <div className="flex flex-wrap gap-x-4 gap-y-1 pt-0.5">
+              {([["all", "All"], ["lower", "Lower (1–99)"], ["upper", "Upper (100–199)"], ["grad", "Graduate (200+)"]] as const).map(([v, l]) => (
+                <label key={v} className="wr-check">
+                  <input type="radio" name="division" value={v} checked={divFilter === v} onChange={() => onDivFilter(v)} />
+                  {l}
+                </label>
+              ))}
             </div>
+          </fieldset>
+        </div>
+        <div className="flex flex-wrap items-center gap-3 mt-3">
+          <label className="wr-check">
+            <input type="checkbox" checked={offeredFilter} onChange={e => onOfferedFilter(e.target.checked)} />
+            Only courses offered in {termName}
+          </label>
+          <div className="ml-auto flex gap-2">
+            <button type="button" className="wr-btn" onClick={reset} disabled={!hasFilters && !query}>Reset</button>
+            <button type="button" className="wr-btn is-primary" onClick={submit}>Search</button>
           </div>
         </div>
-      )}
+      </div>
 
       {/* ── Results ── */}
       {showPanel && (
