@@ -30,10 +30,14 @@ class PrereqGraphNode(BaseModel):
 
 
 class Meta(BaseModel):
-    """GET /api/meta -- term + catalog-wide facts the frontend needs
-    up front (department dropdown, home-page counts)."""
+    """GET /api/meta -- servable terms + catalog-wide facts the frontend
+    needs up front (term and department dropdowns, headline counts).
+    `term` is the one requested (or the default); `terms` is newest
+    first."""
 
     term: str
+    default_term: str
+    terms: list[str]
     depts: list[str]
     course_count: int
     offered_count: int
@@ -41,8 +45,9 @@ class Meta(BaseModel):
 
 class CourseSummary(BaseModel):
     """GET /api/courses list item -- lightweight, per the design doc.
-    module_id is present only for courses offered this term (it comes
-    from the offered-courses CSV); null otherwise."""
+    module_id is present only for courses offered in the requested term
+    (it comes from that term's offered-courses CSV); null otherwise.
+    offered_this_qtr is likewise relative to the requested term."""
 
     module_id: str | None = None
     code: str

@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useBuildings } from "../hooks/useBuildings";
+import { useTerm } from "../hooks/useTerm";
 import { ApiError, fetchCourseDetail } from "../lib/api";
 import { computeFinal, conflictsWith, finalDateShort, fmtRange, splitRoom } from "../lib/schedule";
 import type { Course, CourseDetail, PlannedItem, Section, TranscriptRecord } from "../types";
@@ -80,12 +81,13 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove, transcr
   const [showPrereq, setShowPrereq] = useState(true);
   const buildings = useBuildings();
   const abbr = (building: string) => buildings[building]?.abbr ?? building;
+  const term = useTerm();
 
   useEffect(() => {
     setDetail(null);
     setError(null);
     let alive = true;
-    fetchCourseDetail(moduleId)
+    fetchCourseDetail(moduleId, term)
       .then(d => { if (alive) setDetail(d); })
       .catch(err => {
         if (!alive) return;
@@ -94,7 +96,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove, transcr
           : err instanceof Error ? err.message : "Failed to load course detail.");
       });
     return () => { alive = false; };
-  }, [moduleId]);
+  }, [moduleId, term]);
 
   if (error) {
     return (
@@ -206,7 +208,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove, transcr
                 rows.push(
                   <tr key={`${sec.id}-final`} className={`${rowClass} wr-final`}>
                     <td><span className="wr-type is-FI">FINAL</span></td>
-                    <td className="is-nowrap">{finalDateShort(fi.colIdx)}</td>
+                    <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
                     <td className="is-nowrap" title={loc.building}>{lecRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>

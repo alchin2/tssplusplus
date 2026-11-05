@@ -14,8 +14,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Marine Biodiversity and Conservation—Lab",
@@ -32,8 +31,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Marine Conservation and Communication Practicum 1",
@@ -54,8 +52,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Marine Conservation and Communication Practicum 2",
@@ -72,8 +69,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Capstone Independent Study Project",
@@ -90,15 +86,13 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Varies",
     "code": "Electives",
     "description": "Students enroll in twelve elective units of course work relating to marine biodiversity and conservation issues that are approved by the MAS-MBC program chair.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

@@ -11,11 +11,10 @@ from functools import lru_cache
 
 from app.config import settings
 
-# Mirrors mark_offered_courses.py's normalize_code: strips the
-# separator (dash/space/none) and any leading zeros between a course's
-# dept prefix and number, so "CSE-008A" and "CSE 8A" both -> "CSE8A".
-# Duplicated here (rather than imported) because scrapers/ isn't set up
-# as an installable package the backend can depend on.
+# Strips the separator (dash/space/none) and any leading zeros between a
+# course's dept prefix and number, so TSS's "CSE-008A" and the catalog's
+# "CSE 8A" both -> "CSE8A". This is how a term's offered CSV is joined to
+# the catalog.
 _CODE_RE = re.compile(r"^([A-Za-z]+)[\s-]*0*([0-9].*)$")
 
 
@@ -54,7 +53,15 @@ def find_by_normalized_code(normalized_code: str) -> dict | None:
     return _get_normalized_index().get(normalized_code)
 
 
-def search_courses(dept: str | None = None, offered: bool | None = None, q: str | None = None) -> list[dict]:
+def search_courses(
+    offered_codes: set[str] | dict[str, str],
+    dept: str | None = None,
+    offered: bool | None = None,
+    q: str | None = None,
+) -> list[dict]:
+    """offered_codes: the selected term's normalized offered codes (see
+    offered.get_code_to_module_id_index) -- "offered" is per term, so it
+    isn't stored on the catalog entries themselves."""
     courses = get_catalog()
 
     if dept:
@@ -62,7 +69,7 @@ def search_courses(dept: str | None = None, offered: bool | None = None, q: str 
         courses = [c for c in courses if c["dept"] == dept_upper]
 
     if offered is not None:
-        courses = [c for c in courses if c["offered_this_qtr"] == offered]
+        courses = [c for c in courses if (normalize_code(c["code"]) in offered_codes) == offered]
 
     if q:
         needle = q.lower()

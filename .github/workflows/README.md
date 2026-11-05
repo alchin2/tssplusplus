@@ -16,16 +16,20 @@ in order:
 
 open a "Update Course Catalog to <quarter>" issue + Discord message →
 catalog scrape → restore `cookie.txt` from `TSS_COOKIE` →
-`tss_scraper --titles-only` → `mark_offered_courses.py` → commit `data/`
-(auto-redeploys Render) → full section scrape into MongoDB → append the
-quarter to `data/scraped_quarters.txt`, commit it, and close the issue.
+`tss_scraper --titles-only` → commit `data/` (auto-redeploys Render) →
+full section scrape into MongoDB → append the quarter to
+`data/scraped_quarters.txt`, commit it, and close the issue.
+
+The site's term dropdown only lists a term once it's in
+`scraped_quarters.txt` (see `backend/app/terms.py`), so the mid-run
+`data/` commit doesn't expose a term whose sections aren't scraped yet.
+The newest listed term becomes the site's default.
 
 The scrapers get the published quarter's term code as `TSS_TERM` (e.g.
 "Winter 2027" → `wi27`), so the pipeline always scrapes the new quarter.
-The live site's term is separate: it's `TSS_TERM` in `render.yaml`, which
-you bump by hand when you want the site to switch over. `tss_scraper` only
-knows the TSS `Perid` for fall terms so far (see `TERM_PERIDS` in
-`scrapers/tss_scraper/main.py`), so other seasons fail with a clear error
+`tss_scraper` knows the TSS `Perid` for fall (confirmed) and winter
+(inferred, unconfirmed) terms (see `TERM_PERIDS` in
+`scrapers/tss_scraper/main.py`); other seasons fail with a clear error
 until theirs is added.
 
 GitHub often starts scheduled runs hours late, so the check uses a window

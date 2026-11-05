@@ -1,4 +1,5 @@
 import { useBuildings } from "../hooks/useBuildings";
+import { useTerm } from "../hooks/useTerm";
 import { ScrollX } from "./ScrollX";
 import { computeFinal, finalDateShort, fmtRange, splitRoom } from "../lib/schedule";
 import type { PlannedItem } from "../types";
@@ -14,6 +15,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
 }) {
   const buildings = useBuildings();
   const abbr = (building: string) => buildings[building]?.abbr ?? building;
+  const term = useTerm();
 
   if (items.length === 0) {
     return (
@@ -107,7 +109,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
                     <td className="is-left wr-final-label">Final Exam</td>
                     <td><span className="wr-type is-FI">FI</span></td>
                     <td />
-                    <td className="is-nowrap">{finalDateShort(fi.colIdx)}</td>
+                    <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
                     <td className="is-nowrap" title={loc.building}>{lecRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>

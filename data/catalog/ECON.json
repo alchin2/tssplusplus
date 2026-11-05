@@ -4,8 +4,7 @@
     "code": "ECON 1",
     "description": "Introduction to the study of the economic system. Course will introduce the standard economic models used to examine how individuals and firms make decisions in perfectly competitive markets, and how these decisions affect supply and demand in output markets.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Market Imperfections and Policy",
@@ -22,8 +21,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Principles of Macroeconomics",
@@ -40,48 +38,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Financial Accounting",
     "code": "ECON 4",
     "description": "(Cross-listed with MGT 4.) Recording, organizing, and communicating financial information relating to business entities. Credit not allowed for both ECON 4 and MGT 4.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data Analytics for the Social Sciences",
     "code": "ECON 5",
     "description": "(Cross-listed with POLI 5D.) Students engage in hands-on learning with applied social science problems. The course teaches the basics of data management and collection, data analysis, and data visualization. To perform these analyses, students learn how to code in various programming software, including Excel, Stata, and R. Students may receive credit for only one of the following courses: ECON 5, POLI 5, POLI 5D, ECON 5R.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data Analytics for the Social Sciences",
     "code": "POLI 5R, POLI 5DR, ECON 5R",
     "description": "(Cross-listed with POLI 5DR.) Students engage in hands-on learning with applied social science problems. The course teaches the basics of data management and collection, data analysis, and data visualization. To perform these analyses, students learn how to code in various programming software, including Excel, Stata, and R. Students may receive credit for only one of the following courses: ECON 5, POLI 5, POLI 5D, ECON 5R.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "10x10 Career Lessons",
     "code": "ECON 86",
     "description": "This course empowers students to identify the essential skills needed for their professional aspirations and to design their career paths. Through instruction and through interactions with industry experts, UC San Diego alumni, and career advisers, students learn about real-world career insights and essential competencies. Students also learn about effective strategies to leverage these skills and pursue their individual career trajectories.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "First-year Student Seminar",
     "code": "ECON 87",
     "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students. May be repeated when course topics vary. (P/NP grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Microeconomics A",
@@ -115,8 +107,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Microeconomics B",
@@ -133,8 +124,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Microeconomics C",
@@ -151,32 +141,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Honors Microeconomics A",
     "code": "ECON 100AH",
     "description": "Honors sequence expanding on the material taught in ECON 100A. Major GPA of 3.5 or better required. May be taken concurrently with ECON 100A or after successful completion of ECON 100A with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Microeconomics B",
     "code": "ECON 100BH",
     "description": "Honors sequence expanding on the material taught in ECON 100B. Major GPA of 3.5 or better required. May be taken concurrently with ECON 100B or after successful completion of ECON 100B with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Honors Microeconomics C",
     "code": "ECON 100CH",
     "description": "Honors sequence expanding on the material taught in ECON 100C. Major GPA of 3.5 or better required. May be taken concurrently with ECON 100C or after successful completion of ECON 100C with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "International Trade",
@@ -202,8 +188,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Globalization",
@@ -246,8 +231,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Advanced Topic in Globalization",
@@ -273,8 +257,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "International Monetary Relations",
@@ -304,8 +287,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Nobody’s Fool: Economics with Morals",
@@ -322,8 +304,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Industrial Organization and Firm Strategy",
@@ -340,8 +321,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "International Economic Agreements",
@@ -362,8 +342,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economic Regulation and Antitrust Policy",
@@ -389,8 +368,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Game Theory",
@@ -428,8 +406,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Game Theory",
@@ -455,8 +432,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Long Run Macroeconomics",
@@ -494,8 +470,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Short Run Macroeconomics",
@@ -533,24 +508,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Honors Macroeconomics A",
     "code": "ECON 110AH",
     "description": "Honors sequence expanding on the material taught in ECON 110A. Major GPA of 3.5 or better required. May be taken concurrently with ECON 110A or after successful completion of ECON 110A with A–or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Honors Macroeconomics B",
     "code": "ECON 110BH",
     "description": "Honors sequence expanding on the material taught in ECON 110B. Major GPA of 3.5 or better required. May be taken concurrently with ECON 110B or after successful completion of ECON 110B with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Monetary Economics",
@@ -567,8 +539,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Macroeconomic Data Analysis",
@@ -598,8 +569,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Economics",
@@ -642,8 +612,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economic Development",
@@ -669,8 +638,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economic Growth",
@@ -687,8 +655,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Law and Economics: Torts, Property, and Crime",
@@ -714,8 +681,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Law and Economics: Contracts and Corporations",
@@ -754,8 +720,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Econometrics A",
@@ -772,8 +737,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Econometrics B",
@@ -815,8 +779,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Econometrics C",
@@ -842,32 +805,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Honors Econometrics A",
     "code": "ECON 120AH",
     "description": "Honors sequence expanding on the material taught in ECON 120A. Major GPA of 3.5 or better required. May be taken concurrently with ECON 120A or after successful completion of ECON 120A with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Econometrics B",
     "code": "ECON 120BH",
     "description": "Honors sequence expanding on the material taught in ECON 120B. Major GPA of 3.5 or better required. May be taken concurrently with ECON 120B or after successful completion of ECON 120B with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Econometrics C",
     "code": "ECON 120CH",
     "description": "Honors sequence expanding on the material taught in ECON 120C. Major GPA of 3.5 or better required. May be taken concurrently with ECON 120C or after successful completion of ECON 120C with A– or better or consent of instructor. Priority enrollment given to majors in the department.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Applied Econometrics and Data Analysis",
@@ -893,8 +852,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Econometric Theory",
@@ -933,8 +891,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "The Science of Population",
@@ -984,8 +941,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cities, Inequality, Innovation",
@@ -1027,8 +983,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Policy",
@@ -1054,8 +1009,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Economics of the Environment",
@@ -1081,8 +1035,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Energy Economics",
@@ -1141,8 +1094,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Energy Economics",
@@ -1159,8 +1111,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "US Budget Policy",
@@ -1177,8 +1128,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Urban Economics",
@@ -1204,8 +1154,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Resources",
@@ -1222,8 +1171,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Corruption",
@@ -1244,8 +1192,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Discrimination",
@@ -1262,8 +1209,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Labor Economics",
@@ -1289,8 +1235,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Health Care Production and Finance",
@@ -1316,8 +1261,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Economics of Health Consumers",
@@ -1334,8 +1278,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Behavioral Economics",
@@ -1361,8 +1304,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Experimental Economics",
@@ -1379,8 +1321,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Conservation",
@@ -1406,8 +1347,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Ocean Resources",
@@ -1433,8 +1373,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economic Stabilization",
@@ -1451,8 +1390,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Education",
@@ -1478,8 +1416,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Economic Design",
@@ -1529,8 +1466,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Economics: Taxation",
@@ -1547,8 +1483,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Economics: Expenditures I",
@@ -1565,8 +1500,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Economics: Expenditures II",
@@ -1583,8 +1517,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Family Economics and Social Insurance",
@@ -1601,24 +1534,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economic History of the United States I",
     "code": "ECON 158",
     "description": "(Cross-listed with HIUS 140.) The United States as a raw materials producer, as an agrarian society, and as an industrial nation. Emphasis on the logic of the growth process, the social and political tensions accompanying expansion, and nineteenth- and early twentieth-century transformations of American capitalism. Credit not allowed for both ECON 158 and HIUS 140.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Economic History of the United States II",
     "code": "ECON 159",
     "description": "(Cross-listed with HIUS 141.) The United States as a modern industrial nation. Emphasis on the logic of the growth process, the social and political tensions accompanying expansion, and twentieth-century transformations of American capitalism. Credit not allowed for both ECON 159 and HIUS 141.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Economics of Mexico",
@@ -1639,8 +1569,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "The Indian Economy",
@@ -1661,8 +1590,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in the Indian Economy",
@@ -1688,8 +1616,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Middle East Economics",
@@ -1710,8 +1637,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Middle East Economics",
@@ -1737,8 +1663,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of China",
@@ -1759,8 +1684,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Modern Israel",
@@ -1781,8 +1705,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Economics of Korea",
@@ -1803,8 +1726,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Decisions Under Uncertainty",
@@ -1858,8 +1780,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Operations Research A",
@@ -1876,8 +1797,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Operations Research B",
@@ -1903,8 +1823,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Financial Markets",
@@ -1934,8 +1853,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Corporate Finance",
@@ -1961,8 +1879,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Financial Risk Management",
@@ -1979,8 +1896,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "International Financial Markets",
@@ -2018,8 +1934,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Marketing",
@@ -2036,8 +1951,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Machine Learning for Economics and Business",
@@ -2054,8 +1968,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Economics",
@@ -2076,8 +1989,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Topics in Microeconomics",
@@ -2094,8 +2006,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Topics in Macroeconomics",
@@ -2112,8 +2023,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Economics with Data Analytics",
@@ -2139,8 +2049,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Detecting Discrimination in Data",
@@ -2166,8 +2075,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Careers in Economics and Business",
@@ -2188,8 +2096,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "An Introduction to Research in Economics",
@@ -2239,56 +2146,49 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Senior Essay Seminar A",
     "code": "ECON 191A",
     "description": "Senior essay seminar for students with superior records in department majors. Students must complete ECON 191A and ECON 191B in consecutive quarters.",
     "raw_prereq": "department stamp required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Senior Essay Seminar B",
     "code": "ECON 191B",
     "description": "Senior essay seminar for students with superior records in department majors. Students must complete ECON 191A and ECON 191B in consecutive quarters.",
     "raw_prereq": "department stamp required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "ECON 195P",
     "description": "Under the supervision of an instructor, undergraduate students gain teaching experience through practical experiences in course management and effective teaching methods. Limited to advanced economics majors with at least a 3.5 GPA in upper-division economics work. (P/NP grades only.) Students may not earn more than eight units credit in 195P courses.",
     "raw_prereq": "consent of the department.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "ECON 198",
     "description": "Directed study on a topic or in a group field not included in regular department curriculum by special arrangement with a faculty member.",
     "raw_prereq": "upper-division standing and consent of instructor. May be repeated up to three times when course topics vary. (P/NP grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "ECON 199",
     "description": "Independent reading or research under the direction of and by special arrangement with a Department of Economics faculty member. (P/NP grades only.)",
     "raw_prereq": "consent of instructor and department approval.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Microeconomics A",
     "code": "ECON 200A",
     "description": "Modern consumer and producer theory. Preferences, utility maximization, demand, choice under uncertainty, intertemporal choice. Production, cost, profit maximization and supply. Comparative statics, duality.",
     "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Microeconomics B",
@@ -2305,8 +2205,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microeconomics C",
@@ -2323,8 +2222,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Economic Theory",
@@ -2345,8 +2243,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Workshop in Economic Theory",
@@ -2363,8 +2260,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Contract Theory",
@@ -2394,16 +2290,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematics for Economists",
     "code": "ECON 205",
     "description": "Advanced calculus review for new graduate students.",
     "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Decisions",
@@ -2433,8 +2327,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Games and Information",
@@ -2464,16 +2357,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Macroeconomics A",
     "code": "ECON 210A",
     "description": "Dynamic optimization: Lagrangian methods and recursive methods. The neoclassical growth model: social planner, competitive equilibrium, first and second welfare theorems, steady state analysis, dynamic analysis, shocks, heterogeneity and aggregation, applications.",
     "raw_prereq": "none. Enrollment limited to Economics PhD students (EN75); or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Macroeconomics B",
@@ -2490,8 +2381,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Macroeconomics C",
@@ -2508,8 +2398,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Monetary Economics and Business Cycles",
@@ -2539,8 +2428,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Macroeconomics",
@@ -2570,8 +2458,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Workshop in Macroeconomics",
@@ -2588,8 +2475,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Macroeconomic Theory",
@@ -2619,8 +2505,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Macroeconomics",
@@ -2650,8 +2535,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Macroeconomic Policy",
@@ -2681,8 +2565,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computation for Macroeconomics",
@@ -2712,8 +2595,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Real Frictions and Financial Frictions",
@@ -2743,24 +2625,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Readings in Macroeconomics",
     "code": "ECON 219",
     "description": "This course will cover numerical analysis of dynamic macroeconomic models. Topics include numerical techniques, dynamic programming, linear systems, solution algorithms, and applications to dynamic general equilibrium.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Econometrics A",
     "code": "ECON 220A",
     "description": "An introduction to probability and statistics for graduate students in economics. Topics include random variables, sampling distributions, the law of large numbers, the central limit theorem, maximum likelihood estimation, hypothesis testing. Knowledge of multivariable calculus and linear algebra is assumed.",
     "raw_prereq": "graduate standing; enrollment limited to Economics PhD students (EN75) or Rady PhD students (RS79); or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Econometrics B",
@@ -2777,8 +2656,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Econometrics C",
@@ -2795,8 +2673,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Econometrics D",
@@ -2813,8 +2690,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Econometrics E",
@@ -2831,8 +2707,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Econometrics F",
@@ -2849,8 +2724,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Econometrics",
@@ -2888,16 +2762,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Workshop in Econometrics",
     "code": "ECON 222A-B-C",
     "description": "Examination of recent econometric research; development of own research by students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Forecasting",
@@ -2935,8 +2807,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bayesian and Numerical Methods",
@@ -2974,8 +2845,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nonparametric and Semiparametric Models",
@@ -3013,8 +2883,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nonstandard Inference",
@@ -3052,8 +2921,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Economics: Taxation",
@@ -3100,8 +2968,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Economics: Public Goods and Externalities",
@@ -3148,8 +3015,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Public Economics: Redistribution and Social Insurance",
@@ -3196,8 +3062,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Public Economics of Health Care",
@@ -3244,72 +3109,63 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Workshop in Applied Economics",
     "code": "ECON 235A-B-C",
     "description": "Examination of recent research in applied economics; development of own research by graduate students and faculty. Course may be repeated an unlimited number of times. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Political Economy: Microeconomic Perspectives",
     "code": "ECON 237",
     "description": "Governments serve functions key to economic development, including correcting market failures, raising taxes, delivering services, and protecting property rights. Correspondingly, research in development economics is increasingly focused on how institutions affect development. Generally, the aim of the course is to provide PhD students a complete introduction to the growing literature in this area. Students may not receive credit for ECON 237 and POLI 231E.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Microeconomics of Development",
     "code": "ECON 241",
     "description": "Course introduces the household as a decision-making unit, and the contracts and institutions that emerge to compensate for imperfect markets. Emphasis is placed on data and identification strategies that can be used to measure the impact of policy interventions.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Macroeconomics of Development",
     "code": "ECON 242",
     "description": "This course covers development accounting, growth accounting, human capital accumulation, skill-biased technological change, multisector growth models, structural transformation, urban-rural migration, misallocation, informality, technology adoption and diffusion, and other related topics.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Organizational Economics of Development",
     "code": "ECON 243",
     "description": "The study of organizational effectiveness, in both the private and public sectors, bridges the gap between microeconomic analysis of individual and household behavior and macroeconomic analysis of economic aggregates such as capital and output. Topics covered include organizational capacity, leadership and management, staffing, incentives, contracting, finance, learning, market structure, regulations, and politics.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "International Trade",
     "code": "ECON 245",
     "description": "This course covers the determinants of the pattern and volume of trade in goods and services, the interaction of international trade with income distribution and economic growth, and commercial policy. The emphasis is on theory, with some empirical illustration and motivation.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "International Macroeconomics",
     "code": "ECON 246",
     "description": "This course presents open-economy macroeconomics and international finance. Topics include theories of the exchange rate, foreign-exchange regimes, current account adjustments, and international portfolio investments. The course examines real and monetary explanations, and implications of international capital market integration.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Empirical Topics in International Economics",
     "code": "ECON 247",
     "description": "This course examines the empirical work in international trade or international macroeconomics. International trade topics include empirical tests of theories of international trade and international capital movements. International macroeconomic topics include empirical studies of exchange rate and relative price adjustments.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Spatial Economics",
@@ -3334,32 +3190,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "International Development Workshop I",
     "code": "ECON 249A",
     "description": "Presentation of recent research in international and development economics by faculty and graduate students, covering micro and macroeconomic aspect of both areas. Regular attendance is required.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "International Development Workshop III",
     "code": "ECON 249C",
     "description": "Presentation of recent research in international and development economics by faculty and graduate students, covering micro and macroeconomic aspect of both areas. Regular attendance is required.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Empirical Methods in Labor Economics",
     "code": "ECON 250A",
     "description": "Econometric methods currently used in applied microeconomics explained through examples from labor economics.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Topics in Labor Economics",
@@ -3376,8 +3228,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Labor Economics",
@@ -3398,8 +3249,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Industrial Organization: Firms",
@@ -3416,8 +3266,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Industrial Organization: Markets",
@@ -3438,8 +3287,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Behavioral Game Theory",
@@ -3469,8 +3317,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Modeling Behavioral Economics",
@@ -3500,16 +3347,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Experimental Economics",
     "code": "ECON 264",
     "description": "Design and interpretation of controlled experiments using human subjects. (Previously numbered ECON 207.)",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Alternative Choice Theory",
@@ -3539,24 +3384,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Economics of Natural Resources",
     "code": "ECON 266",
     "description": "Theoretical and empirical issues in natural resource economics. (Previously numbered ECON 242.)",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Topics in Environmental and Resource Economics",
     "code": "ECON 267",
     "description": "The course will cover any of a variety of topics in environmental and resource economics, including climate change, exhaustible and renewable resources, international environmental agreements, nonmarket valuation, energy economics, and water allocation.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Energy and Environmental Economics",
@@ -3586,56 +3428,49 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Finance—Core Asset Pricing",
     "code": "ECON 270",
     "description": "Theoretical and empirical issues in finance. (Previously numbered ECON 214A.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Finance—Theory and Testing of Intertemporal Asset Pricing Models",
     "code": "ECON 272",
     "description": "Theoretical and empirical issues in finance. (Previously numbered ECON 214C.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computation",
     "code": "ECON 280",
     "description": "Introduction to computing for economists. This course introduces students to the most widely used computational and programming tools in economics. The methods and tools covered in the class will be illustrated through various empirical applications.",
     "raw_prereq": "enrollment limited to economics PhD students (EN75).",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Economics",
     "code": "ECON 281",
     "description": "Lecture course at an advanced level on a special topic. May be repeated for credit if topic differs. (Previously numbered ECON 267.)",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Becoming an Economist",
     "code": "ECON 284",
     "description": "This course provides students with a framework and a range of practical skills to navigate the transition from being full-time students to being independent researchers. Topics and issues covered will include research design, peer review, portfolio management, co-authorship and collaboration, well-being and life balance, and the meta-system. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Precandidacy Presentation",
     "code": "ECON 285",
     "description": "This course is a workshop in which students make formal presentations on the literature and on their own projects and receive input from other students and the instructor.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Graduate Research Presentation Workshop",
@@ -3652,47 +3487,41 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Advanced Field Advising",
     "code": "ECON 291",
     "description": "Controlled reading and discussion with adviser; literature survey. May be repeated for credit. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Original Research Paper",
     "code": "ECON 296",
     "description": "In this course, students are guided toward the formulation of an original research idea and the writing of an original paper. Students receive support and input through group discussion and also through interaction with the instructor.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "ECON 297",
     "description": "(S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research in Economics for Dissertation",
     "code": "ECON 299",
     "description": "(S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching Methods in Economics",
     "code": "ECON 500A-B-C",
     "description": "The study and development of effective pedagogical materials and techniques in economics. Students who hold appointments as teaching assistants must enroll in this course, but it is open to other students as well. (S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

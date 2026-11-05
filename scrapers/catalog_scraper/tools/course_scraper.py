@@ -21,7 +21,6 @@ JSON_TEMPLATE = {
     "description": "",
     "raw_prereq": "",
     "prerequisites": [],
-    "offered_this_qtr": False,
 }
 
 # Department pages mark where the prerequisite text starts with a

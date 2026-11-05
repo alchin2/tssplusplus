@@ -4,24 +4,21 @@
     "code": "CGS 2A",
     "description": "This course will be a general introduction to the key terms, issues, and concepts in the fields of gender and sexuality studies.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Critical Gender Studies: Social Formations",
     "code": "CGS 2B",
     "description": "An introduction to the social relations of power that are shaped by and that shape gender and sexuality. It will build more on the basic concepts and skills introduced in CGS 2A.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Critical Gender Studies First-year Seminar",
     "code": "CGS 87",
     "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Conceptualizing Gender: Theoretical Approaches",
@@ -47,8 +44,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Conceptualizing Gender: Methods and Methodologies",
@@ -74,128 +70,112 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Gender and Globalization",
     "code": "CGS 101",
     "description": "This course explores effects of globalization on transnational relations of gender and sexuality. Topics include the division of labor, politics of production and consumption, constructions of gender and sexuality within global grassroots movements, and the migration of people, capital, and culture.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Queer Theory",
     "code": "CGS 105",
     "description": "Examines the different methodologies and disciplinary histories that together constitute the interdisciplinary project called queer studies. Of particular interest will be how these different methodologies and history construe and construct the relations between gender, race, class, and nation.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Gender and the Law",
     "code": "CGS 106",
     "description": "Explores the legal treatment of discrimination on the basis of gender, including equal protection doctrine and some statutory law such as Title VII. Topics include the meaning of gender equality in such areas as single-sex education, military service, sexual harassment, discrimination on the basis of pregnancy, and other current issues.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Gender, Race, and Artificial Intelligence",
     "code": "CGS 108",
     "description": "(Cross-listed with LTCS 108.) This course explores the idea of artificial intelligence in both art and science, its relation to the quest to identify what makes us human, and the role gender and race have played in both. Students may not receive credit for CGS 108 and LTCS 108.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Sexual Violence",
     "code": "CGS 109",
     "description": "This course examines how sexual violence is experienced in relation to/with gender, racialization, sexuality, and class. It considers reporting structures and asks who is heard when sexual violence is named and how so many are not heard. It also explores movements working to interrupt sexual violence.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Intersectional Struggles for Environmental Justice",
     "code": "CGS 110",
     "description": "Colonial and capitalist exploitation has left a trail of environmental destruction and devastated communities stretching across the globe. This course will apply an intersectional lens to analyzing racialized, gendered extractivist wastelands, environmental injustices, and the movements struggling for alternate futures.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Gender and the Body",
     "code": "CGS 111",
     "description": "Various approaches to the study of gendered bodies. Possible topics to include masculinities/femininities; lifecycles; biology, culture, and identity; medical discourses; and health issues. May be taken for credit three times when topics vary.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Sexuality and Nation",
     "code": "CGS 112",
     "description": "(Cross-listed with ETHN 127.) This course explores the nexus of sex, race, ethnicity, gender, and nation and considers their influence on identity, sexuality, migration movement and borders, and other social, cultural, and political issues that these constructs affect.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Gender and Sexuality in the Arts",
     "code": "CGS 113",
     "description": "Examines gender and sexuality in artistic practices: music, theatre, dance, performance, visual arts, and new media. Topics may include study of specific artists, historical moments, genres, cross-cultural analyses, and multiculturalism. May be taken three times when topics vary.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Gender, Race, Ethnicity, and Class",
     "code": "CGS 114",
     "description": "(Cross-listed with ETHN 183.) Gender is often neglected in studies of ethnic/racial politics. This course explores the relationship of race, ethnicity, class, and gender by examining the participation of working-class women of color in community politics and how they challenge mainstream political theory.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Feminist Social Movements",
     "code": "CGS 116",
     "description": "This course will examine past and present feminist social movements and their implications and political impact in the contemporary moment. What are the basic dynamics of social movements? What future political forms and practices may be enabled by past and present movements? The #MeToo movement and other social movements will be covered.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Transgenderisms",
     "code": "CGS 117",
     "description": "(Cross-listed with ANSC 117.) This course contrasts mainstream Anglo-American conceptualizations of transgenderism with ethnographic accounts of the experiences and practices of gender expansive people of color (African, Native, Asian/Pacific Islander, and Latinx Americans) in the United States and abroad. It will question the idea of transgenderism as a crossing from one gender to another one, the distinction between gender identity and sexuality, and the analytic of intersectionality. Students will not receive credit for both CGS 117 and ANSC 117.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Gender and Incarceration",
     "code": "CGS 118",
     "description": "(Cross-listed with ANSC 186.) This course investigates the ways in which forces of racism, gendered violence, and state control intersect in the penal system. The prison-industrial complex is analyzed as a site where certain types of gendered and racialized bodies are incapacitated, neglected, or made to die. Students may not receive credit for CGS 118 and ANSC 186.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Asian American Film, Video, and New Media: The Politics of Pleasure",
     "code": "CGS 119",
     "description": "(Cross-listed with LTCS 119.) The course explores the politics of pleasure in relation to the production, reception, and performance of Asian American identities in the mass media of film, video, and the internet. The course considers how the “deviant” sexuality of Asian Americans (e.g., hypersexual women and emasculated men) does more than uniformly harm and subjugate Asian American subjects. The texts explored alternate between those produced by majoritarian culture and the interventions made by Asian American filmmakers. Students may not receive credit for LTCS 119 and CGS 119.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Capitalism and Gender",
     "code": "CGS 120",
     "description": "(Cross-listed with ANSC 180.) Drawing insight from anticolonial and queer of color critique, this course critically examines the demands capitalism makes on us to perform gender, and how that relates to processes of exploitation and racialization. We will explore alternatives and develop strategies for navigating jobs in this system. Students may receive credit for one of the following: CGS 120, CGS 180, and ANSC 180.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Selected Topics in Critical Gender Studies",
@@ -221,8 +201,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Comparative Perspectives",
@@ -248,8 +227,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Gender and Reproductive Politics",
@@ -275,8 +253,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Girls and Sexuality",
@@ -302,8 +279,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Women of Color Writers",
@@ -329,8 +305,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Muslims on Gender and Sexuality",
@@ -356,8 +331,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Feminist Border Studies",
@@ -383,8 +357,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Transnational Feminisms",
@@ -410,8 +383,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Queer Performativity",
@@ -437,16 +409,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Gender and Climate Justice",
     "code": "CGS 134",
     "description": "How are the struggles for gender and climate justice linked? Drawing on critical feminist approaches to environmental questions, students will learn about how gendered identities and relations affect people’s environmental knowledge, vulnerabilities, and abilities to adapt to climate change.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Feminist Science and Technology Studies",
@@ -472,16 +442,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Gender, Tech, and Development",
     "code": "CGS 136",
     "description": "Can smart and innovative technologies fix global inequalities and solve contemporary social and environmental problems? Drawing on academic texts, news, popular media, and development literature, students will learn to critically analyze imaginations of technology as an apolitical solution to contemporary socio-environmental challenges and understand how the racialized and gendered targets of international development are produced and imagined.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Latina Issues and Cultural Production",
@@ -523,8 +491,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Black Feminisms, Past and Present",
@@ -562,8 +529,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Visuality, Sexuality, and Race",
@@ -601,8 +567,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Gender and Sexuality in African American Communities",
@@ -640,16 +605,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Decolonial Muslim Feminisms",
     "code": "CGS 167A",
     "description": "(Cross-listed with ETHN 167A.) This course is a pedagogical analysis of the connections between decolonial thinking and studies of Muslims, Islam, and the Islamicate. Students will explore contours of decolonial epistemologies in sacred and secular Muslim texts such as the Qur’an, Hadith, and other sites including those of law, borders, immigration, home, labor, desire, and fashion.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Latinx Sexualities",
@@ -687,87 +650,76 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Honors Seminar",
     "code": "CGS 190",
     "description": "Interdisciplinary readings in feminist theory and research methodology to prepare students for writing an honors thesis. Open to critical gender studies majors who have been admitted to Critical Gender Studies Honors Program. May be applied toward primary concentration in critical gender studies major.",
     "raw_prereq": "consent of instructor and department preauthorization required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Critical Gender Studies Honors Research",
     "code": "CGS 196A",
     "description": "A program of independent study providing candidates for critical gender studies honors to develop, in consultation with an adviser, a preliminary proposal for the honors thesis. An IP grade will be awarded at the end of this quarter. A final grade for both quarters will be given upon completion of Critical Gender Studies 196B.",
     "raw_prereq": "consent of instructor and department preauthorization required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Thesis",
     "code": "CGS 196B",
     "description": "Honors thesis research and writing for students who have completed Critical Gender Studies 190 and 196A. A letter grade for both Critical Gender Studies 196A and 196B will be given at the completion of this quarter.",
     "raw_prereq": "consent of instructor and department preauthorization required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "CGS 198",
     "description": "Directed group study on a topic not generally included in the critical gender studies curriculum.",
     "raw_prereq": "consent of instructor and director of Critical Gender Studies Program and department stamp required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "CGS 199",
     "description": "Tutorial; independent study on a topic not generally included in the curriculum.",
     "raw_prereq": "consent of instructor and director of Critical Gender Studies Program and department stamp required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Studies in Critical Gender Studies",
     "code": "CGS 200",
     "description": "This course, the first in the graduate specialization in Critical Gender Studies, is designed to give students a broad but advanced survey of historical and current research in studies of gender and sexuality in the arts, humanities, and social sciences.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Gender Variance",
     "code": "CGS 208",
     "description": "(Cross-listed with ANTH 208.) This seminar critically examines gender variance by contrasting local and global contexts. We will interrogate Western analytical frameworks of sex, gender, and sexuality including the idea of transgenderism as a crossing from one gender to an opposite one, the distinction between gender identity and sexuality, and the assumed relationship between sex and gender in relation to other social formations and processes. Students will not receive credit for both CGS 208 and ANTH 208.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Critical Gender Studies",
     "code": "CGS 280",
     "description": "Specialized study in critical gender studies, with topics to be determined by the instructor any given quarter.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Practicum in Critical Gender Studies",
     "code": "CGS 299",
     "description": "This course, the capstone in the graduate specialization in Critical Gender Studies, is designed for students in their final year of dissertation writing. Members of the practicum will present their dissertation research and mutually explore the interdisciplinary dimensions and implications of their work.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Apprentice Teaching in Critical Gender Studies",
     "code": "CGS 500",
     "description": "Consideration of pedagogical methods appropriate to undergraduate teaching in critical gender studies courses under supervision of instructor of course. Instructor will define apprentice’s responsibilities in preparing class presentations, directing student discussions, evaluating and grading students’ work, and maintaining productive association with students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

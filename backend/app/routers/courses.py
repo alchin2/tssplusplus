@@ -1,6 +1,6 @@
 import re
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 from pymongo.errors import PyMongoError
 
 from app.catalog import find_by_normalized_code, normalize_code, search_courses
@@ -8,6 +8,7 @@ from app.db import get_courses_collection
 from app.offered import get_code_to_module_id_index, get_offered_index
 from app.prereqs import build_prereq_tree
 from app.schemas import CourseDetail, CourseSummary, Meeting, PrereqGraphNode, Section
+from app.terms import selected_term
 
 router = APIRouter(prefix="/api/courses", tags=["courses"])
 
@@ -20,23 +21,26 @@ _SECTION_CODE_RE = re.compile(r"\(([^()]+)\)\s*$")
 @router.get("", response_model=list[CourseSummary])
 def list_courses(
     dept: str | None = Query(None, description="Department code, e.g. CSE"),
-    offered: bool | None = Query(None, description="Filter to courses offered this quarter"),
+    offered: bool | None = Query(None, description="Filter to courses offered in the term"),
     q: str | None = Query(None, description="Search term matched against course code/name"),
+    term: str = Depends(selected_term),
 ):
-    """GET /api/courses?dept=CSE&offered=true&q=<query> -- search/filter
-    over the catalog, returning a lightweight course list."""
-    courses = search_courses(dept=dept, offered=offered, q=q)
-    code_to_module_id = get_code_to_module_id_index()
-    return [
-        CourseSummary(
-            module_id=code_to_module_id.get(normalize_code(c["code"])),
+    """GET /api/courses?term=fa26&dept=CSE&offered=true&q=<query> --
+    search/filter over the catalog, returning a lightweight course list
+    with offered/module_id relative to the term."""
+    code_to_module_id = get_code_to_module_id_index(term)
+    courses = search_courses(code_to_module_id, dept=dept, offered=offered, q=q)
+    summaries = []
+    for c in courses:
+        module_id = code_to_module_id.get(normalize_code(c["code"]))
+        summaries.append(CourseSummary(
+            module_id=module_id,
             code=c["code"],
             name=c["name"],
             dept=c["dept"],
-            offered_this_qtr=c["offered_this_qtr"],
-        )
-        for c in courses
-    ]
+            offered_this_qtr=module_id is not None,
+        ))
+    return summaries
 
 
 def _to_int(value) -> int | None:
@@ -88,13 +92,13 @@ def _group_sections(raw_rows: list[dict]) -> list[Section]:
     return sections
 
 
-def _resolve_catalog_course(module_id: str) -> dict:
-    """module_id's only link to a catalog code: look it up in the
+def _resolve_catalog_course(module_id: str, term: str) -> dict:
+    """module_id's only link to a catalog code: look it up in the term's
     offered-courses CSV (module_id -> code), then find that code's
     catalog entry."""
-    offered_entry = get_offered_index().get(module_id)
+    offered_entry = get_offered_index(term).get(module_id)
     if offered_entry is None:
-        raise HTTPException(status_code=404, detail=f"No course offered this term with module_id={module_id}")
+        raise HTTPException(status_code=404, detail=f"No course offered in {term} with module_id={module_id}")
 
     catalog_course = find_by_normalized_code(normalize_code(offered_entry["code"]))
     if catalog_course is None:
@@ -104,14 +108,15 @@ def _resolve_catalog_course(module_id: str) -> dict:
 
 
 @router.get("/{module_id}", response_model=CourseDetail)
-def get_course_detail(module_id: str):
-    """GET /api/courses/{module_id} -- full detail: catalog fields
-    (joined via the offered-courses CSV, module_id's only link to a
-    catalog code) + live sections/meetings from Mongo."""
-    catalog_course = _resolve_catalog_course(module_id)
+def get_course_detail(module_id: str, term: str = Depends(selected_term)):
+    """GET /api/courses/{module_id}?term=fa26 -- full detail: catalog
+    fields (joined via the term's offered-courses CSV, module_id's only
+    link to a catalog code) + the term's live sections/meetings from
+    Mongo."""
+    catalog_course = _resolve_catalog_course(module_id, term)
 
     try:
-        mongo_doc = get_courses_collection().find_one({"module_id": module_id})
+        mongo_doc = get_courses_collection(term).find_one({"module_id": module_id})
     except PyMongoError as exc:
         # Mongo unreachable/misconfigured (e.g. Atlas TLS handshake or
         # server-selection timeout) -- surface a clean 503 rather than a
@@ -126,7 +131,7 @@ def get_course_detail(module_id: str):
         code=catalog_course["code"],
         name=catalog_course["name"],
         dept=catalog_course["dept"],
-        offered_this_qtr=catalog_course["offered_this_qtr"],
+        offered_this_qtr=True,  # resolved via the term's offered CSV
         description=catalog_course.get("description"),
         raw_prereq=catalog_course.get("raw_prereq"),
         prerequisites=catalog_course.get("prerequisites", []),
@@ -135,11 +140,11 @@ def get_course_detail(module_id: str):
 
 
 @router.get("/{module_id}/prereqs", response_model=PrereqGraphNode)
-def get_course_prereqs(module_id: str):
-    """GET /api/courses/{module_id}/prereqs -- full transitive
+def get_course_prereqs(module_id: str, term: str = Depends(selected_term)):
+    """GET /api/courses/{module_id}/prereqs?term=fa26 -- full transitive
     prerequisite graph (see app/prereqs.py). Built fresh from the local
     catalog on every request -- cheap enough (no Mongo round trip) that
     caching isn't worth the staleness risk."""
-    catalog_course = _resolve_catalog_course(module_id)
+    catalog_course = _resolve_catalog_course(module_id, term)
     return build_prereq_tree(catalog_course)
 

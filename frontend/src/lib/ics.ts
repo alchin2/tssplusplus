@@ -1,6 +1,6 @@
 import { computeFinal } from "./schedule";
-import { FINALS_WEEK, REG_WEEK } from "./plannerEvents";
-import { currentTermDates } from "./academicCalendar";
+import { REG_WEEK } from "./plannerEvents";
+import { finalsWeekISO, termDates } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
 
 const TZID = "America/Los_Angeles";
@@ -59,10 +59,10 @@ function firstOnOrAfter(start: Date, weekday: number): Date {
   return d;
 }
 
-export function buildICS(items: PlannedItem[]): string {
+export function buildICS(items: PlannedItem[], term: string | null): string {
   const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-  // Anchor on the term matching today's date, not the backend's served term.
-  const cal = currentTermDates();
+  // Anchor on the selected term's dates (or today's term when it isn't listed).
+  const cal = termDates(term);
 
   const lines: string[] = [];
   const push = (line: string) => lines.push(...foldLine(line));
@@ -123,7 +123,7 @@ export function buildICS(items: PlannedItem[]): string {
     const fi = computeFinal(section);
     if (fi) {
       const room = section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
-      const finalIso = cal ? toISO(addDays(parseISO(cal.finalsMonday), fi.colIdx)) : FINALS_WEEK[fi.colIdx];
+      const finalIso = cal ? toISO(addDays(parseISO(cal.finalsMonday), fi.colIdx)) : finalsWeekISO(term)[fi.colIdx];
       push("BEGIN:VEVENT");
       push(`UID:${course.id}-${section.id}-final@tssplusplus`);
       push(`DTSTAMP:${stamp}`);
@@ -139,8 +139,8 @@ export function buildICS(items: PlannedItem[]): string {
   return lines.join("\r\n") + "\r\n";
 }
 
-export function downloadICS(items: PlannedItem[]): void {
-  const blob = new Blob([buildICS(items)], { type: "text/calendar;charset=utf-8" });
+export function downloadICS(items: PlannedItem[], term: string | null): void {
+  const blob = new Blob([buildICS(items, term)], { type: "text/calendar;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;

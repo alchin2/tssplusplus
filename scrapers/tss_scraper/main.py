@@ -10,10 +10,8 @@ document per course into MongoDB.
 module_id/code/name to data/offered/<term>.csv, skipping sections
 entirely. Run this first (and re-run it to refresh the list) -- the
 default mode reads this file instead of re-fetching titles every run.
-Immediately afterward it re-runs the offered-courses marking step
-(scrapers/helpers/mark_offered_courses.py) so the refreshed CSV keeps its
-normalized-code column and the catalog's offered_this_qtr flags stay in
-sync.
+The backend derives which catalog courses are offered in each term from
+this CSV directly.
 
 Setup:
   1. Log into https://tss.ucsd.edu/fiori in Chrome as normal.
@@ -52,11 +50,16 @@ OFFERED_DIR = PROJECT_ROOT / "data" / "offered"
 
 load_dotenv(PROJECT_ROOT / ".env")
 
-# Term code season prefix -> TSS AcademicPeriod (Perid). '2' = Fall,
-# confirmed via keydate -- extend as other Perid values are confirmed
-# (try them with --peryr/--perid first). AcademicYear (Peryr) is assumed
-# to be the term's calendar year; also only confirmed for fall.
-TERM_PERIDS = {"fa": "2"}
+# Term code season prefix -> TSS AcademicPeriod (Perid). TSS numbers periods
+# within an academic year that starts in the fall, so AcademicYear (Peryr)
+# is the year that academic year began -- Fall 2026 = 2026/2, so Winter 2027
+# should be 2026/3. '2' = Fall, confirmed via keydate. '3' = Winter is
+# UNCONFIRMED, inferred from Fall's number: check it with
+# `--peryr 2026 --perid 3 --titles-only` once Winter is in TSS (sections
+# should begin early January). Extend as other Perid values are confirmed.
+TERM_PERIDS = {"fa": "2", "wi": "3"}
+# Seasons in the calendar year after their academic year (Peryr) began.
+NEXT_CALENDAR_YEAR = {"wi", "sp"}
 # Reverse lookup for term_slug. Falls back to a plain "p<perid>" prefix
 # instead of guessing a season for anything unconfirmed.
 PERID_TERM_ABBR = {perid: abbr for abbr, perid in TERM_PERIDS.items()}
@@ -94,13 +97,18 @@ def filter_titles(titles: list[dict]) -> list[dict]:
 
 
 def term_slug(peryr: str, perid: str) -> str:
-    abbr = PERID_TERM_ABBR.get(perid, f"p{perid}")
-    return f"{abbr}{peryr[-2:]}"
+    """("2026", "3") -> "wi27": the inverse of parse_term."""
+    abbr = PERID_TERM_ABBR.get(perid)
+    if abbr is None:
+        return f"p{perid}{peryr[-2:]}"
+    year = int(peryr) + (1 if abbr in NEXT_CALENDAR_YEAR else 0)
+    return f"{abbr}{year % 100:02d}"
 
 
 def parse_term(term: str) -> tuple[str, str]:
-    """"fa26" -> ("2026", "2"), the (Peryr, Perid) pair TSS keys terms by.
-    Raises ValueError for a malformed code or an unconfirmed season."""
+    """"fa26" -> ("2026", "2"), "wi27" -> ("2026", "3"): the (Peryr, Perid)
+    pair TSS keys terms by. Raises ValueError for a malformed code or an
+    unconfirmed season."""
     match = TERM_RE.match(term.strip().lower())
     if not match:
         raise ValueError(f"Bad term code {term!r}; expected e.g. 'fa26'.")
@@ -110,7 +118,8 @@ def parse_term(term: str) -> tuple[str, str]:
             f"No confirmed TSS Perid for {season!r} terms yet. Find it (e.g. via "
             f"--peryr/--perid) and add it to TERM_PERIDS in tss_scraper/main.py."
         )
-    return f"20{yy}", TERM_PERIDS[season]
+    year = 2000 + int(yy) - (1 if season in NEXT_CALENDAR_YEAR else 0)
+    return str(year), TERM_PERIDS[season]
 
 
 def write_titles_csv(titles: list[dict], peryr: str, perid: str) -> Path:
@@ -125,33 +134,6 @@ def write_titles_csv(titles: list[dict], peryr: str, perid: str) -> Path:
         for title in titles:
             writer.writerow([title.get("Smobjid"), title.get("Short"), title.get("Stext") or title.get("Title")])
     return out_path
-
-
-def run_mark_offered(peryr: str, perid: str) -> None:
-    """Re-derives the offered CSV's normalized-code column and re-marks the
-    catalog against it. Run right after a --titles-only refresh: that
-    overwrite drops the downstream `filtered_data` column and leaves the
-    catalog's offered_this_qtr flags stale, so we regenerate both here.
-
-    Reuses scrapers/helpers/mark_offered_courses.py (a sibling package) by
-    adding its dir to sys.path -- the two scrapers live in separate trees."""
-    helpers_dir = PROJECT_ROOT / "scrapers" / "helpers"
-    sys.path.insert(0, str(helpers_dir))
-    try:
-        from mark_offered_courses import (  # type: ignore[import-not-found]
-            CATALOG_DIR,
-            add_filtered_data_column,
-            load_offered_codes,
-            mark_offered_in_catalog,
-        )
-    finally:
-        sys.path.remove(str(helpers_dir))
-
-    csv_path = OFFERED_DIR / f"{term_slug(peryr, perid)}.csv"
-    add_filtered_data_column(csv_path)
-    offered_codes = load_offered_codes(csv_path)
-    marked_true, total = mark_offered_in_catalog(CATALOG_DIR, offered_codes)
-    print(f"Re-derived filtered_data column and marked {marked_true}/{total} catalog course(s) as offered_this_qtr=true")
 
 
 def read_titles_csv(peryr: str, perid: str) -> list[dict]:
@@ -246,7 +228,7 @@ def main():
     parser.add_argument("--peryr", help="raw TSS AcademicYear; with --perid, overrides --term")
     parser.add_argument("--perid", help="raw TSS AcademicPeriod; with --peryr, overrides --term")
     parser.add_argument("--titles-only", action="store_true",
-                        help="fetch titles to data/offered/<term>.csv, then re-mark offered courses")
+                        help="fetch titles to data/offered/<term>.csv")
     parser.add_argument("--workers", type=int, default=5,
                         help="concurrent scraper threads; keep modest to stay polite to TSS")
     args = parser.parse_args()
@@ -275,7 +257,6 @@ def main():
             print(f"Skipped {skipped} UCSD Extension course(s) total.")
         out_path = write_titles_csv(kept, args.peryr, args.perid)
         print(f"Wrote {len(kept)} title records to {out_path.resolve()}")
-        run_mark_offered(args.peryr, args.perid)
         return
 
     scrape_all_sections(args.peryr, args.perid, workers=args.workers)

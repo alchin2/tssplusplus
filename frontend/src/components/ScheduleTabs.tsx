@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "sonner";
+import { useTerm } from "../hooks/useTerm";
 import { downloadICS } from "../lib/ics";
 import { finalsRangeLabel } from "../lib/schedule";
 import { MapView } from "./MapView";
@@ -29,6 +30,7 @@ export function ScheduleTabs({ tab, onTab, items, conflictIds, selectedCourseId,
   onSelectCourse: (courseId: string) => void;
 }) {
   const empty = items.length === 0;
+  const term = useTerm();
   // Keep the map mounted once visited so Leaflet doesn't re-tile on each tab.
   const [mapVisited, setMapVisited] = useState(tab === "map");
   function select(t: ScheduleTab) {
@@ -37,7 +39,7 @@ export function ScheduleTabs({ tab, onTab, items, conflictIds, selectedCourseId,
   }
 
   function exportIcs() {
-    downloadICS(items);
+    downloadICS(items, term);
     toast.success("Schedule exported. Look for tss-schedule.ics in your downloads.");
   }
 
@@ -47,7 +49,7 @@ export function ScheduleTabs({ tab, onTab, items, conflictIds, selectedCourseId,
         <h2 className="wr-label" style={{ fontSize: "1rem" }}>My Schedule</h2>
         <span className="wr-help">
           {empty ? "Nothing planned yet." : `${items.length} class${items.length !== 1 ? "es" : ""} planned`}
-          {tab === "finals" && ` · Finals week ${finalsRangeLabel()}`}
+          {tab === "finals" && ` · Finals week ${finalsRangeLabel(term)}`}
         </span>
       </div>
 

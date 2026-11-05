@@ -4,24 +4,21 @@
     "code": "EDS 20S",
     "description": "Students will study discipline-specific principles of effective learning, including critical thinking, problem solving, collaboration, and group communication. Laboratory and hypothesis testing, library research and writing skills, and self-assessment. Students will explore concepts and procedures in mathematics, science, and economics.",
     "raw_prereq": "Summer Bridge participation. Department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Writing and Learning—Triton Transition",
     "code": "EDS 21S",
     "description": "Reading, writing, and speaking exercises will introduce students to the teaching conventions and learning expectations of American universities. Students will use writing as a means of academic inquiry to explore the culture of higher education in the United States and will gain practice with appropriate style, structure, and mechanics. P/NP grades only.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Education in Cuba: Institutional Structures, History, and Culture",
     "code": "EDS 22",
     "description": "Cuba’s educational system achieves higher outcomes than any other country in Latin America, and compared to the United States, it represents a very different institutional structure. Cuban education serves as an explicit vehicle for the transmission of Cuban culture and historical consciousness. This course examines Cuba’s emphasis on educational achievement following the triumph of its revolution in 1959, including institutional structures, pedagogy, and content.",
     "raw_prereq": "Summer Bridge participation, instructor approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Education in Cuba—Field Experience",
@@ -38,104 +35,91 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Success and Satisfaction in the Second Year of Higher Education: Research Trends and Conclusions",
     "code": "EDS 23",
     "description": "Course focuses on challenges that confront college students in their second year of higher education and solutions. Emphasis on historically underrepresented students of color with more complex adjustment to college. Analysis of national trends from research including High Impact Practices. This course includes the essential role of utilizing undergraduate tutors to help foster academic and social community within the context of higher education.",
     "raw_prereq": "department approval required. This course is a collaboration with Student Affairs “2 Excel Program.” Enrollees should only be program participants.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Thriving in College",
     "code": "EDS 24",
     "description": "This course will introduce students to campus systems that are critical for their success and will provide them with the opportunity to learn about how to make the most out of their college experience.",
     "raw_prereq": "department/instructor approval required. This course is intended for first-year students who completed OASIS Summer Bridge Program.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "American Higher Education and the Collegiate Experience",
     "code": "EDS 25",
     "description": "This course is designed to help students think critically about multicultural issues in higher education, as well as the purpose of higher education within the larger context of society. Topics include American higher education history, organization, policy, curricula, and access.",
     "raw_prereq": "Summer Bridge participation. Department/instructor approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Teaching Science",
     "code": "EDS 31/CHEM 96",
     "description": "Explores routine challenges and exceptional difficulties students often have in learning science. Prepares students to make meaningful observations of how K–12 teachers deal with difficulties. Explores strategies that teachers may use to pose problems that stimulate students’ intellectual curiosity.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Explorations in Education",
     "code": "EDS 38",
     "description": "Undergraduate students explore a wide breadth of educational spaces from PK–12 schools and classrooms to policy and non-profit organizations. Through interactive seminars, readings, field observations, and interviews with professionals in the field, students will see and build connections across diverse educational communities. If taken for the EDS major, must be taken for a letter grade.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Explorations in Secondary STEM Education",
     "code": "EDS 39",
     "description": "Undergraduate students explore current practices and issues in public education focusing on STEM secondary education (grades 6–12) through readings, guest speakers, seminars, and observations in math, science, and computer science classrooms at local schools.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Nature, Community, and Education",
     "code": "EDS 40",
     "description": "This course covers diverse history and learning theories of nature-based education models spanning early childhood to adult learning. Moving through current and historical movements, students explore topics of (in)equity related to urban planning, community well-being, and health and well-being in education environments. The course features a colearning model as we learn from and with educators and community experts with a focus on historically excluded voices (including children themselves).",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Chancellor’s Associates Scholars Program First-year Student Introductory Course",
     "code": "EDS 50",
     "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking, organizational, interpersonal, and wellness skills.",
     "raw_prereq": "Open to Chancellor’s Associates Scholars Program first-year students only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "First-year Student Seminar in Education Studies",
     "code": "EDS 87",
     "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. Topics vary from quarter to quarter. P/NP grades only.",
     "raw_prereq": "Enrollment priority will be given to first-year students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Learning Sustainable Well-being: Compassion for Self and Others in Education",
     "code": "EDS 88",
     "description": "This experiential course teaches the art of practicing psychological well-being, based on Eastern and Western approaches (e.g., mindfulness, positive psychology, cognitive therapy, neuroscience, theatre arts), from the perspective of the field of education. Each week there is a short presentation on topics related to well-being, combined with exercises and dialogues. Practices learned in this course can be shared with mentees or K–12 students to build communities of well-being in schools. P/NP grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Qualitative Methods in Education Research",
     "code": "EDS 102",
     "description": "Introductory course addressing topics in qualitative research method and analytic approaches, including methods such as case studies, video analysis, interviews, observations, and ethnography. Concepts explore the practice and philosophical underpinnings of specified qualitative research approach and examples of qualitative studies. If taken for EDS major, must be taken for a letter grade.",
     "raw_prereq": "ED25 major and upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Quantitative Methods in Education Research",
     "code": "EDS 103",
     "description": "Introduction to quantitative fundamentals of statistical inference in education research. Emphasis on applying statistical concepts, selecting appropriate techniques, using techniques, and examining assumptions to interpret analytic results and summarize findings. Hands-on practice will be integral to the course. If taken for EDS major, must be taken for a letter grade.",
     "raw_prereq": "ED25 major and upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching and Learning Physics",
@@ -203,128 +187,112 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "The Struggle for K–12 Ethnic Studies",
     "code": "EDS 107",
     "description": "The purpose of this upper-division course is to enable students to critically analyze the movement for K–12 ethnic studies in historical and contemporary time periods. Students will read, discuss, and analyze past and present K–12 ethnic studies research, policy, and practice to deepen their knowledge and strengthen their ability to critique issues in K–12 ethnic studies education while reflecting on how the concepts and questions that arise relate to their own educational experiences and lives.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Culture, Cognition, and Schooling in the Americas",
     "code": "EDS 108GS",
     "description": "This seminar examines sociocultural approaches to cognitive development, with emphasis on how indigenous communities of the Americas engage in caregiving and educating young children. Cognitive development and learning theories will be explored from infancy through adolescence within cultural contexts of the Americas. Connections will be made to ways to transform public education in the United States. The course will integrate field experiences in Ecuador and individual experiences of students. Program or materials fees may apply.",
     "raw_prereq": "upper-division standing and department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Early Learning Environments for Diverse Learners",
     "code": "EDS 110R",
     "description": "In this online course, students examine the diverse contexts in which children develop. They will explore theories of child development and how they intersect with traditional learning theories. From these foundational concepts we will explore how to develop lessons and learning activities to support the needs of diverse learners.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Child, Family, and Community Partnerships with Schools",
     "code": "EDS 111",
     "description": "This course examines how early education programs collaborate with socioculturally diverse families to support child development. Theories will examine social learning, family socialization, risk and resilience, and community engagement and how these theories are enacted in schools, communities, and families. Course assignments will support undergraduates to utilize families’ beliefs, strengths, and resources to support children’s learning with opportunities to engage with them. Students may not receive credit for both EDS 111 and EDS 111GS.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Child, Family, and Community Partnerships with Schools",
     "code": "EDS 111GS",
     "description": "This course examines how early education programs collaborate with socioculturally diverse families to support child development. Theories will examine social learning, family socialization, risk and resilience, and community engagement and how these theories are enacted in schools, communities, and families. This course is offered in Quito, Ecuador. It will integrate field experiences from excursions and individual student experiences. Program or materials fees may apply. Students may not receive credit for both EDS 111GS and EDS 111.",
     "raw_prereq": "department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Urban Education in the United States",
     "code": "EDS 112",
     "description": "Students will read, discuss, and analyze past and present urban education demographics, resources, policies, practices, and outcomes to deepen their knowledge and critique of issues in urban education.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Chicanas/os and Latinos in Education: Policy, Practice, and Challenges to Equity",
     "code": "EDS 113",
     "description": "An overview of the experiences, challenges, and opportunities for educating Chicano/Latino students. This course unpacks the socioeconomic and systematic factors that underlie these data. Further, to understand this persistent phenomenon and explore approaches to altering the current pathway of this group, this course will provide a comprehensive overview of Chicana/o-Latina/o students at every state in the P–20 education continuum.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Cognitive Development and Interactive Computing Environments",
     "code": "EDS 114",
     "description": "Development and learning are increasingly supported by interactive computing environments. This course will explore technology-supported learning environments, looking at the ways they can be used to promote effective development, learning, and teaching.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Cognitive Development and Education",
     "code": "EDS 115",
     "description": "This course examines the development of cognition, thinking, and language from infancy to adolescence with implications for education. Topics include learning theories, executive function, memory and language, as well as impacts of technology, poverty, diversity, and bilingualism. Course content focuses on addressing achievement gaps. Students may not receive credit for both EDS 115 and EDS 115GS.",
     "raw_prereq": "upper-division or graduate majors ED 78 or ED 76 standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Cognitive Development and Education",
     "code": "EDS 115GS",
     "description": "This course examines the development of cognition, thinking, and language from infancy to adolescence with implications for education. Topics include learning theories, executive function, memory and language, as well as impacts of technology, poverty, diversity, and bilingualism. Course content focuses on addressing achievement gaps. This course is offered in Quito, Ecuador. It will integrate field experiences gained through organized class excursions and individual experiences of students. Program or materials fees may apply. Students may not receive credit for both EDS 115GS and EDS 115.",
     "raw_prereq": "department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Equity-Minded Education",
     "code": "EDS 116",
     "description": "This course introduces the foundational historical and theoretical issues for the critical study of higher education diversity work and student affairs. This course integrates questions of identity with those of social justice and requires a strong commitment to understanding self and other. The role of mentoring, advising, and counseling will also be examined.",
     "raw_prereq": "department approval (consent of instructor) required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Language, Culture, and Education",
     "code": "EDS 117",
     "description": "(Same as SOCI 117) Representations of language and culture will be explored in education; explanations of students’ school successes and challenges drawing on sociocultural and linguistic factors will be considered; bilingualism, cultural transmission, and identity development through education. Students may not receive credit for EDS 117 and SOCI 117 and EDS 117GS.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Language, Culture, and Education",
     "code": "EDS 117GS",
     "description": "The mutual influence of language, culture, and education will be explored; explanations of students’ school successes and failures that employ linguistic and cultural variables will be considered; bilingualism and cultural transmission through education. This course is offered in Quito, Ecuador. It will integrate field experiences gained through organized class excursions and individual experiences of students. Program or materials fees may apply. Students may not receive credit for EDS 117GS and EDS 117 and SOCI 117.",
     "raw_prereq": "department approval. Students must apply and be accepted to the Global Seminar Program in order to enroll.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Adolescent Development and Education",
     "code": "EDS 118",
     "description": "This course introduces prospective secondary teachers to the cognitive, social, and emotional development of adolescents, including developmental learning theory, the teaching/learning process, effective learning environments, and cross-cultural variation in development. Implications for classroom practice are drawn.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "First and Second Language Learning: From Childhood through Adolescence",
     "code": "EDS/LIGN 119",
     "description": "An examination of how human language learning ability develops and changes over the first two decades of life, including discussion of factors that may affect this ability.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Design-Based Educational Research: A Field Experience for Improving San Diego Schools",
@@ -462,96 +430,84 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Foundations of Teaching and Learning Science",
     "code": "EDS 122/CHEM 187",
     "description": "Examine theories of learning and how they are important in the science classroom. Conceptual development in the individual student, as well as the development of knowledge in the history of science. Key conceptual obstacles in science will be explored.",
     "raw_prereq": "EDS 31/CHEM 87: Introduction to Teaching Science, Chemistry 6C.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Capstone Seminar in Science Education",
     "code": "EDS 123/CHEM 188",
     "description": "In the lecture and observation format, students continue to explore the theories of learning in the science classroom. Conceptual development is fostered, as well as continued development of knowledge of science history. Students are exposed to the science of teaching science in actual practice.",
     "raw_prereq": "EDS 122/CHEM 187.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching Computation in the Digital World",
     "code": "EDS 124AR",
     "description": "This online course develops educators’ knowledge base around aspects of the Digital World (e.g., digital devices, systems, networks; data and analysis) and their impacts (social, ethical, legal issues) and contributions to society. Projects introduce novice programming framework(s) and/or other online interfaces to explore and model issues. Prior programming experience is not required. This course is a distance education course.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching Computational Thinking for Everyone",
     "code": "EDS 124BR",
     "description": "Examine issues in computing education (e.g., access and equity). Conceptual and skill development with core programming concepts (flow of control, abstraction, algorithms) using a novice programming framework. Computer science teaching and assessment methods for deep understanding.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "History, Politics, and Theory of Bilingual Education",
     "code": "EDS 125",
     "description": "This course provides a historical overview and models of bilingual education in the United States. Students will examine sociocultural, theoretical, and policy issues associated with native language and second-language instruction, and legal requirements for public bilingual program.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Social Organization of Education",
     "code": "EDS 126",
     "description": "(Same as SOCI 126) The social organization of education in the United States; the relationship between society and the functions of education; the structure of schools; socialization and cultural transmission; equality/inequality; educational decision-making; educational curriculum and testing; formal and informal education. Students may not receive credit for both EDS 126 and SOCI 126.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Education Policy in the United States",
     "code": "EDS 127",
     "description": "An introduction to current education policy issues in the United States. Students will critically examine policies at the federal, state, and local levels, investigate the relationship between education policy, social context, and inequality, and develop skills to recommend policy changes and implementation strategies.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Teaching and Learning",
     "code": "EDS 128 A-B",
     "description": "This course series is for undergraduates who are exploring a career in elementary school teaching. Topics addressed include theories of teaching and learning; research on cognition and motivation; and the cultural context of classroom teaching and learning. EDS 128A focuses on the learner in the teaching-learning interaction and EDS 128B focuses on the teacher in the teaching-learning interaction.",
     "raw_prereq": "department approval required; EDS 139 must be taken as corequisite. EDS 130 or 131 or 133 or 135 or 136 or 137 or 145 or 146 must be completed before EDS 128A, and 128A for 128B. EDS 128A and EDS 128B are restricted for students applying to the EDS MEd/Multiple Subject Credential Program.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Teaching and Learning",
     "code": "EDS 129 A-B-C",
     "description": "This course series is for undergraduates who are exploring a career in teaching secondary school. Topics addressed include theories of teaching and learning processes and motivation for science, mathematics, English, and world language instruction. EDS 129A focuses on the analysis of the needs of individual learners and small group instruction techniques; EDS 129B emphasizes the various roles of the classroom teacher and planning individual lessons; and EDS 129C emphasizes the assessment of student work and longer-range curriculum planning.",
     "raw_prereq": "department approval required; EDS 139 must be taken as corequisite. Must have successfully completed EDS 135, 136, or 129A for 129B, and 129B for 129C. EDS 129B and 129C are restricted for students applying to the EDS MEd/Single Subject Credential Program.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Academic Mentoring of Elementary/School Students",
     "code": "EDS 130",
     "description": "This course focuses on the role of undergraduate mentors in raising academic expectations for students and families traditionally underrepresented at the university. The relationship between the school and community, the social and political organization of elementary schools, and the academic achievement of elementary children are examined.",
     "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Early Childhood Development and Education",
     "code": "EDS 131",
     "description": "This course investigates early child development (birth through eight years) and education and the role of high-quality early education on reducing inequities among diverse populations. Field experience and seminar focus on applying research and theory to experiences in early childhood classrooms (P–3).",
     "raw_prereq": "department approval. Students will need to fill out a placement form prior to getting approval to enroll in EDS 131. This form provides the course instructor with information to make the appropriate field placement; EDS 139 must be taken as a corequisite.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Counseling, Mentoring, and Academic Advising",
@@ -568,40 +524,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Working with Newcomer Communities in San Diego",
     "code": "EDS 135",
     "description": "This Partners at Learning (PAL) practicum course examines the history, policies, and practices that inform work with newcomers (recent refugees and immigrants) in the San Diego community. Students enrolled in the course will learn about the diverse groups of newcomers in San Diego and will complete their field hours in a variety of school and community settings.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Academic Tutoring of Secondary School Students",
     "code": "EDS 136",
     "description": "This course focuses on the role of undergraduate tutors in building academic resiliency in secondary students traditionally underrepresented at the university. The relationship between the school and community, the social and political organization of secondary schools, the philosophical, sociological, and political issues which relate to the US secondary educational system, and the academic achievement of secondary children are examined.",
     "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Discipline-Specific Teaching and Learning",
     "code": "EDS 137",
     "description": "This course examines effective practices for teaching and learning in specific academic content areas in PreK–12 school or community settings. The field experience and seminar focus on relationship building between mentors and learners, discipline-relevant teaching and learning processes, and community service.",
     "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Practicum in Teaching and Learning",
     "code": "EDS 139",
     "description": "Students are placed in local P–12 schools and community field sites to actively engage in face-to-face educational service work. Students spend a minimum of four hours per week consistently over the ten-week quarter for a minimum total of forty hours per quarter. P/NP grades only. May be taken for credit up to twelve times. Corequisites: One of the following courses must be taken concurrently: EDS 128A-B, or 129A-B-C, 130, 131, 133, 136, 137, 140, 141, 145, or 146.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Action Research in P–12 Schools",
@@ -651,8 +602,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Action Research in P–12 Education: Advanced Practicum in P–12 Schools and Communities",
@@ -678,16 +628,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Artsbridge: Integrating the Arts Across the Curriculum",
     "code": "EDS 145",
     "description": "In this course, students explore the role of the arts (dance, media arts, music, theatre, and/or visual arts) in P–12 education. A focus on STEAM (Science, Technology, Engineering, Arts, Mathematics), as well as the arts as a core subject, provide multiple perspectives on the arts and education. Students explore how arts activities enhance learning across the curriculum. The course explores issues of teaching, learning, creativity, communication, and social justice through the arts.",
     "raw_prereq": "department approval required; EDS 139 must be taken as a corequisite.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mindfulness and Education",
@@ -704,144 +652,126 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Professional Learning in Practice",
     "code": "EDS 149",
     "description": "This course is designed to provide additional support and mentorship to students enrolled in EDS 139 to ensure successful completion of field-based practicum experiences. May be taken for credit up to three times.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Chancellor’s Associates Scholars Program Transfer Introductory Course",
     "code": "EDS 150",
     "description": "This course facilitates academic success at a leading research university by helping students understand and embrace academic and curricular expectations, engage and map cocurricular opportunities, and strengthen critical thinking, organizational, interpersonal, and wellness skills. P/NP grades only.",
     "raw_prereq": "open to Chancellor’s Associates Scholars Program transfer students only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Climate Education for Climate Justice",
     "code": "EDS 155",
     "description": "Communities that have experienced cumulative disadvantage from historical inequalities and injustices are the most vulnerable to the impacts of climate change. As nation-states, policymakers, school districts, teachers, and parents converge on the importance of climate education—there is a need to ask what climate education ought to consist of, and to what end. This seminar will ask critical questions about climate education in the service of necessary cultural transformation for climate justice.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Building Equitable Learning Environments: Tools for Transformative Teaching",
     "code": "EDS 162",
     "description": "This course equips students with foundational skills to create transformative learning environments rooted in anti-racist and inclusive pedagogical frameworks. Students apply these frameworks to design and reflect on an innovative learning experience of their choice (e.g., a dynamic mini-lecture, interactive lesson plan, dance, video), with the instructor’s guidance. You will have opportunities to adapt and apply strategies that advance equity and excellence.",
     "raw_prereq": "upper-division or graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Early Childhood Policy: Children, Contexts, and Policies in Diverse Societies",
     "code": "EDS 164R",
     "description": "The focus of early childhood policy is to understand how the diverse policy contexts in which children are born and raised have dramatic implications for their life trajectories. This course examines how, when, and why government intervenes in children’s lives through family, pre-/school, community, and digital media contexts, in the aim to improve their trajectories. From this basis we examine the effects of policies on children locally, nationally, and internationally.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Psychology of Reading and Education",
     "code": "EDS 165",
     "description": "This course reviews theoretical models and processes of reading, history, nature of scripts (alphabetic, syllabic, morpho-syllabic), and the science of reading (brain/neuroscience); the cognitive relationships between signed/spoken language and print when learning to read across languages and home literacies. Word recognition, vocabulary, fluency, reading comprehension, and engagement within diverse communities (multilingual, neurodiverse, blind/deaf) are examined.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Education Studies",
     "code": "EDS 180",
     "description": "This course examines special topics in education from a variety of theoretical and pedagogical perspectives. Topics will address pertinent and current issues related to teaching and learning, with an emphasis on transforming education in a diverse society. Topics may vary based on faculty expertise and research. May be taken for credit up to four times.",
     "raw_prereq": "upper-division standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research Practicum",
     "code": "EDS 190",
     "description": "Supervised research studies with individual topics selected according to students’ special interests. Students will develop a research proposal and begin to gather and analyze data.",
     "raw_prereq": "consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Apprentice Teaching",
     "code": "EDS 195",
     "description": "Advanced EDS students are prepared in effective methods of supervising the preparation of UC San Diego students serving as paraprofessionals in K–12 classrooms. Topics covered include classroom management, interpersonal relations, supervision techniques, multicultural and multilingual education, politics in the school, and curriculum development. Each student serves as a discussion leader and conducts at least two workshops.",
     "raw_prereq": "consent of instructor and department approval.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "EDS 198",
     "description": "Directed group study, guided reading, and study involving research and analysis of activities and services in multicultural education, bilingual education, the teaching-learning process, and other areas that are not covered by the present curriculum. May be taken for credit up to ten times.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Special Studies",
     "code": "EDS 199",
     "description": "Individual guided reading and study involving research and analysis of activities and services in multicultural education, bilingual education, the teaching-learning process, and other areas that are not covered by the present curriculum.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching Impacts of Technology",
     "code": "EDS 324AR",
     "description": "This online course develops educators’ knowledge base around aspects of the digital world (e.g., digital devices, systems, networks, data and analysis, algorithms) and their impacts (social, ethical) and contributions to society. Prior programming experience is not required.",
     "raw_prereq": "upper-division or graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computational Thinking and Block-Based Programming",
     "code": "EDS 324BR",
     "description": "Examine issues in computing education (e.g., access and equity). Conceptual and skill development with core programming concepts (flow of control, abstraction, algorithms) using a novice programming framework. Computer science teaching and assessment methods for deep understanding.",
     "raw_prereq": "upper-division or graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Learn to Teach Java",
     "code": "EDS 324CR",
     "description": "Examine issues in teaching and learning of programming in Java with a focus teaching of secondary-level students. Teaching and learning of algorithms; data structures and representation; searching and sorting; basic software design processes and impacts on society. Developing an educational infrastructure and professional community that supports computing in traditional K-12 environments. Experience with block-based programming is recommended.",
     "raw_prereq": "upper-division or graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching Methods in Computer Science",
     "code": "EDS 324DR",
     "description": "Provides pedagogical and content knowledge and experiences to be an effective computer science teacher in the K-12 setting. Misconceptions in programming, teaching debugging, development of differentiated programming assignments, use of Use, Modify, Create approach, pedagogy, and classroom engagement practices for supporting student success. Experience teaching any programming language in the K-12 setting is recommended. Learning to teach Java is also recommended.",
     "raw_prereq": "upper-division or graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CS for All: Teaching Computer Science Foundations in Elementary Grades",
     "code": "EDS 324ER",
     "description": "This online course develops elementary educators’ knowledge base specifically around K-5 level computer science student standards, both in programming and beyond programming. Activities and projects support choice of focus on specific grade bands, as well as exploration and evaluation of various curricula. Prior experience with block-based programming is recommended.",
     "raw_prereq": "upper-division or graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "ASL-English Bilingual Education Practices",
     "code": "EDS 342A",
     "description": "Students will examine the history, current theory, philosophy, legislation, and trends in deaf education. Methods of first- and second-language development, communication, and literacy skills for deaf and hard-of-hearing children will be introduced.",
     "raw_prereq": "must be an ED76 major. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "ASL-English Bilingual Education Practices",
@@ -875,8 +805,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "ASL-English Bilingual Education Practices",
@@ -906,32 +835,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Deaf Education Specialist Student Teaching Practicum",
     "code": "EDS 349",
     "description": "Education specialist credential candidate performs student teaching in participating schools for a minimum of seven weeks full-time under the supervision of a cooperating teacher and university supervisor. The field experience provides professional preparation and diversified teaching responsibilities for postbaccalaureate students pursuing the California Deaf and Hard of Hearing Specialist and BCLAD Credential.",
     "raw_prereq": "must be an ED76 major, Teaching and Bilingual Education (ASL-English)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching the English Language Learner",
     "code": "EDS 351",
     "description": "Students will examine the principles of second language acquisition and approaches to bilingual education. They will develop a repertoire of strategies for teaching in elementary or secondary content areas.",
     "raw_prereq": "ED76 or ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Bilingual Instructional Practices I",
     "code": "EDS 352A",
     "description": "First course in a three-course sequence. Provides a theoretical and practical grounding in various pedagogical techniques for teaching in bilingual settings. Course covers principles of bilingualism and bilingual pedagogy; transfer between primary and target languages as appropriate to the language(s) of emphasis. Candidates study methods for teaching primary and target languages in a variety of program models; curriculum/assessment practices; and approaches for interacting with families/communities.",
     "raw_prereq": "ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship. Department approval for all other students required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Bilingual Instructional Practices II",
@@ -948,8 +873,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bilingual Instructional Practices III",
@@ -966,8 +890,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Mathematics Teaching Practices for Grades K–6",
@@ -984,8 +907,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Mathematics Teaching Practices for Grades K–6",
@@ -1015,8 +937,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Mathematics Teaching Practices for Grades K–6",
@@ -1033,24 +954,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Education Specialist Teaching Practicum",
     "code": "EDS 359",
     "description": "The education specialist credential candidate performs clinical practice (fieldwork and student/intern teaching) in participating schools for a minimum of 120 hours over the course of the quarter under the supervision of a school district guide teacher and a university supervisor. The clinical practice experience offers professional preparation for MEd/Multiple Subject credential candidates pursuing the California Preliminary Education Specialist Teaching Credential.",
     "raw_prereq": "must be an ED78 major: Affirmed Education Specialist Credential candidate at UC San Diego who has advanced to student teaching or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Innovative Instructional Practices I",
     "code": "EDS 361A",
     "description": "First course in a three-course sequence. It provides pedagogical methods for multiple-subject teaching. Diverse subject areas (math, science, fine arts, P.E., and social studies) are integrated into a single intercurricular course of study by emphasizing activity/inquiry techniques of instruction.",
     "raw_prereq": "must be an ED76 major: Teaching and Learning Bilingual Education (ASL-English) or ED78 major only for Elementary Multiple Subject candidate who has advanced to student teaching. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Innovative Instructional Practices II",
@@ -1067,8 +985,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Innovative Instructional Practices III",
@@ -1085,16 +1002,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Instructional Planning and Assessment",
     "code": "EDS 368",
     "description": "This course is designed to provide multiple subject credential candidates with support and mentorship to ensure successful completion of all California Multiple Subject Teaching Credential requirements. May be taken for credit up to three times.",
     "raw_prereq": "ED78 majors for Elementary Multiple Subjects only.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Multiple Subject",
@@ -1111,8 +1026,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Multiple Subject",
@@ -1138,8 +1052,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Multiple Subject",
@@ -1165,8 +1078,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Multiple Subject",
@@ -1183,8 +1095,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Multiple Subject",
@@ -1201,8 +1112,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Multiple Subject",
@@ -1219,64 +1129,56 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Secondary History-Social Science Teaching Practices",
     "code": "EDS 371",
     "description": "Introduces prospective secondary teachers to principles and strategies of teaching history-social science by applying social science theory to classroom practice. Requires instructors to demonstrate the ability to teach state-adopted content standards in history-social science while enabling students to learn and use analytic thinking skills aligned with the California state standards.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "World Language Teaching Practices",
     "code": "EDS 372",
     "description": "Proficiency-oriented language teaching techniques, including project-based and communicative approaches, developing student knowledge and appreciation of the cultures and societies in which the target language is spoken, the use of technology to support instruction aligned to the California academic content standards.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Secondary English Teaching Practices",
     "code": "EDS 373",
     "description": "The course introduces prospective secondary teachers to principles and strategies of teaching English language arts. Topics include writing processes, reading processes, integrated language arts, assessment, the second language learner, the classroom community, the California English Language Arts Framework.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Secondary Mathematics Teaching Practices",
     "code": "EDS 374",
     "description": "Mathematics teaching techniques, including curriculum design, California Model Curriculum Standards, instructional methods, computer applications, selection and use of textbooks, student assessment, lesson planning, and classroom organization. Professional matters including curriculum planning, professional organizations, para-professionals, professional ethics, education law, and parent involvement are addressed.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Secondary Science Teaching Practices",
     "code": "EDS 375",
     "description": "Science teaching techniques, including science curriculum design, California Model Curriculum Standards, instructional methods, computer applications, selection and use of textbooks, student assessment, lesson planning, and classroom organization. Professional matters including curriculum planning, professional organizations, paraprofessionals, professional ethics, education law, and parent involvement are addressed.",
     "raw_prereq": "ED78 Single Subject major only. Affirmed Single Subject candidate at UC San Diego who has advanced to internship or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Language and Learning Instruction",
     "code": "EDS 376",
     "description": "This course satisfies the California Commission on Teacher Credentialing requirement for preparation in reading theory and methods for all credential candidates. Theories of reading development, integration of the language arts, reading and writing in the content areas, teaching methods, and literature.",
     "raw_prereq": "ED78 Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Instructional Planning and Assessment",
     "code": "EDS 378",
     "description": "This course is designed to provide secondary credential candidates with content-specific support and mentorship to ensure successful completion of all California Single Subject Teaching Credential requirements. May be taken for credit up to three times.",
     "raw_prereq": "ED78 majors for Single Subjects only.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Single Subject",
@@ -1293,8 +1195,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Single Subject",
@@ -1320,8 +1221,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Single Subject",
@@ -1347,8 +1247,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Single Subject",
@@ -1365,8 +1264,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Single Subject",
@@ -1392,8 +1290,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Single Subject",
@@ -1423,80 +1320,70 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Health Education",
     "code": "EDS 381",
     "description": "This course satisfies the Commission on Teacher Credentialing requirement for Health Education. Topics include physical education, substance abuse, sex education, cardio-pulmonary resuscitation, nutrition, and first aid.",
     "raw_prereq": "ED78 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Inclusive Educational Practices",
     "code": "EDS 382",
     "description": "This course satisfies the Commission on Teacher Credentialing requirements for Special Education. Topics include teaching methods for accommodating special-needs students in the regular classroom, developing an Individual Education Plan, characteristics of special-needs students, lesson planning to accommodate individual differences, and legislated mandates.",
     "raw_prereq": "ED78 or ED81 major: Elementary Multiple Subject or Single Subject candidates at UC San Diego who have advanced to student teaching or internship and department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Deaf Education Practices",
     "code": "EDS 384",
     "description": "Students will investigate advanced topics of formal and informal assessment techniques used for deaf and hard of hearing children, bilingual and multicultural education practices across the curriculum, effective learning environments, and approaches for educating and interacting with families and communities.",
     "raw_prereq": "must be an ED78 major: Affirmed Education Specialist Credential candidate at UC San Diego who has advanced to student teaching or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Elementary School Mathematics Content and Pedagogy",
     "code": "EDS 385",
     "description": "Examines the underlying mathematical concepts of the elementary school mathematics curriculum and related pedagogical implications for teaching. Topics include number concepts, algebraic thinking, geometry, and data collection and analysis.",
     "raw_prereq": "students must be ED78 majors: MEd/Elementary-Multiple Subject Credential candidates who have advanced to student teaching or internship. (MS-2).",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Resources for Teaching and Learning",
     "code": "EDS 201",
     "description": "This course introduces students to educational resources, both in print and online. Students compile and evaluate research studies, curricular materials, and instructional approaches in preparation for future projects in developing and evaluating various approaches to teaching and learning.",
     "raw_prereq": "students must be registered EDS graduate students (ED 76, 77, 78, 79, 80).",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Technology, Teaching, and Learning",
     "code": "EDS 203",
     "description": "This course will review current literature on effective applications of technology in the classroom. Students will also become fluent in the use of productivity tools, presentation software, and web development for teaching and learning; critique software relevant to their area of teaching; and develop an educational activity based on their review of the literature that harnesses the power of technology.",
     "raw_prereq": "students must be registered EDS graduate students (ED 76, 77, 78, 79, 80).",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Technology and Professional Assessment",
     "code": "EDS 204",
     "description": "Advanced techniques for using network-based resources for teaching and learning will be introduced. Students will review relevant research on advanced technologies related to assessment of professional performance and student achievement. Students will present a web-based professional Teaching Performance Assessment Portfolio that reflects teaching performance during their student teaching or internship field experience. Students will not receive credit for both EDS 204 and EDS 204R.",
     "raw_prereq": "students must be registered as an MEd/Credential graduate student (ED78).",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Technology and Professional Assessment",
     "code": "EDS 204R",
     "description": "Advanced techniques for using network-based resources for teaching and learning will be introduced. Students will review relevant research on advanced technologies related to assessment of professional performance and student achievement. Students will present a web-based professional Teaching Performance Assessment Portfolio that reflects teaching performance during their student teaching or internship field experience. This course is a distance education course. Students will not receive credit for both EDS 204 and EDS 204R.",
     "raw_prereq": "students must be registered as an MEd/Credential graduate student (ED78).",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Reflective Teaching Practice",
     "code": "EDS 205A",
     "description": "This course introduces principles and practices of reflective teaching. Student teachers and interns will systematically document their practice teaching and analyze observation data to improve performance. Students will collaborate with supervisors and expert teachers throughout the yearlong preservice teaching experience.",
     "raw_prereq": "students must be registered EDS graduate students.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Reflective Teaching Practice",
@@ -1513,80 +1400,70 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Teaching Performance Assessment Portfolio",
     "code": "EDS 206",
     "description": "This course introduces the use of a Teaching Performance Assessment Portfolio for assessment of teaching performance. Student teachers and interns will design an electronic portfolio that demonstrates acceptable performance on essential credential standards. National Board of Professional Teaching Standards will also be introduced. Students will not receive credit for both EDS 206 and EDS 206R.",
     "raw_prereq": "students must be registered EDS graduate students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching Performance Assessment Portfolio",
     "code": "EDS 206R",
     "description": "This course introduces the use of a Teaching Performance Assessment Portfolio for assessment of teaching performance. Student teachers and interns will design an electronic portfolio that demonstrates acceptable performance on essential credential standards. National Board of Professional Teaching Standards will also be introduced. This course is a distance education course. Students will not receive credit for both EDS 206R and EDS 206.",
     "raw_prereq": "students must be registered EDS graduate students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Educational Resources",
     "code": "EDS 229",
     "description": "This course prepares K–12 teacher-researchers to design, implement, and evaluate classroom research. Students learn how to access and evaluate research studies, curricular materials, and instructional approaches both online and in print.",
     "raw_prereq": "students must be registered ED75 majors.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research in Curriculum Design",
     "code": "EDS 230A-B-C",
     "description": "A yearlong course sequence, which provides an extensive overview of curriculum, design principles appropriate for K–12 instruction. Consensus and model building methods will be discussed using case studies of curriculum research and development projects appropriate for various subject areas and grade levels. Participants will design, implement, and evaluate a curriculum project in their own classrooms.",
     "raw_prereq": "must be ED75 major or consent of instructor. (F,W,S)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Instructional Practices",
     "code": "EDS 231",
     "description": "Selected advanced topics in K–12 instructional practices in various subject areas. Techniques for teaching higher-level cognitive processes and advanced applications of computers and other technology will be stressed. Participants will conduct a field study of promising teaching practices appropriate to their grade level(s) and subject area(s) of instruction.",
     "raw_prereq": "must be ED75 major or consent of instructor. (Su)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Education",
     "code": "EDS 232",
     "description": "This course explores topical issues in education. It focuses on recent developments that have broad implications for research and practice in teaching and learning. Course topics will vary each time the course is offered.",
     "raw_prereq": "ED75 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Education Research and Design",
     "code": "EDS 233A",
     "description": "Current topics and issues in education and educational research methodology, including action research, participant observation, ethnography, and survey research. This is the first in a two-course series.",
     "raw_prereq": "ED79 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Education Research and Design",
     "code": "EDS 233B",
     "description": "Current topics and issues in education and educational research methodology, including action research, participant observation, ethnography, and survey research. This is the second in a two-course series.",
     "raw_prereq": "EDS 233A: ED79 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research in ASL-English Bilingual Education",
     "code": "EDS 240A",
     "description": "A three-course sequence in which participants conduct an overview of research and design and conduct a study related to bilingual, bicultural education for deaf children.",
     "raw_prereq": "ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research in ASL-English Bilingual Education",
@@ -1603,80 +1480,70 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Research in ASL-English Bilingual Education",
     "code": "EDS 240C",
     "description": "A three-course sequence in which participants conduct an overview of research and design and conduct a study related to bilingual, bicultural education for deaf children.",
     "raw_prereq": "EDS 240A/EDS 240B, and ED76 major: Teaching and Learning Bilingual Education (ASL-English) or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "EDS First-Year Doctoral Seminar",
     "code": "EDS 246",
     "description": "The seminar is held during the first year of doctoral study. Introduces program requirements, resources, and faculty. Examines epistemologies, interests, and identities to support the development of a research agenda.",
     "raw_prereq": "department approval required; first-year EDS PhD students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research Rotation Experience",
     "code": "EDS 247",
     "description": "Introduces students to a variety of research experiences. The course will be led by different EDS faculty members and designed around the current academic needs of the student’s research team. Provides a formal process for faculty/student mentoring as related to collaborative research. May be taken for credit up to four times.",
     "raw_prereq": "department approval required; EDS PhD students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Equity in Higher Education",
     "code": "EDS 249",
     "description": "This graduate-level course is aimed at providing students with an opportunity to learn about institutional transformation and equity in higher education.",
     "raw_prereq": "graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Equitable Educational Research and Practice",
     "code": "EDS 250",
     "description": "This course introduces students to research studies and educational practices of educational equity, both in general and within specific content areas. Research studies relevant to educational equity will be examined, as will practices that have attempted to enable all students to achieve to the best of their abilities.",
     "raw_prereq": "students must be registered EDS graduate students.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Transforming Learning Environments(4)",
     "code": "EDS 251",
     "description": "This course explores formal and informal learning environments with documented records of successful student engagement. Using an array of curriculum and learning theories, students investigate new and traditional pedagogical practices, curricula, and learning environments for elements of transformative practices. Students critique current literature on teaching for change as it applies to the contexts they chose to study and identify new possibilities for teaching and learning in diverse student contexts. Letter grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Transforming Inequities in Student Outcomes",
     "code": "EDS 252",
     "description": "The course focuses on factors that shape the unequal distribution of educational opportunities for marginalized groups. Students will interrogate societal and school structures and underlying sociocultural processes that impact engagement and outcomes for marginalized groups or students. Students will explore theories on student success and failure, family and community connections, and identity formation in relation to transforming outcomes. Letter grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Transforming Educational Systems and Policy",
     "code": "EDS 253",
     "description": "This course exposes students to past and present systemic policies that influence the practices and efficiency of the P–20 system. Students will explore the barriers and facilitators of successful policy interventions at the local, state, and federal levels of education policy. Attention is given to each segment of the educational continuum, exposing students to strategies for transforming the educational system to ensure equitable opportunities to learn and achieve.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Research Design and Quantitative Data Analysis",
     "code": "EDS 254",
     "description": "Introduction to quantitative concepts, descriptive statistics, and fundamentals of statistical inference in social science. Emphasis on applying statistical concepts—how to select the appropriate statistical techniques, execute those techniques, examine assumptions necessary for the techniques to work appropriately, interpret analytic results, and summarize findings in a professional manner. Hands-on computer-based practice of quantitative analyses will be an integral part of the course. Letter grades only.",
     "raw_prereq": "doctoral students in education ED82 or MSED major ME75 or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Quantitative Data Analysis",
@@ -1693,8 +1560,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Mixed Methods Research Design and Analysis",
@@ -1715,48 +1581,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Case Study Research",
     "code": "EDS 257",
     "description": "This course will guide doctoral students in conducting rigorous case study research in the social sciences and the field of education. The course will address case study design, data collection, data analysis, and reporting. This will be accomplished through training on these stages of case study research. It will also provide hands-on experience designing case studies and analyzing case study data. The course will equip students with all the necessary tools to conduct independent case studies. Letter grades only.",
     "raw_prereq": "ED82 and ED79 majors, or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communicating Research",
     "code": "EDS 259",
     "description": "Universities are exploring new ways to convey the relevance of research directly to interested stakeholders beyond the academy. In this course, students will learn and practice a variety of strategies and tools for communicating their scholarship to a range of audiences, actively participate in discussion of education equity and access, and coconstruct meaningful partnerships with education stakeholders. S/U grades only. May be taken for credit two times.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communicating Research and Reviewing Literature",
     "code": "EDS 259A",
     "description": "This course will support students in learning how to write a systematic literature review and other foundational elements for developing research proposals and publishable articles. S/U grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communicating Research for Broad Audiences",
     "code": "EDS 259B",
     "description": "This course will support advanced PhD students in learning how to communicate research findings in various formats for different audiences including researchers, practitioners, policymakers, and the broader public. S/U grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Educational Research and Evaluation Design",
     "code": "EDS 260A",
     "description": "This course integrates a variety of social and behavioral science perspectives and research methodologies in examining topics of central relevance to education. Students have opportunities to design and apply to educational-research questions a variety of methodologies, including survey, interview, ethnographic, case study, video data analysis, and discourse analysis methods. This is the first of a three-course series.",
     "raw_prereq": "admission into the EdD program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Educational Research and Evaluation Design",
@@ -1773,8 +1633,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Educational Research and Evaluation Design",
@@ -1791,16 +1650,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Research and Evaluation Methods",
     "code": "EDS 261A",
     "description": "This course addresses more advanced topics in research design and methodology. Students hone the requisite research skills to conduct dissertation research. Students gain varied hands-on experiences in collecting and analyzing data relevant to schooling, as well as learn how to develop, manage, and analyze large data files. Students create a research agenda and develop skills needed in proposal writing: development, organization and coherence, conceptualization of research design, and attention to audience and writing style. This is the first of a three-course series.",
     "raw_prereq": "admission into the EdD program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Research and Evaluation Methods",
@@ -1817,8 +1674,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Research and Evaluation Methods",
@@ -1835,16 +1691,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dissertation Writing Seminar",
     "code": "EDS 262A",
     "description": "This seminar provides an opportunity for doctoral candidates to present and critique in-progress dissertation research and writing. Topics addressed will also include writing for professional publications and presenting research findings to varied audiences. This is the first of a three-course series.",
     "raw_prereq": "admission into the EdD program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Dissertation Writing Seminar",
@@ -1861,8 +1715,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dissertation Writing Seminar",
@@ -1879,48 +1732,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Developmental Theory and Culture",
     "code": "EDS 263",
     "description": "This seminar will examine basic approaches to the study of human development, drawing on theory, research, and methods from multiple disciplines to study how children and adults develop within the context of cultural communities. It includes discussion of cultural practices as mediators on developmental outcomes, notions of universals and diversity, and individualism and familism. We will discuss the complex ways that individual and sociocultural factors interact in learning and development.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Qualitative Analysis",
     "code": "EDS 264",
     "description": "This course provides an introduction to qualitative approaches in education research. Students explore various qualitative methods and analytic strategies and gain hands-on experiences analyzing qualitative data collected on topics relevant to the study of education. The assigned readings include scholarship on the philosophical underpinnings and practice of qualitative research and varied examples of published qualitative research studies.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Qualitative Methods",
     "code": "EDS 265",
     "description": "This course series addresses special topics in education research and data analysis. Students explore a faculty-specified qualitative research method and analytic approach. Approaches may include case studies, video analysis, mixed methods, naturalistic observations, ethnography, and netnography. The assigned readings include scholarship on the practice and philosophical underpinnings of the specified qualitative research approach and examples of published qualitative studies.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Quantitative Methods",
     "code": "EDS 266",
     "description": "This course series addresses special topics in quantitative education research and data analysis. Students explore a faculty-specified quantitative research method and analytic approach. Approaches may include social network analysis, hierarchical linear modeling, latent class analysis, and structural equation modeling. The readings include scholarship on the practice and philosophical underpinnings of the specified quantitative research approach and examples of published quantitative studies. Letter grades only.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Contexts for Teaching and Change",
     "code": "EDS 267",
     "description": "This seminar integrates a range of perspectives to understand the contexts of teaching and change. There are three main foci: 1) how the profession of teaching in PK–16 is shaped by factors in the broader policy, political, and social context; 2) change, change agentry, and obstacles to change in educational institutions; 3) design-based research models to effect changes in the context of teaching. An international comparative approach is critical to consider levers for educational improvement. Letter grades only.",
     "raw_prereq": "restricted to PhD (ED82) and EdD (ED79) students, or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Critical Race Theory and Education",
@@ -1950,112 +1797,98 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Diverse College Students",
     "code": "EDS 269",
     "description": "This course is aimed at providing students with an opportunity to develop a better understanding of theory and research focused on college students. Students will gain increased levels of knowledge about areas of critical research on students in higher education, and apply this knowledge to envision innovating efforts aimed at the improvement of higher education policy and practice.",
     "raw_prereq": "graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership and Equity in Educational Reform",
     "code": "EDS 270",
     "description": "This course provides a framework for understanding school reform movements that integrates relevant theory and research from a number of academic disciplines.",
     "raw_prereq": "admission into the EdD program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Education and Culture",
     "code": "EDS 272",
     "description": "This course examines schooling from an anthropological perspective, focusing on the impact of social and cultural forces on teaching and learning in US public schools using comparative materials from other societies and settings.",
     "raw_prereq": "admission into the EdD program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Talking Culture, Culture Talking: Voices of Diversity",
     "code": "EDS 278/COGR 278",
     "description": "This course explores the discourse of culture in American society and the problem of “silenced” or unheard voices. The interaction of individual and collective voice, language, and identity are discussed as they bear on the ways that culture moves through important social institutions such as schools. Of particular interest are issues of teaching, learning, displacement, inclusion, marginality, and the “speaking center.”",
     "raw_prereq": "graduate status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Campus Activism",
     "code": "EDS 279",
     "description": "This course is focused on providing students with a better understanding of the relationship between social movements and higher education systems. In this course, students will engage with literature from a wide range of fields, including sociology, political science, ethnic studies, and education in order to learn about the ways in which people study social movements and activism in higher education.",
     "raw_prereq": "graduate-level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Rethinking Leadership",
     "code": "EDS 280",
     "description": "This course will present the evolution of leadership thought and theory, with an emphasis on the distinction between, and interrelatedness of, effective management and leadership. The ethics of leadership practice and epistemological perspectives of emerging leadership styles will be explored, and students will have opportunities to reflect on the nature of leadership as it is practiced in educational settings. Applying critical, self-reflective leadership practice through structured activities is also an element of this course.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership for Learning",
     "code": "EDS 281",
     "description": "This course will explore various models of curriculum and instruction in response to students’ learning needs. It also will examine models of school organization and the leader’s role and responsibility in developing a school culture that promotes student achievement, using evidence-based decision making. A major emphasis will be on evaluating research on which theories and practice are based.",
     "raw_prereq": "Joint EdD in Educational Leadership student status (ED81).",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership for a Diverse Society",
     "code": "EDS 282",
     "description": "This course will address theories and practices for achieving schools and classrooms that are informed by and built around the participation of diverse communities and cultures. The emphasis is on how leadership intersects with sociohistorical and sociocultural theories that suggest that the organization of schools and instruction is critical to student inclusion and outcomes. A basic premise of this course is that a socially just learning theory begins with using all of the resources and knowledge of families, communities, and cultures in formulating policy and practice.",
     "raw_prereq": "Joint EdD in Educational Leadership student status.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership for Organizational Change",
     "code": "EDS 283",
     "description": "This course will present multiple theories of organizational change, explore group processes and identify models of decision making, and analyze human motivation theories. Establishing and nurturing a purpose-driven organization, while dealing with competing demands, will be discussed. A major emphasis in this course is on people as agents of change and on the creation of high-quality ethical and productive workplaces where employees can achieve success and satisfaction, while advancing the mission of the educational organization.",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Leadership for Organizational Development",
     "code": "EDS 284",
     "description": "This course will investigate the skills and dispositions needed for students to lead the development of learning organizations. Faculty will teach and model concepts of working with people within educational organizations and programs. Emphasis will be placed on individual’s team development and facilitation, organizational communications, adult learning, and professional development.",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership for the Future",
     "code": "EDS 285",
     "description": "This course addresses interdisciplinary influences on leadership practice within learning organizations. Contributions from scholars in futures’ studies, including those influenced by modernism and postmodernism, will be used to explore topics such as long-range planning, demographic trends, technology, and brain theory.",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Leadership",
     "code": "EDS 286",
     "description": "This course explores topical issues in the field of leadership. It focuses on recent developments that have broad implications for research and practice in educational leadership. Course topics will vary each time the course is offered.",
     "raw_prereq": "Joint EdD in Educational Leadership student status.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Educational Research and Evaluation Design A",
     "code": "EDS 287A",
     "description": "This course integrates a variety of social and behavioral science perspectives and research methodologies in examining topics of central relevance to education. Students have opportunities to learn a variety of quantitative and/or qualitative methodologies. Letter grades only. EDS 287A is one of three courses in the series.",
     "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Educational Research and Evaluation Design B",
@@ -2072,8 +1905,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Educational Research and Evaluation Design C—Qualitative Methods",
@@ -2099,40 +1931,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Research and Evaluation Methods A—Quantitative Methods",
     "code": "EDS 288A",
     "description": "This first course in a three-course series focuses on the importance of data interpretation. Students hone the requisite research skills to conduct dissertation research as it pertains to gathering, collecting, analyzing, and reporting quantitative data in a meaningful way. This course provides an overview of data use in educational systems as well as an introduction to survey design and inferential statistics. Students create a research agenda to develop skills needed in proposal writing. Letter grades only. EDS 288A is one of three courses in the series.",
     "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Research and Evaluation Methods B—Qualitative Methods",
     "code": "EDS 288B",
     "description": "This course focuses on student’s skill development in qualitative research with emphasis on designing qualitative studies. Students will learn and practice the core qualitative data collection approaches of observing and interviewing. Letter grades only. EDS 288B is one of three courses in the series.",
     "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Research and Evaluation Methods C—Quantitative Methods",
     "code": "EDS 288C",
     "description": "This course focuses on analyzing quantitative data. Students will deepen knowledge and skill on data collection and analysis and use data to prepare and report findings. Students will also explore other research methods of their choosing and will develop and conduct a small pilot study relevant to dissertation topics. Letter grades only. EDS 288C is one of three courses in the series.",
     "raw_prereq": "EDS doctoral student (ED81 or ED82) or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Dissertation Writing Seminar",
     "code": "EDS 289A",
     "description": "This seminar provides an opportunity for doctoral candidates to present and critique in-progress dissertation research and writing. Topics addressed will also include writing for professional publications and presenting research findings to varied audiences. This is the first in a four-course series.",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Dissertation Writing Seminar",
@@ -2149,8 +1976,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dissertation Writing Seminar",
@@ -2167,8 +1993,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dissertation Writing Seminar",
@@ -2185,24 +2010,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Research Practicum",
     "code": "EDS 290",
     "description": "Supervised research studies with individual topics selected according to students’ special interests. Students will develop a research proposal appropriate for MA thesis, begin to gather and analyze data.",
     "raw_prereq": "MA candidate and consent of instructor. (S/U grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership Research Practicum",
     "code": "EDS 291A",
     "description": "Students use their placements in local schools and educational settings to examine leadership research and practice topics raised in the Leadership core courses and Research and Evaluation Design/Methods courses. This is the first in a three-course series.",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Leadership Research Practicum",
@@ -2219,24 +2041,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Qualifying Paper Preparation",
     "code": "EDS 292",
     "description": "This course will provide students with time, resources, and guidance for the purpose of developing a review of literature on a student-related topic, which typically becomes the focus of the dissertation research project. Students will be expected to use a variety of research tools in order to discover and identify relevant information.",
     "raw_prereq": "Joint EdD in Educational Leadership student status. (S/U grade permitted)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Advanced Leadership Research Practicum",
     "code": "EDS 293A",
     "description": "Students use their placements in local schools and educational settings to examine leadership research and practice topics raised in the Leadership core courses and Research and Evaluation Design/Methods courses. This is the first course in a three-course series.",
     "raw_prereq": "Joint EdD in Educational Leadership student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Leadership Research Practicum",
@@ -2253,16 +2072,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Colloquium on Educational Leadership",
     "code": "EDS 294A",
     "description": "Program faculty and visiting lecturers present leadership research in progress. Serves as a forum to discuss current research in educational leadership. This is the first course of a two-course series.",
     "raw_prereq": "graduate student status or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Colloquium on Educational Leadership",
@@ -2279,55 +2096,48 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MA Thesis",
     "code": "EDS 295",
     "description": "Research for the master’s thesis (Educational Research) or curriculum design portfolio thesis (Curriculum Design). Open for repeated registration up to eight units (S/U grade only).",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research Advisory Course",
     "code": "EDS 296",
     "description": "The RAC will provide a structured environment for mentoring that is designed around the current academic needs of each student. The RAC also provides support for the analysis and write-up of dissertation research. S/U grades only. May be repeated for credit up to eighteen times for a maximum of 120 units.",
     "raw_prereq": "ED82 major or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "EDS 297",
     "description": "Study and analysis of specific topics under the guidance of a faculty member. Offered for repeated registration.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "EDS 298",
     "description": "Individual guided study and/or independent research in an area not covered by present course offerings. Offered for repeated registration.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Dissertation Research",
     "code": "EDS 299",
     "description": "Directed research on dissertation topic for students who have been admitted to candidacy for the EdD or PhD program. May be taken for credit up to four times for a maximum of forty-eight units.",
     "raw_prereq": "admission into the EdD or PhD program (major codes ED81 and ED82) and consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Apprentice Teaching in Education",
     "code": "EDS 500",
     "description": "The course, designed for graduate students serving as teaching assistants in teacher education courses, includes discussion of teaching theory and practice, instructional materials, organization of discussion sections, liaison with participating schools, and methods of evaluation/grading under the supervision of the instructor of the course. S/U grades only. May be taken for credit five times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

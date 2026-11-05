@@ -198,6 +198,12 @@ export function currentTermDates(today: string = todayISO()): TermDates | undefi
   return inSession ?? terms.find(t => t.instructionStart > today);
 }
 
+// The selected term's dates when it's listed above; otherwise whichever term
+// currentTermDates picks from today's date.
+export function termDates(term?: string | null, today: string = todayISO()): TermDates | undefined {
+  return (term ? TERM_DATES[term] : undefined) ?? currentTermDates(today);
+}
+
 // Finals-week ISO dates when no current term applies -- the fixed June-2025
 // reference week the planner grid used before term dates drove the finals view.
 const FINALS_FALLBACK = [
@@ -206,10 +212,10 @@ const FINALS_FALLBACK = [
 ];
 
 // ISO dates for finals week, indexed by FinalInfo.colIdx (0 = Monday of finals
-// week ... 5 = Saturday), derived from the current term's finalsMonday. Falls
-// back to the fixed reference week once today is past the last listed term.
-export function finalsWeekISO(today: string = todayISO()): string[] {
-  const cal = currentTermDates(today);
+// week ... 5 = Saturday), derived from the selected term's finalsMonday (see
+// termDates). Falls back to the fixed reference week once no term applies.
+export function finalsWeekISO(term?: string | null, today: string = todayISO()): string[] {
+  const cal = termDates(term, today);
   if (!cal) return FINALS_FALLBACK;
   return Array.from({ length: 6 }, (_, i) => addDaysISO(cal.finalsMonday, i));
 }

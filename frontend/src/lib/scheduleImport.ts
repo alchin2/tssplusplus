@@ -40,16 +40,19 @@ export interface ResolvedImport {
   misses: { code: string; sectionCode: string; reason: MissReason }[];
 }
 
-// Injectable for tests; defaults to the real API client.
+// Injectable for tests; apiDeps(term) below is the real API client.
 interface ResolveDeps {
   fetchCoursesByDept: (dept: string) => Promise<Course[]>;
   fetchDetail: (moduleId: string) => Promise<{ sections: Section[] }>;
 }
 
-const defaultDeps: ResolveDeps = {
-  fetchCoursesByDept: dept => fetchCourses({ dept, offered: true }),
-  fetchDetail: moduleId => fetchCourseDetail(moduleId),
-};
+// The real API client, scoped to the planner's selected term.
+export function apiDeps(term: string | null): ResolveDeps {
+  return {
+    fetchCoursesByDept: dept => fetchCourses({ term, dept, offered: true }),
+    fetchDetail: moduleId => fetchCourseDetail(moduleId, term),
+  };
+}
 
 // Resolves parsed pairs into planner-ready items. Fetches offered courses once
 // per subject (normalized-code exact match, since the backend's substring
@@ -57,7 +60,7 @@ const defaultDeps: ResolveDeps = {
 // "COGS 118D"), then pulls each course's sections and matches by section code.
 export async function resolveScheduleImport(
   pairs: ImportPair[],
-  deps: ResolveDeps = defaultDeps,
+  deps: ResolveDeps,
 ): Promise<ResolvedImport> {
   const matched: PlannedItem[] = [];
   const misses: ResolvedImport["misses"] = [];

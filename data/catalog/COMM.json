@@ -4,88 +4,77 @@
     "code": "COMM 10",
     "description": "This course is an introduction to the history, theory, and practice of communication. Topics covered include language literacy, representation, semiotics, mediated technologies, institutional formations, and social interaction. Course work may involve media production (for example, writing, video and media production, or performance). No credit for COMM 10 if taken after COMM 10R.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Communication",
     "code": "COMM 10R",
     "description": "This course is an introduction to the history, theory, and practice of communication. Topics covered include language literacy, representation, semiotics, mediated technologies, institutional formations, and social interaction. Course work may involve media production (for example, writing, video and media production, or performance). This is a distance education course. No credit for COMM 10R if taken after COMM 10.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Analysis of Audio/Visual Media: Form, Style, and Meaning",
     "code": "COMM 20",
     "description": "This course builds the critical skills to understand, analyze, interpret audio/visual media by introducing students to the basic vocabulary and grammar of audio and moving image texts—how they create meaning through compositional form and narrative style—and key critical methodologies for interpreting media culture. Concepts covered will lay the groundwork for continued study in scholarly communication areas and hands-on sound, film/video, and/or social media production. No credit for COMM 20 if taken after COMM 20R.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
     "code": "COMM 30",
     "description": "The role of digital communication in a democratic system, and the ways mass media both facilitate and inhibit the development of a viable public sphere. By exploring today’s digital communication dynamics, students will have the opportunity to become more mindful, active consumers of media and to feel empowered to be engaged participants in public life.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Global Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
     "code": "COMM 30GS",
     "description": "This course focuses on the role of journalism in a global system, and the ways mass media both contribute to and inhibit the development of a viable public sphere and effective political process. With a focus on American as well as international news media, we will examine theories and functions of journalism as well as current issues facing today’s news producers.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Promotional Communication",
     "code": "COMM 40",
     "description": "A critical-cultural communication introduction to fields of practice that publicize, promote, or increase awareness of brands, ideas, products, and causes. Exploration of public communication industries and practices, the pressures that shape these industries and practices, and their implications for culture and society. Course will address major promotional industries such as advertising, public relations, marketing, and social media.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Presenting and Public Speaking",
     "code": "COMM 50",
     "description": "This course covers the basics of communication in public and professional settings. Students will cultivate their own speaking style while developing skills in delivery, performance, and persuasion. They will learn how to create a slide deck as well as prepare for speeches, interviews, and Q and As.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Environmental Justice",
     "code": "COMM 65",
     "description": "This course examines how people disproportionately impacted by environmental harms mobilize across identities including race and immigration status for environmental justice where they live, work, and play. Drawing on social movements, scientific studies, and legal cases, we will explore theories and practices of race, nature, and climate change.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Communication",
     "code": "COMM 75",
     "description": "Introductory study in the discipline of communication, covering foundational skills and topics in areas like culture, technology, science communication, activism, and the environment. Topic and description are determined by the instructor and provided by the department quarterly.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Public Presentation and Persuasion—Speech and Debate",
     "code": "COMM 80",
     "description": "Throughout history, important advances in a democratic society have emerged most often from civil, rigorous discussion, debate, and persuasion. Students develop research, critical thinking, presentation, public speaking, and argumentation skills through in-class practice speeches and debates, along with participation in intercollegiate speech and debate tournaments. May be taken for credit up to six times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "First-year Student Seminar",
     "code": "COMM 87",
     "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication, the Person, and Everyday Life",
@@ -102,40 +91,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Communication, Culture, and Representation",
     "code": "COMM 100B",
     "description": "This course is a critical introduction to the history of representation, surveying a range of theories and methods that have been used to understand and shape representational practices. The course will focus on relationships between form and content across various representational genres in shifting cultural contexts. Course work may integrate scholarly study with production (e.g., image-making or video/media production). No credit for COMM 100BR if taken after COMM 100B.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication, Culture, and Representation",
     "code": "COMM 100BR",
     "description": "This course is a critical introduction to the history of representation, surveying a range of theories and methods that have been used to understand and shape representational practices. The course will focus on relationships between form and content across various representational genres in shifting cultural contexts. Course work may integrate scholarly study with production (e.g., image-making or video/media production). This is a distance education course. No credit for COMM 100B if taken after COMM 100BR.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication, Institutions, and Power",
     "code": "COMM 100C",
     "description": "This course is a critical introduction to structures of communication formed at the intersection of the state, the economy, and civil society. It includes a historical survey of communication and media industries; legal and policy-based arenas; and civic, political, and social organizations. Students will learn to assess the movement of power through these institutions and its effect in shaping society, culture, and politics. No credit for COMM 100C if taken after COMM 100CR.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication, Institutions, and Power",
     "code": "COMM 100CR",
     "description": "This course is a critical introduction to structures of communication formed at the intersection of the state, the economy, and civil society. It includes a historical survey of communication and media industries; legal and policy-based arenas; and civic, political, and social organizations. Students will learn to assess the movement of power through these institutions and its effect in shaping society, culture, and politics. This is a distance education course. No credit for COMM 100CR if taken after COMM 100C.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Audiovisual Media Practices",
@@ -152,8 +136,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Production of Activist Media",
@@ -195,8 +178,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MPL: Nonlinear/Digital Editing",
@@ -222,8 +204,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "MPL: Ethnographic Methods for Media Production",
@@ -244,8 +225,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MPL: Documentary Sketchbook",
@@ -266,8 +246,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "MPL: Communication and Computers",
@@ -284,8 +263,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MPL: Sound Production and Manipulation",
@@ -311,8 +289,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "MPL: Topics in Production",
@@ -342,8 +319,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "MMPP: Audio Story and Podcasting Practicum",
@@ -364,24 +340,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MMPP: Practicum in New Media and Community Life",
     "code": "COMM 102C",
     "description": "A combined lecture/lab in a specially designed after-school setting in southeastern San Diego working with children and adults. Students design new media and produce special projects, and explore issues related to human development, social justice, and community life. May be taken for credit three times.",
     "raw_prereq": "none",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "MMPP: Practicum in Child Development",
     "code": "COMM 102D",
     "description": "A combined lecture/lab course on after-school learning, social change, and community-based research. Students are expected to participate in a supervised after-school setting at one of four community labs in San Diego County. Students will learn ethnographic field methods, develop culturally relevant curriculum, and work in diverse settings. May be taken for credit three times.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "MMPP: Studio Television",
@@ -411,8 +384,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MMPP: Television Analysis and Production",
@@ -442,8 +414,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MMPP: Television Documentary",
@@ -473,8 +444,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CM: Documentary History and Theory",
@@ -491,8 +461,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CM: History of Electronic Media",
@@ -509,8 +478,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMS: Asia",
@@ -527,8 +495,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMS: Europe",
@@ -545,8 +512,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMS: Africa",
@@ -563,8 +529,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMS: Latin America and the Caribbean",
@@ -581,16 +546,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMS: Europe",
     "code": "COMM 104GS",
     "description": "This course focuses on analyzing media systems in Europe from a comparative perspective and sensitizes students to important differences with respect to journalistic and political cultures. Students will explore political, social, and economic factors shaping particular media systems and assess their implications for different types of political reporting.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CT: Video Game Studies",
@@ -607,8 +570,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CT: Mobile Communication",
@@ -625,8 +587,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CT: Photographic Technologies",
@@ -643,8 +604,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Media Industries",
@@ -682,8 +642,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Streaming Media Industries",
@@ -721,8 +680,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data and AI Industries",
@@ -760,8 +718,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CI: Film Industry",
@@ -778,8 +735,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CI: Tourism: Global Industry and Cultural Form",
@@ -796,8 +752,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CI: Internet Industry",
@@ -814,8 +769,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Advertising and Society",
@@ -853,32 +807,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Journalism and the News Industry",
     "code": "COMM 106N",
     "description": "Survey the development of journalism as a profession and news media as an industry and social institution. How to understand the production of news, the forces that shape social representations in the news, access to the public sphere, and approaches to the analysis of news media content. Debates about ethical issues in journalism, “objectivity” and the politics of news, and the sustainability of journalism as an institution. No credit for COMM 106N if taken after COMM 106NR.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Journalism and the News Industry",
     "code": "COMM 106NR",
     "description": "Survey the development of journalism as a profession and news media as an industry and social institution. How to understand the production of news, the forces that shape social representations in the news, access to the public sphere, and approaches to the analysis of news media content. Debates about ethical issues in journalism, “objectivity” and the politics of news, and the sustainability of journalism as an institution. This is a distance education course. No credit for COMM 106NR if taken after COMM 106N.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "TV Industry",
     "code": "COMM 106V",
     "description": "This course asks how visual images contribute to our understanding of the world and ourselves. The course will apply theoretical approaches from media studies, art history, gender studies, and social theory to analyze cultures of science, art, mass media, and everyday life. No credit for COMM 106V if taken after COMM 106VR.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Visual Culture",
@@ -895,8 +845,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "POB: Introduction",
@@ -913,8 +862,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "POB: Disability",
@@ -931,8 +879,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Politics of Bodies: Gender and Biomedicine",
@@ -949,8 +896,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MC: History of Information",
@@ -967,8 +913,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "MC: Propaganda and Persuasion",
@@ -985,8 +930,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "LLC: Communication in Organizations",
@@ -1003,8 +947,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "LLC: Communication and Community",
@@ -1021,8 +964,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "LLC: Language and Human Communication",
@@ -1039,8 +981,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "LLC: Language, Thought, and Media",
@@ -1057,8 +998,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Texting and Talking",
@@ -1096,8 +1036,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CCP: Communication and Cultural Production: Introduction",
@@ -1114,16 +1053,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CCP: Global Borders: Communication and Conflict",
     "code": "COMM 111B",
     "description": "Across the globe, geopolitical borders are charged sites of cross-cultural communication and conflict. While borders are commonly conceived as fixed physical demarcations, in this course we will examine borders as sites of exchange, as contested boundaries where diverse actors and practices converge and diverge, and as complex historical and socio-spatial formations that call into question presumed divisions between inside/outside, us/them, human/nonhuman, and technological/ecological.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CCP: Cities and Politics of Space",
@@ -1140,8 +1077,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CCP: Folklore and Communication",
@@ -1158,8 +1094,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CCP: Popular Culture",
@@ -1176,8 +1111,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CCP: Performance and Cultural Studies",
@@ -1194,8 +1128,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CCP: Cultural Politics of Sport",
@@ -1212,8 +1145,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "IM: The Idea of Childhood",
@@ -1239,8 +1171,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "IM: Language and Globalization",
@@ -1257,8 +1188,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Intermediate Topics in Communication",
@@ -1275,24 +1205,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CSI: Human Rights, Communication, and Contemporary Global Justice",
     "code": "COMM 114A",
     "description": "How should we as global citizens respond to the horrifying human rights abuses that saturate news headlines and social media posts? How do communication practices, the right to information, freedom of expression, and media and journalists function within the contemporary human rights regime? Examine human rights protections—against genocide, torture, enslavement, political persecution, gender violence, and climate displacement—and their violation through case studies from 1945 to the present.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CSI: Communication and Social Institutions: Human Rights Advocacy: Journalists, Activists and Scholars at Risk",
     "code": "COMM 114B",
     "description": "How should we respond to the continued violation of human rights to exercise freedom of expression and to engage in open inquiry and social justice actions without fear of persecution? Students will gain a practical understanding of the mechanisms through which different actors fight for human rights by researching and/or participating in an international human rights advocacy campaign on behalf of a specific journalist, activist, or scholar at risk of expulsion, imprisonment, or death.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CSI: On Constitutions",
@@ -1309,8 +1236,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: New Media, Youth, and Democracy",
@@ -1327,8 +1253,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Gender, Labor, and Culture in the Global Economy",
@@ -1345,8 +1270,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Law, Communication, and Freedom of Expression",
@@ -1376,8 +1300,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Gender and Science",
@@ -1394,8 +1317,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Media Technologies and Social Movements",
@@ -1412,8 +1334,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CSI: Food Justice",
@@ -1430,16 +1351,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CSI: Community Fieldwork",
     "code": "COMM 114K",
     "description": "Specialized study in community-based and/or participatory design research with topics to be determined by the instructor, for any given quarter. Students who choose the option to do fieldwork for any given course, need to register for COMM 114K. May be taken for credit three times.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "",
@@ -1456,8 +1375,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Communication and the Law: The Body in Law",
@@ -1474,8 +1392,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Public History and Museum Studies",
@@ -1492,8 +1409,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Science Communication",
@@ -1510,8 +1426,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CSI: Global Health Communication",
@@ -1537,8 +1452,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication and the Senses",
@@ -1555,8 +1469,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Science for Communication Students",
@@ -1594,8 +1507,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Journalistic Writing, Reporting, and Research",
@@ -1633,8 +1545,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Action Cinema",
@@ -1672,8 +1583,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Comic Books as a Cultural Form",
@@ -1711,8 +1621,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Television as a Cultural Form",
@@ -1750,8 +1659,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Persuasion",
@@ -1768,8 +1676,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "AMP: Social Issues in Media Production",
@@ -1803,8 +1710,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "AMP: Media Stereotypes",
@@ -1838,8 +1744,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "AMP: News Media Workshop",
@@ -1873,8 +1778,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "AMP: Digital Media in Education",
@@ -1908,8 +1812,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "AMP: Writing for Digital Media",
@@ -1943,8 +1846,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Critical Design Practice/Advanced Studio",
@@ -1990,8 +1892,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Critical Design Practice/Topic Studio",
@@ -2008,16 +1909,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Skills in Communication",
     "code": "COMM 125",
     "description": "Focused study on a skill set relevant to the field of communication, determined by the instructor. Topic and description to be provided by the department. Potential topics include professional writing, nonfiction writing, photojournalism, qualitative data analysis, community organizing, community education, and campaign management.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Children and Media",
@@ -2051,8 +1950,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Problem of Voice",
@@ -2086,8 +1984,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Race, Nation, and Violence in Multicultural California",
@@ -2121,8 +2018,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Creative Labor in the Media Industries",
@@ -2160,8 +2056,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication, Dissent, and the Formation of Social Movements",
@@ -2195,8 +2090,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Communication, Politics, and Society",
@@ -2230,8 +2124,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Television and Citizenship",
@@ -2265,8 +2158,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Media Audiences",
@@ -2300,8 +2192,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Contemporary Minority Media Makers and the Festival Experience",
@@ -2335,8 +2226,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Transmedia",
@@ -2370,8 +2260,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Black Women Filmmakers",
@@ -2405,8 +2294,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Black Women, Feminism, and Media",
@@ -2440,8 +2328,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Examining Marvel’s Black Panther",
@@ -2475,8 +2362,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cinema in Latin America",
@@ -2510,8 +2396,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Film Authorship",
@@ -2545,24 +2430,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Science Fiction",
     "code": "COMM 143",
     "description": "This course focuses on science fiction’s critical investigation of history, identity, and society across a range of media forms, including film, television, and literature. No credit for COMM 143 if taken after COMM 143R.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Science Fiction",
     "code": "COMM 143R",
     "description": "This course focuses on science fiction’s critical investigation of history, identity, and society across a range of media forms, including film, television, and literature. This is a distance education course. No credit for COMM 143R if taken after COMM 143.",
     "raw_prereq": "junior or senior standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "American Television in the 1970s",
@@ -2596,8 +2478,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "History, Memory, and Popular Culture",
@@ -2631,8 +2512,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Cultural Production",
@@ -2666,8 +2546,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Media Activism",
@@ -2705,8 +2584,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Global Cultures of K-Pop",
@@ -2748,8 +2626,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Southern California in Cinema",
@@ -2779,8 +2656,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "The Information Age: Fact and Fiction",
@@ -2814,8 +2690,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "News Media and Politics",
@@ -2853,8 +2728,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Architecture as Communication",
@@ -2888,16 +2762,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Latinx Space, Place, and Culture",
     "code": "COMM 155",
     "description": "This diversity, equity, and inclusion course requirement approved course explores the power of place in the formation and representation of Latinx identities and communities in Southern California. It highlights past and current struggles to recuperate and sustain a sense of place for marginalized and displaced peoples against the colonization and racialization of formerly indigenous and Mexican territory. Students conduct research in various locations at the center of the cultural politics of Latinx place-making.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Media and Conflict Environment: Textual and Visual Representations",
@@ -2931,8 +2803,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Representations of the Israeli/Palestinian Conflict",
@@ -2966,8 +2837,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Tourism and Imperialism",
@@ -3001,8 +2871,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Political Economy and International Communication",
@@ -3036,8 +2905,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Advanced Studies in Cultural Industries",
@@ -3071,8 +2939,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Concepts of Freedom",
@@ -3106,8 +2973,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Behind the Internet: Invisible Geographies of Power and Inequality",
@@ -3141,8 +3007,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Surveillance, Media, and the Risk Society",
@@ -3176,8 +3041,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bilingual Communication",
@@ -3211,8 +3075,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biography and Life Stories",
@@ -3246,16 +3109,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Environmental Communication",
     "code": "COMM 171",
     "description": "Survey of the communication practices found in environment controversies. The sociological aspects of environmental issues will provide background for the investigation of environmental disputes in particular contested areas, such as scientific institutions, communities, workplaces, governments, popular culture, and the media.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Mediation and Interaction",
@@ -3289,8 +3150,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Interaction with Technology",
@@ -3324,8 +3184,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication and Social Machines",
@@ -3359,8 +3218,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cultures of Consumption",
@@ -3394,8 +3252,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication and Religion",
@@ -3429,8 +3286,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Culture, Domination, and Resistance",
@@ -3464,8 +3320,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication and Nonhuman Animals",
@@ -3499,8 +3354,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Studies in Communication Theory",
@@ -3534,8 +3388,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Citizen Consumers",
@@ -3569,8 +3422,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Education and Global Citizenship",
@@ -3604,8 +3456,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Global Economy and Consumer Culture",
@@ -3639,8 +3490,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Global Nature/Global Culture",
@@ -3674,8 +3524,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication for Indigenous Justice",
@@ -3709,8 +3558,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Junior Seminar in Communication",
@@ -3744,8 +3592,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Junior Seminar in Communication",
@@ -3779,32 +3626,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Research Seminar in Washington, D",
     "code": "COMM 194",
     "description": "(Same as POLI 194, USP 194, HITO 193, SOCI 194, and COGS 194) Course attached to six-unit internship taken by students participating in the UCDC program. Involves weekly seminar meetings with faculty and teaching assistants and a substantial research paper.",
     "raw_prereq": "participation in UCDC program.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Communication Instructional Assistant",
     "code": "COMM 195",
     "description": "Under the supervision of an instructor, a student undergraduate instructional apprentice (UGIA) will assist in the instruction of a communication course. The COMM UGIA will attend the lectures of the course and hold weekly meetings with students of the course and with the course instructor. Responsibilities may include class presentations, designing and leading weekly discussions, assisting with homework and exam grading, and monitoring and responding to online discussion posts.",
     "raw_prereq": "limited to junior or senior students with a 3.0 GPA or higher. Successful completion of the course for which you would like to be a UGIA with at least an A–, preferably with the same instructor. Student must submit an application for the undergraduate instructional apprentice position through ASES, and receive the approval of the department, instructor, department chair, and Academic Senate.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Seminar in Communication I: Methods",
     "code": "COMM 196A",
     "description": "Preparation of an honors thesis, which can be either a research paper or a media production project. Open to students who have been admitted to the honors program. Grades will be awarded upon completion of the two-quarter sequence.",
     "raw_prereq": "admission to the departmental honors program.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Honors Seminar in Communication II: Research",
@@ -3821,24 +3664,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Directed Group Study in Communication",
     "code": "COMM 198",
     "description": "Directed group study on a topic or in a field not included in the regular curriculum by special arrangement with a faculty member. May be taken three times for credit.",
     "raw_prereq": "consent of instructor. (P/NP grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study in Communication",
     "code": "COMM 199",
     "description": "Independent study and research under the direction of a member of the faculty. May be taken three times for credit.",
     "raw_prereq": "consent of instructor. (P/NP grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Project Completion",
@@ -3864,160 +3704,140 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to the Study of Communication as Social Force",
     "code": "COGR 200A",
     "description": "This course focuses on descriptive and analytical approaches to the political economy of communication and social organization of media institutions. Texts will emphasize the complex structure of communication industries (historically and cross-nationally) and will examine causal and theoretical relationships between social structures, media institutions, public opinion, consumption, and voting. Restricted to major code CM75.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Study of Communication: Communication and Culture",
     "code": "COGR 200B",
     "description": "This course focuses on questions of interpretation and meaning. This course will examine how people use texts to interpret the world and coordinate their activities in social groups. Students will study both theories of interpretation in the conventional sense and theories about the act of interpreting. Restricted to major code CM75.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to the Study of Communication: Communication and the Individual",
     "code": "COGR 200C",
     "description": "This course will draw on theorists who examine human nature as constituted by social, material, and historical circumstances. This course considers the media in relation to the ontogenetic and historical development of the human being and an examination of the individual as socially constituted in a language-using medium. The role of new communication technologies as part of research methodologies is explored in lecture-seminar. Restricted to major code CM75.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Ethnographic Methods for Communication Research",
     "code": "COGR 201B",
     "description": "A supervised and coordinated group project will allow students to develop competence in a variety of ethnographic approaches to communication. Subjects covered include choosing a fieldwork site, setting or process for participation; entry and development of relationships; techniques of observation, interviewing, note taking, and transcription. Course may also include photography and video as research tools. All participant observation and interviewing strategies fall under the review of the Committee on Human Subjects.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Discourse Analysis",
     "code": "COGR 201C",
     "description": "Review and critique of studies employing discourse analysis, focusing on the ways that “discourse” is identified, recorded, and reported. A working notion of discourse will develop from works representing diverse disciplinary approaches. Students will record, transcribe, and report on segments of talk in an everyday setting. All participant observation and interviewing strategies fall under the review of the Committee on Human Subjects.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Historical Methods for Communication Research",
     "code": "COGR 201D",
     "description": "Different approaches to conducting historical research in communication. Such approaches may include the social history of communication technology; structuralist and poststructuralist accounts of language, media, and collective memory; and new historicist treatments of cultural history. Sources, documentation, and the nature of argument from historical evidence are emphasized.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Comparative Analysis",
     "code": "COGR 201J",
     "description": "The logic of comparative analysis and its role in communication research. Scientific inference in qualitative research. Selection of cases. Problems of translation across cultures.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Qualitative Analysis of Information Systems",
     "code": "COGR 201L",
     "description": "Historical and ethnographic studies of information systems—the design and use of information and communication technologies in their social, ethical, political, and organizational dimensions. Objects of study range from the invention of file folders to email use and distributed databases as communication systems.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Content Analysis",
     "code": "COGR 201M",
     "description": "History uses methodology of quantitative analysis of media content. Includes conceptual issues concerning the quantification of meaning and practical procedures for coding and data analysis. Students read examples of studies using content analysis and carry out their own pilot analyses.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Genealogical Analysis",
     "code": "COGR 201N",
     "description": "Training in genealogical analysis based on Foucault and Nietzsche. Weekly exercises in genealogical methods, and class discussions of findings. A final paper: a genealogy of an object, practice, utterance, or discourse.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Information and Society",
     "code": "COGR 210",
     "description": "The social, legal, and economic forces affecting the evolution of mass communication institutions and structure in the industrialized world. Differential impacts of the free flow of information and unequal roles and needs of developed and developing economies.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Memory Practices",
     "code": "COGR 211",
     "description": "Examines theories of social and distributed memory—Maurice Halwachs to Ed Hutchins, John Sutton, and nature of the archive (Foucault and Derrida), reading databases (as memory prostheses), beginning with Manovich’s work. Enquiry into mediated nature of memory practices.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Regulation of Telecommunications",
     "code": "COGR 215",
     "description": "The course will look at the history of, and rationales for, the regulation of mass communications in the United States. The course will cover both broadcasting and common carrier regulation. We will analyze telecommunications regulatory structures as they were constituted historically with the 1934 Communications Act and examine their breakdown in the late 1970s. In a larger vein, the course will examine the rise and functions of regulatory agencies in modern American history.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Discourse and Organizations",
     "code": "COGR 219",
     "description": "A central part of organizational life is talk, interaction both in formal and informal meetings and social situations. In this course we will examine the discourse of organizations, drawing on conversational analysis, discourse analysis, and the sociology of organizations.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "The News Media",
     "code": "COGR 220",
     "description": "History, politics, social organization, and ideology of the American news media. Special attention will be paid to historical origins of journalism as a profession and “objective reporting” as ideology; empirical studies of print and TV journalism as social institutions; and news coverage of Vietnam and its implications for theories of the news media.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication Law and Policy",
     "code": "COGR 223",
     "description": "This course examines the legal and policy framework for free speech in the United States. We cover First Amendment case law, free speech theory, copyright, and the different legal and regulatory treatment historically accorded print, broadcasting, cable television, telephone, and internet.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Science Studies: Part 1",
     "code": "COGR 225A",
     "description": "Study and discussion of classic themes and texts in history of science, sociology of science, and philosophy of science, and of work that attempts to develop an interdisciplinary science studies approach.",
     "raw_prereq": "enrollment in the Science Studies Program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Science Studies",
     "code": "COGR 225B",
     "description": "Study and discussion of a selected topic in the science studies field with an emphasis on the development of research and writing skills. The topic varies from year to year.",
     "raw_prereq": "enrollment in the Science Studies Program or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Colloquium in Science Studies",
     "code": "COGR 225C",
     "description": "A forum for the presentation and discussion of research in progress in science studies by graduate students, faculty, and visitors. Students must attend the colloquium series for their entire first and second years. They receive course credit in one quarter each year.",
     "raw_prereq": "enrollment in the Science Studies Program.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Science Studies Part II",
@@ -4051,319 +3871,279 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Performance Theory",
     "code": "COGR 237",
     "description": "Course is designed to introduce graduate students to the disciplinary, intellectual, and artistic genealogies of performance studies that bring together critical work from the fields of anthropology, art history, communication, critical gender studies, ethnic studies, film studies, literature, and theatre studies.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "The Frankfurt School on Mass Culture Social Theory",
     "code": "COGR 238",
     "description": "This reading seminar will consider works by Frankfurt School theorists (Horkheimer, Adorno, Pollock, Lowenthal, Marcuse, Benjamin, Habermas) on mass media, mass culture, ideology, art, authority and the individual, and their relevance in the analysis of contemporary capitalism.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computer Game Studies",
     "code": "COGR 239",
     "description": "Course considers computer games as media, rule systems, technology, and sites of communication. Approaches include hands-on play and reading material from a variety of disciplinary perspectives. Course encompasses both commercial games and the longer, more diverse academic and independent traditions.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "The Culture of Consumption",
     "code": "COGR 240",
     "description": "(Cross-listed with HIGR 273.) This course will explore the development and cultural manifestations of consumerism in the nineteenth and twentieth centuries. Topics will include the rise of museums, the development of mass market journalism and literature, advertising, and the growth of commercial amusements. Readings will focus primarily, but not exclusively, on the United States. Students will be encouraged to think comparatively.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Geography and Communication",
     "code": "COGR 241",
     "description": "Geographies as media of political cultural communication. Not simply mapping but also territorial engineering as a way of constituting geographical significance. Cross-mapping practices—intersecting representational practices—as political forms of communication. Geographies as visual practices of power.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Globalization",
     "code": "COGR 242",
     "description": "Examination of historical and contemporary reorderings of space, time, and experience through culture and commerce, social movements, war and trade, communication institutions and practices. Considers various disciplinary modes of analyzing the forms of life produced by these processes as well as the possibilities for intervention and transformation.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Media Technologies",
     "code": "COGR 243",
     "description": "Media technologies from books to electronic media. Consideration of both technological design processes and shifting uses of media. Reflection on media and broader patterns of technological innovation. Attention to the distinctive role of media in technological change.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Cultural Studies",
     "code": "COGR 244",
     "description": "Course traces theoretical approaches to the study of culture from the Birmingham School to poststructuralist critiques of power, resistance, consumption, and pleasure. Students combine critical theory and empirical research in order to interpret the cultural politics of everyday life.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Science and Technology Studies and Communication",
     "code": "COGR 245",
     "description": "Course explores human-technology interaction, social constructivism, actor-network theory, gender and technology, critical and cultural studies of science and technology, and public understandings of science and technology. Emphasis on what STS can contribute to the study of media and communication.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Playable Media",
     "code": "COGR 246",
     "description": "Course provides an introduction to the design, evaluation, and development of media that invite and structure play. This includes digital and nondigital games, as well as related forms. Exercises, readings, and projects are required.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Writing for Media",
     "code": "COGR 247",
     "description": "Course explores the potential and constraints specific to writing for one or more media forms. Approaches include writing exercises, studying media, reading theoretical and historical texts, and project work.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Visual Culture",
     "code": "COGR 248",
     "description": "The visual is an increasingly important component of communication in everyday life. This course covers post-1968 theories of visual culture in domains such as art, film, news, the media, popular culture, medicine, sciences, and many other aspects of everyday life.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Third World Cinema Screening",
     "code": "COGR 250",
     "description": "Course examines the historical impetus, development, and construction of “Third Cinema”—a particular style of media making in Africa, Latin America, and Asia. An interdisciplinary approach interrogates how Third Cinema influences world cinema of today. Additional screening session required.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Media Theory",
     "code": "COGR 251",
     "description": "Theories of the media considered in a historical and comparative context from the rise of preprint reproduction technologies to the digital age. Focuses on communication processes and practices in terms of formality, technology, the politics of subjectivity, and institutions.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Race and Racism",
     "code": "COGR 252",
     "description": "Seminar focuses on race as a social, phenomenal, historical, and political formation. The seminar will address the historical emergence and theorization of race and the contemporary ways in which race/racism is a modern principle of social division, exclusion, and political mobilization.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Cultural Study of Music and Sound",
     "code": "COGR 253",
     "description": "Seminar will focus on music and sound as social, aesthetic, historical, can political formations and phenomena. The relationship between musical and extramusical forces will be examined. This course intensively addresses cultural politics of sound/music making, hearing and performance.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Intellectual Property",
     "code": "COGR 254",
     "description": "The conceptual and regulatory boundaries of intellectual property law are increasingly challenged by technological change and by ownership claims over non-Western forms of creativity. Course focuses on those challenges from three interrelated perspectives: historical, philosophical, and political.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Studies in Political Theory",
     "code": "COGR 255",
     "description": "Considers classical and contemporary texts in primarily western political thought with an eye toward understanding how such theory is and/or might be brought to bear in grounding different approaches and agendas in the study of communication.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Postcolonial Theory",
     "code": "COGR 256",
     "description": "This course provides an overview of intellectual and political thought developed through decolonization struggles in Africa and the Caribbean, and the subsequent emergence of postcoloniality from subaltern studies in the 1980s to contemporary work shaped by globalization and neoliberal philosophies.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication and Social Theory",
     "code": "COGR 257",
     "description": "Social theory forms the theoretical foundation for much work in communication, including political communication, questions of the public and public opinion, propaganda and ideology. The course will consider Marx, Weber, Durkheim, Simmel, Dewey, Habermas, the Frankfurt School and its critics.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Language in Human Communication",
     "code": "COGR 258",
     "description": "In this course language is broadly conceived as a medium of communication, expressed multimodally. Among the topics of this course are origins of speech and gesture, culture and language, language and social practice, and language in performance.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Space, Place, and Media",
     "code": "COGR 259",
     "description": "The course focuses on built environments and the production of space from an interdisciplinary, perspective, using the critical and methodological tools of communication, anthropology, geography, history, psychology, political science, and urban studies.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mediational Approaches to Culture/Mind",
     "code": "COGR 261",
     "description": "This course will examine theories of mind in which cultural mediation is given a leading role. The work of anthropologists, psychologists, and communication scholars will be studied in depth. Emphasis will be placed on the methodological implication of cultural theories of mind for empirical research.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Geographies of Difference, Exclusion and Conflict",
     "code": "COGR 262",
     "description": "This seminar focuses on how differences between groups of people, and the patterns of power, exclusion and conflict resulting from such differences, become embedded in geographical landscapes. The course examines place-based sites of difference, power, and conflict beginning with the map, and moving through such spatial environments as the body, the city, the nation, the landscape, the reservation, culminating in borderland conflict here in our own backyard.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Writing Research Proposals",
     "code": "COGR 263",
     "description": "This course is an introduction to the art of writing a research proposal. We will concentrate on proposals for ethnographic fieldwork, although the skills learned will be useful for many other purposes. The proposal writing process will be broken into component parts. Class time will be spent discussing these parts in greater detail and commenting on one another’s work. By the end of the quarter students will have produced a research proposal of their own.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Feminisms in Critical Dialogue",
     "code": "COGR 264",
     "description": "This course introduces students to feminist scholarship by providing a theoretical and political history of the field. It considers the ways in which such scholarship has expanded, in part due to contests over the basis of feminist knowledge production. It takes into account points of contention and dialogue highlighting challenges from Black, indigenous, people of color, and queer theorists, including demands for attention to factors like intersectionality and performativity.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Communication",
     "code": "COGR 275",
     "description": "Specialized study in communication, with topics to be determined by the instructor for any given quarter.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Talking Culture, Culture Talking: Voices of Diversity",
     "code": "COGR 278",
     "description": "(Cross-listed with EDS 278). This course explores the discourse of culture in American society and the problem of silenced or unheard voices. The interaction of individual and collective voice, language, and identity are discussed as they bear on the ways that culture moves through important social institutions such as schools. Of particular interest are issues of teaching, learning, displacement, inclusion, marginality, and the speaking center.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Workshop in Communication Media",
     "code": "COGR 280",
     "description": "This course is a project course in which students prepare a production or experiment using one of the forms of media. The course is designed to allow students to experiment in a communication form other than the usual oral presentation in class or a term paper. Students can do a video production, a coordinated photographic essay or exhibit, a computer instructional game, a published newspaper or magazine article directed at a special audience, a theatrical presentation, or some form other than those listed.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Understanding Everyday Life",
     "code": "COGR 281",
     "description": "In this course we review how we might go about studying and thinking about the everyday life both as a concept and as a domain of study. The course will have a balance of both theoretical and empirical work.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Reading and Memory",
     "code": "COGR 282",
     "description": "Approaching reading from a historical perspective, the course concentrates on two analytic frames to connect memory to texts: ideas about “the memory palace,” locating memories in things, and figured worlds theory, treating objects as forms of intellectual scaffolding and memory.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Political Economy",
     "code": "COGR 283",
     "description": "Political economy is an older interdisciplinary approach explaining how the state, political environment, law, and economic system influence one another. The course engages classic texts, with attention to issues in the political economy of communication toward the end.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Time",
     "code": "COGR 284",
     "description": "This seminar will introduce key issues and readings in our understanding of time. Time is historical, not natural. We will examine ways that modern time structures and orders human interaction.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Ethnography Practicum",
     "code": "COGR 285",
     "description": "This course offers students a primer in ethnographic research. We examine all parts of the ethnographic process: from the concept work of project formulation and design to practical issues around the conduct of ethnographic research. This course is intended for graduate students at any stage of ethnographic research. Students may not receive credit for ANTH 287 and COGR 285 and ETHN 287.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "The History of Communication Research",
     "code": "COGR 294",
     "description": "Intellectual history of the field of communication studies from Robert Park to the present. Explication and assessment of major research approaches and classic studies representing both empirical and critical traditions.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communication Research as an Interdisciplinary Activity",
     "code": "COGR 296",
     "description": "A course that introduces students to the interdisciplinary nature of the field of communication research as represented by the work of faculty in the Department of Communication. Through faculty research, students are presented with concrete examples of communication research theory and practice that can provide them with insights for conducting their own research projects.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "COGR 298",
     "description": "The study and analysis of specific topics to be developed by a small group of graduate students under the guidance of an interested faculty member.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Research",
     "code": "COGR 299",
     "description": "Advanced independent study in communication under the guidance of Department of Communication faculty.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Practice Teaching in Communication",
     "code": "COGR 500",
     "description": "A doctoral student in communication is required to assist in teaching undergraduate Department of Communication courses for a total of six quarters. One meeting per week with the instructor, one meeting per week with the assigned sections, and attendance at the lecture of the undergraduate course in which he or she is participating are part of this requirement.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

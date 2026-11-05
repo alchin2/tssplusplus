@@ -2,9 +2,11 @@ import { useCallback, useMemo, useRef, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import type { DayHeaderContentArg, EventClickArg, EventContentArg } from "@fullcalendar/core";
+import { useTerm } from "../hooks/useTerm";
+import { finalsWeekISO } from "../lib/academicCalendar";
 import { fmt, fmtRange, splitRoom } from "../lib/schedule";
 import {
-  FIN_INITIAL_DATE, REG_INITIAL_DATE,
+  REG_INITIAL_DATE,
   buildFinalsEvents, buildRegularEvents,
   type PlannerEventProps,
 } from "../lib/plannerEvents";
@@ -39,6 +41,7 @@ export function PlannerView({ mode, items, onSelectCourse }: {
   onSelectCourse?: (courseId: string) => void;
 }) {
   const finalsMode = mode === "finals";
+  const term = useTerm();
   const [highlightId, setHighlightId] = useState<string | null>(null);
 
   // FullCalendar only re-measures on window resize; the page container also
@@ -58,8 +61,8 @@ export function PlannerView({ mode, items, onSelectCourse }: {
   }, []);
 
   const events = useMemo(
-    () => (finalsMode ? buildFinalsEvents(items) : buildRegularEvents(items)),
-    [items, finalsMode],
+    () => (finalsMode ? buildFinalsEvents(items, term) : buildRegularEvents(items)),
+    [items, finalsMode, term],
   );
 
   function handleEventClick(arg: EventClickArg) {
@@ -81,10 +84,11 @@ export function PlannerView({ mode, items, onSelectCourse }: {
       <div style={{ minWidth: "46rem" }}>
       <FullCalendar
         ref={calRef}
-        key={finalsMode ? "fin" : "reg"}
+        // initialDate only applies on mount, so a new term's finals week remounts.
+        key={finalsMode ? `fin:${term}` : "reg"}
         plugins={[timeGridPlugin]}
         initialView="timeGridWeek"
-        initialDate={finalsMode ? FIN_INITIAL_DATE : REG_INITIAL_DATE}
+        initialDate={finalsMode ? finalsWeekISO(term)[0] : REG_INITIAL_DATE}
         headerToolbar={false}
         firstDay={1}
         allDaySlot={false}

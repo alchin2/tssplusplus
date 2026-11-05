@@ -4,16 +4,14 @@
     "code": "ECE 5",
     "description": "An introduction to electrical and computer engineering. Topics include circuit theory, assembly, and testing, embedded systems programming and debugging, transducer mechanisms and interfacing transducers, signals and systems theory, digital signal processing, and modular design techniques.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Engineering Computation: Introduction to Programming in C",
     "code": "ECE 15",
     "description": "Students learn the fundamentals of programming through the C programming language. The course covers foundational universal programming concepts such as control and data structures, and top-down modular design. It also focuses on core building blocks of the C language, such as pointers and memory management. Recommended preparation: A familiarity with basic mathematics such as trigonometry functions and graphing is expected but this course assumes no prior programming knowledge.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Rapid Hardware and Software Design for Interfacing with the World",
@@ -47,8 +45,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Object-Oriented Programming: Design and Development with C++",
@@ -78,8 +75,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Programming in Python and Object-Oriented Principles",
@@ -109,16 +105,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Digital Design",
     "code": "ECE 25",
     "description": "This course emphasizes digital electronics. Principles introduced in lectures are used in laboratory assignments, which also serve to introduce experimental and design methods. Topics include Boolean algebra, combination and sequential logic, gates and their implementation in digital circuits. (Course materials and/or program fees may apply.)",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Computer Engineering",
@@ -139,8 +133,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Analog Design",
@@ -161,8 +154,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Circuits and Systems",
@@ -179,8 +171,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Components and Circuits Laboratory",
@@ -201,32 +192,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "iTunes 101: A Survey of Information Technology",
     "code": "ECE 85",
     "description": "Topics include how devices such as iPods and iPhones generate, transmit, receive, and process information (music, images, video, etc.), the relationship between technology and issues such as privacy and “net neutrality,” and current topics related to information technology.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "First-year Student Seminar",
     "code": "ECE 87",
     "description": "The First-year Student Seminar program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Undergraduate Seminar",
     "code": "ECE 90",
     "description": "This seminar class will provide a broad review of current research topics in both electrical engineering and computer engineering. Typical subject areas are signal processing, VLSI design, electronic materials and devices, radio astronomy, communications, and optical computing.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Linear Electronic Systems",
@@ -265,8 +252,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Linear Systems Fundamentals",
@@ -283,8 +269,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Active Circuit Design",
@@ -314,8 +299,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Fundamentals of Devices and Materials",
@@ -349,8 +333,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electromagnetism",
@@ -380,8 +363,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Digital Circuits",
@@ -424,8 +406,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Engineering Probability and Statistics",
@@ -464,8 +445,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Advanced Digital Design Project",
@@ -491,8 +471,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Fast Prototyping",
@@ -509,8 +488,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Hardware and Software Design",
@@ -557,8 +535,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Computer Interfacing",
@@ -601,8 +578,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Power Systems Analysis and Fundamentals",
@@ -619,8 +595,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Energy Conversion",
@@ -637,8 +612,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Antenna Systems Engineering",
@@ -655,8 +629,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Motor Drives",
@@ -677,8 +650,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Power Electronics I",
@@ -695,8 +667,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Power Electronics II",
@@ -713,48 +684,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Real World Power Grid Operation",
     "code": "ECE 128A",
     "description": "Provides practical insights into the operation of the power grid. Covers the same subjects that actual power system operators’ certification course covers. It systematically describes the vital grid operators’ functions and the processes required to operate the system. Uses actual case histories, and real examples of best in-class approaches from across the nation and the globe. Presents the problems encountered by operators and the enabling solutions to remedy them.",
     "raw_prereq": "upper-division standing. Open to EC26, EC27, EC28, and EC37 major codes only.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Renewable Energy and Power Grid Modernization",
     "code": "ECE 128B",
     "description": "In-depth coverage of the future power grids. Covers the practical aspects of the technologies, their design and system implementation. Topics include the changing nature of the grid with renewable resources, smart meters, synchrophasors (PMU), microgrids, distributed energy resources, and the associated information and communications infrastructures. Presents actual examples and best practices. Students will be provided with various tools.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Power Grid Resiliency to Adverse Effects",
     "code": "ECE 128C",
     "description": "This course offers unique insight and practical answers through examples, of how power systems can be affected by weather and what/how countermeasures can be applied to mitigate them to make the system more resilient. Detailed explanations of the impacts of extreme weather and applicable industry standards and initiatives. Proven practices for successful restoration of the power grid, increased system resiliency, and ride-through after extreme weather providing real examples from around the globe.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Renewable and Energy Storage Resources",
     "code": "ECE 129",
     "description": "Provides a solid foundation to renewable energy resources such as hydroelectric, solar, wind, geothermal, wave, and tidal. Energy grid storage systems. Presents lessons learned from actual systems and study of renewable energy resources and energy storage systems. Presents lessons learned from actual systems and results of detailed studies on the applications of renewable energy resources and energy storage systems. Industry tools for hands-on experience with such resources and systems will be provided.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Electronic Materials Science of Integrated Circuits",
     "code": "ECE 134",
     "description": "Electronic materials science with emphasis on topics pertinent to microelectronics and VLSI technology. Concept of the course is to use components in integrated circuits to discuss structure, thermodynamics, reaction kinetics, and electrical properties of materials.",
     "raw_prereq": "PHYS 2C–D with grades of C– or better.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Semiconductor Physics",
@@ -771,8 +736,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electronic Devices",
@@ -789,8 +753,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microelectronics Laboratory",
@@ -807,24 +770,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microstructuring Processing Technology Laboratory",
     "code": "ECE 138L",
     "description": "A laboratory course covering the concept and practice of microstructuring science and technology in fabricating devices relevant to sensors, lab-chips and related devices. (Course materials and/or program fees may apply.)",
     "raw_prereq": "upper-division standing for science and engineering students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Semiconductor Device Design and Modeling",
     "code": "ECE 139",
     "description": "This course is designed to provide a general background of semiconductor material, semiconductor device, circuit modeling and design based on fundamental physics, semiconductor physics, and device physics. Acquire the fundamental knowledge and technique to use material, device, mixed-mode, and circuit simulations. Recommended preparation: ECE 135A-B.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "The Art of Product Engineering I",
@@ -854,8 +814,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "The Art of Product Engineering II",
@@ -872,8 +831,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Software Foundations I",
@@ -903,8 +861,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Software Foundations II",
@@ -921,8 +878,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Programming for Data Analysis",
@@ -939,8 +895,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "LabVIEW Programming: Design and Applications",
@@ -970,8 +925,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Acoustics Laboratory",
@@ -988,8 +942,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Autonomous Vehicles",
@@ -1023,16 +976,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Entrepreneurship for Engineers",
     "code": "ECE 150",
     "description": "A foundation course teaching the basics of starting and running a successful new business. Students learn how to think like entrepreneurs, pivot their ideas to match customer needs, and assess financial, market, and timeline feasibility. The end goal is an investor pitch and a business plan. Provides experiential education, encouragement, and coaching (“E3CE”) that prepares students for successful careers at start-up as well as large companies. Students may not receive credit for both ECE 150 and CSE 175. Counts toward one professional elective only.",
     "raw_prereq": "students must apply to enroll in order to gauge their past experience with and interest in entrepreneurship. Consent of instructor is required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Probability and Random Processes for Engineers",
@@ -1049,8 +1000,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Digital Communications Theory",
@@ -1108,16 +1058,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Sensor Networks",
     "code": "ECE 156",
     "description": "Characteristics of chemical, biological, seismic, and other physical sensors; signal processing techniques supporting distributed detection of salient events; wireless communication and networking protocols supporting formation of robust sensor fabrics; current experience with low power, low cost sensor deployments. Undergraduate students must take a final exam; graduate students must write a term paper or complete a final project. Cross-listed with MAE 149 and SIO 238.",
     "raw_prereq": "upper-division standing and consent of instructor, or graduate student in science and engineering.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communications Systems Laboratory I",
@@ -1167,8 +1115,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communications Systems Laboratory II",
@@ -1194,8 +1141,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Data Networks I",
@@ -1212,8 +1158,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Data Networks II",
@@ -1230,8 +1175,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Data Processing and Information Theory",
@@ -1248,8 +1192,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Digital Signal Processing",
@@ -1266,8 +1209,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Digital Signal Processing",
@@ -1284,8 +1226,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applications of Digital Signal Processing",
@@ -1302,8 +1243,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Electronic Circuits and Systems",
@@ -1324,8 +1264,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Analog Integrated Circuit Design",
@@ -1351,8 +1290,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Digital Integrated Circuit Design",
@@ -1369,8 +1307,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Microwave Systems and Circuits",
@@ -1391,8 +1328,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Linear Control System Theory",
@@ -1409,8 +1345,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Linear Control System Theory",
@@ -1427,8 +1362,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Intelligent Systems: Robotics and Machine Intelligence",
@@ -1454,8 +1388,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Linear and Nonlinear Optimization with Applications",
@@ -1485,8 +1418,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Elements of Machine Intelligence: Pattern Recognition and Machine Learning",
@@ -1507,8 +1439,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Elements of Machine Intelligence: Probabilistic Reasoning and Graphical Models",
@@ -1525,8 +1456,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Deep Learning and Applications",
@@ -1552,16 +1482,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Electrical and Computer Engineering",
     "code": "ECE 180",
     "description": "Topics of special interest in electrical and computer engineering. Subject matter will not be repeated so it may be taken for credit more than once.",
     "raw_prereq": "consent of instructor; department stamp.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Physical Optics and Fourier Optics",
@@ -1582,8 +1510,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Electromagnetic Optics, Guided-Wave, and Fiber Optics",
@@ -1600,8 +1527,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Optical Electronics",
@@ -1622,8 +1548,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Optical Information Processing and Holography",
@@ -1640,8 +1565,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Lasers and Modulators",
@@ -1658,8 +1582,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Biomedical Imaging and Sensing",
@@ -1709,64 +1632,56 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Electrical and Computer Engineering with Laboratory",
     "code": "ECE 188",
     "description": "Topics of special interest in electrical and computer engineering with laboratory. Subject matter will not be repeated so it may be taken for credit up to three times.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Technical Public Speaking",
     "code": "ECE 189",
     "description": "Basics of technical public speaking, including speech organization, body language (eye contact, hand gestures, etc.), volume and rate, and design of technical slides. Students will practice technical public speaking, including speeches with PowerPoint slides and speaker introductions, and presenting impromptu speeches. Students may not receive credit for both ECE 189 and ENG 100E.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Engineering Design",
     "code": "ECE 190",
     "description": "Students complete a project comprising at least 50 percent or more engineering design to satisfy the following features: student creativity, open-ended formulation of a problem statement/specifications, consideration of alternative solutions/realistic constraints. Written final report required.",
     "raw_prereq": "students enrolling in this course must have completed all of the breadth courses and one depth course. The department stamp is required to enroll in ECE 190. (Specifications and enrollment forms are available in the undergraduate office.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Engineering Group Design Project",
     "code": "ECE 191",
     "description": "Groups of students work to design, build, demonstrate, and document an engineering project. All students give weekly progress reports of their tasks and contribute a section to the final project report.",
     "raw_prereq": "completion of all of the breadth courses and one depth course.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Honors Project",
     "code": "ECE 193H",
     "description": "An advanced reading or research project performed under the direction of an ECE faculty member. Must contain enough design to satisfy the ECE program’s four-unit design requirement. Must be taken for a letter grade. May extend over two quarters with a grade assigned at completion for both quarters.",
     "raw_prereq": "admission to the ECE departmental honors program.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Viacar Design Project",
     "code": "ECE 194",
     "description": "Students design, build, and race an autonomous car using principles in electrical engineering and computer science: circuit design, control theory, digital signal processing, embedded systems, microcontrollers, electromagnetism, and programming.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Teaching",
     "code": "ECE 195",
     "description": "Teaching and tutorial activities associated with courses and seminars. Not more than four units of ECE 195 may be used for satisfying graduation requirements. (P/NP grades only.)",
     "raw_prereq": "consent of the department chair.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Engineering Hands-on Group Project",
@@ -1816,64 +1731,56 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "ECE Internship",
     "code": "ECE 197",
     "description": "An enrichment program that provides work experience with public/private section employers. Subject to the availability of positions, students will work in a local company under the supervision of a faculty member and site supervisor. (P/NP grades only.)",
     "raw_prereq": "minimum UC San Diego 2.5 GPA. Consent of instructor and department stamp.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "ECE 198",
     "description": "Topics in electrical and computer engineering whose study involves reading and discussion by a small group of students under direction of a faculty member. (P/NP grades only.)",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study for Undergraduates",
     "code": "ECE 199",
     "description": "Independent reading or research by special arrangement with a faculty member. (P/NP grades only.)",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Research Conference",
     "code": "ECE 200",
     "description": "Group discussion of research activities and progress of group members. (Consent of instructor is strongly recommended.) (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Biophysics",
     "code": "ECE 201",
     "description": "The class will cover fundamental physical principles of biological processes at the molecular, cellular, tissue and organ levels that are related to human physiology and diseases. Topics include energetics and dynamics of biological systems, physical factors of environment, and the kinetics of biological systems.",
     "raw_prereq": "senior or graduate level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Implantable Medical Devices and Interfaces",
     "code": "ECE 202",
     "description": "Basics of biopotentials, excitable cells, electrochemical properties of bioelectronic interfaces, micromachining for implantable medical devices, neural probe technology materials and devices for sensing and stimulation, implantable cardiac technologies, cochlear and retinal implants, and packaging of implantable medical devices, with labs on characterization of implantable sensing, stimulation electrodes, design and micromachining of EEG/EMG arrays, EEG/EMG recordings, and neural data analysis. Recommended preparation: prior knowledge of undergraduate-level signal processing and circuits, and MATLAB or Python programming.",
     "raw_prereq": "senior or graduate level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biomedical Integrated Circuits and Systems",
     "code": "ECE 203",
     "description": "Integrated circuit analysis and design for medical devices. Introduction to subthreshold conduction in MOS transistor and its similarities to biomolecular transport. Design of instrumentation amplifiers, sensors, and electrical stimulation interfaces. Transcutaneous wireless power transfer and electromagnetic effects on tissue. Recommended preparation: ECE 164, Analog Integrated Circuit Design, or equivalent.",
     "raw_prereq": "graduate level standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Statistical Learning in Bioinformatics",
@@ -1903,24 +1810,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Principles of Medical Imaging",
     "code": "ECE 207A",
     "description": "Fundamentals of Fourier transform and linear systems theory including convolution, sampling, noise, filtering, image reconstruction, and visualization with an emphasis on applications to biomedical imaging. Examples from optical imaging, CT, MR, ultrasound, nuclear, PET, and radiography. Cross-listed with BENG 280A. Renumbered from ECE 207. Students may receive credit for one of the following: ECE 207A or ECE 207 or BENG 280A.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Computational Evolutionary Biology",
     "code": "ECE 208",
     "description": "Evolutionary biology (e.g., the study of the tree of life) uses computational methods from statistics and machine learning. We cover methods of broad use in many fields and apply them to biology, focusing on scalability to big genomic data. Topics include dynamic programming, continuous time Markov models, hidden Markov models, statistical inference of phylogenies, sequence alignment, uncertainty (e.g., bootstrapping), and heterogeneity (e.g., phylogenetic mixture models).",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Learning for Biosignal Processing",
@@ -1946,16 +1850,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Principles of Nanoscience and Nanotechnology",
     "code": "ECE 212AN",
     "description": "Introduction to and rigorous treatment of electronic, photonic, magnetic, and mechanical properties of materials at the nanoscale. Concepts from mathematical physics, quantum mechanics, quantum optics, and electromagnetic theory will be introduced as appropriate.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Nanoelectronics",
@@ -1972,8 +1874,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nanophotonics",
@@ -1990,24 +1891,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Parallel Computing in Bioinformatics",
     "code": "ECE 213",
     "description": "Students will learn foundational and emerging bioinformatics algorithms involved in analyzing massive biological datasets, such as genomic data, which is among the fastest growing data types on the planet. Students will learn to “think parallel” in the context of bioinformatics, in particular to identify, decompose, and modify algorithms to achieve high concurrency, and to exploit this concurrency for high performance on various parallel processors, such as CPUs, GPUs, and hardware accelerators. Recommended prerequisites: ECE 141A/B or equivalent; ECE 30 or equivalent; knowledge of C++ programming, basic computer architecture, and data structures and algorithms.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Deep Generative Models",
     "code": "ECE 214",
     "description": "This course will cover the fundamentals and state of the art of deep generative models, including large language models, diffusion models, generative adversarial networks, variational autoencoders, etc. Recommended prerequisites: Foundational knowledge in deep learning, probability, and statistics.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Principles of Molecular Imaging",
@@ -2037,24 +1935,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Magnetic Materials: Principles and Applications",
     "code": "ECE 221",
     "description": "The basis of magnetism: classical and quantum mechanical points of view. Different kinds of magnetic materials. Magnetic phenomena including anisotropy, magnetostriction, domains, and magnetization dynamics. Current frontiers of nanomagnetics research including thin films and particles. Optical, data storage, and biomedical engineering applications of soft and hard magnetic materials.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Antennas and Their System Applications",
     "code": "ECE 222A",
     "description": "Antennas, waves, polarization. Friis transmission and Radar equations, dipoles, loops, slots, ground planes, traveling wave antennas, array theory, phased arrays, impedance, frequency independent antennas, microstrip antennas, cell phone antennas, system level implications such as MIMO, multi-beam and phased array systems. Recommended preparation: ECE 107 or an equivalent undergraduate course in electromagnetics.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Applied Electromagnetic Theory—Electromagnetics",
@@ -2071,8 +1966,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Electromagnetic Theory—Computational Methods for Electromagnetics",
@@ -2089,8 +1983,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Antenna Design",
@@ -2107,16 +2000,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probability and Statistics for Data Science",
     "code": "ECE 225A",
     "description": "The course reinforces students’ intuitive, theoretical, and computational understanding of probability and statistics, and builds on these foundations to introduce more advanced concepts useful in both data science research and practice. The following topics will be covered: basics, convergence, estimation, and hypothesis testing. Python programs, examples, and visualizations will be used throughout the course.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Universal Probability and Its Applications in Data Science",
@@ -2142,8 +2033,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Optimization and Acceleration of Deep Learning on Various Hardware Platforms",
@@ -2173,24 +2063,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Big Network Data",
     "code": "ECE 227",
     "description": "A course on network science driven by data analysis. The class will focus on both theoretical and empirical analysis performed on real data, including technological networks, social networks, information networks, biological networks, economic networks, and financial networks. Students will be exposed to a number of state-of-the-art software libraries for network data analysis and visualization via the Python notebook environment. Previous Python programming experience recommended.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Machine Learning for Physical Applications",
     "code": "ECE 228",
     "description": "Machine learning has received enormous interest. To learn from data we use probability theory, which has been a mainstay of statistics and engineering for centuries. The class will focus on implementations for physical problems. Topics: Gaussian probabilities, linear models for regression, linear models for classification, neural networks, kernel methods, support vector machines, graphical models, mixture models, sampling methods, and sequential estimation.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computational Data Analysis and Product Development",
@@ -2216,16 +2103,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Solid State Electronics I",
     "code": "ECE 230A",
     "description": "This course is designed to provide a general background in solid state electronic materials and devices. Course content emphasizes the fundamental and current issues of semiconductor physics related to the ECE solid state electronics sequences. Recommended preparation: ECE 135A-B or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Solid State Electronics II",
@@ -2242,8 +2127,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Solid State Electronics III",
@@ -2260,16 +2144,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nanometer-Scale VLSI Devices",
     "code": "ECE 235",
     "description": "This course covers modern research topics in sub-100 nm scale, state-of-the-art silicon VLSI devices. Starting with the fundamentals of CMOS scaling to nanometer dimensions, various advanced device and circuit concepts, including RF CMOS, low power CMOS, silicon memory, silicon-on-insulator, SiGe bipolar, strained silicon MOSFET’s, etc. will be taught. The physics of near-ballistic transport in an ultimately scaled 10 nm MOSFET will be discussed in light of the recently developed scattering theory.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Fundamentals of Heterostructure Materials and Devices",
@@ -2286,16 +2168,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Optical Processes in Semiconductors",
     "code": "ECE 236B",
     "description": "Absorption and emission of radiation in semiconductors. Radiative transition and nonradiative recombination. Laser, modulators, and photodetector devices will be discussed. Recommended preparation: ECE 230A, Solid State Electronics I, and ECE 230C, Solid State Electronics III, or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Heterojunction Field-Effect Transistors",
@@ -2312,32 +2192,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Thermodynamics of Solids",
     "code": "ECE 238A",
     "description": "The thermodynamics and statistical mechanics of solids. Basic concepts, equilibrium properties of alloy systems, thermodynamic information from phase diagrams, surfaces and interfaces, crystalline defects. Cross-listed with Materials Science 201A and MAE 271A.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Solid State Diffusion and Reaction Kinetics",
     "code": "ECE 238B",
     "description": "Thermally activated processes. Boltzman factor, homogeneous and heterogeneous reactions, solid state diffusion, Fick’s law, diffusion mechanisms, Kirkendall effects, Boltzmann-Manato analysis, high diffusivity paths. Cross-listed with Materials Science 201B and MAE 271B.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Lasers and Optics",
     "code": "ECE 240A",
     "description": "Fresnel and Fraunhofer diffraction theory. Optical resonators, interferometry. Gaussian beam propagation and transformation. Laser oscillation and amplification, Q-switching and mode locking of lasers, some specific laser systems. Recommended preparation: ECE 107 and ECE 182 or equivalent, introductory quantum mechanics or ECE 183.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Optical Information Processing",
@@ -2354,8 +2230,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Optical Modulation and Detection",
@@ -2372,16 +2247,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nonlinear Optics",
     "code": "ECE 241A",
     "description": "Second harmonic generation (color conversion), parametric amplification and oscillation, photorefractive effects and four-wave mixing, optical bistability; applications. Recommended preparation: ECE 240A, ECE 240C.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Integrated Photonics",
@@ -2398,8 +2271,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Holographic Optical Elements",
@@ -2416,8 +2288,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Optical Fiber Communication",
@@ -2434,88 +2305,77 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Statistical Optics",
     "code": "ECE 244A",
     "description": "Introduction to statistical phenomena in optics including first order properties of light waves generated from various sources. Coherence of optical waves, high-order coherence. Partial coherence and its effects on imaging systems. Imaging in presence of randomly inhomogeneous medium. Limits in photoelectric detection of light. Recommended preparation: ECE 240A-B.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced BioPhotonics",
     "code": "ECE 247A",
     "description": "Basic physics and chemistry for the interaction of photons with matter, including both biological and synthetic materials; use of photonic radiation pressure for manipulation of objects and materials; advanced optoelectronic detection systems, devices and methods, including time resolved fluorescent and chemiluminescent methods, fluorescent energy transfer (FRET) techniques, quantum dots, and near-field optical techniques; underlying mechanisms of the light sensitive biological systems, including chloroplasts for photosynthetic energy conversion and the basis of vision processes. Cross-listed with BENG 247A and NANO 247A.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "BioElectronics",
     "code": "ECE 247B",
     "description": "Topics to be covered will include photolithographic techniques for high-density DNA microarray production, incorporation of CMOS control into electronic DNA microarrays, direct electronic detection technology used in microarrays and biosensor devices and focus on problems related to making highly integrated devices (lab-on-a-chip, in-vivo biosensors, etc.) from heterogeneous materials and components. Cross-listed with BENG 247B and NANO 247B.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "BioNanotechnology",
     "code": "ECE 247C",
     "description": "Topics include nanosensors and nanodevices for both clinical diagnostics and biowarfare (bioterror) agent detection; nanostructures for drug delivery; nanoarrays and nanodevices; use of nanoanalytical devices and systems; methods and techniques for modification or functionalization of nanoparticles and nanostructures with biological molecules; nanostructural aspects of fuel cells and biofuel cells; potential use of DNA and other biomolecules for computing and ultra-high-density data storage. Cross-listed with BENG 247C and NANO 247C.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Random Processes",
     "code": "ECE 250",
     "description": "Random variables, probability distributions and densities, characteristic functions. Convergence in probability and in quadratic mean, Stochastic processes, stationarity. Processes with orthogonal and independent increments. Power spectrum and power spectral density. Stochastic integrals and derivatives. Spectral representation of wide sense stationary processes, harmonizable processes, moving average representations. Recommended preparation: ECE 153.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Digital Signal Processing I",
     "code": "ECE 251A",
     "description": "Discrete random signals; conventional (FFT based) spectral estimation. Coherence and transfer function estimation; model-based spectral estimation; linear prediction and AR modeling. Levinson-Durbin algorithm and lattice filters, minimum variance spectrum estimation. Cross-listed with SIOC 207B. SIOC 207A is intended for graduate students who have not had an undergraduate course in DSP. Recommended preparation: ECE 153, Probability, or ECE 250, Random Processes; ECE 161A, DSP; ECE 251C, Filter Banks and Wavelets; ECE 269, Linear Algebra and Application, or equivalent and SIOC 207A, Fundamentals of DSP, or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Digital Signal Processing II",
     "code": "ECE 251B",
     "description": "Adaptive filter theory, estimation errors for recursive least squares and gradient algorithms, convergence and tracking analysis of LMD, RLS, and Kalman filtering algorithms, comparative performance of Weiner and adaptive filters, transversal and lattice filter implementations, performance analysis for equalization, noise cancelling, and linear prediction applications. Cross-listed with SIO 207C.",
     "raw_prereq": "graduate standing; ECE 251A (for ECE 251B); SIO 207B (for SIO 207C) with a grade of B– or above.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Filter Banks and Wavelets",
     "code": "ECE 251C",
     "description": "Fundamentals of multirate systems (Noble Identities, Polyphase representations), maximally decimated filter banks (QMF filters for 2-channels, M-channel perfect reconstruction systems), Paraunitary perfect reconstruction filter banks, the wavelet transform (Multiresolution, discrete wavelet transform, filter banks and wavelet).",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Array Processing",
     "code": "ECE 251D",
     "description": "The coherent processing of data collected from sensors distributed in space for signal enhancement and noise rejection purposes or wavefield directionality estimation. Conventional and adaptive beamforming. Matched field processing. Sparse array design and processing techniques. Applications to acoustics, geophysics, and electromagnetics. Students will not receive credit for both ECE 251D and SIOC 207D. Cross-listed with SIOC 207D.",
     "raw_prereq": "graduate standing; ECE 251A or SIOC 207B with a grade of B– or above.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Speech Compression",
     "code": "ECE 252A",
     "description": "Speech signals, production and perception, compression theory, high rate compression using waveform coding (PCM, DPCM, ADPCM, . . .), DSP tools for low rate coding, LPC vocoders, sinusoidal transform coding, multiband coding, medium rate coding using code excited linear prediction (CELP). Recommended preparation: ECE 161A.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Speech Recognition",
@@ -2532,32 +2392,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Fundamentals of Digital Image Processing",
     "code": "ECE 253",
     "description": "Image quantization and sampling, image transforms, image enhancement, image compression. Recommended preparation: ECE 109, 153, ECE 161, ECE 161A.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Detection Theory",
     "code": "ECE 254",
     "description": "Hypothesis testing, detection of signals in white and colored Gaussian noise; estimation of signal parameters, maximum-likelihood detection; resolution of signals; detection and estimation of stochastic signals; applications to radar, sonar, and communications. Recommended preparation: ECE 153.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Information Theory",
     "code": "ECE 255A",
     "description": "Introduction to basic concepts, source coding theorems, capacity, noisy-channel coding theorem. Recommended preparation: ECE 155, Digital Communications Theory, and ECE 159, Data Processing and Information Theory.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Source Coding",
@@ -2574,8 +2430,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Network Information Theory",
@@ -2592,32 +2447,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Fundamentals of Image and Video Compression",
     "code": "ECE 256",
     "description": "This course provides the theoretical background to image and video compression. Topics cover basic coding tools such as entropy coding, transform, and quantization as well as advanced coding methods: motion estimation and compensation, error resilient coding and scalable coding. Recommended preparation: MATLAB programming.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Modern Communication Networks",
     "code": "ECE 257A",
     "description": "This course focuses on modern local area networks (Wi-Fi, Ethernet, etc.) and wide area networks (LTE, 5G, etc.). Topics to be covered include end-to-end network architecture, physical layer packet processing, medium access control protocols, mobility management and mobile IP, TCP over wireless, mobile applications (e.g., mobile web, real-time video streaming, and telephony). Recommended preparation: ECE 158A.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Principles of Wireless Networks",
     "code": "ECE 257B",
     "description": "This course will focus on the principles, architectures, and analytical methodologies for design of multiuser wireless networks. Topics to be covered include cellular approaches, call processing, digital modulation, MIMO technology, broadband networks, ad-hoc networks, and wireless packet access. Recommended preparation: ECE 159A and 154B, or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Stochastic Wireless Networks Models",
@@ -2634,8 +2485,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Digital Communications I",
@@ -2652,8 +2502,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Digital Communications II",
@@ -2670,16 +2519,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Algebraic Coding",
     "code": "ECE 259A",
     "description": "Fundamentals of block codes, introduction to groups, rings and finite fields, nonbinary codes, cyclic codes such as BCH and RS codes, decoding algorithms, applications.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Probabilistic Coding",
@@ -2696,8 +2543,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Coding",
@@ -2723,24 +2569,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "VLSI Digital System Algorithms and Architectures",
     "code": "ECE 260A",
     "description": "Custom and semicustom VLSI design from both the circuit and system designer’s perspective. MOS transistor theory, circuit characterization, and performance estimation. CMOS logic design will be emphasized. Computer-aided design (CAD) tools for transistor level simulation, layout and verification will be introduced. Includes two hours of laboratory hours per week. Recommended preparation: undergraduate-level semiconductor electronics and digital system design, ECE 108 or ECE 165 or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "VLSI Integrated Circuits and Systems Design",
     "code": "ECE 260B",
     "description": "VLSI implementation methodology across block, circuit, and layout levels of abstraction. Circuit building blocks including embedded memory and clock distribution. Computer-aided design (synthesis, place-and-route, verification) and performance analyses, and small-group block implementation projects spanning RTL to tape-out using leading-edge EDA tools. Cross-listed with CSE 241A. Recommended preparation: ECE 165.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "VLSI Advanced Topics",
@@ -2757,24 +2600,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Power Management Integrated Circuits Design",
     "code": "ECE 263",
     "description": "An engaging project-based class where students learn important concepts, integrated circuits, and techniques in integrated power electronics. The project is to design a fully integrated DC-DC converter for high-performance computing, covering converter topologies (LDO, inductive, switched-capacitor, and hybrid converters), loss analysis, optimization, circuit building blocks (gate drivers, level shifter, PWM generator, amplifier, comparator, current sense, etc.), system regulation, and stability. Recommended preparation: Familiarity with small signal circuits and analysis, analog circuits, differential amplifier, current mirrors, comparators, frequency response, feedback, and stability. Knowledge on power converter operation and loss analysis will be an advantage.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "CMOS Analog Integrated Circuits and Systems I",
     "code": "ECE 264A",
     "description": "Frequency response of the basic CMOS gain stage and current mirror configurations. Advanced feedback and stability analysis; compensation techniques. High-Performance CMOS operational amplifier topologies. Analysis of noise and distortion. Recommended preparation: ECE 164 and ECE 153, or equivalent courses.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CMOS Analog Integrated Circuits and Systems II",
@@ -2795,8 +2635,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMOS Analog Integrated Circuits and Systems III",
@@ -2813,8 +2652,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "CMOS Analog Integrated Circuits and Systems IV",
@@ -2835,8 +2673,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication Circuit Design I",
@@ -2853,8 +2690,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Communication Circuit Design II",
@@ -2875,8 +2711,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Power Amplifiers for Wireless Communications",
@@ -2902,8 +2737,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Communication Circuits III",
@@ -2929,16 +2763,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "CMOS Circuit Lab I",
     "code": "ECE 266A",
     "description": "Physical design of CMOS circuits through the tapeout and measurement lifecycle. Layout techniques covering process variation, parasitics, ESD, and pad ring assembly. Students will learn the entire tapeout tool flow, including DRC, LVS, and RCX. Highly recommended preparation: ECE 164, Analog Integrated Circuit Design, ECE 264A-B, CMOS Analog Integrated Circuits and Systems I and II, ECE 265A-B, Communication Circuit Design I and II, or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "CMOS Circuit Lab II",
@@ -2955,40 +2787,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Network/Graph Algorithms and Analysis",
     "code": "ECE 267",
     "description": "Modern theory of networks from the algorithmic perspective with emphasis on the foundations in terms of performance analysis and design. Topics include algorithmic questions arising in the context of scheduling, routing, and congestion control in communication networks, including wired, wireless, sensor, and social networks.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Security of Hardware Embedded Systems",
     "code": "ECE 268",
     "description": "The course gives an overview of areas of security and protection of modern hardware, embedded systems, and IoTs. Covers essential cryptographic methodologies and blocks required for building a secure system. Topics include low overhead security, physical and side-channel attacks, physical security primitives, physical security and proofs of presence, hardware-based secure program execution, scalable implementation of secure functions, emerging technologies, and rising threats. Recommended preparation: Programming in a standard programming language. Undergraduate level knowledge of the IC design flow and digital designs.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Linear Algebra and Application",
     "code": "ECE 269",
     "description": "This course will build mathematical foundations of linear algebraic techniques and justify their use in signal processing, communication, and machine learning. Topics include geometry of vector and Hilbert spaces, orthogonal projection, systems of linear equations and role of sparsity, eigenanalysis, Hermitian matrices and variational characterization, positive semidefinite matrices, singular value decomposition, and principal component analysis.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Statistical Learning I",
     "code": "ECE 271A",
     "description": "Bayesian decision theory; parameter estimation; maximum likelihood; the bias-variance trade-off; Bayesian estimation; the predictive distribution; conjugate and noninformative priors; dimensionality and dimensionality reduction; principal component analysis; Fisher’s linear discriminant analysis; density estimation; parametric vs. kernel-based methods; expectation-maximization; applications. Recommended preparation: ECE 109.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Statistical Learning II",
@@ -3005,8 +2832,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Deep Learning and Applications",
@@ -3032,8 +2858,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dynamic Systems I: Linear Systems",
@@ -3050,8 +2875,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Dynamic Systems II: Stochastic Systems",
@@ -3068,8 +2892,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Convex Optimization and Applications",
@@ -3086,32 +2909,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Parameter Estimation I",
     "code": "ECE 275A",
     "description": "Linear least Squares (batch, recursive, total, sparse, pseudoinverse, QR, SVD); Statistical figures of merit (bias, consistency, Cramer-Rao lower-bound, efficiency); Maximum likelihood estimation (MLE); Sufficient statistics; Algorithms for computing the MLE including the Expectation Maximation (EM) algorithm. The problem of missing information; the problem of outliers. Recommended preparation: ECE 109 and ECE 153.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Parameter Estimation II",
     "code": "ECE 275B",
     "description": "The Bayesian statistical framework; Parameter and state estimation of Hidden Markov Models, including Kalman Filtering and the Viterbi and Baum-Welsh algorithms. A solid foundation is provided for follow-up courses in Bayesian machine learning theory. Recommended preparation: ECE 153.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Sensing and Estimation in Robotics",
     "code": "ECE 276A",
     "description": "This course covers the mathematical fundamentals of Bayesian filtering and their application to sensing and estimation in mobile robotics. Topics include maximum likelihood estimation (MLE), expectation maximization (EM), Gaussian and particle filters, simultaneous localization and mapping (SLAM), visual features and optical flow, and hidden Markov models (HMM). Recommended preparation: students should have knowledge equivalent to the following ECE courses: ECE 101 or ECE 171 and ECE 153 and ECE 174.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Planning and Learning in Robotics",
@@ -3128,8 +2947,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Robot Manipulation and Control",
@@ -3146,175 +2964,153 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "GPU Programming",
     "code": "ECE 277",
     "description": "This course is a high-level GPU programming for parallel data processing. Topics cover parallel CUDA programming on GPU including efficient memory access, threading models, multi-stream, and multi-GPU programming. Focusing on hands-on applications such as big data processing, visualization, and an artificial intelligence through the real-time GPU system. Recommended preparation: High-level C/C++ programming skills, ECE 15 or equivalent, CSE 240A or the equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Seminar",
     "code": "ECE 279",
     "description": "A seminar course in which topics of special interest for electrical and computer engineering students will be presented. S/U grades only. May be taken for credit three times.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Electronic Devices and Materials/Applied Physics",
     "code": "ECE 280",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in electronic devices and materials or applied physics will be presented by visiting or resident faculty members. Subject matter will not be repeated, may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Nanoscience/Nanotechnology",
     "code": "ECE 281",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in nanoscience and nanotechnology will be presented by visiting or resident faculty members. Subject matter will not be repeated, may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Photonics/Applied Optics",
     "code": "ECE 282",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in photonics, optoelectronic materials, devices, systems, and applications will be presented by visiting or resident faculty members. Subject matter will not be repeated, may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Electronic Circuits and Systems",
     "code": "ECE 283",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in electronic circuits and systems will be presented by visiting or resident faculty members. Subject matter will not be repeated, may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Computer Engineering",
     "code": "ECE 284",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in computer engineering will be presented by visiting or resident faculty members. Subject matter will not be repeated, may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Signal and Image Processing/Robotics and Control Systems",
     "code": "ECE 285",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in signal and image processing or robotics and control systems will be presented by visiting or resident faculty members. Subject matter will not be repeated, may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "State-of-the-Art Topics in Computational Statistics and Machine Learning",
     "code": "ECE 286",
     "description": "Class discusses both fundamental and state-of-the-art research topics in computational statistics and machine learning. Topics vary based upon current research and have included nonparametric Bayesian models; sampling methods for inference in graphical models; Markov Chain Monte Carlo (MCMC) methods.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Communication Theory and Systems",
     "code": "ECE 287",
     "description": "A course to be given at the discretion of the faculty at which topics of interest in information science will be presented by visiting or resident faculty members. It will not be repeated so it may be taken for credit more than once.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Electrical and Computer Engineering",
     "code": "ECE 289",
     "description": "A course to be given at the discretion of the faculty at which general topics of interest in electrical and computer engineering will be presented by visiting or resident faculty members. May be taken for credit six times provided each course is a different topic.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Seminar on Current ECE Research",
     "code": "ECE 290",
     "description": "Weekly discussion of current research conducted in the Department of Electrical and Computer Engineering by the faculty members involved in the research projects. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Industry Sponsored Engineering Design Project",
     "code": "ECE 291",
     "description": "Design, build, and demonstrate an engineering project by groups. All students give weekly progress reports on tasks and write final report, with individual exams and presentations. Projects/sponsorships originate from the needs of local industry. Recommended preparation: ECE 230 or ECE 240 or ECE 251 or ECE 253 or ECE 258 or equivalent.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Seminar in Communication Theory and Systems",
     "code": "ECE 293",
     "description": "Weekly discussion of current research topics in communication theory and systems. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Seminar in Electronic Devices and Materials/Applied Physics",
     "code": "ECE 294",
     "description": "Weekly discussion of current research topics in electronic devices and materials or applied solid state physics and quantum electronics. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Seminar in Signal and Image Processing/Robotics and Control Systems",
     "code": "ECE 295",
     "description": "Weekly discussion of research topics in signal and image processing of robotics and control systems. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Seminar in Photonics/Applied Optics",
     "code": "ECE 296",
     "description": "Weekly discussion of current research topics in photonics and applied optics, including imaging, photonic communications, sensing, energy and signal processing. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Seminar in Nanoscience/Nanotechnology",
     "code": "ECE 297",
     "description": "Weekly discussion of current research topics in nanoscience and nanotechnology. (S/U grades only.)",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Study",
     "code": "ECE 298",
     "description": "Open to properly qualified graduate students who wish to pursue a problem through advanced study under the direction of a member of the staff. (S/U grades only.)",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Research",
     "code": "ECE 299",
     "description": "(S/U grades only.)",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching",
     "code": "ECE 501",
     "description": "Teaching and tutorial activities associated with courses and seminars. Number of units for credit depends on number of hours devoted to class or section assistance. (S/U grades only.)",
     "raw_prereq": "graduate standing or consent of department chair.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

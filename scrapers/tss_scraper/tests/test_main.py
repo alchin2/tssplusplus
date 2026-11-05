@@ -44,9 +44,19 @@ def test_parse_term_normalizes_case_and_whitespace():
     assert parse_term(" FA26 ") == ("2026", "2")
 
 
+def test_parse_term_winter_uses_the_academic_year_it_falls_in():
+    # Winter 2027 is in the academic year that began Fall 2026.
+    assert parse_term("wi27") == ("2026", "3")
+
+
+def test_term_slug_winter_maps_back_to_its_calendar_year():
+    assert term_slug("2026", "3") == "wi27"
+    assert term_slug(*parse_term("wi27")) == "wi27"
+
+
 def test_parse_term_unconfirmed_season_raises_instead_of_guessing():
     with pytest.raises(ValueError, match="No confirmed TSS Perid"):
-        parse_term("wi27")
+        parse_term("sp27")
 
 
 @pytest.mark.parametrize("bad", ["", "fall26", "fa2026", "26fa"])

@@ -1,5 +1,6 @@
 import { Loader2, Maximize2, TriangleAlert, ZoomIn, ZoomOut } from "lucide-react";
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useTerm } from "../hooks/useTerm";
 import { ApiError, fetchCoursePrereqs } from "../lib/api";
 import { GNH, GNW, GPAD, NODE_CFG, buildGraph } from "../lib/prereqGraph";
 import type { GNode, GraphLayout } from "../lib/prereqGraph";
@@ -26,6 +27,7 @@ export function PrereqGraph(
   const viewportRef = useRef<HTMLDivElement>(null);
   const graphRef = useRef<GraphLayout | null>(null);
   const didDragRef = useRef(false);
+  const term = useTerm();
 
   useEffect(() => {
     setTree(null);
@@ -34,14 +36,14 @@ export function PrereqGraph(
     setExpandedOr(new Set());
     setView({ x: 0, y: 0, scale: 1 });
     let alive = true;
-    fetchCoursePrereqs(moduleId)
+    fetchCoursePrereqs(moduleId, term)
       .then(t => { if (alive) setTree(t); })
       .catch(err => {
         if (!alive) return;
         setError(err instanceof ApiError ? err.message : "Failed to load prerequisites.");
       });
     return () => { alive = false; };
-  }, [moduleId]);
+  }, [moduleId, term]);
 
   const graph = useMemo(
     () => (tree ? buildGraph(tree, expanded, expandedOr, { planned: plannedCodes, completed: completedCodes, inProgress: inProgressCodes }) : null),

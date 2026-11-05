@@ -4,8 +4,7 @@
     "code": "BILD 1",
     "description": "An introduction to cellular structure and function, to biological molecules, bioenergetics, to the genetics of both prokaryotic and eukaryotic organisms, and to the elements of molecular biology. Recommended preparation: prior completion of high school- or college-level chemistry course.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Multicellular Life",
@@ -22,160 +21,140 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Organismic and Evolutionary Biology",
     "code": "BILD 3",
     "description": "The first principles of evolutionary theory, classification, ecology, and behavior; a phylogenetic synopsis of the major groups of organisms from viruses to primates.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introductory Biology Lab",
     "code": "BILD 4",
     "description": "Students gain hands-on experience and learn the theoretical basis of lab techniques common to a variety of biological disciplines such as biochemistry, molecular biology, cell biology, and bioinformatics. Students will work in groups, learning how to collect, analyze, and present data while using the scientific method to conduct inquiry-based laboratory experiments. Material lab fees may apply.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Data Analysis and Design for Biologists",
     "code": "BILD 5",
     "description": "This course is a practical introduction to information literacy, experimental design, and data analysis for biologists. Students will be introduced to coding, data management, and quantitative analysis. However, this is not a traditional statistics course and no mathematics prerequisites are required. Rather this course focuses on practical skills related to effectively asking and answering biological questions with data.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "The Beginning of Life",
     "code": "BILD 7",
     "description": "An introduction to the basic principles of plant and animal development, emphasizing the similar strategies by which diverse organisms develop. Practical applications of developmental principles as well as ethical considerations arising from these technologies will be discussed.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Fundamental Concepts of Modern Biology",
     "code": "BILD 10",
     "description": "An introduction to the biochemistry and genetics of cells and organisms; illustrations are drawn from microbiology and human biology. This course is designed for nonbiology students and does not satisfy a lower-division requirement for any biology major. Open to nonbiology majors only. Note: Students may not receive credit for BILD 10 after receiving credit for BILD 1.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Neurobiology and Behavior",
     "code": "BILD 12",
     "description": "Introduction to the organization and functions of the nervous system; topics include molecular, cellular, developmental, systems, and behavioral neurobiology. This course is designed for nonbiology students and does not satisfy a lower-division requirement for any biology major. Open to nonbiology majors only. Note: Students may not receive credit for both BILD 12 and COGS 17.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Human Impact on the Environment",
     "code": "BILD 18",
     "description": "Course will focus on issues such as global warming, species extinction, and human impact on the oceans and forests. History and scientific projections will be examined in relation to these events. Possible solutions to these worldwide processes and a critical assessment of their causes and consequences will be covered.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Human Genetics in Modern Society",
     "code": "BILD 20",
     "description": "Fundamentals of human genetics and introduction to modern genetic technology such as gene cloning and DNA finger printing. Applications of these techniques, such as forensic genetics, genetic screening, and genetic engineering. Social impacts and ethical implications of these applications. This course is designed for nonbiology students and does not satisfy a lower-division requirement for any biology major. Open to nonbiology majors only. Note: Students may not receive credit for BILD 20 after receiving credit for BICD 100.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Human Nutrition",
     "code": "BILD 22",
     "description": "A survey of our understanding of the basic chemistry and biology of human nutrition; discussions of all aspects of food: nutritional value, diet, nutritional diseases, public health, and public policy. This course is designed for nonbiology students and does not satisfy a lower-division requirement for any biology major. Open to nonbiology majors only. Note: Students may not receive credit for BILD 22 after receiving credit for BIBC 120.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Learning Microbiology through Fermented Food",
     "code": "BILD 24",
     "description": "Students will prepare fermented foods and learn the microbiology and biochemistry behind some staple dishes in communities around the world. The course will describe the role of microbes as food-makers and contributors to well-being and will explore related traditional dishes. Students will develop a 360 degree vision of how and why what we eat shapes who we are. Students will develop a strong sense of belonging to the community where they live and appreciation of microbiology in their life.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Human Physiology",
     "code": "BILD 26",
     "description": "Introduction to the elements of human physiology and the functioning of the various organ systems. The course presents a broad, yet detailed, analysis of human physiology, with particular emphasis toward understanding disease processes. This course is designed for nonbiology students and does not satisfy a lower-division requirement for any biology major. Open to nonbiology majors only. Note: Students may not receive credit for BILD 26 after receiving credit for BIPN 100 or BIPN 100R.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Immunology, Vaccines, and Immunotherapy",
     "code": "BILD 28",
     "description": "Course will provide an overview of the human immune system and how it is exploited to improve human health. Designed for nonbiology majors who want to better understand exciting medical interventions developed in recent years. Course will cover the new SARS-2 vaccine and revolutionary cancer treatments, based on the fundamental understanding of how the immune system fights infection. Discussions will include how the immune system is studied and will “bust” common myths about the immune system. Note: Students will not receive credit if taken after BICD 140.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biology of Plagues: Past and Present",
     "code": "BILD 30",
     "description": "An introduction to diseases caused by viruses, bacteria, and parasites, and the impact of these diseases on human society. Topics include the biology of infectious disease, epidemiology, and promising new methods to fight disease. Open to nonbiology majors only. Note: Students will not receive credit for BILD 30 if taken after BIMM 120.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Cancer Biology",
     "code": "BILD 32",
     "description": "Cancer is the second leading cause of death both in the United States and globally. This course is an introduction to the basic biology of cancer including the cellular and genetic changes that characterize the development and progression of cancer, as well as a review of the major therapies currently being pursued to treat cancer. Topics that are emphasized in this course include the fundamental causes of cancers, the socioeconomic implications of cancer incidence, and basic preventative measures. This course does not satisfy any requirement for a biology major. Students may not receive credit for BILD 32 after receiving credit for BIMM 134.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "AIDS Science and Society",
     "code": "BILD 36",
     "description": "An introduction to all aspects of the AIDS epidemic. Topics will include the epidemiology, biology, and clinical aspects of HIV infection; HIV testing; education and approaches to therapy; and the social, political, and legal impacts of AIDS on the individual and society. This course is designed for nonbiology students and does not satisfy a lower-division requirement for any biology major. Open to nonbiology majors only. Note: Students may not receive credit for BILD 36 after receiving credit for BICD 136.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Dementia, Science, and Society",
     "code": "BILD 38",
     "description": "Introduction to basic human neuroscience leading to a discussion of brain diseases classified under the rubric Dementia. Topics include basic brain structure and function, diseases of the aging brain and their economic, social, political and ethical impacts on society.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Our Sustainable Future",
     "code": "BILD 42",
     "description": "This course will provide an overview of existing methods for energy, food, and materials production and utilization, and describe new technologies for their sustainable production and the consequences of this to our society and the planet.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Scientific Perspectives for a Changing World",
     "code": "BILD 44",
     "description": "Science can help us define and solve problems of the modern world, from how to improve health and change people’s behavior to how to protect the environment. This course will train students to assess scientific claims and their implications in today’s complex information ecosystem, critically engaging from the scale of data analysis through to the social framework in which research is carried out and presented. Contemporary case studies from natural and social sciences will be discussed.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Ecology of a Changing Planet",
     "code": "BILD 46",
     "description": "Biodiversity is changing worldwide in response to global changes. What do these changes in biodiversity foretell for the continued provisioning of ecosystem services on which humans depend? How can we develop conservation and management strategies that preserve biodiversity, backed up by sound science? These are some of the most important questions of our time. Topics will be presented at an introductory level appropriate for students in all majors. Students will not receive credit if taken after BIEB 182.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Exploring Issues of Diversity, Equity, and Inclusion in Relation to Human Biology",
@@ -205,8 +184,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Exploring Issues of Diversity, Equity, and Inclusion in Biological and Global Contexts",
@@ -236,144 +214,126 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biology, Race, and Society",
     "code": "BILD 61",
     "description": "This course examines historical and current ideas about the structure of human biological variation, traces their impact on society—particularly on the development of the concept of race, and explores the complicated relationship between genes, environments, and human traits.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Python for Biologists",
     "code": "BILD 62",
     "description": "Introductory class for biology students interested in using Python for data analysis and visualization. Course covers the basics of programming in Python and introduces students to various implementations of Python analyses for biological data such as time series and images. Students will use their own laptops.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Genomics Research Initiative Lab I",
     "code": "BILD 70",
     "description": "Students will isolate bacterial viruses or other organisms from the environment and characterize them by methods including electron microscopy and nucleic acid analysis. The genomic DNA will be purified and sent for sequencing. Restricted to student participants in the Phage Genomics Research program. Renumbered from BIMM 171A. Students may not receive credit for BILD 70 and BIMM 171A. Material lab fees will apply.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Essential Lab Techniques in the Biological Sciences",
     "code": "BILD 75",
     "description": "In this hands-on workshop, students will gain experience in the fundamental lab techniques used by biological scientists. The techniques covered will vary by topic. Examples of topics are biochemistry, neuroscience, molecular biology, and microbiology. Intended for students with limited lab experience. Students may enroll up to four times as topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Job and Internship Preparation: Job Application",
     "code": "BILD 80",
     "description": "This is an internship and job preparation course where professional development skills will be built upon in future quarters. The focus of this course will be writing résumés and cover letters and applying to jobs. Students can apply to internships or jobs that they seek out on their own or through industry partnerships that the course facilitator has strategically developed for this course. Open to biology majors only. It is recommended that students take BILD 80, BILD 81, and BILD 82.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Job and Internship Preparation: Interview Skills",
     "code": "BILD 81",
     "description": "This is an internship and job preparation course where professional development skills will build upon what was learned in the prior quarter. The focus of this course will be interview skills and having mock interviews with industry professionals. Students can apply to internships or jobs that they seek out on their own or through industry partnerships that the course facilitator has strategically developed for this course. Open to biology majors only. It is recommended that students take BILD 80, BILD 81, and BILD 82.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Job and Internship Preparation: Professional Development Skills",
     "code": "BILD 82",
     "description": "This is an internship and job preparation course where professional development skills will build upon what was learned in the prior quarter. The focus of this course will be building soft skills and other professional development skills that are applicable to internships. Students can apply to internships or jobs that they seek out on their own or through industry partnerships that the course facilitator has strategically developed for this course.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Business Communications for Biological Sciences",
     "code": "BILD 83",
     "description": "Students will learn to write and speak clearly and effectively for professional channels including email, presentations, and business meetings. Students will practice these techniques with industry professionals who will provide feedback to help them strengthen these skills.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Career Exploration in Biological Sciences",
     "code": "BILD 84R",
     "description": "The goal of this course is to expose students to careers available with a biology degree. The course will focus on diverse career topics such as research, sustainability, medicine and healthcare, product management, business development, science communication, sales, entrepreneurship, and legal professions. Students will engage with industry professionals in these areas through panel discussions and will read and discuss articles on these career pathways. Note: This course is a distance education course.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "First-year Seminar",
     "code": "BILD 87",
     "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Biologist’s Perspective",
     "code": "BILD 88",
     "description": "This experiential course teaches the art of practicing psychological well-being, based on principles from Eastern and Western philosophies (e.g., mindfulness, positive psychology, cognitive therapy, and neuroscience), from the perspective of a biologist. Each week, there is a short lecture on a given topic, combined with workshop-style exercises. P/NP grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Biology First-year Students: Strategies for Success",
     "code": "BILD 91",
     "description": "Course is designed to assist new first-year students in making a smooth and informed transition from high school. Lectures focus on study skills, academic planning and using school and campus resources to help achieve academic, personal and professional goals. Exercises and practicums will develop the problems solving skills needed to succeed in biology. Attention will be given to research possibilities. Intended for new first-year students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Professional Development Topics in the Biological Sciences",
     "code": "BILD 92",
     "description": "Seminars will introduce students to various professional development topics in the biological sciences. Emphasis may include current research in academe and industry, using campus and community resources to help achieve academic, personal and professional goals, and career exploration. Activities may include presentations by faculty, alumni, and practicing professional biologists, as well as panel discussions with professionals from industry.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Undergraduate Workshops",
     "code": "BILD 95",
     "description": "The workshops will be restricted to lower-division undergraduates. The course will introduce students to the methods of scientific research and to a variety of research topics in the biological/biomedical sciences. Examples of topics are: Introduction to Scientific Research, AIDS, Medical and Social Aspects, Is the Mind the Same as the Brain, Wildlife Conservation.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Modern Biology: Professional Development and Analysis",
     "code": "BILD 97",
     "description": "Students participating in the Biological Sciences Co-Op Program will meet with course instructors and fellow students during the quarter to discuss their project. At the end of the course, students will give a formal presentation describing their co-op project and complete a written assignment designed to evaluate their co-op experience. This course will focus on professional development skills designed to prepare students to provide feedback on research and communication in an industry setting. May be taken for credit up to six times.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "BILD 98",
     "description": "Investigation of a topic in biological sciences through directed reading and discussion by a small group of students under the supervision of a faculty member. Students must complete a Special Studies form. Paperwork for a BILD 98 must be submitted to SIS by Friday of the eighth week of the quarter preceding the quarter in which the 98 will be completed. P/NP grades only. May be taken for credit two times.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Independent Research",
     "code": "BILD 99",
     "description": "Independent research by special arrangement with a faculty member. (P/NP grades only.) Students must have an overall UC San Diego GPA of at least 3.0 and a minimum of thirty units complete. Students must complete a Special Studies form and a School of Biological Sciences Research Plan. Credit may not be received for a course numbered 99 subsequent to receiving credit for a course numbered 199.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Structural Biochemistry",
@@ -428,8 +388,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Metabolic Biochemistry",
@@ -488,8 +447,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Biochemical Techniques",
@@ -515,8 +473,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Gene Editing and Biotechnology",
@@ -542,8 +499,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Catalysis, Reactivity, and Molecular Structure",
@@ -573,8 +529,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Nutrition",
@@ -600,8 +555,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Chemistry of Biological Interactions",
@@ -635,8 +589,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Modern Biology: Biochemistry",
@@ -670,8 +623,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genetics",
@@ -692,8 +644,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Genetics",
@@ -714,24 +665,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Eukaryotic Genetics Laboratory",
     "code": "BICD 101",
     "description": "Course implements key concepts in genetics and genomics such as performing and interpreting results of genetic crosses, analyzing mutations and their phenotypic consequences, analyzing the genetic basis of quantitative traits, and analyzing genome sequences in relation to phenotypic variation. Attendance at the first lecture/lab is required. Nonattendance may result in the student being dropped from the course roster. Recommended preparation: BICD 100.",
     "raw_prereq": "upper-division standing; BILD 1 and BILD 4.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Genetic Inquiry",
     "code": "BICD 102",
     "description": "Students will interact with primary literature in genetics through reading, writing, and in-class discussions. The focus will be to learn to analyze research data and develop critical thinking skills, while applying concepts in genetics to understand scientific discoveries. Topics may vary from quarter to quarter; examples include but are not limited to genetic basis of complex human traits or genetics and evolution of form and function in organisms.",
     "raw_prereq": "upper-division standing; BICD 100 or BICD 100R and MATH 11.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Genetic Inquiry in Global Context",
@@ -761,8 +709,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genetic Neurobiology",
@@ -792,8 +739,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cell Biology",
@@ -827,8 +773,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Cell Biology",
@@ -862,8 +807,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Stem Cells and Regeneration",
@@ -880,8 +824,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular Basis of Plant Development",
@@ -898,16 +841,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Plant Molecular Genetics and Biotechnology Laboratory",
     "code": "BICD 123",
     "description": "Techniques in plant cell and tissue culture, plant transformation, genetic selection and screening of mutants, host pathogen interactions, gene regulation, organelle isolation, membrane transport. Attendance at the first lecture/lab is required. Nonattendance may result in the student being dropped from the course roster. Recommended preparation: BICD 120. Material lab fees will apply.",
     "raw_prereq": "upper-division standing; BICD 100 or BICD 100R and BILD 4.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Plant Innate Immunity",
@@ -933,16 +874,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Embryos, Genes, and Development",
     "code": "BICD 130",
     "description": "Developmental biology of animals at the tissue, cellular, and molecular levels. Basic processes of embryogenesis in a variety of invertebrate and vertebrate organisms. Cellular and molecular mechanisms that underlie cell fate determination and cell differentiation. More advanced topics such as pattern formation and sex determination are discussed. Recommended preparation: BICD 110 or BICD 110R and BIMM 100.",
     "raw_prereq": "upper-division standing; BICD 100 or BICD 100R and BIBC 100 or BIBC 102 or CHEM 114A or CHEM 114B.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "AIDS Science and Society",
@@ -968,8 +907,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Immunology",
@@ -1008,8 +946,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Forces of Life: Introduction to Physical Biology",
@@ -1034,8 +971,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Laboratory in Molecular Medicine",
@@ -1056,8 +992,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Population Genetics",
@@ -1096,8 +1031,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Active Genetics",
@@ -1123,8 +1057,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Modern Biology: Cellular Development",
@@ -1150,8 +1083,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introductory Ecology—Organisms and Habitat",
@@ -1168,8 +1100,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Ecology Laboratory",
@@ -1207,8 +1138,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Molecular Methods in Evolution and Ecology Lab",
@@ -1233,8 +1163,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Plant Ecology",
@@ -1251,8 +1180,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Insect Diversity",
@@ -1269,8 +1197,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Marine Conservation Biology",
@@ -1287,8 +1214,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Biological Oceanography",
@@ -1309,16 +1235,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Aquatic Ecology Lab",
     "code": "BIEB 135",
     "description": "Course provides overview of physical, chemical, and biological processes that characterize inland waters (lakes and rivers), estuaries, and near-shore environments. Dominant biota of lakes, rivers, and streams, and how they are related to physical and chemical processes of the systems in which they reside will be covered. Methods will be introduced for assessing the chemical composition of water and detecting organisms that affect drinking water quality and coastal water quality management. Course requires field studies. Students should expect to fully participate in field trips; transportation not provided by the university. Students must comply with all risk management policies/procedures. Material lab fees will apply.",
     "raw_prereq": "upper-division standing; BILD 3 and BILD 4.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Tropical Field Ecology",
@@ -1335,8 +1259,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Sea Turtle Ecology and Conservation",
@@ -1353,8 +1276,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biodiversity of the Galapagos Island and Mainland Ecuador",
@@ -1371,8 +1293,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biodiversity",
@@ -1389,8 +1310,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Quantitative Modeling for Biologists’ Lab",
@@ -1407,8 +1327,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computer Modeling in Evolution and Ecology",
@@ -1434,8 +1353,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genome Diversity and Dynamics",
@@ -1456,8 +1374,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Disease Ecology",
@@ -1474,8 +1391,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Evolution",
@@ -1505,8 +1421,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Evolution of Infectious Diseases",
@@ -1523,8 +1438,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Evolutionary Inquiry",
@@ -1545,8 +1459,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Evolution and Society",
@@ -1567,8 +1480,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microbiomes: The Ecology and Evolution of Microbes",
@@ -1589,8 +1501,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microbiome Function Laboratory",
@@ -1611,8 +1522,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Behavioral Ecology and Conservation",
@@ -1629,8 +1539,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Animal Behavior and Communication",
@@ -1660,8 +1569,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Ecosystems and Global Change",
@@ -1678,8 +1586,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biology of Conservation and the Human Predicament",
@@ -1696,8 +1603,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biology of Global Change",
@@ -1714,8 +1620,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Modern Biology: Ecology, Behavior, Evolution",
@@ -1732,8 +1637,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular Biology",
@@ -1813,8 +1717,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Molecular Biology",
@@ -1894,8 +1797,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Recombinant DNA Techniques",
@@ -1916,8 +1818,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Molecular Basis of Human Disease",
@@ -1968,8 +1869,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Regulation of Eukaryotic Gene Expressions",
@@ -1986,8 +1886,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Virology",
@@ -2004,8 +1903,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Circadian Rhythms—Biological Clocks",
@@ -2039,16 +1937,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "BioClock Studio",
     "code": "BIMM 116B",
     "description": "The BioClock Studio is an innovative course in which a team of undergraduate students, drawn from diverse disciplines, will work collaboratively to develop their scientific and communicative skills to produce creative educational materials that will enhance understanding of circadian biology. Students are expected to attend the annual Circadian Biology Symposium held each winter, to the extent course schedules allow, to conduct interviews with prominent scientists. BIMM 116 is not a prerequisite to enroll in BIMM 116B. May be taken for credit three times.",
     "raw_prereq": "department approval required. Students will be required to formally apply to participate via an online application form and selected students will work in small teams with intensive mentoring to execute projects.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Circadian Rhythms—Biological Clocks",
@@ -2082,8 +1978,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Pharmacology",
@@ -2130,8 +2025,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microbiology",
@@ -2173,8 +2067,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Microbiology Laboratory",
@@ -2191,8 +2084,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Microbial Genetics",
@@ -2209,8 +2101,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Medical Microbiology",
@@ -2244,8 +2135,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Finding the Fountain of Youth—Introduction to the Modern Biology of Aging",
@@ -2262,8 +2152,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microbial Physiology",
@@ -2297,8 +2186,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Microbial Diversity and Evolution",
@@ -2315,8 +2203,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biology of Cancer",
@@ -2333,8 +2220,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Quantitative Principles in Biology",
@@ -2351,8 +2237,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioinformatics Laboratory",
@@ -2386,8 +2271,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Bioinformatics Laboratory",
@@ -2421,8 +2305,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Computation for Biologists",
@@ -2443,8 +2326,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genomics Research Initiative Laboratory II",
@@ -2461,8 +2343,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genome Science",
@@ -2492,8 +2373,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Genomics, Big Data, and Human Health",
@@ -2523,8 +2403,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Molecular Sequence Analysis",
@@ -2575,8 +2454,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biological Databases",
@@ -2610,8 +2488,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Bioinformatics Laboratory",
@@ -2669,8 +2546,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Topics in Modern Biology: Molecular Biology",
@@ -2687,8 +2563,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Physiology I",
@@ -2709,8 +2584,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Human Physiology I",
@@ -2731,8 +2605,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Physiology II",
@@ -2758,8 +2631,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Physiology II in Global Context",
@@ -2776,8 +2648,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Anatomy with Lab",
@@ -2807,8 +2678,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Physiological Inquiry in Global Context",
@@ -2825,8 +2695,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Physiology Lab",
@@ -2852,8 +2721,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Comparative Physiology",
@@ -2891,8 +2759,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Biology and Medicine of Exercise",
@@ -2931,8 +2798,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Neuropharmacology",
@@ -2949,8 +2815,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Endocrinology",
@@ -2976,8 +2841,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Human Reproduction",
@@ -3003,8 +2867,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cellular Neurobiology",
@@ -3025,8 +2888,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Systems Neurobiology",
@@ -3056,16 +2918,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Developmental Neurobiology",
     "code": "BIPN 144",
     "description": "Molecular basis of neuronal cell fate determination, axon pathfinding, synaptogenesis experience-based refinement of connections, and learning in the brain will be examined.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Neurobiology Laboratory",
@@ -3090,8 +2950,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Computational Cellular Neurobiology",
@@ -3138,8 +2997,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computational Systems Neurobiology",
@@ -3186,8 +3044,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Cellular Basis of Learning and Memory",
@@ -3204,8 +3061,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Diseases of the Nervous System",
@@ -3244,8 +3100,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "The Healthy and Diseased Brain",
@@ -3262,8 +3117,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Neurobiology of Stress and Mental Disorders",
@@ -3280,8 +3134,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Glial Neurobiology",
@@ -3315,8 +3168,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Neuroanatomy",
@@ -3337,8 +3189,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Neural Data Science",
@@ -3372,8 +3223,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computational Models and Theories in Neuroscience",
@@ -3441,8 +3291,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Brain, Behavior, and Evolution",
@@ -3472,8 +3321,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Advanced Topics in Modern Biology: Physiology and Neuroscience",
@@ -3490,8 +3338,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Bioscholars Seminar: From Bench to Bedside and Beyond",
@@ -3512,16 +3359,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Essential Lab Techniques in the Biological Sciences",
     "code": "BISP 175",
     "description": "Students will gain hands-on advanced experience in the fundamental lab techniques used by biological scientists. The techniques covered will vary by topic. Examples of topics are biochemistry, neuroscience, molecular biology, and microbiology. Intended for students with some previous lab experience. May be taken for credit up to four times as topics vary.",
     "raw_prereq": "upper-division standing; BILD 1.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Cooperative Education and Analysis",
@@ -3538,32 +3383,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Biology Transfers: Strategies for Success",
     "code": "BISP 191",
     "description": "Course is designed to assist new transfers in making a smooth and informed transition from community college. Lectures focus on study skills, academic planning and using school and campus resources to help achieve academic, personal and professional goals. Exercises and practicums will develop the problem-solving skills needed to succeed in biology. Attention will be given to research possibilities. Intended for new transfers.",
     "raw_prereq": "upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Senior Seminar in Biology",
     "code": "BISP 192",
     "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in biology (at the upper-division level). Topics will vary from quarter to quarter. Senior Seminars may be taken for credit up to four times, with a change in topic and permission of the department. Enrollment is limited to twenty students, with preference given to seniors.",
     "raw_prereq": "upper-division standing; department stamp and/or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biology Education Research",
     "code": "BISP 193",
     "description": "Individual research on a problem in biology education by special arrangement with and under the direction of a faculty member. Projects are expected to involve novel research that examines issues in biology education such as the science of learning, evidence of effective teaching, and equity and inclusion in the classroom. P/PN grades only. May be taken for credit five times.",
     "raw_prereq": "department approval required. Enrollment is via department approval only. Students must complete a Special Studies form as well as a research plan. Paperwork for a BISP 193 must be submitted to SIS by all published deadlines as listed on the biology web page.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology",
@@ -3589,104 +3430,91 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Pedagogy and Learning Apprenticeship",
     "code": "BISP 195P",
     "description": "Under the supervision of an instructor, undergraduate students gain teaching experience through practical experiences in course management and effective teaching methods. Limited to upper-division students with a 3.0 GPA or higher. Students must apply the quarter preceding the quarter in which the BISP 195P will be completed. Applications are reviewed by instructors via the online system and assignments are made based on school need. P/NP grades only. May be taken for credit one time.",
     "raw_prereq": "school approval required and upper-division standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Honors Thesis in Biological Sciences",
     "code": "BISP 196",
     "description": "Course for student participants in the senior Honors thesis research program. Students complete individual research on a problem by special arrangement with, and under the direction of, a faculty member. Projects are expected to involve primary, experimental/analytical approaches that augment training in basic biology and that echo the curricular focus of the School of Biological Sciences. P/NP grades only. May be taken for credit three times.",
     "raw_prereq": "Students must have senior standing; 3.5 overall and major GPA or above. Research must be approved by Honors thesis faculty adviser. Enrollment in this course is for those students participating in the Honors Program in Biological Sciences and is via department approval only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biology Internship Program",
     "code": "BISP 197",
     "description": "Individual research on a problem by special arrangement with, and under the direction of, a UC San Diego faculty member and a selected researcher in industry or at a research institution. Projects are expected to involve primary, experimental/analytical approaches that augment training in basic biology and that echo the curricular focus of the School of Biological Sciences. Application deadlines are strictly enforced. Consult the School of Biological Sciences website for deadlines. Students must comply with all risk management policies/procedures. P/NP grades only. May be taken for credit three times.",
     "raw_prereq": "department approval required. Students must complete at least ninety units of credit and have a minimum GPA of 2.5. A completed and approved application/research plan/learning agreement is required for enrollment.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Directed Group Study",
     "code": "BISP 198",
     "description": "Investigation of a topic in biological sciences through directed reading and discussion by a small group of students under the supervision of a faculty member. P/NP grades only. May be taken for credit two times.",
     "raw_prereq": "department approval required. Enrollment is via department approval only. Students must complete a Special Studies form. Paperwork for a BISP 198 must be submitted to SIS by Friday of the eighth week of the quarter preceding the quarter in which the 198 will be completed.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Individual Research for Undergraduates",
     "code": "BISP 199",
     "description": "Individual research on a problem by special arrangement with, and under the direction of, a faculty member. Projects are expected to involve primary, experimental/analytical approaches that augment training in basic biology and that echo the curricular focus of the School of Biological Sciences. P/NP grades only. May be taken for credit five times. Note: Students must apply to the school via the online system. For complete details, applications, and deadlines, please consult the School of Biological Sciences website. Application deadlines are strictly enforced.",
     "raw_prereq": "department approval required. Students must complete at least ninety units of credit and have a minimum GPA of 2.5.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Graduate School Fundamentals: Introduction to Graduate Studies in the School of Biological Sciences",
     "code": "BGGN 200",
     "description": "Course will cover fundamental issues in academia, including campus resources, research design, ethical issues in research, scientific publishing and review, grant preparation, etc. Required of all first-year doctoral students in the School of Biological Sciences. S/U grades only.",
     "raw_prereq": "graduate (PhD) standing only; for students in the following major code BI77, or consent of instructor. (F)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Methods in Computational Neuroscience",
     "code": "BGGN 201",
     "description": "Introduction to the computational methods most frequently used in neuroscience research. Aimed at first-year graduate students in neuroscience and related disciplines. Minimal quantitative background will be assumed. Topics include Poisson processes, Markov Chains, auto- and cross-correlation analysis, Fourier/Spectral analysis, principal components/linear algebra, signal detection theory, information theory, Bayes Theorem, hypothesis testing. Nongraduate students may enroll with consent of instructor.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Professional Development for Biologists",
     "code": "BGGN 202",
     "description": "Discussions cover professional preparation for future scientists. Topics include how to read/write/publish papers, to write grant and fellowship proposals, to give oral presentations, and how to apply for research positions. Behind-the-scenes look at reviewing papers, grant and fellowship proposals. Discussions of career options in biological sciences will be included. Scientific content is in the area of eukaryotic gene expression, but knowledge is applicable to all areas of biology. Undergraduate students with senior standing may enroll with consent of instructor.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Topics in Ecology, Behavior, and Evolution",
     "code": "BGGN 203",
     "description": "The course teaches different topics on theory and key concepts in ecology, behavior, and evolution. Students will read materials in depth, attend weekly discussions, and explore relevant topics, theories, and models with advanced analytical tools. S/U grades only. May be taken for credit three times when topics vary.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Community and Population Ecology",
     "code": "BGGN 204",
     "description": "This course teaches a different topic each quarter on the theoretical or conceptual side of community and population ecology. Students will read materials in depth, attend weekly discussions, and explore theories and models with statistical, analytical, and algorithmic tools of the trade. S/U grades only.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Communicating Science",
     "code": "BGGN 205",
     "description": "Learn effective ways of communicating science in both written and verbal form. Develop an understanding of how to effectively present science for different audiences, including writing for grants and papers, figure generation, and oral presentations. S/U grades only.",
     "raw_prereq": "graduate standing. Enrollment restricted to the following major codes: BI77 and BI78.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Concepts of Reasoning and Experimentation",
     "code": "BGGN 206A",
     "description": "This course focuses on key concepts and the methods and logic used to ask and answer challenging biological questions. Course work will be organized around fundamental topics in molecular and cell biology and focus on problem solving, research articles, and/or research seminars to examine best practices in making reasoned scientific arguments and using logical experimental design to tackle biological problems, particularly at the molecular and cellular level. Enrollment restricted to the following major codes: BI77 and BI78.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Concepts of Reasoning and Experimentation",
@@ -3703,184 +3531,161 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Scientific Ethics",
     "code": "BGGN 207",
     "description": "(Cross-listed with SOMI 226.) Lectures, reading, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting current federal regulations. S/U grades only. Enrollment restricted to PhD students only in the following major codes: BI77 and BI78. Students should review the following web page prior to enrollment: https://ethics.ucsd.edu/courses/ethics/index.html. Biology PhD students should enroll during spring of year two.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Biological Sciences Graduate Boot Camp",
     "code": "BGGN 208",
     "description": "Intensive lecture-, seminar-, and laboratory-based course for incoming first year students in the biological sciences doctoral program. Topics covered: evolution and quantitative biology, including biostatistics, image analysis, bioinformatics, genomics, evolution, analysis of DNA proteins. During the first two weeks in September, students commit to ten to fifteen hours per day. S/U grades only.",
     "raw_prereq": "graduate (PhD) standing only; for students in the following major code BI77.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Social Issues in Biology",
     "code": "BGGN 209",
     "description": "This discussion course covers historical and contemporary readings about controversial issues related to biology and social responsibility of scientists. S/U grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Recent Advances and Experimental Approaches in Modern Biology",
     "code": "BGGN 211",
     "description": "Introduces students to advanced concepts of modern biology (e.g., molecular and cell biology, biochemistry, genomics, and epigenomics, etc.). Current experimental approaches (including high-throughput sequencing, microarray technology, RNAi, proteomic technologies, ChIP-seq) are discussed using primary research papers. The course provides training in critical analysis of scientific papers, data interpretation, scientific writing, and experimental design. Letter grades only. Enrollment restricted to MS students only in the following major code: BI84, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Quantitative Evolutionary Biology",
     "code": "BGGN 212",
     "description": "The goal of the course is to provide an introduction to modern evolutionary biology using quantitative approaches. The course will focus on mathematical modeling, experimental, and genomic approaches to study evolution.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Foundations of Bioinformatics",
     "code": "BGGN 213",
     "description": "This course provides a hands-on introduction to the computer-based analysis of genomic and biomolecular data. Major topics include sequencing technologies, genome informatics, structural bioinformatics, and transcriptomics. Students completing this course will be able to evaluate new genomic and biomolecular information using existing software and will have experience in combining bioinformatic approaches to answer biological questions. Enrollment restricted to the following major codes: BI77, BI78, and BS75. Course limited to PhD level students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Q-Biology",
     "code": "BGGN 214",
     "description": "The course goal is to discuss and work through examples where quantitative biology approaches were necessary to yield novel biological insights. Problems will be presented with a historic perspective to instill a philosophy for when, how, and why q-bio approaches are most effective. The course may also appeal to physics and engineering graduate students.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Applied Bioinformatics Lab",
     "code": "BGGN 215",
     "description": "Genomics and other “-omics” approaches are key tools for biology and medicine. This course provides a hands-on introduction to the computer-based analysis of genomic and biomolecular data. Students completing this course will be able to apply existing software to real bioinformatic data sets and combine approaches to interpret data and answer specific biological questions. Enrollment restricted to MS students in the following major code: BI84, BI87. Students will use their own laptops.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Biostatistics",
     "code": "BGGN 216",
     "description": "Fundamentals behind and practical application of biostatistics, including central tendency and variability, hypothesis testing, bootstrap methods, inferential techniques (parametric and nonparametric), correlation and regression, and multiple comparison correction. Training in the use of MATLAB, which students will use to demonstrate how experimental design, sample selection, and analysis methods impact validity and reproducibility of research. Enrollment restricted to the following major codes: BI77 and BI78. Students will use their own laptop computers.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Principles of Drug Development and Pharmacology",
     "code": "BGGN 218",
     "description": "Introduction to core concepts in drug development along with principles of pharmacokinetics, systems pharmacology, and toxicology. Examples of additional topics include origin and history of pharmacology, advertising versus science, and political influence on access to drugs. Enrollment restricted to MS/PhD students only in the following major codes: BI84, BI87, BI77, BI78.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Molecular Biology",
     "code": "BGGN 220",
     "description": "Provides a broad, advanced-level coverage of modern molecular biology for graduate students. Topics include gene structure and regulation, chromatin structure, mechanisms of transcription, RNA processing, translation, and turnover. The format includes lectures and discussion of selected papers. Letter grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Graduate Cell Biology",
     "code": "BGGN 222",
     "description": "Coverage of modern cell biology. Topics will be chosen from the following: the structure and function of membranes; endocytosis; protein targeting; intracellular organelles, including the nucleus, ER, Golgi; the cytoskeleton and molecular motors; mitosis and cell division; autophagy; cell death; cell signaling; cell-cell interactions. The course will include discussions on molecular approaches to cell biology as well as dissecting interconnections between cell biology and disease. Letter grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Genetics",
     "code": "BGGN 223",
     "description": "Advanced coverage of classical and cutting-edge genetic technologies in a wide variety of organisms—bacteria, plants, insects, worms, fish, and mammals. The power of genetic approaches to provide fundamental insights into important questions in development, physiology, behavior, medicine, and evolution. Course format centered on discussion of research papers with genetic analysis at their core. Emphasis on exploring essential genetic concepts, principles, and mechanisms throughout biology. Letter grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Immunology",
     "code": "BGGN 225",
     "description": "The course is devoted to immunology and is organized as a combined lecture-tutorial course stressing classical as well as current literature. Each week will compose an independent section. Topics will include cellular interactions involved in the immune response and the molecular biology unique to lymphoid factor and receptors.",
     "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Animal Virology",
     "code": "BGGN 226",
     "description": "This course consists of a review of fundamental concepts together with an in-depth analysis of the structure, genetics, multiplication and oncogenicity of animal viruses. Particular emphasis will be given to the DNA and RNA tumor viruses. The format of this section includes lectures and discussion of selected papers.",
     "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Topics in Plant Biology",
     "code": "BGGN 227",
     "description": "This course covers advanced topics in plant biology in the areas of molecular genetic developmental, and physiological biology. We will discuss plant-microbe interactions, transposable elements, protein trafficking, ion transport, and organ development. The format of this section includes lectures and discussion of selected papers.",
     "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Developmental Biology",
     "code": "BGGN 228",
     "description": "This course covers graduate level lectures on developmental biology, emphasizing the use of genetically tractable model systems. Discussion of recent research articles is an integral aspect of this course. Students are introduced to classical experiments and given detailed coverage of recent fundamental findings in developmental biology.",
     "raw_prereq": "open only to students enrolled in a graduate degree program. Letter grades only.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Graduate Signal Transduction",
     "code": "BGGN 230",
     "description": "The course will introduce students to a variety of signal transduction pathways and their function in the regulation of cellular processes. Special emphasis will be given to signaling cascades regulating immunological responses and alterations of signaling pathways during oncogenesis. Open only to students enrolled in a graduate degree program. Letter grades only.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Current Concepts in Stem Cell Biology",
     "code": "BGGN 231",
     "description": "Research papers from all aspects of stem cell biology will be read, presented, and discussed. Papers will range from landmark to current studies, spanning many developmental organisms and cell types. Students will present one paper, provide relevant background, and lead discussions.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Innate Immunity",
     "code": "BGGN 232",
     "description": "The course will discuss the current understanding of innate immunity, including in organisms such as plants and invertebrates. Through readings and weekly presentations, students will learn the basic concepts of innate immunity including how immunity can be disrupted by pathogen effectors. Recent findings in these rapidly advancing fields will be covered. The course will include weekly seminar-style presentations in which each student will present once during the quarter.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Practical Histopathology and Mouse Models of Human Disease",
     "code": "BGGN 234",
     "description": "(Cross-listed with PATH 234, MED 234, BIOM 238.) This course is designed to train those who need to analyze mouse models of human disease that are an essential part of their research. Sessions will include hematology, chemistry, histology, and immunohistochemistry methods used in the phenotyping assays. (Quarter offered varies and course is not offered every year.)",
     "raw_prereq": "standard undergraduate biology courses.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Glycobiology",
     "code": "BGGN 236",
     "description": "(Cross-listed with BIOM 222, CMM 225, MED 225, CHEM 237.) Advanced elective for graduate/medical students who have had core courses in cell biology or biochemistry. Expert faculty will present a coordinated overview of the field of glycobiology, which explores the structure, synthesis, and functions of sugar chains in biological systems.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Quantitative Methods in Genetics",
@@ -3901,24 +3706,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Integrative Microbiology I",
     "code": "BGGN 238A",
     "description": "To introduce students with structural and functional properties of microorganisms and with the role of microbes in the world. Course will emphasize the integrative aspects of microbiology. First course in series.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Integrative Microbiology II",
     "code": "BGGN 238B",
     "description": "To introduce students with structural and functional properties of microorganisms and with the role of microbes in the world. Course will emphasize the integrative aspects of microbiology. Second course in series.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Bioinformatics for Immunologists",
@@ -3935,144 +3737,126 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Neural Data Science",
     "code": "BGGN 240",
     "description": "Project-based course in which students will use computational notebooks to perform exploratory data analyses and to test hypotheses in large neuroscience data sets, including the differences between unique neuron types, leveraging text mining of the neuroscience literature, and human neuroimaging analyses. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be coscheduled with BIPN 162.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Genome Science",
     "code": "BGGN 241",
     "description": "Genomes are the immortal agents of evolution, passing from one individual to another in an unbroken line since the origin of life. This course explores the structure of genomes, the functions of its parts on a genome scale, the mechanisms of genome change, and the applications of genomic methods and knowledge. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be co-scheduled with BIMM 172.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Cancer Research and Therapy",
     "code": "BGGN 245",
     "description": "Lectures on basic and advanced concepts in cancer biology, will include defining outstanding contemporary questions and cutting-edge basic and translational research. Will rely on participants reading assigned literature prior to lectures. For doctoral or master’s students. Course will be held at the Salk Institute. S/U grades only.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Computational Neurobiology",
     "code": "BGGN 246A",
     "description": "Students read classic and modern papers that form the basis of the undergraduate lectures (BIPN 146), which they are encouraged to attend. Students present these papers at weekly discussion sessions. The focus of 246A is cellular neuronal properties. S/U grades only.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Molecular Mechanisms of Neural Development",
     "code": "BGGN 248",
     "description": "This course will cover the cellular and molecular basis of neural development. Focus is on primary research papers and topics include neural induction and neurogenesis, cell patterning, neuronal and glial differentiation, neuronal migration, axon pathfinding, synaptogenesis, neuronal cell death, regeneration, activity-dependent events, topographic maps, invertebrate and vertebrate model systems.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Basic Neuroscience",
     "code": "BGGN 249A-B-C",
     "description": "(Cross-listed with NEUG 200A-B-C.) The basic neuroscience course series is designed for doctoral students in the neurosciences and related interdisciplinary programs, providing a comprehensive overview of foundational neuroscience topics. The molecular and cellular neuroscience course examines the molecular and cellular mechanisms that govern nervous system function. Topics include neuronal structure, synaptic transmission, plasticity, and axon guidance. Enrollment restricted to doctoral students in major codes BI77, BI78, BI80, BI81, BI82, BI83, BI85, BI86, NE75, NE78. Doctoral students from other disciplines require instructor consent. Renumbered from NEU 200A-B-C. Students may receive credit for only one of the following courses: NEUG 200A-B-C, NEU 200A-B-C, or BGGN 249A-B-C. Biology students should enroll in BGGN 249A-B-C.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Developmental Neurobiology",
     "code": "BGGN 250",
     "description": "Molecular basis of neuronal cell fate determination, axon pathfinding, synaptogenesis experience-based refinement of connections, and learning in the brain will be examined. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be coscheduled with BIPN 144.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computational Cellular Neurobiology",
     "code": "BGGN 251",
     "description": "Biophysical models of neurons and small neural circuits, including ion channels, synapses, dendrites, and neuromodulators. Analysis of neurons as nonlinear dynamical systems. Enrollment restricted to MS students only in the following major code: BI84, BI87. This course and BGGN 252 are taught in alternate years. May be coscheduled with BIPN 146.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Computational Systems Neurobiology",
     "code": "BGGN 252",
     "description": "Models of neural coding and computation in the olfactory, visual, auditory, and somatosensory systems. Models of the motor system including central pattern generators, reinforcement learning, and motor cortex. Models of memory systems including working memory, long-term memory, and memory consolidation. Enrollment restricted to MS students only in the following major code: BI84, BI87. This course and BGGN 251 are taught in alternate years. May be coscheduled with BIPN 147.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Neurobiology of Stress and Mental Disorders",
     "code": "BGGN 253",
     "description": "This course will focus on the neurobiological mechanisms that mediate stress-induced behavioral change in animal models and in humans. Topics will range from the effects of stress hormones on brain function, to modern techniques for examining and treating stress-induced, long-lasting mental disorders such as depression and anxiety. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be coscheduled with BIPN 154.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Neuroanatomy",
     "code": "BGGN 254",
     "description": "The course will cover a broad anatomical and functional description of the human nervous system and explore evidence implicating key brain areas in specific functions. This course will discuss modern techniques and the use of model organisms for dissecting the anatomical organization of the brain. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be coscheduled with BIPN 160.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Systems and Circuits Neuroscience",
     "code": "BGGN 255",
     "description": "The course will cover a broad anatomical and functional description of interacting neural networks, or systems, in the brain responsible for sensory perception, internal state, and motor control. Course will discuss modern techniques and the use of model organisms for dissecting the anatomical and functional organization of the brain. Students will read current papers and are expected to participate in discussion of papers. Enrollment restricted to MS students in the following major code: BI84, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "BioClock Workshop",
     "code": "BGGN 257",
     "description": "BioClock workshop guides students to hone skills in scientific literature evaluation and science communication. Students work collaboratively to produce creative educational materials that will enhance understanding of circadian biology for general audiences. Course focuses on investigation and explanation of findings from primary literature in circadian biology as it relates to neurobiology, physiology, metabolism, agriculture, and ecology. Enrollment restricted to MS students only in the following major code: BI84, BI87. Products of the workshop will be distributed widely to enhance undergraduate curricula and public outreach.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Quantitative Physiology",
     "code": "BGGN 259",
     "description": "This course focuses on quantitative biology above the single cell level, from multicellular interactions to organs, organisms, and their physiology. Topics to be addressed include collective cell migration, developmental biology, organ systems, the microbiome, microbial communities, and embryology. Quantitative methods for data collection and analysis will be considered, along with use of mathematical and biophysical modeling. S/U grades only. Enrollment restricted to PhD students in the following major codes: BI77, BI78, BI83, BS75, BS80, CH75, CH81, BE75, BE80, BF78, PY75, PY76, PY81. May be taken for credit up to two times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Neurodynamics",
     "code": "BGGN 260",
     "description": "Introduction to the nonlinear dynamics of neurons and simple neural systems through nonlinear dynamics, bifurcation theory, and chaotic motions. The dynamics of single cells is considered at different levels of abstraction, e.g., biophysical and “reduced” models for analysis of regularly spiking and bursting cells, their dynamical properties, and their representation in phase space. Laboratory exercises will accompany the lectures. Duplicate credit not allowed for cross-listed courses: BGGN 260, BENG 260, and PHYS 279.",
     "raw_prereq": "graduate level or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Microbiome Function Laboratory",
     "code": "BGGN 261",
     "description": "This course examines current evidence of how host-associated microbiomes contribute toward host phenotypes. The course reviews approaches for studying host-microbiome interactions, including empirical experiments and omics, and the implications of microbiomes in ecology and evolutionary biology. Students will use their own laptop computers. May be coscheduled with BIEB 159. Enrollment restricted to the following major codes: BI77, BI78, BI80, BI81, BI82, BI83, BI85, BI86, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "3-D Cryo-Electron Microscopy of Macromolecules and Cells",
     "code": "BGGN 262",
     "description": "The resolution revolution in cryo-electron microscopy has made this a key technology for the high-resolution determination of structures of macromolecular complexes, organelles, and cells. The basic principles of transmission electron microscopy, modern cryo-electron microscopy, image acquisition, and 3-D reconstruction will be discussed. Examples from the research literature using this state-of-the-art technology will also be discussed. May be coscheduled with BIMM 162. Students may not receive credit for BGGN 262 and CHEM 265.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Laboratory in Biophysical Techniques",
@@ -4102,184 +3886,161 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Computational Models and Theories in Neuroscience",
     "code": "BGGN 267",
     "description": "This course covers mathematical models of neurons, synapses, and neural networks. We will introduce theoretical frameworks of brain activity and function to understand neural computation and control of behavior. We will discuss network dynamics, synaptic plasticity, learning and memory. Students will apply modeling approaches to address scientific questions and make predictions for experiments. Enrollment restricted to students only in the following major codes: BI77, BI78, BI80, BI81, BI82, BI83, BI84, BI85, BI86, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Master of Science Fundamentals",
     "code": "BGGN 270",
     "description": "Course will cover fundamental issues in academia, including campus resources, research design, ethical issues in research, scientific publishing, and how to write and defend an MS thesis. Issues related to diversity and inclusion, science communication, mentorship, and possible career paths will also be discussed. This course will also offer opportunities for community building and networking among the current MS students and program alumni. S/U grades only. Enrollment restricted to MS students only in the following major codes: BI84, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Experimental Methods in Biology",
     "code": "BGGN 271",
     "description": "Advanced laboratory and/or field experience in contemporary biological methodology. Open only to students enrolled in the integrated BS/MS program. Letter grades only. Open to students in the following major codes: BI84, BI87. May be taken for credit up to twelve times.",
     "raw_prereq": "consent of instructor and approval of school chair.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Learning Theories",
     "code": "BGGN 272",
     "description": "Introduction to classic and contemporary research on learning in biology and related science, technology, engineering, and mathematics disciplines. Through discussion of primary literature, students will systematically examine research in learning theories from a wide range of perspectives, such as behavioral, cognitive, constructivist, sociocultural, critical, and other emerging perspectives. Enrollment restricted to BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Biostatistics for Master’s Students",
     "code": "BGGN 273",
     "description": "Using the R programming language, students will learn the theory and practice of biostatistics. Learning permutation and ordinary-least-squares methods, we will test biological hypotheses, with the goal to understand and utilize a wide variety of statistical tools available to biology. Enrollment restricted to MS students only in the following major codes: BI84, BI87. Students will use their own technology/laptops.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Lab Methodology",
     "code": "BGGN 275",
     "description": "Course will equip students with advanced skills and knowledge in experimental methodologies across biological disciplines. Topics include advanced instrumentation, quantitative methodologies, and cutting-edge experimental techniques. Emphasis will be placed on critical thinking and problem-solving in the lab. Students will sharpen analytical skills through practical exercises while fostering independent research proficiency. May be taken for credit up to three times. Students must be admitted to the biological sciences MS program; restricted to major code BI84. Students will use their own laptops.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Lab Analysis",
     "code": "BGGN 276",
     "description": "Students will explore advanced instrumental analysis, data interpretation, and experimental design. Tailored for MS students, the course will equip students with skills needed for research and experimentation analysis in the specific biological areas that are needed for impactful contributions to the field. Students must be admitted to the biological sciences MS program; restricted to major code BI84. May be taken for credit up to three times. Students will use their own laptops.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology: Biochemistry",
     "code": "BGGN 280",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be taken for credit up to four times. Students may receive credit only once for BGGN 280 on a given topic. May be coscheduled with BIBC 194. Students may not receive credit for BGGN 280 on the same topic taken previously as BIBC 194.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology: Cellular Development",
     "code": "BGGN 281",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be taken for credit up to four times. Students may receive credit only once for BGGN 281 on a given topic. May be coscheduled with BICD 194. Students may not receive credit for BGGN 281 on the same topic taken previously as BICD 194.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology: Ecology, Behavior, and Evolution",
     "code": "BGGN 282",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be taken for credit up to four times. Students may receive credit only once for BGGN 282 on a given topic. May be coscheduled with BIEB 194. Students may not receive credit for BGGN 282 on the same topic taken previously as BIEB 194.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology: Molecular Biology",
     "code": "BGGN 283",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be taken for credit up to four times. Students may receive credit only once for BGGN 283 on a given topic. May be coscheduled with BIMM 194. Students may not receive credit for BGGN 283 on the same topic taken previously as BIMM 194.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology: Physiology and Neuroscience",
     "code": "BGGN 284",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be taken for credit up to four times. Students may receive credit only once for BGGN 284 on a given topic. May be coscheduled with BIPN 194. Students may not receive credit for BGGN 284 on the same topic taken previously as BIPN 194.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Topics in Modern Biology",
     "code": "BGGN 285",
     "description": "Course will vary in title and content. Students are expected to actively participate in course discussions, read, and analyze primary literature. Current descriptions and subtitles may be found on the Schedule of Classes and the School of Biological Sciences website. Enrollment restricted to MS students only in the following major code: BI84, BI87. May be taken for credit up to four times. Students may receive credit only once for BGGN 285 on a given topic. May be coscheduled with BISP 194. Students may not receive credit for BGGN 285 on the same topic taken previously as BISP 194.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advances in Cellular and Molecular Mechanisms",
     "code": "BGGN 290",
     "description": "Students present and discuss papers on recent discoveries involving basic mechanistic research into biological phenomena. Papers are selected by instructors from visiting seminar speaker’s research from the biological sciences and biochemistry seminar series. S/U grades only.",
     "raw_prereq": "graduate (PhD) standing only; for students in the following major code BI77, or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Professional Pathways in Biological Sciences",
     "code": "BGGN 292",
     "description": "Students meet experienced science professionals from a wide variety of backgrounds, including academia, science industry, and allied roles. Through discussions with these professionals, students will refine and improve their professional skills, including communication and presentation expertise, and develop a personal career action plan. S/U grades only.",
     "raw_prereq": "graduate (PhD) standing only; for students in the following major code BI77; or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Scientific Writing in Biology",
     "code": "BGGN 293",
     "description": "This course offers training in writing about students’ own research; presenting the background to their thesis, preparing a figure, analyzing, and discussing data in a written form. Using published literature on scientific writing, students will practice revising their own writing and providing constructive feedback to their peers. Letter grades only. May be taken for credit two times. Enrollment restricted to MS students only in the following major code: BI84, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Transitional Laboratory Projects in Biology",
     "code": "BGGN 294",
     "description": "In this course, the student will undertake a small project under the direct supervision of the principal investigator and laboratory research staff. The objective of this introductory project is to gain a better understanding of theoretical and practical aspects of the research in the host laboratory. This course is for doctoral students who are in the process of identifying and transitioning to a new thesis adviser. S/U grades only. May be taken for credit up to three times. Enrollment restricted to the following major codes: BI77, BI80, BI81, BI82, BI83, BI85, BI86.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Scientific Presentation in Biology",
     "code": "BGGN 295",
     "description": "Students learn effective ways of presenting their research to biologists and to the general public. Examples of posters and research talks will be analyzed and discussed. Students will practice presentations of their research as well as write about their findings for grant reviewers and nonscientist audiences. As a final project, students will prepare and present a poster of their research in the Biological Sciences Student Research Showcase. Letter grades only. Enrollment restricted to MS students only in the following major code: BI84, BI87.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Research Conference",
     "code": "BGGN 297",
     "description": "Group and individual discussion of research activities and of current literature. S/U grades only.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Laboratory Projects in Biology",
     "code": "BGGN 298",
     "description": "An introduction to contemporary laboratory techniques and research interests through independent, original projects under the direction of individual faculty members. S/U grades only. Open to students in the following major codes: BI77, BI78.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Thesis Research in Biology",
     "code": "BGGN 299",
     "description": "Directed research on dissertation topic. S/U grades only. Open to students in the following major codes: BI77, BI78, BI80, BI81, BI82, BI83, BI85, BI86.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to College Biology Education",
     "code": "BGGN 500",
     "description": "This course will consider the art and science of teaching and prepare students to serve as an instructor. Students will engage with and develop a philosophy of teaching and what it means to teach. Through interactive discussions, students will explore topics such as how people learn, evidence-based teaching practices, professional ethics, and equity and inclusion in the classroom. Students will also participate in apprentice teaching under mentorship of faculty. S/U grades only.",
     "raw_prereq": "department approval required. Enrollment restricted to biological sciences graduate students.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Cellular and Molecular Immunology",
@@ -4296,16 +4057,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Journal Club in Neurobiology",
     "code": "BGJC 207",
     "description": "Weekly presentations and discussions pertaining to research results reported in recently published literature. S/U grades only. May be taken for credit sixteen times.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Journal Club in Plant Molecular Biology",
@@ -4322,8 +4081,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Journal Club in Computational Neurobiology",
@@ -4340,39 +4098,34 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Journal Club in Biology Education Research",
     "code": "BGJC 215",
     "description": "Weekly presentations and discussions pertaining to research results reported in recently published literature. S/U grades only. May be taken for credit up to five times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Research Discussion",
     "code": "BGRD 200",
     "description": "Presentations of new research results and discussions of closely related published reports. All students are expected to report on their own research findings each quarter. S/U grades only. May be taken for credit sixteen times. Undergraduates enrolled in BISP 193, 196, or 199 may be authorized to enroll.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Biology",
     "code": "BGSE 200",
     "description": "Invited speakers from the United States and abroad, who are leaders in various aspects of biological research, describe their current research. S/U grades only. Restricted to students in major codes BI84, BI87. Undergraduates must be seniors or enrolled in BISP 199. May be repeated for credit sixteen times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Graduate Research Seminar",
     "code": "BGSE 205",
     "description": "Discussions of recent research in various aspects of biological sciences conducted by doctoral students in the School of Biological Sciences. S/U grades only. Enrollment restricted to the following major codes: BI77, BI80, BI81, BI82, BI83, BI85, BI86. May be taken for credit up to twenty times.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

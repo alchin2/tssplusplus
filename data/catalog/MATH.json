@@ -4,16 +4,14 @@
     "code": "MATH 2",
     "description": "A highly adaptive course designed to build on students’ strengths while increasing overall mathematical understanding and skill. This multi-modality course will focus on several topics of study designed to develop conceptual understanding and mathematical relevance: linear relationships; exponents and polynomials; rational expressions and equations; models of quadratic and polynomial functions and radical equations; exponential and logarithmic functions; and geometry and trigonometry. Workload credit only—not for baccalaureate credit. Must be taken for P/NP grading. May be repeated nine times for credit.",
     "raw_prereq": "Math Placement Exam qualifying score.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Foundations of Precalculus",
     "code": "MATH 3B",
     "description": "Introduction to functions and their properties. Polynomial and rational functions. Exponential and logarithmic functions. Trigonometric functions and their properties.",
     "raw_prereq": "Math Placement Exam qualifying score.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Precalculus",
@@ -30,8 +28,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Precalculus for Science and Engineering",
@@ -48,8 +45,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus I",
@@ -75,8 +71,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus II",
@@ -102,8 +97,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus III",
@@ -129,8 +123,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus-Based Introductory Probability and Statistics",
@@ -156,8 +149,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Linear Algebra",
@@ -187,8 +179,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus for Science and Engineering",
@@ -214,8 +205,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus for Science and Engineering",
@@ -245,8 +235,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus and Analytic Geometry for Science and Engineering",
@@ -263,8 +252,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Differential Equations",
@@ -303,8 +291,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Vector Calculus",
@@ -347,8 +334,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Honors Linear Algebra",
@@ -374,8 +360,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Honors Multivariable Calculus",
@@ -392,8 +377,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Honors Vector Calculus",
@@ -410,32 +394,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "First-year Student Seminar",
     "code": "MATH 87",
     "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Learning Sustainable Well-Being: Compassion for Self and Others, a Mathematician’s Perspective",
     "code": "MATH 88",
     "description": "This experiential course teaches the art of practicing psychological well-being, based on Eastern and Western approaches (e.g., mindfulness, positive psychology, cognitive therapy, neuroscience, theatre and art), from the perspective of a mathematician. Each week, there is a short lecture on a given topic, combined with workshop-style exercises. Open to all undergraduate students.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Teaching Math",
     "code": "MATH 95",
     "description": "Revisit students’ learning difficulties in mathematics in more depth to prepare students to make meaningful observations of how K–12 teachers deal with these difficulties. Explore how instruction can use students’ knowledge to pose problems that stimulate students’ intellectual curiosity.",
     "raw_prereq": "none.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Putnam Seminar",
@@ -452,16 +432,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Independent Study",
     "code": "MATH 99R",
     "description": "Independent study or research under direction of a member of the faculty.",
     "raw_prereq": "Must be of first-year standing and a Regent’s Scholar.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Abstract Algebra I",
@@ -487,8 +465,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Abstract Algebra II",
@@ -505,8 +482,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Abstract Algebra III",
@@ -523,8 +499,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Linear Algebra",
@@ -558,8 +533,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Modern Algebra I",
@@ -585,8 +559,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Modern Algebra II",
@@ -612,8 +585,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Number Theory I",
@@ -639,8 +611,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Number Theory II",
@@ -657,8 +628,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Basic Number Theory",
@@ -684,8 +654,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Algebraic Geometry",
@@ -711,8 +680,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Reasoning",
@@ -746,8 +714,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Partial Differential Equations",
@@ -794,8 +761,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Modeling I",
@@ -842,8 +808,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mathematical Modeling II",
@@ -860,8 +825,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Mathematical Biology I",
@@ -916,8 +880,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Mathematical Biology II",
@@ -942,8 +905,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Computational Stochastics",
@@ -960,8 +922,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Elements of Complex Analysis",
@@ -987,8 +948,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Applied Complex Analysis",
@@ -1005,8 +965,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Foundations of Teaching and Learning Mathematics I",
@@ -1032,8 +991,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Foundations of Teaching and Learning Math II",
@@ -1050,8 +1008,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Differential Equations and Dynamical Systems",
@@ -1085,8 +1042,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Foundations of Real Analysis I",
@@ -1112,8 +1068,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Foundations of Real Analysis II",
@@ -1130,8 +1085,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Foundations of Real Analysis III",
@@ -1148,8 +1102,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Analysis I",
@@ -1175,8 +1128,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Analysis II",
@@ -1202,8 +1154,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Fourier Analysis",
@@ -1229,8 +1180,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Analysis of Ordinary Differential Equations",
@@ -1256,8 +1206,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Analysis of Partial Differential Equations",
@@ -1283,8 +1232,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Differential Geometry",
@@ -1327,8 +1275,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Calculus on Manifolds",
@@ -1345,8 +1292,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applicable Mathematics and Computing",
@@ -1380,8 +1326,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Geometry for Secondary Teachers",
@@ -1407,8 +1352,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Discrete Mathematics and Graph Theory",
@@ -1434,8 +1378,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Geometric Computer Graphics",
@@ -1469,8 +1412,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Computer Graphics",
@@ -1487,8 +1429,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Mathematical Software",
@@ -1563,8 +1504,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Extremal Combinatorics and Graph Theory",
@@ -1590,8 +1530,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Elementary Mathematical Logic I",
@@ -1621,8 +1560,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Elementary Mathematical Logic II",
@@ -1639,8 +1577,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "History of Mathematics",
@@ -1657,8 +1594,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Applied Mathematics—Computer Science",
@@ -1692,8 +1628,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Numerical Analysis: Linear Algebra",
@@ -1753,8 +1688,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Numerical Analysis: Approximation and Nonlinear Equations",
@@ -1771,8 +1705,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Numerical Analysis: Ordinary Differential Equations",
@@ -1802,8 +1735,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Numerical Optimization: Linear Programming",
@@ -1837,8 +1769,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Numerical Optimization: Nonlinear Programming",
@@ -1868,8 +1799,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Optimization Methods for Data Science I",
@@ -1908,8 +1838,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Optimization Methods for Data Science II",
@@ -1935,8 +1864,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Methods for Physical Modeling",
@@ -1975,8 +1903,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Methods for Partial Differential Equations",
@@ -2002,8 +1929,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Projects in Computational and Applied Mathematics",
@@ -2029,8 +1955,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Probability",
@@ -2056,8 +1981,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Stochastic Processes I",
@@ -2108,8 +2032,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Stochastic Processes II",
@@ -2126,8 +2049,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Mathematical Statistics I",
@@ -2165,8 +2087,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Mathematical Statistics II",
@@ -2183,8 +2104,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mathematical Statistics—Nonparametric Statistics",
@@ -2201,8 +2121,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Statistical Learning",
@@ -2248,8 +2167,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Statistics—Time Series",
@@ -2266,8 +2184,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Sampling Surveys and Experimental Design",
@@ -2317,8 +2234,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Hidden Data in Random Matrices",
@@ -2348,8 +2264,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Statistical Methods",
@@ -2375,8 +2290,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Enumerative Combinatorics",
@@ -2402,8 +2316,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Introduction to Computational Statistics",
@@ -2459,8 +2372,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probability and Statistics for Bioinformatics",
@@ -2486,8 +2398,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Cryptography",
@@ -2513,8 +2424,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mathematics of Modern Cryptography",
@@ -2544,8 +2454,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Algebraic Combinatorics",
@@ -2597,8 +2506,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Exploratory Data Analysis and Inference",
@@ -2673,8 +2581,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Foundations of Topology I",
@@ -2704,8 +2611,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Foundations of Topology II",
@@ -2722,8 +2628,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Topology",
@@ -2740,8 +2645,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Actuarial Mathematics I",
@@ -2767,8 +2671,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Actuarial Mathematics II",
@@ -2785,8 +2688,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "The Mathematics of Finance",
@@ -2837,48 +2739,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Student Colloquium",
     "code": "MATH 196",
     "description": "A variety of topics and current research results in mathematics will be presented by guest lecturers and students under faculty direction. May be taken for P/NP grade only.",
     "raw_prereq": "upper-division status.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Extracurricular Industry Practicum",
     "code": "MATH 197",
     "description": "An enrichment program which provides academic credit for work experience with public/private sector employers. After independently securing an internship with significant mathematical content, students will identify a faculty member to work with directly, discussing the mathematics involved. Faculty may require related readings and assignments as appropriate. May be taken for credit three times. Units may not be applied towards major graduation requirements.",
     "raw_prereq": "permission of department.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Independent Study for Undergraduates",
     "code": "MATH 199",
     "description": "Independent reading in advanced mathematics by individual students. Three periods. (P/NP grades only.)",
     "raw_prereq": "permission of department.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Honors Thesis Research for Undergraduates",
     "code": "MATH 199H",
     "description": "Honors thesis research for seniors participating in the Honors Program. Research is conducted under the supervision of a mathematics faculty member.",
     "raw_prereq": "admission to the Honors Program in mathematics, department stamp.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Algebra I",
     "code": "MATH 200A",
     "description": "First course in graduate algebra. Topics may include group actions, Sylow theorems, solvable and nilpotent groups, free groups and presentations, semidirect products, polynomial rings, unique factorization, chain conditions, modules over principal ideal domains, rational and Jordan canonical forms, tensor products, projective and flat modules, Galois theory, solvability by radicals, localization, primary decomposition, Hilbert Nullstellensatz, integral extensions, Dedekind domains, Krull dimension.",
     "raw_prereq": "graduate standing in MA75, MA76, MA77, MA80, MA81. All other students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Algebra II",
@@ -2904,8 +2800,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Algebra III",
@@ -2931,8 +2826,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Basic Topics in Algebra I",
@@ -2958,16 +2852,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Algebra I",
     "code": "MATH 202A",
     "description": "Introduction to algebra from a computational perspective. Groups, rings, linear algebra, rational and Jordan forms, unitary and Hermitian matrices, matrix decompositions, perturbation of eigenvalues, group representations, symmetric functions, fast Fourier transform, commutative algebra, Grobner basis, finite fields.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Applied Algebra II",
@@ -2984,8 +2876,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Algebra III",
@@ -3002,8 +2893,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Algebraic Geometry I",
@@ -3029,8 +2919,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Algebraic Geometry II",
@@ -3056,8 +2945,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Algebraic Geometry III",
@@ -3083,8 +2971,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Number Theory I",
@@ -3110,8 +2997,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Number Theory II",
@@ -3137,8 +3023,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Number Theory III",
@@ -3164,24 +3049,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Number Theory",
     "code": "MATH 205",
     "description": "Topics in algebraic and analytic number theory, such as: L-functions, sieve methods, modular forms, class field theory, p-adic L-functions and Iwasawa theory, elliptic curves and higher dimensional abelian varieties, Galois representations and the Langlands program, p-adic cohomology theories, Berkovich spaces, etc. May be taken for credit nine times.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Algebraic Geometry",
     "code": "MATH 206A",
     "description": "Introduction to varied topics in algebraic geometry. Topics will be drawn from current research and may include Hodge theory, higher dimensional geometry, moduli of vector bundles, abelian varieties, deformation theory, intersection theory. Nongraduate students may enroll with consent of instructor. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Algebraic Geometry",
@@ -3207,8 +3089,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Algebra",
@@ -3234,24 +3115,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Algebraic Geometry",
     "code": "MATH 208",
     "description": "Various topics in algebraic geometry. May be taken for credit nine times.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar in Number Theory",
     "code": "MATH 209",
     "description": "Various topics in number theory.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Mathematical Methods in Physics and Engineering",
@@ -3281,8 +3159,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Mathematical Methods in Physics and Engineering",
@@ -3299,8 +3176,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Methods in Physics and Engineering",
@@ -3317,32 +3193,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Algebra",
     "code": "MATH 211A",
     "description": "Various topics in algebra.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. May be taken for credit nine times. (S/U grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar in Group Actions",
     "code": "MATH 211B",
     "description": "Various topics in group actions.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. May be taken for credit nine times. (S/U grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Mathematical Biology I",
     "code": "MATH 212A",
     "description": "Part one of a two-course introduction to the use of mathematical theory and techniques in analyzing biological problems. Topics include differential equations, dynamical systems, and probability theory applied to a selection of biological problems from population dynamics, biochemical reactions, biological oscillators, gene regulation, molecular interactions, and cellular function. May be coscheduled with MATH 112A. Recommended preparation: Probability Theory and Differential Equations.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Introduction to Mathematical Biology II",
@@ -3359,8 +3231,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Applied Survival Analysis",
@@ -3394,24 +3265,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Introduction to Computational Stochastics",
     "code": "MATH 214",
     "description": "Topics include random number generators, variance reduction, Monte Carlo (including Markov Chain Monte Carlo) simulation, and numerical methods for stochastic differential equations. Methods will be illustrated on applications in biology, physics, and finance. May be coscheduled with MATH 114. Recommended preparation: Probability Theory and basic computer programming.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mathematical Methods in Data Science I",
     "code": "MATH 216A",
     "description": "This is the first course in a three-course sequence in mathematical methods in data science, and will serve as an introduction to the rest of the sequence. Topics include principal component analysis and the singular value decomposition, sparse representation, dictionary learning, the Johnson Lindenstrauss Lemma and its applications, compressed sensing, kernel methods, nearest neighbor searches, and spectral and subspace clustering. Some scientific programming experience is recommended.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mathematical Methods in Data Science II",
@@ -3437,8 +3305,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Methods in Data Science III",
@@ -3464,24 +3331,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Applied Mathematics",
     "code": "MATH 217",
     "description": "In recent years, topics have included applied complex analysis, special functions, and asymptotic methods. May be repeated for credit with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Mathematics of Biological Systems",
     "code": "MATH 218",
     "description": "Various topics in the mathematics of biological systems. May be taken for credit nine times.",
     "raw_prereq": "graduate standing. (S/U grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Complex Analysis",
@@ -3507,8 +3371,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Several Complex Variables",
@@ -3542,8 +3405,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Further Topics in Several Complex Variables",
@@ -3569,8 +3431,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Partial Differential Equations I",
@@ -3604,8 +3465,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Partial Differential Equations II",
@@ -3631,8 +3491,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Partial Differential Equations III",
@@ -3658,16 +3517,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Differential Equations",
     "code": "MATH 237A",
     "description": "Introduction to varied topics in differential equations. In recent years, topics have included Riemannian geometry, Ricci flow, and geometric evolution. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Differential Equations",
@@ -3693,16 +3550,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Real Analysis I",
     "code": "MATH 240A",
     "description": "First course in graduate real analysis. Abstract measure and integration theory, integration on product spaces. Lebesgue measure and integral, Lebesgue-Stieltjes integrals, functions of bounded variation, differentiation of measures. Locally compact Hausdorff spaces, Banach and Hilbert spaces, linear functionals. Lebesgue spaces and interpolation, elements of Fourier analysis and distribution theory.",
     "raw_prereq": "graduate standing in MA75, MA76, MA77, MA80, MA81. All other students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Real Analysis II",
@@ -3728,8 +3583,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Real Analysis III",
@@ -3755,8 +3609,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Functional Analysis I",
@@ -3782,8 +3635,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Functional Analysis II",
@@ -3809,8 +3661,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Fourier Analysis",
@@ -3836,24 +3687,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Functional Analysis",
     "code": "MATH 243",
     "description": "Various topics in functional analysis. May be taken for credit nine times.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Convex Analysis and Optimization I",
     "code": "MATH 245A",
     "description": "Convex sets and functions, convex and affine hulls, relative interior, closure, and continuity, recession and existence of optimal solutions, saddle point and min-max theory, subgradients and subdifferentials. Recommended preparation: course work in linear algebra and real analysis.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Convex Analysis and Optimization II",
@@ -3870,8 +3718,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Convex Analysis and Optimization III",
@@ -3888,16 +3735,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Real Analysis",
     "code": "MATH 247A",
     "description": "Introduction to varied topics in real analysis. In recent years, topics have included Fourier analysis, distribution theory, martingale theory, operator theory. May be taken for credit six times with consent of adviser.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Real Analysis",
@@ -3923,24 +3768,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Real Analysis",
     "code": "MATH 248",
     "description": "Various topics in real analysis.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Differential Geometry",
     "code": "MATH 250A-B-C",
     "description": "Differential manifolds, Sard theorem, tensor bundles, Lie derivatives, DeRham theorem, connections, geodesics, Riemannian metrics, curvature tensor and sectional curvature, completeness, characteristic classes. Differential manifolds immersed in Euclidean space.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Lie Groups",
@@ -3961,24 +3803,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Lie Groups and Lie Algebras",
     "code": "MATH 256",
     "description": "Various topics in Lie groups and Lie algebras, including structure theory, representation theory, and applications.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Differential Geometry",
     "code": "MATH 257A",
     "description": "Introduction to varied topics in differential geometry. In recent years, topics have included Morse theory and general relativity. May be taken for credit six times with consent of adviser.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Differential Geometry",
@@ -4004,32 +3843,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Differential Geometry",
     "code": "MATH 258",
     "description": "Various topics in differential geometry. May be taken for credit nine times.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Geometrical Physics",
     "code": "MATH 259A-B-C",
     "description": "Manifolds, differential forms, homology, deRham’s theorem. Riemannian geometry, harmonic forms. Lie groups and algebras, connections in bundles, homotopy sequence of a bundle, Chern classes. Applications selected from Hamiltonian and continuum mechanics, electromagnetism, thermodynamics, special and general relativity, Yang-Mills fields.",
     "raw_prereq": "graduate standing in mathematics, physics, or engineering, or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mathematical Logic I",
     "code": "MATH 260A",
     "description": "Propositional calculus and first-order logic. Theorem proving, Model theory, soundness, completeness, and compactness, Herbrand’s theorem, Skolem-Lowenheim theorems, Craig interpolation.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mathematical Logic II",
@@ -4046,16 +3881,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probabilistic Combinatorics and Algorithms",
     "code": "MATH 261A",
     "description": "Introduction to the probabilistic method. Combinatorial applications of the linearity of expectation, second moment method, Markov, Chebyschev, and Azuma inequalities, and the local limit lemma. Introduction to the theory of random graphs.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Probabilistic Combinatorics and Algorithms II",
@@ -4072,8 +3905,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probabilistic Combinatorics and Algorithms III",
@@ -4090,16 +3922,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Combinatorial Mathematics",
     "code": "MATH 262A",
     "description": "Introduction to varied topics in combinatorial mathematics. In recent years topics have included problems of enumeration, existence, construction, and optimization with regard to finite sets. Recommended preparation: some familiarity with computer programming desirable but not required. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Combinatorial Mathematics",
@@ -4125,24 +3955,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Combinatorics",
     "code": "MATH 264A-B-C",
     "description": "Topics from partially ordered sets, Mobius functions, simplicial complexes and shell ability. Enumeration, formal power series and formal languages, generating functions, partitions. Lagrange inversion, exponential structures, combinatorial species. Finite operator methods, q-analogues, Polya theory, Ramsey theory. Representation theory of the symmetric group, symmetric functions and operations with Schur functions.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Mathematical Logic",
     "code": "MATH 267A",
     "description": "Introduction to varied topics in mathematical logic. Topics chosen from recursion theory, model theory, and set theory. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing or consent of instructor. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Mathematical Logic",
@@ -4168,32 +3995,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Logic",
     "code": "MATH 268",
     "description": "Various topics in logic.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Combinatorics",
     "code": "MATH 269",
     "description": "Various topics in combinatorics.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Numerical Linear Algebra",
     "code": "MATH 270A",
     "description": "Error analysis of the numerical solution of linear equations and least squares problems for the full rank and rank deficient cases. Error analysis of numerical methods for eigenvalue problems and singular value problems. Iterative methods for large sparse systems of linear equations.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Numerical Approximation and Nonlinear Equations",
@@ -4210,8 +4033,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Ordinary Differential Equations",
@@ -4228,24 +4050,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Optimization",
     "code": "MATH 271A-B-C",
     "description": "Formulation and analysis of algorithms for constrained optimization. Optimality conditions; linear and quadratic programming; interior methods; penalty and barrier function methods; sequential quadratic programming methods.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Numerical Partial Differential Equations I",
     "code": "MATH 272A",
     "description": "Survey of discretization techniques for elliptic partial differential equations, including finite difference, finite element and finite volume methods. Lax-Milgram Theorem and LBB stability. A priori error estimates. Mixed methods. Convection-diffusion equations. Systems of elliptic PDEs.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Numerical Partial Differential Equations II",
@@ -4262,8 +4081,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Partial Differential Equations III",
@@ -4280,16 +4098,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Techniques in Computational Mathematics I",
     "code": "MATH 273A",
     "description": "Models of physical systems, calculus of variations, principle of least action. Discretization techniques for variational problems, geometric integrators, advanced techniques in numerical discretization. Project-oriented; projects designed around problems of current interest in science, mathematics, and engineering.",
     "raw_prereq": "graduate standing or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Techniques in Computational Mathematics II",
@@ -4306,8 +4122,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Techniques in Computational Mathematics III",
@@ -4324,8 +4139,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Methods for Physical Modeling",
@@ -4364,8 +4178,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Methods for Partial Differential Equations",
@@ -4391,48 +4204,42 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Numerical Analysis in Multiscale Biology",
     "code": "MATH 276",
     "description": "(Cross-listed with BENG 276/CHEM 276.) Introduces mathematical tools to simulate biological processes at multiple scales. Numerical methods for ordinary and partial differential equations (deterministic and stochastic), and methods for parallel computing and visualization. Hands-on use of computers emphasized; students will apply numerical methods in individual projects.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topics in Computational and Applied Mathematics",
     "code": "MATH 277A",
     "description": "Introduction to varied topics in computational and applied mathematics. In recent years, topics have included applied functional analysis and approximation theory; numerical treatment of nonlinear partial differential equations; and geometric numerical integration for differential equations. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Seminar in Computational and Applied Mathematics",
     "code": "MATH 278A",
     "description": "Various topics in computational and applied mathematics.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar in Mathematics of Information, Data, and Signals",
     "code": "MATH 278B",
     "description": "Various topics in the mathematics of information, data, and signals.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Seminar in Optimization",
     "code": "MATH 278C",
     "description": "Various topics in optimization and applications. May be taken for credit nine times.",
     "raw_prereq": "graduate standing. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Projects in Computational and Applied Mathematics",
@@ -4458,16 +4265,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probability Theory I",
     "code": "MATH 280A",
     "description": "This is the first course in a three-course sequence in probability theory. Topics covered in the sequence include the measure-theoretic foundations of probability theory, independence, the Law of Large Numbers, convergence in distribution, the Central Limit Theorem, conditional expectation, martingales, Markov processes, and Brownian motion. Recommended preparation: completion of real analysis equivalent to MATH 140A-B strongly recommended.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Probability Theory II",
@@ -4493,8 +4298,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Probability Theory III",
@@ -4520,40 +4324,35 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Mathematical Statistics",
     "code": "MATH 281A",
     "description": "Statistical models, sufficiency, efficiency, optimal estimation, least squares and maximum likelihood, large sample theory.",
     "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Mathematical Statistics",
     "code": "MATH 281B",
     "description": "Hypothesis testing and confidence intervals, one-sample and two-sample problems. Bayes theory, statistical decision theory, linear models and regression.",
     "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mathematical Statistics",
     "code": "MATH 281C",
     "description": "Nonparametrics: tests, regression, density estimation, bootstrap and jackknife. Introduction to statistical computing using S plus.",
     "raw_prereq": "advanced calculus and basic probability theory or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Applied Statistics I",
     "code": "MATH 282A",
     "description": "General theory of linear models with applications to regression analysis. Ordinary and generalized least squares estimators and their properties. Hypothesis testing, including analysis of variance, and confidence intervals. Completion of courses in linear algebra and basic statistics are recommended prior to enrollment.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grades permitted.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Applied Statistics II",
@@ -4570,16 +4369,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Statistical Methods in Bioinformatics",
     "code": "MATH 283",
     "description": "This course will cover material related to the analysis of modern genomic data; sequence analysis, gene expression/functional genomics analysis, and gene mapping/applied population genetics. The course will focus on statistical modeling and inference issues and not on database mining techniques.",
     "raw_prereq": "one year of calculus, one statistics course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Lifetime Data Analysis",
@@ -4596,16 +4393,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Stochastic Processes",
     "code": "MATH 285",
     "description": "Elements of stochastic processes, Markov chains, hidden Markov models, martingales, Brownian motion, Gaussian processes. Recommended preparation: completion of undergraduate probability theory (equivalent to MATH 180A) highly recommended.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Stochastic Differential Equations",
@@ -4631,8 +4426,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Time Series Analysis",
@@ -4649,8 +4443,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Multivariate Analysis",
@@ -4667,8 +4460,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Advanced Time Series Analysis",
@@ -4685,8 +4477,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Statistical Learning",
@@ -4703,24 +4494,21 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Probability and Statistics",
     "code": "MATH 288",
     "description": "Various topics in probability and statistics.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Topics in Probability and Statistics",
     "code": "MATH 289A",
     "description": "Introduction to varied topics in probability and statistics. In recent years, topics have included Markov processes, martingale theory, stochastic processes, stationary and Gaussian processes, ergodic theory. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Probability and Statistics",
@@ -4746,16 +4534,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Exploratory Data Analysis and Inference",
     "code": "MATH 289C",
     "description": "An introduction to various quantitative methods and statistical techniques for analyzing data—in particular big data. Quick review of probability continuing to topics of how to process, analyze, and visualize data using statistical language R. Further topics include basic inference, sampling, hypothesis testing, bootstrap methods, and regression and diagnostics. Offers conceptual explanation of techniques, along with opportunities to examine, implement, and practice them in real and simulated data. Recommended preparation: familiarity with linear algebra and mathematical statistics highly recommended.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Topology",
@@ -4802,16 +4588,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Topics in Topology",
     "code": "MATH 291A",
     "description": "Introduction to varied topics in topology. In recent years topics have included generalized cohomology theory, spectral sequences, K-theory, homotophy theory. May be taken for credit six times with consent of adviser as topics vary.",
     "raw_prereq": "graduate standing. Nongraduate students may enroll with consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Further Topics in Topology",
@@ -4837,16 +4621,14 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Seminar in Topology",
     "code": "MATH 292",
     "description": "Various topics in topology. May be taken for credit nine times.",
     "raw_prereq": "graduate standing or consent of instructor. (S/U grade only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "The Mathematics of Finance",
@@ -4863,47 +4645,41 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Special Topics in Mathematics",
     "code": "MATH 295",
     "description": "A variety of topics and current research results in mathematics will be presented by staff members and students under faculty direction.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Graduate Student Colloquium",
     "code": "MATH 296",
     "description": "A variety of advanced topics and current research in mathematics will be presented by department faculty. (S/U grades only.) May be taken for credit six times.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Mathematics Graduate Research Internship",
     "code": "MATH 297",
     "description": "An enrichment program that provides work experience with public/private sector employers and researchers. Under supervision of a faculty adviser, students provide mathematical consultation services. May be taken up to three times for credit.",
     "raw_prereq": "consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Reading and Research",
     "code": "MATH 299",
     "description": "Independent study and research for the doctoral dissertation. One to three credits will be given for independent study (reading) and one to nine for research.",
     "raw_prereq": "consent of instructor. (S/U grades permitted.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Teaching Assistant Training",
     "code": "MATH 500",
     "description": "A course in which teaching assistants are aided in learning proper teaching methods through faculty-led discussions, preparation and grading of examinations and other written exercises, academic integrity, and student interactions. Number of units for credit depends on number of hours devoted to teaching assistant duties. May be taken for credit up to nine times for a maximum of thirty-six units. Must have concurrent teaching assistant appointment in mathematics.",
     "raw_prereq": "consent of adviser. (S/U grades only.)",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   }
 ]

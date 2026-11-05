@@ -4,48 +4,42 @@
     "code": "ENG 5",
     "description": "This course focuses on academic and personal/career planning, including resume development and preparation for future opportunities including research, internships, and graduate school. Students will gain knowledge and skills in these areas through assignments and in-class activities. This course is available for first-year undergraduate students in the IDEA Scholars program.",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Fundamentals of Engineering Applications",
     "code": "ENG 10",
     "description": "Application-oriented, hands-on introduction to engineering mathematics and design processes. Key mathematical concepts as they apply to engineering, including solving systems of equations and least-squares regression. In-class activities using Python and Arduino will complement the lectures and provide students hands-on experience with solving real-world engineering problems related to design, manufacturing and prototyping, electronics, and data analysis.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Engineer Your Success",
     "code": "ENG 15",
     "description": "Engineer Your Success is designed to enhance your success as an engineering student (and later as an engineer) by developing key academic and personal skills. Learn how to study more effectively and uncover how to become the best engineer you can be. This course focuses on academic and personal planning, time management, study skills, and paths to personal growth. Activities include individual and collaborative exercises, personal reflections, and a final project.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Introduction to Engineering Research",
     "code": "ENG 20",
     "description": "Introduction to research in engineering. Topics include defining a research problem, finding and reading technical papers, technical writing, and effective practices for presenting research. Students write a proposal on their lab placement research project. This course is for students in the Guided Engineering Apprenticeship in Research (GEAR).",
     "raw_prereq": "department approval required.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Creative Problem-Solving for the Twenty-First-Century Changemaker",
     "code": "ENG 30",
     "description": "Students learn problem-solving strategies and heuristics and apply them in lab modules and a quarter-long team project. Students will employ strategies to identify problems, test and verify assumptions, and develop solutions. Strategies include Duncker Diagram, fishbone diagram, systems thinking, KT analysis, and Five Whys.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Technical Writing/Communication for Engineers and Scientist",
     "code": "ENG 100C",
     "description": "Principles and procedures of technical writing and professional communication. The course is ideal for students pursuing careers in science and/or engineering and covers organizing information, writing for technical forms such as proposals and abstracts, and designing visual aids.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Design for Development",
@@ -91,8 +85,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Design for Development Lab",
@@ -109,32 +102,28 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Venture Mechanics",
     "code": "ENG 201",
     "description": "Examines the engineering/entrepreneurism interface. Discovery, development, and implementation of new product ideas. Understanding markets, competitors, and selling innovations. Cultivating effective working relationships between research, engineering, manufacturing, and marketing elements of an organization. Priority enrollment given to engineering majors.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Enterprise Dynamics",
     "code": "ENG 202",
     "description": "Case studies of start-ups, strategic technology management, practice in use of industrial decision-making tools, and speakers from successful firms combined with experience in making management decisions dynamically in a competitive computer-simulated enterprise. Field study of ongoing processes in a local high technology company. Priority enrollment given to engineering majors.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Applied Innovations",
     "code": "ENG 203",
     "description": "Course includes the examination of business plans developed by early stage technology businesses. Students expected to work on the development of business plans for real, innovative business organizations. Will explore all of the business research and analysis that needs to be undertaken in order to develop a complete business plan. Completion of ENG 201 or ENG 202 preferred.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Corporate Entrepreneurship for Global Competitiveness",
@@ -164,31 +153,27 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Basics of Entrepreneurism and Technology Commercialization",
     "code": "ENG 208",
     "description": "Learn basics of start-up through a series of lectures, workshops, and assignments. Students will learn to effectively communicate the values of their ideas to investors and partners. Learn to validate market potential of a technology.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Systems Engineering",
     "code": "ENG 210",
     "description": "This course examines the complexity of integrating components of product engineering, marketing and client requirements into a single engineering system. Case studies explore successes and failures in engineered systems and how to detect and avoid potential failures using strong leadership skills, systemic analysis and thinking.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Engineering Leadership in Academia",
     "code": "ENG 211",
     "description": "This course is designed to teach leadership in teaching and learning at the college/university level. Students will learn through readings on engineering leadership, proposal development, ethics, and cognitive science, and thorough practical experience writing and developing course and project development plans.",
     "raw_prereq": "graduate standing.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]

@@ -74,8 +74,8 @@ The scraping pipeline writes course data to `data/` and MongoDB. The backend rea
  ┌───────────────┐        ┌──────────────────┐        ┌─────────────────────┐     ┌──────────────────┐
  │ catalog_scraper│ write │ catalog/*.json    │  read  │ FastAPI service     │ API │ Vite + React app │
  │ tss_scraper    │ ────▶ │ courses + prereqs │ ─────▶ │ /api/courses        │────▶│ search · detail  │
- │ mark_offered…  │       │ offered flags     │        │ /api/prereqs        │HTTP │ planner · map    │
- │ build_buildings│       │ buildings.json    │        │ /api/meta           │JSON │ overview         │
+ │ build_buildings│       │ offered/<term>.csv│        │ /api/prereqs        │HTTP │ planner · map    │
+ │                │       │ buildings.json    │        │ /api/meta           │JSON │ overview         │
  └───────────────┘        │ MongoDB           │        │ /api/buildings      │     │ ICS export       │
                           │ sections / seats   │        │ /api/route          │     └──────────────────┘
                           │ waitlist data      │        └─────────────────────┘
@@ -90,7 +90,6 @@ tssplusplus/
 │   ├── catalog_scraper/              public catalog scraper
 │   ├── tss_scraper/                  live TSS section/meeting scraper
 │   └── helpers/
-│       ├── mark_offered_courses.py   cross-references sources and marks offered courses
 │       └── build_buildings.py        maps meeting locations to UCSD GIS coordinates
 ├── data/
 │   ├── catalog/<CODE>.json           per-department course data

@@ -4,88 +4,77 @@
     "code": "JAPN 180",
     "description": "This course will vary in topics that focus on Japan-related content from a wide range of disciplines. These topics could include art, history, literature, culture, politics, and more.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Japanese Studies Research Seminar",
     "code": "JAPN 190",
     "description": "This course focuses on interdisciplinary approaches to the study of Japan ranging across disciplines and emphasizing modern Japan in both domestic and transnational contexts. The course is conducted as a seminar and combines analysis and discussion of readings with instruction and experience in conducting original research, writing academic research papers, and presentation of student work to the class.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "First-Year Japanese",
     "code": "JAPN 10A",
     "description": "This course is an introduction to the Japanese language. Students will learn basic skills of listening, speaking, reading, and writing over seventy-five characters. Students will also acquire fundamental knowledge of Japanese grammar and learn about Japanese people and culture.",
     "raw_prereq": "",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "First-Year Japanese",
     "code": "JAPN 10B",
     "description": "This course is an introduction to the Japanese language. Students will learn basic skills of listening, speaking, reading, and writing over seventy-two additional characters. Students will also acquire fundamental knowledge of Japanese grammar and learn about Japanese people and culture.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "First-Year Japanese",
     "code": "JAPN 10C",
     "description": "This course is an introduction to the Japanese language. Students will learn basic skills of listening, speaking, reading, and writing over forty-eight additional characters. Students will also acquire fundamental knowledge of Japanese grammar and learn about Japanese people and culture.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Second-Year Japanese",
     "code": "JAPN 20A",
     "description": "Students will improve their fundamental skills in listening, speaking, reading, and writing including acquiring knowledge of Japanese transportation, trips, and geography.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Second-Year Japanese",
     "code": "JAPN 20B",
     "description": "Students will improve their fundamental skills in listening, speaking, reading, and writing including acquiring knowledge of life experiences, Japanese culture, customs, health, and school.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Second-Year Japanese",
     "code": "JAPN 20C",
     "description": "Students will improve their fundamental skills in listening, speaking, reading, and writing including acquiring knowledge of Japanese culture and customs. Students will conduct research including writing a short essay and presentation.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Third-Year Japanese",
     "code": "JAPN 130A",
     "description": "This course will require students to gain knowledge, comprehend, evaluate, and discuss Japanese customs. Students will critically analyze and compare culture and customs of Japan and other countries. Course work includes student research on issues in Japanese society.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Third-Year Japanese",
     "code": "JAPN 130B",
     "description": "This course will require students to gain knowledge, comprehend, evaluate, and discuss topics of education system and youth issues in Japan and other countries. Students will learn vocabulary and phrases to support, explain, research, and hypothesize concrete and abstract topics.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Third-Year Japanese",
     "code": "JAPN 130C",
     "description": "This course will require students to gain knowledge, comprehend, evaluate, and discuss the environment and internationalization issues. Students will learn vocabulary and phrases to critically analyze and compare, express their opinions, and present and propose possible solutions for these topics.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Professional Skills in Japanese",
@@ -102,8 +91,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Professional Skills in Japanese",
@@ -120,8 +108,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Professional Skills in Japanese",
@@ -138,8 +125,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Business Japanese",
@@ -156,8 +142,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": true
+    ]
   },
   {
     "name": "Business Japanese",
@@ -174,8 +159,7 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Business Japanese",
@@ -192,39 +176,34 @@
           }
         ]
       }
-    ],
-    "offered_this_qtr": false
+    ]
   },
   {
     "name": "Fourth-Year Japanese",
     "code": "JAPN 140A",
     "description": "This course will enable students to acquire advanced skills in speaking, listening, reading, and writing in the topics of Japanese youth culture and their way of thinking.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": true
+    "prerequisites": []
   },
   {
     "name": "Fourth-Year Japanese",
     "code": "JAPN 140B",
     "description": "This course will enable students to acquire advanced skills in speaking, listening, reading, and writing in the topics of career building and obtaining a job in Japan.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Fourth-Year Japanese",
     "code": "JAPN 140C",
     "description": "This course will enable students to acquire advanced skills in speaking, listening, reading, and writing in the topics of globalization in language, food, and culture in Japan, the U.S., and other countries.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   },
   {
     "name": "Advanced Japanese",
     "code": "JAPN 150A-B-C",
     "description": "This course is for advanced-level Japanese language learners. Students will train to further develop their academic language skills through various discussion topics such as social, cultural, and political issues.",
     "raw_prereq": "previous course or consent of instructor.",
-    "prerequisites": [],
-    "offered_this_qtr": false
+    "prerequisites": []
   }
 ]
