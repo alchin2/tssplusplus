@@ -30,10 +30,6 @@ omitted, they use the default term. A term with no servable data 404s.
   `default_term`, the requested `term`, plus catalog-wide facts the
   frontend needs before any search: the department dropdown options and
   headline counts (course count, offered count for the term).
-
-A term is servable once it's listed in `data/scraped_quarters.txt` (the
-publication workflow appends it only after the section scrape succeeds)
-and its `data/offered/<term>.csv` exists. See `app/terms.py`.
 - `GET /api/buildings` -- every building name found in scraped meeting
   locations, mapped to its UCSD GIS coordinates + display abbreviation
   (`data/buildings.json`, built by `scrapers/build_buildings.py`).
@@ -42,6 +38,10 @@ and its `data/offered/<term>.csv` exists. See `app/terms.py`.
   foot-walking profile so the API key stays server-side. 502s if routing
   is unavailable (no `ORS_API_KEY` configured, ORS unreachable, etc.).
 - `GET /health` -- liveness check.
+
+A term is servable once it's listed in `data/scraped_quarters.txt` (the
+publication workflow appends it only after the section scrape succeeds)
+and its `data/offered/<term>.csv` exists. See `app/terms.py`.
 
 ## Running it
 
