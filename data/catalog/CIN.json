@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Senior Cinematic Arts Project",
+    "code": "CINE 185",
+    "description": "Students pursue projects of their own design with support from faculty in a seminar environment. Project proposals are developed and informed by research and production guidelines from real-world examples.",
+    "raw_prereq": "restricted to cinematic arts majors with senior standing. Department approval required to confirm all relevant course work is completed. May be taken for credit up to two times.",
+    "prerequisites": []
+  },
+  {
+    "name": "Fundamentals of Cinematography",
+    "code": "FILM 71",
+    "description": "An in-depth exploration of the camera and the principles of cinematography. Emphasis is placed on developing fundamental control of the processes and materials through lectures, field, and lab experience. Students may not receive credit for both FILM 71 and VIS 71.",
+    "raw_prereq": "none.",
+    "prerequisites": []
+  },
+  {
+    "name": "Fundamentals of Directing",
+    "code": "FILM 72",
+    "description": "An introduction to the practices and techniques of directing. From lectures, field, and lab experience, students will learn historical and contemporary methodologies in directing, including with cameras, sound, actors, and in documentary contexts. Students may not receive credit for both FILM 72 and VIS 72.",
+    "raw_prereq": "none.",
+    "prerequisites": []
+  },
+  {
+    "name": "Fundamentals of Editing",
+    "code": "FILM 73",
+    "description": "An introduction to both the creative and practical strategies in motion picture editing. Emphasis is placed on developing fundamental control of the processes of structuring and building time-based works through editing and synchronous sound. Students may not receive credit for both FILM 73 and VIS 73.",
+    "raw_prereq": "none.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Studies First-year Student Seminar",
+    "code": "FILM 87",
+    "description": "The First-year Student Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year student seminars are offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter. Enrollment is limited to fifteen to twenty students, with preference given to entering first-year students.",
+    "raw_prereq": "none.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinematic Arts Practicum",
+    "code": "FILM 170",
+    "description": "A practicum course required of all cinematic arts majors, where students are mentored as part of an external internship or community-engagement project.",
+    "raw_prereq": "open to cinematic arts majors only.",
+    "prerequisites": []
+  },
+  {
+    "name": "Fundamentals of Animation",
+    "code": "FILM 179",
+    "description": "A hands-on introduction to the fundamentals of 2-D animation, including both handmade and digitally designed approaches. Students will learn to analyze, understand, and incorporate strategies to apply traditional and experimental compositional approaches to animated storytelling. Recommended preparation is one of the following: COMM 101D, COMM 101K, COMM 101N, LTWR 110, TDPW 104, VIS 172, VIS 174, VIS 175, VIS 176, VIS 177, VIS 178, or VIS 179. Students may not receive credit for both FILM 179 and VIS 173.",
+    "raw_prereq": "open to cinematic arts majors and media majors. FILM 71 or VIS 60 and FILM 72 or VIS 70N.",
+    "prerequisites": []
+  },
+  {
+    "name": "Advanced 3-D and CGI",
+    "code": "FILM 180",
+    "description": "A practice-based overview of 3-D animation, visual effects, and the integration of computer-generated images with original footage. Students will learn techniques in modeling, working with texture materials, rendering, and compositing. Students may not receive credit for both FILM 180 and VIS 180.",
+    "raw_prereq": "FILM 179 or VIS 172.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "FILM179"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "VIS172"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Production Studio Technique",
+    "code": "FILM 182",
+    "description": "An in-depth exploration of what it means to produce a film project. Students will learn strategies to coordinate and plan a production, with emphasis on collaboration and coordination. From project design and budgets to time management and casting, this course introduces students to the creative capacity of producing. Students may not receive credit for both FILM 182 and VIS 183.",
+    "raw_prereq": "open to cinematic arts majors and media majors. FILM 71 or VIS 60 and FILM 72 or VIS 70N.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinematic Arts Thesis I",
+    "code": "FILM 184A",
+    "description": "First course in a two-quarter sequence. Students pursue projects of their own design over two quarters with support from faculty in a seminar environment. Project proposals are developed and informed by research and production guidelines from real-world examples.",
+    "raw_prereq": "open to cinematic arts majors only. Department approval to confirm all relevant course work is completed.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinematic Arts Thesis II",
+    "code": "FILM 184B",
+    "description": "Second course in a two-quarter sequence. Students pursue projects of their own design over two quarters with support from faculty in a seminar environment. Project proposals are developed and informed by research and production guidelines from real-world examples. Completion and presentation of independent projects along with documentation.",
+    "raw_prereq": "open to cinematic arts majors only. FILM 184A.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Internship Program",
+    "code": "FILM 197",
+    "description": "Students will engage in an internship to build skills related to cinematic arts and film studies. P/NP only.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Directed Group Study",
+    "code": "FILM 198",
+    "description": "Directed group study on a topic or in a field not included in the regular curriculum by special arrangement with a faculty member. P/NP only.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Independent Study",
+    "code": "FILM 199",
+    "description": "Individual research and study on a particular subject related to cinematic arts by special arrangement with and under the direction of a faculty member. P/NP only.",
+    "raw_prereq": "",
+    "prerequisites": []
+  }
+]
