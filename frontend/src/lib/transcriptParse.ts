@@ -9,6 +9,12 @@
 // "CSE 12"), matching the catalog's pretty codes used elsewhere in the app.
 import type { TranscriptRecord } from "../types";
 
+export interface TranscriptParseOptions {
+  // Every UCSD course subject prefix (GET /api/meta's `subjects`). Not the
+  // department list -- catalog pages like BIOL and GPS bundle several subjects.
+  subjects: Iterable<string>;
+}
+
 // The newest term a transcript can list -- the "planned" section is the block
 // between the first two term markers, and only counts when the first marker is
 // this term (i.e. the upcoming, not-yet-graded quarter). Bump each quarter.
@@ -32,23 +38,19 @@ const gradeAfterUnitsRe = new RegExp(String.raw`\b\d{1,2}\.\d{1,2}\s+(${GRADE})(
 // units and grade points around it.
 const gradeOnlyLineRe = new RegExp(String.raw`^(?:\d{1,2}\.\d{1,2}\s+)?(${GRADE})(?:\s+\d+(?:\.\d+)?)?$`);
 
-const UCSD_SUBJECTS = new Set([
-  "AAPI", "AIP", "ANTH", "ASTR", "AWP", "BENG", "BIOM", "CAT", "CCE", "CCS", "CGS", "CHEM", "CHIN", "CLAS", "CLIN", "CLRE", "COGS", "COMM", "CONT", "CSE", "CSS",
-  "DOC", "DSC", "DSGN", "ECE", "ECON", "EDS", "ENG", "ENVR", "ERC", "ESYS", "ETHN", "FMPH", "GLBH", "GSS", "HDS", "HILD", "HMNR", "HUM", "INTL", "JAPN", "JWSP",
-  "LATI", "LAWS", "LHCO", "LIT", "MAE", "MATH", "MATS", "MBC", "MCWP", "MGT", "MMW", "MSED", "MUS", "NANO", "NEU", "PH", "PHIL", "PHYS", "POLI", "PSYC", "RELI",
-  "REV", "SE", "SEV", "SIO", "SXTH", "SYN", "TMC", "USP", "VIS", "WARR",
-]);
-
-const UCSD_SUBJECTS_PATTERN = [...UCSD_SUBJECTS].join("|");
-// Global (used with matchAll / repeated exec): a subject followed by a course
-// number like 12, 20D, 100A.
-const courseTokenRe = new RegExp(`\\b(${UCSD_SUBJECTS_PATTERN})\\s*(\\d{1,3}[A-Z]{0,2})\\b`, "g");
-
 // Tokens that share the SUBJ shape but are grade/summary words, not courses.
 const bannedSubjects = new Set([
   "NP", "W", "F", "P", "S", "U", "IP",
   "GPA", "TERM", "TOTAL", "UNITS", "POINTS", "GRADE", "REPEAT",
 ]);
+
+// Global (used with matchAll / repeated exec): a subject followed by a course
+// number like 12, 20D, 100A. Longest subjects first so a prefix like "PH"
+// never shadows "PHIL".
+function courseTokenPattern(subjects: Set<string>): RegExp {
+  const alternatives = [...subjects].sort((a, b) => b.length - a.length).join("|");
+  return new RegExp(`\\b(${alternatives})\\s*(\\d{1,3}[A-Z]{0,2})\\b`, "g");
+}
 
 // Term markers delimit each quarter's course block.
 const termMarkerRe = /\b(Fall|Winter|Spring)\s+Qtr\b|\bSum\s+Ses\s+(I|II)\b/gi;
@@ -56,7 +58,7 @@ const termMarkerRe = /\b(Fall|Winter|Spring)\s+Qtr\b|\bSum\s+Ses\s+(I|II)\b/gi;
 // Planned courses are the block between the first two term markers, but only
 // when the first marker is the newest (upcoming) quarter -- otherwise the first
 // block is already-graded history, not a plan.
-function extractPlannedCourses(text: string): Set<string> {
+function extractPlannedCourses(text: string, courseTokenRe: RegExp): Set<string> {
   const planned = new Set<string>();
 
   const markers = [...text.matchAll(termMarkerRe)];
@@ -79,10 +81,14 @@ function extractPlannedCourses(text: string): Set<string> {
   return planned;
 }
 
-export function parseAcademicHistoryText(text: string): TranscriptRecord {
+export function parseAcademicHistoryText(text: string, { subjects }: TranscriptParseOptions): TranscriptRecord {
+  const ucsdSubjects = new Set([...subjects].map(s => s.toUpperCase()).filter(s => /^[A-Z]+$/.test(s)));
   const completed = new Set<string>();
   const inProgress = new Set<string>();
-  const planned = extractPlannedCourses(text);
+  if (ucsdSubjects.size === 0) return { completed, inProgress, planned: new Set() };
+
+  const courseTokenRe = courseTokenPattern(ucsdSubjects);
+  const planned = extractPlannedCourses(text, courseTokenRe);
 
   const lines = text
     .split(/\r?\n/)
@@ -150,7 +156,7 @@ export function parseAcademicHistoryText(text: string): TranscriptRecord {
     if (candidates.length === 0) continue;
 
     if (inTransferBlock) {
-      for (const course of extractTransferEquivalents(line)) completed.add(course);
+      for (const course of extractTransferEquivalents(line, courseTokenRe, ucsdSubjects)) completed.add(course);
       continue;
     }
 
@@ -181,14 +187,14 @@ export function parseAcademicHistoryText(text: string): TranscriptRecord {
 
 // UCSD equivalents in a transfer row follow "LD" markers; within one chunk they
 // run until the next non-UCSD subject (the following transfer row's course).
-function extractTransferEquivalents(text: string): Set<string> {
+function extractTransferEquivalents(text: string, courseTokenRe: RegExp, ucsdSubjects: Set<string>): Set<string> {
   const equivalents = new Set<string>();
   const chunks = text.split(/\bLD\b/);
 
   for (let i = 1; i < chunks.length; i++) {
     for (const m of chunks[i].matchAll(courseTokenRe)) {
       const subj = m[1].toUpperCase().trim();
-      if (!UCSD_SUBJECTS.has(subj)) break;
+      if (!ucsdSubjects.has(subj)) break;
       equivalents.add(normalizeCourse(subj, m[2]));
     }
   }

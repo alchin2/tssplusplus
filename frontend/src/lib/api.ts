@@ -59,6 +59,8 @@ export interface Meta {
   // Servable term codes, newest first.
   terms: string[];
   depts: string[];
+  // Every course subject prefix (BILD, GPCO, ...), for transcript parsing.
+  subjects: string[];
   course_count: number;
   offered_count: number;
 }
@@ -110,6 +112,7 @@ export async function fetchMeta(): Promise<Meta> {
     ...meta,
     default_term: meta.default_term ?? meta.term,
     terms: meta.terms ?? [meta.term],
+    subjects: meta.subjects ?? [],
   } as Meta;
 }
 

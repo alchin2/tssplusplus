@@ -129,6 +129,12 @@ export default function App() {
   }
 
   async function handleTranscriptFile(file: File) {
+    // Course codes are matched against the backend's subject list, so without
+    // it every course would silently go undetected.
+    if (!meta?.subjects.length) {
+      setTranscript(t => ({ ...t, loading: false, error: "Course data is still loading. Try again in a moment." }));
+      return;
+    }
     setTranscript(t => ({ ...t, fileName: file.name, loading: true, error: null }));
     try {
       // Loaded on demand so pdf.js (~300 KB gzip) stays out of the initial bundle.
@@ -136,7 +142,7 @@ export default function App() {
         import("./lib/pdfExtract"),
         import("./lib/transcriptParse"),
       ]);
-      const record = parseAcademicHistoryText(await extractTextFromPdf(file));
+      const record = parseAcademicHistoryText(await extractTextFromPdf(file), { subjects: meta.subjects });
       setTranscript({ fileName: file.name, loading: false, error: null, record });
       const n = record.completed.size + record.inProgress.size + record.planned.size;
       if (n === 0) toast.warning("No UCSD courses were detected in that PDF.");
