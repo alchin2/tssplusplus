@@ -193,12 +193,20 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove, transcr
                               : <span className="wr-status is-none">—</span>}
                         </td>
                         <td rowSpan={span} style={{ verticalAlign: "top" }}>
-                          {isPlanned
-                            ? <button type="button" className="wr-btn is-sm" onClick={() => onRemove(course.id)}>Remove</button>
-                            : <button type="button" className="wr-btn is-sm is-primary" onClick={() => onAdd(detail, sec)}
-                                title={conflict ? "Plan anyway; the conflict stays flagged on your schedule" : undefined}>
-                                {plannedSection ? "Change" : "Plan"}
-                              </button>}
+                          <div className="wr-actions">
+                            {isPlanned
+                              ? <button type="button" className="wr-btn is-sm" onClick={() => onRemove(course.id)}>Remove</button>
+                              : <button type="button" className="wr-btn is-sm is-primary" onClick={() => onAdd(detail, sec)}
+                                  title={conflict ? "Plan anyway; the conflict stays flagged on your schedule" : undefined}>
+                                  {plannedSection ? "Change" : "Plan"}
+                                </button>}
+                            {sec.bookUrl && (
+                              <a href={sec.bookUrl} target="_blank" rel="noopener noreferrer" className="wr-btn is-sm"
+                                title={`Book ${sec.id} on TSS (opens in a new tab)`}>
+                                Book <ExternalLink className="w-3 h-3" aria-hidden="true" />
+                              </a>
+                            )}
+                          </div>
                         </td>
                       </>
                     )}

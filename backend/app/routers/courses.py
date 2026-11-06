@@ -17,6 +17,14 @@ router = APIRouter(prefix="/api/courses", tags=["courses"])
 # tools/sections.py SECTION_CODE_RE.
 _SECTION_CODE_RE = re.compile(r"\(([^()]+)\)\s*$")
 
+# TSS's own detail page for one event package -- where a student books
+# that section. Reverse-engineered from the Fiori hash TSS navigates to;
+# the zero/empty-GUID segments are constant across courses and sections.
+_TSS_BOOK_URL = (
+    "https://tss.ucsd.edu/fiori#ZUSModule-display?TileType=MYMOD&/Detail/EventPackage/SM/"
+    "{module_id}/00000000/0/0/0/00000000-0000-0000-0000-000000000000/{pkg_objid}/{peryr}/{perid}/"
+)
+
 
 @router.get("", response_model=list[CourseSummary])
 def list_courses(
@@ -52,7 +60,15 @@ def _to_int(value) -> int | None:
         return None
 
 
-def _group_sections(raw_rows: list[dict]) -> list[Section]:
+def _tss_book_url(module_id: str, peryr: str | None, perid: str | None, pkg_objid: str | None) -> str | None:
+    """Deep link to the section's TSS booking page, or None when any id
+    it needs is missing (e.g. a document scraped without peryr/perid)."""
+    if not (peryr and perid and pkg_objid):
+        return None
+    return _TSS_BOOK_URL.format(module_id=module_id, pkg_objid=pkg_objid, peryr=peryr, perid=perid)
+
+
+def _group_sections(raw_rows: list[dict], module_id: str, peryr: str | None, perid: str | None) -> list[Section]:
     """Groups flat YUCSD_CON_EVENTS rows by EventPkgObjid into real
     enrollable sections, one Meeting per row in the group. Same
     grouping key as tools/sections.py's group_events_into_sections."""
@@ -68,6 +84,7 @@ def _group_sections(raw_rows: list[dict]) -> list[Section]:
         sections.append(
             Section(
                 event_pkg_objid=pkg_objid,
+                book_url=_tss_book_url(module_id, peryr, perid, pkg_objid),
                 section_code=code_match.group(1) if code_match else None,
                 section_label=first.get("EventPkgText"),
                 limit=_to_int(first.get("EventPkgLimit")),
@@ -124,7 +141,11 @@ def get_course_detail(module_id: str, term: str = Depends(selected_term)):
         raise HTTPException(
             status_code=503, detail="Section data is temporarily unavailable (database unreachable)"
         ) from exc
-    sections = _group_sections(mongo_doc["raw"]) if mongo_doc and mongo_doc.get("raw") else []
+    sections = (
+        _group_sections(mongo_doc["raw"], module_id, mongo_doc.get("peryr"), mongo_doc.get("perid"))
+        if mongo_doc and mongo_doc.get("raw")
+        else []
+    )
 
     return CourseDetail(
         module_id=module_id,

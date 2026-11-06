@@ -164,6 +164,31 @@ def test_course_detail_merges_catalog_and_mongo_sections(client):
     assert section["meetings"][0]["instructor_name"] == "Moshiri, N."
 
 
+def test_course_detail_sections_link_to_tss_booking(client):
+    mock_collection = MagicMock()
+    mock_collection.find_one.return_value = {
+        "module_id": "8401", "peryr": "2026", "perid": "2", "raw": [RAW_ROW],
+    }
+
+    with patch("app.routers.courses.get_courses_collection", return_value=mock_collection):
+        resp = client.get("/api/courses/8401", params={"term": "fa26"})
+
+    assert resp.json()["sections"][0]["book_url"] == (
+        "https://tss.ucsd.edu/fiori#ZUSModule-display?TileType=MYMOD&/Detail/EventPackage/SM/"
+        "8401/00000000/0/0/0/00000000-0000-0000-0000-000000000000/154263/2026/2/"
+    )
+
+
+def test_course_detail_book_url_null_without_term_ids(client):
+    mock_collection = MagicMock()
+    mock_collection.find_one.return_value = {"module_id": "8401", "raw": [RAW_ROW]}
+
+    with patch("app.routers.courses.get_courses_collection", return_value=mock_collection):
+        resp = client.get("/api/courses/8401", params={"term": "fa26"})
+
+    assert resp.json()["sections"][0]["book_url"] is None
+
+
 def test_course_detail_reads_the_terms_collection(client):
     mock_collection = MagicMock()
     mock_collection.find_one.return_value = None
