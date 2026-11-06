@@ -21,8 +21,16 @@ function normalizeCourse(subject: string, number: string): string {
 }
 
 // Grade tokens implying an outcome. Real grades => completed; IP/blank =>
-// in-progress; NP/W/F/U => no credit (see the branches below).
-const gradeTokenRe = /\b(A\+|A|A-|B\+|B|B-|C\+|C|C-|D\+|D|D-|F|P|NP|S|U|W|IP)\b/;
+// in-progress; NP/W/F/U => no credit (see the branches below). Longer tokens
+// come first so "A-" isn't captured as "A".
+const GRADE = String.raw`A\+|A-|A|B\+|B-|B|C\+|C-|C|D\+|D-|D|F|P|NP|S|U|W|IP`;
+// A course row's grade sits right after its units ("4.00 A 16.00"), so it's
+// only read from there -- a bare letter anywhere in the row also matches
+// titles like "U.S. Urban Policy" or "Programming in C".
+const gradeAfterUnitsRe = new RegExp(String.raw`\b\d{1,2}\.\d{1,2}\s+(${GRADE})(?=\s|$)`);
+// A wrapped row's grade can land on a line of its own, with or without its
+// units and grade points around it.
+const gradeOnlyLineRe = new RegExp(String.raw`^(?:\d{1,2}\.\d{1,2}\s+)?(${GRADE})(?:\s+\d+(?:\.\d+)?)?$`);
 
 const UCSD_SUBJECTS = new Set([
   "AAPI", "AIP", "ANTH", "ASTR", "AWP", "BENG", "BIOM", "CAT", "CCE", "CCS", "CGS", "CHEM", "CHIN", "CLAS", "CLIN", "CLRE", "COGS", "COMM", "CONT", "CSE", "CSS",
@@ -124,7 +132,7 @@ export function parseAcademicHistoryText(text: string): TranscriptRecord {
       .map(m => normalizeCourse(m[1], m[2]))
       .filter(c => !bannedSubjects.has(c.split(" ")[0]));
 
-    const grade = line.match(gradeTokenRe)?.[1] ?? null;
+    const grade = (gradeAfterUnitsRe.exec(line) ?? (candidates.length === 0 ? gradeOnlyLineRe.exec(line) : null))?.[1] ?? null;
 
     // Grade-only line following a course line: resolve the pending course.
     if (candidates.length === 0 && grade && pendingCourse) {
