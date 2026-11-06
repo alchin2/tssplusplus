@@ -96,7 +96,6 @@ export function SearchPanel({
           </div>
           <button type="button" className="wr-btn" onClick={submit}>Search</button>
           </div>
-          <p className="wr-help mt-1 text-[0.846rem]">Press <b>⌘K</b> anywhere to jump here. Results update as you type.</p>
         </div>
         {showPanel && (
           <button type="button" className="wr-linkbtn ml-auto self-center text-[0.923rem]" onClick={() => onActive(false)}>
