@@ -70,6 +70,9 @@ class Meeting(BaseModel):
 
 class Section(BaseModel):
     event_pkg_objid: str | None = None
+    # Deep link to this section's TSS booking page; null when the
+    # course document lacks the term ids needed to build it.
+    book_url: str | None = None
     section_code: str | None = None
     section_label: str | None = None
     limit: int | None = None
