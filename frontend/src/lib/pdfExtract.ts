@@ -1,9 +1,9 @@
-// Client-side PDF -> text extraction for uploaded academic-history PDFs,
-// ported from ClassGraph's src/utils/pdfExtract.js
+// Client-side PDF -> text extraction for uploaded PDFs (TSS "My Courses"
+// schedule imports), ported from ClassGraph's src/utils/pdfExtract.js
 // (https://github.com/nehalc200/classgraph). pdf.js hands back positioned
-// text runs, not lines; we regroup them by Y-coordinate so a transcript's
-// table rows come back as rows (columns joined left-to-right), which is what
-// transcriptParse.ts's line-oriented heuristics expect.
+// text runs, not lines; we regroup them by Y-coordinate so a PDF's table
+// rows come back as rows (columns joined left-to-right), which is what
+// scheduleImport.ts's line-oriented parsing expects.
 import * as pdfjsLib from "pdfjs-dist";
 import type { TextItem } from "pdfjs-dist/types/src/display/api";
 // Vite resolves `?url` to the emitted worker asset URL; pdf.js runs its parser

@@ -16,11 +16,11 @@ on ultrawide displays:
 
 - **Search for Classes** (`SearchPanel`) — input whose results appear as
   you type, Search button, Advanced search (department, division, offered-this-term), and a
-  paged results panel of `CourseDrawer`s. ⌘K focuses the input.
+  paged results panel of `CourseDrawer`s.
 - **Course drawer** (`CourseDrawer`) — sections table (Section, Meeting
   Type, Days, Time, Building, Room, Instructor, Status, Action with
   Plan / Change / Remove, plus a FINAL row), catalog description, and the
-  `PrereqGraph` with the transcript upload.
+  `PrereqGraph`.
 - **Conflict notice** (`ConflictNotice`) — lists every colliding pair of
   classes and finals.
 - **My Schedule** (`ScheduleTabs`) — List (`ScheduleList`, a WebReg
@@ -46,7 +46,6 @@ src/
 │   ├── ScheduleList.tsx      WebReg-style status table of planned classes
 │   ├── PlannerView.tsx       FullCalendar weekly/finals grid with class blocks
 │   ├── PrereqGraph.tsx       interactive prerequisite tree (SVG), fed by /prereqs
-│   ├── TranscriptUpload.tsx  academic-history PDF upload (tints the prereq graph)
 │   ├── ScheduleImportButton.tsx  "Import from TSS" link + help popover
 │   ├── MapView.tsx           Leaflet campus map with walking routes between meetings
 │   └── RaccoonLogo.tsx       inline SVG mascot/logo
@@ -68,6 +67,9 @@ src/
     ├── fullcalendar.css      FullCalendar theme (navy axis, class blocks)
     └── layout.css            safe areas, scrollbars, print
 ```
+
+`archive/` (outside `src/`, so it isn't built) holds retired features kept
+for reference -- see `archive/transcript-upload/README.md`.
 
 ## Running it
 

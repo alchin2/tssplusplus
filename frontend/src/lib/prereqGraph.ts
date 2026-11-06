@@ -28,16 +28,13 @@ export interface GNode {
   depth: number; x: number; y: number;
   isExpandable: boolean; isOrMore: boolean;
   orGroupPath: string | null; parentId: string | null;
-  status: "root" | "completed" | "inProgress" | "planned" | "default";
+  status: "root" | "planned" | "default";
 }
 
 // Code sets that tint a node by its standing. `planned` is the schedule
-// planner; `completed`/`inProgress` come from an uploaded transcript
-// (lib/transcriptParse.ts). Highest-priority match wins (see place()).
+// planner (see place()).
 export interface StatusCodes {
   planned: Set<string>;
-  completed: Set<string>;
-  inProgress: Set<string>;
 }
 export interface GEdge { id: string; fromId: string; toId: string; x1: number; y1: number; x2: number; y2: number; }
 export interface GOrBox { id: string; x: number; y: number; w: number; h: number; }
@@ -125,8 +122,6 @@ function place(
   const y = GPAD + GNH / 2 + depth * (GNH + VGAP) + yShift;
 
   const status: GNode["status"] = depth === 0 ? "root"
-    : codes.completed.has(node.code) ? "completed"
-    : codes.inProgress.has(node.code) ? "inProgress"
     : codes.planned.has(node.code) ? "planned"
     : "default";
 
@@ -274,14 +269,12 @@ export function buildGraph(
 // Per-status colors -- the single source of truth for node fills/strokes, the
 // left accent bar, and the legend (PrereqGraph derives its swatches straight
 // from here so they can never drift from what the graph draws). `label` is the
-// legend caption; insertion order here is the legend order. `completed` and
-// `inProgress` reflect an uploaded transcript; `planned` the schedule planner.
+// legend caption; insertion order here is the legend order. `planned` reflects
+// the schedule planner.
 export const NODE_CFG: Record<
   GNode["status"], { fill: string; stroke: string; text: string; accent: string; label: string }
 > = {
-  root:       { fill: "#164f70", stroke: "#0f3d58", text: "#ffffff", accent: "#f5c842", label: "Selected" },
-  completed:  { fill: "#e9f6ea", stroke: "#2e7d32", text: "#1f5a23", accent: "#2e7d32", label: "Completed" },
-  inProgress: { fill: "#fff6dc", stroke: "#b07a00", text: "#6b4a00", accent: "#b07a00", label: "In progress" },
-  planned:    { fill: "#d6eef5", stroke: "#1f6a9b", text: "#0f3d58", accent: "#1f6a9b", label: "Planned" },
-  default:    { fill: "#ffffff", stroke: "#b5c2cd", text: "#222222", accent: "#b5c2cd", label: "Available" },
+  root:    { fill: "#164f70", stroke: "#0f3d58", text: "#ffffff", accent: "#f5c842", label: "Selected" },
+  planned: { fill: "#d6eef5", stroke: "#1f6a9b", text: "#0f3d58", accent: "#1f6a9b", label: "Planned" },
+  default: { fill: "#ffffff", stroke: "#b5c2cd", text: "#222222", accent: "#b5c2cd", label: "Available" },
 };

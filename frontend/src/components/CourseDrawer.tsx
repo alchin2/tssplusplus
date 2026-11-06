@@ -4,24 +4,16 @@ import { useBuildings } from "../hooks/useBuildings";
 import { useTerm } from "../hooks/useTerm";
 import { ApiError, fetchCourseDetail } from "../lib/api";
 import { computeFinal, conflictsWith, finalDateShort, fmtRange, splitRoom } from "../lib/schedule";
-import type { Course, CourseDetail, PlannedItem, Section, TranscriptRecord } from "../types";
+import type { Course, CourseDetail, PlannedItem, Section } from "../types";
 import { PrereqGraph } from "./PrereqGraph";
 import { ScrollX } from "./ScrollX";
-import { TranscriptUpload } from "./TranscriptUpload";
-
-export interface TranscriptState {
-  fileName: string | null;
-  loading: boolean;
-  error: string | null;
-  record: TranscriptRecord;
-}
 
 // One WebReg search-result drawer: a gray row with a caret, the course code
 // and title; expanded, it shows the sections table with Plan buttons, the
 // catalog description, and the prerequisite tree.
 export function CourseDrawer({
   course, expanded, onToggle, plannedItems, onAdd, onRemove,
-  transcript, onTranscriptFile, onTranscriptClear, termLabel, termName,
+  termLabel, termName,
 }: {
   course: Course;
   expanded: boolean;
@@ -29,9 +21,6 @@ export function CourseDrawer({
   plannedItems: PlannedItem[];
   onAdd: (c: Course, s: Section) => void;
   onRemove: (courseId: string) => void;
-  transcript: TranscriptState;
-  onTranscriptFile: (file: File) => void;
-  onTranscriptClear: () => void;
   termLabel: string;
   termName: string;
 }) {
@@ -61,8 +50,7 @@ export function CourseDrawer({
               <p className="mt-1">No sections are scheduled for {course.code} this term. It stays in the catalog, so you can still read its prerequisites below once it is offered.</p>
             </div>
           ) : (
-            <DrawerDetail course={course} moduleId={course.moduleId} plannedItems={plannedItems} onAdd={onAdd} onRemove={onRemove}
-              transcript={transcript} onTranscriptFile={onTranscriptFile} onTranscriptClear={onTranscriptClear} />
+            <DrawerDetail course={course} moduleId={course.moduleId} plannedItems={plannedItems} onAdd={onAdd} onRemove={onRemove} />
           )}
         </div>
       )}
@@ -70,13 +58,10 @@ export function CourseDrawer({
   );
 }
 
-function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove, transcript, onTranscriptFile, onTranscriptClear }: {
+function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
   course: Course; moduleId: string; plannedItems: PlannedItem[];
   onAdd: (c: Course, s: Section) => void;
   onRemove: (courseId: string) => void;
-  transcript: TranscriptState;
-  onTranscriptFile: (file: File) => void;
-  onTranscriptClear: () => void;
 }) {
   const [detail, setDetail] = useState<CourseDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -240,15 +225,10 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove, transcr
 
       {showPrereq && (
         <div className="mt-3">
-          <div className="flex flex-wrap items-center justify-between gap-2 mb-1.5">
+          <div className="mb-1.5">
             <span className="wr-label text-[0.923rem]">Prerequisites</span>
-            <TranscriptUpload
-              fileName={transcript.fileName} loading={transcript.loading}
-              error={transcript.error} record={transcript.record}
-              onPick={onTranscriptFile} onClear={onTranscriptClear} />
           </div>
-          <PrereqGraph moduleId={detail.moduleId} plannedCodes={plannedCodes}
-            completedCodes={transcript.record.completed} inProgressCodes={transcript.record.inProgress} />
+          <PrereqGraph moduleId={detail.moduleId} plannedCodes={plannedCodes} />
         </div>
       )}
     </div>

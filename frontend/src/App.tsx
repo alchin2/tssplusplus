@@ -13,9 +13,7 @@ import { fetchCourses } from "./lib/api";
 import { downloadICS } from "./lib/ics";
 import { conflictPairs, conflictsWith } from "./lib/schedule";
 import { conflictingCourseIds } from "./lib/plannerEvents";
-import type { Course, Section, TranscriptRecord } from "./types";
-
-const EMPTY_TRANSCRIPT: TranscriptRecord = { completed: new Set(), inProgress: new Set(), planned: new Set() };
+import type { Course, Section } from "./types";
 
 export default function App() {
   const meta = useMeta();
@@ -43,14 +41,8 @@ export default function App() {
   const [plannedItems, updatePlanned] = usePlannedItems(term);
   const [tab, setTab]                 = useState<ScheduleTab>("list");
 
-  // Uploaded academic history -- completed/in-progress courses tint every
-  // prerequisite graph. Kept at app level so it persists across drawers.
-  const [transcript, setTranscript] = useState<{
-    fileName: string | null; loading: boolean; error: string | null; record: TranscriptRecord;
-  }>({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
-
   // Importing an enrolled schedule from a TSS "My Courses" PDF (replaces the
-  // planner). Kept separate from the transcript upload above.
+  // planner).
   const [scheduleImporting, setScheduleImporting] = useState(false);
 
   // Server-side search/filter per the /api/courses contract, debounced so
@@ -126,28 +118,6 @@ export default function App() {
   function exportIcs() {
     downloadICS(plannedItems, term);
     toast.success("Schedule exported. Look for tss-schedule.ics in your downloads.");
-  }
-
-  async function handleTranscriptFile(file: File) {
-    setTranscript(t => ({ ...t, fileName: file.name, loading: true, error: null }));
-    try {
-      // Loaded on demand so pdf.js (~300 KB gzip) stays out of the initial bundle.
-      const [{ extractTextFromPdf }, { parseAcademicHistoryText }] = await Promise.all([
-        import("./lib/pdfExtract"),
-        import("./lib/transcriptParse"),
-      ]);
-      const record = parseAcademicHistoryText(await extractTextFromPdf(file));
-      setTranscript({ fileName: file.name, loading: false, error: null, record });
-      const n = record.completed.size + record.inProgress.size + record.planned.size;
-      if (n === 0) toast.warning("No UCSD courses were detected in that PDF.");
-      else toast.success(`Detected ${record.completed.size} completed and ${record.inProgress.size} in-progress courses.`);
-    } catch {
-      setTranscript(t => ({ ...t, loading: false, error: "Could not read that PDF." }));
-    }
-  }
-
-  function clearTranscript() {
-    setTranscript({ fileName: null, loading: false, error: null, record: EMPTY_TRANSCRIPT });
   }
 
   // Import an enrolled schedule from a TSS "My Courses" PDF. The PDF only
@@ -237,7 +207,6 @@ export default function App() {
             expandedId={expandedId} onExpand={setExpandedId}
             pinned={pinned} scrollToken={scrollToken}
             plannedItems={plannedItems} onAdd={handleAdd} onRemove={handleRemove}
-            transcript={transcript} onTranscriptFile={handleTranscriptFile} onTranscriptClear={clearTranscript}
           />
         </div>
 
