@@ -47,8 +47,7 @@ List / Calendar / Finals / Map tabs below.
 - **Course detail:** sections, meeting times, locations, and instructors, plus
   the catalog description.
 - **Prerequisites:** an interactive, zoomable graph of the full transitive
-  prerequisite tree, including OR groups. Upload your academic-history PDF to
-  tint courses you've completed or are taking.
+  prerequisite tree, including OR groups.
 - **Schedule planner:** plan a section per course, with automatic conflict
   detection and a notice listing every colliding pair. Your plan stays in your
   browser (`localStorage`); there's no login.
