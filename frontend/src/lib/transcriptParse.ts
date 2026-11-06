@@ -98,9 +98,11 @@ export function parseAcademicHistoryText(text: string): TranscriptRecord {
     if (inTransferBlock) {
       if (/\bLD\b/.test(line)) {
         // The UCSD equivalent for a transfer course follows the "LD" marker.
+        // matchAll, not exec: exec would leave lastIndex set on the shared
+        // regex, and later matchAll calls copy it, skipping the start of
+        // the next line.
         const afterLD = line.split(/\bLD\b/)[1];
-        courseTokenRe.lastIndex = 0;
-        const m = courseTokenRe.exec(afterLD);
+        const m = afterLD.matchAll(courseTokenRe).next().value;
         if (m) completed.add(normalizeCourse(m[1], m[2]));
         pendingSecondEquivalent = true; // the next line may hold a second equivalent
         continue;
