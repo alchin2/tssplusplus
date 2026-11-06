@@ -79,19 +79,6 @@ export default function App() {
     return num >= 200;
   }), [courses, divFilter]);
 
-  // ⌘K / Ctrl-K jumps to the search box, as it always has.
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
-        e.preventDefault();
-        searchRef.current?.focus();
-        searchRef.current?.select();
-      }
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, []);
-
   const conflictIds = useMemo(() => conflictingCourseIds(plannedItems), [plannedItems]);
   const pairs = useMemo(() => conflictPairs(plannedItems), [plannedItems]);
 
