@@ -13,12 +13,10 @@ export interface TranscriptParseOptions {
   // Every UCSD course subject prefix (GET /api/meta's `subjects`). Not the
   // department list -- catalog pages like BIOL and GPS bundle several subjects.
   subjects: Iterable<string>;
+  // The newest servable term code (meta.terms[0], e.g. "wi27"). A transcript
+  // whose first block is this quarter lists it as the not-yet-graded plan.
+  upcomingTerm: string | null;
 }
-
-// The newest term a transcript can list -- the "planned" section is the block
-// between the first two term markers, and only counts when the first marker is
-// this term (i.e. the upcoming, not-yet-graded quarter). Bump each quarter.
-const NEWEST_QUARTER = "Fall Qtr";
 
 function normalizeCourse(subject: string, number: string): string {
   const subj = (subject || "").toUpperCase().trim();
@@ -55,17 +53,29 @@ function courseTokenPattern(subjects: Set<string>): RegExp {
 // Term markers delimit each quarter's course block.
 const termMarkerRe = /\b(Fall|Winter|Spring)\s+Qtr\b|\bSum\s+Ses\s+(I|II)\b/gi;
 
+// How a transcript heads a term's block: "wi27" -> "Winter Qtr".
+const TERM_MARKERS: Record<string, string> = {
+  fa: "Fall Qtr", wi: "Winter Qtr", sp: "Spring Qtr", s1: "Sum Ses I", s2: "Sum Ses II",
+};
+
+function termMarker(term: string | null): string | null {
+  return term ? TERM_MARKERS[term.slice(0, 2).toLowerCase()] ?? null : null;
+}
+
 // Planned courses are the block between the first two term markers, but only
-// when the first marker is the newest (upcoming) quarter -- otherwise the first
-// block is already-graded history, not a plan.
-function extractPlannedCourses(text: string, courseTokenRe: RegExp): Set<string> {
+// when the first marker is the upcoming quarter -- otherwise the first block
+// is already-graded history, not a plan.
+function extractPlannedCourses(text: string, courseTokenRe: RegExp, upcomingTerm: string | null): Set<string> {
   const planned = new Set<string>();
+
+  const upcoming = termMarker(upcomingTerm);
+  if (!upcoming) return planned;
 
   const markers = [...text.matchAll(termMarkerRe)];
   if (markers.length < 2) return planned;
 
-  const firstMarkerText = markers[0][0].trim();
-  if (firstMarkerText.toLowerCase() !== NEWEST_QUARTER.toLowerCase()) return planned;
+  const firstMarkerText = markers[0][0].replace(/\s+/g, " ").trim();
+  if (firstMarkerText.toLowerCase() !== upcoming.toLowerCase()) return planned;
 
   const firstMarkerEnd = markers[0].index! + markers[0][0].length;
   const secondMarkerStart = markers[1].index!;
@@ -81,14 +91,14 @@ function extractPlannedCourses(text: string, courseTokenRe: RegExp): Set<string>
   return planned;
 }
 
-export function parseAcademicHistoryText(text: string, { subjects }: TranscriptParseOptions): TranscriptRecord {
+export function parseAcademicHistoryText(text: string, { subjects, upcomingTerm }: TranscriptParseOptions): TranscriptRecord {
   const ucsdSubjects = new Set([...subjects].map(s => s.toUpperCase()).filter(s => /^[A-Z]+$/.test(s)));
   const completed = new Set<string>();
   const inProgress = new Set<string>();
   if (ucsdSubjects.size === 0) return { completed, inProgress, planned: new Set() };
 
   const courseTokenRe = courseTokenPattern(ucsdSubjects);
-  const planned = extractPlannedCourses(text, courseTokenRe);
+  const planned = extractPlannedCourses(text, courseTokenRe, upcomingTerm);
 
   const lines = text
     .split(/\r?\n/)

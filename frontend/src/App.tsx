@@ -142,7 +142,10 @@ export default function App() {
         import("./lib/pdfExtract"),
         import("./lib/transcriptParse"),
       ]);
-      const record = parseAcademicHistoryText(await extractTextFromPdf(file), { subjects: meta.subjects });
+      const record = parseAcademicHistoryText(await extractTextFromPdf(file), {
+        subjects: meta.subjects,
+        upcomingTerm: meta.terms[0] ?? null,
+      });
       setTranscript({ fileName: file.name, loading: false, error: null, record });
       const n = record.completed.size + record.inProgress.size + record.planned.size;
       if (n === 0) toast.warning("No UCSD courses were detected in that PDF.");
