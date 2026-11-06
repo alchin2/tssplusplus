@@ -7,7 +7,15 @@
 // distinguish completed (a real grade) from in-progress ("IP"/blank) from
 // no-credit (F/W/NP/U). Codes come back normalized as "SUBJ NUM" (e.g.
 // "CSE 12"), matching the catalog's pretty codes used elsewhere in the app.
-import type { TranscriptRecord } from "../types";
+
+// Courses parsed out of an uploaded academic-history PDF. Codes are normalized
+// "SUBJ NUM" strings (e.g. "CSE 12") so they match catalog codes used
+// elsewhere; the sets are disjoint. (Lived in src/types.ts while wired up.)
+export interface TranscriptRecord {
+  completed: Set<string>;
+  inProgress: Set<string>;
+  planned: Set<string>;
+}
 
 // The newest term a transcript can list -- the "planned" section is the block
 // between the first two term markers, and only counts when the first marker is

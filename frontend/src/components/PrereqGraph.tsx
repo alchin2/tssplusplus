@@ -10,11 +10,9 @@ const ZOOM_MIN = 0.5, ZOOM_MAX = 2, ZOOM_STEP = 0.25;
 type View = { x: number; y: number; scale: number };
 
 export function PrereqGraph(
-  { moduleId, plannedCodes, completedCodes, inProgressCodes }: {
+  { moduleId, plannedCodes }: {
     moduleId: string;
     plannedCodes: Set<string>;
-    completedCodes: Set<string>;
-    inProgressCodes: Set<string>;
   },
 ) {
   const [tree, setTree] = useState<PrereqNode | null>(null);
@@ -46,8 +44,8 @@ export function PrereqGraph(
   }, [moduleId, term]);
 
   const graph = useMemo(
-    () => (tree ? buildGraph(tree, expanded, expandedOr, { planned: plannedCodes, completed: completedCodes, inProgress: inProgressCodes }) : null),
-    [tree, expanded, expandedOr, plannedCodes, completedCodes, inProgressCodes]
+    () => (tree ? buildGraph(tree, expanded, expandedOr, { planned: plannedCodes }) : null),
+    [tree, expanded, expandedOr, plannedCodes]
   );
   graphRef.current = graph;
 

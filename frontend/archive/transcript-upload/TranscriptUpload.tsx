@@ -1,6 +1,6 @@
 import { FileUp, Loader2, TriangleAlert, X } from "lucide-react";
 import { useRef } from "react";
-import type { TranscriptRecord } from "../types";
+import type { TranscriptRecord } from "./transcriptParse";
 
 // Upload control for a UCSD academic-history PDF. Purely presentational: the
 // parent owns the file -> extract -> parse flow (App.tsx) so the parsed record

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { RefObject } from "react";
 import type { Course, PlannedItem, Section } from "../types";
-import { CourseDrawer, type TranscriptState } from "./CourseDrawer";
+import { CourseDrawer } from "./CourseDrawer";
 
 export type Div = "all" | "lower" | "upper" | "grad";
 const PAGE_SIZES = [10, 25, 50];
@@ -12,7 +12,7 @@ const PAGE_SIZES = [10, 25, 50];
 export function SearchPanel({
   inputRef, query, onQuery, deptFilter, onDeptFilter, offeredFilter, onOfferedFilter, divFilter, onDivFilter,
   depts, termLabel, termName, courses, loading, error, active, onActive, expandedId, onExpand, pinned, scrollToken,
-  plannedItems, onAdd, onRemove, transcript, onTranscriptFile, onTranscriptClear,
+  plannedItems, onAdd, onRemove,
 }: {
   inputRef: RefObject<HTMLInputElement>;
   query: string; onQuery: (q: string) => void;
@@ -27,9 +27,6 @@ export function SearchPanel({
   plannedItems: PlannedItem[];
   onAdd: (c: Course, s: Section) => void;
   onRemove: (courseId: string) => void;
-  transcript: TranscriptState;
-  onTranscriptFile: (file: File) => void;
-  onTranscriptClear: () => void;
 }) {
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
@@ -180,7 +177,6 @@ export function SearchPanel({
             {pinned && (pinnedVisible || !active) && (
               <CourseDrawer course={pinned} expanded={expandedId === pinned.id} onToggle={() => onExpand(expandedId === pinned.id ? null : pinned.id)}
                 plannedItems={plannedItems} onAdd={onAdd} onRemove={onRemove}
-                transcript={transcript} onTranscriptFile={onTranscriptFile} onTranscriptClear={onTranscriptClear}
                 termLabel={termLabel} termName={termName} />
             )}
 
@@ -211,7 +207,6 @@ export function SearchPanel({
                 {pageCourses.map(c => (
                   <CourseDrawer key={c.id} course={c} expanded={expandedId === c.id} onToggle={() => onExpand(expandedId === c.id ? null : c.id)}
                     plannedItems={plannedItems} onAdd={onAdd} onRemove={onRemove}
-                    transcript={transcript} onTranscriptFile={onTranscriptFile} onTranscriptClear={onTranscriptClear}
                     termLabel={termLabel} termName={termName} />
                 ))}
               </div>
