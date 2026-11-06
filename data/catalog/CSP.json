@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Climate Math and Science",
+    "code": "SIOC 290S",
+    "description": "The course will introduce key physical and biogeochemical concepts needed to understand the Earth’s climate system. The overview will provide a foundation for examining the physical evidence of climate change. Mathematical methods will be presented to reinforce the scientific concepts. Students will complete group papers and presentations and lead discussions on assigned readings. SIOC 290S is a required course in the curriculum of the master of advanced studies in climate science and policy. Letter grades only.",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Climate Policy",
+    "code": "SIOC 291S",
+    "description": "The course will focus on policy solutions to climate change and introduce key topics in state, national, and international environmental law and policy. The energy system as well as energy policy will be examined, providing an essential foundation for understanding California’s renewable energy policy goals and how we may get there. Students will complete group papers and presentations and lead discussions on assigned readings. This course will include a one-week field trip. Letter grades only.",
+    "raw_prereq": "graduate standing or consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "name": "Ocean-Atmosphere Processes and Climate Variability",
+    "code": "SIOC 293",
+    "description": "We will examine the general structure of the ocean and atmosphere and consider processes and interactions that contribute to climate variability. We will describe dominant climate modes of variability, such as ENSO, and evaluate processes driving climate changes on longer timescales, such as ice ages and deglaciation. Finally, we will explore how climate system processes and feedbacks modulate the impacts of anthropogenic greenhouse gases, and how they may be impacted in a warming climate.",
+    "raw_prereq": "SIOC 290S and graduate standing or consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "SIOC290S"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Climate Science and Policy Forum",
+    "code": "SIOC 296",
+    "description": "Required course for MAS-CSP students will focus on development of MAS Capstone Projects and discussions covering climate science and policy issues, including informal student presentations on political, economic, historical, educational, and natural science issues related to climate science and policy. Letter grades only. May be taken for credit three times.",
+    "raw_prereq": "graduate standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Climate Science and Policy Capstone Project",
+    "code": "SIOC 299",
+    "description": "Building on the knowledge and experience gained from the entire curriculum of the Master’s in Climate Science and Policy (MAS-CSP) program, students will design and present a specific climate science and policy project. May be taken for credit one time for a maximum of ten units. S/U grades only.",
+    "raw_prereq": "graduate standing. Only students registered in MAS-CSP program.",
+    "prerequisites": []
+  }
+]

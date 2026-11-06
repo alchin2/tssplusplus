@@ -33,6 +33,12 @@ JSON_TEMPLATE = {
 # like "...may enroll with consent of instructor" -> "listed prerequisites".
 PREREQ_LABEL_RE = re.compile(r"Prerequisites?:")
 
+# LING's page names its language courses by department label with the real
+# subject prefix in parentheses - "Linguistics/Spanish (LISP) 1A" - rather
+# than leading with the prefix like every other page. Requiring a number
+# right after the ")" keeps this off titles that merely contain parentheses.
+LABELED_PREFIX_RE = re.compile(r"^[A-Za-z][^()]*\(([A-Z]{2,5})\)\s+(?=\d)")
+
 
 def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
     data = []
@@ -46,7 +52,7 @@ def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
         parts = name_text.split(".")
 
         course_data = copy.deepcopy(JSON_TEMPLATE)
-        course_data["code"] = parts[0]
+        course_data["code"] = parse_course_code(parts[0])
         course_data["name"] = parts[1].split(" (")[0].strip() if len(parts) > 1 else ""
 
         description_el = find_description(name_el)
@@ -58,6 +64,16 @@ def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
         data.append(course_data)
 
     return data
+
+
+def parse_course_code(text):
+    """
+    Turn a course-name heading's code part into the course code, moving a
+    parenthesized subject prefix to the front: "Linguistics/Spanish (LISP)
+    1A" -> "LISP 1A". Codes that already lead with their prefix ("CSE 12")
+    come back unchanged.
+    """
+    return LABELED_PREFIX_RE.sub(r"\1 ", text, count=1)
 
 
 def find_description(name_el):
