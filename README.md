@@ -6,11 +6,11 @@
 
 **A faster, more visual way to browse UCSD courses and plan your quarter.**
 
-**200+ users · 5,700+ courses indexed · accurate quarter data**
+**300+ users · 5,700+ courses indexed · accurate quarter data**
 
-Course search · prerequisite graphs · schedule planner · finals view · campus routing · `.ics` export
+Course search · prerequisite graphs · schedule planner · campus routing · `.ics` export
 
-[**Open TSS++ →**](https://tssplusplus.vercel.app)
+[**Check it out here →**](https://tssplusplus.vercel.app)
 
 </div>
 
@@ -29,11 +29,6 @@ List / Calendar / Finals / Map tabs below.
 
 ![Search for Classes with the CSE 100 drawer open: sections table with Plan buttons, description, and prerequisite tree](docs/screenshots/search.png)
 
-| List | Calendar |
-| --- | --- |
-| ![My Schedule list tab](docs/screenshots/list.png) | ![Weekly calendar tab](docs/screenshots/calendar.png) |
-| **Finals** | **Map** |
-| ![Finals week tab](docs/screenshots/finals.png) | ![Campus map tab with walking route](docs/screenshots/map.jpg) |
 
 <details>
 <summary>Mobile</summary>
