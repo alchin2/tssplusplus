@@ -52,6 +52,8 @@ List / Calendar / Finals / Map tabs below.
 - **Schedule planner:** plan a section per course, with automatic conflict
   detection and a notice listing every colliding pair. Your plan stays in your
   browser (`localStorage`); there's no login.
+- **Book on TSS:** each section row has a Book button under Plan that opens
+  that section's TSS booking page in a new tab.
 - **My Schedule views:**
   - **List:** a WebReg-style table with section codes, meeting types, times,
     rooms, and final exams.
