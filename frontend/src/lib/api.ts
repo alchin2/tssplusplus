@@ -30,6 +30,7 @@ interface MeetingDto {
 
 interface SectionDto {
   event_pkg_objid: string | null;
+  book_url: string | null;
   section_code: string | null;
   section_label: string | null;
   limit: number | null;
@@ -199,6 +200,7 @@ function toSection(dto: SectionDto): Section {
     enrolled,
     capacity: dto.limit,
     waitlist: dto.num_on_waitlist,
+    bookUrl: dto.book_url,
   };
 }
 

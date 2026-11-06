@@ -16,6 +16,9 @@ export interface Section {
   enrolled: number | null;
   capacity: number | null;
   waitlist: number | null;
+  // TSS booking page for this section. Optional because plans saved
+  // before it existed were persisted without it.
+  bookUrl?: string | null;
 }
 
 export interface Course {

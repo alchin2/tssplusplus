@@ -130,6 +130,8 @@
   .wr-btn.is-primary:hover { background: var(--wr-header-deep); border-color: var(--wr-bar-deep); }
   .wr-btn.is-primary:active { background: var(--wr-bar-deep); }
   .wr-btn.is-primary:disabled { background: #a9c4dc; border-color: #a9c4dc; color: #fff; }
+  /* Section-row actions: Plan/Change/Remove with Book stacked beneath. */
+  .wr-actions { display: inline-flex; flex-direction: column; align-items: stretch; gap: 0.25rem; }
   .wr-btn.is-danger { color: var(--wr-danger); }
   .wr-btn.is-danger:hover { background: var(--wr-danger-bg); border-color: var(--wr-danger-border); }
 
