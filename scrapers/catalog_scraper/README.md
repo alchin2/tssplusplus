@@ -13,9 +13,9 @@ parsed into a simple AND/OR tree. No login required -- it's a public site.
    (`tools/json_parser.py`).
 4. Writes one JSON file per department to `data/catalog/<CODE>.json`.
 
-BIOL is a special case: its catalog page bundles every biology
-sub-department (BILD, BIMM, BIPN, ...) under one URL, so `main.py` splits
-those courses back out by their real prefix before writing.
+Files are named by catalog page, not course prefix: some pages bundle
+several subjects (BIOL.json holds BILD/BIMM/BIPN/..., GPS.json holds
+GPCO/GPEC/...), and those courses keep their real codes inside the file.
 
 If a department code scrapes zero courses, it's treated as not found and
 dropped from `valid_codes.txt` on that run.

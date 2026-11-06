@@ -1,5 +1,4 @@
 import json
-import re
 import time
 from pathlib import Path
 
@@ -12,14 +11,6 @@ BASE_DIR = Path(__file__).parent
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 VALID_CODES_PATH = BASE_DIR / "valid_codes.txt"
 CATALOG_DIR = PROJECT_ROOT / "data" / "catalog"
-
-# Unlike every other department code, BIOL's catalog page aggregates every
-# biology sub-department (BILD, BIMM, BIPN, BIEB, BICD, BGGN, ...) under one
-# URL - none of those sub-codes have their own catalog page. Split BIOL's
-# courses back out by their real prefix so each sub-department still gets
-# its own file.
-BIOL_CODE = "BIOL"
-COURSE_PREFIX_RE = re.compile(r"^([A-Z]+)")
 
 
 def read_codes(path: Path) -> list[str]:
@@ -37,16 +28,6 @@ def write_department_json(code: str, courses: list[dict]) -> Path:
     with path.open("w", encoding="utf-8") as f:
         json.dump(courses, f, indent=2, ensure_ascii=False)
     return path
-
-
-def split_by_prefix(courses: list[dict]) -> dict[str, list[dict]]:
-    """Group courses by their real department prefix (e.g. "BICD 100" -> "BICD")."""
-    groups: dict[str, list[dict]] = {}
-    for course in courses:
-        match = COURSE_PREFIX_RE.match(course["code"])
-        prefix = match.group(1) if match else course["code"]
-        groups.setdefault(prefix, []).append(course)
-    return groups
 
 
 def scrape_all_departments(codes: list[str]) -> list[str]:
