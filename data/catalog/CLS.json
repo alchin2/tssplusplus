@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Cornerstone of Chicanx and Latinx Studies",
+    "code": "CLX 1",
+    "description": "This course focuses on the formation of the discipline of Chicanx and Latinx studies through an engagement with key historical events, seminal texts, debates, and scholarship about the Chicanx and Latinx experience in the U.S. and beyond. Students will be introduced to major theoretical frameworks and methodological approaches to research by and about the Chicanx and Latinx population.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Chicanx and Latinx Studies—Gender and Sexuality",
+    "code": "CLX 2",
+    "description": "This course will explore the discipline of Chicanx and Latinx studies with gender and sexuality as major categories of analysis and as embodied experiences. Students will be introduced to the main currents of the field of study with an emphasis on gender and sexuality and their intersection with socioeconomic and political issues of concern.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Chicanx and Latinx Studies—Special Topics",
+    "code": "CLX 3",
+    "description": "This course will draw from a range of special topics that include but are not limited to Chicanx and Latinx policy and social structures; arts and culture; public health; Mexican/Latinx philosophy; data and technology; ethics and leadership; social processes and critical praxis; biotech; social justice research; borders, etc. This course will provide an introduction to specialized topics in CLS that students can build on in their upper-division course work.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "First-year Seminar",
+    "code": "CLX 87",
+    "description": "The First-year Seminar Program is designed to provide new students with the opportunity to explore an intellectual topic with a faculty member in a small seminar setting. First-year seminars can be offered in all campus departments and undergraduate colleges, and topics vary from quarter to quarter.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Approaches to Research in Chicanx and Latinx Studies",
+    "code": "CLX 101",
+    "description": "This course builds on CLX 1 and provides students with an immersive experience with Chicanx and Latinx theory and research methodologies. Students will become equipped to conduct ethical research, formulate equitable relationships with local partners, and foster strategies for community outreach. These skills will serve as the basis for developing potential research projects that engage the Chicanx and Latinx experience. CLX 101 is a prerequisite for CLX 102 and CLX 103.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Research Practicum in Chicanx and Latinx Studies",
+    "code": "CLX 102",
+    "description": "This course explores Chicanx and Latinx experiences in San Diego and the greater border region through community-engaged research. Building on the foundation provided by CLX 101, students will establish relationships with community partners, conduct community-engaged research, and collaborate with their peers in the classroom. Faculty will support and guide students throughout their field research process.",
+    "raw_prereq": "CLX 101 or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLX101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Capstone in Chicanx and Latinx Studies",
+    "code": "CLX 103",
+    "description": "This course is a culmination of the upper-division core courses in CLS. Students will apply the knowledge acquired from CLX core courses, cultivate team building and leadership skills, and produce a community-engaged research project. Students will be required to develop a final project that could consist of a written essay, art project, and/or performance. The course will conclude with a student-led showcase that will include the class and community partners in celebration of their collective efforts.",
+    "raw_prereq": "CLX 102 or department approval.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CLX102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Special Topics in Chicanx and Latinx Studies",
+    "code": "CLX 190",
+    "description": "This course will explore specialized, relevant topics in the field of Chicanx and Latinx studies. Course topics will vary from quarter to quarter, so it may be repeated up to three times as long as the quarterly topics vary.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "CLS Senior Seminar",
+    "code": "CLX 192",
+    "description": "The Senior Seminar Program is designed to allow senior undergraduates to meet with faculty members in a small group setting to explore an intellectual topic in Chicanx and Latinx studies.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Directed Group Study in Chicanx and Latinx Studies",
+    "code": "CLX 198",
+    "description": "Directed group study on a topic or in a field not included in the regular curriculum by special arrangement with a faculty member. P/NP grades only. May be taken for credit three times.",
+    "raw_prereq": "upper-division standing unless otherwise authorized and approval of the Special Studies form.",
+    "prerequisites": []
+  },
+  {
+    "name": "Independent Study in Chicanx and Latinx Studies",
+    "code": "CLX 199",
+    "description": "Individual research and study on a particular subject related to Chicanx/Latinx studies by special arrangement under the direction of a faculty member. P/NP grades only. May be taken for credit three times.",
+    "raw_prereq": "students must meet with a faculty member for approval and to define course objectives and learning goals by filling out a Special Studies form.",
+    "prerequisites": []
+  }
+]

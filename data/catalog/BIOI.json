@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Quantitative Methods in Genetics",
+    "code": "BNFO 262",
+    "description": "(Cross-listed with BIOM 262 and BGGN 237.) This advanced problem-oriented course will examine experimental design, laboratory methods, and quantitative analytical tools used in genetic and genomic research. Students will analyze supplied data using a variety of software packages.",
+    "raw_prereq": "BIOM 252 and BIOM 272.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BIOM252"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "BIOM272"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seminar in Bioinformatics and Systems Biology",
+    "code": "BNFO 281",
+    "description": "Weekly seminars by faculty and visiting bioinformaticists presenting their research. S/U grades only. May be taken for credit nine times.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Bioinformatics Student Research Talks",
+    "code": "BNFO 283",
+    "description": "Weekly presentations by bioinformatics and systems biology students about research projects that are proposed or completed. Faculty mentors are present to contribute critiques and suggestions. S/U grades only. May be taken for credit nine times.",
+    "raw_prereq": "bioinformatics and systems biology program graduate students only.",
+    "prerequisites": []
+  },
+  {
+    "name": "Nonlinear Dynamics in Quantitative Biology",
+    "code": "BNFO 284",
+    "description": "Qualitative, analytical and computational mathematical modeling techniques applied to regulatory networks and signaling networks. Stability, bifurcations, oscillations, multistability, hysteresis, multiple timescales, and chaos. Introduction to experimental data analysis and control techniques. Applications to synthetic biology, cellular population dynamics, ad canonical signaling networks (inflammation, tumor suppression, metabolism). Letter grades only.",
+    "raw_prereq": "bioinformatics and systems biology graduate students only.",
+    "prerequisites": []
+  },
+  {
+    "name": "Statistical Learning in Bioinformatics",
+    "code": "BNFO 285",
+    "description": "(Cross-listed with ECE 204 and BENG 285.) A hallmark of bioinformatics is the computational analysis of complex data. The combination of statistics and algorithms produce statistical learning methods that automate the analysis of complex data. Such machine learning methods are widely used in systems biology and bioinformatics. This course provides an introduction to statistical learning and assumes familiarity with key statistical methods. Letter grades only. Students may not receive credit for BNFO 285 and ECE 204 and BENG 285.",
+    "raw_prereq": "MATH 283 or ECE 271A or ECE 271B.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH283"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE271A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE271B"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Network Biology and Biomedicine",
+    "code": "BNFO 286",
+    "description": "(Cross-listed with MED 283.) Networks are pervasive in molecular biology and medicine. This course introduces biomolecular networks and their major analysis techniques and roles in biomedical research, including pathway-based genetic analysis. Recommended familiarity with bioinformatics programming; course examples are taught in Python.",
+    "raw_prereq": "Genetics (BICD 100, BGGN 223, or BIOM 252) and graduate-level statistics (MED 268, MATH 283, MATH 281A, MATH 281C, FMPH 221, or FMPH 222). Prerequisites may be waived with consent of instructor.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "BGGN223"
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BGGN268"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH283"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH281A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH281C"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "FMPH221"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scientific Ethics",
+    "code": "BNFO 294",
+    "description": "Lectures, readings, and discussions about the responsible conduct and reporting of research, working with others in science, and social responsibilities; the course is designed as an option for meeting federal regulations for such training. S/U grades only.",
+    "raw_prereq": "bioinformatics and systems biology graduate students only. Students should review the following web page prior to enrollment: https://ethics.ucsd.edu/courses/ethics/index.html.",
+    "prerequisites": []
+  },
+  {
+    "name": "Research Rotation",
+    "code": "BNFO 298",
+    "description": "Laboratory research of special topics under the direction of a program faculty member. The purpose is to train students in specific research methodologies and identify a laboratory in which to pursue doctoral dissertation research. Three quarters are required for PhD candidates. May be taken for credit up to six times.",
+    "raw_prereq": "bioinformatics graduate students and consent of instructor and program.",
+    "prerequisites": []
+  },
+  {
+    "name": "Graduate Research",
+    "code": "BNFO 299",
+    "description": "Independent work by graduate students engaged in research and writing theses. S/U grades only. May be taken for credit fifteen times.",
+    "raw_prereq": "bioinformatics and systems biology graduate students and consent of instructor.",
+    "prerequisites": []
+  },
+  {
+    "name": "Teaching Assistantship",
+    "code": "BNFO 500",
+    "description": "Teaching experience in an appropriate bioinformatics undergraduate or graduate course under direction of the faculty member in charge of the course. Each PhD candidate must complete two academic quarters of experience for S/U grade only. May be taken for credit four times.",
+    "raw_prereq": "graduate standing and consent of instructor (department stamp). (F,W,S)",
+    "prerequisites": []
+  }
+]

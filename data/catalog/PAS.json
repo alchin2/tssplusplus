@@ -1,0 +1,1160 @@
+[
+  {
+    "name": "Special Topics",
+    "code": "PAE 200",
+    "description": "Special topics courses are reserved for learners who require extra time to complete the didactive phase of training due to hardship, leaves of absence, remediation, or deceleration. Credit hours vary.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and department approval required.",
+    "prerequisites": []
+  },
+  {
+    "name": "Professional Practice II",
+    "code": "PAE 210",
+    "description": "The first in a series of four lecture-based courses dedicated to defining professionalism for healthcare providers. Lectures, readings, and discussion topics focus on academic integrity, medical ethics, and self-care strategies proven to promote wellness and prevent burnout.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "The Physician Assistant Profession",
+    "code": "PAE 211",
+    "description": "This lecture-based course explores the historical development of the physician assistant (PA) profession, current policy, and regulations that impact PA practice, and the state and national organizations advocating for the growth and development of the profession.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "The Physical Exam",
+    "code": "PAE 212",
+    "description": "This lecture- and lab-based course provides learners with a comprehensive study of physical assessment and diagnosis including the clinical and technical skills required to successfully elicit, interpret, and document findings. Lab sessions provide learners an opportunity to practice new skills.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Human Anatomy",
+    "code": "PAE 213",
+    "description": "This lecture- and lab-based course provides learners with advanced knowledge of human body organ structures and their organization into functional systems. Clinical application is emphasized. Lab sessions will include human donor dissections.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Human Physiology and Pathophysiology I",
+    "code": "PAE 214",
+    "description": "This is the first in a series of two lecture-based courses that offers a comprehensive overview of normal human organ function, alterations in normal function, and the interaction of organ systems in states of health and disease.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "The Medical Interview",
+    "code": "PAE 215",
+    "description": "This course will equip learners with the knowledge and skills required to perform a patient-centered medical interview, obtain a medical history, respect the values of persons seeking healthcare, and efficiently document essential information.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Evidence-based Medicine in Practice",
+    "code": "PAE 216",
+    "description": "This course prepares learners to apply evidence-based medicine skills and concepts in clinical practice. Skills include framing research questions, retrieving high-quality evidence, interpreting basic statistical data, and understanding the limits of medical research.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Professional Practice II",
+    "code": "PAE 220",
+    "description": "The second in a series of four lecture-based courses dedicated to defining professionalism for healthcare providers. Lectures, readings, and discussion topics focused on patient- and family-centered care, understanding patients as people, working in interdisciplinary teams, and responding to adverse events.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Medicine I",
+    "code": "PAE 221",
+    "description": "The first in a series of four lecture-based courses studying the clinical presentation, diagnosis, evaluation, and management of patients seeking care for common medical conditions in primary and specialty care settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pharmacology and Pharmacotherapeutics I",
+    "code": "PAE 222",
+    "description": "The first in a series of four lecture-based courses that explores the knowledge and concepts required to safely prescribe and monitor medications used to diagnose and treat common medical conditions in primary care and emergency department settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Human Physiology and Pathophysiology II",
+    "code": "PAE 223",
+    "description": "This is the second in a series of two lecture-based courses that offers a comprehensive overview of normal human organ function, alterations in normal function, and the interaction of organ systems in states of health and disease.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Patient Education",
+    "code": "PAE 224",
+    "description": "This course explores the effects of health literacy, patient education, and shared decision-making on patient care outcomes. Lab sessions will utilize clinical scenarios, case studies, and simulations that allow learners to practice new skills.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Reasoning I",
+    "code": "PAE 225",
+    "description": "The first in a series of four lecture- and lab-based courses designed to engage learners in team-based activities that require them to integrate newly acquired knowledge and skill to develop and strengthen their clinical reasoning ability.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 212, PAE 215, and PAE 216.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE212"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE215"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diagnostic Studies I",
+    "code": "PAE 226",
+    "description": "The first of a two-part series designed to provide learners with an overview of common medical lab science assays utilized for the purposes of patient evaluation, diagnosis, and monitoring. Assay selection, interpretation, and value-based care concepts are emphasized.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Professional Practice III",
+    "code": "PAE 230",
+    "description": "The third in a series of four lecture-based courses dedicated to defining professionalism for healthcare providers. Lectures, readings, and discussion topics focus on building effective interdisciplinary healthcare teams and the science of quality improvement.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Medicine II",
+    "code": "PAE 231",
+    "description": "The second in a series of four lecture-based courses studying the clinical presentation, diagnosis, evaluation, and management of patients seeking care for common medical conditions in primary and specialty care settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214 and PAE 223.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE223"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pharmacology and Pharmacotherapeutics II",
+    "code": "PAE 232",
+    "description": "The second in a series of four lecture-based courses that explores the knowledge and concepts required to safely prescribe and monitor medications used to diagnose and treat common medical conditions in primary care and emergency department settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214 and PAE 223.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE223"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Perioperative Medicine",
+    "code": "PAE 233",
+    "description": "This lab-based course introduces learners to the roles and responsibilities of the perioperative healthcare team, and the unique needs of patients preparing for, undergoing, and recuperating from surgery. Demonstrating the knowledge and ability to perform perioperative technical skills is required.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Reasoning II",
+    "code": "PAE 234",
+    "description": "The second in a series of four lecture- and lab-based courses designed to engage learners in team-based activities that require them to integrate newly acquired knowledge and skill to develop and strengthen their clinical reasoning ability.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 212, PAE 215, and PAE 216.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE212"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE215"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diagnostic Studies II",
+    "code": "PAE 235",
+    "description": "The second of a two-part series designed to provide learners with an overview of common diagnostic tests utilized during patient evaluation, diagnosis, and monitoring. Clinical indications for and accurate interpretation of electrocardiography, x-rays, computed tomography, MRI, and ultrasound are included.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "The Pediatric Patient",
+    "code": "PAE 236",
+    "description": "This course will equip learners with the knowledge and skills required to evaluate and manage infants, children, adolescents, and their families in primary care settings. Topics include age-related considerations during the history and physical exam and recognizing/reporting abuse or neglect.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Professional Practice IV",
+    "code": "PAE 240",
+    "description": "The final in a series of four lecture-based courses dedicated to defining professionalism for healthcare providers. Lectures, readings, and discussion topics focus on social determinants, healthcare disparities, and the triple aim of healthcare for individuals and populations.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Technical Skills and Procedures I",
+    "code": "PAE 241",
+    "description": "The first in a series of two stand-alone courses designed to introduce learners to the indications, contradictions, step-by-step procedures, and complications of technical skills commonly performed by physician assistants. Simulation activities during lab sessions allow learners to practice skills.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Medicine III",
+    "code": "PAE 242",
+    "description": "The third in a series of four lecture-based courses studying the clinical presentation, diagnosis, evaluation, and management of patients seeking care for common medical conditions in primary and specialty care settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214 and PAE 223.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE223"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pharmacology and Pharmacotherapeutics III",
+    "code": "PAE 243",
+    "description": "The third in a series of four lecture-based courses that explores the knowledge and concepts required to safely prescribe and monitor medications used to diagnose and treat common medical conditions in primary care and emergency department settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214 and PAE 223.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE223"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Behavioral and Mental Healthcare",
+    "code": "PAE 244",
+    "description": "This lecture-based course introduces learners to the evaluation, diagnosis, and management of patients who present with behavioral or mental health concerns in primary care and emergency department settings. Clinical interventions including pharmacotherapeutic options will be discussed.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Reasoning III",
+    "code": "PAE 245",
+    "description": "The third in a series of four lecture- and lab-based courses designed to engage learners in team-based activities that require them to integrate newly acquired knowledge and skill to develop and strengthen their clinical reasoning ability.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 212, PAE 215, and PAE 216.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE212"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE215"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rehabilitative Medicine and Palliative Care",
+    "code": "PAE 246",
+    "description": "This lecture-based course will introduce learners to current concepts in the evaluation and management of patients and families requiring rehabilitative and/or palliative care. Evidence-based interventions aimed at maintaining function and quality of life are key concepts.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Technical Skills and Procedures II",
+    "code": "PAE 250",
+    "description": "The second in a series of two stand-alone courses designed to introduce learners to the indications, contraindications, step-by-step procedures, and complications of technical skills commonly performed by physician assistants. Simulation activities during lab sessions allow learners to practice skills.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Concepts in Emergency Medicine",
+    "code": "PAE 251",
+    "description": "This lecture-based course will prepare learners to efficiently evaluate and manage patients seeking care in the emergency department setting. Topics include focused, evidence-based assessment and triage of common urgent and emergent conditions, medical stabilization, disposition planning and resource stewardship.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Clinical Medicine IV",
+    "code": "PAE 252",
+    "description": "The final of this four-part series of lecture-based courses studying the clinical presentation, diagnosis, evaluation, and management of patients seeking care for common medical conditions in primary and specialty care settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214 and PAE 223.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE223"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pharmacology and Pharmacotherapeutics IV",
+    "code": "PAE 253",
+    "description": "The final in this four-part series of lecture-based courses that explores the knowledge and concepts required to safely prescribe and monitor medications used to diagnose and treat common medical conditions in primary care and emergency department settings.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 214 and PAE 223.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE214"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE223"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Inquiry and Research Design",
+    "code": "PAE 254",
+    "description": "This lecture-based course builds upon foundational knowledge learned in the evidence-based medicine course with greater emphasis on researching clinical questions, analyzing available evidence, utilizing common research methods, and developing the skills to prepare a capstone project prior to graduation.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 216.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Reasoning IV",
+    "code": "PAE 255",
+    "description": "The final course in this four-part series of lecture- and lab-based courses designed to engage learners in team-based activities that require them to integrate newly acquired knowledge and skill to develop and strengthen their clinical reasoning ability.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 212, PAE 215, and PAE 216.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE212"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE215"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Health Promotion and Disease Prevention",
+    "code": "PAE 256",
+    "description": "This lecture-based course focuses on the utilization and efficacy of public health interventions. Topics include disease surveillance and reporting, population health, patient advocacy, and health maintenance. Case discussions will allow learners to apply concepts.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75).",
+    "prerequisites": []
+  },
+  {
+    "name": "Didactic Capstone",
+    "code": "PAE 290",
+    "description": "This forty-hour seminar course evaluates the knowledge, skills, attitudes, and behaviors acquired by learners during the didactic phase. The Physician Assistant Clinical Knowledge Rating Assessment Tool (PACKRAT™) will assess medical knowledge, and an objective structured clinical examination will assess skills.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 210, PAE 211, PAE 212, PAE 213, PAE 214, PAE 215, PAE 216, PAE 220, PAE 221, PAE 222, PAE 223, PAE 224, PAE 225, PAE 226, PAE 230, PAE 231, PAE 232, PAE 233, PAE 234, PAE 235, PAE 235, PAE 240, PAE 241, PAE 242, PAE 243, PAE 244, PAE 245, PAE 246, PAE 250, PAE 251, PAE 252, PAE 253, PAE 254, PAE 255, PAE 256.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE210"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE211"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE212"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE213"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE214"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE215"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE216"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE220"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE221"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE222"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE223"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE224"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE225"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE226"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE230"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE231"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE232"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE233"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE234"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE235"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE235"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE240"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE241"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE242"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE243"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE244"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE245"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE246"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE250"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE251"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE252"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE253"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE254"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE255"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE256"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Special Topics",
+    "code": "PAE 400",
+    "description": "Special topics courses are reserved for learners who require extra time to complete the clinical phase of training due to factors such as hardship, leave of absence, remediation, or deceleration. Credit hours vary.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and departmental approval required.",
+    "prerequisites": []
+  },
+  {
+    "name": "Family Medicine Rotation",
+    "code": "PAE 410",
+    "description": "This supervised clinical practice experience requires active participation in the clinical evaluation and management of patients seeking preventive, urgent, acute, and chronic care in a primary care setting. Encounters will include experience with infants, children, adolescents, adults, and elderly.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Internal Medicine Rotation",
+    "code": "PAE 411",
+    "description": "This four-week supervised clinical practice experience requires active participation in the comprehensive, longitudinal care of adult patients in an internal medicine specialty.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pediatric Rotation",
+    "code": "PAE 412",
+    "description": "This four-week supervised clinical practice experience requires active participation in the care of patients in the primary care specialty of pediatrics which focuses on the care of patients from birth to adolescence through young adulthood.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Women’s Health Rotation",
+    "code": "PAE 420",
+    "description": "This supervised clinical practice experience requires active participation in the clinical evaluation and management of patients seeking women’s health, to include prenatal and gynecologic care. Encounters will include adolescents, adults, and elderly.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mental and Behavioral Health Rotation",
+    "code": "PAE 430",
+    "description": "This four-week supervised clinical practice experience requires active participation in the care of patients seeking behavioral and mental healthcare across the lifespan. Learners will participate in the evaluation and management of patients with mental and behavioral health concerns.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Surgery Rotation",
+    "code": "PAE 440",
+    "description": "This four-week supervised clinical practice experience requires active participation in the care of patients in a surgical specialty. Emphasis will include a focus on the physician assistant’s role as a member of the surgical management team.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Emergency Medicine Rotation",
+    "code": "PAE 450",
+    "description": "This four-week supervised clinical practice experience requires active participation in the care of patients in an emergency department setting with a focus on the evaluation and management of patients who present with acute, traumatic, urgent, and emergent medical needs.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Elective Rotation I",
+    "code": "PAE 451",
+    "description": "This four-week supervised clinical practice experience requires active participation in a medical or surgical discipline. Learners will elect additional experiences in a specialty of their choice in settings that include inpatient, outpatient, surgery, urgent care, and the emergency department.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Elective Rotation II",
+    "code": "PAE 452",
+    "description": "This four-week supervised clinical practice experience requires active participation in a medical or surgical discipline. Learners will elect additional experiences in a specialty of their choice in settings that include inpatient, outpatient, surgery, urgent care, and the emergency department.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Elective Rotation III",
+    "code": "PAE 453",
+    "description": "This four-week supervised clinical practice experience requires active participation in a medical or surgical discipline. Learners will elect additional experiences in a specialty of their choice in settings that include inpatient, outpatient, surgery, urgent care, and the emergency department.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Independent Study Rotation",
+    "code": "PAE 454",
+    "description": "This four-week non-clinical experience provides the learner with time to focus their efforts on completing their capstone project. Learners will also create a self-directed learning plan to prepare for final written and practical summative assessments required for graduation.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 410, PAE 411, PAE 412, PAE 420, PAE 430, PAE 440, and PAE 450.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE410"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE411"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE412"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE420"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE430"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE440"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE450"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Primary Care Selective Rotation I",
+    "code": "PAE 461",
+    "description": "This four-week supervised clinical practice experience is designed for learners with a commitment to a career in primary care. This experience places emphasis on continuity of care and the unique aspects of providing healthcare in a community and ambulatory setting.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Primary Care Selective Rotation II",
+    "code": "PAE 462",
+    "description": "This four-week supervised clinical practice experience is designed for learners with a commitment to a career in primary care. This experience places emphasis on continuity of care and the unique aspects of providing healthcare in a community and ambulatory setting.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Primary Care Selective Rotation III",
+    "code": "PAE 463",
+    "description": "This four-week supervised clinical practice experience is designed for learners with a commitment to a career in primary care. This experience places emphasis on continuity of care and the unique aspects of providing healthcare in a community and ambulatory setting.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Specialty Care Selective Rotation I",
+    "code": "PAE 471",
+    "description": "This four-week supervised clinical experience requires active participation in a specialty/sub-specialty setting. Learners choose clinical experiences with a common thread across three courses. This experience will enhance the learner’s understanding of the role of a physician assistant within the selected discipline.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Specialty Care Selective Rotation II",
+    "code": "PAE 472",
+    "description": "This four-week supervised clinical experience requires active participation in a specialty/sub-specialty setting. Learners choose clinical experiences with a common thread across three courses. This experience will enhance the learner’s understanding of the role of a physician assistant within the selected discipline.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Specialty Care Selective Rotation III",
+    "code": "PAE 473",
+    "description": "This four-week supervised clinical experience requires active participation in a specialty/sub-specialty setting. Learners choose clinical experiences with a common thread across three courses. This experience will enhance the learner’s understanding of the role of a physician assistant within the selected discipline.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rural and Border Health Selective Rotation I",
+    "code": "PAE 481",
+    "description": "This four-week supervised clinical experience requires participation in a rural or border health setting. Learners choose clinical experiences with a common thread across three courses to enhance their understanding of the role of a physician assistant within the selected discipline.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rural and Border Health Selective Rotation II",
+    "code": "PAE 482",
+    "description": "This four-week supervised clinical experience requires participation in a rural or border health setting. Learners choose clinical experiences with a common thread across three courses to enhance their understanding of the role of a physician assistant within the selected discipline.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rural and Border Health Selective Rotation III",
+    "code": "PAE 483",
+    "description": "This four-week supervised clinical experience requires participation in a rural or border health setting. Learners choose clinical experiences with a common thread across three courses to enhance their understanding of the role of a physician assistant within the selected discipline.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Independent Study for Clinical Concentrations",
+    "code": "PAE 489",
+    "description": "This four-week non-clinical experience provides learners on a clinical concentration path with time to focus on completing their capstone project. Learners will also create a self-directed learning plan to prepare for final written and practical summative assessments required for graduation.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 410, PAE 411, PAE 412, PAE 420, PAE 430, PAE 440, and PAE 450.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PAE410"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE411"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE412"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE420"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE430"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PAE440"
+              }
+            ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE450"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Capstone",
+    "code": "PAE 491",
+    "description": "The first of four one-week seminars designed to augment supervised clinical practice experiences wherein learners will apply the knowledge, skills, and attitudes acquired throughout the MAS-PAS program of study. A letter grade for each seminar will be assigned upon completion of seminar IV (PAE 494).",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Capstone II",
+    "code": "PAE 492",
+    "description": "The second of four one-week seminars designed to augment supervised clinical practice experiences wherein learners will apply the knowledge, skills, and attitudes acquired throughout the MAS-PAS program of study. A letter grade for each seminar will be assigned upon completion of seminar IV (PAE 494).",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Capstone III",
+    "code": "PAE 493",
+    "description": "The third of four one-week seminars designed to augment supervised clinical practice experiences wherein learners will apply the knowledge, skills, and attitudes acquired throughout the MAS-PAS program of study. A letter grade for each seminar will be assigned upon completion of seminar IV (PAE 494).",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clinical Capstone IV",
+    "code": "PAE 494",
+    "description": "The fourth of four one-week seminars designed to augment supervised clinical practice experiences wherein learners will apply the knowledge, skills, and attitudes acquired throughout the MAS-PAS program of study. A letter grade for each seminar will be assigned upon completion of seminar IV (PAE 494).",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Program to Practice",
+    "code": "PAE 495",
+    "description": "This seminar course examines topics to the transition from the role the physician assistant learner to professional practice, including career development, contract negotiation, financial literacy, debt management, medical liability, risk management, licensing and credentialing process, and post-graduate education opportunities.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290 and PAE 494.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE494"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Comprehensive Review",
+    "code": "PAE 496",
+    "description": "This seminar course offers the physician assistant learner a seminar designed to synthesize didactic and clinical education and training as it applies to preparation for the Physician Assistant National Certification Examination (PANCE). Test-taking skills and high-yield preparation strategies are discussed.",
+    "raw_prereq": "admission to the Physician Assistant Education Program (PE75) and successful completion of PAE 290 and PAE 494.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "PAE290"
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PAE494"
+          }
+        ]
+      }
+    ]
+  }
+]
