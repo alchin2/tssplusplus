@@ -248,8 +248,27 @@ def test_meta_lists_terms_newest_first_with_default(client):
     assert body["default_term"] == "wi27"
     assert body["term"] == "wi27"
     assert body["depts"] == ["CSE", "MATH"]
+    assert body["subjects"] == ["CSE", "MATH"]
     assert body["course_count"] == 2
     assert body["offered_count"] == 1
+
+
+def test_meta_subjects_cover_bundled_pages_and_offered_courses(data_dir, client):
+    # A BIOL-style page bundling several subjects, plus parse noise that
+    # isn't a real prefix.
+    (data_dir.catalog_dir / "BIOL.json").write_text(json.dumps([
+        {**MATH_20A, "code": "BILD 1"},
+        {**MATH_20A, "code": "BIMM 100"},
+        {**MATH_20A, "code": "CLASSIC 1"},
+        {**MATH_20A, "code": "P 1"},
+    ]))
+    # Offered in a term but missing from the catalog.
+    _write_offered(data_dir.offered_dir, "wi27", "9100,MATH-020A,Calculus I\n9200,GPCO-468,Eval Tech\n")
+    _clear_caches()
+
+    body = client.get("/api/meta").json()
+
+    assert body["subjects"] == ["BILD", "BIMM", "CSE", "GPCO", "MATH"]
 
 
 def test_meta_for_a_requested_term(client):

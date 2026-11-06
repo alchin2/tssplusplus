@@ -33,12 +33,15 @@ class Meta(BaseModel):
     """GET /api/meta -- servable terms + catalog-wide facts the frontend
     needs up front (term and department dropdowns, headline counts).
     `term` is the one requested (or the default); `terms` is newest
-    first."""
+    first. `subjects` is every course subject prefix (e.g. "BILD",
+    "GPCO"), which differs from `depts` -- those are catalog pages, and
+    some pages (BIOL, GPS) bundle several subjects."""
 
     term: str
     default_term: str
     terms: list[str]
     depts: list[str]
+    subjects: list[str]
     course_count: int
     offered_count: int
 
