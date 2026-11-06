@@ -129,36 +129,6 @@
     ]
   },
   {
-    "name": "The Developing Mind",
-    "code": "HDS 121",
-    "description": "(Same as COGS 110.) This course examines changes in thinking and perceiving the physical and social world from birth through childhood. Evidence of significant changes in encoding information, forming mental representations, and solving problems is culled from psychological research, cross-cultural studies, and cognitive science. Cross-listed course HDS 121 has been renumbered from HDP 121. Students may receive credit for one of the following: COGS 110, HDS 121, or HDS 121.",
-    "raw_prereq": "HDP 1 or HDS 1 or COGS 1.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "HDP1"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "HDS1"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COGS1"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Development of Social Cognition",
     "code": "HDS 122",
     "description": "This course covers topics in development of social cognition across the life span. Grounded in current research and theoretical models, content addresses general principles such as the mutual influences of caregivers and children upon each other and the interplay of person and context. Discussion areas include attachment, aggression, identity development, social cognition, social components of achievement motivation, and development of conscience. Renumbered from HDP 122. Students may not receive credit for HDP 122 and HDS 122.",
@@ -177,6 +147,40 @@
               {
                 "type": "COURSE",
                 "course_id": "HDS1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cognitive Development across the Lifespan",
+    "code": "HDS 124",
+    "description": "This course provides an overview of how thinking develops across the lifespan. Topics may include perception, concept formation, memory, problem-solving, social cognition, and cognitive decline.",
+    "raw_prereq": "HDP 1 or HDS 1 or COGS 1 or PSYC 1.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDP1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "HDS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS1"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC1"
               }
             ]
           }
@@ -269,10 +273,17 @@
     "prerequisites": []
   },
   {
+    "name": "Educational Equity and Development across the Lifespan",
+    "code": "HDS 177",
+    "description": "This course investigates the impact of educational inequities on minoritized students’ lifelong development. Drawing on interdisciplinary perspectives, we will examine P–20 educational settings that contribute to student development while exploring opportunities for educational equity through research, policy, and practice.",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": []
+  },
+  {
     "name": "Experimental Projects in Human Development Research",
     "code": "HDS 181",
     "description": "This laboratory course in human developmental sciences is designed around a variety of intensive experimental projects. With lectures providing background information on research methods and life span development, each assignment will include data collection and/or analysis, and a written laboratory report. Renumbered from HDP 181. Students may not receive credit for HDP 181 and HDS 181.",
-    "raw_prereq": "HDS 1 and BIEB 100 or COGS 14B or ECON 120A or MATH 11 or POLI 30 or POLI 30D or PSYC 60. Department approval required. A minimum of three upper-division HDS major courses, at least one in each domain, is needed for enrollment approval. Must be a declared HDS major. (F,W,S)",
+    "raw_prereq": "HDS 1 and HDS 60 or BIEB 100 or COGS 14B or ECON 120A or MATH 11 or POLI 30 or POLI 30D or PSYC 60. Department approval required. A minimum of three upper-division HDS major courses, at least one in each domain, is needed for enrollment approval. Must be a declared HDS major. (F,W,S)",
     "prerequisites": [
       {
         "type": "AND",
@@ -284,6 +295,10 @@
           {
             "type": "OR",
             "items": [
+              {
+                "type": "COURSE",
+                "course_id": "HDS60"
+              },
               {
                 "type": "COURSE",
                 "course_id": "BIEB100"
@@ -354,9 +369,9 @@
     "prerequisites": []
   },
   {
-    "name": "Instructional Apprentice in Human Developmental Sciences",
-    "code": "HDS 195",
-    "description": "Introduction to teaching within human developmental sciences. Under the direction of the instructor, students attend lectures, lead discussion sections, review course readings, and meet regularly to prepare course materials and to evaluate examinations and papers. Course not counted toward HDS major or minor. Pass/No Pass only. Renumbered from HDP 195. Students may not receive more than a combined total of eight units of credit for HDP 195 and HDS 195.",
+    "name": "Pedagogy and Learning Apprenticeship",
+    "code": "HDS 195P",
+    "description": "Under the supervision of an instructor, undergraduate students gain teaching experience through practical experiences in course management and effective teaching methods. Course not counted toward HDS major or minor. Pass/No Pass only. Renumbered from HDS 195. HDS 195P and HDS 195 may be taken for credit for a combined total of two times.",
     "raw_prereq": "overall GPA of 3.0, 90 units completed, department approval, and consent of instructor required.",
     "prerequisites": []
   },

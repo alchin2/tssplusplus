@@ -102,8 +102,8 @@
   {
     "name": "Calculus III",
     "code": "MATH 10C",
-    "description": "Introduction to functions of more than one variable. Vector geometry, partial derivatives, velocity and acceleration vectors, optimization problems. (No credit given if taken after or concurrent with 20C.)",
-    "raw_prereq": "AP Calculus BC score of 3, 4, or 5, or MATH 10B, or MATH 20B.",
+    "description": "Introduction to functions of more than one variable. Vector geometry, partial derivatives, optimization problems, interdisciplinary applications. (No credit given if taken after or concurrent with 20C.)",
+    "raw_prereq": "AP Calculus BC score of 3, 4, or 5, or MATH 10A, or MATH 20A.",
     "prerequisites": [
       {
         "type": "AND",
@@ -113,11 +113,11 @@
             "items": [
               {
                 "type": "COURSE",
-                "course_id": "MATH10B"
+                "course_id": "MATH10A"
               },
               {
                 "type": "COURSE",
-                "course_id": "MATH20B"
+                "course_id": "MATH20A"
               }
             ]
           }
@@ -297,7 +297,7 @@
     "name": "Vector Calculus",
     "code": "MATH 20E",
     "description": "Change of variable in multiple integrals, Jacobian, Line integrals, Green’s theorem. Vector fields, gradient fields, divergence, curl. Spherical/cylindrical coordinates. Taylor series in several variables. Surface integrals, Stoke’s theorem. Gauss’ theorem. Conservative fields.",
-    "raw_prereq": "MATH 18 or MATH 20F or MATH 31AH and MATH 20C (or MATH 21C) or MATH 31BH with a grade of C– or better.",
+    "raw_prereq": "MATH 18 or MATH 31AH and MATH 20C or MATH 31BH with a grade of C– or better.",
     "prerequisites": [
       {
         "type": "AND",
@@ -308,10 +308,6 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH18"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MATH20F"
               },
               {
                 "type": "COURSE",
@@ -830,33 +826,12 @@
   {
     "name": "Introduction to Mathematical Biology I",
     "code": "MATH 112A",
-    "description": "Part one of a two-course introduction to the use of mathematical theory and techniques in analyzing biological problems. Topics include differential equations, dynamical systems, and probability theory applied to a selection of biological problems from population dynamics, biochemical reactions, biological oscillators, gene regulation, molecular interactions, and cellular function. May be coscheduled with MATH 212A. Recommended preparation: MATH 130 and MATH 180A.",
-    "raw_prereq": "MATH 11 or MATH 180A or MATH 183 or MATH 186, and MATH 18 or MATH 31AH, and MATH 20D, and BILD 1. Students who have not completed listed prerequisites may enroll with consent of instructor.",
+    "description": "Part one of a two-course introduction to the use of mathematical theory and techniques in analyzing biological problems. Topics include differential equations, dynamical systems, and probability theory applied to a selection of biological problems from population dynamics, biochemical reactions, biological oscillators, gene regulation, molecular interactions, and cellular function. May be coscheduled with MATH 212A.",
+    "raw_prereq": "MATH 18 or MATH 31AH, and MATH 20D. Students who have not completed listed prerequisites may enroll with consent of instructor.",
     "prerequisites": [
       {
         "type": "AND",
         "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "MATH11"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MATH180A"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MATH183"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "MATH186"
-              }
-            ]
-          },
           {
             "type": "OR",
             "items": [
@@ -873,10 +848,6 @@
           {
             "type": "COURSE",
             "course_id": "MATH20D"
-          },
-          {
-            "type": "COURSE",
-            "course_id": "BILD1"
           }
         ]
       }
@@ -1107,7 +1078,7 @@
   {
     "name": "Introduction to Analysis I",
     "code": "MATH 142A",
-    "description": "First course in an introductory two-quarter sequence on analysis. Topics include the real number system, numerical sequences and series, infinite limits, limits of functions, continuity, differentiation. Students may not receive credit for MATH 142A if taken after or concurrently with MATH 140A.",
+    "description": "First course in an introductory two-quarter sequence on analysis. Topics include the real number system, numerical sequences and series, infinite limits, limits of functions, continuity. Students may not receive credit for MATH 142A if taken after or concurrently with MATH 140A.",
     "raw_prereq": "MATH 31CH or MATH 109. Students who have not completed listed prerequisites may enroll with consent of instructor.",
     "prerequisites": [
       {
@@ -1133,7 +1104,7 @@
   {
     "name": "Introduction to Analysis II",
     "code": "MATH 142B",
-    "description": "Second course in an introductory two-quarter sequence on analysis. Topics include the Riemann integral, sequences and series of functions, uniform convergence, Taylor series, introduction to analysis in several variables. Students may not receive credit for MATH 142B if taken after or concurrently with MATH 140B.",
+    "description": "Second course in an introductory two-quarter sequence on analysis. Topics include differentiation, the Riemann integral, sequences and series of functions, uniform convergence, Taylor series. Students may not receive credit for MATH 142B if taken after or concurrently with MATH 140B.",
     "raw_prereq": "MATH 142A or MATH 140A. Students who have not completed listed prerequisites may enroll with consent of instructor.",
     "prerequisites": [
       {

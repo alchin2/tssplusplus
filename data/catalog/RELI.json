@@ -28,9 +28,23 @@
     "prerequisites": []
   },
   {
+    "name": "Race and Religion in America",
+    "code": "RELI 100",
+    "description": "This course examines the intertwined histories of race and religion in the United States, exploring how religious beliefs, experiences, and institutions have shaped racial identities and hierarchies, and also how communities have used religion as a resource for resistance and justice.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
     "name": "Tools and Methods in the Study of Religion",
     "code": "RELI 101",
     "description": "This course provides an advanced introduction to assumptions and norms that shape the study of religion as an academic field; to significant debates within the field; and to tools and methods used for professional research within the field.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Texts and Context: East Asian Religions",
+    "code": "RELI 114",
+    "description": "An introduction to the religions of China and Japan, including Confucianism, Taoism, Shinto, and Buddhism.",
     "raw_prereq": "",
     "prerequisites": []
   },

@@ -38,7 +38,7 @@
     "name": "Ethics and Society",
     "code": "POLI 27 or 27R",
     "description": "An examination of ethical principles (e.g., utilitarianism, individual rights, etc.) and their social and political applications to contemporary issues such as abortion, environmental protection, and affirmative action. Ethical principles will also be applied to moral dilemmas familiar in government, law, business, and the professions. Satisfies the Warren College ethics and society requirement.",
-    "raw_prereq": "CAT 2 and 3, DOC 2 and 3, MCWP 40 and 50, HUM 1 and 2, WCWP 10A–B, or WARR 11A–B, SYN 1 and SYN 2, CCE 1 and CCE 2.",
+    "raw_prereq": "CAT 2 and 3, DOC 2 and 3, MCWP 40 and 50, MMW 2 and 3, HUM 1 and 2, WCWP 10A–B, or WARR 11A–B, SYN 1 and SYN 2, CCE 1 and CCE 2.",
     "prerequisites": [
       {
         "type": "AND",
@@ -79,6 +79,19 @@
               {
                 "type": "COURSE",
                 "course_id": "MCWP50"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MMW2"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MMW3"
               },
               {
                 "type": "COURSE",
@@ -346,6 +359,13 @@
     "prerequisites": []
   },
   {
+    "name": "Gender and American Politics",
+    "code": "POLI 100Z",
+    "description": "This course examines the role of gender in American politics. First, we consider how gender plays a role in political opinions and behavior among citizens. Then, we turn to the elite level and examine whether women legislate differently than their male counterparts and how the broader political context influences patterns of women’s representation. We conclude by sorting through explanations for why women are underrepresented in political office and assess implications for American democracy.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
     "name": "Black Politics in the US",
     "code": "POLI 101A",
     "description": "Course will provide a comprehensive overview of Black politics in the United States by examining prominent racial social movements, Black public opinion and political behavior, the challenges and opportunities for Black elected officials, the significance of Black representation in government, and how race intersects with gender, age, and class to influence the salience of identity and the political behavior of African Americans.",
@@ -583,11 +603,45 @@
     "prerequisites": []
   },
   {
+    "name": "Introduction to Contracts, Drafting, and Negotiations",
+    "code": "POLI 104O",
+    "description": "This course will introduce students to the fascinating world of contracts, including contract formation, breach, remedies. Students will also engage in contract drafting and negotiation exercises.",
+    "raw_prereq": "POLI 104J and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI104J"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Science, Technology, and the Law",
     "code": "POLI 104P",
     "description": "Science advances exponentially. The law is slower to follow. This course examines legal issues created by today’s scientific breakthroughs and explores what future legal challenges might await tomorrow’s scientific discoveries, from privacy on the internet to the meaning of life.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": []
+  },
+  {
+    "name": "Introduction to Intellectual Property Law",
+    "code": "POLI 104Q",
+    "description": "This course will introduce students to the exciting cases and issues surrounding intellectual property law, and will cover topics including trademark, copyright, and patents, as well as infringement and fair use.",
+    "raw_prereq": "POLI 104J and upper-division standing.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "POLI104J"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Survey in Evidence, Civil Procedure, and Criminal Law",
@@ -625,6 +679,13 @@
     "code": "POLI 105A",
     "description": "This course examines contemporary issues in Latino politics in the US; comparisons of racial and ethnic group experiences in the US; Latino access to the political system through political participation.",
     "raw_prereq": "upper-division standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "LGBTQ Politics",
+    "code": "POLI 107",
+    "description": "This course is designed to expose students to the study of LGBTQ politics in the American context, focusing specifically on the U.S. LGBTQ movement’s formation and evolution, political success, and current political and social challenges. We will also seek to unpack the extent to which the U.S. LGBTQ movement can be seen as a “template” for a broader international LGBTQ movement and its ramifications for LGBTQ movement success outside of the United States.",
+    "raw_prereq": "",
     "prerequisites": []
   },
   {
@@ -695,6 +756,13 @@
     "code": "POLI 110ED",
     "description": "This seminar explores debates over ideals, institutions, and identities in American political thought. Themes and topics will vary. Readings will include political pamphlets, philosophical treatises, court decisions, and works of literature.",
     "raw_prereq": "upper-division standing; department stamp.",
+    "prerequisites": []
+  },
+  {
+    "name": "Critical Reasoning and Consumption",
+    "code": "POLI 110F",
+    "description": "All students will encounter evidence throughout their lives. Some is reliable, some is not. While reports are sometimes diligent and careful, others are poorly conceived or deliberately misleading. As critical consumers, it is our responsibility to distinguish between the two. This course aims to provide the tools needed for this evaluation. Each week covers a particular fallacy. After learning about abstract principles, we will examine their applications to contemporary and historical examples.",
+    "raw_prereq": "",
     "prerequisites": []
   },
   {
@@ -816,16 +884,9 @@
   },
   {
     "name": "Chinese and Japanese Political Thought I",
-    "code": "POLI 113B",
-    "description": "Examines philosophical traditions of ancient and modern China and Japan, to understand how these have been reflected in Chinese and Japanese development. Course will be in English; however, students with Chinese or Japanese language skills will have opportunity to use these. Graduate students will be required to complete a seminar-length research paper; undergraduate students will write a paper.",
+    "code": "POLI 113B or 113BR",
+    "description": "Examines philosophical traditions of ancient and modern China and Japan, to understand how these have been reflected in Chinese and Japanese development. Course will be in English; however, students with Chinese or Japanese language skills will have the opportunity to use these. Graduate students will be required to complete a seminar-length research paper; undergraduate students will write a paper.",
     "raw_prereq": "upper-division standing for POLI 113B.",
-    "prerequisites": []
-  },
-  {
-    "name": "Chinese and Japanese Political Thought II",
-    "code": "POLI 113C",
-    "description": "A continuation of 113B, which follows political philosophical themes in China and Japan through the twentieth century. Important topics include Buddhism and Confucianism as they changed in each context in response to internal and external stimuli.",
-    "raw_prereq": "POLI 113B.",
     "prerequisites": [
       {
         "type": "AND",
@@ -839,8 +900,34 @@
     ]
   },
   {
+    "name": "Chinese and Japanese Political Thought II",
+    "code": "POLI 113C or 113CR",
+    "description": "A continuation of 113B, which follows political philosophical themes in China and Japan through the twentieth century. Important topics include Buddhism and Confucianism as they changed in each context in response to internal and external stimuli.",
+    "raw_prereq": "POLI 113B or 113BR.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "POLI113B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "POLI113BR"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Marxist Political Thought",
-    "code": "POLI 114B",
+    "code": "POLI 114B or 114BR",
     "description": "An introduction to Marxist thought from its roots in the Western tradition through its development in non-Western contexts. Emphasis is placed on how adaptations were made in Marxism to accommodate the specific challenges of each environment.",
     "raw_prereq": "",
     "prerequisites": []
@@ -861,15 +948,8 @@
   },
   {
     "name": "Bending the Curve: Solutions to Climate Change",
-    "code": "POLI 117",
-    "description": "(Same as SIO 109.) Climate change is an urgent global problem affecting the lives of hundreds of millions of people, now and for the foreseeable future. This course will empower students to confront climate change as critical actors to innovate creative cross-disciplinary solutions. Students may not receive credit for POLI 117 and SIO 109.",
-    "raw_prereq": "upper-division standing.",
-    "prerequisites": []
-  },
-  {
-    "name": "Bending the Curve",
-    "code": "POLI 117R",
-    "description": "(Cross-listed with SIO 109R.) This online course focuses on developing urgent climate change solutions that integrate technology, policy and governance, finance, land use, and social/educational dimensions. Students may only receive credit for one of the following: POLI 117, POLI 117R, SIO 109, or SIO 109R.",
+    "code": "POLI 117 or 117R",
+    "description": "(Cross-listed with SIO 109 or SIO 109R.) Climate change is an urgent global problem affecting the lives of hundreds of millions of people, now and for the foreseeable future. This course will empower students to confront climate change as critical actors to innovate creative cross-disciplinary solutions that integrate technology, policy and governance, finance, land use, and social/educational dimensions. Students may not receive credit for POLI 117 or 117R and SIO 109 or SIO 190R.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": []
   },
@@ -1056,7 +1136,7 @@
   {
     "name": "Israeli-Palestinian Conflict",
     "code": "POLI 124",
-    "description": "(Same as SOCI 188I.) In this course, we will examine the national and colonial dimensions of this long-lasting conflict and then turn our attention to the legal, governmental/political, and everyday aspects of the Israeli occupation of the West Bank and Gaza following the 1967 war.",
+    "description": "(Cross-listed with SOCI 188I.) In this course, we will examine the national and colonial dimensions of this long-lasting conflict and then turn our attention to the legal, governmental/political, and everyday aspects of the Israeli occupation of the West Bank and Gaza following the 1967 war.",
     "raw_prereq": "",
     "prerequisites": []
   },
@@ -1170,8 +1250,8 @@
   },
   {
     "name": "The Politics of the Russian Revolution",
-    "code": "POLI 130AD",
-    "description": "An examination of the dynamics of the Russian Revolution from 1905 through the Stalinist period and recent years in light of theories of revolutionary change. Emphasis is placed on the significance of political thought, socioeconomic stratification, and cultural-historical conditions.",
+    "code": "POLI 130AD or 130AR",
+    "description": "An examination of the dynamics of the Russian Revolution from 1905 through the Stalinist period and recent years in light of theories of revolutionary change. Emphasis is placed on the significance of political thought, socioeconomic stratification, and cultural-historical conditions. POLI 130AR is an online course. Students cannot receive duplicate credit for POLI 130AD and POLI 130AR.",
     "raw_prereq": "",
     "prerequisites": []
   },
@@ -1198,14 +1278,21 @@
   },
   {
     "name": "The Chinese Revolution",
-    "code": "POLI 131C",
-    "description": "An analysis of the dynamics of the Chinese Revolution from the fall of the Qing Dynasty (1644–1911) to the present. Emphasis is placed on the relationship between political thought and the dynamics of the revolutionary process.",
+    "code": "POLI 131C or 131CR",
+    "description": "An analysis of the dynamics of the Chinese Revolution from the fall of the Qing Dynasty (1644–1911) to the present. Emphasis is placed on the relationship between political thought and the dynamics of the revolutionary process. POLI 131CR is an online course. Students cannot receive duplicate credit for POLI 131C and POLI 131CR.",
     "raw_prereq": "",
     "prerequisites": []
   },
   {
     "name": "Political Development and Modern China",
-    "code": "POLI 132",
+    "code": "POLI 132 or 132R",
+    "description": "",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "S",
+    "code": "Political development has dominated the study of comparative politics among U",
     "description": "",
     "raw_prereq": "",
     "prerequisites": []
@@ -1305,6 +1392,13 @@
     "prerequisites": []
   },
   {
+    "name": "Comparative Politics of Race and Ethnicity",
+    "code": "POLI 135D",
+    "description": "This class will consider social science theories of identity politics. We will ask: How do racial and ethnic identities differ from other identities like gender, class, and nation? When do racial and ethnic identities become politicized? What are the effects of their politicization on elections and civil conflict? What are political solutions for managing politicized identities? We will consider cases from around the world, with a particular focus on Africa.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
     "name": "Religion and Politics",
     "code": "POLI 136",
     "description": "The political impact of major religious traditions—including Christianity, Islam, Hinduism, and Confucianism—around the world.",
@@ -1336,6 +1430,13 @@
     "name": "Special Topics in Comparative Politics",
     "code": "POLI 138D",
     "description": "An undergraduate course designed to cover various aspects of comparative politics. May be repeated for credit three times, provided each course is a separate topic, for a maximum of twelve units.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Development in Brazil",
+    "code": "POLI 139",
+    "description": "This course explores political, economic, and social development in contemporary Brazil. Various challenges are investigated, including poverty, inequality, health, education, corruption, violence, and environmental issues. The roles of Brazil’s president, Congress, and judiciary in policy responses are examined.",
     "raw_prereq": "",
     "prerequisites": []
   },
@@ -1514,6 +1615,13 @@
     "prerequisites": []
   },
   {
+    "name": "Theories of Technology and National Security",
+    "code": "POLI 145",
+    "description": "We review the implications of major technological innovation on national security and international relations. Sometimes we’ll focus on the technologies like nuclear weapons, and explore the implications for state behavior on the world stage. Other times, we’ll focus on the innovators like the CIA and explore how they invest in research to deliberately gain an edge on rivals. This has important ethical and organizational implications. We will look at states and non-state actors.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
     "name": "International Politics and Drugs",
     "code": "POLI 145A",
     "description": "This course examines the domestic and international aspects of the drug trade. It will investigate the drug issues from the perspectives of consumers, producers, traffickers, money launderers, and law enforcement. Course material covers the experience of the United States, Latin America, Turkey, Southeast Asia, Western Europe, and Japan.",
@@ -1590,6 +1698,13 @@
     "name": "Special Topics in International Relations",
     "code": "POLI 154",
     "description": "An undergraduate course designed to cover various aspects of international relations. May be repeated for credit two times, provided each course is a separate topic, for a maximum of twelve units.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Politics of Non-Governmental Organizations",
+    "code": "POLI 156",
+    "description": "This course is designed to expose students to the politics of NGOs (i.e., non-governmental organizations) by examining their structure, rationale, and involvement within international politics. This course will pay particular attention to how NGOs shape and are shaped by civil society at the national, international, and transnational levels and will examine the context in which NGOs function as well as the roles, tactics, and success of these organizations in shaping local and global outcomes.",
     "raw_prereq": "",
     "prerequisites": []
   },
@@ -1903,6 +2018,20 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Data Analysis for Policy Advice",
+    "code": "POLI 177",
+    "description": "This course is aimed at students interested in using their analytical skills to provide insights to decision-makers primarily in the government and nonprofit sectors. We will study the types of decision-makers that exist, what kinds of questions they typically have, the methods and data that are available to answer them, and how to go about packaging and delivering policy advice. These skills are taught using applied examples from public policy and administrative datasets.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Applied Data Analytics for United States National Security",
+    "code": "POLI 178",
+    "description": "Policymakers want analysts to have X-Men powers: read the minds of others, influence their behavior, and predict the future. This course surveys cutting-edge technologies and research methods used for data analytics roles in American foreign policy/intelligence. Students will be expected to replicate at least one quantitative study.",
+    "raw_prereq": "",
+    "prerequisites": []
   },
   {
     "name": "Special Topics in Political Science Methodology",
@@ -2322,6 +2451,13 @@
     "name": "International Conflict",
     "code": "POLI 241",
     "description": "This is a course on modern academic debates in international security. It focuses on relations between two states and not sub-state actors. It is strongly recommended that students taking this course have a background in research design, game theory, or applied statistical analysis.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Political Violence",
+    "code": "POLI 241D",
+    "description": "Contending analyses of the types, strategies, causes, processes, and consequences of political violence such as revolutions, insurgencies, and ethnic conflict.",
     "raw_prereq": "",
     "prerequisites": []
   },

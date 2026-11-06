@@ -75,7 +75,7 @@
     "prerequisites": []
   },
   {
-    "name": "Humanities, Ethics, and Professionalism: Engaging Moral Imaginaries for Exploring Health and the Human Condition",
+    "name": "Morality, Health, and Power: A Humanities, Ethics, and Professionalism Course",
     "code": "GLBH 104",
     "description": "Questions of morality are implicit in all aspects of health. Drawing insights from the medical humanities, this course engages students in thinking about the human condition (what it means to be human or dehumanized) from multiple perspectives: individual, social, civic. How do humans ascribe meaning to their lives? What does it take to flourish? What is empathy; for whom do we have it? What is ethical and just about the organization of society and its impact on health?",
     "raw_prereq": "",
@@ -225,6 +225,13 @@
     "name": "Global Health and Climate Change",
     "code": "GLBH 130",
     "description": "Climate change poses a significant threat to the health of all human and non-human beings. This course explores the intersections of climate change and global health through the lens of colonialism, highlighting the disproportionate impact on marginalized communities domestically and internationally. Students will analyze the impact of climate change on global health outcomes and interventions, and explore strategies for addressing these challenges at local, national, and international levels.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Climate Resilience",
+    "code": "GLBH 131",
+    "description": "Learn from global thought leaders and scientists at the helm of the climate movement. Learn what inspires them toward sustained climate action and how we can all practice to become resilient together in our changing climate. This course provides training in critical inner and outer resiliency skills that have a core foundation in mindfulness and compassion toward self and others (inner skills), as well as collective climate action projects within the local community (outer skills).",
     "raw_prereq": "",
     "prerequisites": []
   },

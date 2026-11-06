@@ -4487,47 +4487,18 @@
     ]
   },
   {
-    "name": "Bioinformatics II: Sequence and Structure Analysis—Methods and Applications",
+    "name": "Bioinformatics II: Bioinformatics Algorithms",
     "code": "CSE 282/BENG 202",
-    "description": "(Formerly CSE 257A/BENG 202.) Introduction to methods for sequence analysis. Applications to genome and proteome sequences. Protein structure, sequence-structure analysis.",
-    "raw_prereq": "Pharm 201 or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "PHARM201"
-          }
-        ]
-      }
-    ]
+    "description": "Introduction to algorithms in regulatory and comparative genomics, genome comparison and sequencing, expression analysis, and immunogenomics. Recommended preparation: Experience with algorithms, such as sorting, pattern matching, dynamic programming, and graph algorithms. Students will not receive credit for both BENG 202 and CSE 282.",
+    "raw_prereq": "",
+    "prerequisites": []
   },
   {
-    "name": "Bioinformatics III: Functional Genomics",
+    "name": "Bioinformatics III: Data Wrangling in Bioinformatics",
     "code": "CSE 283/BENG 203",
-    "description": "Annotating genomes, characterizing functional genes, profiling, reconstructing pathways.",
-    "raw_prereq": "Pharm 201, BENG 202/CSE 282, or consent of instructor.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "PHARM201"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "PHARM282"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "description": "The course introduces OMICS data modalities and key algorithms for their analysis. The first part of the course covers algorithmic paradigms like keyword filters, bloom filters, sketching, and random projections for transforming OMICS data into abstract forms. The second part of the course focuses on statistical and combinatorial methods for querying these representations in a domain-agnostic way, emphasizing foundational work underlying emerging tools. Recommended preparation: Experience with algorithms, nonnumerical algorithms such as sorting, searching, pattern matching, and graph and network algorithms is recommended. Students will not receive credit for both CSE 283 and BENG 203.",
+    "raw_prereq": "",
+    "prerequisites": []
   },
   {
     "name": "Personal Genomics for Bioinformaticians",

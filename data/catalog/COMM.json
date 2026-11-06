@@ -23,14 +23,21 @@
   {
     "name": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
     "code": "COMM 30",
-    "description": "The role of digital communication in a democratic system, and the ways mass media both facilitate and inhibit the development of a viable public sphere. By exploring today’s digital communication dynamics, students will have the opportunity to become more mindful, active consumers of media and to feel empowered to be engaged participants in public life.",
+    "description": "The role of digital communication in a democratic system, and the ways mass media both facilitate and inhibit the development of a viable public sphere. By exploring today’s digital communication dynamics, students will have the opportunity to become more mindful, active consumers of media and to feel empowered to be engaged participants in public life. No credit for COMM 30 if taken after COMM 30GS or COMM 30R.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+    "code": "COMM 30R",
+    "description": "The role of digital communication in a democratic system, and the ways mass media both facilitate and inhibit the development of a viable public sphere. By exploring today’s digital communication dynamics, students will have the opportunity to become more mindful, active consumers of media and to feel empowered to be engaged participants in public life. This is a distance education course. No credit for COMM 30R if taken after COMM 30 or COMM 30GS.",
     "raw_prereq": "",
     "prerequisites": []
   },
   {
     "name": "Global Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
     "code": "COMM 30GS",
-    "description": "This course focuses on the role of journalism in a global system, and the ways mass media both contribute to and inhibit the development of a viable public sphere and effective political process. With a focus on American as well as international news media, we will examine theories and functions of journalism as well as current issues facing today’s news producers.",
+    "description": "This course focuses on the role of journalism in a global system, and the ways mass media both contribute to and inhibit the development of a viable public sphere and effective political process. With a focus on American as well as international news media, we will examine theories and functions of journalism as well as current issues facing today’s news producers. This is a Global Seminar course. No credit for COMM 30GS if taken after COMM 30 or COMM 30R. Program or materials fees may apply.",
     "raw_prereq": "",
     "prerequisites": []
   },
@@ -79,19 +86,16 @@
   {
     "name": "Communication, the Person, and Everyday Life",
     "code": "COMM 100A",
-    "description": "This course is a critical introduction to processes of interaction within lived and built environments. It includes historical survey of theories and methods including actor network-theory, conversation analysis, ethnography, ethnomethodology, cultural linguistics, performance, and social cognition. Course work may integrate scholarly study with production (e.g., in-context observation and research or audio/video production).",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "COMM10"
-          }
-        ]
-      }
-    ]
+    "description": "This course is a critical introduction to processes of interaction within lived and built environments. It includes historical survey of theories and methods including actor network-theory, conversation analysis, ethnography, ethnomethodology, cultural linguistics, performance, and social cognition. Course work may integrate scholarly study with production (for example, in-context observation and research or audio/video production). No credit for COMM 100A if taken after COMM 100AR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Communication, the Person, and Everyday Life",
+    "code": "COMM 100AR",
+    "description": "This course is a critical introduction to processes of interaction within lived and built environments. It includes historical survey of theories and methods including actor network-theory, conversation analysis, ethnography, ethnomethodology, cultural linguistics, performance, and social cognition. Course work may integrate scholarly study with production (for example, in-context observation and research or audio/video production). This is a distance education course. No credit for COMM 100AR if taken after COMM 100A.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
     "name": "Communication, Culture, and Representation",
@@ -609,78 +613,30 @@
   {
     "name": "Introduction to Media Industries",
     "code": "COMM 106",
-    "description": "Introduction to topics that arise across various media industries, including media economics, ownership and consolidation in media, media regulation and deregulation, media technologies, creative labor, intellectual property, financialization, globalization, and ethics in media. Engage directly with current events, read recent coverage in the trade press, and learn to analyze contemporary media companies and systems.",
-    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "COMM10"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM20"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM30GS"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM40"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "description": "Introduction to topics that arise across various media industries, including media economics, ownership and consolidation in media, media regulation and deregulation, media technologies, creative labor, intellectual property, financialization, globalization, and ethics in media. Engage directly with current events, read recent coverage in the trade press, and learn to analyze contemporary media companies and systems. No credit for COMM 106 if taken after COMM 106R.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Media Industries",
+    "code": "COMM 106R",
+    "description": "Introduction to topics that arise across various media industries, including media economics, ownership and consolidation in media, media regulation and deregulation, media technologies, creative labor, intellectual property, financialization, globalization, and ethics in media. Engage directly with current events, read recent coverage in the trade press, and learn to analyze contemporary media companies and systems. This is a distance education course. No credit for COMM 106R if taken after COMM 106.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
     "name": "Streaming Media Industries",
     "code": "COMM 106B",
-    "description": "This course critically examines the ecosystem of streaming media from the perspective of power and political economy, focusing on the key corporations that shape our experience of it. How do corporations control the infrastructure of streaming media? How have streams, platforms, and algorithms changed our society? What is the effect of streaming media on creatives, laborers, and producers of content? What opportunities and obstacles are there in streaming media for more diversity and equality?",
-    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "COMM10"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM20"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM30GS"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM40"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "description": "This course examines the ecosystem of streaming media from the perspective of power and political economy, focusing on the key corporations that shape our experience of it. How do corporations control the infrastructure of streaming media? How have streams, platforms, and algorithms changed our society? What is the effect of streaming media on creatives, laborers, and producers of content? What opportunities and obstacles are there in streaming media for more diversity and equality? No credit for COMM 106B if taken after COMM 106BR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Streaming Media Industries",
+    "code": "COMM 106BR",
+    "description": "This course examines the ecosystem of streaming media from the perspective of power and political economy, focusing on the key corporations that shape our experience of it. How do corporations control the infrastructure of streaming media? How have streams, platforms, and algorithms changed our society? What is the effect of streaming media on creatives, laborers, and producers of content? What opportunities and obstacles are there in streaming media for more diversity and equality? This is a distance education course. No credit for COMM 106BR if taken after COMM 106B.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
     "name": "Data and AI Industries",
@@ -721,93 +677,60 @@
     ]
   },
   {
-    "name": "CI: Film Industry",
+    "name": "The Film Industry",
     "code": "COMM 106F",
-    "description": "A study of the social organization of the film industry throughout its history. Who makes films, by what criteria, and for what audience? The changing relationships between studios, producers, directors, writers, actors, editors, censors, distributors, audience, and subject matter of the films will be explored.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "COMM10"
-          }
-        ]
-      }
-    ]
+    "description": "A study of the social organization of the film industry throughout its history. Who makes films, by what criteria, and for what audience? The changing relationships between studios, producers, directors, writers, actors, editors, censors, distributors, audience, and subject matter of the films will be explored. No credit for COMM 106F if taken after COMM 106FR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
-    "name": "CI: Tourism: Global Industry and Cultural Form",
+    "name": "The Film Industry",
+    "code": "COMM 106FR",
+    "description": "A study of the social organization of the film industry throughout its history. Who makes films, by what criteria, and for what audience? The changing relationships between studios, producers, directors, writers, actors, editors, censors, distributors, audience, and subject matter of the films will be explored. This is a distance education course. No credit for COMM 106FR if taken after COMM 106F.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Tourism: Global Industry and Cultural Form",
     "code": "COMM 106G",
-    "description": "The largest industry in the world has far-reaching cultural ramifications. We will explore tourism’s history and its contemporary cultural effects, taking the perspective of the “toured” as well as that of the tourist.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "COMM10"
-          }
-        ]
-      }
-    ]
+    "description": "The largest industry in the world has far-reaching cultural ramifications. We will explore tourism’s history and its contemporary cultural effects, taking the perspective of the “toured” as well as that of the tourist. No credit for COMM 106G if taken after COMM 106GR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
-    "name": "CI: Internet Industry",
+    "name": "Tourism: Global Industry and Cultural Form",
+    "code": "COMM 106GR",
+    "description": "The largest industry in the world has far-reaching cultural ramifications. We will explore tourism’s history and its contemporary cultural effects, taking the perspective of the “toured” as well as that of the tourist. This is a distance education course. No credit for COMM 106GR if taken after COMM 106G.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Internet Industry",
     "code": "COMM 106I",
-    "description": "The political economy of the emergent internet industry, charted through analysis of its hardware, software, and services components. The course specifies leading trends and changing institutional outcomes by relating the internet industry to the adjoining media, telecommunications, and computer industries.",
-    "raw_prereq": "COMM 10.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "COMM10"
-          }
-        ]
-      }
-    ]
+    "description": "The political economy of the emergent internet industry, charted through analysis of its hardware, software, and services components. The course specifies leading trends and changing institutional outcomes by relating the internet industry to the adjoining media, telecommunications, and computer industries. No credit for COMM 106I if taken after COMM 106IR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Internet Industry",
+    "code": "COMM 106IR",
+    "description": "The political economy of the emergent internet industry, charted through analysis of its hardware, software, and services components. The course specifies leading trends and changing institutional outcomes by relating the internet industry to the adjoining media, telecommunications, and computer industries. This is a distance education course. No credit for COMM 106IR if taken after COMM 106I.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
     "name": "Advertising and Society",
     "code": "COMM 106M",
-    "description": "Advertising as a commercial and social force. The development of advertising, branding, and consumer culture in the United States; the history and political economy of advertising in mass and digital media; semiotics and representation in advertisements; influencers, authenticity, and the monetization of self and community; subversion and rebellion within systems of advertisement and promotion.",
-    "raw_prereq": "COMM 10, COMM 20, COMM 30, COMM 30GS, or COMM 40.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "COMM10"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM20"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM30"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM30GS"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM40"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "description": "Advertising as a commercial and social force. The development of advertising, branding, and consumer culture in the United States; the history and political economy of advertising in mass and digital media; semiotics and representation in advertisements; influencers, authenticity, and the monetization of self and community; subversion and rebellion within systems of advertisement and promotion. Renumbered from COMM 109D. No credit for COMM 106M if taken after COMM 106MR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Advertising and Society",
+    "code": "COMM 106MR",
+    "description": "Advertising as a commercial and social force. The development of advertising, branding, and consumer culture in the United States; the history and political economy of advertising in mass and digital media; semiotics and representation in advertisements; influencers, authenticity, and the monetization of self and community; subversion and rebellion within systems of advertisement and promotion. This is a distance education course. No credit for COMM 106MR if taken after COMM 106M.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
     "name": "Journalism and the News Industry",
@@ -824,9 +747,23 @@
     "prerequisites": []
   },
   {
+    "name": "Introduction to Media Industries",
+    "code": "COMM 106R",
+    "description": "Introduction to topics that arise across various media industries, including media economics, ownership and consolidation in media, media regulation and deregulation, media technologies, creative labor, intellectual property, financialization, globalization, and ethics in media. Engage directly with current events, read recent coverage in the trade press, and learn to analyze contemporary media companies and systems. This is a distance education course. No credit for COMM 106R if taken after COMM 106.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
     "name": "TV Industry",
     "code": "COMM 106V",
-    "description": "This course asks how visual images contribute to our understanding of the world and ourselves. The course will apply theoretical approaches from media studies, art history, gender studies, and social theory to analyze cultures of science, art, mass media, and everyday life. No credit for COMM 106V if taken after COMM 106VR.",
+    "description": "This course examines the political economy of television throughout its history. How TV is made, who is involved, how is industry organized, how does it get regulated, distributed? Consider how these answers changed over time and look at recent influences of digital technologies. No credit for COMM 106V if taken after COMM 106VR.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "TV Industry",
+    "code": "COMM 106VR",
+    "description": "This course examines the political economy of television throughout its history. How TV is made, who is involved, how is industry organized, how does it get regulated, distributed? Consider how these answers changed over time and look at recent influences of digital technologies. This is a distance education course. No credit for COMM 106VR if taken after COMM 106V.",
     "raw_prereq": "junior or senior standing.",
     "prerequisites": []
   },
@@ -916,9 +853,26 @@
     ]
   },
   {
-    "name": "MC: Propaganda and Persuasion",
+    "name": "Propaganda and Persuasion",
     "code": "COMM 109P",
-    "description": "Propaganda, in political-economic, national settings; Soviet Union; Nazi Germany; US World War I and II. Propaganda films, contribution of filmmakers to propaganda campaign. Explore issues in propaganda; persuasive communication; political propaganda; persuasive advertising; public relations; practical, ethical perspectives.",
+    "description": "Propaganda and influence in historical and critical-cultural context. Defining propaganda and persuasion; histories of mass media censorship, state propaganda, and public relations; the production and interpretation of persuasive media messages; media representations of and narratives about persuasion and propaganda; digital technologies and networked influence. No credit for COMM 109P if taken after COMM 109PR.",
+    "raw_prereq": "COMM 10.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "COMM10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Propaganda and Persuasion",
+    "code": "COMM 109PR",
+    "description": "Propaganda and influence in historical and critical-cultural context. Defining propaganda and persuasion; histories of mass media censorship, state propaganda, and public relations; the production and interpretation of persuasive media messages; media representations of and narratives about persuasion and propaganda; digital technologies and networked influence. This is a distance education course. No credit for COMM 109PR if taken after COMM 109P.",
     "raw_prereq": "COMM 10.",
     "prerequisites": [
       {
@@ -1548,6 +1502,13 @@
     ]
   },
   {
+    "name": "Community and Ethnography: Critical and Practical Approaches to Fieldwork",
+    "code": "COMM 117GS",
+    "description": "Students will practice ethnography, a methodology often glossed as deep hanging out, that entails entering a reciprocal engagement with a community. Ethnography, however, is a fraught process infused with power differentials at every turn. This course is a hands-on, project-based opportunity for students to conduct ethnographic explorations in their global seminar site and reflect critically upon the process. We will also discuss ethnographies about our global seminar location. Program or materials fees may apply. This is a Global Seminar course. Course preauthorization is provided for students accepted in the Global Seminar Program.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
     "name": "Action Cinema",
     "code": "COMM 118A",
     "description": "This course traces the history of the action film genre with particular attention to its historical contexts, its social meanings, and its longstanding popularity with audiences. Topics and issues to be covered will include early cinema and serial queens; genre and the action film as hybrid; the aesthetics of action; the 1980s and the blockbuster; action cinema and gender; the rise of the franchise and transnational cinema.",
@@ -1915,7 +1876,7 @@
     "name": "Skills in Communication",
     "code": "COMM 125",
     "description": "Focused study on a skill set relevant to the field of communication, determined by the instructor. Topic and description to be provided by the department. Potential topics include professional writing, nonfiction writing, photojournalism, qualitative data analysis, community organizing, community education, and campaign management.",
-    "raw_prereq": "",
+    "raw_prereq": "junior or senior standing.",
     "prerequisites": []
   },
   {
@@ -2367,36 +2328,16 @@
   {
     "name": "Cinema in Latin America",
     "code": "COMM 140",
-    "description": "Analysis of the changing content and sociopolitical role in Latin America of contemporary media, including the “new cinema” movement, recent developments in film, and popular television programming, including the telenovela. Examples drawn from Mexico, Brazil, Cuba, and other countries.",
-    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
-    "prerequisites": [
-      {
-        "type": "AND",
-        "items": [
-          {
-            "type": "COURSE",
-            "course_id": "COMM10"
-          },
-          {
-            "type": "OR",
-            "items": [
-              {
-                "type": "COURSE",
-                "course_id": "COMM100A"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM100B"
-              },
-              {
-                "type": "COURSE",
-                "course_id": "COMM100C"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "description": "Analysis of the changing content and sociopolitical role in Latin America of contemporary media, including the “new cinema” movement, recent developments in film, and popular television programming, including the telenovela. Examples drawn from Mexico, Brazil, Cuba, and other countries. No credit for COMM 140 if taken after COMM 140GS.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinema in Latin America",
+    "code": "COMM 140GS",
+    "description": "This Global Seminar examines how film reflects social and political realities in Latin America and can be used as a vehicle for raising consciousness and, potentially, social change. Survey films from the late 1950s and the New Latin American Cinema until the present moment, with an emphasis on the site of the global seminar. Films that we will engage run the gamut from big budget to small independent productions, a curated diversity intended to engage students in thoughtful dialogue. This is a Global Seminar course. Program or material fee may apply. Course preauthorization is provided for students accepted in the Global Seminar Program. No credit for COMM 140GS if taken after COMM 140.",
+    "raw_prereq": "junior or senior standing.",
+    "prerequisites": []
   },
   {
     "name": "Film Authorship",
@@ -2768,7 +2709,7 @@
     "name": "Latinx Space, Place, and Culture",
     "code": "COMM 155",
     "description": "This diversity, equity, and inclusion course requirement approved course explores the power of place in the formation and representation of Latinx identities and communities in Southern California. It highlights past and current struggles to recuperate and sustain a sense of place for marginalized and displaced peoples against the colonization and racialization of formerly indigenous and Mexican territory. Students conduct research in various locations at the center of the cultural politics of Latinx place-making.",
-    "raw_prereq": "",
+    "raw_prereq": "junior or senior standing.",
     "prerequisites": []
   },
   {
@@ -3131,6 +3072,66 @@
             "type": "COURSE",
             "course_id": "COMM10"
           },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Topics in Communication",
+    "code": "COMM 172T",
+    "description": "Advanced study of a current topic in the discipline of communication, with topics to be determined by the instructor for any given quarter. Topic and description provided by the department quarterly. May be taken for credit up to three times. Students may receive a combined total of twelve units for COMM 172T and COMM 172TR.",
+    "raw_prereq": "one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "COMM100A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COMM100C"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Topics in Communication",
+    "code": "COMM 172TR",
+    "description": "Advanced study of a current topic in the discipline of communication, with topics to be determined by the instructor for any given quarter. Topic and description provided by the department quarterly. This is a distance education course. May be taken for credit up to three times. Students may receive a combined total of twelve units for COMM 172TR and COMM 172T.",
+    "raw_prereq": "one from COMM 100A, 100B, 100C.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
           {
             "type": "OR",
             "items": [
@@ -3564,7 +3565,7 @@
     "name": "Junior Seminar in Communication",
     "code": "COMM 190",
     "description": "The junior seminar enables a detailed examination of a specific topic from the field of communication selected by the instructor, exploring in greater depth theories and methods introduced in the core communication curriculum. Seminars are limited to thirty students with a heavy focus on class participation. Students complete a research project with a significant final product (typically a research paper). No credit for COMM 190 if taken after COMM 190R.",
-    "raw_prereq": "junior or senior standing and COMM 10 and at least one from COMM 100A-B-C.",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
     "prerequisites": [
       {
         "type": "AND",
@@ -3598,7 +3599,7 @@
     "name": "Junior Seminar in Communication",
     "code": "COMM 190R",
     "description": "The junior seminar enables a detailed examination of a specific topic from the field of communication selected by the instructor, exploring in greater depth theories and methods introduced in the core communication curriculum. Seminars are limited to thirty students with a heavy focus on class participation. Students complete a research project with a significant final product (typically a research paper). This is a distance education course. No credit for COMM 190R if taken after COMM 190.",
-    "raw_prereq": "junior or senior standing and COMM 10 and at least one from COMM 100A-B-C.",
+    "raw_prereq": "COMM 10 and one from COMM 100A, 100B, 100C.",
     "prerequisites": [
       {
         "type": "AND",
@@ -3633,13 +3634,6 @@
     "code": "COMM 194",
     "description": "(Same as POLI 194, USP 194, HITO 193, SOCI 194, and COGS 194) Course attached to six-unit internship taken by students participating in the UCDC program. Involves weekly seminar meetings with faculty and teaching assistants and a substantial research paper.",
     "raw_prereq": "participation in UCDC program.",
-    "prerequisites": []
-  },
-  {
-    "name": "Communication Instructional Assistant",
-    "code": "COMM 195",
-    "description": "Under the supervision of an instructor, a student undergraduate instructional apprentice (UGIA) will assist in the instruction of a communication course. The COMM UGIA will attend the lectures of the course and hold weekly meetings with students of the course and with the course instructor. Responsibilities may include class presentations, designing and leading weekly discussions, assisting with homework and exam grading, and monitoring and responding to online discussion posts.",
-    "raw_prereq": "limited to junior or senior students with a 3.0 GPA or higher. Successful completion of the course for which you would like to be a UGIA with at least an A–, preferably with the same instructor. Student must submit an application for the undergraduate instructional apprentice position through ASES, and receive the approval of the department, instructor, department chair, and Academic Senate.",
     "prerequisites": []
   },
   {

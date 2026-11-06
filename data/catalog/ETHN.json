@@ -222,6 +222,13 @@
     "prerequisites": []
   },
   {
+    "name": "Remote Science and Technology in Society: Race/Gender/Class",
+    "code": "ETHN 102R",
+    "description": "This remote course examines how science and technology shape ideas about race, gender, and class and how these social categories, in turn, shape scientific knowledge and technological development. We explore how some populations benefit from scientific innovation while others become the subjects of experimentation.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
     "name": "Computational Ethnic Studies Methods",
     "code": "ETHN 102A",
     "description": "This course provides a rigorous introduction to methods and tools in advanced data analytics and computation for undergraduate students in the social sciences and humanities. The goal of the course is to provide students with a strong foundation of knowledge of core methods, research design, and team-based science.",
@@ -743,6 +750,34 @@
     "name": "Remote—Buddhism and Social Movements",
     "code": "ETHN 156BR",
     "description": "Both Buddhism and social movements promote liberation, but they sometimes seem at odds. This online course examines how these two worlds converge, and confluences and tension that result. The course analyzes the role of Buddhism in a range of social movements, such as social justice, animal liberation, ecojustice, and peace movements. Special attention is given to how Engaged Buddhist practices might be used as a tool of liberation from systemic suffering to empower people and communities.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Critical Buddhist Approaches to Mental Health",
+    "code": "ETHN 156C",
+    "description": "This course uses Buddhist perspectives to examine how race, culture, trauma, and systems shape mental health. Through readings, discussion, and practice, students explore how Buddhist teachings illuminate resilience, suffering, and the impact of systems, fostering critical reflection, personal insight, and collective awareness.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Remote Critical Buddhist Approaches to Mental Health",
+    "code": "ETHN 156CR",
+    "description": "This remote course uses Buddhist perspectives to examine how race, culture, trauma, and systems shape mental health. Through readings, discussion, and practice, students explore how Buddhist teachings illuminate resilience, suffering, and the impact of systems, fostering critical reflection, personal insight, and collective awareness.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Buddhism and Deep Ecology",
+    "code": "ETHN 156D",
+    "description": "This course explores Buddhism and deep ecology, examining how Buddhist teachings on interdependence, compassion, and mindfulness illuminate our relationship with the natural world. Students engage with readings, discussion, and practice to understand ecological crises, cultivate ecological awareness, and explore critical and ethical responses to environmental challenges.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Remote Buddhism and Deep Ecology",
+    "code": "ETHN 156DR",
+    "description": "This remote course explores Buddhism and deep ecology, examining how Buddhist teachings on interdependence, compassion, and mindfulness illuminate our relationship with the natural world. Students engage with readings, discussion, and practice to understand ecological crises, cultivate ecological awareness, and explore critical and ethical responses to environmental challenges.",
     "raw_prereq": "",
     "prerequisites": []
   },

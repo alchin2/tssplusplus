@@ -358,6 +358,40 @@
     ]
   },
   {
+    "name": "Social Media Marketing",
+    "code": "MGT 113",
+    "description": "This course focuses on designing, evaluating, and optimizing social media marketing strategies across the consumer decision journey. Students develop strategic and analytical skills related to content strategy, visual-first design, paid social advertising, targeting, experimentation, and influencer marketing. Emphasis is on strategic decision-making and performance evaluation rather than technical content production.",
+    "raw_prereq": "MGT 100 or MGT 100RS or MGT 103 or MGT 103RS.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT100RS"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT103RS"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Business Law",
     "code": "MGT 117",
     "description": "Focuses on elements of business law that are essential for the basic management of business operations. Topics include the law of contracts, sales, partnership, corporations, bankruptcy, and securities. Students will also gain knowledge of intellectual property law and dispute resolution.",
@@ -368,6 +402,13 @@
     "name": "Topics in Business",
     "code": "MGT 119",
     "description": "Introduces advanced topics of special interest in business and addresses the new frontiers in the industry. Topics may include intellectual property, consumer behavior, market research, analytics, and spreadsheet modeling, etc. May be taken for credit three times. Instructional methods include face-to-face lecture, case presentation, assigned reading, and group discussion.",
+    "raw_prereq": "upper-division standing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Behavioral Science and Incentive Design",
+    "code": "MGT 120",
+    "description": "Study how to apply behavioral science to real-world settings and design incentives to help organizations create social and economic value. The course reviews empirical research on applications of behavioral insights to many organizational areas including product design, pricing, consumer behavior, incentives schemes, motivating employees, promoting diversity and inclusion, promoting ethics and compliance, fundraising, and fostering positive behavior change.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": []
   },
@@ -462,7 +503,7 @@
     "name": "Intermediate Accounting A",
     "code": "MGT 131A",
     "description": "Preparation and interpretation of accounting information under both FASB and IASB guidelines pertaining to revenue and expense recognition, receivables, and inventories.",
-    "raw_prereq": "upper-division standing and MGT 5 and and ECON 4 or MGT 4 or MGT 45.",
+    "raw_prereq": "upper-division standing and MGT 5 and ECON 4 or MGT 4 or MGT 45.",
     "prerequisites": [
       {
         "type": "AND",
@@ -767,9 +808,9 @@
   },
   {
     "name": "Business Analytics",
-    "code": "MGT 151R",
-    "description": "This course focuses on the concept of data analytics, and the convergence of data and business. From a practical standpoint, the course focuses on solving business problems by examining industry data, machine learning, statistics, and various forms of data analytics concepts. The fundamental goal of the course is to ensure students learn and understand fundamental interconnections and practical coding applications within the field of data analytics. This course is a distance education course. No credit for MGT 151R if taken after MGT 151A.",
-    "raw_prereq": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187.",
+    "code": "MGT 151",
+    "description": "This course focuses on the concept of data analytics, and the convergence of data and business. From a practical standpoint, the course focuses on solving business problems by examining industry data, machine learning, statistics, and various forms of data analytics concepts. The fundamental goal of the course is to ensure students learn and understand fundamental interconnections and practical coding applications within the field of data analytics. No credit for MGT 151 if taken after MGT 151R.",
+    "raw_prereq": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187 or SIO 187R.",
     "prerequisites": [
       {
         "type": "AND",
@@ -857,6 +898,113 @@
               {
                 "type": "COURSE",
                 "course_id": "SIO187"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187R"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Business Analytics",
+    "code": "MGT 151R",
+    "description": "This course focuses on the concept of data analytics, and the convergence of data and business. From a practical standpoint, the course focuses on solving business problems by examining industry data, machine learning, statistics, and various forms of data analytics concepts. The fundamental goal of the course is to ensure students learn and understand fundamental interconnections and practical coding applications within the field of data analytics. This course is a distance education course. No credit for MGT 151R if taken after MGT 151A.",
+    "raw_prereq": "MATH 10A or MATH 18 or MATH 20A or MATH 31AH and BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 180B or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187 or SIO 187R.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187R"
               }
             ]
           }
@@ -1055,7 +1203,7 @@
   {
     "name": "Experiments in Firms",
     "code": "MGT 160",
-    "description": "An understanding of how to design and run a good experiment will position students at the cutting edge of decision-making in business and policy. Students will develop their own experiments that can be implemented online and in organizations. Students will learn to distinguish between a correlation and a causal effect; incorporate behavioral economics into experimental designs; randomize, analyze, and critique experimental interventions; and address organizational concerns about experimentation.",
+    "description": "An understanding of how to design and run a good experiment will position students at the cutting edge of decision-making in business and policy. Students will develop their own experiments that can be implemented online and in organizations. Students will learn to distinguish between a correlation and a causal effect; incorporate behavioral economics into experimental designs; randomize, analyze, and critique experimental interventions; and address organizational concerns about experimentation. No credit for MGT 160 if taken after MGT 160R.",
     "raw_prereq": "(BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187) and (MATH 10A or MATH 18 or MATH 20A or MATH 31AH).",
     "prerequisites": [
       {
@@ -1128,6 +1276,105 @@
               {
                 "type": "COURSE",
                 "course_id": "MATH20A"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Experiments in Firms",
+    "code": "MGT 160R",
+    "description": "An understanding of how to design and run a good experiment will position students at the cutting edge of decision-making in business and policy. Students will develop their own experiments that can be implemented online and in organizations. Students will learn to distinguish between a correlation and a causal effect; incorporate behavioral economics into experimental designs; randomize, analyze, and critique experimental interventions; and address organizational concerns about experimentation. This is a distance education course. No credit for MGT 160R if taken after MGT 160.",
+    "raw_prereq": "BENG 100 or BIEB 100 or COGS 14B or ECE 109 or ECON 120A or MAE 108 or MATH 11 or MATH 180A or MATH 181A or MATH 183 or MATH 186 or MGT 3 or PSYC 60 or SIO 187 or SIO 187R and MATH 10A or MATH 20A or MATH 18 or MATH 31AH.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "BENG100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "BIEB100"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "COGS14B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECE109"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "ECON120A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MAE108"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH11"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH180A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH181A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH183"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH186"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT3"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC60"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SIO187R"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MATH10A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH20A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH18"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MATH31AH"
               }
             ]
           }
@@ -1829,10 +2076,17 @@
     "prerequisites": []
   },
   {
-    "name": "CEO, the Board of Directors, and Corporate Governance",
+    "name": "The Board, the CEO, and Corporate Governance",
     "code": "MGT 421",
-    "description": "Provides an understanding of relationships among shareholders, managers, and boards. Focuses on the office of the chief executive officer and on the board of directors, including the roles and responsibilities of directors, and the legal, economic, managerial, and psychological issues they confront. Students may not earn credit for both MGT 421 and MGT 211. They are course equivalents.",
-    "raw_prereq": "MBA student or consent of instructor and department stamp.",
+    "description": "Provides an understanding of relationships among shareholders, managers, and boards. Focuses on the office of the chief executive officer and on the board of directors, including the roles and responsibilities of directors, and the legal, economic, managerial, and psychological issues they confront. No credit for MGT 421 if taken after MGT 421R.",
+    "raw_prereq": "MBA student or instructor/department approval.",
+    "prerequisites": []
+  },
+  {
+    "name": "The Board, the CEO, and Corporate Governance",
+    "code": "MGT 421R",
+    "description": "Provides an understanding of the relationships among shareholders, managers, and boards. Focuses on the office of the chief executive officer and on the board of directors, including roles and responsibilities of directors, and legal, economic, managerial, and psychological issues they confront. No credit for MGT 421R if taken after MGT 421.",
+    "raw_prereq": "MBA student or instructor/department approval.",
     "prerequisites": []
   },
   {
@@ -1912,18 +2166,36 @@
     "name": "Knowledge Management for Strategic Advantage",
     "code": "MGT 432",
     "description": "Learn to compete through knowledge by analyzing strategy and differing bases of competitive advantage, and discovering how to mobilize the most powerful knowledge in the most appropriate manner. More than money, knowledge is the most important asset in an organization. The organization that learns to harness its knowledge strategically can gain and maintain competitive advantage on that basis.",
-    "raw_prereq": "MGT 403 and MGT 413; MBA student or by instructor approval or by department approval.",
+    "raw_prereq": "MGT 403 or MGT 403R and MGT 413 or MGT 413R; MBA student or by instructor approval or by department approval.",
     "prerequisites": [
       {
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "MGT403"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT403"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT403R"
+              }
+            ]
           },
           {
-            "type": "COURSE",
-            "course_id": "MGT413"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "MGT413"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "MGT413R"
+              }
+            ]
           }
         ]
       }
@@ -2391,7 +2663,7 @@
   {
     "name": "Brand Management",
     "code": "MGT 482R",
-    "description": "A brand is a company’s most important asset, driving financial success, loyalty, and competitive advantage. This course takes a strong stance on brand management, viewing brands as cocreations of consumers and marketers. Brand managers navigate meaning-making, ensuring resonance, value, and risk mitigation over time. Using case studies the course emphasizes real-world applications, fostering collaborative discussions that enhance learning beyond any single instructor’s expertise. Students will not receive credit for both MGT 482R and MGT 482. This is a distance education course.",
+    "description": "A brand is a company’s most important asset, driving financial success, loyalty, and competitive advantage. This course takes a strong stance on brand management, viewing brands as cocreations of consumers and marketers. Brand managers navigate meaning-making, ensuring resonance, value, and risk mitigation over time. Using case studies, the course emphasizes real-world applications, fostering collaborative discussions that enhance learning beyond any single instructor’s expertise. Students will not receive credit for both MGT 482R and MGT 482. This is a distance education course.",
     "raw_prereq": "MBA student or by instructor or department approval.",
     "prerequisites": []
   },
@@ -2668,14 +2940,14 @@
     "name": "Behavioral Finance",
     "code": "MGTF 406",
     "description": "Develop theories of behavior motivated by psychology to describe various features of financial markets. Examine how the insights from behavioral finance complement the traditional paradigm and shed light on investors’ trading patterns, the behavior of asset prices, and corporate finance. Letter grades only.",
-    "raw_prereq": "MMGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
+    "raw_prereq": "MGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [
       {
         "type": "AND",
         "items": [
           {
             "type": "COURSE",
-            "course_id": "MMGTF402"
+            "course_id": "MGTF402"
           }
         ]
       }
@@ -2701,7 +2973,7 @@
   {
     "name": "Real Estate Finance",
     "code": "MGTF 408",
-    "description": "Examination of real estate capital markets, both debt and equity. Covered topics include real estate valuation, real options applied to real estate, real estate equity markets, and the place of real estate within a diversified investor’s portfolio. Letter grades only. Students may not receive credit for both MGTF 408 and MGT 486.",
+    "description": "Examination of real estate capital markets, both debt and equity. Covered topics include real estate valuation, real options applied to real estate, real estate equity markets, and the place of real estate within a diversified investor’s portfolio. Letter grades only. No credit for MGTF 408 if taken after MGT 486 or MGT 486R.",
     "raw_prereq": "MGTF 402; restricted to master of quantitative finance program or with instructor approval or department approval.",
     "prerequisites": [
       {

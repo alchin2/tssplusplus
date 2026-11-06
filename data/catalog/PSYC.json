@@ -82,7 +82,7 @@
   {
     "name": "Laboratory in Psychological Research Methods",
     "code": "PSYC 71",
-    "description": "This course provides hands-on research experience. Lecture topics will include experimental and nonexperimental designs, research ethics, data analysis, and causal inference. Students will design original research projects, collect and analyze data, and write a full APA-style report, including a brief literature review relevant to their design. This course builds on PSYC 70 by applying design principles to students’ own research questions and ideas. Open to the following Department of Psychology majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33.",
+    "description": "This course provides hands-on research experience. Lecture topics will include experimental and nonexperimental designs, research ethics, data analysis, and causal inference. Students will design original research projects, collect and analyze data, and write a full APA-style report, including a brief literature review relevant to their design. This course builds on PSYC 70 by applying design principles to students’ own research questions and ideas. Open to the following Department of Psychology majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PSYC-BS-011.",
     "raw_prereq": "upper-division standing, COGS 14B or PSYC 60 or MATH 11 and PSYC 70 or COGS 14A.",
     "prerequisites": [
       {
@@ -283,7 +283,7 @@
   {
     "name": "Health Sciences Research",
     "code": "PSYC 112",
-    "description": "In this course, students explore major models in mental health research and apply them in laboratory settings, examining how team science generates knowledge and influences society. Through literature review and focused discussions on study design, methodology, and research ethics, they develop skills in critical analysis and proposal writing. If interested, students with satisfactory performance may continue research with the PI for academic credit by pursuing PSYC 199 in health sciences.",
+    "description": "In this course, students explore major models in mental health research and apply them in laboratory settings, examining how team science generates knowledge and influences society. Through literature review and focused discussions on study design, methodology, and research ethics, they develop skills in critical analysis and proposal writing. If interested, students with satisfactory performance may continue research with the PI for academic credit by pursuing PSYC 199 in health sciences. Open to the following Department of Psychology majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PSYC-BS-011, COGS-BS-008.",
     "raw_prereq": "",
     "prerequisites": []
   },
@@ -366,7 +366,7 @@
   {
     "name": "Psychophysiological Perspectives on the Social Mind Laboratory",
     "code": "PSYC 114",
-    "description": "This course provides an overview and training in the use of psychophysiological methods to investigate the cognitive and emotional process involved in understanding and reacting to other people. Students will develop individual research questions and actively participate in designing and conducting the experiments. Open to the following majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32.",
+    "description": "This course provides an overview and training in the use of psychophysiological methods to investigate the cognitive and emotional process involved in understanding and reacting to other people. Students will develop individual research questions and actively participate in designing and conducting the experiments. Open to the following majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32, PSYC-BS-011.",
     "raw_prereq": "upper-division standing, PSYC 60 or COGS 14B or MATH 11 and PSYC 70 or COGS 14A.",
     "prerequisites": [
       {
@@ -444,7 +444,7 @@
     "name": "Laboratory in Clinical Psychology Research I",
     "code": "PSYC 116A",
     "description": "This course, the first in a sequence of three courses, provides an applied examination of theory, research design, and methods for clinical research to support an independent study in research at a clinical research lab.",
-    "raw_prereq": "upper-division standing, PSYC 70, PSYC 100, and instructor and department approval.",
+    "raw_prereq": "upper-division standing, PSYC 70, PSYC 100, and instructor and department approval. Must be taken concurrently with PSYC 199.",
     "prerequisites": [
       {
         "type": "AND",
@@ -461,6 +461,10 @@
                 "course_id": "PSYC100"
               }
             ]
+          },
+          {
+            "type": "COURSE",
+            "course_id": "PSYC199"
           }
         ]
       }
@@ -470,14 +474,23 @@
     "name": "Laboratory in Clinical Psychology Research II",
     "code": "PSYC 116B",
     "description": "This course, the second in a sequence of three courses, provides an advanced applied examination of theory, research design, and methods for clinical research to support an independent study in research at a clinical research lab.",
-    "raw_prereq": "PSYC 116A.",
+    "raw_prereq": "PSYC 116A. Must be taken concurrently with PSYC 199.",
     "prerequisites": [
       {
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PSYC116A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC116A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC199"
+              }
+            ]
           }
         ]
       }
@@ -487,14 +500,23 @@
     "name": "Laboratory in Clinical Psychology Research III",
     "code": "PSYC 116C",
     "description": "This course, the third in a sequence of three courses, provides the culmination of an applied examination of theory, research design, and methods for clinical research to support an independent study in research at a clinical research lab.",
-    "raw_prereq": "PSYC 116B.",
+    "raw_prereq": "PSYC 116B. Must be take concurrently with PSYC 199.",
     "prerequisites": [
       {
         "type": "AND",
         "items": [
           {
-            "type": "COURSE",
-            "course_id": "PSYC116B"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "PSYC116B"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "PSYC199"
+              }
+            ]
           }
         ]
       }
@@ -542,7 +564,7 @@
   {
     "name": "Laboratory in Animal Behavior",
     "code": "PSYC 118",
-    "description": "This course provides an opportunity to learn about the various evolutionary forces that shape a species’ natural behavioral repertoire while also conducting research related to these issues. Classroom lectures on topics related to ethology will be complemented by a research project in which students collect observational data on animal behavior. Open to the following majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32.",
+    "description": "This course provides an opportunity to learn about the various evolutionary forces that shape a species’ natural behavioral repertoire while also conducting research related to these issues. Classroom lectures on topics related to ethology will be complemented by a research project in which students collect observational data on animal behavior. Open to the following majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32, PSYC-BS-011.",
     "raw_prereq": "upper-division standing, PSYC 60 or COGS 14B or MATH 11 and PSYC 70 or COGS 14A, and department approval.",
     "prerequisites": [
       {
@@ -627,7 +649,7 @@
   {
     "name": "Sexual Health Inequities and Sexual Well-Being",
     "code": "PSYC 127",
-    "description": "This course provides an overview of sexual health inequities and sexual well-being. Students will engage critically and reflexively in topics related to race/ethnicity, gender, and sexual orientation. Open to the following Department of Psychology majors only: PC25, PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, PC35.",
+    "description": "This course provides an overview of sexual health inequities and sexual well-being. Students will engage critically and reflexively in topics related to race/ethnicity, gender, and sexual orientation. Open to the following Department of Psychology majors only: PC25, PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, PC35, PSYC-BS-011.",
     "raw_prereq": "upper-division standing, PSYC 60, PSYC 70, PSYC 172.",
     "prerequisites": [
       {
@@ -657,7 +679,7 @@
   {
     "name": "Scientific Racism: Genetics, Intelligence, and Race",
     "code": "PSYC 131",
-    "description": "This course provides a background into the origins and implementation of scientific racism, especially since the nineteenth century. Topics may include race/ethnicity and genetics, intelligence, nationalism, criminality, human performance, and morphometry. Open to the following Department of Psychology majors only: PC25, PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, PC35.",
+    "description": "This course provides a background into the origins and implementation of scientific racism, especially since the nineteenth century. Topics may include race/ethnicity and genetics, intelligence, nationalism, criminality, human performance, and morphometry. Open to the following Department of Psychology majors only: PC25, PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, PC35, PSYC-BS-011.",
     "raw_prereq": "upper-division standing.",
     "prerequisites": []
   },
@@ -914,8 +936,18 @@
     "name": "Science of Imagination",
     "code": "PSYC 167",
     "description": "This seminar explores how psychologists think about and study the imagination—the capacity to mentally transcend time, place, and circumstance to think about what might have been, plan and anticipate the future, create and become absorbed in fictional worlds, and consider alternatives to actual experiences. You will learn how to evaluate psychological evidence, and how to read, interpret, discuss, present, and write about scientific literature.",
-    "raw_prereq": "upper-division standing. PC25, PC26, PS28, PC29, PC30, PC31, PC32, PC33, PC34, PC35, HS25, HS26, HS27, HS28, HD01, HD02, HD25, HD26, or CG32 major only.",
-    "prerequisites": []
+    "raw_prereq": "upper-division standing. PC25, PC26, PS28, PC29, PC30, PC31, PC32, PC33, PC34, PC35, HS25, HS26, HS27, HS28, HD01, HD02, HD25, HD26, CG32, or PSYC-BS-011 major only.",
+    "prerequisites": [
+      {
+        "type": "AND",
+        "items": [
+          {
+            "type": "COURSE",
+            "course_id": "CG011"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Psychological Disorders of Childhood",
@@ -1187,7 +1219,7 @@
   {
     "name": "Psychology Laboratory Topics",
     "code": "PSYC 193L",
-    "description": "Selected laboratory topics in the field of psychology. May be taken for credit two times as topics vary. Open to the following majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32.",
+    "description": "Selected laboratory topics in the field of psychology. May be taken for credit two times as topics vary. Open to the following majors only: PC26, PC28, PC29, PC30, PC31, PC32, PC33, PC34, CG32, PSYC-BS-011.",
     "raw_prereq": "upper-division standing, department approval, and PSYC 60 or COGS 14B or MATH 11 and PSYC 70 or COGS 14A.",
     "prerequisites": [
       {

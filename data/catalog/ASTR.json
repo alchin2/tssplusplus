@@ -139,6 +139,13 @@
     ]
   },
   {
+    "name": "Introductory Special Topics in Astronomy and Astrophysics",
+    "code": "ASTR 40",
+    "description": "From time to time a member of the regular faculty or a resident visitor will give a self-contained course on an introductory topic in their special area of research or to help students for future studies in astronomy and astrophysics. May be taken for credit up to six times for a maximum of twenty-four units, provided the same topic is not repeated.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
     "name": "Antiracism in Physics and Astronomy",
     "code": "ASTR 60",
     "description": "How racism manifests and is sustained by the ideas, practices, and structures of modern physics and astronomy, and how to create antiracist interventions. Topics include the history of scientific racism, how racism and science remain entwined through language, community, visibility, and practices, how racial barriers to participation are sustained, and examining effective practices to address barriers and build inclusive communities in the physical sciences.",
@@ -729,6 +736,13 @@
     "name": "Special Topics",
     "code": "ASTR 230",
     "description": "A faculty or a resident visitor may develop and give a unique course on an advanced topic in their special area of research. This course is not offered on a regular basis, but it is estimated that it will be given once each academic year. May be taken up to six times for credit.",
+    "raw_prereq": "",
+    "prerequisites": []
+  },
+  {
+    "name": "Special Topics",
+    "code": "ASTR 231",
+    "description": "Special topics in astronomy and astrophysics on advanced subject matter. Offered based on interest or expertise of a resident or visiting faculty member. May be taken up to three times for credit.",
     "raw_prereq": "",
     "prerequisites": []
   },

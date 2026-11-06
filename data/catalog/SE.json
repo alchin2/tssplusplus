@@ -2,7 +2,7 @@
   {
     "name": "Introduction to Structures and Design",
     "code": "SE 1",
-    "description": "Introduction to fundamentals of structures and how structures work. Overview of structural behavior and structural design process through hands-on projects. Lessons learned from structural failures. Professional ethics. Role and responsibility of structural engineers. Introduction to four structural engineering focus sequences. Program or materials fees may apply.",
+    "description": "Introduction to fundamentals of structures and how structures work. Overview of structural behavior and structural design process through hands-on projects. Lessons learned from structural failures. Professional ethics. Role and responsibility of structural engineers. Introduction to four structural engineering focus sequences. Program or materials fees may apply. Students will not receive credit for both SE 1 and SE 1R.",
     "raw_prereq": "none. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
     "prerequisites": []
   },
@@ -23,7 +23,7 @@
   {
     "name": "Algorithms and Programming for Structural Engineering",
     "code": "SE 9",
-    "description": "Introduction to the MATLAB environment. Variables and types, statements, functions, blocks, loops, and branches. Algorithm development. Functions, function handles, input and output arguments. Data encapsulation and object-oriented programming. Toolboxes and libraries. Models from physics (mechanics and thermodynamics) are used in exercises and projects.",
+    "description": "Introduction to the MATLAB environment. Variables and types, statements, functions, blocks, loops, and branches. Algorithm development. Functions, function handles, input and output arguments. Data encapsulation and object-oriented programming. Toolboxes and libraries. Models from physics (mechanics and thermodynamics) are used in exercises and projects. Students will not receive credit for both SE 9 and SE 9R.",
     "raw_prereq": "MATH 20A and MATH 20B.",
     "prerequisites": [
       {
@@ -58,7 +58,7 @@
   {
     "name": "Mechanics I: Statics",
     "code": "SE 101A",
-    "description": "Statics of particles and rigid bodies in two and three dimensions using vector representation; free body diagrams; analysis of trusses, frames, and machines; internal forces; shear force and bending moment diagrams; equilibrium problems with friction; introduction to moment of inertia.",
+    "description": "Statics of particles and rigid bodies in two and three dimensions using vector representation; free body diagrams; analysis of trusses, frames, and machines; internal forces; shear force and bending moment diagrams; equilibrium problems with friction; introduction to moment of inertia. Students will not receive credit for both SE 101A and SE 101AR.",
     "raw_prereq": "MATH 20C or MATH 31BH and PHYS 2A or PHYS 2AR.",
     "prerequisites": [
       {
@@ -97,7 +97,7 @@
   {
     "name": "Mechanics II: Dynamics",
     "code": "SE 101B",
-    "description": "Kinematics and kinetics of particles in two- and three-dimensional motion. Newton’s equations of motion. Energy and momentum methods. Impulsive motion and impact. Systems of particles. Kinetics and kinematics of rigid bodies in 2-D. Introduction to 3-D dynamics of rigid bodies.",
+    "description": "Kinematics and kinetics of particles in two- and three-dimensional motion. Newton’s equations of motion. Energy and momentum methods. Impulsive motion and impact. Systems of particles. Kinetics and kinematics of rigid bodies in 2-D. Introduction to 3-D dynamics of rigid bodies. Students will not receive credit for both SE 101B and SE 101BR.",
     "raw_prereq": "SE 101A.",
     "prerequisites": [
       {
@@ -114,7 +114,7 @@
   {
     "name": "Mechanics III: Vibrations",
     "code": "SE 101C",
-    "description": "Free and forced vibrations of damped 1-DOF systems; vibrations isolation, impact and packaging problems. Analysis of discrete MDOF systems using matrix representation; normal mode of frequencies and modal matrix formulation. Lagrange’s equations. Modal superposition for analysis of continuous vibrating systems.",
+    "description": "Free and forced vibrations of damped 1-DOF systems; vibrations isolation, impact and packaging problems. Analysis of discrete MDOF systems using matrix representation; normal mode of frequencies and modal matrix formulation. Lagrange’s equations. Modal superposition for analysis of continuous vibrating systems. Students will not receive credit for both SE 101C and SE 101CR.",
     "raw_prereq": "MATH 18 or MATH 31AH and SE 101B.",
     "prerequisites": [
       {
@@ -199,7 +199,7 @@
   {
     "name": "Structural Materials",
     "code": "SE 105",
-    "description": "This course will provide lectures and labs on the structural properties of engineering materials. Topics covered will include stress and strain, strain measurement, stiffness, strength, toughness, fatigue resistance, and creep. The course will also cover different materials such as cement and concrete, woods, aluminum alloys, steel, engineering plastics, and composite materials. Corequisite: SE 110A.",
+    "description": "This course will provide lectures and labs on the structural properties of engineering materials. Topics covered will include stress and strain, strain measurement, stiffness, strength, toughness, fatigue resistance, and creep. The course will also cover different materials such as cement and concrete, woods, aluminum alloys, steel, engineering plastics, and composite materials. Corequisite: SE 110A or SE 110AR.",
     "raw_prereq": "SE 1 and SE 101A.",
     "prerequisites": [
       {
@@ -220,8 +220,8 @@
   {
     "name": "Solid Mechanics I",
     "code": "SE 110A",
-    "description": "Concepts of stress and strain. Hooke’s law. Stress transformation. Axial loading of bars. Torsion of circular shafts. Torsion of thin-walled members. Pure bending of beams. Unsymmetric bending of beams. Shear stresses in beams. Shear stresses in thin-walled beams. Shear center. Differential equation of the deflection curve. Deflections and slopes of beams from integration methods. Statically determinate and indeterminate problems.",
-    "raw_prereq": "MATH 20D and SE 101A.",
+    "description": "Concepts of stress and strain. Hooke’s law. Stress transformation. Axial loading of bars. Torsion of circular shafts. Torsion of thin-walled members. Pure bending of beams. Unsymmetric bending of beams. Shear stresses in beams. Shear stresses in thin-walled beams. Shear center. Differential equation of the deflection curve. Deflections and slopes of beams from integration methods. Statically determinate and indeterminate problems. Students will not receive credit for both SE 110A and SE 110AR.",
+    "raw_prereq": "MATH 20D and SE 101A or SE 101AR.",
     "prerequisites": [
       {
         "type": "AND",
@@ -231,8 +231,17 @@
             "course_id": "MATH20D"
           },
           {
-            "type": "COURSE",
-            "course_id": "SE101A"
+            "type": "OR",
+            "items": [
+              {
+                "type": "COURSE",
+                "course_id": "SE101A"
+              },
+              {
+                "type": "COURSE",
+                "course_id": "SE101AR"
+              }
+            ]
           }
         ]
       }
@@ -241,7 +250,7 @@
   {
     "name": "Solid Mechanics II",
     "code": "SE 110B",
-    "description": "Advanced concepts in the mechanics of deformable bodies. Unsymmetrical bending of symmetrical and unsymmetrical sections. Bending of curved beams. Shear center and torsional analysis of open and closed sections. Stability analysis of columns, lateral buckling. Application of the theory of elasticity in rectangular coordinates.",
+    "description": "Advanced concepts in the mechanics of deformable bodies. Unsymmetrical bending of symmetrical and unsymmetrical sections. Bending of curved beams. Shear center and torsional analysis of open and closed sections. Stability analysis of columns, lateral buckling. Application of the theory of elasticity in rectangular coordinates. Students will not receive credit for both SE 110B and SE 110BR.",
     "raw_prereq": "SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, and SE31 majors only.",
     "prerequisites": [
       {
@@ -339,7 +348,7 @@
   {
     "name": "Structural Analysis I",
     "code": "SE 130A",
-    "description": "Classical methods of analysis for statically indeterminate structures. Development of computer codes for the analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs.",
+    "description": "Classical methods of analysis for statically indeterminate structures. Development of computer codes for the analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs. Students will not receive credit for both SE 130A and SE 130AR.",
     "raw_prereq": "grade of C– or better in SE 110A.",
     "prerequisites": [
       {
@@ -356,7 +365,7 @@
   {
     "name": "Structural Analysis II",
     "code": "SE 130B",
-    "description": "Classical methods of analysis for statically indeterminate structures. Analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs.",
+    "description": "Classical methods of analysis for statically indeterminate structures. Analysis of civil, mechanical, and aerospace structures from the matrix formulation of the classical structural theory, through the direct stiffness formulation, to production-type structural analysis programs. Students will not receive credit for both SE 130B and SE 130BR.",
     "raw_prereq": "MATH 18 or MATH 31AH and SE 130A.",
     "prerequisites": [
       {
@@ -386,7 +395,7 @@
   {
     "name": "Finite Element Analysis",
     "code": "SE 131A",
-    "description": "Development of finite element models based upon the Galerkin method. Application to static and dynamic heat conduction and stress analysis. Formulation of initial boundary value problem models, development of finite element formulas, solution methods, and error analysis and interpretation of results. Corequisite: SE 130B.",
+    "description": "Development of finite element models based upon the Galerkin method. Application to static and dynamic heat conduction and stress analysis. Formulation of initial boundary value problem models, development of finite element formulas, solution methods, and error analysis and interpretation of results. Corequisite: SE 130B. Students will not receive credit for both SE 131A and SE 131AR.",
     "raw_prereq": "MATH 20E, SE 3, and SE 110B.",
     "prerequisites": [
       {
@@ -528,7 +537,7 @@
     "name": "Mechanics and Design of Composite Structures",
     "code": "SE 142",
     "description": "Introduction to advanced composite materials and their applications. Fiber and matrix properties, micromechanics, stiffness, ply-by-ply stress, hygrothermal behavior, and failure prediction. Lab activity will involve design, analysis, fabrication, and testing of composite structure. Program or materials fees may apply.",
-    "raw_prereq": "SE 110A or MAE 131A or MAE 131AR and SE 110B or MAE 131.",
+    "raw_prereq": "SE 110A or MAE 131A or MAE 131AR and SE 110B or MAE 131B.",
     "prerequisites": [
       {
         "type": "AND",
@@ -559,7 +568,7 @@
               },
               {
                 "type": "COURSE",
-                "course_id": "MAE131"
+                "course_id": "MAE131B"
               }
             ]
           }
@@ -617,7 +626,7 @@
   {
     "name": "Design of Steel Structures I",
     "code": "SE 150A",
-    "description": "Load and resistance factor design concept and loadings for structural systems. Structural steel properties and selection. Design of tension members, compression members, beams, beam-columns, simple bolted, and welded connections.",
+    "description": "Load and resistance factor design concept and loadings for structural systems. Structural steel properties and selection. Design of tension members, compression members, beams, beam-columns, simple bolted, and welded connections. Students will not receive credit for both SE 150A and SE 150AR.",
     "raw_prereq": "SE 130A, SE 110B, and SE 103.",
     "prerequisites": [
       {
@@ -664,7 +673,7 @@
   {
     "name": "Design of Reinforced Concrete",
     "code": "SE 151A",
-    "description": "Concrete and reinforcement properties. Service and ultimate limit state analysis and design. Design and detailing of structural components. Corequisite: SE 103.",
+    "description": "Concrete and reinforcement properties. Service and ultimate limit state analysis and design. Design and detailing of structural components. Corequisite: SE 103. Students will not receive credit for both SE 151A and SE 151AR.",
     "raw_prereq": "SE 130A.",
     "prerequisites": [
       {
@@ -728,7 +737,7 @@
   {
     "name": "Design of Timber Structures",
     "code": "SE 154",
-    "description": "Properties of wood and lumber grades. Beam design. Design of axially loaded members. Design of beam-column. Properties of plywood and structural-use panels. Design of horizontal diaphragms. Design of shear walls. Design of nailed and bolted connections.",
+    "description": "Properties of wood and lumber grades. Beam design. Design of axially loaded members. Design of beam-column. Properties of plywood and structural-use panels. Design of horizontal diaphragms. Design of shear walls. Design of nailed and bolted connections. Students will not receive credit for both SE 154 and SE 154R.",
     "raw_prereq": "grade of C– or better in both SE 103 and SE 130A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
@@ -1003,7 +1012,7 @@
     "name": "Geotechnical Engineering",
     "code": "SE 181",
     "description": "General introduction to physical and engineering properties of soils. Soil classification and identification methods. Compaction and construction control. Total and effective stress. Permeability, seepage, and consolidation phenomena. Shear strength of sand and clay.",
-    "raw_prereq": "grade of C– or better in SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
+    "raw_prereq": "SE 110A. Enrollment restricted to SE27, SE28, SE29, SE30, SE31 majors only.",
     "prerequisites": [
       {
         "type": "AND",
@@ -1369,7 +1378,7 @@
   {
     "name": "Computational Techniques in Finite Elements",
     "code": "SE 233",
-    "description": "Cross-listed with MAE 235. Practical application of the finite element method to problems in solid mechanics. Elements of theory are presented as needed. Covered are static and dynamic heat transfer and stress analysis. Basic processing, solution methods, and postprocessing are practiced with commercial finite element software. Students may not receive credit for SE 233 and MAE 235.",
+    "description": "Practical application of the finite element method to problems in solid mechanics. Elements of theory are presented as needed. Covered are static and dynamic heat transfer and stress analysis. Basic processing, solution methods, and postprocessing are practiced with commercial finite element software. Students may not receive credit for SE 233 and MAE 235.",
     "raw_prereq": "",
     "prerequisites": []
   },

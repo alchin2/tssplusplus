@@ -202,7 +202,7 @@
     "name": "Introduction to the Studio Major",
     "code": "VIS 80",
     "description": "A practical introduction to the studio art major and a conceptual introduction to how diverse strategies of art making are produced, analyzed, and critiqued. Introduces historical and contemporary topics in painting, drawing, sculpture, installation, and performance art and field-based practices. Required for all studio majors and minors including transfer students. Must be taken in residence at UC San Diego.",
-    "raw_prereq": "none.",
+    "raw_prereq": "none. Open to visual arts majors and minors.",
     "prerequisites": []
   },
   {
@@ -629,7 +629,7 @@
     "name": "Studio Honors I",
     "code": "VIS 110M",
     "description": "This is a course for the advanced studio major who is selected based on a proven record of engagement, productivity, and self-discipline as well as a clear trajectory of their work. The intent is to help refine and expand the student’s studio practice toward a unified portfolio and artist’s statement as well as develop experience in participation and organization of group and solo exhibitions.",
-    "raw_prereq": "consent of the instructor, department stamp required.",
+    "raw_prereq": "consent of the instructor, department approval required.",
     "prerequisites": []
   },
   {
@@ -3116,7 +3116,7 @@
   {
     "name": "Working Practice for Art Practice PhDs",
     "code": "VIS 207",
-    "description": "Workshop for PhD in Art Practice concentration students cotaught by PhD and MFA faculty offering extensive evaluation and critique of work. Intended to explore issues associated with artistic practice as a form of research in a university setting. Course is only applicable to VA76 and VA77 PhD programs. PhD students with a concentration in Art Practice my take VIS 207 each year until they qualify for candidacy.",
+    "description": "Workshop for PhD in Art Practice concentration students cotaught by PhD and MFA faculty offering extensive evaluation and critique of work. Intended to explore issues associated with artistic practice as a form of research in a university setting. Course is only applicable to VIS-PHD-001 and VIS-PHD-002 PhD programs. PhD students with a concentration in Art Practice my take VIS 207 each year until they qualify for candidacy.",
     "raw_prereq": "",
     "prerequisites": []
   },
