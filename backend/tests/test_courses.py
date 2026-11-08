@@ -271,3 +271,22 @@ def test_meta_tss_term_pins_the_default(data_dir, client):
 
 def test_meta_unknown_term_404s(client):
     assert client.get("/api/meta", params={"term": "fa99"}).status_code == 404
+
+
+# --- combined catalog codes -----------------------------------------------------
+
+
+def test_combined_catalog_code_joins_each_tss_code(data_dir, client):
+    # The catalog's "DSC 40A/R" is TSS's DSC-040A and DSC-040AR.
+    (data_dir.catalog_dir / "DSC.json").write_text(json.dumps([{"name": "Theor Fndtns", "code": "DSC 40A/R"}]))
+    _write_offered(data_dir.offered_dir, "wi27", "11416,DSC-040A,Theor Fndtns\n11417,DSC-040AR,Theor Fndtns\n")
+    _clear_caches()
+
+    [course] = client.get("/api/courses", params={"term": "wi27", "dept": "DSC", "offered": "true"}).json()
+    assert course["module_id"] == "11416"
+    assert client.get("/api/meta", params={"term": "wi27"}).json()["offered_count"] == 1
+
+    with patch("app.routers.courses.get_courses_collection", return_value=MagicMock(find_one=lambda _: None)):
+        resp = client.get("/api/courses/11417", params={"term": "wi27"})
+    assert resp.status_code == 200
+    assert resp.json()["code"] == "DSC 40A/R"

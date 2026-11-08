@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 
-from app.catalog import get_catalog, normalize_code
+from app.catalog import get_catalog, offered_module_id
 from app.offered import get_code_to_module_id_index
 from app.schemas import Meta
 from app.terms import available_terms, default_term, selected_term
@@ -21,5 +21,5 @@ def get_meta(term: str = Depends(selected_term)):
         terms=available_terms(),
         depts=sorted({c["dept"] for c in catalog}),
         course_count=len(catalog),
-        offered_count=sum(1 for c in catalog if normalize_code(c["code"]) in offered_codes),
+        offered_count=sum(1 for c in catalog if offered_module_id(c, offered_codes) is not None),
     )

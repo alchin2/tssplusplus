@@ -3,7 +3,7 @@ import re
 from fastapi import APIRouter, Depends, HTTPException, Query
 from pymongo.errors import PyMongoError
 
-from app.catalog import find_by_normalized_code, normalize_code, search_courses
+from app.catalog import find_by_normalized_code, normalize_code, offered_module_id, search_courses
 from app.db import get_courses_collection
 from app.offered import get_code_to_module_id_index, get_offered_index
 from app.prereqs import build_prereq_tree
@@ -40,7 +40,7 @@ def list_courses(
     courses = search_courses(code_to_module_id, dept=dept, offered=offered, q=q)
     summaries = []
     for c in courses:
-        module_id = code_to_module_id.get(normalize_code(c["code"]))
+        module_id = offered_module_id(c, code_to_module_id)
         summaries.append(CourseSummary(
             module_id=module_id,
             code=c["code"],
