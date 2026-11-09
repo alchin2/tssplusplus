@@ -336,3 +336,39 @@ def test_second_module_for_a_combined_code_gets_its_own_row(data_dir, client):
     with patch("app.routers.courses.get_courses_collection", return_value=MagicMock(find_one=lambda _: None)):
         detail = client.get("/api/courses/11417", params={"term": "wi27"}).json()
     assert (detail["code"], detail["description"]) == ("DSC 40AR", "Theory.")
+
+
+# --- TSS variants of catalog courses --------------------------------------------
+
+
+def test_tss_variants_borrow_their_base_catalog_entry(data_dir, client):
+    (data_dir.catalog_dir / "MUS.json").write_text(json.dumps([
+        {"name": "Ensemble Performance", "code": "MUS 95", "description": "Sections of MUS 95W have included drumming."},
+    ]))
+    (data_dir.catalog_dir / "MGT.json").write_text(json.dumps([
+        {"name": "Business Analytics", "code": "MGT 151", "description": "Analytics."},
+    ]))
+    (data_dir.catalog_dir / "POLI.json").write_text(json.dumps([
+        {"name": "Analyzing Elections", "code": "POLI 174", "description": "Elections."},
+    ]))
+    _write_offered(data_dir.offered_dir, "wi27", (
+        "1,CSE-100R,Adv Data Structures\n"  # remote offering of CSE 100
+        "2,MUS-095C,Concert Choir\n"        # MUS 95's description covers its sections
+        "3,MGT-151A,Business Analytics\n"   # same title as MGT 151
+        "4,POLI-174D,Data Politics\n"       # a different course from POLI 174
+    ))
+    _clear_caches()
+
+    body = {c["code"]: c for c in client.get("/api/courses", params={"term": "wi27", "offered": "true"}).json()}
+    assert {code: body[code]["name"] for code in ("CSE 100R", "MUS 95C", "MGT 151A", "POLI 174D")} == {
+        "CSE 100R": "Advanced Data Structures",
+        "MUS 95C": "Concert Choir",
+        "MGT 151A": "Business Analytics",
+        "POLI 174D": "Data Politics",
+    }
+
+    with patch("app.routers.courses.get_courses_collection", return_value=MagicMock(find_one=lambda _: None)):
+        details = {m: client.get(f"/api/courses/{m}", params={"term": "wi27"}).json() for m in "1234"}
+    assert details["1"]["description"] == "High-performance data structures and supporting algorithms."
+    assert details["2"]["description"] == "Sections of MUS 95W have included drumming."
+    assert details["4"]["description"] is None

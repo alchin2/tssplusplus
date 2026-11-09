@@ -158,6 +158,40 @@ def _subject_depts() -> dict[str, str]:
     return depts
 
 
+_LETTERED_CODE_RE = re.compile(r"^([A-Z]+)(\d+)([A-Z]+)$")
+
+
+def _title_key(title: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", title.lower())
+
+
+def _variant_base(normalized_code: str, name: str) -> dict | None:
+    """The catalog entry for a TSS variant of a course the catalog lists
+    only under its base code: a remote "R" offering (CSE-140R -> CSE 140),
+    or a lettered section of a course whose entry covers its sections --
+    the description names one ("MUS 95W", "CLIN 294A") or the titles match
+    (MGT-151A "Business Analytics"). Other lettered codes can be different
+    courses (POLI 174D "Data Politics" isn't POLI 174), so they don't match.
+    A section keeps its own TSS title ("Concert Choir", not "Ensemble
+    Performance") unless that's just the catalog's, truncated."""
+    match = _LETTERED_CODE_RE.match(normalized_code)
+    if not match:
+        return None
+    dept, number, letters = match.groups()
+    if letters.endswith("R"):
+        base = find_by_normalized_code(normalized_code[:-1])
+        if base is not None:
+            return base
+    base = find_by_normalized_code(dept + number)
+    if base is None:
+        return None
+    if _title_key(base["name"]).startswith(_title_key(name)):
+        return base
+    if re.search(rf"\b{number}[A-Z]", base.get("description") or ""):
+        return {**base, "name": name}
+    return None
+
+
 def tss_course_entry(code: str, name: str) -> dict:
     """A course entry for a TSS listing that no catalog course's row
     claimed: TSS's own code and title, borrowing the catalog's
@@ -165,7 +199,8 @@ def tss_course_entry(code: str, name: str) -> dict:
     DSC-010R to "DSC 10/R" when DSC-010 took that entry's row). Otherwise
     it's a course the catalog doesn't list yet, like a new DSC 1."""
     display = tss_display_code(code)
-    catalog_course = find_by_normalized_code(normalize_code(code))
+    normalized = normalize_code(code)
+    catalog_course = find_by_normalized_code(normalized) or _variant_base(normalized, name)
     if catalog_course is not None:
         return {**catalog_course, "code": display}
     prefix = display.split(" ")[0]
