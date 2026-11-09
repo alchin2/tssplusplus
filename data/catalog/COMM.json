@@ -1315,8 +1315,8 @@
     "prerequisites": []
   },
   {
-    "name": "",
-    "code": "COMM 114M CSI: Communication and the Law (4)",
+    "name": "CSI: Communication and the Law",
+    "code": "COMM 114M",
     "description": "Using classic and modern texts, the course explores fundamental questions of law and political theory: What are rights and where do they come from? What is the balance between freedom and equality, between individual and common goods? These theoretical explorations are then oriented to specifically communication concerns: What is the relationship between privacy and personhood? Between free speech and democracy? Between intellectual property and efficient markets?",
     "raw_prereq": "COMM 10.",
     "prerequisites": [
