@@ -39,6 +39,12 @@ PREREQ_LABEL_RE = re.compile(r"Prerequisites?:")
 # right after the ")" keeps this off titles that merely contain parentheses.
 LABELED_PREFIX_RE = re.compile(r"^[A-Za-z][^()]*\(([A-Z]{2,5})\)\s+(?=\d)")
 
+# A few headings drop the period after the code - "SOCI 123 Japanese
+# Culture Inside/Out: A Transnational Perspective (4)", "GPCO 468:
+# Evaluating Technological Innovation (4)" - so splitting on "." would
+# leave the whole heading as the code.
+UNDOTTED_HEADING_RE = re.compile(r"^([A-Z]{2,5} \d+[A-Z]*(?:/\d+[A-Z]*)*):?\s+([A-Z].*)$")
+
 
 def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
     data = []
@@ -49,11 +55,9 @@ def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
 
     for name_el in soup.find_all("p", class_="course-name"):
         name_text = name_el.get_text(strip=True)
-        parts = name_text.split(".")
 
         course_data = copy.deepcopy(JSON_TEMPLATE)
-        course_data["code"] = parse_course_code(parts[0])
-        course_data["name"] = parts[1].split(" (")[0].strip() if len(parts) > 1 else ""
+        course_data["code"], course_data["name"] = split_heading(name_text)
 
         description_el = find_description(name_el)
         if description_el is not None:
@@ -64,6 +68,20 @@ def scrape_department(code, blank_url=BLANK_URL, headers=DEFAULT_HEADERS):
         data.append(course_data)
 
     return data
+
+
+def split_heading(text):
+    """
+    Split a course-name heading into (code, name): "CSE 12. Basic Data
+    Structures (4)" -> ("CSE 12", "Basic Data Structures"). Headings
+    missing the period after the code are split at the code instead.
+    """
+    parts = text.split(".")
+    undotted = UNDOTTED_HEADING_RE.match(parts[0])
+    if undotted:
+        code, name = UNDOTTED_HEADING_RE.match(text).groups()
+        return code, name.split(" (")[0].strip()
+    return parse_course_code(parts[0]), parts[1].split(" (")[0].strip() if len(parts) > 1 else ""
 
 
 def parse_course_code(text):
