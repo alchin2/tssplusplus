@@ -1,3 +1,4 @@
+import { ExternalLink } from "lucide-react";
 import { useBuildings } from "../hooks/useBuildings";
 import { useTerm } from "../hooks/useTerm";
 import { ScrollX } from "./ScrollX";
@@ -5,7 +6,8 @@ import { computeFinal, finalDateShort, fmtRange, splitRoom } from "../lib/schedu
 import type { PlannedItem } from "../types";
 
 // WebReg's "List" tab: one bordered table, a row per meeting, a Final Exam
-// row per course, status words in the Status column, Remove in Action.
+// row per course, status words in the Status column, Remove (and Book,
+// when the section has a TSS link) in Action.
 export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, onSelectCourse }: {
   items: PlannedItem[];
   conflictIds: Set<string>;
@@ -77,9 +79,17 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
                     <span className={`wr-status ${conflict ? "is-conflict" : "is-planned"}`}>{conflict ? "Conflict" : "Planned"}</span>
                   </td>
                   <td rowSpan={span} style={{ verticalAlign: "top" }}>
-                    <button type="button" className="wr-btn is-sm" onClick={() => onRemove(course.id)} aria-label={`Remove ${course.code}`}>
-                      Remove
-                    </button>
+                    <div className="wr-actions">
+                      <button type="button" className="wr-btn is-sm" onClick={() => onRemove(course.id)} aria-label={`Remove ${course.code}`}>
+                        Remove
+                      </button>
+                      {section.bookUrl && (
+                        <a href={section.bookUrl} target="_blank" rel="noopener noreferrer" className="wr-btn is-sm"
+                          title={`Book ${course.code} ${section.id} on TSS (opens in a new tab)`}>
+                          Book <ExternalLink className="w-3 h-3" aria-hidden="true" />
+                        </a>
+                      )}
+                    </div>
                   </td>
                 </>
               );
