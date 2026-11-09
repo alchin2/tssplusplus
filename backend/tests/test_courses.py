@@ -372,3 +372,16 @@ def test_tss_variants_borrow_their_base_catalog_entry(data_dir, client):
     assert details["1"]["description"] == "High-performance data structures and supporting algorithms."
     assert details["2"]["description"] == "Sections of MUS 95W have included drumming."
     assert details["4"]["description"] is None
+
+
+def test_tss_only_courses_list_among_their_subject(data_dir, client):
+    (data_dir.catalog_dir / "MATH.json").write_text(json.dumps([
+        {"name": "Calculus I", "code": "MATH 20A"},
+        {"name": "Linear Algebra", "code": "MATH 18"},  # catalog order is kept as is
+        {"name": "Vector Calculus", "code": "MATH 20E"},
+    ]))
+    _write_offered(data_dir.offered_dir, "wi27", "1,MATH-010A,Calculus I\n2,MATH-020B,Calculus II\n3,MATH-109,Proofs\n")
+    _clear_caches()
+
+    codes = [c["code"] for c in client.get("/api/courses", params={"term": "wi27", "dept": "MATH"}).json()]
+    assert codes == ["MATH 10A", "MATH 20A", "MATH 18", "MATH 20B", "MATH 20E", "MATH 109"]
