@@ -341,6 +341,7 @@ module_id,code,name
 2348,CHEM-255,Synthesis of Complex Molecules
 2351,ECON-178,MachineLearningEcon&Business
 2352,TDDM-001,Introduction to Dance Making
+2362,TDDM-101,Dance Making 2
 2375,MAE-270,Multidisc. Design Optimization
 2382,CHEM-254,Mechanisms/Organic Reactions
 2387,MAE-271B,Solid State Diff&Reac Kinetics
@@ -518,6 +519,7 @@ module_id,code,name
 3730,EDS-287C,Educat Rsrch & Eval Design C
 3741,CLRE-267,Machine Learn & Predict Anlys
 3742,EDS-296,Research Advisory Course
+3747,EDS-195,Apprentice Teaching
 3755,MATH-190B,Foundations of Topology II
 3763,CLRE-295B,ISP Seminar Series B
 3780,CLRE-297,Independent Study Proj-2 units
@@ -564,6 +566,7 @@ module_id,code,name
 4106,EMED-427,Wilderness Medicine Elective
 4111,EMED-473,Subint: Diving/Hyperbaric Med
 4114,EDS-289A,Dissertation Writing Seminar
+4116,EMED-496,Clinical Independent Study
 4117,MATH-218,Seminar/Math of Bio Systems
 4125,MATH-220B,Complex Analysis
 4133,ENG-010,Fundamentals/Engineering Appln
@@ -1108,6 +1111,7 @@ module_id,code,name
 7542,GLBH-249,Social Epidemiology
 7546,MGTA-466,Scalable Analytics
 7547,LIGN-180,Lang Representation in Brain
+7548,RAD-299,Radiology Independent Study
 7550,MGTA-479,Pricing Analytics
 7551,RAD-401,General Radiology
 7554,MGTA-495,Special Topics
@@ -1631,6 +1635,7 @@ module_id,code,name
 11200,OPTH-410,Intro Ophthalmology Selective
 11203,OPTH-412,Intro to Ophthalmic Pathology
 11208,DDPM-204,ClinTrialDevelop/Phase0-Phase3
+11211,VIS-161,Systems and Networks at Scale
 11212,OPTH-425,Subinternship in Ophthalmology
 11223,DDPM-208,"MarktStrat,ProdValue&LifeCycle"
 11227,OPTH-426,Ophthalmic Plast & Reconst Sur
@@ -1877,6 +1882,7 @@ module_id,code,name
 13011,PHAR-295,Pharmacolgy Research Discussns
 13018,HITO-194,History Honors
 13021,PHB-248,Applied Survival Analysis
+13023,HITO-195,Honors Essay
 13026,PHB-281,Biostatistics Seminar Series
 13030,PHB-291,Special Topics/Biostatistics
 13035,PHIL-001,Introduction to Philosophy
@@ -1943,6 +1949,7 @@ module_id,code,name
 13557,LTSP-003F,Spanish Heritage Learners III
 13566,PHIL-146,Philosophy of Physics
 13578,LTSP-002A,Intermediate Spanish I
+13581,HIGR-500,Apprentice Teaching
 13589,SOCI-070,Gen Soc for Pre-Med Students
 13590,ECE-240B,Optical Information Processing
 13592,SOCI-088,LearnWellbeing:Compassion&Care
@@ -2216,6 +2223,7 @@ module_id,code,name
 15273,MAE-143A,Signals and Systems
 15274,SPPS-437,Transitions of Care APPE
 15276,SPPS-496,Independent Study APPE
+15288,MAE-146,Intro to ML Algorithms
 15291,MAE-148,Intro to Autonomous Vehicles
 15300,SPPS-503,Academic Teaching Experience
 15305,MAE-154,Prod. Desgn. & Entrepreneur.
@@ -2405,6 +2413,7 @@ module_id,code,name
 49481,MGT-120,Behavioral Sci & Incentive Dsg
 49482,LANG-903.07,Prom. Your. for Career Succ. A
 49492,HIEU-165,Non-Specialist Roman History
+49503,BIOL-900.77,Dolphin Metagenomics
 49504,PH-220B,Advanced Methods in HSR B
 49505,BENG-158,Biomaterials Lab for BTEC
 49508,DOC-170,Climate/Racial/Gender Justice

@@ -136,8 +136,8 @@
     "prerequisites": []
   },
   {
-    "name": "",
-    "code": "GPCO 468: Evaluating Technological Innovation (4)",
+    "name": "Evaluating Technological Innovation",
+    "code": "GPCO 468",
     "description": "This capstone is intended as a culminating intellectual experience for students, particularly those in economics-oriented tracks. Students will learn to analyze “what works,” integrating a technical understanding of innovation with rigorous statistical analysis. The first half of the course focuses on building a set of science/engineering tools, and the second half on building statistical tools of analysis. Renumbered from IRCO 468. Students may not receive credit for GPCO 468 and IRCO 468.",
     "raw_prereq": "GPEC 446 or consent of instructor.",
     "prerequisites": [
@@ -1421,8 +1421,8 @@
     "prerequisites": []
   },
   {
-    "name": "",
-    "code": "GPPS 481: The Political Economy of Authoritarian Regimes (4)",
+    "name": "The Political Economy of Authoritarian Regimes",
+    "code": "GPPS 481",
     "description": "Are authoritarian regimes fundamentally different from democratic ones? If so, how are they different and what are the political and economic implications of such differences? This course will explore the different logics of authoritarian politics, followed by an investigation of the growth and inequality implications of those politics. Renumbered from IRGN 481. Students may not receive credit for GPPS 481 and IRGN 481.",
     "raw_prereq": "",
     "prerequisites": []

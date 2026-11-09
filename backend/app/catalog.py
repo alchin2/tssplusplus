@@ -7,6 +7,7 @@ one-file-per-department layout catalog_scraper writes.
 
 import json
 import re
+from collections import Counter
 from functools import lru_cache
 
 from app.config import settings
@@ -132,26 +133,95 @@ def find_by_normalized_code(normalized_code: str) -> dict | None:
     return _get_normalized_index().get(normalized_code)
 
 
+_TSS_CODE_RE = re.compile(r"^([A-Z]+)-0*(\d.*)$")
+
+
+def tss_display_code(code: str) -> str:
+    """TSS's "DSC-001" -> the catalog's style, "DSC 1"."""
+    match = _TSS_CODE_RE.match(code.strip().upper())
+    return f"{match.group(1)} {match.group(2)}" if match else code
+
+
+@lru_cache(maxsize=1)
+def _subject_depts() -> dict[str, str]:
+    """Subject prefix -> the catalog dept (file) most of its courses live
+    in, e.g. "LIGN" -> "LING" (not EDS, for "EDS/LIGN 119"), "BILD" ->
+    "BIOL"."""
+    counts: dict[str, Counter] = {}
+    for c in get_catalog():
+        for alias in catalog_code_aliases(c["code"]):
+            prefix = re.match(r"[A-Z]+(?=\d)", alias)
+            if prefix:
+                counts.setdefault(prefix.group(), Counter())[c["dept"]] += 1
+    depts = {prefix: dept_counts.most_common(1)[0][0] for prefix, dept_counts in counts.items()}
+    depts.update({c["dept"]: c["dept"] for c in get_catalog()})
+    return depts
+
+
+_LETTERED_CODE_RE = re.compile(r"^([A-Z]+)(\d+)([A-Z]+)$")
+
+
+def _title_key(title: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", title.lower())
+
+
+def _variant_base(normalized_code: str, name: str) -> dict | None:
+    """The catalog entry for a TSS variant of a course the catalog lists
+    only under its base code: a remote "R" offering (CSE-140R -> CSE 140),
+    or a lettered section of a course whose entry covers its sections --
+    the description names one ("MUS 95W", "CLIN 294A") or the titles match
+    (MGT-151A "Business Analytics"). Other lettered codes can be different
+    courses (POLI 174D "Data Politics" isn't POLI 174), so they don't match.
+    A section keeps its own TSS title ("Concert Choir", not "Ensemble
+    Performance") unless that's just the catalog's, truncated."""
+    match = _LETTERED_CODE_RE.match(normalized_code)
+    if not match:
+        return None
+    dept, number, letters = match.groups()
+    if letters.endswith("R"):
+        base = find_by_normalized_code(normalized_code[:-1])
+        if base is not None:
+            return base
+    base = find_by_normalized_code(dept + number)
+    if base is None:
+        return None
+    if _title_key(base["name"]).startswith(_title_key(name)):
+        return base
+    if re.search(rf"\b{number}[A-Z]", base.get("description") or ""):
+        return {**base, "name": name}
+    return None
+
+
+def tss_course_entry(code: str, name: str) -> dict:
+    """A course entry for a TSS listing that no catalog course's row
+    claimed: TSS's own code and title, borrowing the catalog's
+    description/prereqs when the code still resolves to an entry (e.g.
+    DSC-010R to "DSC 10/R" when DSC-010 took that entry's row). Otherwise
+    it's a course the catalog doesn't list yet, like a new DSC 1."""
+    display = tss_display_code(code)
+    normalized = normalize_code(code)
+    catalog_course = find_by_normalized_code(normalized) or _variant_base(normalized, name)
+    if catalog_course is not None:
+        return {**catalog_course, "code": display}
+    prefix = display.split(" ")[0]
+    return {"code": display, "name": name, "dept": _subject_depts().get(prefix, prefix), "prerequisites": []}
+
+
 def search_courses(
-    offered_codes: set[str] | dict[str, str],
+    courses: list[dict],
     dept: str | None = None,
     offered: bool | None = None,
     q: str | None = None,
 ) -> list[dict]:
-    """offered_codes: the selected term's normalized offered codes (see
-    offered.get_code_to_module_id_index) -- "offered" is per term, so it
-    isn't stored on the catalog entries themselves."""
-    courses = get_catalog()
-
+    """courses: the selected term's courses (offered.get_term_courses),
+    each carrying its module_id in the term -- "offered" is per term, so
+    it isn't stored on the catalog entries themselves."""
     if dept:
         dept_upper = dept.upper()
         courses = [c for c in courses if c["dept"] == dept_upper]
 
     if offered is not None:
-        courses = [
-            c for c in courses
-            if any(a in offered_codes for a in catalog_code_aliases(c["code"])) == offered
-        ]
+        courses = [c for c in courses if (c["module_id"] is not None) == offered]
 
     if q:
         needle = q.lower()
