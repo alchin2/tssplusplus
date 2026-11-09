@@ -6,9 +6,9 @@ import pytest
 from fastapi.testclient import TestClient
 from pymongo.errors import ServerSelectionTimeoutError
 
-from app.catalog import get_catalog, _get_normalized_index
+from app.catalog import _get_normalized_index, _subject_depts, get_catalog
 from app.main import app
-from app.offered import get_code_to_module_id_index, get_offered_index
+from app.offered import get_code_to_module_id_index, get_offered_index, get_term_course_index, get_term_courses
 from app.terms import available_terms
 
 CSE_100 = {
@@ -40,6 +40,9 @@ def _clear_caches():
     _get_normalized_index.cache_clear()
     get_offered_index.cache_clear()
     get_code_to_module_id_index.cache_clear()
+    get_term_courses.cache_clear()
+    get_term_course_index.cache_clear()
+    _subject_depts.cache_clear()
     available_terms.cache_clear()
 
 
@@ -276,17 +279,60 @@ def test_meta_unknown_term_404s(client):
 # --- combined catalog codes -----------------------------------------------------
 
 
-def test_combined_catalog_code_joins_each_tss_code(data_dir, client):
-    # The catalog's "DSC 40A/R" is TSS's DSC-040A and DSC-040AR.
-    (data_dir.catalog_dir / "DSC.json").write_text(json.dumps([{"name": "Theor Fndtns", "code": "DSC 40A/R"}]))
-    _write_offered(data_dir.offered_dir, "wi27", "11416,DSC-040A,Theor Fndtns\n11417,DSC-040AR,Theor Fndtns\n")
+def test_combined_catalog_code_joins_its_tss_code(data_dir, client):
+    # The catalog's "DSC 10/R" covers TSS's DSC-010.
+    (data_dir.catalog_dir / "DSC.json").write_text(json.dumps([{"name": "Principles", "code": "DSC 10/R"}]))
+    _write_offered(data_dir.offered_dir, "wi27", "11362,DSC-010,Principles\n")
     _clear_caches()
 
     [course] = client.get("/api/courses", params={"term": "wi27", "dept": "DSC", "offered": "true"}).json()
-    assert course["module_id"] == "11416"
+    assert (course["code"], course["module_id"]) == ("DSC 10/R", "11362")
     assert client.get("/api/meta", params={"term": "wi27"}).json()["offered_count"] == 1
 
+
+# --- courses the catalog doesn't list -------------------------------------------
+
+
+def test_offered_course_missing_from_catalog_is_still_listed(data_dir, client):
+    # DSC 1 is new in TSS; the catalog has no entry for it yet.
+    _write_offered(data_dir.offered_dir, "wi27", "9100,MATH-020A,Calculus I\n49469,DSC-001,Introduction to AI\n")
+    _clear_caches()
+
+    body = {c["code"]: c for c in client.get("/api/courses", params={"term": "wi27", "offered": "true"}).json()}
+    assert body["DSC 1"] == {
+        "module_id": "49469", "code": "DSC 1", "name": "Introduction to AI", "dept": "DSC", "offered_this_qtr": True,
+    }
+    assert client.get("/api/meta", params={"term": "wi27"}).json()["offered_count"] == 2
+
     with patch("app.routers.courses.get_courses_collection", return_value=MagicMock(find_one=lambda _: None)):
-        resp = client.get("/api/courses/11417", params={"term": "wi27"})
-    assert resp.status_code == 200
-    assert resp.json()["code"] == "DSC 40A/R"
+        detail = client.get("/api/courses/49469", params={"term": "wi27"})
+    assert detail.status_code == 200
+    assert detail.json()["description"] is None
+    assert client.get("/api/courses/49469/prereqs", params={"term": "wi27"}).json()["children"] == []
+
+
+def test_tss_only_course_files_under_its_catalog_dept(data_dir, client):
+    # MATH 20B isn't in the catalog, but MATH courses live in MATH.json.
+    _write_offered(data_dir.offered_dir, "wi27", "9101,MATH-020B,Calculus II\n")
+    _clear_caches()
+
+    [course] = client.get("/api/courses", params={"term": "wi27", "q": "20B"}).json()
+    assert course["dept"] == "MATH"
+
+
+def test_second_module_for_a_combined_code_gets_its_own_row(data_dir, client):
+    # DSC-040A takes the "DSC 40A/R" row; DSC-040AR is listed separately,
+    # borrowing that catalog entry's details.
+    (data_dir.catalog_dir / "DSC.json").write_text(
+        json.dumps([{"name": "Theor Fndtns", "code": "DSC 40A/R", "description": "Theory."}])
+    )
+    _write_offered(data_dir.offered_dir, "wi27", "11416,DSC-040A,Theor Fndtns\n11417,DSC-040AR,Theor Fndtns\n")
+    _clear_caches()
+
+    body = {c["code"]: c["module_id"] for c in client.get("/api/courses", params={"term": "wi27", "dept": "DSC"}).json()}
+    assert body == {"DSC 40A/R": "11416", "DSC 40AR": "11417"}
+    assert client.get("/api/meta", params={"term": "wi27"}).json()["offered_count"] == 2
+
+    with patch("app.routers.courses.get_courses_collection", return_value=MagicMock(find_one=lambda _: None)):
+        detail = client.get("/api/courses/11417", params={"term": "wi27"}).json()
+    assert (detail["code"], detail["description"]) == ("DSC 40AR", "Theory.")

@@ -3,9 +3,9 @@ import re
 from fastapi import APIRouter, Depends, HTTPException, Query
 from pymongo.errors import PyMongoError
 
-from app.catalog import find_by_normalized_code, normalize_code, offered_module_id, search_courses
+from app.catalog import search_courses
 from app.db import get_courses_collection
-from app.offered import get_code_to_module_id_index, get_offered_index
+from app.offered import get_term_course_index, get_term_courses
 from app.prereqs import build_prereq_tree
 from app.schemas import CourseDetail, CourseSummary, Meeting, PrereqGraphNode, Section
 from app.terms import selected_term
@@ -34,19 +34,18 @@ def list_courses(
     term: str = Depends(selected_term),
 ):
     """GET /api/courses?term=fa26&dept=CSE&offered=true&q=<query> --
-    search/filter over the catalog, returning a lightweight course list
-    with offered/module_id relative to the term."""
-    code_to_module_id = get_code_to_module_id_index(term)
-    courses = search_courses(code_to_module_id, dept=dept, offered=offered, q=q)
+    search/filter over the term's courses (the catalog plus offered
+    courses it doesn't list), returning a lightweight course list with
+    offered/module_id relative to the term."""
+    courses = search_courses(get_term_courses(term), dept=dept, offered=offered, q=q)
     summaries = []
     for c in courses:
-        module_id = offered_module_id(c, code_to_module_id)
         summaries.append(CourseSummary(
-            module_id=module_id,
+            module_id=c["module_id"],
             code=c["code"],
             name=c["name"],
             dept=c["dept"],
-            offered_this_qtr=module_id is not None,
+            offered_this_qtr=c["module_id"] is not None,
         ))
     return summaries
 
@@ -109,28 +108,23 @@ def _group_sections(raw_rows: list[dict], module_id: str, peryr: str | None, per
     return sections
 
 
-def _resolve_catalog_course(module_id: str, term: str) -> dict:
-    """module_id's only link to a catalog code: look it up in the term's
-    offered-courses CSV (module_id -> code), then find that code's
-    catalog entry."""
-    offered_entry = get_offered_index(term).get(module_id)
-    if offered_entry is None:
+def _resolve_term_course(module_id: str, term: str) -> dict:
+    """The term's course entry for module_id (see
+    offered.get_term_courses): its catalog course, or a TSS-only entry
+    for a course the catalog doesn't list."""
+    course = get_term_course_index(term).get(module_id)
+    if course is None:
         raise HTTPException(status_code=404, detail=f"No course offered in {term} with module_id={module_id}")
-
-    catalog_course = find_by_normalized_code(normalize_code(offered_entry["code"]))
-    if catalog_course is None:
-        raise HTTPException(status_code=404, detail=f"module_id={module_id} has no matching catalog entry")
-
-    return catalog_course
+    return course
 
 
 @router.get("/{module_id}", response_model=CourseDetail)
 def get_course_detail(module_id: str, term: str = Depends(selected_term)):
     """GET /api/courses/{module_id}?term=fa26 -- full detail: catalog
     fields (joined via the term's offered-courses CSV, module_id's only
-    link to a catalog code) + the term's live sections/meetings from
-    Mongo."""
-    catalog_course = _resolve_catalog_course(module_id, term)
+    link to a catalog code; absent for a course the catalog doesn't
+    list) + the term's live sections/meetings from Mongo."""
+    course = _resolve_term_course(module_id, term)
 
     try:
         mongo_doc = get_courses_collection(term).find_one({"module_id": module_id})
@@ -149,13 +143,13 @@ def get_course_detail(module_id: str, term: str = Depends(selected_term)):
 
     return CourseDetail(
         module_id=module_id,
-        code=catalog_course["code"],
-        name=catalog_course["name"],
-        dept=catalog_course["dept"],
+        code=course["code"],
+        name=course["name"],
+        dept=course["dept"],
         offered_this_qtr=True,  # resolved via the term's offered CSV
-        description=catalog_course.get("description"),
-        raw_prereq=catalog_course.get("raw_prereq"),
-        prerequisites=catalog_course.get("prerequisites", []),
+        description=course.get("description"),
+        raw_prereq=course.get("raw_prereq"),
+        prerequisites=course.get("prerequisites", []),
         sections=sections,
     )
 
@@ -166,6 +160,6 @@ def get_course_prereqs(module_id: str, term: str = Depends(selected_term)):
     prerequisite graph (see app/prereqs.py). Built fresh from the local
     catalog on every request -- cheap enough (no Mongo round trip) that
     caching isn't worth the staleness risk."""
-    catalog_course = _resolve_catalog_course(module_id, term)
-    return build_prereq_tree(catalog_course)
+    course = _resolve_term_course(module_id, term)
+    return build_prereq_tree(course)
 
