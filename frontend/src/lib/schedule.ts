@@ -58,15 +58,27 @@ export function conflictPairs(items: PlannedItem[]): ConflictPair[] {
 }
 
 // ─── Finals ─────────────────────────────────────────────────────────────────
-// A section's final slot is derived from its lecture's meeting pattern (MWF vs
-// TuTh) and start time, mirroring the campus finals matrix. `colIdx` is the
-// finals-week column (0 = Monday of finals week … 5 = Saturday); the concrete
-// dates come from the selected term (see finalsWeekISO in academicCalendar.ts),
-// so only the column index is stored here.
+// A section's final slot comes from TSS's scheduled final (Section.final)
+// when there is one. Otherwise it's derived from its lecture's meeting
+// pattern (MWF vs TuTh) and start time, mirroring the campus finals matrix.
+// `colIdx` is the finals-week column (0 = Monday of finals week … 5 =
+// Saturday); the concrete dates come from the selected term (see
+// finalsWeekISO in academicCalendar.ts), so only the column index is stored
+// here. `room` is TSS's exam room, when it gives one.
 
-export interface FinalInfo { colIdx: number; startH: number; endH: number; }
+export interface FinalInfo { colIdx: number; startH: number; endH: number; room?: string | null; }
 
 export function computeFinal(section: Section): FinalInfo | null {
+  const f = section.final;
+  if (f) {
+    // getUTCDay: 1 = Monday … 6 = Saturday; a Sunday final has no column.
+    const day = new Date(f.date + "T00:00:00Z").getUTCDay();
+    if (day >= 1 && day <= 6) return { colIdx: day - 1, startH: f.start, endH: f.end, room: f.room };
+  }
+  return matrixFinal(section);
+}
+
+function matrixFinal(section: Section): FinalInfo | null {
   const lec = section.meetings.find(m => m.type === "LE");
   if (!lec) return null;
   const { days, start: s } = lec;
