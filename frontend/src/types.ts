@@ -19,6 +19,17 @@ export interface Section {
   // TSS booking page for this section. Optional because plans saved
   // before it existed were persisted without it.
   bookUrl?: string | null;
+  // Final exam as TSS schedules it (a meeting's "Final Examination" Sched
+  // line). Optional because plans saved before it existed were persisted
+  // without it; computeFinal falls back to the finals matrix then.
+  final?: SectionFinal | null;
+}
+
+export interface SectionFinal {
+  date: string; // ISO YYYY-MM-DD
+  start: number;
+  end: number;
+  room: string | null;
 }
 
 export interface Course {
