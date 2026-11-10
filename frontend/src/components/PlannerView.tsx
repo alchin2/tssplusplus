@@ -3,8 +3,8 @@ import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import type { DayHeaderContentArg, EventClickArg, EventContentArg } from "@fullcalendar/core";
 import { useTerm } from "../hooks/useTerm";
-import { finalsWeekISO } from "../lib/academicCalendar";
-import { fmt, fmtRange, splitRoom } from "../lib/schedule";
+import { finalsSpanISO } from "../lib/academicCalendar";
+import { ESTIMATED_FINAL_NOTE, fmt, fmtRange, splitRoom } from "../lib/schedule";
 import {
   REG_INITIAL_DATE,
   buildFinalsEvents, buildRegularEvents,
@@ -21,7 +21,8 @@ function renderEvent(arg: EventContentArg) {
   const loc = splitRoom(p.room);
   const where = loc.room ? `${loc.building} ${loc.room}` : loc.building;
   return (
-    <div className="relative h-full overflow-hidden px-1.5 py-1 leading-tight text-white" style={{ fontSize: "0.769rem" }}>
+    <div className="relative h-full overflow-hidden px-1.5 py-1 leading-tight text-white" style={{ fontSize: "0.769rem" }}
+      title={p.estimated ? ESTIMATED_FINAL_NOTE : undefined}>
       <div className="flex items-baseline justify-between gap-1" style={{ fontSize: "0.692rem" }}>
         <span className="planner-ev-time opacity-90 whitespace-nowrap">{fmtRange(p.startH, p.endH)}</span>
         <span className="planner-ev-status font-bold whitespace-nowrap ml-auto" style={{ color: p.conflict ? "#ffd6d6" : "#fff" }}>
@@ -29,7 +30,7 @@ function renderEvent(arg: EventContentArg) {
         </span>
       </div>
       <div className="font-bold truncate" style={{ fontSize: "0.846rem" }}>{p.code}</div>
-      {hours >= 0.8 && <div className="truncate opacity-95">{p.type} / {where}</div>}
+      {hours >= 0.8 && <div className="truncate opacity-95">{p.type}{p.estimated && " (Est.)"} / {where}</div>}
       {hours >= 1.4 && <div className="truncate opacity-85">{p.instructor}</div>}
     </div>
   );
@@ -87,8 +88,11 @@ export function PlannerView({ mode, items, onSelectCourse }: {
         // initialDate only applies on mount, so a new term's finals week remounts.
         key={finalsMode ? `fin:${term}` : "reg"}
         plugins={[timeGridPlugin]}
-        initialView="timeGridWeek"
-        initialDate={finalsMode ? finalsWeekISO(term)[0] : REG_INITIAL_DATE}
+        // Finals run Saturday to Saturday (see finalsSpanISO), one day more
+        // than a week view holds.
+        views={{ finalsSpan: { type: "timeGrid", duration: { days: 8 } } }}
+        initialView={finalsMode ? "finalsSpan" : "timeGridWeek"}
+        initialDate={finalsMode ? finalsSpanISO(term)[0] : REG_INITIAL_DATE}
         headerToolbar={false}
         firstDay={1}
         allDaySlot={false}

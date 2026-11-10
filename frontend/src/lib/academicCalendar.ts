@@ -8,7 +8,7 @@
 export interface TermDates {
   instructionStart: string; // ISO date, first day of instruction
   instructionEnd: string; // ISO date, last day of instruction
-  finalsMonday: string; // ISO date, Monday of finals week (FinalInfo.colIdx 0)
+  finalsMonday: string; // ISO date, Monday of finals week (finals-matrix colIdx 0)
   holidays: string[]; // ISO dates with no instruction, within [instructionStart, instructionEnd]
 }
 
@@ -211,11 +211,19 @@ const FINALS_FALLBACK = [
   "2025-06-12", "2025-06-13", "2025-06-14",
 ];
 
-// ISO dates for finals week, indexed by FinalInfo.colIdx (0 = Monday of finals
+// ISO dates for finals week, indexed by the finals matrix's colIdx (0 = Monday of finals
 // week ... 5 = Saturday), derived from the selected term's finalsMonday (see
 // termDates). Falls back to the fixed reference week once no term applies.
 export function finalsWeekISO(term?: string | null, today: string = todayISO()): string[] {
   const cal = termDates(term, today);
   if (!cal) return FINALS_FALLBACK;
   return Array.from({ length: 6 }, (_, i) => addDaysISO(cal.finalsMonday, i));
+}
+
+// The days the Finals tab shows: TSS also schedules finals on the Saturday
+// (and rarely the Sunday) before finals Monday, so the span runs from that
+// Saturday through finals week's Saturday.
+export function finalsSpanISO(term?: string | null, today: string = todayISO()): string[] {
+  const monday = finalsWeekISO(term, today)[0];
+  return Array.from({ length: 8 }, (_, i) => addDaysISO(monday, i - 2));
 }

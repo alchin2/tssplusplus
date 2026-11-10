@@ -72,7 +72,7 @@ export default function App() {
   }), [courses, divFilter]);
 
   const conflictIds = useMemo(() => conflictingCourseIds(plannedItems), [plannedItems]);
-  const pairs = useMemo(() => conflictPairs(plannedItems), [plannedItems]);
+  const pairs = useMemo(() => conflictPairs(plannedItems, term), [plannedItems, term]);
 
   // Schedule rows and calendar blocks carry a courseId; open that course's
   // drawer above the schedule and scroll to it.

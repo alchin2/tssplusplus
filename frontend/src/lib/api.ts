@@ -3,7 +3,7 @@
 // Course/Section/Meeting types so the planner's conflict/finals logic
 // keeps working unchanged.
 
-import type { Course, CourseDetail, DayCode, Meeting, PrereqNode, Section } from "../types";
+import type { Course, CourseDetail, DayCode, Meeting, PrereqNode, Section, SectionFinal } from "../types";
 
 // Set VITE_API_URL to the deployed backend origin in Vercel, without a
 // trailing slash or /api suffix. Local development keeps the Vite-relative
@@ -193,14 +193,20 @@ function toSection(dto: SectionDto): Section {
   const instructor = (lecture ?? dto.meetings.find(m => m.instructor_name))?.instructor_name ?? "STAFF";
   const enrolled =
     dto.limit !== null && dto.seats_available !== null ? Math.max(0, dto.limit - dto.seats_available) : null;
+  const parsed = dto.meetings.map(m => ({ dto: m, sched: parseSched(m.sched) }));
+  // The final usually rides on the lecture's Sched, but some sections
+  // carry it on another meeting (e.g. POLI 170A's only meeting is an LA).
+  const withFinal = parsed.filter(p => p.sched.final);
+  const final = (withFinal.find(p => p.dto.teaching_method === "LE") ?? withFinal[0])?.sched.final ?? null;
   return {
     id: dto.section_code ?? dto.event_pkg_objid ?? dto.section_label ?? "?",
     instructor,
-    meetings: dto.meetings.map(toMeeting),
+    meetings: parsed.map(p => toMeeting(p.dto, p.sched)),
     enrolled,
     capacity: dto.limit,
     waitlist: dto.num_on_waitlist,
     bookUrl: dto.book_url,
+    final,
   };
 }
 
@@ -213,8 +219,7 @@ function toPrereqNode(dto: PrereqGraphNodeDto): PrereqNode {
   };
 }
 
-function toMeeting(dto: MeetingDto): Meeting {
-  const sched = parseSched(dto.sched);
+function toMeeting(dto: MeetingDto, sched: ParsedSched): Meeting {
   return {
     type: dto.teaching_method ?? "??",
     days: sched.days,
@@ -225,12 +230,14 @@ function toMeeting(dto: MeetingDto): Meeting {
 }
 
 // ─── Sched-string parser ─────────────────────────────────────────────────────
-// TS port of scrapers/tss_scraper/tools/events_parser.py for the meeting
-// line, e.g. "M, W, F 08:00 AM - 08:50 AM In Person @ Peterson Hall Room 110".
+// TS port of scrapers/tss_scraper/tools/events_parser.py, e.g.
+//   "M, W, F 08:00 AM - 08:50 AM In Person @ Peterson Hall Room 110
+//    Final Examination 12/07/2026 08:00 AM - 10:59 AM In Person @ Peterson Hall Room 110"
 // Times become decimal hours (8.833 = 8:50) to match lib/schedule.ts.
 
 const DAY_TOKEN_RE = /Su|Tu|Th|Sa|M|W|F/g;
 const TIME_RE = /\d{1,2}:\d{2}\s*[AP]M/;
+const DATE_RE = /(\d{1,2})\/(\d{1,2})\/(\d{4})/;
 const TAIL_RE = /(\d{1,2}:\d{2})\s*([AP]M)\s*-\s*(\d{1,2}:\d{2})\s*([AP]M)\s+[A-Za-z ]+?(?:\s*@\s*(.+))?$/;
 
 function toDecimalHours(hhmm: string, ampm: string): number {
@@ -245,27 +252,53 @@ interface ParsedSched {
   start: number;
   end: number;
   location: string | null;
+  final: SectionFinal | null;
+}
+
+// The "<start> - <end> <modality> [@ <location>]" tail shared by a
+// meeting line and a final exam line.
+function parseTail(text: string): { start: number; end: number; location: string | null } | null {
+  const tail = TAIL_RE.exec(text);
+  if (!tail) return null;
+  return {
+    start: toDecimalHours(tail[1], tail[2]),
+    end: toDecimalHours(tail[3], tail[4]),
+    location: tail[5]?.trim() || null,
+  };
+}
+
+function parseFinalLine(line: string): SectionFinal | null {
+  const dateMatch = DATE_RE.exec(line);
+  if (!dateMatch) return null;
+  const tail = parseTail(line.slice(dateMatch.index + dateMatch[0].length).trim());
+  if (!tail) return null;
+  const [, m, d, y] = dateMatch;
+  return {
+    date: `${y}-${m.padStart(2, "0")}-${d.padStart(2, "0")}`,
+    start: tail.start,
+    end: tail.end,
+    room: tail.location,
+  };
 }
 
 export function parseSched(sched: string | null): ParsedSched {
-  const empty: ParsedSched = { days: [], start: 0, end: 0, location: null };
-  const firstLine = (sched ?? "").split("\n")[0].trim();
+  const empty: ParsedSched = { days: [], start: 0, end: 0, location: null, final: null };
+  const lines = (sched ?? "").split("\n").map(l => l.trim()).filter(Boolean);
+  const finalLine = lines.slice(1).find(l => l.toLowerCase().startsWith("final examination"));
+  const final = finalLine ? parseFinalLine(finalLine) : null;
+
+  const firstLine = lines[0];
   if (!firstLine) return empty;
 
   const timeMatch = TIME_RE.exec(firstLine);
-  if (!timeMatch) return empty;
+  if (!timeMatch) return { ...empty, final };
 
-  const tail = TAIL_RE.exec(firstLine.slice(timeMatch.index));
-  if (!tail) return empty;
+  const tail = parseTail(firstLine.slice(timeMatch.index));
+  if (!tail) return { ...empty, final };
 
   const daysStr = firstLine.slice(0, timeMatch.index).replace(/[,\s]/g, "");
   const dayTokens: string[] = daysStr.match(DAY_TOKEN_RE) ?? [];
   const days = dayTokens.filter((d): d is DayCode => ["M", "Tu", "W", "Th", "F", "Sa", "Su"].includes(d));
 
-  return {
-    days,
-    start: toDecimalHours(tail[1], tail[2]),
-    end: toDecimalHours(tail[3], tail[4]),
-    location: tail[5]?.trim() ?? null,
-  };
+  return { days, ...tail, final };
 }

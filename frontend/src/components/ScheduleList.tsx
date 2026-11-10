@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import { useBuildings } from "../hooks/useBuildings";
 import { useTerm } from "../hooks/useTerm";
+import { EstimatedFinalTag, EstimatedFinalsNote } from "./EstimatedFinal";
 import { ScrollX } from "./ScrollX";
 import { computeFinal, finalDateShort, fmtRange, splitRoom } from "../lib/schedule";
 import type { PlannedItem } from "../types";
@@ -57,8 +58,8 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
               const conflict = conflictIds.has(course.id);
               const selected = course.id === selectedCourseId;
               const rowClass = conflict ? "is-conflict" : selected ? "is-selected" : ci % 2 === 1 ? "is-stripe" : "";
-              const fi = computeFinal(section);
-              const lecRoom = section.meetings.find(m => m.type === "LE")?.room;
+              const fi = computeFinal(section, term);
+              const finalRoom = fi?.room ?? section.meetings.find(m => m.type === "LE")?.room;
               const meetings = section.meetings.length > 0 ? section.meetings : null;
               const span = (meetings?.length ?? 1) + (fi ? 1 : 0);
 
@@ -113,15 +114,15 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
               });
 
               if (fi) {
-                const loc = lecRoom ? splitRoom(lecRoom) : { building: "TBA", room: "" };
+                const loc = finalRoom ? splitRoom(finalRoom) : { building: "TBA", room: "" };
                 rows.push(
                   <tr key={`${course.id}-final`} className={`${rowClass} wr-final`}>
                     <td className="is-left wr-final-label">Final Exam</td>
                     <td><span className="wr-type is-FI">FI</span></td>
                     <td />
-                    <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
+                    <td className="is-nowrap">{finalDateShort(fi.date)}{fi.estimated && <EstimatedFinalTag />}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
-                    <td className="is-nowrap" title={loc.building}>{lecRoom ? abbr(loc.building) : "TBA"}</td>
+                    <td className="is-nowrap" title={loc.building}>{finalRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>
                   </tr>,
                 );
@@ -133,8 +134,11 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
       </ScrollX>
       <p className="wr-help px-3 py-2" style={{ borderTop: "1px solid var(--wr-rule-soft)" }}>
         {items.length} class{items.length !== 1 ? "es" : ""} planned · {totalHrs.toFixed(1)} class hours per week · {buildingCount} building{buildingCount !== 1 ? "s" : ""}.
-        Final exam times follow the campus finals matrix for the lecture's meeting pattern; confirm them in TSS.
+        Final exams are as scheduled in TSS.
       </p>
+      {items.some(({ section }) => computeFinal(section, term)?.estimated) && (
+        <EstimatedFinalsNote className="px-3 pb-2" />
+      )}
     </div>
   );
 }
