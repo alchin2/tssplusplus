@@ -57,7 +57,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
               const conflict = conflictIds.has(course.id);
               const selected = course.id === selectedCourseId;
               const rowClass = conflict ? "is-conflict" : selected ? "is-selected" : ci % 2 === 1 ? "is-stripe" : "";
-              const fi = computeFinal(section);
+              const fi = computeFinal(section, term);
               const finalRoom = fi?.room ?? section.meetings.find(m => m.type === "LE")?.room;
               const meetings = section.meetings.length > 0 ? section.meetings : null;
               const span = (meetings?.length ?? 1) + (fi ? 1 : 0);
@@ -119,7 +119,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
                     <td className="is-left wr-final-label">Final Exam</td>
                     <td><span className="wr-type is-FI">FI</span></td>
                     <td />
-                    <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
+                    <td className="is-nowrap">{finalDateShort(fi.date)}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
                     <td className="is-nowrap" title={loc.building}>{finalRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>

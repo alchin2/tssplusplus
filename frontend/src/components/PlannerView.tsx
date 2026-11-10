@@ -3,7 +3,7 @@ import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import type { DayHeaderContentArg, EventClickArg, EventContentArg } from "@fullcalendar/core";
 import { useTerm } from "../hooks/useTerm";
-import { finalsWeekISO } from "../lib/academicCalendar";
+import { finalsSpanISO } from "../lib/academicCalendar";
 import { fmt, fmtRange, splitRoom } from "../lib/schedule";
 import {
   REG_INITIAL_DATE,
@@ -87,8 +87,11 @@ export function PlannerView({ mode, items, onSelectCourse }: {
         // initialDate only applies on mount, so a new term's finals week remounts.
         key={finalsMode ? `fin:${term}` : "reg"}
         plugins={[timeGridPlugin]}
-        initialView="timeGridWeek"
-        initialDate={finalsMode ? finalsWeekISO(term)[0] : REG_INITIAL_DATE}
+        // Finals run Saturday to Saturday (see finalsSpanISO), one day more
+        // than a week view holds.
+        views={{ finalsSpan: { type: "timeGrid", duration: { days: 8 } } }}
+        initialView={finalsMode ? "finalsSpan" : "timeGridWeek"}
+        initialDate={finalsMode ? finalsSpanISO(term)[0] : REG_INITIAL_DATE}
         headerToolbar={false}
         firstDay={1}
         allDaySlot={false}

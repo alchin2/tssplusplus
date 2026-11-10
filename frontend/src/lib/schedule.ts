@@ -1,5 +1,5 @@
 import type { DayCode, PlannedItem, Section } from "../types";
-import { finalsWeekISO } from "./academicCalendar";
+import { finalsSpanISO, finalsWeekISO } from "./academicCalendar";
 
 export function fmt(h: number): string {
   const hr = Math.floor(h), min = Math.round((h - hr) * 60);
@@ -42,14 +42,14 @@ export function conflictsWith(s: Section, items: PlannedItem[]): boolean {
 // in planner order -- the list WebReg prints in its conflict notice.
 export interface ConflictPair { a: string; b: string; final: boolean }
 
-export function conflictPairs(items: PlannedItem[]): ConflictPair[] {
+export function conflictPairs(items: PlannedItem[], term?: string | null): ConflictPair[] {
   const out: ConflictPair[] = [];
   for (let i = 0; i < items.length; i++) {
     for (let j = i + 1; j < items.length; j++) {
       const A = items[i], B = items[j];
       if (conflictsWith(A.section, [B])) out.push({ a: A.course.code, b: B.course.code, final: false });
-      const fa = computeFinal(A.section), fb = computeFinal(B.section);
-      if (fa && fb && fa.colIdx === fb.colIdx && fa.startH < fb.endH && fb.startH < fa.endH) {
+      const fa = computeFinal(A.section, term), fb = computeFinal(B.section, term);
+      if (fa && fb && fa.date === fb.date && fa.startH < fb.endH && fb.startH < fa.endH) {
         out.push({ a: A.course.code, b: B.course.code, final: true });
       }
     }
@@ -58,27 +58,27 @@ export function conflictPairs(items: PlannedItem[]): ConflictPair[] {
 }
 
 // ─── Finals ─────────────────────────────────────────────────────────────────
-// A section's final slot comes from TSS's scheduled final (Section.final)
-// when there is one. Otherwise it's derived from its lecture's meeting
-// pattern (MWF vs TuTh) and start time, mirroring the campus finals matrix.
-// `colIdx` is the finals-week column (0 = Monday of finals week … 5 =
-// Saturday); the concrete dates come from the selected term (see
-// finalsWeekISO in academicCalendar.ts), so only the column index is stored
-// here. `room` is TSS's exam room, when it gives one.
+// A section's final is TSS's scheduled final (Section.final) when there is
+// one. Otherwise it's guessed from its lecture's meeting pattern (MWF vs
+// TuTh) and start time, mirroring the campus finals matrix, and flagged
+// `estimated` so the UI can say so. `date` is the exam's ISO date; `room` is
+// TSS's exam room, when it gives one.
 
-export interface FinalInfo { colIdx: number; startH: number; endH: number; room?: string | null; }
+export interface FinalInfo { date: string; startH: number; endH: number; room?: string | null; estimated: boolean; }
 
-export function computeFinal(section: Section): FinalInfo | null {
+export function computeFinal(section: Section, term?: string | null): FinalInfo | null {
   const f = section.final;
-  if (f) {
-    // getUTCDay: 1 = Monday … 6 = Saturday; a Sunday final has no column.
-    const day = new Date(f.date + "T00:00:00Z").getUTCDay();
-    if (day >= 1 && day <= 6) return { colIdx: day - 1, startH: f.start, endH: f.end, room: f.room };
-  }
-  return matrixFinal(section);
+  if (f) return { date: f.date, startH: f.start, endH: f.end, room: f.room, estimated: false };
+  const m = matrixFinal(section);
+  return m && { date: finalsWeekISO(term)[m.colIdx], startH: m.startH, endH: m.endH, estimated: true };
 }
 
-function matrixFinal(section: Section): FinalInfo | null {
+// `colIdx` is the finals-week column (0 = Monday of finals week … 5 =
+// Saturday), resolved to a date against the selected term (see finalsWeekISO
+// in academicCalendar.ts).
+interface MatrixFinal { colIdx: number; startH: number; endH: number; }
+
+function matrixFinal(section: Section): MatrixFinal | null {
   const lec = section.meetings.find(m => m.type === "LE");
   if (!lec) return null;
   const { days, start: s } = lec;
@@ -105,17 +105,16 @@ function matrixFinal(section: Section): FinalInfo | null {
 const UTC = { timeZone: "UTC" } as const;
 const asDate = (iso: string) => new Date(iso + "T00:00:00Z");
 
-// Human label for a final's day (e.g. "Mon Dec 8"), read from the selected
-// term's finals week -- or the fixed fallback week when the term isn't known.
-export function finalDateLabel(colIdx: number, term?: string | null): string {
-  return asDate(finalsWeekISO(term)[colIdx])
+// Human label for a final's day (e.g. "Mon Dec 8").
+export function finalDateLabel(iso: string): string {
+  return asDate(iso)
     .toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", ...UTC })
     .replace(",", "");
 }
 
 // WebReg-style numeric date for a final's day, e.g. "Sa 12/13/2026".
-export function finalDateShort(colIdx: number, term?: string | null): string {
-  const d = asDate(finalsWeekISO(term)[colIdx]);
+export function finalDateShort(iso: string): string {
+  const d = asDate(iso);
   const wd = d.toLocaleDateString("en-US", { weekday: "short", ...UTC });
   const code = wd === "Tue" ? "Tu" : wd === "Thu" ? "Th" : wd === "Sat" ? "Sa" : wd === "Sun" ? "Su" : wd[0];
   const mm = String(d.getUTCMonth() + 1).padStart(2, "0");
@@ -123,9 +122,9 @@ export function finalDateShort(colIdx: number, term?: string | null): string {
   return `${code} ${mm}/${dd}/${d.getUTCFullYear()}`;
 }
 
-// Range label for the whole finals week (e.g. "Dec 8–13, 2026"), for headings.
+// Range label for the days the Finals tab shows (e.g. "Dec 5–12, 2026"), for headings.
 export function finalsRangeLabel(term?: string | null): string {
-  const week = finalsWeekISO(term);
+  const week = finalsSpanISO(term);
   const s = asDate(week[0]), e = asDate(week[week.length - 1]);
   const mon = (d: Date) => d.toLocaleDateString("en-US", { month: "short", ...UTC });
   const start = `${mon(s)} ${s.getUTCDate()}`;

@@ -1,6 +1,5 @@
 import type { EventInput } from "@fullcalendar/core";
 import { computeFinal, conflictsWith } from "./schedule";
-import { finalsWeekISO } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
 
 // FullCalendar renders concrete dates, so meetings are pinned onto reference
@@ -92,19 +91,17 @@ export function buildRegularEvents(items: PlannedItem[]): EventInput[] {
 }
 
 export function buildFinalsEvents(items: PlannedItem[], term: string | null): EventInput[] {
-  // Index = FinalInfo.colIdx (0 = Monday of finals week … 5 = Saturday).
-  const finalsWeek = finalsWeekISO(term);
   const events: EventInput[] = [];
-  const finals = items.map(it => ({ it, fi: computeFinal(it.section) }));
+  const finals = items.map(it => ({ it, fi: computeFinal(it.section, term) }));
   for (const { it: { course, section }, fi } of finals) {
     if (!fi) continue;
     const room = fi.room ?? section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
     const conflict = finals.some(o =>
-      o.fi && o.it.course.id !== course.id && o.fi.colIdx === fi.colIdx && fi.startH < o.fi.endH && o.fi.startH < fi.endH);
+      o.fi && o.it.course.id !== course.id && o.fi.date === fi.date && fi.startH < o.fi.endH && o.fi.startH < fi.endH);
     events.push({
       id: `${course.id}:${section.id}:final`,
-      start: `${finalsWeek[fi.colIdx]}T${toHMS(fi.startH)}`,
-      end: `${finalsWeek[fi.colIdx]}T${toHMS(fi.endH)}`,
+      start: `${fi.date}T${toHMS(fi.startH)}`,
+      end: `${fi.date}T${toHMS(fi.endH)}`,
       backgroundColor: course.color,
       borderColor: "transparent",
       extendedProps: {

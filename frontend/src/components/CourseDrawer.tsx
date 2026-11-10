@@ -150,7 +150,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
             {detail.sections.map((sec, si) => {
               const isPlanned = plannedSection?.id === sec.id;
               const conflict = !isPlanned && conflictsWith(sec, otherItems);
-              const fi = computeFinal(sec);
+              const fi = computeFinal(sec, term);
               const meetings = sec.meetings.length > 0 ? sec.meetings : [null];
               const span = meetings.length + (fi ? 1 : 0);
               const rowClass = isPlanned ? "is-planned" : si % 2 === 1 ? "is-stripe" : "";
@@ -204,7 +204,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
                 rows.push(
                   <tr key={`${sec.id}-final`} className={`${rowClass} wr-final`}>
                     <td><span className="wr-type is-FI">FINAL</span></td>
-                    <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
+                    <td className="is-nowrap">{finalDateShort(fi.date)}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
                     <td className="is-nowrap" title={loc.building}>{finalRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>

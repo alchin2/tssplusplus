@@ -1,6 +1,6 @@
 import { computeFinal } from "./schedule";
 import { REG_WEEK } from "./plannerEvents";
-import { finalsWeekISO, termDates } from "./academicCalendar";
+import { termDates } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
 
 const TZID = "America/Los_Angeles";
@@ -120,15 +120,14 @@ export function buildICS(items: PlannedItem[], term: string | null): string {
       push("END:VEVENT");
     });
 
-    const fi = computeFinal(section);
+    const fi = computeFinal(section, term);
     if (fi) {
       const room = fi.room ?? section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
-      const finalIso = cal ? toISO(addDays(parseISO(cal.finalsMonday), fi.colIdx)) : finalsWeekISO(term)[fi.colIdx];
       push("BEGIN:VEVENT");
       push(`UID:${course.id}-${section.id}-final@tssplusplus`);
       push(`DTSTAMP:${stamp}`);
-      push(`DTSTART;TZID=${TZID}:${icsDate(finalIso)}T${icsTime(fi.startH)}`);
-      push(`DTEND;TZID=${TZID}:${icsDate(finalIso)}T${icsTime(fi.endH)}`);
+      push(`DTSTART;TZID=${TZID}:${icsDate(fi.date)}T${icsTime(fi.startH)}`);
+      push(`DTEND;TZID=${TZID}:${icsDate(fi.date)}T${icsTime(fi.endH)}`);
       push(`SUMMARY:${esc(`${course.code} FINAL`)}`);
       push(`LOCATION:${esc(room)}`);
       push("STATUS:CONFIRMED");
