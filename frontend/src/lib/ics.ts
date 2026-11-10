@@ -122,7 +122,7 @@ export function buildICS(items: PlannedItem[], term: string | null): string {
 
     const fi = computeFinal(section);
     if (fi) {
-      const room = section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
+      const room = fi.room ?? section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
       const finalIso = cal ? toISO(addDays(parseISO(cal.finalsMonday), fi.colIdx)) : finalsWeekISO(term)[fi.colIdx];
       push("BEGIN:VEVENT");
       push(`UID:${course.id}-${section.id}-final@tssplusplus`);

@@ -154,7 +154,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
               const meetings = sec.meetings.length > 0 ? sec.meetings : [null];
               const span = meetings.length + (fi ? 1 : 0);
               const rowClass = isPlanned ? "is-planned" : si % 2 === 1 ? "is-stripe" : "";
-              const lecRoom = sec.meetings.find(m => m.type === "LE")?.room;
+              const finalRoom = fi?.room ?? sec.meetings.find(m => m.type === "LE")?.room;
 
               const rows = meetings.map((m, i) => {
                 const loc = m ? splitRoom(m.room) : { building: "TBA", room: "" };
@@ -200,13 +200,13 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
               });
 
               if (fi) {
-                const loc = lecRoom ? splitRoom(lecRoom) : { building: "TBA", room: "" };
+                const loc = finalRoom ? splitRoom(finalRoom) : { building: "TBA", room: "" };
                 rows.push(
                   <tr key={`${sec.id}-final`} className={`${rowClass} wr-final`}>
                     <td><span className="wr-type is-FI">FINAL</span></td>
                     <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
-                    <td className="is-nowrap" title={loc.building}>{lecRoom ? abbr(loc.building) : "TBA"}</td>
+                    <td className="is-nowrap" title={loc.building}>{finalRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>
                   </tr>,
                 );

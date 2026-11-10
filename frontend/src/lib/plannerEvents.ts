@@ -98,7 +98,7 @@ export function buildFinalsEvents(items: PlannedItem[], term: string | null): Ev
   const finals = items.map(it => ({ it, fi: computeFinal(it.section) }));
   for (const { it: { course, section }, fi } of finals) {
     if (!fi) continue;
-    const room = section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
+    const room = fi.room ?? section.meetings.find(m => m.type === "LE")?.room ?? "TBD";
     const conflict = finals.some(o =>
       o.fi && o.it.course.id !== course.id && o.fi.colIdx === fi.colIdx && fi.startH < o.fi.endH && o.fi.startH < fi.endH);
     events.push({

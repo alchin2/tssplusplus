@@ -58,7 +58,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
               const selected = course.id === selectedCourseId;
               const rowClass = conflict ? "is-conflict" : selected ? "is-selected" : ci % 2 === 1 ? "is-stripe" : "";
               const fi = computeFinal(section);
-              const lecRoom = section.meetings.find(m => m.type === "LE")?.room;
+              const finalRoom = fi?.room ?? section.meetings.find(m => m.type === "LE")?.room;
               const meetings = section.meetings.length > 0 ? section.meetings : null;
               const span = (meetings?.length ?? 1) + (fi ? 1 : 0);
 
@@ -113,7 +113,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
               });
 
               if (fi) {
-                const loc = lecRoom ? splitRoom(lecRoom) : { building: "TBA", room: "" };
+                const loc = finalRoom ? splitRoom(finalRoom) : { building: "TBA", room: "" };
                 rows.push(
                   <tr key={`${course.id}-final`} className={`${rowClass} wr-final`}>
                     <td className="is-left wr-final-label">Final Exam</td>
@@ -121,7 +121,7 @@ export function ScheduleList({ items, conflictIds, selectedCourseId, onRemove, o
                     <td />
                     <td className="is-nowrap">{finalDateShort(fi.colIdx, term)}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
-                    <td className="is-nowrap" title={loc.building}>{lecRoom ? abbr(loc.building) : "TBA"}</td>
+                    <td className="is-nowrap" title={loc.building}>{finalRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>
                   </tr>,
                 );
