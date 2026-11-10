@@ -5,6 +5,7 @@ import { useTerm } from "../hooks/useTerm";
 import { ApiError, fetchCourseDetail } from "../lib/api";
 import { computeFinal, conflictsWith, finalDateShort, fmtRange, splitRoom } from "../lib/schedule";
 import type { Course, CourseDetail, PlannedItem, Section } from "../types";
+import { EstimatedFinalTag, EstimatedFinalsNote } from "./EstimatedFinal";
 import { PrereqGraph } from "./PrereqGraph";
 import { ScrollX } from "./ScrollX";
 
@@ -204,7 +205,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
                 rows.push(
                   <tr key={`${sec.id}-final`} className={`${rowClass} wr-final`}>
                     <td><span className="wr-type is-FI">FINAL</span></td>
-                    <td className="is-nowrap">{finalDateShort(fi.date)}</td>
+                    <td className="is-nowrap">{finalDateShort(fi.date)}{fi.estimated && <EstimatedFinalTag />}</td>
                     <td className="is-nowrap">{fmtRange(fi.startH, fi.endH)}</td>
                     <td className="is-nowrap" title={loc.building}>{finalRoom ? abbr(loc.building) : "TBA"}</td>
                     <td className="is-nowrap">{loc.room || <span className="is-muted">TBA</span>}</td>
@@ -216,6 +217,7 @@ function DrawerDetail({ course, moduleId, plannedItems, onAdd, onRemove }: {
           </tbody>
         </table>
       </ScrollX>
+      {detail.sections.some(sec => computeFinal(sec, term)?.estimated) && <EstimatedFinalsNote className="mt-1.5" />}
 
       {showDesc && detail.description && (
         <p className="mt-3 text-[0.923rem] leading-relaxed" style={{ color: "var(--wr-text-soft)", maxWidth: "78ch" }}>

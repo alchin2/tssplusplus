@@ -38,6 +38,8 @@ export interface PlannerEventProps {
   startH: number;
   endH: number;
   conflict: boolean;
+  // A final guessed from the finals matrix rather than listed in TSS.
+  estimated?: boolean;
 }
 
 // conflictsWith compares a section against every item's meetings, including
@@ -114,6 +116,7 @@ export function buildFinalsEvents(items: PlannedItem[], term: string | null): Ev
         startH: fi.startH,
         endH: fi.endH,
         conflict,
+        estimated: fi.estimated,
       } satisfies PlannerEventProps,
     });
   }

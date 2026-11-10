@@ -66,6 +66,10 @@ export function conflictPairs(items: PlannedItem[], term?: string | null): Confl
 
 export interface FinalInfo { date: string; startH: number; endH: number; room?: string | null; estimated: boolean; }
 
+// Shown wherever an estimated final appears.
+export const ESTIMATED_FINAL_NOTE =
+  "TSS doesn't list a final for this section, so this time is estimated from the campus finals schedule and may be wrong. Confirm it with your instructor.";
+
 export function computeFinal(section: Section, term?: string | null): FinalInfo | null {
   const f = section.final;
   if (f) return { date: f.date, startH: f.start, endH: f.end, room: f.room, estimated: false };

@@ -278,6 +278,16 @@
   .wr-type.is-LA { color: #8a5a00; }
   .wr-type.is-FI { color: var(--wr-muted); }
 
+  /* A final guessed from the finals matrix rather than listed in TSS. */
+  .wr-est {
+    display: inline-block; margin-left: 0.35rem; padding: 0 0.3rem;
+    font-size: 0.769rem; font-weight: 700; line-height: 1.35;
+    color: var(--wr-warn); background: var(--wr-warn-bg);
+    border: 1px solid var(--wr-warn-border); border-radius: 2px;
+    cursor: help;
+  }
+  .wr-help .wr-est { margin-left: 0; margin-right: 0.2rem; }
+
   /* ── Search results: drawers ────────────────────────────────────────── */
   .wr-panel {
     border: 1px solid var(--wr-rule);

@@ -2,7 +2,8 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { useTerm } from "../hooks/useTerm";
 import { downloadICS } from "../lib/ics";
-import { finalsRangeLabel } from "../lib/schedule";
+import { computeFinal, finalsRangeLabel } from "../lib/schedule";
+import { EstimatedFinalsNote } from "./EstimatedFinal";
 import { MapView } from "./MapView";
 import { PlannerView } from "./PlannerView";
 import { ScheduleList } from "./ScheduleList";
@@ -83,6 +84,9 @@ export function ScheduleTabs({ tab, onTab, items, conflictIds, selectedCourseId,
         )}
         {tab === "finals" && (
           <PlannerView mode="finals" items={items} onSelectCourse={onSelectCourse} />
+        )}
+        {tab === "finals" && items.some(({ section }) => computeFinal(section, term)?.estimated) && (
+          <EstimatedFinalsNote className="px-3 py-2" />
         )}
         {mapVisited && (
           <div style={{ display: tab === "map" ? "block" : "none", height: "40rem" }}>

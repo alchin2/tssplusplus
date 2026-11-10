@@ -1,4 +1,4 @@
-import { computeFinal } from "./schedule";
+import { ESTIMATED_FINAL_NOTE, computeFinal } from "./schedule";
 import { REG_WEEK } from "./plannerEvents";
 import { termDates } from "./academicCalendar";
 import type { DayCode, PlannedItem } from "../types";
@@ -128,8 +128,9 @@ export function buildICS(items: PlannedItem[], term: string | null): string {
       push(`DTSTAMP:${stamp}`);
       push(`DTSTART;TZID=${TZID}:${icsDate(fi.date)}T${icsTime(fi.startH)}`);
       push(`DTEND;TZID=${TZID}:${icsDate(fi.date)}T${icsTime(fi.endH)}`);
-      push(`SUMMARY:${esc(`${course.code} FINAL`)}`);
+      push(`SUMMARY:${esc(`${course.code} FINAL${fi.estimated ? " (estimated)" : ""}`)}`);
       push(`LOCATION:${esc(room)}`);
+      if (fi.estimated) push(`DESCRIPTION:${esc(ESTIMATED_FINAL_NOTE)}`);
       push("STATUS:CONFIRMED");
       push("END:VEVENT");
     }
