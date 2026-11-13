@@ -6,7 +6,7 @@
 
 **A faster, more visual way to browse UCSD courses and plan your quarter.**
 
-**1100+ users · 5,700+ courses indexed · accurate quarter data**
+**1,100+ users · 5,700+ courses indexed · accurate quarter data**
 
 Course search · prerequisite graphs · schedule planner · campus routing · `.ics` export
 
