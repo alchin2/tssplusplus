@@ -12,7 +12,9 @@ omitted, they use the default term. A term with no servable data 404s.
 - `GET /api/courses?term=fa26&dept=CSE&offered=true&q=<query>` --
   search/filter, returns a lightweight course list (code, name, dept,
   offered_this_qtr). "Offered" and `module_id` come from the term's
-  `data/offered/<term>.csv`, not a flag stored in the catalog.
+  `data/offered/<term>.csv`, not a flag stored in the catalog. `q` matches
+  the course code, title, or an instructor's name (read from the term's
+  Mongo sections, cached for 10 minutes).
 - `GET /api/courses/{module_id}?term=fa26` -- full detail: catalog fields
   (prereqs) joined via `data/offered/<term>.csv`, plus live
   sections/meetings grouped from the `<term>` MongoDB collection.

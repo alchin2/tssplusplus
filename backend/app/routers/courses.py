@@ -5,6 +5,7 @@ from pymongo.errors import PyMongoError
 
 from app.catalog import search_courses
 from app.db import get_courses_collection
+from app.instructors import get_instructor_index
 from app.offered import get_term_course_index, get_term_courses
 from app.prereqs import build_prereq_tree
 from app.schemas import CourseDetail, CourseSummary, Meeting, PrereqGraphNode, Section
@@ -30,14 +31,16 @@ _TSS_BOOK_URL = (
 def list_courses(
     dept: str | None = Query(None, description="Department code, e.g. CSE"),
     offered: bool | None = Query(None, description="Filter to courses offered in the term"),
-    q: str | None = Query(None, description="Search term matched against course code/name"),
+    q: str | None = Query(None, description="Search term matched against course code/name and instructor"),
     term: str = Depends(selected_term),
 ):
     """GET /api/courses?term=fa26&dept=CSE&offered=true&q=<query> --
     search/filter over the term's courses (the catalog plus offered
     courses it doesn't list), returning a lightweight course list with
-    offered/module_id relative to the term."""
-    courses = search_courses(get_term_courses(term), dept=dept, offered=offered, q=q)
+    offered/module_id relative to the term. q also matches the names of
+    the term's instructors."""
+    instructors = get_instructor_index(term) if q else None
+    courses = search_courses(get_term_courses(term), dept=dept, offered=offered, q=q, instructors=instructors)
     summaries = []
     for c in courses:
         summaries.append(CourseSummary(

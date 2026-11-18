@@ -212,10 +212,13 @@ def search_courses(
     dept: str | None = None,
     offered: bool | None = None,
     q: str | None = None,
+    instructors: dict[str, str] | None = None,
 ) -> list[dict]:
     """courses: the selected term's courses (offered.get_term_courses),
     each carrying its module_id in the term -- "offered" is per term, so
-    it isn't stored on the catalog entries themselves."""
+    it isn't stored on the catalog entries themselves. instructors
+    (instructors.get_instructor_index) lets q match a course's
+    professors too."""
     if dept:
         dept_upper = dept.upper()
         courses = [c for c in courses if c["dept"] == dept_upper]
@@ -225,6 +228,12 @@ def search_courses(
 
     if q:
         needle = q.lower()
-        courses = [c for c in courses if needle in c["code"].lower() or needle in c["name"].lower()]
+        instructors = instructors or {}
+        courses = [
+            c for c in courses
+            if needle in c["code"].lower()
+            or needle in c["name"].lower()
+            or needle in instructors.get(c["module_id"], "")
+        ]
 
     return courses

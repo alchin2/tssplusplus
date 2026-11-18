@@ -87,7 +87,7 @@ export function SearchPanel({
           <div className="flex items-start gap-2">
           <div className="relative flex-1 min-w-0">
           <input id="class-search" ref={inputRef} type="search" value={query} autoComplete="off" spellCheck={false}
-            className="wr-input w-full" placeholder="CSE 100, MATH, or compilers"
+            className="wr-input w-full" placeholder="CSE 100, compilers, or a professor"
             onChange={e => onQueryChange(e.target.value)}
             onKeyDown={onKeyDown} />
           </div>
@@ -198,7 +198,7 @@ export function SearchPanel({
             {active && !error && !loading && courses.length === 0 && (
               <div className="wr-empty">
                 <p><b>No courses match.</b></p>
-                <p className="mt-1">Try a department code (CSE), a course (CSE 100), or a word from the title. Loosen the filters under Advanced search.</p>
+                <p className="mt-1">Try a department code (CSE), a course (CSE 100), a word from the title, or a professor's name. Loosen the filters under Advanced search.</p>
               </div>
             )}
 
