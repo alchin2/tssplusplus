@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 from pymongo.errors import ServerSelectionTimeoutError
 
 from app.catalog import _get_normalized_index, _subject_depts, get_catalog
+from app.instructors import clear_cache as clear_instructor_cache
 from app.main import app
 from app.offered import get_code_to_module_id_index, get_offered_index, get_term_course_index, get_term_courses
 from app.terms import available_terms
@@ -44,6 +45,7 @@ def _clear_caches():
     get_term_course_index.cache_clear()
     _subject_depts.cache_clear()
     available_terms.cache_clear()
+    clear_instructor_cache()
 
 
 @pytest.fixture
@@ -59,11 +61,21 @@ def data_dir(tmp_path):
         catalog_dir=tmp_path, offered_dir=tmp_path,
         scraped_quarters_path=tmp_path / "scraped_quarters.txt", term=None,
     )
+    # Searches read instructor names from Mongo; tests that care set
+    # fake.instructor_docs (term -> course documents).
+    fake.instructor_docs = {}
+
+    def instructor_collection(term):
+        collection = MagicMock()
+        collection.find.return_value = fake.instructor_docs.get(term, [])
+        return collection
+
     _clear_caches()
     with (
         patch("app.catalog.settings", fake),
         patch("app.offered.settings", fake),
         patch("app.terms.settings", fake),
+        patch("app.instructors.get_courses_collection", side_effect=instructor_collection),
     ):
         yield fake
     _clear_caches()
@@ -106,6 +118,26 @@ def test_list_courses_filters_by_dept(client):
 
 def test_list_courses_search_matches_name(client):
     resp = client.get("/api/courses", params={"q": "calculus"})
+
+    assert resp.status_code == 200
+    assert [c["code"] for c in resp.json()] == ["MATH 20A"]
+
+
+def test_list_courses_search_matches_instructor(data_dir, client):
+    data_dir.instructor_docs["fa26"] = [
+        {"module_id": "8401", "raw": [RAW_ROW, {**RAW_ROW, "InstructorName": "Niema Moshiri"}, {"InstructorName": ""}]},
+    ]
+
+    for q in ("moshiri", "Niema Moshiri"):
+        resp = client.get("/api/courses", params={"q": q, "term": "fa26"})
+        assert [c["code"] for c in resp.json()] == ["CSE 100"]
+    # Instructors are per term: wi27 has none scraped.
+    assert client.get("/api/courses", params={"q": "moshiri", "term": "wi27"}).json() == []
+
+
+def test_list_courses_search_skips_instructors_when_mongo_unreachable(data_dir, client):
+    with patch("app.instructors.get_courses_collection", side_effect=ServerSelectionTimeoutError("down")):
+        resp = client.get("/api/courses", params={"q": "calculus"})
 
     assert resp.status_code == 200
     assert [c["code"] for c in resp.json()] == ["MATH 20A"]
