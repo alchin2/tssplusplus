@@ -42,7 +42,7 @@ List / Calendar / Finals / Map tabs below.
 - **Term picker:** switch between every quarter that has been scraped (e.g. the
   current quarter and the next one while enrollment overlaps). Each term keeps
   its own planned schedule.
-- **Course search:** full-text search with department, "offered this quarter",
+- **Course search:** search by course, title, or professor, with department, "offered this quarter",
   and division (lower, upper, graduate) filters.
 - **Course detail:** sections, meeting times, locations, and instructors, plus
   the catalog description.
